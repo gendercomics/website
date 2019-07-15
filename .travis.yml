@@ -8,8 +8,8 @@ install:
   - SKIP_SETUP=true npm install
 
 script:
-  - npm run lint:styles
-  - npm run lint:js
+#  - npm run lint:styles
+#  - npm run lint:js
   - npm run build:dist
 
 dist: trusty
