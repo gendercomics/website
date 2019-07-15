@@ -21,7 +21,7 @@ after_success:
 - chmod 600 deploy-key
 - ssh-add deploy-key
 - cd $TRAVIS_BUILD_DIR/dist
-- scp * deploy@gendercomics.net:/var/gendercomics/web/
+- scp -r * deploy@gendercomics.net:/var/gendercomics/web/
 
 dist: trusty
 sudo: false
