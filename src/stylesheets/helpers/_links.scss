@@ -31,7 +31,7 @@
 @mixin link-style-default {
   &:link {
     color: $link-colour;
-    
+
     > * {
       pointer-events: none;
     }
@@ -132,7 +132,6 @@
   }
 }
 
-
 /// No visited state link mixin
 ///
 /// Used in cases where it is not helpful to distinguish between visited and
@@ -186,7 +185,6 @@
 
 @mixin link-print-friendly {
   @include media-query($media-type: print) {
-
     &[href^="/"],
     &[href^="http://"],
     &[href^="https://"] {

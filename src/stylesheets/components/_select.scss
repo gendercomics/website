@@ -1,15 +1,12 @@
 @import "../settings/all";
 @import "../tools/all";
 @import "../helpers/all";
-
 @import "error-message";
 @import "hint";
 @import "label";
 
 @include exports("styles/component/select") {
-  
   .select {
-
     @include font($size: 19, $line-height: 1.25);
     @include focusable;
 
@@ -32,5 +29,4 @@
   .select--error {
     border: $border-width-form-element-error solid $error-colour;
   }
-
 }

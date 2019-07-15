@@ -15,9 +15,7 @@
 //   </div>
 // </div>
 
-
 @mixin main-wrapper {
-
   @include responsive-padding(6, "top");
   @include responsive-padding(6, "bottom");
 
@@ -29,26 +27,19 @@
 
 // Use main-wrapper--l when you page does not have Breadcrumbs, phase banners or back links
 @mixin main-wrapper--l {
-
   @include responsive-padding(8, "top");
-
 }
 
 @include exports("styles/objects/main-wrapper") {
   .main-wrapper {
-
     @include main-wrapper;
-
   }
 
   .main-wrapper--l {
-
     @include main-wrapper--l;
-
   }
 
   .main-wrapper--full {
-
     @include main-wrapper--l;
 
     padding-top: 0 !important;

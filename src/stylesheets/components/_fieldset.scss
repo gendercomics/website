@@ -12,7 +12,6 @@
   }
 
   .fieldset__legend {
-
     @include font($size: 19);
 
     // Fix legend text wrapping in Edge and IE
@@ -25,37 +24,31 @@
     padding: 0;
     // Hack to let legends or elements within legends have margins in webkit browsers
     overflow: hidden;
-
     white-space: normal;    // 1
   }
 
   // Modifiers that make legends look more like their equivalent headings
 
   .fieldset__legend--xl {
-
     @include font($size: 48, $weight: bold);
 
     margin-bottom: spacing(3);
   }
 
   .fieldset__legend--l {
-
     @include font($size: 36, $weight: bold);
 
     margin-bottom: spacing(3);
   }
 
   .fieldset__legend--m {
-
     @include font($size: 24, $weight: bold);
 
     margin-bottom: spacing(3);
   }
 
   .fieldset__legend--s {
-
     @include font($size: 19, $weight: bold);
-
   }
 
   // When the legend contains an H1, we want the H1 to inherit all styles from

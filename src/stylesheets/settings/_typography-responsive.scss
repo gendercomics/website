@@ -16,11 +16,15 @@
 /// @type Boolean
 /// @access public
 
-$typography-use-rem: if((
+$typography-use-rem: if(
+  (
     $compatibility-frontendtoolkit or
     $compatibility-template or
     $compatibility-elements
-  ), false, true) !default;
+  ),
+  false,
+  true
+) !default;
 
 /// Root font size
 ///

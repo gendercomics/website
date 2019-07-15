@@ -5,6 +5,7 @@
 @include exports("styles/component/hint") {
   .hint {
     @include font($size: 16);
+
     color: $secondary-text-colour;
     display: block;
     margin-top: spacing(1);
@@ -41,7 +42,6 @@
 
   // Reduces visual spacing of legend when there is a hint
 
-  .fieldset__legend + .hint,
   .fieldset__legend + .hint {
     margin-top: -(spacing(1));
   }

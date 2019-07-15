@@ -5,6 +5,7 @@
 @include exports("styles/component/modal") {
   $modal-background: colour("black");
   $modal-content-background: colour("white");
+
   .modal {
     display: none;
     position: fixed;
@@ -25,6 +26,7 @@
     width: 90%;
 
     @include responsive-padding(4);
+
     @include mq ($from: tablet) {
       width: 50%;
     }

@@ -15,7 +15,6 @@
   @include media-query($and: "(min-width: #{($page-width + $gutter * 2)})") {
     margin: 0 auto;
   }
-
 }
 
 // Use width-container--s to wrap forms such as event creation, in main content
@@ -26,14 +25,10 @@
 
 @include exports("styles/objects/width-container") {
   .width-container {
-
     @include width-container;
-    
   }
 
   .width-container--s {
-
     @include width-container--s;
-
   }
 }

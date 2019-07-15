@@ -19,7 +19,6 @@
 /// @access public
 
 @mixin -if-ie8 {
-
   @if $-is-ie8 {
     @content;
   }
@@ -44,7 +43,6 @@
 /// @access public
 
 @mixin -not-ie8 {
-  
   @if not $-is-ie8 {
     @content;
   }

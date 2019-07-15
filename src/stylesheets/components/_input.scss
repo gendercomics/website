@@ -1,15 +1,12 @@
 @import "../settings/all";
 @import "../tools/all";
 @import "../helpers/all";
-
 @import "label";
 @import "error-message";
 @import "hint";
 
 @include exports("styles/component/input") {
-  
   .input {
-
     @include font($size: 19);
     @include focusable;
 
@@ -17,7 +14,6 @@
     width: 100%;
     height: 40px;
     margin-top: 0;
-
     padding: 0 spacing(2);
     // setting any background-color makes text invisible when changing colours to dark backgrounds in Firefox (https://bugzilla.mozilla.org/show_bug.cgi?id=1335476)
     // as background-color and color need to always be set together, color should not be set either
@@ -74,5 +70,4 @@
   .input--width-2 {
     max-width: 5.4ex;
   }
-
 }

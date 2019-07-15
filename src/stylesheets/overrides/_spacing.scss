@@ -36,7 +36,6 @@ $_spacing-directions: (
   // For each point in the spacing scale (defined in settings), create an
   // override that affects all directions...
   @each $scale-point, $scale-map in $spacing-responsive-scale {
-
     .override-\!-#{$property}-#{$scale-point} {
       @include responsive-spacing($scale-point, $property, "all", true);
     }

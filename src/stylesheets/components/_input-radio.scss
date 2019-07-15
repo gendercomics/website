@@ -1,7 +1,6 @@
 @import "../settings/all";
 @import "../tools/all";
 @import "../helpers/all";
-
 @import "error-message";
 @import "fieldset";
 @import "hint";
@@ -17,7 +16,6 @@
   $radios-focus-width: $focus-width + 1px;
 
   .radios__item {
-
     @include font($size: 19);
 
     display: inline-block;
@@ -33,10 +31,10 @@
     margin-bottom: 0;
   }
 
-   .radios__item--standard {
-     padding-left: $focus-width;
-     margin-right: $focus-width;
-   }
+  .radios__item--standard {
+    padding-left: $focus-width;
+    margin-right: $focus-width;
+  }
 
   .radios__input {
     position: absolute;
@@ -118,14 +116,12 @@
   }
 
   .radios__input:disabled + .radios__label {
-    opacity: .5;
+    opacity: 0.5;
   }
 
   // Inline variant
   .radios--inline {
-    
     @include mq ($from: tablet) {
-
       @include clearfix;
 
       .radios__item {
@@ -165,7 +161,6 @@
   $conditional-padding-left: $conditional-border-padding + $radios-label-padding-left-right;
 
   .radios__conditional {
-
     @include responsive-margin(4, "bottom");
 
     margin-left: $conditional-margin-left;

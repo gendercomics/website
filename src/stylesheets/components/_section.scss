@@ -27,18 +27,16 @@
     @include responsive-padding(4, "top");
 
     @supports (display: flex) {
-        display: flex;
-        align-items: center;
+      display: flex;
+      align-items: center;
 
-        .link {
-          margin-left: auto;
-        }
+      .link {
+        margin-left: auto;
+      }
     }
-
   }
 
   .section-heading--bordered {
-
     &::before {
       content: "";
       position: absolute;
@@ -52,7 +50,5 @@
       height: $section-heading-border-width;
       background-color: $section-border-color;
     }
-
   }
-
 }

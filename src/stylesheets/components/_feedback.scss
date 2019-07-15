@@ -1,7 +1,6 @@
 @import "../settings/all";
 @import "../tools/all";
 @import "../helpers/all";
-
 @import "../helpers/typography";
 
 @include exports("styles/component/feedback") {
@@ -14,8 +13,6 @@
 
   .feedback {
     background-color: $feedback-background;
-
-
   }
 
   .feedback__prompt {
@@ -25,24 +22,19 @@
     @include responsive-padding(2, "top");
     @include responsive-padding(2, "bottom");
 
-    
     @include mq ($from: tablet) {
       min-height: $prompt-height;
     }
-
   }
 
   .feedback__prompt-question {
-
     @include font($size: 16, $weight: bold);
 
     margin: 0;
     float: left;
-
   }
 
-  .feedback__prompt-link  {
-
+  .feedback__prompt-link {
     float: left;
 
     @include font($size: 16);
@@ -71,16 +63,12 @@
 
     @include compatibility(_template) {
       &:link:focus {
-
         @include text-colour;
-
       }
     }
-
   }
 
   .feedback__prompt-link--wrong {
-
     margin: 0;
 
     @include responsive-margin(2, "top");
@@ -91,8 +79,5 @@
       margin-top: 0;
       margin-bottom: 0;
     }
-
   }
-
-
 }

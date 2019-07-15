@@ -15,7 +15,7 @@ const config = {
   site_description: '',
 
   // Your website's URL, used for sitemap
-  site_url: '',
+  site_url: 'https://gendercomics.net',
 
   // Google Analytics tracking ID (leave blank to disable)
   googleAnalyticsUA: '',

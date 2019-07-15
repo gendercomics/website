@@ -104,7 +104,6 @@
 /// @access public
 
 @mixin typography-responsive($size, $override-line-height: false, $important: false) {
-
   @if not map-has-key($typography-scale, $size) {
     @error "Unknown font size `#{$size}` - expected a point from the typography scale.";
   }
@@ -116,7 +115,8 @@
     $font-size-rem: px-to-rem($font-size);
 
     $line-height: _line-height(
-      $line-height: if($override-line-height,
+      $line-height: if(
+        $override-line-height,
         $override-line-height,
         map-get($breakpoint-map, "line-height")
       ),
@@ -132,13 +132,15 @@
 
     @if $breakpoint == null {
       font-size: $font-size; // sass-lint:disable no-duplicate-properties
+
       @if $typography-use-rem {
         font-size: $font-size-rem; // sass-lint:disable no-duplicate-properties
       }
+
       line-height: $line-height;
     }
 
-    @elseif $breakpoint == "print" {
+    @else if $breakpoint == "print" {
       @include media-query($media-type: print) {
         font-size: $font-size;
         line-height: $line-height;
@@ -148,9 +150,11 @@
     @else {
       @include media-query($from: $breakpoint) {
         font-size: $font-size; // sass-lint:disable no-duplicate-properties
+
         @if $typography-use-rem {
           font-size: $font-size-rem; // sass-lint:disable no-duplicate-properties
         }
+
         line-height: $line-height;
       }
     }

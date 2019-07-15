@@ -4,8 +4,10 @@
 
   %heading-xl {
     @include font($size: 48, $weight: bold);
+
     display: block;
     margin-top: 0;
+
     @include responsive-margin(8, "bottom");
   }
 
@@ -15,8 +17,10 @@
 
   %heading-l {
     @include font($size: 36, $weight: bold);
+
     display: block;
     margin-top: 0;
+
     @include responsive-margin(6, "bottom");
   }
 
@@ -26,8 +30,10 @@
 
   %heading-m {
     @include font($size: 24, $weight: bold);
+
     display: block;
     margin-top: 0;
+
     @include responsive-margin(4, "bottom");
   }
 
@@ -37,8 +43,10 @@
 
   %heading-s {
     @include font($size: 19, $weight: bold);
+
     display: block;
     margin-top: 0;
+
     @include responsive-margin(4, "bottom");
   }
 
@@ -49,7 +57,6 @@
   // Captions to be used inside headings
 
   .caption-xl {
-
     @include font($size: 24);
 
     display: block;

@@ -27,7 +27,6 @@
 
 @mixin compatibility($product) {
   @if map-has-key($_compatibility, $product) {
-
     @if map-get($_compatibility, $product) == true {
       @content;
     }

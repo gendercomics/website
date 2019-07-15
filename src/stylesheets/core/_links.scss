@@ -1,5 +1,4 @@
 @include exports("styles/core/links") {
-
   %link {
     @include link-common;
     @include link-style-default;
@@ -15,10 +14,6 @@
 
   .link--muted {
     @include link-style-muted;
-  }
-
-  .link--text-colour {
-    @include link-style-text;
   }
 
   .link--text-colour {

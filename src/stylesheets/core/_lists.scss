@@ -1,7 +1,5 @@
 @include exports("styles/core/lists") {
-
   %list {
-
     @include font($size: 19);
     @include text-colour;
     @include responsive-margin(4, "bottom");
@@ -51,20 +49,14 @@
   }
 
   .list--bullet {
-
     @extend %list--bullet;
-
   }
 
   .list--number {
-
     @extend %list--number;
-
   }
 
   .list--inline {
-
     @extend %list--inline;
-
   }
 }

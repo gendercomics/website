@@ -4,8 +4,6 @@
 
 @import "../helpers/colour";
 
-
-
 // =========================================================
 // Generic
 // =========================================================
@@ -47,7 +45,7 @@ $body-background-colour: colour("grey-4") !default;
 /// @type Colour
 /// @access public
 
-$print-text-colour: #000000 !default;
+$print-text-colour: #000 !default;
 
 /// Secondary text colour
 ///
@@ -104,8 +102,6 @@ $border-colour: colour("grey-4") !default;
 /// @access public
 
 $input-border-colour: colour("grey-3") !default;
-
-
 
 // =============================================================================
 // Links

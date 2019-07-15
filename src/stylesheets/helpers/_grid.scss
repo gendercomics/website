@@ -43,6 +43,7 @@
 @mixin grid-row($class: "grid-row") {
   .#{$class} {
     @include clearfix;
+
     margin-right: - ($gutter-half);
     margin-left: - ($gutter-half);
   }
@@ -93,12 +94,17 @@
     .#{$class}-#{$width} {
       @include grid-column($width, $float, $at, $class: false);
     }
-  } @else {
+  }
+
+  @else {
     box-sizing: border-box;
+
     @if $at != desktop {
       width: 100%;
     }
+
     padding: 0 $gutter-half;
+
     @include media-query($from: $at) {
       width: grid-width($width);
       float: $float;

@@ -3,9 +3,7 @@
 @import "../helpers/all";
 
 @include exports("styles/component/label") {
-
   .label {
-
     @include font($size: 16);
 
     color: darken($secondary-text-colour, 20%);
@@ -16,30 +14,25 @@
   // Modifiers that make labels look more like their equivalent headings
 
   .label--xl {
-
     @include font($size: 36, $weight: bold);
 
     margin-bottom: spacing(3);
   }
 
   .label--l {
-
     @include font($size: 24, $weight: bold);
 
     margin-bottom: spacing(3);
   }
 
   .label--m {
-
     @include font($size: 19, $weight: bold);
 
     margin-bottom: spacing(2);
   }
 
   .label--s {
-
     @include font($size: 16, $weight: bold);
-    
   }
 
   // When the label is nested inside a heading, override the heading so that it
