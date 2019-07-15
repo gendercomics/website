@@ -4,13 +4,24 @@ node_js:
   - node
   - lts/*
 
+addons:
+  ssh_known_hosts: gendercomics.net
+
+before_install:
+  - openssl aes-256-cbc -K $encrypted_ac25a508ad54_key -iv $encrypted_ac25a508ad54_iv -in deploy-key.enc -out deploy-key -d
+
 install:
   - SKIP_SETUP=true npm install
-
+  -
 script:
-#  - npm run lint:styles
-#  - npm run lint:js
   - npm run build:dist
+  -
+after_success:
+  - eval "$(ssh-agent -s)"
+  - chmod 600 deploy-key
+  - ssh-add deploy-key
+  - cd $TRAVIS_BUILD_DIR/dist
+  - scp * deploy@gendercomics.net:/var/gendercomics/web/
 
 dist: trusty
 sudo: false
