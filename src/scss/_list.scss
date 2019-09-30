@@ -1,0 +1,26 @@
+// List and list groups
+.list-group-item {
+  border-bottom: 0;
+  transition: background-color ease-in 300ms;
+  &:hover {
+    background-color: rgba($white, 1);
+    ~ .card-footer {
+      background-color: $white;
+    }
+  }
+}
+
+.list-group-item-action {
+  img {
+    transition: filter ease-in 300ms;
+    filter: grayscale(1);
+  }
+  &:hover {
+    img {
+      filter: none;
+    }
+  }
+  &:focus {
+    background-color: $white;
+  }
+}

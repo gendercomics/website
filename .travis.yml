@@ -14,7 +14,7 @@ install:
 - SKIP_SETUP=true npm install
 
 script:
-- npm run build:dist
+- npm run build
 
 after_success:
 - eval "$(ssh-agent -s)"

@@ -1,5 +1,6 @@
 ## Project
-dist/*
+.cache/*
+.public/*
 
 ## Node.js
 lib-cov
