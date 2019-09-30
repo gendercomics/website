@@ -1,6 +1,6 @@
 ## Project
-.cache/*
-.public/*
+/.cache/
+/public/
 
 ## Node.js
 lib-cov
@@ -37,3 +37,4 @@ $RECYCLE.BIN/
 .idea
 .github
 *.iml
+
