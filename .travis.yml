@@ -19,7 +19,7 @@ script:
 #- eval "$(ssh-agent -s)"
 #- chmod 600 deploy-key
 #- ssh-add deploy-key
-#- cd $TRAVIS_BUILD_DIR/dist
+#- cd $TRAVIS_BUILD_DIR/public
 #- scp -r * deploy@gendercomics.net:/var/gendercomics/web/
 
 dist: trusty

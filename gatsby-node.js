@@ -21,7 +21,15 @@ exports.onPreBootstrap = () => {
   // Save bundled translation files
   fs.writeFileSync(path.join(__dirname, "/public/intl/de.json"), JSON.stringify(flatten(deTranslation)));
   fs.writeFileSync(path.join(__dirname, "/public/intl/en.json"), JSON.stringify(flatten(enTranslation)));
-}
+};
+
+exports.onCreateWebpackConfig = ({
+                                   actions //, stage, getConfig, rules, loaders,
+                                 }) => {
+  actions.setWebpackConfig({
+    externals: ['canvas'],
+  });
+};
 
 function loadTranslationObject(languageCode) {
   const srcPath = path.join(__dirname, `/src/intl/${languageCode}/`);
