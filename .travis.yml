@@ -16,12 +16,12 @@ install:
 script:
 - npm run build
 
-after_success:
-- eval "$(ssh-agent -s)"
-- chmod 600 deploy-key
-- ssh-add deploy-key
-- cd $TRAVIS_BUILD_DIR/dist
-- scp -r * deploy@gendercomics.net:/var/gendercomics/web/
+#after_success:
+#- eval "$(ssh-agent -s)"
+#- chmod 600 deploy-key
+#- ssh-add deploy-key
+#- cd $TRAVIS_BUILD_DIR/dist
+#- scp -r * deploy@gendercomics.net:/var/gendercomics/web/
 
 dist: trusty
 sudo: false
