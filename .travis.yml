@@ -1,7 +1,7 @@
 language: node_js
 
 node_js:
-- node
+  - node
 
 addons:
   ssh_known_hosts: gendercomics.net
@@ -10,10 +10,10 @@ before_install:
   - openssl aes-256-cbc -K $encrypted_ac25a508ad54_key -iv $encrypted_ac25a508ad54_iv -in deploy-key.enc -out deploy-key -d
 
 install:
-- SKIP_SETUP=true npm install
+  - npm install
 
 script:
-- npm run build
+  - npm run build
 
 #after_success:
 #- eval "$(ssh-agent -s)"
@@ -23,7 +23,7 @@ script:
 #- scp -r * deploy@gendercomics.net:/var/gendercomics/web/
 
 after_failure:
-  - cat /home/travis/.npm/_logs/*-debug.log
+  - tail /home/travis/.npm/_logs/*-debug.log
 
 dist: trusty
 sudo: false
