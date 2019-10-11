@@ -10,7 +10,7 @@ before_install:
   - openssl aes-256-cbc -K $encrypted_ac25a508ad54_key -iv $encrypted_ac25a508ad54_iv -in deploy-key.enc -out deploy-key -d
 
 install:
-- npm install
+- SKIP_SETUP=true npm install
 
 script:
 - npm run build
