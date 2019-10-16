@@ -1,20 +1,20 @@
 import React from 'react'
-import { Link, animateScroll as scroll } from 'react-scroll'
-import { injectIntl } from 'gatsby-plugin-intl'
+import {Link} from 'react-scroll'
+import {injectIntl} from 'gatsby-plugin-intl'
 import Markdown from 'react-remarkable'
 import PageTemplate from '@templates/pageTemplate'
-import { Container, Nav, Jumbotron, Row, Col } from "react-bootstrap"
+import {Col, Container, Jumbotron, Nav, Row} from "react-bootstrap"
 import panelImg from '@assets/panel/gender_queer_a_memoir.jpg'
 
-const IndexPage = ({ intl }) => {
+const IndexPage = ({intl}) => {
   return (
-    <PageTemplate title={intl.formatMessage({ id: 'index.title' })}>
+    <PageTemplate title={intl.formatMessage({id: 'index.title'})}>
       <Jumbotron>
         <Container>
-          <h1 className="display-1">{intl.formatMessage({ id: 'index.title' })}</h1>
+          <h1 className="display-1">{intl.formatMessage({id: 'index.title'})}</h1>
           <p className="lead">
             <Markdown>
-              {intl.formatMessage({ id: 'index.textLead' })}
+              {intl.formatMessage({id: 'index.textLead'})}
             </Markdown>
           </p>
         </Container>
@@ -36,11 +36,13 @@ const IndexPage = ({ intl }) => {
                   spy={true}
                   hashSpy={true}
                 >
-                  {intl.formatMessage({ id: 'index.sectionAbstract' })}
+                  {intl.formatMessage({id: 'index.sectionAbstract'})}
                 </Link>
+              </Nav>
+              <Nav as="nav" className="flex-column">
                 <Link
-                  to="vision"
-                  href="#vision"
+                  to="fundingOrg"
+                  href="#fundingOrg"
                   className="nav-link"
                   spy={true}
                   smooth={true}
@@ -49,7 +51,37 @@ const IndexPage = ({ intl }) => {
                   spy={true}
                   hashSpy={true}
                 >
-                  {intl.formatMessage({ id: 'index.sectionVision' })}
+                  {intl.formatMessage({id: 'index.sectionFundingOrg'})}
+                </Link>
+              </Nav>
+              <Nav as="nav" className="flex-column">
+                <Link
+                  to="institution"
+                  href="#institution"
+                  className="nav-link"
+                  spy={true}
+                  smooth={true}
+                  offset={-80}
+                  duration={300}
+                  spy={true}
+                  hashSpy={true}
+                >
+                  {intl.formatMessage({id: 'index.sectionInstitution'})}
+                </Link>
+              </Nav>
+              <Nav as="nav" className="flex-column">
+                <Link
+                  to="contact"
+                  href="#contact"
+                  className="nav-link"
+                  spy={true}
+                  smooth={true}
+                  offset={-80}
+                  duration={300}
+                  spy={true}
+                  hashSpy={true}
+                >
+                  {intl.formatMessage({id: 'index.sectionContact'})}
                 </Link>
               </Nav>
             </div>
@@ -63,20 +95,32 @@ const IndexPage = ({ intl }) => {
                 {intl.formatMessage({ id: 'index.textAbstract' })}
               </Markdown>
             </section>
-            <section id="vision" className="mt-4">
+            <section id="fundingOrg" className="mt-4">
               <Markdown>
-                <h2>{intl.formatMessage({ id: 'index.sectionVision' })}</h2>
+                <h2>{intl.formatMessage({ id: 'index.sectionFundingOrg' })}</h2>
               </Markdown>
               <Markdown>
-                {intl.formatMessage({ id: 'index.textVision' })}
+                {intl.formatMessage({ id: 'index.textFundingOrg' })}
+              </Markdown>
+            </section>
+            <section id="institution" className="mt-4">
+              <Markdown>
+                <h2>{intl.formatMessage({ id: 'index.sectionInstitution' })}</h2>
+              </Markdown>
+              <Markdown>
+                {intl.formatMessage({ id: 'index.textInstitution' })}
+              </Markdown>
+            </section>
+            <section id="contact" className="mt-4">
+              <Markdown>
+                <h2>{intl.formatMessage({ id: 'index.sectionContact' })}</h2>
+              </Markdown>
+              <Markdown>
+                {intl.formatMessage({ id: 'index.textContact' })}
               </Markdown>
             </section>
           </Col>
         </Row>
-        <Jumbotron as="figure" className="mt-4 text-center">
-          <img src={panelImg} className="img-fluid" alt="" />
-          <figcaption>From our database</figcaption>
-        </Jumbotron>
       </Container>
     </PageTemplate>
   )

@@ -22,9 +22,6 @@ script:
 #- cd $TRAVIS_BUILD_DIR/public
 #- scp -r * deploy@gendercomics.net:/var/gendercomics/web/
 
-after_failure:
-  - tail /home/travis/.npm/_logs/*-debug.log
-
 dist: trusty
 sudo: false
 
