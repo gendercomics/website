@@ -30,8 +30,8 @@ index:
 
   sectionFundingOrg: Funding Organization
   textFundingOrg: >
-    [FWF Austrian Science Fund](https://www.fwf.ac.at)
-         
+    [FWF Austrian Science Fund](https://www.fwf.ac.at)  
+    
     Project Number: P 31925
 
 

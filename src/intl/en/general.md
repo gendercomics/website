@@ -6,6 +6,7 @@ header:
 navigation:
   project: Project
   team: Team
+  collaborations: Collaborations
   coc: Code of Conduct
   contact: Contact
   top: Back to top

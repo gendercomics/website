@@ -145,19 +145,6 @@ const Team = ({ intl }) => {
                     </Link>
                   </li>
                 </ul>
-                <Link
-                  to="advisoryBoard"
-                  href="#advisoryBoard"
-                  className="nav-link"
-                  spy={true}
-                  smooth={true}
-                  offset={-80}
-                  duration={300}
-                  spy={true}
-                  hashSpy={true}
-                >
-                  <strong>{intl.formatMessage({ id: 'team.sectionBoard' })}</strong>
-                </Link>
               </Nav>
             </div>
           </Col>
@@ -426,18 +413,8 @@ const Team = ({ intl }) => {
                 </Card.Footer>
               </details>
             </section>
-            {/* Advisory Board */}
-            <section id="advisoryBoard" className="mt-4">
-              <Markdown>
-                <h2 className="mb-3">{intl.formatMessage({ id: 'team.sectionBoard' })}</h2>
-              </Markdown>
-            </section>
           </Col>
         </Row>
-        <Jumbotron as="figure" className="mt-4 text-center">
-          <img src={panelImg} className="img-fluid" alt="" />
-          <figcaption>From our database</figcaption>
-        </Jumbotron>
       </Container>
     </PageTemplate>
   )

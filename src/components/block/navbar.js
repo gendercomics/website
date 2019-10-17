@@ -15,13 +15,13 @@ const CustomNavbar = () => {
                 <Link to="/" className="nav-link">Home</Link>
               </li>
               <li className="nav-item">
-                <Link to="/project/" className="nav-link">
-                  <FormattedMessage id="navigation.project" />
+                <Link to="/team/" className="nav-link">
+                  <FormattedMessage id="navigation.team" />
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/team/" className="nav-link">
-                  <FormattedMessage id="navigation.team" />
+                <Link to="/collaborations/" className="nav-link">
+                  <FormattedMessage id="navigation.collaborations" />
                 </Link>
               </li>
             </Nav>

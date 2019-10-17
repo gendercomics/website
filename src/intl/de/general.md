@@ -6,6 +6,7 @@ header:
 navigation:
   project: Projekt
   team: Team
+  collaborations: Kooperationen
   coc: Verhaltensregeln
   contact: Kontakt
   top: Zurück nach oben

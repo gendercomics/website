@@ -15,18 +15,13 @@ const Footer = () => {
                 <Link to="/" className="nav-link p-1">Home</Link>
               </li>
               <li>
-                <Link to="/project/" className="nav-link p-1">
-                  <FormattedMessage id="navigation.project" />
-                </Link>
-              </li>
-              <li>
                 <Link to="/team/" className="nav-link p-1">
                   <FormattedMessage id="navigation.team" />
                 </Link>
               </li>
               <li>
-                <Link to="/coc/" className="nav-link p-1">
-                  <FormattedMessage id="navigation.coc" />
+                <Link to="/project/" className="nav-link p-1">
+                  <FormattedMessage id="navigation.collaborations" />
                 </Link>
               </li>
               <li className="ml-3">
