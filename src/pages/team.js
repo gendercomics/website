@@ -219,6 +219,18 @@ const Team = ({ intl }) => {
                 <Card.Footer className="d-flex align-items-center">
                   <span className="text-muted small">{intl.formatMessage({ id: 'team.person.marina.name' })}</span>
                   <ul class="list-inline mb-0 ml-auto">
+                    <li className="list-inline-item">
+                      <a
+                        href={intl.formatMessage({id: 'team.person.marina.uni-www'})}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-university fa-lg fa-fw"></i>
+                        <span className="sr-only">
+                          {intl.formatMessage({id: 'action.uni-www'})}
+                        </span>
+                      </a>
+                    </li>
                     <li class="list-inline-item">
                       <a
                         href={'https://www.linkedin.com/in/' + intl.formatMessage({ id: 'team.person.marina.linkedIn' })}
@@ -235,9 +247,19 @@ const Team = ({ intl }) => {
                       <a href={'mailto:' + intl.formatMessage({ id: 'team.person.marina.email' })}
                         target="_blank"
                         rel="noopener noreferrer">
-                        <i className="fa fa-paper-plane fa-lg fa-fw"></i>
+                        <i className="fa fa-envelope fa-lg fa-fw"></i>
                         <span className="sr-only">
                           {intl.formatMessage({ id: 'action.sendEmail' })}
+                        </span>
+                      </a>
+                    </li>
+                    <li className="list-inline-item">
+                      <a href={intl.formatMessage({id: 'team.person.marina.twitter'})}
+                         target="_blank"
+                         rel="noopener noreferrer">
+                        <i className="fa fa-twitter fa-lg fa-fw"></i>
+                        <span className="sr-only">
+                          {intl.formatMessage({id: 'action.twitter'})}
                         </span>
                       </a>
                     </li>
