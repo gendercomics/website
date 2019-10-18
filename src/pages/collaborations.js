@@ -335,6 +335,18 @@ const Team = ({ intl }) => {
                 </Card.Body>
                 <Card.Footer className="d-flex align-items-center">
                   <span className="text-muted small">{intl.formatMessage({ id: 'collaborations.person.feuchtenberger.name' })}</span>
+                  <ul className="list-inline mb-0 ml-auto">
+                    <li className="list-inline-item">
+                      <a href={intl.formatMessage({id: 'collaborations.person.feuchtenberger.uni-www'})}
+                         target="_blank"
+                         rel="noopener noreferrer">
+                        <i className="fa fa-university fa-lg fa-fw"></i>
+                        <span className="sr-only">
+                          {intl.formatMessage({id: 'action.www'})}
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
                 </Card.Footer>
               </details>
               {/* Ole Frahm */}

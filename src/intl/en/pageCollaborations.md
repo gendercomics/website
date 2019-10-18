@@ -25,7 +25,7 @@ collaborations:
         **Anke Feuchtenberger**
       textAbout: >
         **Anke Feuchtenberger**, professor for drawing and media illustration at the Hamburg University of Applied Sciences (HAW): she is not only an acclaimed German-language comics artist, but also instructs comics artists at the HAW.  
-        [https://vorlesungsverzeichnis.design.haw-hamburg.de/person/anke-feuchtenberger](https://vorlesungsverzeichnis.design.haw-hamburg.de/person/anke-feuchtenberger)
+      uni-www: https://vorlesungsverzeichnis.design.haw-hamburg.de/person/anke-feuchtenberger
 
     frahm:
       name: Ole Frahm
