@@ -13,10 +13,9 @@ team:
     susanne:
       name: Susanne Hochreiter
       textLead: >
-        **Susanne Hochreiter** studied German Studies and Philosophy,
-        Psychology and Pedagogics at the University of Vienna and at the FU Berlin.
+        **Susanne Hochreiter**
       textAbout: >
-        **Susanne Hochreiter** studied German Studies and Philosophy, Psychology and Pedagogics at the University of Vienna and at the FU Berlin.In 2003, she received her PhD with a thesis on gender and space in Franz Kafka’s novel fragments. From 2003 to 2005 and from 2010 to 2012 she attended extra-occupational training in theater pedagogy. She has been working as Assistant Professor at the German Department, University of Vienna since 1999. She was Visiting Lecturer in Berne (Switzerland) 2002, Visiting Professor at Wake Forest University in Winston-Salem (NC) 2006/07, and Max Kade Distinguished Visiting Professor at the University of Illinois at Urbana-Champaign (2015). From 2001 to 2016 she led a research project on “Discursive Intersections in Literature on Hermaphroditism” which was supported by the Austrian Science Fund (FWF). Her research interests include modern German and Austrian literature, Comics and Graphic Novels, drama and performance, focusing on gender and queer studies. As equal opportunity officer she is involved in the gender equality and anti-discrimination activities at University of Vienna. She is a co-founder of the [Austrian Association for the Research and Promotion of Comics (OeGeC)](https://oegec.com/). For further information see: [https://www.univie.ac.at/germanistik/susanne-hochreiter/](https://www.univie.ac.at/germanistik/susanne-hochreiter/)
+        **Susanne Hochreiter** studied German Studies and Philosophy, Psychology and Pedagogics at the University of Vienna and at the FU Berlin.In 2003, she received her PhD with a thesis on gender and space in Franz Kafka’s novel fragments. From 2003 to 2005 and from 2010 to 2012 she attended extra-occupational training in theater pedagogy. She has been working as Assistant Professor at the German Department, University of Vienna since 1999. She was Visiting Lecturer in Berne (Switzerland) 2002, Visiting Professor at Wake Forest University in Winston-Salem (NC) 2006/07, and Max Kade Distinguished Visiting Professor at the University of Illinois at Urbana-Champaign (2015). From 2001 to 2016 she led a research project on “Discursive Intersections in Literature on Hermaphroditism” which was supported by the Austrian Science Fund (FWF). Her research interests include modern German and Austrian literature, Comics and Graphic Novels, drama and performance, focusing on gender and queer studies. As equal opportunity officer she is involved in the gender equality and anti-discrimination activities at University of Vienna. She is a co-founder of the [Austrian Association for the Research and Promotion of Comics (OeGeC)](https://oegec.com/).
       listPublication: >   
         - “Sisi. A Double Reflection on a ‘Queer Icon’.” Sissi’s World. The Empress Elisabeth in Memory and Myth. Eds. Heidi Schlipphacke and Maura E. Hametz. New York: Bloomsbury Academic, 2018. 247–73. (New Directions in German Studies).
         
@@ -31,8 +30,11 @@ team:
         - forthcoming: “Jenseits der Geschlechtergrenzen. Transgender-Narrative und ihre de/stabilisierenden Effekte.” Wiener Vorlesungen zur Kinder- und Jugendliteratur [Vienna: Praesens, 2019].
         
         - forthcoming: “Queer Visualities and Subversive Spaces in German-Language Comics.” The LGBTQ Comics Reader. Eds. Alison Halsall and Jonathan Warren [with S. Hochreiter and K. Serles, University of Mississippi Press, 2020].        
-      linkedIn: susanne-hochreiter-55728a38
       email: susanne.hochreiter@univie.ac.at
+      uni-www: https://www.univie.ac.at/germanistik/susanne-hochreiter
+      academia: https://univie.academia.edu/SusanneHochreiter
+      linkedIn: susanne-hochreiter-55728a38
+      twitter: https://twitter.com/HochreSu
 
     marina:
       name: Marina Rauchenbacher
