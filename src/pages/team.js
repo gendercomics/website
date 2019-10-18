@@ -293,7 +293,6 @@ const Team = ({ intl }) => {
                         </span>
                       </a>
                     </li>
-
                     <li className="list-inline-item">
                       <a href={'https://twitter.com/' + intl.formatMessage({id: 'team.person.marina.twitter'})}
                          target="_blank"
@@ -307,6 +306,7 @@ const Team = ({ intl }) => {
                   </ul>
                 </Card.Footer>
               </details>
+              {/* katharina Serles */}
               <details id="Katharina" className="list-group list-group-flush">
                 <summary className="list-group-item list-group-item-action d-flex" eventKey="2">
                   <img
@@ -319,7 +319,6 @@ const Team = ({ intl }) => {
                   </p>
                 </summary>
                 <Card.Body>
-                  <div className="h5">{intl.formatMessage({ id: 'team.accordion.resume' })}</div>
                   <Markdown>{intl.formatMessage({ id: 'team.person.katharina.textAbout' })}</Markdown>
                   <h3 className="h5">{intl.formatMessage({ id: 'team.accordion.publication' })}</h3>
                   <Markdown>{intl.formatMessage({ id: 'team.person.katharina.listPublication' })}</Markdown>
@@ -327,6 +326,48 @@ const Team = ({ intl }) => {
                 <Card.Footer className="d-flex">
                   <span className="text-muted small">{intl.formatMessage({ id: 'team.person.katharina.name' })}</span>
                   <ul class="list-inline mb-0 ml-auto">
+                    <li className="list-inline-item">
+                      <a href={'mailto:' + intl.formatMessage({id: 'team.person.katharina.email'})}
+                         target="_blank"
+                         rel="noopener noreferrer">
+                        <i className="fa fa-envelope fa-lg fa-fw"></i>
+                        <span className="sr-only">
+                          {intl.formatMessage({id: 'action.sendEmail'})}
+                        </span>
+                      </a>
+                    </li>
+                    <li className="list-inline-item">
+                      <a
+                        href={'https://univie.ac.at/' + intl.formatMessage({id: 'team.person.katharina.uni-www'})}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-university fa-lg fa-fw"></i>
+                        <span className="sr-only">
+                          {intl.formatMessage({id: 'action.uni-www'})}
+                        </span>
+                      </a>
+                    </li>
+                    <li className="list-inline-item">
+                      <a href={intl.formatMessage({id: 'team.person.katharina.academia'})}
+                         target="_blank"
+                         rel="noopener noreferrer">
+                        <i className="fa fa-graduation-cap fa-lg fa-fw"></i>
+                        <span className="sr-only">
+                          {intl.formatMessage({id: 'action.academia'})}
+                        </span>
+                      </a>
+                    </li>
+                    <li className="list-inline-item">
+                      <a href={intl.formatMessage({id: 'team.person.katharina.www'})}
+                         target="_blank"
+                         rel="noopener noreferrer">
+                        <i className="fa fa-globe fa-lg fa-fw"></i>
+                        <span className="sr-only">
+                          {intl.formatMessage({id: 'action.www'})}
+                        </span>
+                      </a>
+                    </li>
                     <li class="list-inline-item">
                       <a
                         href={'https://www.linkedin.com/in/' + intl.formatMessage({ id: 'team.person.katharina.linkedIn' })}
@@ -339,13 +380,13 @@ const Team = ({ intl }) => {
                         </span>
                       </a>
                     </li>
-                    <li class="list-inline-item">
-                      <a href={'mailto:' + intl.formatMessage({ id: 'team.person.katharina.email' })}
-                        target="_blank"
-                        rel="noopener noreferrer">
-                        <i className="fa fa-paper-plane fa-lg fa-fw"></i>
+                    <li className="list-inline-item">
+                      <a href={'https://twitter.com/' + intl.formatMessage({id: 'team.person.katharina.twitter'})}
+                         target="_blank"
+                         rel="noopener noreferrer">
+                        <i className="fa fa-twitter fa-lg fa-fw"></i>
                         <span className="sr-only">
-                          {intl.formatMessage({ id: 'action.sendEmail' })}
+                          {intl.formatMessage({id: 'action.twitter'})}
                         </span>
                       </a>
                     </li>
@@ -353,6 +394,10 @@ const Team = ({ intl }) => {
                 </Card.Footer>
               </details>
             </section>
+
+
+
+
             {/* IT Team */}
             <section id="developmentTeam" className="mt-4">
               <Markdown>

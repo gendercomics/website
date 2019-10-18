@@ -2,7 +2,7 @@
 team:
   title: Team.
   textLead: >
-    **Who would expect** that three female theorist meeting three male developers makes such a great project. Well, a great example that gender diversity leads to a wider talent pool and different perspectives gain higher innovation.  
+    **Here is some space** for introducing the team.  
   sectionCore: Project Team
   sectionDev: IT Team
   accordion:
@@ -64,9 +64,9 @@ team:
     katharina:
       name: Katharina Serles
       textLead: >
-        **Katharina Serles** is a doctoral candidate and affiliated researcher at the University of Vienna, where she studied German, English studies and art history.
+        **Katharina Serles**
       textAbout: >
-        **Katharina Serles** is a doctoral candidate and affiliated researcher at the University of Vienna, where she studied German, English studies and art history. From 2009 to 2015, she worked as a research assistant to the projects Art in Texts and Art Quotations: Intermediality and Tradition (both funded by the Austrian Science Fund), as well as a university assistant at the Department for German Studies, University of Vienna. From 2016 to 2018, she was employed as an artistic/scientific assistant at the Art Academy Dresden, Germany. Her main fields of research and teaching include Comics, Literature and Visual Arts, as well as Gender Studies and Image Theories. She has co-founded the [Austrian Association for the Research and Promotion of Comics (OeGeC)](https://oegec.com) and is a member of AG Comicforschung, Society for Comics Studies (ComFor), Comic Studies Network (German Studies Association), and The Comics Studies Society (CSS). She is editor-in-chief of the cultural-political magazine KUPFzeitung. For more information see [www.katharinaserles.com](http://www.katharinaserles.com)
+        **Katharina Serles** is a doctoral candidate and affiliated researcher at the University of Vienna, where she studied German, English studies and art history. From 2009 to 2015, she worked as a research assistant to the projects Art in Texts and Art Quotations: Intermediality and Tradition (both funded by the Austrian Science Fund), as well as a university assistant at the Department for German Studies, University of Vienna. From 2016 to 2018, she was employed as an artistic/scientific assistant at the Art Academy Dresden, Germany. Her main fields of research and teaching include Comics, Literature and Visual Arts, as well as Gender Studies and Image Theories. She has co-founded the [Austrian Association for the Research and Promotion of Comics (OeGeC)](https://oegec.com) and is a member of AG Comicforschung, Society for Comics Studies (ComFor), Comic Studies Network (German Studies Association), and The Comics Studies Society (CSS). She is editor-in-chief of the cultural-political magazine KUPFzeitung.
       listPublication: >
         - “BILDER SEHEN ERZÄHLEN. Kunstbetrachtung im Comic”. closure. Kieler e-journal für Comicforschung 4.5 (2018). 134–46. http://www.closure.uni-kiel.de/closure4.5/serles [peer reviewed]. 
         
@@ -77,8 +77,12 @@ team:
         - forthcoming: “Fragmented and Framed. Precarious ‘Body Signs’ in Comics by Regina Hofer, Ulli Lust, and Barbara Yelin.” Spaces Between – Gender, Diversity and Identity in Comics. Eds. Nina Heindl and Véronique Sina [with M. Rauchenbacher, Springer, 2019].
         
         - forthcoming: “Queer Visualities and Subversive Spaces in German-Language Comics.” The LGBTQ Comics Reader. Eds. Alison Halsall and Jonathan Warren [with S. Hochreiter and M. Rauchenbacher, University of Mississippi Press, 2020].
-      linkedIn: katharina-serles-a75b22129
       email: katharina.serles@univie.ac.at
+      linkedIn: katharina-serles-a75b22129
+      uni-www: germanistik/katharina-serles
+      academia: http://hfbk-dresden.academia.edu/KatharinaSerles
+      www: https://katharinaserles.com/
+      twitter: nichtkatharina
 
     ingo:
       name: Ingo Börner
