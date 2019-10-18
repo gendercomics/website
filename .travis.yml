@@ -1,28 +1,36 @@
 language: node_js
 
 node_js:
-- node
-- lts/*
+  - node
+
+dist: trusty
+sudo: false
 
 addons:
   ssh_known_hosts: gendercomics.net
+
+cache:
+  directories:
+    - node_modules
 
 before_install:
   - openssl aes-256-cbc -K $encrypted_ac25a508ad54_key -iv $encrypted_ac25a508ad54_iv -in deploy-key.enc -out deploy-key -d
 
 install:
-- SKIP_SETUP=true npm install
+  - yarn
+
+before_script:
+  - npm i -g gatsby-cli
 
 script:
-- npm run build:dist
+  - yarn build
 
-after_success:
-- eval "$(ssh-agent -s)"
-- chmod 600 deploy-key
-- ssh-add deploy-key
-- cd $TRAVIS_BUILD_DIR/dist
-- scp -r * deploy@gendercomics.net:/var/gendercomics/web/
+#after_success:
+#- eval "$(ssh-agent -s)"
+#- chmod 600 deploy-key
+#- ssh-add deploy-key
+#- cd $TRAVIS_BUILD_DIR/public
+#- scp -r * deploy@gendercomics.net:/var/gendercomics/web/
 
-dist: trusty
-sudo: false
+
 
