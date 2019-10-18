@@ -3,6 +3,9 @@ language: node_js
 node_js:
   - node
 
+dist: trusty
+sudo: false
+
 addons:
   ssh_known_hosts: gendercomics.net
 
@@ -11,9 +14,9 @@ before_install:
 
 install:
   - yarn install
+  - yarn add gatsby-plugin-module-resolver
 
 script:
-  - yarn add gatsby-plugin-module-resolver
   - yarn build
 
 #after_success:
@@ -23,6 +26,5 @@ script:
 #- cd $TRAVIS_BUILD_DIR/public
 #- scp -r * deploy@gendercomics.net:/var/gendercomics/web/
 
-dist: trusty
-sudo: false
+
 
