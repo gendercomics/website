@@ -96,9 +96,9 @@ team:
     michael:
       name: Michael Litschauer
       textLead: >
-        **Michael Litschauer** is an experienced developer and project leader. A person who understands to lead agile  development processes in a calm and pragmatic way.
+        **Michael Litschauer**
       textAbout: >
-        tbd
+        **Michael Litschauer** is an experienced developer and project leader. A person who understands to lead agile development processes in a calm and pragmatic way.
       email: michael.litschauer@gmail.com
       linkedIn: michael-litschauer-79382689
 
