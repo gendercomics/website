@@ -11,9 +11,9 @@ before_install:
 
 install:
   - yarn install
-  - yarn add gatsby-plugin-module-resolver
 
 script:
+  - yarn add gatsby-plugin-module-resolver
   - yarn build
 
 #after_success:
