@@ -9,12 +9,15 @@ sudo: false
 addons:
   ssh_known_hosts: gendercomics.net
 
+cache:
+  directories:
+    - node_modules
+
 before_install:
   - openssl aes-256-cbc -K $encrypted_ac25a508ad54_key -iv $encrypted_ac25a508ad54_iv -in deploy-key.enc -out deploy-key -d
 
 install:
-  - yarn install
-  - yarn add gatsby-plugin-module-resolver
+  - npm i -g gatsby-cli
 
 script:
   - yarn build
