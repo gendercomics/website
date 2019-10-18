@@ -399,24 +399,12 @@ const Team = ({ intl }) => {
                   <span className="text-muted small">{intl.formatMessage({ id: 'collaborations.person.nijdam.name' })}</span>
                   <ul class="list-inline mb-0 ml-auto">
                     <li class="list-inline-item">
-                      <a
-                        href={'https://www.linkedin.com/in/' + intl.formatMessage({ id: 'collaborations.person.nijdam.linkedIn' })}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i className="fa fa-linkedin fa-lg fa-fw"></i>
-                        <span className="sr-only">
-                          {intl.formatMessage({ id: 'action.linkedIn' })}
-                        </span>
-                      </a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a href={'mailto:' + intl.formatMessage({ id: 'collaborations.person.nijdam.email' })}
+                      <a href={intl.formatMessage({ id: 'collaborations.person.nijdam.academia' })}
                          target="_blank"
                          rel="noopener noreferrer">
-                        <i className="fa fa-paper-plane fa-lg fa-fw"></i>
+                        <i className="fa fa-graduation-cap fa-lg fa-fw"></i>
                         <span className="sr-only">
-                          {intl.formatMessage({ id: 'action.sendEmail' })}
+                          {intl.formatMessage({ id: 'action.academia' })}
                         </span>
                       </a>
                     </li>

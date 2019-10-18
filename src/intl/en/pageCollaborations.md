@@ -40,38 +40,39 @@ collaborations:
         **Elizabeth "Biz" Nijdam**
       textAbout: >
         **Elizabeth “Biz” Nijdam**, assistant professor for German Studies in the Department of Central, Eastern, and Northern European Studies at the University of British Columbia in Vancouver, Canada: her current book project, Panelled Pasts: History, Media and Memory in the German Graphic Novel (under contract with Ohio State University Press), examines how comics have become an important form for popular investigations of East German experience.
-        [academia.edu](https://ubc.academia.edu/ElizabethBizNijdam)
+      academia: https://ubc.academia.edu/ElizabethBizNijdam
 
   institution:
     aka:
-      name: Arbeitskreis Kulturanalyse
+      name: aka - Arbeitskreis Kulturanalyse
       textLead: >
-        **_Arbeitskreis_ Kulturanalyse**
+        **aka - Arbeitskreis Kulturanalyse**
       www: https://aka.univie.ac.at
          
     genderagency:
-      name: Research Network Gender and Agency
+      name: Gender and Agency
       textLead: >
-        **Research Network _Gender and Agency_**
+        **Gender and Agency**
       www: https://genderandagency.univie.ac.at
 
     nextcomic:
-      name: Nextcomic-Festival
+      name: NEXTCOMIC Festival
       textLead: >
-        **_NEXTCOMIC-Festival_**
+        **NEXTCOMIC Festival**
       www: http://www.nextcomic.org
 
     gsa:
-      name: Interdisciplinary Network Comic Studies of the German Studies Association
+      name: Comic Studies (GSA)
       textLead: >
-        **Interdisciplinary Network Comic Studies of the German Studies Association**
+        **Interdisciplinary Network _Comic Studies_ of the German Studies Association (GSA)**
       www: https://www.thegsa.org/interdisciplinary-networks
 
     feministcomic:
-      name: Research project A Multidisciplinary Study of Feminist Comic Art
+      name: A Multidisciplinary Study of Feminist Comic Art
       textLead: >
-        **Research project _A Multidisciplinary Study of Feminist Comic Art_**
-      www: https://www.thegsa.org/interdisciplinary-networks
+        **A Multidisciplinary Study of Feminist Comic Art**
+      www: http://ostersjostiftelsen.se/projekt/650-a-multidisciplinary-study-of-feminist-comic-art
+
       
   publisher:
     avant:
