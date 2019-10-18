@@ -1,8 +1,8 @@
 import React from 'react'
 import { Nav, Container, Row, Col } from 'react-bootstrap'
 import { Link, FormattedMessage, injectIntl } from 'gatsby-plugin-intl'
-import LanguageSelector from '@components/element/LanguageSelector'
-import ScrollTop from '@components/helper/scrollTop'
+import LanguageSelector from '../element/LanguageSelector'
+import ScrollTop from '../helper/scrollTop'
 
 const Footer = () => {
   return (
