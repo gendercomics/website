@@ -13,7 +13,7 @@ install:
   - yarn install
 
 script:
-  - gatsby build
+  - yarn build
 
 #after_success:
 #- eval "$(ssh-agent -s)"
