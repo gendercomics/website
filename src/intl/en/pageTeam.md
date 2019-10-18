@@ -87,10 +87,11 @@ team:
     ingo:
       name: Ingo Börner
       textLead: >
-        **Ingo Börner** studied German and Slavic Philologies at University of Vienna and Moscow. He is exploring digital methods within humanities and brings great experiences in applying Semantic Web Technology to literature.
+        **Ingo Börner**
       textAbout: >
-        tbd
+        **Ingo Börner** studied German and Slavic Philologies at University of Vienna and Moscow. He is exploring digital methods within humanities and brings great experiences in applying Semantic Web Technology to literature.
       email: ingo.boerner@univie.ac.at
+      uni-www: https://www.oeaw.ac.at/acdh/team/current-team/ingo-boerner/
 
     michael:
       name: Michael Litschauer
@@ -98,8 +99,8 @@ team:
         **Michael Litschauer** is an experienced developer and project leader. A person who understands to lead agile  development processes in a calm and pragmatic way.
       textAbout: >
         tbd
-      linkedIn: michael-litschauer-79382689
       email: michael.litschauer@gmail.com
+      linkedIn: michael-litschauer-79382689
 
     matthias:
       name: Matthias Grieder
