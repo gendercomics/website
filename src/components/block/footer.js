@@ -47,6 +47,7 @@ const Footer = () => {
                   <span className="sr-only">Follow us on GitHub</span>
                 </a>
               </li>
+              {/*
               <li className="list-inline-item">
                 <a href="https://twitter.com/gendercomics"
                   target="_blank"
@@ -56,6 +57,7 @@ const Footer = () => {
                   <span className="sr-only">Follow us on Twitter</span>
                 </a>
               </li>
+              */}
             </ul>
           </Col>
         </Row>
