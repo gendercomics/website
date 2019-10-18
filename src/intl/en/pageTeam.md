@@ -105,8 +105,8 @@ team:
     matthias:
       name: Matthias Grieder
       textLead: >
-        **Matthias Grieder** is Designer specialised in User Experience and Usability. He understands context by observation, listening and curiosity to find solutions and integrate the best idea.
+        **Matthias Grieder**
       textAbout: >
-        tbd
-      linkedIn: matthias-grieder
+        **Matthias Grieder** is Designer specialised in User Experience and Usability. He understands context by observation, listening and curiosity to find solutions and integrate the best idea.
       email: matthias@zeitvertrieb.net
+      linkedIn: matthias-grieder
