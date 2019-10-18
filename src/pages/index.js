@@ -4,7 +4,6 @@ import {injectIntl} from 'gatsby-plugin-intl'
 import Markdown from 'react-remarkable'
 import PageTemplate from '@templates/pageTemplate'
 import {Col, Container, Jumbotron, Nav, Row} from "react-bootstrap"
-import panelImg from '@assets/panel/gender_queer_a_memoir.jpg'
 
 const IndexPage = ({intl}) => {
   return (

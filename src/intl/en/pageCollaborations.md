@@ -1,8 +1,8 @@
 ---
 collaborations:
-  title: Collaborations
+  title: Collaborations.
   textLead: >
-    **Who would expect** that three female theorist meeting three male developers makes such a great project. Well, a great example that gender diversity leads to a wider talent pool and different perspectives gain higher innovation.  
+    **/kəlabəˈreɪʃn/** The action of working with someone to produce something.
   sectionBoard: Advisory Board
   sectionInstitutions: Institutions and Projects
   sectionPublishers: Collaborations with Publishers

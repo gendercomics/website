@@ -2,7 +2,7 @@
 team:
   title: Team.
   textLead: >
-    **Here is some space** for introducing the team.  
+    **/tiːm/** A number of persons associated together in work or activity.
   sectionCore: Project Team
   sectionDev: IT Team
   accordion:

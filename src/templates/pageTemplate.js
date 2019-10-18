@@ -33,11 +33,7 @@ export default function PageTemplate({
       </Location>
       <Helmet title={pageTitle} />
       <CustomNavbar />
-      <div className="brand">
-        <animated.div className="pupil" style={{ transform: props.xy.interpolate(trans) }} />
-        <animated.div className="eye" />
-      </div>
-      <main onMouseMove={({ clientX: x, clientY: y }) => set({ xy: calc(x, y) })}>
+      <main>
         {children}
       </main>
       <Footer />
