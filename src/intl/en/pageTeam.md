@@ -1,6 +1,6 @@
 ---
 team:
-  title: All People behind this project.
+  title: Team.
   textLead: >
     **Who would expect** that three female theorist meeting three male developers makes such a great project. Well, a great example that gender diversity leads to a wider talent pool and different perspectives gain higher innovation.  
   sectionCore: Project Team
@@ -31,17 +31,17 @@ team:
         
         - forthcoming: “Queer Visualities and Subversive Spaces in German-Language Comics.” The LGBTQ Comics Reader. Eds. Alison Halsall and Jonathan Warren [with S. Hochreiter and K. Serles, University of Mississippi Press, 2020].        
       email: susanne.hochreiter@univie.ac.at
-      uni-www: https://www.univie.ac.at/germanistik/susanne-hochreiter
+      uni-www: germanistik/susanne-hochreiter
       academia: https://univie.academia.edu/SusanneHochreiter
       linkedIn: susanne-hochreiter-55728a38
-      twitter: https://twitter.com/HochreSu
+      twitter: HochreSu
 
     marina:
       name: Marina Rauchenbacher
       textLead: >
         **Marina Rauchenbacher**
       textAbout: >
-        **Marina Rauchenbacher** studied German Studies and Communication Studies at the Universities of Salzburg and Vienna. In 2012, she completed her doctoral thesis on the reception of Karoline von Günderrode. From 2005 to 2013, she worked as a research assistant to the project Kunst im Text (Art in Texts, funded by the Austrian Science Fund) at the Universities of Salzburg and Vienna and as a university assistant at the Department for German Studies, University of Vienna. She was an affiliated scholar at the Beatrice Bain Research Group, University of California, Berkeley (2014/2015). Since fall 2015, she is a research assistant to the project Arthur Schnitzler – Critical Edition (Early Works) and a lecturer at the University of Vienna. Additionally, she was employed as a lecturer for the master programs Interdisciplinary Gender Studies, University of Graz (2016) and Gender Studies, University of Vienna (2017). Since 2019, she is a board member of [aka – Arbeitskreis Kulturanalyse](https://aka.univie.ac.at/), and she is a co-founder of the [Austrian Association for the Research and Promotion of Comics (OeGeC)](https://oegec.com/). Her research and academic teaching focus on Visual Culture Studies, Comics, Image Theories, Gender Studies, Reception Theory, Edition Philology and German-language literature of the 20th and 21st century. For further information see: [https://www.univie.ac.at/germanistik/marina-rauchenbacher/](https://www.univie.ac.at/germanistik/marina-rauchenbacher/)
+        **Marina Rauchenbacher** studied German Studies and Communication Studies at the Universities of Salzburg and Vienna. In 2012, she completed her doctoral thesis on the reception of Karoline von Günderrode. From 2005 to 2013, she worked as a research assistant to the project Kunst im Text (Art in Texts, funded by the Austrian Science Fund) at the Universities of Salzburg and Vienna and as a university assistant at the Department for German Studies, University of Vienna. She was an affiliated scholar at the Beatrice Bain Research Group, University of California, Berkeley (2014/2015). Since fall 2015, she is a research assistant to the project Arthur Schnitzler – Critical Edition (Early Works) and a lecturer at the University of Vienna. Additionally, she was employed as a lecturer for the master programs Interdisciplinary Gender Studies, University of Graz (2016) and Gender Studies, University of Vienna (2017). Since 2019, she is a board member of [aka – Arbeitskreis Kulturanalyse](https://aka.univie.ac.at/), and she is a co-founder of the [Austrian Association for the Research and Promotion of Comics (OeGeC)](https://oegec.com/). Her research and academic teaching focus on Visual Culture Studies, Comics, Image Theories, Gender Studies, Reception Theory, Edition Philology and German-language literature of the 20th and 21st century.
 
       listPublication: >
         - “Opposing Viewpoints. Politics of Gazing in the Graphic Novel Gift.” Colloquia Germanica 48.4 (2015): Special Issue: German Graphic Novel. Eds. Lynn Kutch and Brett E. Sterling. 245–65. [published in 2018].
@@ -55,10 +55,11 @@ team:
         - forthcoming: “Fragmented and Framed. Precarious ‘Body Signs’ in Comics by Regina Hofer, Ulli Lust, and Barbara Yelin.” Spaces Between – Gender, Diversity and Identity in Comics. Eds. Nina Heindl and Véronique Sina [with K. Serles, Springer, 2019].
         
         - forthcoming: “Queer Visualities and Subversive Spaces in German-Language Comics.” The LGBTQ Comics Reader. Eds. Alison Halsall and Jonathan Warren [with S. Hochreiter and K. Serles, University of Mississippi Press, 2020].
-      linkedIn: marina-rauchenbacher-b007b3ab
       email: marina.rauchenbacher@univie.ac.at
-      uni-www: https://www.univie.ac.at/germanistik/marina-rauchenbacher
-      twitter: https://twitter.com/marinkima
+      uni-www: germanistik/marina-rauchenbacher
+      academia: https://univie.academia.edu/MarinaRauchenbacher
+      linkedIn: marina-rauchenbacher-b007b3ab
+      twitter: marinkima
 
     katharina:
       name: Katharina Serles

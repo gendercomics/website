@@ -154,6 +154,7 @@ const Team = ({ intl }) => {
               <Markdown>
                 <h2 className="mb-3">{intl.formatMessage({ id: 'team.sectionCore' })}</h2>
               </Markdown>
+              {/* Susanne Hochreiter */}
               <details id="Susanne" className="list-group list-group-flush">
                 <summary className="list-group-item list-group-item-action d-flex">
                   <img
@@ -184,7 +185,7 @@ const Team = ({ intl }) => {
                       </a>
                     </li>
                     <li className="list-inline-item">
-                      <a href={intl.formatMessage({id: 'team.person.susanne.uni-www'})}
+                      <a href={'https://univie.ac.at/' + intl.formatMessage({id: 'team.person.susanne.uni-www'})}
                          target="_blank"
                          rel="noopener noreferrer">
                         <i className="fa fa-university fa-lg fa-fw"></i>
@@ -216,7 +217,7 @@ const Team = ({ intl }) => {
                       </a>
                     </li>
                     <li className="list-inline-item">
-                      <a href={intl.formatMessage({id: 'team.person.susanne.twitter'})}
+                      <a href={'https://twitter.com/' + intl.formatMessage({id: 'team.person.susanne.twitter'})}
                          target="_blank"
                          rel="noopener noreferrer">
                         <i className="fa fa-twitter fa-lg fa-fw"></i>
@@ -228,6 +229,7 @@ const Team = ({ intl }) => {
                   </ul>
                 </Card.Footer>
               </details>
+              {/* Marina Rauchenbacher */}
               <details id="Marina" className="list-group list-group-flush">
                 <summary className="list-group-item list-group-item-action d-flex" eventKey="1">
                   <img
@@ -240,7 +242,6 @@ const Team = ({ intl }) => {
                   </p>
                 </summary>
                 <Card.Body>
-                  <div className="h5">{intl.formatMessage({ id: 'team.accordion.resume' })}</div>
                   <Markdown>{intl.formatMessage({ id: 'team.person.marina.textAbout' })}</Markdown>
                   <h3 className="h5">{intl.formatMessage({ id: 'team.accordion.publication' })}</h3>
                   <Markdown>{intl.formatMessage({ id: 'team.person.marina.listPublication' })}</Markdown>
@@ -249,14 +250,34 @@ const Team = ({ intl }) => {
                   <span className="text-muted small">{intl.formatMessage({ id: 'team.person.marina.name' })}</span>
                   <ul class="list-inline mb-0 ml-auto">
                     <li className="list-inline-item">
+                      <a href={'mailto:' + intl.formatMessage({id: 'team.person.marina.email'})}
+                         target="_blank"
+                         rel="noopener noreferrer">
+                        <i className="fa fa-envelope fa-lg fa-fw"></i>
+                        <span className="sr-only">
+                          {intl.formatMessage({id: 'action.sendEmail'})}
+                        </span>
+                      </a>
+                    </li>
+                    <li className="list-inline-item">
                       <a
-                        href={intl.formatMessage({id: 'team.person.marina.uni-www'})}
+                        href={'https://univie.ac.at/' + intl.formatMessage({id: 'team.person.marina.uni-www'})}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
                         <i className="fa fa-university fa-lg fa-fw"></i>
                         <span className="sr-only">
                           {intl.formatMessage({id: 'action.uni-www'})}
+                        </span>
+                      </a>
+                    </li>
+                    <li className="list-inline-item">
+                      <a href={intl.formatMessage({id: 'team.person.marina.academia'})}
+                         target="_blank"
+                         rel="noopener noreferrer">
+                        <i className="fa fa-graduation-cap fa-lg fa-fw"></i>
+                        <span className="sr-only">
+                          {intl.formatMessage({id: 'action.academia'})}
                         </span>
                       </a>
                     </li>
@@ -272,18 +293,9 @@ const Team = ({ intl }) => {
                         </span>
                       </a>
                     </li>
-                    <li class="list-inline-item">
-                      <a href={'mailto:' + intl.formatMessage({ id: 'team.person.marina.email' })}
-                        target="_blank"
-                        rel="noopener noreferrer">
-                        <i className="fa fa-envelope fa-lg fa-fw"></i>
-                        <span className="sr-only">
-                          {intl.formatMessage({ id: 'action.sendEmail' })}
-                        </span>
-                      </a>
-                    </li>
+
                     <li className="list-inline-item">
-                      <a href={intl.formatMessage({id: 'team.person.marina.twitter'})}
+                      <a href={'https://twitter.com/' + intl.formatMessage({id: 'team.person.marina.twitter'})}
                          target="_blank"
                          rel="noopener noreferrer">
                         <i className="fa fa-twitter fa-lg fa-fw"></i>
