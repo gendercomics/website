@@ -364,33 +364,6 @@ const Team = ({ intl }) => {
                 <Card.Body>
                   <Markdown>{intl.formatMessage({ id: 'collaborations.person.frahm.textAbout' })}</Markdown>
                 </Card.Body>
-                <Card.Footer className="d-flex">
-                  <span className="text-muted small">{intl.formatMessage({ id: 'collaborations.person.frahm.name' })}</span>
-                  <ul class="list-inline mb-0 ml-auto">
-                    <li class="list-inline-item">
-                      <a
-                        href={'https://www.linkedin.com/in/' + intl.formatMessage({ id: 'collaborations.person.frahm.linkedIn' })}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        >
-                        <i className="fa fa-linkedin fa-lg fa-fw"></i>
-                        <span className="sr-only">
-                          {intl.formatMessage({ id: 'action.linkedIn' })}
-                        </span>
-                      </a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a href={'mailto:' + intl.formatMessage({ id: 'collaborations.person.frahm.email' })}
-                        target="_blank"
-                        rel="noopener noreferrer">
-                        <i className="fa fa-paper-plane fa-lg fa-fw"></i>
-                        <span className="sr-only">
-                          {intl.formatMessage({ id: 'action.sendEmail' })}
-                        </span>
-                      </a>
-                    </li>
-                  </ul>
-                </Card.Footer>
               </details>
               {/* Elizabeth “Biz” Nijdam */}
               <details id="nijdam" className="list-group list-group-flush">
