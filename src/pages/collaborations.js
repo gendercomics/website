@@ -13,11 +13,11 @@ import genderagencyImg from '@assets/comic-book.png'
 import nextcomicImg from '@assets/institution/nextcomic.png'
 import gsaImg from '@assets/comic-book.png'
 import feministcomicImg from '@assets/comic-book.png'
-import avantImg from '@assets/comic-book.png'
-import carlsemImg from '@assets/comic-book.png'
-import editionmoderneImg from '@assets/comic-book.png'
-import luftschachtImg from '@assets/comic-book.png'
-import reproduktImg from '@assets/comic-book.png'
+import avantImg from '@assets/publisher/avant_logo.png'
+import carlsemImg from '@assets/publisher/Carlsen_Logo.jpg'
+import editionmoderneImg from '@assets/publisher/edition-moderne-logo.png'
+import luftschachtImg from '@assets/publisher/luftschacht-logo.png'
+import reproduktImg from '@assets/publisher/reprodukt_logo.jpg'
 
 const Team = ({ intl }) => {
   return (
@@ -590,155 +590,90 @@ const Team = ({ intl }) => {
                 <h2 className="mb-3">{intl.formatMessage({ id: 'collaborations.sectionPublishers' })}</h2>
               </Markdown>
               {/* avant-verlag */}
-              <details id="avant" className="list-group list-group-flush">
-                <summary className="list-group-item list-group-item-action d-flex" eventKey="2">
-                  <img
-                    className="img-fluid image__person rounded-circle mr-3 float-left"
-                    src={avantImg}
-                    alt={intl.formatMessage({ id: 'collaborations.publisher.avant.name' })}
-                  />
-                  <p className="lead my-auto">
-                    <Markdown>{intl.formatMessage({ id: 'collaborations.publisher.avant.textLead' })}</Markdown>
-                  </p>
-                </summary>
-                <Card.Footer className="d-flex">
-                  <span className="text-muted small">{intl.formatMessage({ id: 'collaborations.publisher.avant.name' })}</span>
-                  <ul class="list-inline mb-0 ml-auto">
-                    <li class="list-inline-item">
-                      <a
-                        href={intl.formatMessage({ id: 'collaborations.publisher.avant.www' })}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i className="fa fa-external-link-square fa-lg fa-fw"></i>
-                        <span className="sr-only">
-                          {intl.formatMessage({ id: 'action.www' })}
-                        </span>
-                      </a>
-                    </li>
-                  </ul>
-                </Card.Footer>
-              </details>
+              <div id="avant" className="list-group list-group-flush">
+                <div className="list-group-item d-flex">
+                  <a
+                    href={intl.formatMessage({id: 'collaborations.publisher.avant.www'})}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      className="float-left"
+                      src={avantImg}
+                      alt={intl.formatMessage({ id: 'collaborations.publisher.avant.name' })}
+                      height="50"
+                    />
+                  </a>
+                </div>
+              </div>
               {/* Carlsen */}
-              <details id="carlsen" className="list-group list-group-flush">
-                <summary className="list-group-item list-group-item-action d-flex" eventKey="2">
-                  <img
-                    className="img-fluid image__person rounded-circle mr-3 float-left"
-                    src={carlsemImg}
-                    alt={intl.formatMessage({ id: 'collaborations.publisher.carlsen.name' })}
-                  />
-                  <p className="lead my-auto">
-                    <Markdown>{intl.formatMessage({ id: 'collaborations.publisher.carlsen.textLead' })}</Markdown>
-                  </p>
-                </summary>
-                <Card.Footer className="d-flex">
-                  <span className="text-muted small">{intl.formatMessage({ id: 'collaborations.publisher.carlsen.name' })}</span>
-                  <ul class="list-inline mb-0 ml-auto">
-                    <li class="list-inline-item">
-                      <a
-                        href={intl.formatMessage({ id: 'collaborations.publisher.carlsen.www' })}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i className="fa fa-external-link-square fa-lg fa-fw"></i>
-                        <span className="sr-only">
-                          {intl.formatMessage({ id: 'action.www' })}
-                        </span>
-                      </a>
-                    </li>
-                  </ul>
-                </Card.Footer>
-              </details>
+              <div id="carlsen" className="list-group list-group-flush">
+                <div className="list-group-item d-flex">
+                  <a
+                    href={intl.formatMessage({id: 'collaborations.publisher.carlsen.www'})}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      className="float-left"
+                      src={carlsemImg}
+                      alt={intl.formatMessage({ id: 'collaborations.publisher.carlsen.name' })}
+                      height="50"
+                    />
+                  </a>
+                </div>
+              </div>
               {/* Edition Moderne */}
-              <details id="editionmoderne" className="list-group list-group-flush">
-                <summary className="list-group-item list-group-item-action d-flex" eventKey="2">
-                  <img
-                    className="img-fluid image__person rounded-circle mr-3 float-left"
-                    src={editionmoderneImg}
-                    alt={intl.formatMessage({ id: 'collaborations.publisher.editionmoderne.name' })}
-                  />
-                  <p className="lead my-auto">
-                    <Markdown>{intl.formatMessage({ id: 'collaborations.publisher.editionmoderne.textLead' })}</Markdown>
-                  </p>
-                </summary>
-                <Card.Footer className="d-flex">
-                  <span className="text-muted small">{intl.formatMessage({ id: 'collaborations.publisher.editionmoderne.name' })}</span>
-                  <ul class="list-inline mb-0 ml-auto">
-                    <li class="list-inline-item">
-                      <a
-                        href={intl.formatMessage({ id: 'collaborations.publisher.editionmoderne.www' })}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i className="fa fa-external-link-square fa-lg fa-fw"></i>
-                        <span className="sr-only">
-                          {intl.formatMessage({ id: 'action.www' })}
-                        </span>
-                      </a>
-                    </li>
-                  </ul>
-                </Card.Footer>
-              </details>
+              <div id="editionmoderne" className="list-group list-group-flush">
+                <div className="list-group-item d-flex">
+                  <a
+                    href={intl.formatMessage({id: 'collaborations.publisher.editionmoderne.www'})}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      className="float-left"
+                      src={editionmoderneImg}
+                      alt={intl.formatMessage({ id: 'collaborations.publisher.editionmoderne.name' })}
+                      height="50"
+                    />
+                  </a>
+                </div>
+              </div>
               {/* Luftschacht */}
-              <details id="luftschacht" className="list-group list-group-flush">
-                <summary className="list-group-item list-group-item-action d-flex" eventKey="2">
-                  <img
-                    className="img-fluid image__person rounded-circle mr-3 float-left"
-                    src={luftschachtImg}
-                    alt={intl.formatMessage({ id: 'collaborations.publisher.luftschacht.name' })}
-                  />
-                  <p className="lead my-auto">
-                    <Markdown>{intl.formatMessage({ id: 'collaborations.publisher.luftschacht.textLead' })}</Markdown>
-                  </p>
-                </summary>
-                <Card.Footer className="d-flex">
-                  <span className="text-muted small">{intl.formatMessage({ id: 'collaborations.publisher.luftschacht.name' })}</span>
-                  <ul class="list-inline mb-0 ml-auto">
-                    <li class="list-inline-item">
-                      <a
-                        href={intl.formatMessage({ id: 'collaborations.publisher.luftschacht.www' })}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i className="fa fa-external-link-square fa-lg fa-fw"></i>
-                        <span className="sr-only">
-                          {intl.formatMessage({ id: 'action.www' })}
-                        </span>
-                      </a>
-                    </li>
-                  </ul>
-                </Card.Footer>
-              </details>
+              <div id="luftschacht" className="list-group list-group-flush">
+                <div className="list-group-item d-flex">
+                  <a
+                    href={intl.formatMessage({id: 'collaborations.publisher.luftschacht.www'})}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      className="float-left"
+                      src={luftschachtImg}
+                      alt={intl.formatMessage({ id: 'collaborations.publisher.luftschacht.name' })}
+                      height="50"
+                    />
+                  </a>
+                </div>
+              </div>
               {/* Reprodukt */}
-              <details id="reprodukt" className="list-group list-group-flush">
-                <summary className="list-group-item list-group-item-action d-flex" eventKey="2">
-                  <img
-                    className="img-fluid image__person rounded-circle mr-3 float-left"
-                    src={reproduktImg}
-                    alt={intl.formatMessage({ id: 'collaborations.publisher.reprodukt.name' })}
-                  />
-                  <p className="lead my-auto">
-                    <Markdown>{intl.formatMessage({ id: 'collaborations.publisher.reprodukt.textLead' })}</Markdown>
-                  </p>
-                </summary>
-                <Card.Footer className="d-flex">
-                  <span className="text-muted small">{intl.formatMessage({ id: 'collaborations.publisher.reprodukt.name' })}</span>
-                  <ul class="list-inline mb-0 ml-auto">
-                    <li class="list-inline-item">
-                      <a
-                        href={intl.formatMessage({ id: 'collaborations.publisher.reprodukt.www' })}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i className="fa fa-external-link-square fa-lg fa-fw"></i>
-                        <span className="sr-only">
-                          {intl.formatMessage({ id: 'action.www' })}
-                        </span>
-                      </a>
-                    </li>
-                  </ul>
-                </Card.Footer>
-              </details>
+              <div id="reprodukt" className="list-group list-group-flush">
+                <div className="list-group-item d-flex">
+                  <a
+                    href={intl.formatMessage({id: 'collaborations.publisher.reprodukt.www'})}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      className="float-left"
+                      src={reproduktImg}
+                      alt={intl.formatMessage({ id: 'collaborations.publisher.reprodukt.name' })}
+                      height="50"
+                    />
+                  </a>
+                </div>
+              </div>
             </section>
           </Col>
         </Row>
