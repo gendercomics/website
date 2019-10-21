@@ -32,5 +32,9 @@ script:
 #- cd $TRAVIS_BUILD_DIR/public
 #- scp -r * deploy@gendercomics.net:/var/gendercomics/web/
 
-
-
+notifications:
+  slack:
+    rooms:
+      - visualitiesofgender:3zAI6z6JJXLeEIaBU49O0Wkr#website
+    on_success: change # default: always
+    on_failure: always # default: always
