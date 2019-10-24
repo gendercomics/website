@@ -38,3 +38,4 @@ $RECYCLE.BIN/
 .github
 *.iml
 
+/deploy-key
