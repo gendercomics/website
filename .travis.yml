@@ -30,7 +30,7 @@ after_success:
   - chmod 600 deploy-key
   - ssh-add deploy-key
   - cd $TRAVIS_BUILD_DIR/public
-  - scp -r * deploy@gendercomics.net:/var/gendercomics/web/
+  - scp -r * deploy@gendercomics.net:/var/gendercomics/website/public
   on:
     branch: master
 
