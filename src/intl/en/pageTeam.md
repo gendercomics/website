@@ -2,7 +2,7 @@
 team:
   title: Team.
   textLead: >
-    **/tiːm/** A number of persons associated together in work or activity.
+    These are the people behind **GenderComics.**
   sectionCore: Project Team
   sectionDev: IT Team
   accordion:

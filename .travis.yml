@@ -25,12 +25,14 @@ before_script:
 script:
   - yarn build
 
-#after_success:
-#- eval "$(ssh-agent -s)"
-#- chmod 600 deploy-key
-#- ssh-add deploy-key
-#- cd $TRAVIS_BUILD_DIR/public
-#- scp -r * deploy@gendercomics.net:/var/gendercomics/web/
+after_success:
+  - eval "$(ssh-agent -s)"
+  - chmod 600 deploy-key
+  - ssh-add deploy-key
+  - cd $TRAVIS_BUILD_DIR/public
+  - scp -r * deploy@gendercomics.net:/var/gendercomics/web/
+  on:
+    branch: master
 
 notifications:
   slack:

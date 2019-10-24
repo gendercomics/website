@@ -2,7 +2,7 @@
 collaborations:
   title: Collaborations.
   textLead: >
-    **/kəlabəˈreɪʃn/** The action of working with someone to produce something.
+    **GenderComics** collaborates with the following researchers and institutions. 
   sectionBoard: Advisory Board
   sectionInstitutions: Institutions and Projects
   sectionPublishers: Collaborations with Publishers
