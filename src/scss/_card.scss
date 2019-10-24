@@ -1,0 +1,11 @@
+// Cards
+
+.card-body {
+  transition: background-color ease-in 100ms;
+  background-color: $white;
+}
+.card-footer {
+  transition: background-color ease-in 300ms;
+  background-color: transparent;
+  border-top: 0;
+}

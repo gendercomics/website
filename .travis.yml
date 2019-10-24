@@ -2,15 +2,41 @@ language: node_js
 
 node_js:
   - node
-  - lts/*
-
-install:
-  - SKIP_SETUP=true npm install
-
-script:
-  - npm run lint:styles
-  - npm run lint:js
-  - npm run build:dist
 
 dist: trusty
 sudo: false
+
+addons:
+  ssh_known_hosts: gendercomics.net
+
+cache:
+  directories:
+    - node_modules
+
+before_install:
+  - openssl aes-256-cbc -K $encrypted_ac25a508ad54_key -iv $encrypted_ac25a508ad54_iv -in deploy-key.enc -out deploy-key -d
+
+install:
+  - yarn
+
+before_script:
+  - npm i -g gatsby-cli
+
+script:
+  - yarn build
+
+after_success:
+  - eval "$(ssh-agent -s)"
+  - chmod 600 deploy-key
+  - ssh-add deploy-key
+  - cd $TRAVIS_BUILD_DIR/public
+  - scp -r * deploy@gendercomics.net:/var/gendercomics/website/public
+  on:
+    branch: master
+
+notifications:
+  slack:
+    rooms:
+      - visualitiesofgender:3zAI6z6JJXLeEIaBU49O0Wkr#website
+    on_success: change # default: always
+    on_failure: always # default: always

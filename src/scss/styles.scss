@@ -1,0 +1,17 @@
+// Core variables and mixins
+@import "variables.scss";
+@import "mixins.scss";
+// Global CSS
+@import "global.scss";
+@import "type.scss";
+@import "figure.scss";
+@import "details.scss";
+// Blocks
+@import "footer.scss";
+@import "aside.scss";
+// Components
+@import "brand.scss";
+@import "navbar.scss";
+@import "card.scss";
+@import "list.scss";
+@import "language-selector.scss";

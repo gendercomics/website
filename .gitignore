@@ -1,5 +1,6 @@
 ## Project
-dist/*
+/.cache/
+/public/
 
 ## Node.js
 lib-cov
@@ -35,3 +36,5 @@ Desktop.ini
 $RECYCLE.BIN/
 .idea
 .github
+*.iml
+
