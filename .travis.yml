@@ -6,6 +6,8 @@ node_js:
 dist: trusty
 sudo: false
 
+if: branch = master
+
 addons:
   ssh_known_hosts: gendercomics.net
 
@@ -25,16 +27,12 @@ before_script:
 script:
   - yarn build
 
-jobs:
-  include:
-    - # require the branch name to be master (note for PRs this is the base branch name)
-      if: branch = master
-      after_success:
-        - eval "$(ssh-agent -s)"
-        - chmod 600 deploy-key
-        - ssh-add deploy-key
-        - cd $TRAVIS_BUILD_DIR/public
-        - scp -r * deploy@gendercomics.net:/var/gendercomics/website/public
+after_success:
+  - eval "$(ssh-agent -s)"
+  - chmod 600 deploy-key
+  - ssh-add deploy-key
+  - cd $TRAVIS_BUILD_DIR/public
+  - scp -r * deploy@gendercomics.net:/var/gendercomics/website/public
 
 notifications:
   slack:
