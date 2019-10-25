@@ -3,7 +3,7 @@ import { Link, animateScroll as scroll } from 'react-scroll'
 import { injectIntl } from 'gatsby-plugin-intl'
 import Markdown from 'react-remarkable'
 import PageTemplate from '@templates/pageTemplate'
-import { Container, Nav, Card, Jumbotron, Row, Col, Accordion } from "react-bootstrap"
+import { Container, Nav, Card, CardDeck, Jumbotron, Row, Col } from "react-bootstrap"
 import fliedlImg from '@assets/board/konstanze-fliedl.png'
 import feuchtenbergerImg from '@assets/board/anke-feuchtenberger.png'
 import frahmImg from '@assets/comic-book.png'
@@ -13,11 +13,11 @@ import genderagencyImg from '@assets/comic-book.png'
 import nextcomicImg from '@assets/institution/nextcomic.png'
 import gsaImg from '@assets/comic-book.png'
 import feministcomicImg from '@assets/comic-book.png'
-import avantImg from '@assets/publisher/avant_logo.png'
-import carlsemImg from '@assets/publisher/Carlsen_Logo.jpg'
-import editionmoderneImg from '@assets/publisher/edition-moderne-logo.png'
-import luftschachtImg from '@assets/publisher/luftschacht-logo.png'
-import reproduktImg from '@assets/publisher/reprodukt_logo.jpg'
+import avantImg from '@assets/publisher/avant-logo.jpg'
+import carlsenImg from '@assets/publisher/carlsen-logo.jpg'
+import editionmoderneImg from '@assets/publisher/edition-moderne-logo.jpg'
+import luftschachtImg from '@assets/publisher/luftschacht-logo.jpg'
+import reproduktImg from '@assets/publisher/reprodukt-logo.jpg'
 
 const Team = ({ intl }) => {
   return (
@@ -400,7 +400,7 @@ const Team = ({ intl }) => {
             {/* ------------------------- */}
             {/* Institutions and Projects */}
             {/* ------------------------- */}
-            <section id="developmentTeam" className="mt-4">
+            <section id="institutions" className="mt-4">
               <Markdown>
                 <h2 className="mb-3">{intl.formatMessage({ id: 'collaborations.sectionInstitutions' })}</h2>
               </Markdown>
@@ -558,95 +558,61 @@ const Team = ({ intl }) => {
             {/* ------------------------------ */}
             {/* Collaborations with Publishers */}
             {/* ------------------------------ */}
-            <section id="advisoryBoard" className="mt-4">
+            <section id="publishers" className="mt-4">
               <Markdown>
                 <h2 className="mb-3">{intl.formatMessage({ id: 'collaborations.sectionPublishers' })}</h2>
               </Markdown>
-              {/* avant-verlag */}
-              <div id="avant" className="list-group list-group-flush">
-                <div className="list-group-item d-flex">
-                  <a
-                    href={intl.formatMessage({id: 'collaborations.publisher.avant.www'})}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      className="float-left"
-                      src={avantImg}
-                      alt={intl.formatMessage({ id: 'collaborations.publisher.avant.name' })}
-                      height="50"
-                    />
-                  </a>
-                </div>
-              </div>
-              {/* Carlsen */}
-              <div id="carlsen" className="list-group list-group-flush">
-                <div className="list-group-item d-flex">
-                  <a
-                    href={intl.formatMessage({id: 'collaborations.publisher.carlsen.www'})}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      className="float-left"
-                      src={carlsemImg}
-                      alt={intl.formatMessage({ id: 'collaborations.publisher.carlsen.name' })}
-                      height="50"
-                    />
-                  </a>
-                </div>
-              </div>
-              {/* Edition Moderne */}
-              <div id="editionmoderne" className="list-group list-group-flush">
-                <div className="list-group-item d-flex">
-                  <a
-                    href={intl.formatMessage({id: 'collaborations.publisher.editionmoderne.www'})}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      className="float-left"
-                      src={editionmoderneImg}
-                      alt={intl.formatMessage({ id: 'collaborations.publisher.editionmoderne.name' })}
-                      height="50"
-                    />
-                  </a>
-                </div>
-              </div>
-              {/* Luftschacht */}
-              <div id="luftschacht" className="list-group list-group-flush">
-                <div className="list-group-item d-flex">
-                  <a
-                    href={intl.formatMessage({id: 'collaborations.publisher.luftschacht.www'})}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      className="float-left"
-                      src={luftschachtImg}
-                      alt={intl.formatMessage({ id: 'collaborations.publisher.luftschacht.name' })}
-                      height="50"
-                    />
-                  </a>
-                </div>
-              </div>
-              {/* Reprodukt */}
-              <div id="reprodukt" className="list-group list-group-flush">
-                <div className="list-group-item d-flex">
-                  <a
-                    href={intl.formatMessage({id: 'collaborations.publisher.reprodukt.www'})}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      className="float-left"
-                      src={reproduktImg}
-                      alt={intl.formatMessage({ id: 'collaborations.publisher.reprodukt.name' })}
-                      height="50"
-                    />
-                  </a>
-                </div>
-              </div>
+              <CardDeck className="">
+                <a id="avant" className="card p-3"
+                  href={intl.formatMessage({id: 'collaborations.publisher.avant.www'})}
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <Card.Img
+                    variant="top"
+                    src={avantImg}
+                    alt={intl.formatMessage({ id: 'collaborations.publisher.avant.name' })}
+                  />
+                </a>
+                <a id="carlsen" className="card p-3"
+                  href={intl.formatMessage({id: 'collaborations.publisher.carlsen.www'})}
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <Card.Img
+                    variant="top"
+                    src={carlsenImg}
+                    alt={intl.formatMessage({ id: 'collaborations.publisher.carlsen.name' })} />
+                </a>
+                <a id="editionmoderne" className="card p-3"
+                  href={intl.formatMessage({id: 'collaborations.publisher.editionmoderne.www'})}
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <Card.Img
+                    variant="top"
+                    src={editionmoderneImg}
+                    alt={intl.formatMessage({ id: 'collaborations.publisher.editionmoderne.name' })}
+                  />
+                </a>
+                <a id="luftschacht" className="card p-3"
+                  href={intl.formatMessage({id: 'collaborations.publisher.luftschacht.www'})}
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <Card.Img
+                    variant="top"
+                    src={luftschachtImg}
+                    alt={intl.formatMessage({ id: 'collaborations.publisher.luftschacht.name' })}
+                  />
+                </a>
+                <a id="reprodukt" className="card p-3"
+                  href={intl.formatMessage({id: 'collaborations.publisher.reprodukt.www'})}
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <Card.Img
+                    variant="top"
+                    src={reproduktImg}
+                    alt={intl.formatMessage({ id: 'collaborations.publisher.reprodukt.name' })}
+                  />
+                </a>
+              </CardDeck>
             </section>
           </Col>
         </Row>

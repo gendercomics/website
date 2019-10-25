@@ -6,15 +6,17 @@ node_js:
 dist: trusty
 sudo: false
 
+stages:
+  - name: after_success
+    # require the branch name to be master (note for PRs this is the base branch name)
+    if: branch = master
+
 addons:
   ssh_known_hosts: gendercomics.net
 
 cache:
   directories:
     - node_modules
-
-before_install:
-  - openssl aes-256-cbc -K $encrypted_ac25a508ad54_key -iv $encrypted_ac25a508ad54_iv -in deploy-key.enc -out deploy-key -d
 
 install:
   - yarn
@@ -25,12 +27,25 @@ before_script:
 script:
   - yarn build
 
-after_success:
+#after_success:
+#  - eval "$(ssh-agent -s)"
+#  - chmod 600 deploy-key
+#  - ssh-add deploy-key
+#  - cd $TRAVIS_BUILD_DIR/public
+#  - scp -r * deploy@gendercomics.net:/var/gendercomics/website/public
+
+before_deploy:
+  - openssl aes-256-cbc -K $encrypted_ac25a508ad54_key -iv $encrypted_ac25a508ad54_iv -in deploy-key.enc -out deploy-key -d
   - eval "$(ssh-agent -s)"
   - chmod 600 deploy-key
   - ssh-add deploy-key
-  - cd $TRAVIS_BUILD_DIR/public
-  - scp -r * deploy@gendercomics.net:/var/gendercomics/website/public
+
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/public deploy@gendercomics.net:/var/gendercomics/website/public
+  on:
+    branch: master
 
 notifications:
   slack:
