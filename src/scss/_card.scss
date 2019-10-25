@@ -9,3 +9,46 @@
   background-color: transparent;
   border-top: 0;
 }
+
+// Card Deck
+
+.card-deck {
+  display: flex;
+  flex-flow: row wrap;
+  margin-right: -$card-group-margin;
+  margin-left: -$card-group-margin;
+
+  .card {
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    flex: 0 calc(50% - #{$card-group-margin} * 2);
+    max-width: calc(50% - #{$card-group-margin} * 2);
+
+    margin-right: $card-group-margin;
+    margin-left: $card-group-margin;
+
+    > img {
+      margin: auto;
+    }
+  }
+  @include media-breakpoint-up(sm) {
+    .card {
+      flex-basis: 0;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      flex: 0 calc(50% - #{$card-group-margin} * 2);
+      max-width: calc(50% - #{$card-group-margin} * 2);
+      margin-bottom: calc(#{$card-group-margin} * 2);
+    }
+  }
+  @include media-breakpoint-up(md) {
+    .card {
+      flex-basis: 0;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      flex: 0 0 calc(33.333% - #{$card-group-margin} * 2);
+      max-width: calc(33.333% - #{$card-group-margin} * 2);
+    }
+  }
+}
