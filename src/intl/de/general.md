@@ -1,6 +1,6 @@
 ---
 header:
-  brand: gendercomics
+  brand: GenderComics
   title: desc
 
 navigation:

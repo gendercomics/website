@@ -3,7 +3,9 @@ import {Link} from 'react-scroll'
 import {injectIntl} from 'gatsby-plugin-intl'
 import Markdown from 'react-remarkable'
 import PageTemplate from '@templates/pageTemplate'
-import {Col, Container, Jumbotron, Nav, Row} from "react-bootstrap"
+import {Col, Container, Jumbotron, Nav, Image, Row} from "react-bootstrap"
+import uniImg from '@assets/institution/Uni_Wien_Logo.svg'
+import fwfImg from '@assets/institution/FWF_Logo.svg'
 
 const IndexPage = ({intl}) => {
   return (
@@ -94,6 +96,7 @@ const IndexPage = ({intl}) => {
                 {intl.formatMessage({ id: 'index.textAbstract' })}
               </Markdown>
             </section>
+            <hr />
             <section id="fundingOrg" className="mt-4">
               <Markdown>
                 <h2>{intl.formatMessage({ id: 'index.sectionFundingOrg' })}</h2>
@@ -101,7 +104,9 @@ const IndexPage = ({intl}) => {
               <Markdown>
                 {intl.formatMessage({ id: 'index.textFundingOrg' })}
               </Markdown>
+              <Image className="w-50" src={fwfImg} fluid />
             </section>
+            <hr />
             <section id="institution" className="mt-4">
               <Markdown>
                 <h2>{intl.formatMessage({ id: 'index.sectionInstitution' })}</h2>
@@ -109,7 +114,9 @@ const IndexPage = ({intl}) => {
               <Markdown>
                 {intl.formatMessage({ id: 'index.textInstitution' })}
               </Markdown>
+              <Image className="w-50" src={uniImg} fluid />
             </section>
+            <hr />
             <section id="contact" className="mt-4">
               <Markdown>
                 <h2>{intl.formatMessage({ id: 'index.sectionContact' })}</h2>

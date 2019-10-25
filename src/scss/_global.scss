@@ -48,3 +48,18 @@ a, .nav-link,
   text-decoration: underline;
   font-weight: 600;
 }
+
+hr {
+  text-align: center;
+  border: 0;
+  height: 4rem;
+  display: flex;
+
+  &::before {
+    content: "";
+    height: 1px;
+    background-color: $gray-300;
+    margin: 2rem auto;
+    width: 100%;
+  }
+}
