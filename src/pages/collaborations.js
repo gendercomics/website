@@ -1,9 +1,11 @@
 import React from 'react'
 import { Link } from 'react-scroll'
-import { FormattedMessage, injectIntl } from 'gatsby-plugin-intl'
+import { useIntl, FormattedMessage, injectIntl } from 'gatsby-plugin-intl'
 import Markdown from 'react-remarkable'
 import PageTemplate from '@templates/pageTemplate'
-import { Container, Nav, Card, CardDeck, Jumbotron, Row, Col } from "react-bootstrap"
+import { Container, Nav, Card, CardDeck, Jumbotron, Row, Col } from 'react-bootstrap'
+import SEO from '@components/helper/seo'
+
 import fliedlImg from '@assets/board/konstanze-fliedl.png'
 import feuchtenbergerImg from '@assets/board/anke-feuchtenberger.png'
 import frahmImg from '@assets/comic-book.png'
@@ -19,9 +21,14 @@ import akaImg from '@assets/institution/aka.png'
 import feministcomicImg from '@assets/institution/gsa-logo.jpg'
 import gsaImg from '@assets/institution/gsa-logo.jpg'
 
-const Team = ({ intl }) => {
+const Collaborations = () => {
+  const intl = useIntl()
   return (
-    <PageTemplate title={intl.formatMessage({ id: 'collaborations.title' })}>
+    <PageTemplate>
+      <SEO
+        lang={intl.locale}
+        title={`${intl.formatMessage({ id: 'collaborations.title' })}`}
+      />
       <Jumbotron>
         <Container>
           <Markdown>
@@ -583,4 +590,4 @@ const Team = ({ intl }) => {
   )
 }
 
-export default injectIntl(Team)
+export default Collaborations

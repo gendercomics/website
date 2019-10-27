@@ -23,7 +23,7 @@
     "gatsby-link": "2.2.11",
     "gatsby-plugin-catch-links": "^2.1.9",
     "gatsby-plugin-google-analytics": "2.1.13",
-    "gatsby-plugin-intl": "^0.2.8",
+    "gatsby-plugin-intl": "^0.3.0",
     "gatsby-plugin-manifest": "^2.2.14",
     "gatsby-plugin-module-resolver": "^1.0.3",
     "gatsby-plugin-nprogress": "2.1.5",

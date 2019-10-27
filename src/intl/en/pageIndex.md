@@ -42,7 +42,7 @@ index:
     name: >
       **University of Vienna**
     detail: >
-      Institut für Germanistik
+      Department of German Studies
     www: https://germanistik.univie.ac.at
 
   sectionContact: Contact
