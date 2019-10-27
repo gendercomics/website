@@ -89,7 +89,7 @@ team:
       textLead: >
         **Ingo Börner**
       textAbout: >
-        **Ingo Börner** studied German and Slavic Philologies at University of Vienna and Moscow. He is exploring digital methods within humanities and brings great experiences in applying Semantic Web Technology to literature.
+        **Ingo Börner** studied German and Slavic Philologies at the  Universities of Vienna and Moscow. He is exploring digital methods within humanities and brings great experiences in applying Semantic Web Technology to literature.
       email: ingo.boerner@univie.ac.at
       uni-www: https://www.oeaw.ac.at/acdh/team/current-team/ingo-boerner/
 
