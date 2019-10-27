@@ -1,15 +1,22 @@
 import React from 'react'
 import {Link} from 'react-scroll'
-import {FormattedMessage, injectIntl} from 'gatsby-plugin-intl'
+import {useIntl, FormattedMessage, injectIntl} from 'gatsby-plugin-intl'
 import Markdown from 'react-remarkable'
 import PageTemplate from '@templates/pageTemplate'
-import {Col, Container, Jumbotron, Card, Nav, Image, Row} from "react-bootstrap"
+import {Col, Container, Jumbotron, Card, Nav, Image, Row} from 'react-bootstrap'
+import SEO from '@components/helper/seo'
+
 import uniImg from '@assets/institution/UniWien-logo.svg'
 import fwfImg from '@assets/institution/FWF-logo.svg'
 
-const IndexPage = ({intl}) => {
+const IndexPage = () => {
+  const intl = useIntl()
   return (
-    <PageTemplate title={intl.formatMessage({id: 'index.title'})}>
+    <PageTemplate>
+      <SEO
+        lang={intl.locale}
+        title={`${intl.formatMessage({ id: 'index.title' })}`}
+      />
       <Jumbotron>
         <Container>
           <h1 className="display-1">{intl.formatMessage({id: 'index.title'})}</h1>
@@ -112,15 +119,17 @@ const IndexPage = ({intl}) => {
                     </Card.Body>
                     <Card.Footer>
                       <Markdown>{intl.formatMessage({ id: 'index.fundingFWF.name' })}</Markdown>
-                      <a href={intl.formatMessage({id: 'index.fundingFWF.www'})}
-                         target="_blank"
-                         title={intl.formatMessage({id: 'index.fundingFWF.www'})}
-                         className="float-right"
-                         rel="noopener noreferrer">
-                         <i className="fa fa-external-link-square fa-lg fa-fw"></i>
-                         <span className="sr-only">
-                           {intl.formatMessage({id: 'action.www'})}
-                         </span>
+                      <a
+                        href={intl.formatMessage({id: 'index.fundingFWF.www'})}
+                        title={intl.formatMessage({id: 'index.fundingFWF.www'})}
+                        target="_blank"
+                        className="float-right"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-external-link-square fa-lg fa-fw"></i>
+                        <span className="sr-only">
+                          {intl.formatMessage({id: 'action.www'})}
+                        </span>
                       </a>
                       <small><Markdown>{intl.formatMessage({ id: 'index.fundingFWF.detail' })}</Markdown></small>
                     </Card.Footer>
@@ -178,4 +187,4 @@ const IndexPage = ({intl}) => {
   )
 }
 
-export default injectIntl(IndexPage)
+export default IndexPage

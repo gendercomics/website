@@ -1,13 +1,18 @@
-import React from "react"
-import { Link } from "gatsby"
-import { FormattedMessage, injectIntl } from "gatsby-plugin-intl"
+import React from 'react'
+import { Link } from 'gatsby'
+import { FormattedMessage, injectIntl } from 'gatsby-plugin-intl'
 import PageTemplate from '@templates/pageTemplate'
-import { Jumbotron, Container, Row, Col } from "react-bootstrap"
+import { Jumbotron, Container, Row, Col } from 'react-bootstrap'
+import SEO from '@components/helper/seo'
 import ErrorImg from '@assets/404.png'
 
 const ErrorPage = ({ intl }) => {
     return (
-      <PageTemplate title={intl.formatMessage({ id: 'header.title' })}>
+      <PageTemplate>
+        <SEO
+          lang={intl.locale}
+          title={`404: ${intl.formatMessage({ id: 'error.title' })}`}
+        />
         <Jumbotron>
           <Container>
             <Row className="align-items-center">

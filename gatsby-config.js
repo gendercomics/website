@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: `/gendercomics`,
   siteMetadata: {
-    title: `Gendercomics`,
+    title: `GenderComics`,
     description: `Visualities of Gender in German-Language Comics.`,
     author: `@gendercomics`,
     twitter: `gendercomics`,
