@@ -18,8 +18,8 @@ import reproduktImg from '@assets/publisher/reprodukt-logo.jpg'
 import nextcomicImg from '@assets/institution/nextcomic-logo.png'
 import genderagencyImg from '@assets/institution/GandA-logo.jpg'
 import akaImg from '@assets/institution/aka.png'
-import feministcomicImg from '@assets/institution/gsa-logo.jpg'
-import gsaImg from '@assets/institution/gsa-logo.jpg'
+import feministcomicImg from '@assets/comic-book.png'
+import gsaImg from '@assets/comic-book.png'
 
 const Collaborations = () => {
   const intl = useIntl()
