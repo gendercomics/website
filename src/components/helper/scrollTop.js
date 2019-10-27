@@ -16,7 +16,7 @@ class ScrollTop extends React.Component {
   render() {
     const { intl } = this.props
     return (
-      <a href="#" onClick={this.scrollToTop} className="nav-link p-1">
+      <a href="#site-navbar" onClick={this.scrollToTop} className="nav-link p-1">
         {intl.formatMessage({ id: 'navigation.top' })}
       </a>
     )

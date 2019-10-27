@@ -21,6 +21,9 @@ body {
 
 .jumbotron {
   background: $white;
+  @include media-breakpoint-down(sm) {
+    padding: 2rem 0;
+  }
 }
 
 header {

@@ -8,6 +8,7 @@
   transition: background-color ease-in 300ms;
   background-color: transparent;
   border-top: 0;
+  line-height: 1.1;
 }
 
 // Card Deck
@@ -28,8 +29,11 @@
     margin-right: $card-group-margin;
     margin-left: $card-group-margin;
 
-    > img {
-      margin: auto;
+    > .card-body {
+      display: flex;
+      > img {
+         margin: auto;
+       }
     }
   }
   @include media-breakpoint-up(sm) {

@@ -1,5 +1,5 @@
 ---
 error:
   title: Sorry, not found
-  text: The content you expected is not here.
-  action: Go back to Home
+  text: Der erwartete Inhalt ist nicht hier.
+  action: Gehe zurück zu Home

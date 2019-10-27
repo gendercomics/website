@@ -1,8 +1,8 @@
 ---
 collaborations:
-  title: Collaborations.
+  title: Collaborations
   textLead: >
-    **GenderComics** collaborates with the following researchers and institutions. 
+    GenderComics collaborates with the following **researchers and institutions**.
   sectionBoard: Advisory Board
   sectionInstitutions: Institutions and Projects
   sectionPublishers: Collaborations with Publishers
@@ -48,7 +48,7 @@ collaborations:
       textLead: >
         **aka - Arbeitskreis Kulturanalyse**
       www: https://aka.univie.ac.at
-         
+
     genderagency:
       name: Gender and Agency
       textLead: >
@@ -73,32 +73,32 @@ collaborations:
         **A Multidisciplinary Study of Feminist Comic Art**
       www: http://ostersjostiftelsen.se/projekt/650-a-multidisciplinary-study-of-feminist-comic-art
 
-      
+
   publisher:
     avant:
       name: avant-verlag
       textLead: >
         **avant-verlag**
       www: https://www.avant-verlag.de
-      
+
     carlsen:
       name: Carlsen
       textLead: >
         **Carlsen**
       www: https://www.carlsen.de
-      
+
     editionmoderne:
       name: Edition Moderne
       textLead: >
         **Edition Moderne**
       www: https://www.editionmoderne.ch
-      
+
     luftschacht:
       name: Luftschacht
       textLead: >
         **Luftschacht**
       www: https://www.luftschacht.com
-      
+
     reprodukt:
       name: Reprodukt
       textLead: >

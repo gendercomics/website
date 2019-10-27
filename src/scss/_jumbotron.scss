@@ -1,0 +1,10 @@
+.jumbotron {
+  background: $white;
+  @include media-breakpoint-down(sm) {
+    padding: 2rem 0;
+  }
+}
+
+.jumbotron .lead {
+  margin-top: 2rem;
+}
