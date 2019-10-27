@@ -3,7 +3,7 @@ index:
   title: Visualities of Gender in German-Language Comics.
   textLead: >
     **A fundamental research project** examining the conditions, properties, and structures of visualities of gender, being the first systematic analysis of German-language comics to that scope.
-  sectionAbstract: Abstract and summary
+  sectionAbstract: Abstract
   textAbstract: >
     The images and narratives of gender which comics always produce and challenge,
     are diverse and substantial regarding cultural, historical and political dimensions.
@@ -11,7 +11,7 @@ index:
     and ‘Wonder Woman’ or ‘Catwoman,’ DC Comics’ hyper-sexualized depictions of femininity,
     immediately come to mind; but also examples for critiques on gendered bodies in German-language comics
     such as Ulli Lust’s *Heute ist der letzte Tag vom Rest deines Lebens* or Anke Feuchtenberger’s
-    and Katrin de Vries’ *‘Hure H’*. Across the board, comics reference and exhaust established
+    and Katrin de Vries’ *Hure H*. Across the board, comics reference and exhaust established
     registers of gender, body norms, and ideals of beauty. Yet, comics studies have never
     before structurally analyzed these ‘visualities of gender’ in order to fully account for
     their performative power and productivity.
