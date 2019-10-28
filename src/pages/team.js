@@ -167,14 +167,16 @@ const Team = () => {
               </Markdown>
               {/* Susanne Hochreiter */}
               <details id="Susanne" className="list-group list-group-flush">
-                <summary className="list-group-item list-group-item-action d-flex">
-                  <img
-                    className="img-fluid image__person rounded-circle mr-3"
-                    src={susanneImg}
-                    alt={intl.formatMessage({ id: 'team.person.susanne.name' })}
-                    />
-                  <div className="lead my-auto">
-                    <Markdown>{intl.formatMessage({ id: 'team.person.susanne.textLead' })}</Markdown>
+                <summary eventkey="1">
+                  <div className="list-group-item list-group-item-action d-flex">
+                    <img
+                      className="img-fluid image__person rounded-circle mr-3"
+                      src={susanneImg}
+                      alt={intl.formatMessage({ id: 'team.person.susanne.name' })}
+                      />
+                    <div className="lead my-auto">
+                      <Markdown>{intl.formatMessage({ id: 'team.person.susanne.textLead' })}</Markdown>
+                    </div>
                   </div>
                 </summary>
                 <Card.Body>
@@ -252,14 +254,16 @@ const Team = () => {
               </details>
               {/* Marina Rauchenbacher */}
               <details id="Marina" className="list-group list-group-flush">
-                <summary className="list-group-item list-group-item-action d-flex" eventkey="1">
-                  <img
-                    className="img-fluid image__person rounded-circle mr-3 float-left"
-                    src={marinaImg}
-                    alt={intl.formatMessage({ id: 'team.person.marina.name' })}
-                  />
-                  <div className="lead my-auto">
-                    <Markdown>{intl.formatMessage({ id: 'team.person.marina.textLead' })}</Markdown>
+                <summary eventkey="2">
+                  <div className="list-group-item list-group-item-action d-flex">
+                    <img
+                      className="img-fluid image__person rounded-circle mr-3 float-left"
+                      src={marinaImg}
+                      alt={intl.formatMessage({ id: 'team.person.marina.name' })}
+                    />
+                    <div className="lead my-auto">
+                      <Markdown>{intl.formatMessage({ id: 'team.person.marina.textLead' })}</Markdown>
+                    </div>
                   </div>
                 </summary>
                 <Card.Body>
@@ -337,14 +341,16 @@ const Team = () => {
               </details>
               {/* Katharina Serles */}
               <details id="Katharina" className="list-group list-group-flush">
-                <summary className="list-group-item list-group-item-action d-flex" eventkey="2">
-                  <img
-                    className="img-fluid image__person rounded-circle mr-3 float-left"
-                    src={katharinaImg}
-                    alt={intl.formatMessage({ id: 'team.person.katharina.name' })}
-                    />
-                  <div className="lead my-auto">
-                    <Markdown>{intl.formatMessage({ id: 'team.person.katharina.textLead' })}</Markdown>
+                <summary eventkey="3">
+                  <div className="list-group-item list-group-item-action d-flex">
+                    <img
+                      className="img-fluid image__person rounded-circle mr-3 float-left"
+                      src={katharinaImg}
+                      alt={intl.formatMessage({ id: 'team.person.katharina.name' })}
+                      />
+                    <div className="lead my-auto">
+                      <Markdown>{intl.formatMessage({ id: 'team.person.katharina.textLead' })}</Markdown>
+                    </div>
                   </div>
                 </summary>
                 <Card.Body>
@@ -441,14 +447,16 @@ const Team = () => {
               </Markdown>
               {/* Ingo Börner */}
               <details id="Ingo" className="list-group list-group-flush">
-                <summary className="list-group-item list-group-item-action d-flex" eventkey="3">
-                  <img
-                    className="img-fluid image__person rounded-circle mr-3 float-left"
-                    src={ingoImg}
-                    alt={intl.formatMessage({ id: 'team.person.ingo.name' })}
-                  />
-                  <div className="lead my-auto">
-                    <Markdown>{intl.formatMessage({ id: 'team.person.ingo.textLead' })}</Markdown>
+                <summary eventkey="4">
+                  <div className="list-group-item list-group-item-action d-flex">
+                    <img
+                      className="img-fluid image__person rounded-circle mr-3 float-left"
+                      src={ingoImg}
+                      alt={intl.formatMessage({ id: 'team.person.ingo.name' })}
+                    />
+                    <div className="lead my-auto">
+                      <Markdown>{intl.formatMessage({ id: 'team.person.ingo.textLead' })}</Markdown>
+                    </div>
                   </div>
                 </summary>
                 <Card.Body>
@@ -483,14 +491,16 @@ const Team = () => {
               </details>
               {/* Michael Litschauer */}
               <details id="Michael" className="list-group list-group-flush">
-                <summary className="list-group-item list-group-item-action d-flex" eventkey="4">
-                  <img
-                    className="img-fluid image__person rounded-circle mr-3 float-left"
-                    src={michaelImg}
-                    alt={intl.formatMessage({ id: 'team.person.michael.name' })}
-                  />
-                  <div className="lead my-auto">
-                    <Markdown>{intl.formatMessage({ id: 'team.person.michael.textLead' })}</Markdown>
+                <summary eventkey="5">
+                  <div className="list-group-item list-group-item-action d-flex">
+                    <img
+                      className="img-fluid image__person rounded-circle mr-3 float-left"
+                      src={michaelImg}
+                      alt={intl.formatMessage({ id: 'team.person.michael.name' })}
+                    />
+                    <div className="lead my-auto">
+                      <Markdown>{intl.formatMessage({ id: 'team.person.michael.textLead' })}</Markdown>
+                    </div>
                   </div>
                 </summary>
                 <Card.Body>
@@ -527,14 +537,16 @@ const Team = () => {
               </details>
               {/* Matthias Grieder */}
               <details id="Matthias" className="list-group list-group-flush">
-                <summary className="list-group-item list-group-item-action d-flex" eventkey="5">
-                  <img
-                    className="img-fluid image__person rounded-circle mr-3 float-left"
-                    src={matthiasImg}
-                    alt={intl.formatMessage({ id: 'team.person.matthias.name' })}
-                  />
-                  <div className="lead my-auto">
-                    <Markdown>{intl.formatMessage({ id: 'team.person.matthias.textLead' })}</Markdown>
+                <summary eventkey="6">
+                  <div className="list-group-item list-group-item-action d-flex">
+                    <img
+                      className="img-fluid image__person rounded-circle mr-3 float-left"
+                      src={matthiasImg}
+                      alt={intl.formatMessage({ id: 'team.person.matthias.name' })}
+                    />
+                    <div className="lead my-auto">
+                      <Markdown>{intl.formatMessage({ id: 'team.person.matthias.textLead' })}</Markdown>
+                    </div>
                   </div>
                 </summary>
                 <Card.Body>
