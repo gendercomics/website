@@ -29,12 +29,10 @@
     margin-right: $card-group-margin;
     margin-left: $card-group-margin;
 
-    &.card--fixHeight {
-      height: 280px;
-    }
-
     > .card-body {
       display: flex;
+      flex-direction: column;
+
       > img {
          margin: auto;
        }

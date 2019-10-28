@@ -429,7 +429,7 @@ const Collaborations = () => {
               </Markdown>
               {/* aka */}
               <CardDeck>
-                <a id="aka" className="card card--fixHeight"
+                <a id="aka" className="card"
                   href={intl.formatMessage({ id: 'collaborations.institution.aka.www' })}
                   target="_blank"
                   rel="noopener noreferrer">
@@ -444,7 +444,7 @@ const Collaborations = () => {
                     <span className="text-muted small">{intl.formatMessage({ id: 'collaborations.institution.aka.name' })}</span>
                   </Card.Footer>
                 </a>
-                <a id="genderagency" className="card card--fixHeight"
+                <a id="genderagency" className="card"
                   href={intl.formatMessage({ id: 'collaborations.institution.genderagency.www' })}
                   target="_blank"
                   rel="noopener noreferrer">
@@ -459,7 +459,7 @@ const Collaborations = () => {
                     <span className="text-muted small">{intl.formatMessage({ id: 'collaborations.institution.genderagency.name' })}</span>
                   </Card.Footer>
                 </a>
-                <a id="nextcomic" className="card card--fixHeight"
+                <a id="nextcomic" className="card"
                   href={intl.formatMessage({ id: 'collaborations.institution.nextcomic.www' })}
                   target="_blank"
                   rel="noopener noreferrer">
@@ -474,7 +474,7 @@ const Collaborations = () => {
                     <span className="text-muted small">{intl.formatMessage({ id: 'collaborations.institution.nextcomic.name' })}</span>
                   </Card.Footer>
                 </a>
-                <a id="gsa" className="card card--fixHeight"
+                <a id="gsa" className="card"
                   href={intl.formatMessage({ id: 'collaborations.institution.gsa.www' })}
                   target="_blank"
                   rel="noopener noreferrer">
@@ -489,7 +489,7 @@ const Collaborations = () => {
                     <span className="text-muted small">{intl.formatMessage({ id: 'collaborations.institution.gsa.name' })}</span>
                   </Card.Footer>
                 </a>
-                <a id="feministcomic" className="card card--fixHeight"
+                <a id="feministcomic" className="card"
                   href={intl.formatMessage({ id: 'collaborations.institution.feministcomic.www' })}
                   target="_blank"
                   rel="noopener noreferrer">
@@ -514,7 +514,7 @@ const Collaborations = () => {
                 <h2 className="mb-3">{intl.formatMessage({ id: 'collaborations.sectionPublishers' })}</h2>
               </Markdown>
               <CardDeck>
-                <a id="avant" className="card card--fixHeight"
+                <a id="avant" className="card"
                   href={intl.formatMessage({id: 'collaborations.publisher.avant.www'})}
                   target="_blank"
                   rel="noopener noreferrer">
@@ -529,7 +529,7 @@ const Collaborations = () => {
                     <span className="text-muted small">{intl.formatMessage({ id: 'collaborations.publisher.avant.name' })}</span>
                   </Card.Footer>
                 </a>
-                <a id="carlsen" className="card card--fixHeight"
+                <a id="carlsen" className="card"
                   href={intl.formatMessage({id: 'collaborations.publisher.carlsen.www'})}
                   target="_blank"
                   rel="noopener noreferrer">
@@ -544,7 +544,7 @@ const Collaborations = () => {
                     <span className="text-muted small">{intl.formatMessage({ id: 'collaborations.publisher.carlsen.name' })}</span>
                   </Card.Footer>
                 </a>
-                <a id="editionmoderne" className="card card--fixHeight"
+                <a id="editionmoderne" className="card"
                   href={intl.formatMessage({id: 'collaborations.publisher.editionmoderne.www'})}
                   target="_blank"
                   rel="noopener noreferrer">
@@ -559,7 +559,7 @@ const Collaborations = () => {
                     <span className="text-muted small">{intl.formatMessage({ id: 'collaborations.publisher.editionmoderne.name' })}</span>
                   </Card.Footer>
                 </a>
-                <a id="luftschacht" className="card card--fixHeight"
+                <a id="luftschacht" className="card"
                   href={intl.formatMessage({id: 'collaborations.publisher.luftschacht.www'})}
                   target="_blank"
                   rel="noopener noreferrer">
@@ -574,7 +574,7 @@ const Collaborations = () => {
                     <span className="text-muted small">{intl.formatMessage({ id: 'collaborations.publisher.luftschacht.name' })}</span>
                   </Card.Footer>
                 </a>
-                <a id="reprodukt" className="card card--fixHeight"
+                <a id="reprodukt" className="card"
                   href={intl.formatMessage({id: 'collaborations.publisher.reprodukt.www'})}
                   target="_blank"
                   rel="noopener noreferrer">
