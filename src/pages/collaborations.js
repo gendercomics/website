@@ -304,14 +304,16 @@ const Collaborations = () => {
               </Markdown>
               {/* Konstanze Fliedl */}
               <details id="fliedl" className="list-group list-group-flush">
-                <summary className="list-group-item list-group-item-action d-flex">
-                  <img
-                    className="img-fluid image__person rounded-circle mr-3"
-                    src={fliedlImg}
-                    alt={intl.formatMessage({ id: 'collaborations.person.fliedl.name' })}
-                    />
-                  <div className="lead my-auto">
-                    <Markdown>{intl.formatMessage({ id: 'collaborations.person.fliedl.textLead' })}</Markdown>
+                <summary eventkey="1">
+                  <div className="list-group-item list-group-item-action d-flex">
+                    <img
+                      className="img-fluid image__person rounded-circle mr-3"
+                      src={fliedlImg}
+                      alt={intl.formatMessage({ id: 'collaborations.person.fliedl.name' })}
+                      />
+                    <div className="lead my-auto">
+                      <Markdown>{intl.formatMessage({ id: 'collaborations.person.fliedl.textLead' })}</Markdown>
+                    </div>
                   </div>
                 </summary>
                 <Card.Body>
@@ -335,14 +337,16 @@ const Collaborations = () => {
               </details>
               {/* Anke Feuchtenberger */}
               <details id="feuchtenberger" className="list-group list-group-flush">
-                <summary className="list-group-item list-group-item-action d-flex" eventkey="1">
-                  <img
-                    className="img-fluid image__person rounded-circle mr-3 float-left"
-                    src={feuchtenbergerImg}
-                    alt={intl.formatMessage({ id: 'collaborations.person.feuchtenberger.name' })}
-                  />
-                  <div className="lead my-auto">
-                    <Markdown>{intl.formatMessage({ id: 'collaborations.person.feuchtenberger.textLead' })}</Markdown>
+                <summary eventkey="2">
+                  <div className="list-group-item list-group-item-action d-flex">
+                    <img
+                      className="img-fluid image__person rounded-circle mr-3 float-left"
+                      src={feuchtenbergerImg}
+                      alt={intl.formatMessage({ id: 'collaborations.person.feuchtenberger.name' })}
+                    />
+                    <div className="lead my-auto">
+                      <Markdown>{intl.formatMessage({ id: 'collaborations.person.feuchtenberger.textLead' })}</Markdown>
+                    </div>
                   </div>
                 </summary>
                 <Card.Body>
@@ -366,14 +370,16 @@ const Collaborations = () => {
               </details>
               {/* Ole Frahm */}
               <details id="frahm" className="list-group list-group-flush">
-                <summary className="list-group-item list-group-item-action d-flex" eventkey="2">
-                  <img
-                    className="img-fluid image__person rounded-circle mr-3 float-left"
-                    src={frahmImg}
-                    alt={intl.formatMessage({ id: 'collaborations.person.frahm.name' })}
-                    />
-                  <div className="lead my-auto">
-                    <Markdown>{intl.formatMessage({ id: 'collaborations.person.frahm.textLead' })}</Markdown>
+                <summary eventkey="3">
+                  <div className="list-group-item list-group-item-action d-flex">
+                    <img
+                      className="img-fluid image__person rounded-circle mr-3 float-left"
+                      src={frahmImg}
+                      alt={intl.formatMessage({ id: 'collaborations.person.frahm.name' })}
+                      />
+                    <div className="lead my-auto">
+                      <Markdown>{intl.formatMessage({ id: 'collaborations.person.frahm.textLead' })}</Markdown>
+                    </div>
                   </div>
                 </summary>
                 <Card.Body>
@@ -382,14 +388,16 @@ const Collaborations = () => {
               </details>
               {/* Elizabeth “Biz” Nijdam */}
               <details id="nijdam" className="list-group list-group-flush">
-                <summary className="list-group-item list-group-item-action d-flex" eventkey="2">
-                  <img
-                    className="img-fluid image__person rounded-circle mr-3 float-left"
-                    src={nijdamImg}
-                    alt={intl.formatMessage({ id: 'collaborations.person.nijdam.name' })}
-                  />
-                  <div className="lead my-auto">
-                    <Markdown>{intl.formatMessage({ id: 'collaborations.person.nijdam.textLead' })}</Markdown>
+                <summary eventkey="4">
+                  <div className="list-group-item list-group-item-action d-flex">
+                    <img
+                      className="img-fluid image__person rounded-circle mr-3 float-left"
+                      src={nijdamImg}
+                      alt={intl.formatMessage({ id: 'collaborations.person.nijdam.name' })}
+                    />
+                    <div className="lead my-auto">
+                      <Markdown>{intl.formatMessage({ id: 'collaborations.person.nijdam.textLead' })}</Markdown>
+                    </div>
                   </div>
                 </summary>
                 <Card.Body>

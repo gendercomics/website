@@ -31,6 +31,8 @@
 
     > .card-body {
       display: flex;
+      flex-direction: column;
+
       > img {
          margin: auto;
        }
