@@ -56,3 +56,8 @@ notifications:
       - visualitiesofgender:3zAI6z6JJXLeEIaBU49O0Wkr#website
     on_success: change # default: always
     on_failure: always # default: always
+  email:
+    recipients:
+      - michael.litschauer@gmail.com
+    on_success: always
+    on_failure: always
