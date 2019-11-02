@@ -45,10 +45,10 @@ before_deploy:
 
 deploy:
   provider: script
-    skip_cleanup: true
-    script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/public deploy@gendercomics.net:/var/gendercomics/website/
-    on:
-      branch: develop
+  skip_cleanup: true
+  script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/public deploy@gendercomics.net:/var/gendercomics/website/
+  on:
+    branch: develop
 
 notifications:
   slack:
