@@ -8,7 +8,7 @@ import SEO from '@components/helper/seo'
 
 import fliedlImg from '@assets/board/konstanze-fliedl.png'
 import feuchtenbergerImg from '@assets/board/anke-feuchtenberger.png'
-import frahmImg from '@assets/comic-book.png'
+import frahmImg from '@assets/board/ole-frahm.jpg'
 import nijdamImg from '@assets/board/elizabeth-nijdam.png'
 import avantImg from '@assets/publisher/avant-logo.jpg'
 import carlsenImg from '@assets/publisher/carlsen-logo.jpg'
@@ -296,45 +296,12 @@ const Collaborations = () => {
               </Nav>
             </div>
           </Col>
-          {/* Advisory Board */}
           <Col xs="12" lg="9" className="mx-auto">
+            {/* Advisory Board */}
             <section id="advisoryBoard">
               <Markdown>
                 <h2 className="mb-3">{intl.formatMessage({ id: 'collaborations.sectionBoard' })}</h2>
               </Markdown>
-              {/* Konstanze Fliedl */}
-              <details id="fliedl" className="list-group list-group-flush">
-                <summary eventkey="1">
-                  <div className="list-group-item list-group-item-action d-flex">
-                    <img
-                      className="img-fluid image__person rounded-circle mr-3"
-                      src={fliedlImg}
-                      alt={intl.formatMessage({ id: 'collaborations.person.fliedl.name' })}
-                      />
-                    <div className="lead my-auto">
-                      <Markdown>{intl.formatMessage({ id: 'collaborations.person.fliedl.textLead' })}</Markdown>
-                    </div>
-                  </div>
-                </summary>
-                <Card.Body>
-                  <Markdown>{intl.formatMessage({ id: 'collaborations.person.fliedl.textAbout' })}</Markdown>
-                </Card.Body>
-                <Card.Footer className="d-flex align-items-center">
-                  <span className="text-muted small">{intl.formatMessage({ id: 'collaborations.person.fliedl.name' })}</span>
-                  <ul className="list-inline mb-0 ml-auto">
-                    <li className="list-inline-item">
-                      <a href={intl.formatMessage({id: 'collaborations.person.fliedl.uni-www'})}
-                         target="_blank"
-                         rel="noopener noreferrer">
-                        <i className="fa fa-university fa-lg fa-fw"></i>
-                        <span className="sr-only">
-                          {intl.formatMessage({id: 'action.www'})}
-                        </span>
-                      </a>
-                    </li>
-                  </ul>
-                </Card.Footer>
-              </details>
               {/* Anke Feuchtenberger */}
               <details id="feuchtenberger" className="list-group list-group-flush">
                 <summary eventkey="2">
@@ -368,6 +335,39 @@ const Collaborations = () => {
                   </ul>
                 </Card.Footer>
               </details>
+              {/* Konstanze Fliedl */}
+              <details id="fliedl" className="list-group list-group-flush">
+                <summary eventkey="1">
+                  <div className="list-group-item list-group-item-action d-flex">
+                    <img
+                      className="img-fluid image__person rounded-circle mr-3"
+                      src={fliedlImg}
+                      alt={intl.formatMessage({ id: 'collaborations.person.fliedl.name' })}
+                      />
+                    <div className="lead my-auto">
+                      <Markdown>{intl.formatMessage({ id: 'collaborations.person.fliedl.textLead' })}</Markdown>
+                    </div>
+                  </div>
+                </summary>
+                <Card.Body>
+                  <Markdown>{intl.formatMessage({ id: 'collaborations.person.fliedl.textAbout' })}</Markdown>
+                </Card.Body>
+                <Card.Footer className="d-flex align-items-center">
+                  <span className="text-muted small">{intl.formatMessage({ id: 'collaborations.person.fliedl.name' })}</span>
+                  <ul className="list-inline mb-0 ml-auto">
+                    <li className="list-inline-item">
+                      <a href={intl.formatMessage({id: 'collaborations.person.fliedl.uni-www'})}
+                         target="_blank"
+                         rel="noopener noreferrer">
+                        <i className="fa fa-university fa-lg fa-fw"></i>
+                        <span className="sr-only">
+                          {intl.formatMessage({id: 'action.www'})}
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                </Card.Footer>
+              </details>
               {/* Ole Frahm */}
               <details id="frahm" className="list-group list-group-flush">
                 <summary eventkey="3">
@@ -385,6 +385,37 @@ const Collaborations = () => {
                 <Card.Body>
                   <Markdown>{intl.formatMessage({ id: 'collaborations.person.frahm.textAbout' })}</Markdown>
                 </Card.Body>
+                <Card.Footer className="d-flex">
+                  <span className="text-muted small">{intl.formatMessage({ id: 'collaborations.person.frahm.name' })}</span>
+                  <ul className="list-inline mb-0 ml-auto">
+                    <li className="list-inline-item">
+                      <a
+                        href={intl.formatMessage({id: 'collaborations.person.frahm.www.1'})}
+                        title={intl.formatMessage({id: 'collaborations.person.frahm.www.1'})}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-globe fa-lg fa-fw"></i>
+                        <span className="sr-only">
+                          {intl.formatMessage({id: 'action.www'})}
+                        </span>
+                      </a>
+                    </li>
+                    <li className="list-inline-item">
+                      <a
+                        href={intl.formatMessage({id: 'collaborations.person.frahm.www.2'})}
+                        title={intl.formatMessage({id: 'collaborations.person.frahm.www.2'})}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-globe fa-lg fa-fw"></i>
+                        <span className="sr-only">
+                          {intl.formatMessage({id: 'action.www'})}
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                </Card.Footer>
               </details>
               {/* Elizabeth “Biz” Nijdam */}
               <details id="nijdam" className="list-group list-group-flush">
@@ -427,8 +458,24 @@ const Collaborations = () => {
               <Markdown>
                 <h2 className="mb-3">{intl.formatMessage({ id: 'collaborations.sectionInstitutions' })}</h2>
               </Markdown>
-              {/* aka */}
               <CardDeck>
+                {/* feminist comic */}
+                <a id="feministcomic" className="card"
+                   href={intl.formatMessage({ id: 'collaborations.institution.feministcomic.www' })}
+                   target="_blank"
+                   rel="noopener noreferrer">
+                  <Card.Body>
+                    <Card.Img
+                      variant="top"
+                      src={feministcomicImg}
+                      alt={intl.formatMessage({ id: 'collaborations.institution.feministcomic.name' })}
+                    />
+                  </Card.Body>
+                  <Card.Footer>
+                    <span className="text-muted small">{intl.formatMessage({ id: 'collaborations.institution.feministcomic.name' })}</span>
+                  </Card.Footer>
+                </a>
+                {/* aka */}
                 <a id="aka" className="card"
                   href={intl.formatMessage({ id: 'collaborations.institution.aka.www' })}
                   target="_blank"
@@ -444,6 +491,7 @@ const Collaborations = () => {
                     <span className="text-muted small">{intl.formatMessage({ id: 'collaborations.institution.aka.name' })}</span>
                   </Card.Footer>
                 </a>
+                {/* gender and agency */}
                 <a id="genderagency" className="card"
                   href={intl.formatMessage({ id: 'collaborations.institution.genderagency.www' })}
                   target="_blank"
@@ -459,6 +507,23 @@ const Collaborations = () => {
                     <span className="text-muted small">{intl.formatMessage({ id: 'collaborations.institution.genderagency.name' })}</span>
                   </Card.Footer>
                 </a>
+                {/* gsa */}
+                <a id="gsa" className="card"
+                   href={intl.formatMessage({ id: 'collaborations.institution.gsa.www' })}
+                   target="_blank"
+                   rel="noopener noreferrer">
+                  <Card.Body>
+                    <Card.Img
+                      variant="top"
+                      src={gsaImg}
+                      alt={intl.formatMessage({ id: 'collaborations.institution.gsa.name' })}
+                    />
+                  </Card.Body>
+                  <Card.Footer>
+                    <span className="text-muted small">{intl.formatMessage({ id: 'collaborations.institution.gsa.name' })}</span>
+                  </Card.Footer>
+                </a>
+                {/* nextcomic festival */}
                 <a id="nextcomic" className="card"
                   href={intl.formatMessage({ id: 'collaborations.institution.nextcomic.www' })}
                   target="_blank"
@@ -472,36 +537,6 @@ const Collaborations = () => {
                   </Card.Body>
                   <Card.Footer>
                     <span className="text-muted small">{intl.formatMessage({ id: 'collaborations.institution.nextcomic.name' })}</span>
-                  </Card.Footer>
-                </a>
-                <a id="gsa" className="card"
-                  href={intl.formatMessage({ id: 'collaborations.institution.gsa.www' })}
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  <Card.Body>
-                    <Card.Img
-                      variant="top"
-                      src={gsaImg}
-                      alt={intl.formatMessage({ id: 'collaborations.institution.gsa.name' })}
-                    />
-                  </Card.Body>
-                  <Card.Footer>
-                    <span className="text-muted small">{intl.formatMessage({ id: 'collaborations.institution.gsa.name' })}</span>
-                  </Card.Footer>
-                </a>
-                <a id="feministcomic" className="card"
-                  href={intl.formatMessage({ id: 'collaborations.institution.feministcomic.www' })}
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  <Card.Body>
-                    <Card.Img
-                      variant="top"
-                      src={feministcomicImg}
-                      alt={intl.formatMessage({ id: 'collaborations.institution.feministcomic.name' })}
-                    />
-                  </Card.Body>
-                  <Card.Footer>
-                    <span className="text-muted small">{intl.formatMessage({ id: 'collaborations.institution.feministcomic.name' })}</span>
                   </Card.Footer>
                 </a>
               </CardDeck>

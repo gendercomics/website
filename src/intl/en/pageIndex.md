@@ -6,7 +6,7 @@ index:
   sectionAbstract: Abstract
   textAbstract: >
     The images and narratives of gender which comics always produce and challenge,
-    are diverse and substantial regarding cultural, historical and political dimensions.
+    are diverse and substantial regarding cultural, historical, and political dimensions.
     Influential characters such as ‘Superman,’ Jerry Siegel’s and Joe Shuster’s virile ‘Man of Steel,’
     and ‘Wonder Woman’ or ‘Catwoman,’ DC Comics’ hyper-sexualized depictions of femininity,
     immediately come to mind; but also examples for critiques on gendered bodies in German-language comics
@@ -23,9 +23,9 @@ index:
     The theoretical framework consists of image theory, visual culture as well as gender studies; central questions are: In German-language comics, how is gender depicted? Which possibilities do these comics have to visualize and narrate bodies, desire, gender, and sexualities? Which theoretical, political or aesthetic traditions do they draw from or abolish? How do they (re)produce and stabilize binary gender norms? Which opportunities for subversion do they offer?
 
 
-    **[Susanne Hochreiter](mailto:susanne.hochreiter@univie.ac.at)**,
-    **[Marina Rauchenbacher](mailto:marina.rauchenbacher@univie.ac.at)** and
-    **[Katharina Serles](mailto:katharina.serles@univie.ac.at)** conduct the research over the course of four years and in three phases corresponding to three main objectives: First, German-language comics with explicit gender-references are compiled, indexed, annotated, and published as an open access database for a wide, international audience. Secondly, exemplary thematic cuts through relevant comics literature are made, providing in-depth, qualitative analyses – both individually as well as comparatively and by means of discourse analysis, deconstruction, and intersectional readings. These cuts establish interdisciplinary subject-clusters, further differentiating and expanding the corpus. Finally, a meta- and self-referential approach reconnects the analytical findings to the respective theories, which it aims to update and advance. As such, the project can redefine the corresponding areas of comics studies as well as comics’ place and performative influence for theory.
+    **Susanne Hochreiter**,
+    **Marina Rauchenbacher**, and
+    **Katharina Serles** conduct the research over the course of four years and in three phases corresponding to three main objectives. First, German-language comics with explicit gender-references are compiled, indexed, annotated, and published as an open access database for a wide, international audience. Secondly, exemplary thematic cuts through relevant comics literature are made, providing in-depth, qualitative analyses – both individually as well as comparatively and by means of discourse analysis, deconstruction, and intersectional readings. These cuts establish interdisciplinary subject-clusters, further differentiating and expanding the corpus. Finally, a meta- and self-referential approach reconnects the analytical findings to the respective theories, which it aims to update and advance. As such, the project can redefine the corresponding areas of comics studies as well as comics’ place and performative influence for theory.
 
   sectionFundingOrg: Funding Organization
   fundingFWF:

@@ -7,8 +7,8 @@ collaborations:
   sectionInstitutions: Institutionen und Projekte
   sectionPublishers: Kooperationen mit Verlagen
   accordion:
-    contact: Contact
-    description: Description
+    contact: Kontakt
+    description: Beschreibung
   person:
     fliedl:
       name: Konstanze Fliedl

@@ -47,7 +47,7 @@ module.exports = {
       resolve: `gatsby-plugin-intl`,
       options: {
         path: `${__dirname}/public/intl`,
-        languages: [`en`, `de`],
+        languages: [`en`],
         defaultLanguage: `en`,
         redirect: true,
         redirectComponent: require.resolve(`./src/components/helper/redirect.js`),

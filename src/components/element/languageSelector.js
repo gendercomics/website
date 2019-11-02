@@ -4,8 +4,7 @@ import { injectIntl, IntlContextConsumer, changeLocale, FormattedMessage } from 
 
 const LanguageSelector = () => {
   const languageName = {
-    en: "English",
-    de: "Deutsch"
+    en: "English"
   }
   return (
     <Dropdown className="d-inline-flex mx-auto">

@@ -4,7 +4,7 @@ team:
   textLead: >
     **Die Menschen** hinter GenderComics.
   sectionCore: Projekt Team
-  sectionDev: IT Crew
+  sectionDev: IT Team
   accordion:
     contact: Kontakt
     publication: Publikationen
