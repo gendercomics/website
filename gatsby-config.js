@@ -27,8 +27,8 @@ module.exports = {
         start_url: `/`,
         background_color: `#06243d`,
         theme_color: `#06243d`,
-        display: `minimal-ui`,
-        icon: `${__dirname}/static/apple-touch-icon.png`, // This path is relative to the root of the site.
+        display: `minimal-ui`
+        //icon: `${__dirname}/static/apple-touch-icon.png`, // This path is relative to the root of the site.
       },
     },
     {
