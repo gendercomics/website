@@ -1,7 +1,7 @@
 ---
 header:
-  brand: gendercomics
-  title: desc
+  brand: GenderComics
+  title: GenderComics
 
 navigation:
   project: Projekt
@@ -10,13 +10,14 @@ navigation:
   coc: Verhaltensregeln
   contact: Kontakt
   top: Zurück nach oben
+  toc: Auf dieser Seite
 
 footer:
-  partners: Our partners
+  partners: Unsere Partner
   copyright: Alle Rechte vorbehalten.
   feedback:
-    question: Have feedback on this site?
-    action: Let us know!
+    question: Du hast Feedback zu dieser Seite?
+    action: Schreib uns!
 
 language:
   select: Sprache wählen
@@ -24,4 +25,8 @@ language:
 
 action:
   sendEmail: Email senden
+  www: Website besuchen
+  academia:  Auf Academia folgen
   linkedIn: Auf LinkedIn folgen
+  twitter: Folge mir auf Twitter
+  gitHub: Auf GitHub folgen

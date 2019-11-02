@@ -1,7 +1,7 @@
 ---
 header:
   brand: GenderComics
-  title: desc
+  title: GenderComics
 
 navigation:
   project: Project
@@ -10,6 +10,7 @@ navigation:
   coc: Code of Conduct
   contact: Contact
   top: Back to top
+  toc: On this page
 
 footer:
   partners: Our partners
@@ -23,5 +24,9 @@ language:
   title: All languages
 
 action:
-  sendEmail: Send Email
+  sendEmail: Send email
+  www: Visit website
+  academia:  Follow on Academia
   linkedIn: Follow on LinkedIn
+  twitter: Follow me on Twitter
+  gitHub: Follow us on GitHub

@@ -2,7 +2,7 @@
 collaborations:
   title: Collaborations.
   textLead: >
-    **GenderComics** collaborates with the following researchers and institutions. 
+    GenderComics collaborates with the following **researchers and institutions**. 
   sectionBoard: Advisory Board
   sectionInstitutions: Institutions and Projects
   sectionPublishers: Collaborations with Publishers
@@ -15,8 +15,7 @@ collaborations:
       textLead: >
         **Konstanze Fliedl**
       textAbout: >
-        **Konstanze Fliedl**, professor for German literature, Department of German Philology, University of Vienna: she is a renowned expert on intermediality as well as visual arts and literature. She also chaired two FWF-funded projects – Art in Texts and Art Quotations.   
-        Intermediality and Tradition.  
+        **Konstanze Fliedl** is a professor for German literature at the Department of German Philology, University of Vienna. She is a renowned expert on intermediality as well as visual arts and literature. She also chaired two subject relevant FWF-funded projects: *Art in Texts* and *Art Quotations. Intermediality and Tradition.*   
       uni-www: https://www.univie.ac.at/germanistik/konstanze-fliedl   
 
     feuchtenberger:
@@ -24,7 +23,7 @@ collaborations:
       textLead: >
         **Anke Feuchtenberger**
       textAbout: >
-        **Anke Feuchtenberger**, professor for drawing and media illustration at the Hamburg University of Applied Sciences (HAW): she is not only an acclaimed German-language comics artist, but also instructs comics artists at the HAW.  
+        **Anke Feuchtenberger** is a professor for drawing and media illustration at the Hamburg University of Applied Sciences (HAW). She is not only an acclaimed German-language comics artist, but also instructs comics artists at the HAW.  
       uni-www: https://vorlesungsverzeichnis.design.haw-hamburg.de/person/anke-feuchtenberger
 
     frahm:
@@ -32,46 +31,49 @@ collaborations:
       textLead: >
         **Ole Frahm**
       textAbout: >
-        **Ole Frahm**, co-founder of the Arbeitsstelle für Graphische Literatur (ArGL) at the University of Hamburg: he is one of the leading German-language comics experts. His book, Die Sprache des Comics (2010), is a crucial study for comics studies.
+        PD Dr. **Ole Frahm** founded with other students the Research Center for Graphic Literature (ArGL) at the University of Hamburg. His PhD thesis is *Genealogie des Holocaust. Art Spiegelmans "MAUS - A Survivor’s Tale"* (Paderborn 2006). He published also *Die Sprache des Comics* (Hamburg 2010) and is currently working on the book *The Specters of the Graphic Novel*. Research areas: history, theory, and aesthetics of comics and radio. He works as author and artist in Frankfurt am Main. 
+      www:
+        1: https://forschungsforum.net/mitglieder/ole-frahm/
+        2: https://www.comicgesellschaft.de/mitgliederbereich/mitgliederprofile/olefrahm/
 
     nijdam:
       name: Elizabeth Nijdam
       textLead: >
         **Elizabeth "Biz" Nijdam**
       textAbout: >
-        **Elizabeth “Biz” Nijdam**, assistant professor for German Studies in the Department of Central, Eastern, and Northern European Studies at the University of British Columbia in Vancouver, Canada: her current book project, Panelled Pasts: History, Media and Memory in the German Graphic Novel (under contract with Ohio State University Press), examines how comics have become an important form for popular investigations of East German experience.
+        **Elizabeth “Biz” Nijdam** is an assistant professor for German Studies at the Department of Central, Eastern, and Northern European Studies at the University of British Columbia in Vancouver, Canada. Her current book project, *Panelled Pasts: History, Media and Memory in the German Graphic Novel* (under contract with Ohio State University Press), examines how comics have become an important form for popular investigations of East German experience.
       academia: https://ubc.academia.edu/ElizabethBizNijdam
 
   institution:
+    feministcomic:
+      name: A Multidisciplinary Study of Feminist Comic Art
+      textLead: >
+        **A Multidisciplinary Study of Feminist Comic Art**
+      www: http://ostersjostiftelsen.se/projekt/650-a-multidisciplinary-study-of-feminist-comic-art
+  
     aka:
       name: aka - Arbeitskreis Kulturanalyse
       textLead: >
         **aka - Arbeitskreis Kulturanalyse**
-      www: https://aka.univie.ac.at
+      www: https://aka.univie.ac.at/aka/who-is-aka/
          
     genderagency:
       name: Gender and Agency
       textLead: >
         **Gender and Agency**
-      www: https://genderandagency.univie.ac.at
+      www: https://genderandagency.univie.ac.at/en/
+      
+    gsa:
+      name: Interdisciplinary Network Comic Studies (GSA)
+      textLead: >
+        **Interdisciplinary Network *Comic Studies* of the German Studies Association (GSA)**
+      www: https://www.thegsa.org/interdisciplinary-networks  
 
     nextcomic:
       name: NEXTCOMIC Festival
       textLead: >
         **NEXTCOMIC Festival**
       www: http://www.nextcomic.org
-
-    gsa:
-      name: Comic Studies (GSA)
-      textLead: >
-        **Interdisciplinary Network _Comic Studies_ of the German Studies Association (GSA)**
-      www: https://www.thegsa.org/interdisciplinary-networks
-
-    feministcomic:
-      name: A Multidisciplinary Study of Feminist Comic Art
-      textLead: >
-        **A Multidisciplinary Study of Feminist Comic Art**
-      www: http://ostersjostiftelsen.se/projekt/650-a-multidisciplinary-study-of-feminist-comic-art
 
       
   publisher:

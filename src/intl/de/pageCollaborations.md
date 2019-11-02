@@ -1,14 +1,14 @@
 ---
 collaborations:
-  title: Collaborations
+  title: Kooperationen
   textLead: >
-    **Who would expect** that three female theorist meeting three male developers makes such a great project. Well, a great example that gender diversity leads to a wider talent pool and different perspectives gain higher innovation.  
+    GenderComics arbeitet mit folgenden **Forschern und Institutionen** zusammen.  
   sectionBoard: Advisory Board
-  sectionInstitutions: Institutions and Projects
-  sectionPublishers: Collaborations with Publishers
+  sectionInstitutions: Institutionen und Projekte
+  sectionPublishers: Kooperationen mit Verlagen
   accordion:
-    contact: Contact
-    description: Description
+    contact: Kontakt
+    description: Beschreibung
   person:
     fliedl:
       name: Konstanze Fliedl
@@ -25,7 +25,7 @@ collaborations:
         **Anke Feuchtenberger**
       textAbout: >
         **Anke Feuchtenberger**, professor for drawing and media illustration at the Hamburg University of Applied Sciences (HAW): she is not only an acclaimed German-language comics artist, but also instructs comics artists at the HAW.  
-        [https://vorlesungsverzeichnis.design.haw-hamburg.de/person/anke-feuchtenberger](https://vorlesungsverzeichnis.design.haw-hamburg.de/person/anke-feuchtenberger)
+      uni-www: https://vorlesungsverzeichnis.design.haw-hamburg.de/person/anke-feuchtenberger
 
     frahm:
       name: Ole Frahm
@@ -40,7 +40,7 @@ collaborations:
         **Elizabeth "Biz" Nijdam**
       textAbout: >
         **Elizabeth “Biz” Nijdam**, assistant professor for German Studies in the Department of Central, Eastern, and Northern European Studies at the University of British Columbia in Vancouver, Canada: her current book project, Panelled Pasts: History, Media and Memory in the German Graphic Novel (under contract with Ohio State University Press), examines how comics have become an important form for popular investigations of East German experience.
-        [academia.edu](https://ubc.academia.edu/ElizabethBizNijdam)
+      academia: https://ubc.academia.edu/ElizabethBizNijdam
 
   institution:
     aka:
@@ -48,7 +48,7 @@ collaborations:
       textLead: >
         **_Arbeitskreis_ Kulturanalyse**
       www: https://aka.univie.ac.at
-         
+
     genderagency:
       name: Research Network Gender and Agency
       textLead: >
@@ -72,32 +72,32 @@ collaborations:
       textLead: >
         **Research project _A Multidisciplinary Study of Feminist Comic Art_**
       www: https://www.thegsa.org/interdisciplinary-networks
-      
+
   publisher:
     avant:
       name: avant-verlag
       textLead: >
         **avant-verlag**
       www: https://www.avant-verlag.de
-      
+
     carlsen:
       name: Carlsen
       textLead: >
         **Carlsen**
       www: https://www.carlsen.de
-      
+
     editionmoderne:
       name: Edition Moderne
       textLead: >
         **Edition Moderne**
       www: https://www.editionmoderne.ch
-      
+
     luftschacht:
       name: Luftschacht
       textLead: >
         **Luftschacht**
       www: https://www.luftschacht.com
-      
+
     reprodukt:
       name: Reprodukt
       textLead: >

@@ -20,7 +20,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/project/" className="nav-link p-1">
+                <Link to="/collaborations/" className="nav-link p-1">
                   <FormattedMessage id="navigation.collaborations" />
                 </Link>
               </li>
@@ -44,7 +44,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="nav-link">
                   <i className="fa fa-github fa-2x fa-fw"></i>
-                  <span className="sr-only">Follow us on GitHub</span>
+                  <span className="sr-only"><FormattedMessage id="action.gitHub" /></span>
                 </a>
               </li>
               {/*

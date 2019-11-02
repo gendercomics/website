@@ -6,17 +6,15 @@ node_js:
 dist: trusty
 sudo: false
 
-stages:
-  - name: after_success
-    # require the branch name to be master (note for PRs this is the base branch name)
-    if: branch = master
-
 addons:
   ssh_known_hosts: gendercomics.net
 
 cache:
   directories:
     - node_modules
+
+before_install:
+  - openssl aes-256-cbc -K $encrypted_ac25a508ad54_key -iv $encrypted_ac25a508ad54_iv -in deploy-key.enc -out deploy-key -d
 
 install:
   - yarn
@@ -28,7 +26,7 @@ script:
   - yarn build
 
 #after_success:
-#  - eval "$(ssh-agent -s)"
+# - eval "$(ssh-agent -s)"
 #  - chmod 600 deploy-key
 #  - ssh-add deploy-key
 #  - cd $TRAVIS_BUILD_DIR/public
@@ -43,7 +41,7 @@ before_deploy:
 deploy:
   provider: script
   skip_cleanup: true
-  script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/public deploy@gendercomics.net:/var/gendercomics/website/public
+  script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/public deploy@gendercomics.net:/var/gendercomics/website/
   on:
     branch: master
 
@@ -53,3 +51,8 @@ notifications:
       - visualitiesofgender:3zAI6z6JJXLeEIaBU49O0Wkr#website
     on_success: change # default: always
     on_failure: always # default: always
+  email:
+    recipients:
+      - michael.litschauer@gmail.com
+    on_success: always
+    on_failure: always
