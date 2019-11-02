@@ -37,18 +37,18 @@ script:
 #  - cd $TRAVIS_BUILD_DIR/public
 #  - scp -r * deploy@gendercomics.net:/var/gendercomics/website/public
 
-#before_deploy:
-#  - openssl aes-256-cbc -K $encrypted_ac25a508ad54_key -iv $encrypted_ac25a508ad54_iv -in deploy-key.enc -out deploy-key -d
-#  - eval "$(ssh-agent -s)"
-#  - chmod 600 deploy-key
-#  - ssh-add deploy-key
+before_deploy:
+  - openssl aes-256-cbc -K $encrypted_ac25a508ad54_key -iv $encrypted_ac25a508ad54_iv -in deploy-key.enc -out deploy-key -d
+  - eval "$(ssh-agent -s)"
+  - chmod 600 deploy-key
+  - ssh-add deploy-key
 
-#deploy:
-#  provider: script
-#  skip_cleanup: true
-#  script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/public deploy@gendercomics.net:/var/gendercomics/website/public
-#  on:
-#    branch: master
+deploy:
+  provider: script
+    skip_cleanup: true
+    script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/public deploy@gendercomics.net:/var/gendercomics/website/
+    on:
+      branch: develop
 
 notifications:
   slack:
