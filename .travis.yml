@@ -6,11 +6,6 @@ node_js:
 dist: trusty
 sudo: false
 
-stages:
-  - name: after_success
-    # require the branch name to be master (note for PRs this is the base branch name)
-    if: branch = master
-
 addons:
   ssh_known_hosts: gendercomics.net
 
@@ -48,7 +43,7 @@ deploy:
   skip_cleanup: true
   script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/public deploy@gendercomics.net:/var/gendercomics/website/
   on:
-    branch: develop
+    branch: master
 
 notifications:
   slack:
