@@ -21,9 +21,19 @@ install:
 
 before_script:
   - npm i -g gatsby-cli
+  - VERSION=$(node -p -e "require('./package.json').version")
 
 script:
   - yarn build
+
+after_success:
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+  - docker build -t gendercomics/website .
+  - docker tag gendercomics/website gendercomics/website:latest
+  - docker tag gendercomics/website gendercomics/website:${VERSION}
+  - docker images
+  - docker push gendercomics/website:latest
+  - docker push gendercomics/website:${VERSION}
 
 #after_success:
 # - eval "$(ssh-agent -s)"
