@@ -15,7 +15,7 @@ collaborations:
       textLead: >
         **Konstanze Fliedl**
       textAbout: >
-        **Konstanze Fliedl** is a professor for German literature at the Department of German Philology, University of Vienna. She is a renowned expert on intermediality as well as visual arts and literature. She also chaired two subject relevant FWF-funded projects: *Art in Texts* and *Art Quotations. Intermediality and Tradition.*   
+        **Konstanze Fliedl** is a professor for German literature at the Department of German Studies, University of Vienna. She is a renowned expert on intermediality as well as visual arts and literature. She also chaired two subject relevant FWF-funded projects: *Art in Texts* and *Art Quotations. Intermediality and Tradition.*   
       uni-www: https://www.univie.ac.at/germanistik/konstanze-fliedl   
 
     feuchtenberger:
@@ -31,7 +31,10 @@ collaborations:
       textLead: >
         **Ole Frahm**
       textAbout: >
-        PD Dr. **Ole Frahm** founded with other students the Research Center for Graphic Literature (ArGL) at the University of Hamburg. His PhD thesis is *Genealogie des Holocaust. Art Spiegelmans "MAUS - A Survivor’s Tale"* (Paderborn 2006). He published also *Die Sprache des Comics* (Hamburg 2010) and is currently working on the book *The Specters of the Graphic Novel*. Research areas: history, theory, and aesthetics of comics and radio. He works as author and artist in Frankfurt am Main. 
+        PD Dr. **Ole Frahm** founded the Research Center for Graphic Literature (ArGL) at the University of Hamburg with other students. 
+        His PhD thesis is *Genealogie des Holocaust. Art Spiegelmans "MAUS - A Survivor’s Tale"* (Paderborn 2006). 
+        He published also *Die Sprache des Comics* (Hamburg 2010) and is currently working on the book *The Specters of the Graphic Novel*. 
+        Research areas: history, theory, and aesthetics of comics and radio. He works as author and artist in Frankfurt am Main. 
       www:
         1: https://forschungsforum.net/mitglieder/ole-frahm/
         2: https://www.comicgesellschaft.de/mitgliederbereich/mitgliederprofile/olefrahm/
