@@ -33,7 +33,7 @@ collaborations:
       textAbout: >
         PD Dr. **Ole Frahm** founded the Research Center for Graphic Literature (ArGL) at the University of Hamburg with other students. 
         His PhD thesis is *Genealogie des Holocaust. Art Spiegelmans "MAUS - A Survivor’s Tale"* (Paderborn 2006). 
-        He published also *Die Sprache des Comics* (Hamburg 2010) and is currently working on the book *The Specters of the Graphic Novel*. 
+        He also published *Die Sprache des Comics* (Hamburg 2010) and is currently working on the book *The Specters of the Graphic Novel*. 
         Research areas: history, theory, and aesthetics of comics and radio. He works as author and artist in Frankfurt am Main. 
       www:
         1: https://forschungsforum.net/mitglieder/ole-frahm/
