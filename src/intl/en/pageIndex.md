@@ -2,7 +2,7 @@
 index:
   title: Visualities of Gender in German-Language Comics.
   textLead: >
-    **A fundamental research project** examining the conditions, properties, and structures of visualities of gender, being the first systematic analysis of German-language comics to that scope.
+    **A fundamental research project** examining the conditions, properties, and structures of visualities of gender. The first systematic analysis of German-language comics to that scope.
   sectionAbstract: Abstract
   textAbstract: >
     The images and narratives of gender which comics always produce and challenge,
