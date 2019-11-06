@@ -1,7 +1,7 @@
 {
   "name": "gendercomics",
   "description": "Gendercomics website created with gatsbyjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "@gendercomics",
   "license": "MIT",
   "scripts": {
