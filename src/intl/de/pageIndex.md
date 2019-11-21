@@ -1,49 +1,49 @@
 ---
 index:
-  title: Visualities of Gender in German-Language Comics.
+  title: Visualitäten von Geschlecht in deutschsprachigen Comics.
   textLead: >
-    **A fundamental research project** examining the conditions, properties, and structures of visualities of gender. The first systematic analysis of German-language comics to that scope.
-  sectionAbstract: Abstract
+    **Ein Grundlagenforschungsprojekt**, das die Bedingungen, Eigenschaften und Strukturen von Visualitäten von Geschlecht untersucht. 
+    Es ist die erste systematische Analyse deutschsprachiger Comics in diesem Umfang.
+  sectionAbstract: Zusammenfassung
   textAbstract: >
-    The images and narratives of gender which comics always produce and challenge,
-    are diverse and substantial regarding cultural, historical, and political dimensions.
-    Influential characters such as ‘Superman,’ Jerry Siegel’s and Joe Shuster’s virile ‘Man of Steel,’
-    and ‘Wonder Woman’ or ‘Catwoman,’ DC Comics’ hyper-sexualized depictions of femininity,
-    immediately come to mind; but also examples for critiques on gendered bodies in German-language comics
-    such as Ulli Lust’s *Heute ist der letzte Tag vom Rest deines Lebens* or Anke Feuchtenberger’s
-    and Katrin de Vries’ *Hure H*. Across the board, comics reference and exhaust established
-    registers of gender, body norms, and ideals of beauty. Yet, comics studies have never
-    before structurally analyzed these ‘visualities of gender’ in order to fully account for
-    their performative power and productivity.
+    Die Bilder und Narrative von Geschlecht, die Comics immer hervorbringen und bisweilen hinterfragen, sind mannigfaltig und substanziell.
+    Dabei ist nicht nur an Jerry Siegels und Joe Shusters idealisierten Kraftkörper ‚Superman‘ sowie an sexualisierte Weiblichkeitsdarstellungen in DC Comics-Figuren wie ‚Wonder Woman‘ oder ‚Catwoman‘ zu denken; sondern auch an Beispiele aus dem deutschsprachigen Raum, wie etwa Anke Feuchtenbergers und Katrin de Vries’ sich stets neu (de)formierende Körper der ‚Hure H‘, oder Ulli Lusts Kritik an Geschlechterrollen in *Heute ist der letzte Tag vom Rest deines Lebens*.
+    Comics arbeiten in jedem Fall mit etablierten Registern von Geschlecht bzw. arbeiten sich daran ab und weisen Körper als Träger kultureller Einschreibungen aus.
+    Anhand von Einzeldarstellungen (vorwiegend im anglo-amerikanischen Raum), hat die Comicforschung sich diesem Themenfeld bereits angenähert; eine strukturierte Sammlung und Untersuchung der ‚Visualitäten von Geschlecht‘, auch um ihre soziokulturelle Produktivität genau fassen zu können, steht allerdings aus.
+    
+    
+    Das vorliegende Projekt schließt diese Lücke und leistet zentrale Grundlagenarbeit, indem es die Bedingungen, Eigenschaften und Strukturen von Visualitäten von Geschlecht in deutschsprachigen Comics untersucht und durch seine Verortung zusätzlich den dringenden Nachholbedarf einer speziell österreichischen Comicforschung deckt. 
+    
+    
+    Der theoretische Referenzrahmen umfasst Bildwissenschaften, Visual Culture und Gender Studies; die Leitfragen lauten: Wie wird Geschlecht in deutschsprachigen Comics dargestellt? 
+    Welche Möglichkeiten haben diese, Geschlecht, Körperlichkeit, Sexualität und Begehren abzubilden und zu erzählen? 
+    Welche theoretischen, politischen oder ästhetischen Traditionen verfolgen/dekonstruieren sie? 
+    Wie (re)produzieren und stabilisieren sie binäre Geschlechternormen? Welche Möglichkeiten des Bruches bieten sie? 
 
 
-    Thus, the project at hand is designed as fundamental research examining the conditions, properties, and structures of visualities of gender, being the first systematic analysis of German-language comics to that scope. This fills a gap within the underrepresented field of German-language comics studies in general and within an Austrian ‘scene’ in specific (shedding light on Austrian comics production as well as research).
-
-
-    The theoretical framework consists of image theory, visual culture as well as gender studies; central questions are: In German-language comics, how is gender depicted? Which possibilities do these comics have to visualize and narrate bodies, desire, gender, and sexualities? Which theoretical, political or aesthetic traditions do they draw from or abolish? How do they (re)produce and stabilize binary gender norms? Which opportunities for subversion do they offer?
-
-
-    **Susanne Hochreiter**,
-    **Marina Rauchenbacher**, and
-    **Katharina Serles** conduct the research over the course of four years and in three phases corresponding to three main objectives. First, German-language comics with explicit gender-references are compiled, indexed, annotated, and published as an open access database for a wide, international audience. Secondly, exemplary thematic cuts through relevant comics literature are made, providing in-depth, qualitative analyses – both individually as well as comparatively and by means of discourse analysis, deconstruction, and intersectional readings. These cuts establish interdisciplinary subject-clusters, further differentiating and expanding the corpus. Finally, a meta- and self-referential approach reconnects the analytical findings to the respective theories, which it aims to update and advance. As such, the project can redefine the corresponding areas of comics studies as well as comics’ place and performative influence for theory.
-
-  sectionFundingOrg: Funding Organization
+    **Susanne Hochreiter**, **Marina Rauchenbacher** und **Katharina Serles** bearbeiten diese Fragen in drei Phasen, die mit den drei zentralen Zielen korrespondieren: 
+    Zunächst werden deutschsprachige Comics mit explizitem Gender-Bezug gesammelt, zusammengestellt und beschlagwortet; die Ergebnisse werden kommentiert und als open-access Datenbank einer breiten, internationalen Öffentlichkeit zugänglich gemacht. 
+    In einer zweiten Arbeitsphase werden intersektionale, diskursanalytische und dekonstruktive Auswertungen des Materials vorgenommen. 
+    Dabei werden interdisziplinäre Themencluster aufbereitet, ein Glossar zentraler Begriffe verfasst und das in Phase 1 erstellte Korpus erweitert. 
+    Zuletzt wird eine meta- und selbstreferenzielle Ebene eingezogen, um mittels der Erkenntnisse aus der thematischen Auswertungsphase eine vertiefte und aktualisierte Theorie des Comics sowie Comicforschungskritik zu leisten, die Verortung und performative Wirkkraft von Comics für den theoretischen Referenzrahmen genau zu fassen und diesen produktiv zu ergänzen.
+  
+  sectionFundingOrg: Fördergeber
   fundingFWF:
     name: >
-      **Austrian Science Fund (FWF)**
+      **FWF Der Wissenschaftsfonds**
     detail: >
-      Project number: P 31925
+      Projekt number: P 31925
     www: https://www.fwf.ac.at
 
   sectionInstitution: Institution
   instituteUNI:
     name: >
-      **University of Vienna**
+      **Universität Wien**
     detail: >
-      Department of German Studies
+      Institut für Germanistik
     www: https://germanistik.univie.ac.at
     
-  sectionContact: Contact
+  sectionContact: Kontakt
   textContact: >
     [Susanne Hochreiter](mailto:susanne.hochreiter@univie.ac.at)  
     
