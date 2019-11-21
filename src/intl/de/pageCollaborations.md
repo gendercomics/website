@@ -1,40 +1,42 @@
 ---
 collaborations:
-  title: Collaborations.
+  title: Kooperationen
   textLead: >
-    GenderComics collaborates with the following **researchers and institutions**. 
-  sectionBoard: Advisory Board
-  sectionInstitutions: Institutions and Projects
-  sectionPublishers: Collaborations with Publishers
+    GenderComics kooperiert mit den folgenden **Forscher_innen und Institutionen**.
+  sectionBoard: Wissenschaftlicher Beirat
+  sectionInstitutions: Institutionen und Projekte
+  sectionPublishers: Verlags-Kooperationen
   accordion:
-    contact: Contact
-    description: Description
+    contact: Kontakt
+    description: Beschreibung
   person:
+    feuchtenberger:
+        name: Anke Feuchtenberger
+        textLead: >
+          **Anke Feuchtenberger**
+        textAbout: >
+          **Anke Feuchtenberger** ist Professorin für Zeichnen und Medienillustration an der Hochschule für Angewandte Wissenschaften Hamburg (HAW).
+          Sie ist nicht nur eine bedeutende Comiczeichnerin des deutschsprachigen Raums, sondern bildet als Professorin an der HAW auch Comickünstler_innen aus. 
+        uni-www: https://vorlesungsverzeichnis.design.haw-hamburg.de/person/anke-feuchtenberger
+
     fliedl:
       name: Konstanze Fliedl
       textLead: >
         **Konstanze Fliedl**
       textAbout: >
-        **Konstanze Fliedl** is a professor for German literature at the Department of German Studies, University of Vienna. She is a renowned expert on intermediality as well as visual arts and literature. She also chaired two subject relevant FWF-funded projects: *Art in Texts* and *Art Quotations. Intermediality and Tradition.*   
+        **Konstanze Fliedl** ist Professorin für Neuere Deutsche Literatur am Institut für Germanistik, Universität Wien.
+        Sie ist unter anderem ausgewiesene Expertin für Intermedialität sowie Bildende Kunst und Literatur.
+        Zu diesem Thema leitete sie zwei vom FWF geförderte Projekte – *Kunst im Text* und *Das Bildzitat. Intermedialität und Tradition.*
       uni-www: https://www.univie.ac.at/germanistik/konstanze-fliedl   
-
-    feuchtenberger:
-      name: Anke Feuchtenberger
-      textLead: >
-        **Anke Feuchtenberger**
-      textAbout: >
-        **Anke Feuchtenberger** is a professor for drawing and media illustration at the Hamburg University of Applied Sciences (HAW). She is not only an acclaimed German-language comics artist, but also instructs comics artists at the HAW.  
-      uni-www: https://vorlesungsverzeichnis.design.haw-hamburg.de/person/anke-feuchtenberger
-
+    
     frahm:
       name: Ole Frahm
       textLead: >
         **Ole Frahm**
       textAbout: >
-        PD Dr. **Ole Frahm** founded the Research Center for Graphic Literature (ArGL) at the University of Hamburg with other students. 
-        His PhD thesis is *Genealogie des Holocaust. Art Spiegelmans "MAUS - A Survivor’s Tale"* (Paderborn 2006). 
-        He also published *Die Sprache des Comics* (Hamburg 2010) and is currently working on the book *The Specters of the Graphic Novel*. 
-        Research areas: history, theory, and aesthetics of comics and radio. He works as author and artist in Frankfurt am Main. 
+        **Ole Frahm** gründete mit anderen Studierenden die Arbeitsstelle für Graphische Literatur (ArGL) an der Universität Hamburg.
+        Er promovierte mit der Arbeit *Genealogie des Holocaust. Art Spiegelmans MAUS – A Survivor’s Tale* (Paderborn 2006) und habilitierte mit der Studie *Die Sprache des Comics* (Hamburg 2010). 
+        Arbeitsgebiete: Geschichte, Theorie und Ästhetik von Comics und Radio. Er arbeitet als freier Autor und Künstler in Frankfurt am Main.
       www:
         1: https://forschungsforum.net/mitglieder/ole-frahm/
         2: https://www.comicgesellschaft.de/mitgliederbereich/mitgliederprofile/olefrahm/
@@ -44,7 +46,8 @@ collaborations:
       textLead: >
         **Elizabeth "Biz" Nijdam**
       textAbout: >
-        **Elizabeth “Biz” Nijdam** is an assistant professor for German Studies at the Department of Central, Eastern, and Northern European Studies at the University of British Columbia in Vancouver, Canada. Her current book project, *Panelled Pasts: History, Media and Memory in the German Graphic Novel* (under contract with Ohio State University Press), examines how comics have become an important form for popular investigations of East German experience.
+        **Elizabeth “Biz” Nijdam** ist Assistenzprofessorin für Germanistik am Department of Central, Eastern, and Northern European Studies an der University of British Columbia in Vancouver, Kanada.
+        Ihr aktuelles Buchprojekt *Panelled Past: History, Media and Memory in the German Graphic Novel* (im Auftrag der Ohio State University Press) untersucht den Stellenwert von Comics für ostdeutsche Erfahrungen.
       academia: https://ubc.academia.edu/ElizabethBizNijdam
 
   institution:
@@ -58,16 +61,16 @@ collaborations:
       name: aka - Arbeitskreis Kulturanalyse
       textLead: >
         **aka - Arbeitskreis Kulturanalyse**
-      www: https://aka.univie.ac.at/aka/who-is-aka/
+      www: https://aka.univie.ac.at/
          
     genderagency:
       name: Gender and Agency
       textLead: >
         **Gender and Agency**
-      www: https://genderandagency.univie.ac.at/en/
+      www: https://genderandagency.univie.ac.at/
       
     gsa:
-      name: Interdisciplinary Network Comic Studies (GSA)
+      name: Interdisziplinäres Netzwerk Comic Studies (GSA) 
       textLead: >
         **Interdisciplinary Network *Comic Studies* of the German Studies Association (GSA)**
       www: https://www.thegsa.org/interdisciplinary-networks  
