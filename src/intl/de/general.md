@@ -15,6 +15,7 @@ navigation:
 footer:
   partners: Unsere Partner
   copyright: Alle Rechte vorbehalten.
+  imprint: Impressum
   feedback:
     question: Du hast Feedback zu dieser Seite?
     action: Schreib uns!
