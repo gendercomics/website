@@ -102,7 +102,8 @@ team:
       textLead: >
         **Ingo Börner**
       textAbout: >
-        **Ingo Börner** studied German and Slavic Philologies at the  Universities of Vienna and Moscow. He is exploring digital methods within humanities and brings great experiences in applying Semantic Web Technology to literature.
+        **Ingo Börner** studierte Deutsche Philologie und Slawistik an den Universitäten Wien und Moskau. 
+        Er erforscht den Einsatz digitaler Methoden in den Geistes- und Kulturwissenschaften und hat umfassende Erfahrung mit dem Einsatz von Semantic Web Technology in Literaturwissenschaften.      
       email: ingo.boerner@univie.ac.at
       uni-www: https://www.oeaw.ac.at/acdh/team/current-team/ingo-boerner/
 
@@ -111,7 +112,7 @@ team:
       textLead: >
         **Michael Litschauer**
       textAbout: >
-        **Michael Litschauer** is an experienced developer and project leader. A person who understands to lead agile development processes in a calm and pragmatic way.
+        **Michael Litschauer** hat umfassende Erfahrung als Entwickler und Projektleiter. Er versteht es, Projekte pragmatisch und versiert aufzubereiten.
       email: michael.litschauer@gmail.com
       linkedIn: michael-litschauer-79382689
 
@@ -120,6 +121,6 @@ team:
       textLead: >
         **Matthias Grieder**
       textAbout: >
-        **Matthias Grieder** is a designer specialized in User Experience and Usability. He understands context by observation, listening and curiosity to find solutions and integrate the best idea.
+        **Matthias Grieder** arbeitet als Designer und ist spezialisiert in User Experience und Usability.
       email: matthias@zeitvertrieb.net
       linkedIn: matthias-grieder
