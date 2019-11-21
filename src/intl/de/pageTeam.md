@@ -1,44 +1,39 @@
 ---
 team:
-  title: Team.
+  title: Team
   textLead: >
-    These are **the people** behind GenderComics.
-  sectionCore: Project Team
+    Das sind **die Menschen** hinter GenderComics.
+  sectionCore: Projekt Team
   sectionDev: IT Team
   accordion:
-    contact: Contact
+    contact: Kontakt
     resume: Resume
-    publication: Relevant Publications
+    publication: Relevante Publikationen
   person:
     susanne:
       name: Susanne Hochreiter
       textLead: >
         **Susanne Hochreiter**
       textAbout: >
-        **Susanne Hochreiter** studied German Studies and Philosophy, Psychology, and Pedagogics at the University of Vienna 
-        and at the FU Berlin. In 2003, she received her PhD with a thesis on gender and space in Franz Kafka’s novel fragments. 
-        From 2003 to 2005 and from 2010 to 2012 she attended extra-occupational training in theater pedagogy. 
-        She has been working as assistant professor at the Department of German Studies, University of Vienna since 1999. 
-        She was visiting lecturer in Berne (Switzerland) 2002, visiting professor at Wake Forest University in Winston-Salem (NC) 2006/07, 
-        and Max Kade Distinguished Visiting Professor at the University of Illinois at Urbana-Champaign (2015). 
-        From 2001 to 2016 she led a research project on *Discursive Intersections in Literature on Hermaphroditism* which was supported by 
-        the Austrian Science Fund (FWF). Her research interests include modern German and Austrian literature, Comics and Graphic Novels, 
-        drama and performance, focusing on gender and queer studies. As equal opportunity officer she is involved in the gender equality 
-        and anti-discrimination activities at University of Vienna. She is a co-founder of the [Austrian Association for the Research and Promotion of Comics (OeGeC)](https://oegec.com/).
-      listPublication: >   
-        - forthcoming: “Jenseits der Geschlechtergrenzen. Transgender-Narrative und ihre de/stabilisierenden Effekte.” Wiener Vorlesungen zur Kinder- und Jugendliteratur [Vienna: Praesens, 2019].
-                
-        - forthcoming: “Queer Visualities - Queer Spaces. German-Language LGBTIQ+ Comics.” The LGBTQ Comics Reader. Eds. Alison Halsall and Jonathan Warren [with K. Serles and M. Rauchenbacher, University of Mississippi Press, 2020].       
+        **Susanne Hochreiter** studierte Deutsche Philologie sowie Philosophie, Psychologie und Pädagogik an der Universität Wien und der FU Berlin. 
+        2003 promovierte sie mit einer Arbeit zu Gender und Raum bei Franz Kafka. Zwischen 2003 und 2005 sowie 2010 und 2012 absolvierte sie zusätzlich eine theaterpädagogische Ausbildung. 
+        Seit 1999 ist sie Assistenzprofessorin am Institut für Germanistik in Wien. Darüber hinaus war sie 2002 als Gastprofessorin an der Universität Bern und 2006/07 an der Wake Forest University in Winston-Salem (NC) 2006/07 sowie 2015 als Max Kade Distinguished Visiting Professor an der University of Illinois at Urbana-Champaign tätig. 
+        Zwischen 2001 und 2016 leitete sie das FWF-Projekt *Diskursverhandlungen zwischen Literatur und Hermaphroditismus*. Ihre Forschungsinteressen sind deutschsprachige Literatur, Comics und Graphic Novels sowie Theater und Performance – mit einem Fokus auf Gender und Queer Studies. 
+        Darüber hinaus ist sie Gleichbehandlungsbeauftragte an der Universität Wien. Sie ist Mitbegründerin der [Österreichischen Gesellschaft für Comic-Forschung und -Vermittlung (OeGeC)](https://oegec.com/).       
+      listPublication: >
+        - im Erscheinen: Jenseits der Geschlechtergrenzen. Transgender-Narrative und ihre de/stabilisierenden Effekte. In: Wiener Vorlesungen zur Kinder- und Jugendliteratur [Wien: Praesens 2019].
         
-        - “Sisi. A Double Reflection on a ‘Queer Icon’.” Sissi’s World. The Empress Elisabeth in Memory and Myth. Eds. Heidi Schlipphacke and Maura E. Hametz. New York: Bloomsbury Academic, 2018. 247–73. (New Directions in German Studies).
+        - im Erscheinen: Queer Visualities – Queer Spaces. German-Language LGBTIQ+ Comics. In: Alison Halsall und Jonathan Warren (Hg.): The LGBTQ Comics Reader [mit M. Rauchenbacher und K. Serles, 2020, University of Mississippi Press].
         
-        - Bild ist Text ist Bild. Narration und Ästhetik in der Graphic Novel. Eds. Susanne Hochreiter and Ursula Klingenböck. Bielefeld: Transcript, 2014.
+        - Sisi. A Double Reflection on a „Queer Icon“. Sissi’s World. In: Heidi Schlipphacke und Maura E. Hametz (Hg.): The Empress Elisabeth in Memory and Myth. New York: Bloomsbury Academic 2018 (New Directions in German Studies), S. 247–273.
         
-        - “Heldinnen und keine. Zu Genre und Affekt in Ulli Lusts Heute ist der letzte Tag vom Rest deines Lebens”. Bild ist Text ist Bild. Narration und Ästhetik in der Graphic Novel. Eds. Susanne Hochreiter and Ursula Klingenböck. Bielefeld: Transcript, 2014. 233-56.
+        - Bild ist Text ist Bild. Narration und Ästhetik in der Graphic Novel. Hg. v. Susanne Hochreiter und Ursula Klingenböck. Bielefeld: Transcript 2014.
         
-        - Inter*geschlechtliche Körperlichkeiten. Diskurs/Begegnungen im  Erzähltext. Eds. Angelika Baier and Susanne Hochreiter. Vienna: Zaglossus, 2014. (challenge GENDER, vol. 3).
+        - Heldinnen und keine. Zu Genre und Affekt in Ulli Lusts *Heute ist der letzte Tag vom Rest deines Lebens*. In: Susanne Hochreiter und Ursula Klingenböck (Hg.): Bild ist Text ist Bild. Narration und Ästhetik in der Graphic Novel. Bielefeld: Transcript 2014, S. 233–256.
         
-        - Queer Reading in den Philologien. Modelle und Anwendungen. Eds. Anna Babka and Susanne Hochreiter. Göttingen: V&R unipress, 2008.
+        - Inter*geschlechtliche Körperlichkeiten. Diskurs/Begegnungen im Erzähltext. Hg v. Angelika Baier und Susanne Hochreiter. Wien: Zaglossus 2014 (challenge GENDER 3).
+        
+        - Queer Reading in den Philologien. Modelle und Anwendungen. Hg. v. Anna Babka und Susanne Hochreiter. Göttingen: V&R unipress 2008.
       email: susanne.hochreiter@univie.ac.at
       uni-www: germanistik/susanne-hochreiter
       academia: https://univie.academia.edu/SusanneHochreiter
