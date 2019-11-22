@@ -26,10 +26,17 @@ before_script:
 script:
   - yarn build
 
+after_success:
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+  - docker build -t gendercomics/website .
+  - docker tag gendercomics/website gendercomics/website:latest
+  - docker images
+  - docker push gendercomics/website:latest
+
 #after_success:
 # - eval "$(ssh-agent -s)"
 #  - chmod 600 deploy-key
-#  - ssh-add deploy-key
+#  - ssh-add deploy-k
 #  - cd $TRAVIS_BUILD_DIR/public
 #  - scp -r * deploy@gendercomics.net:/var/gendercomics/website/public
 
@@ -40,11 +47,16 @@ before_deploy:
   - ssh-add deploy-key
 
 deploy:
-  provider: script
-  skip_cleanup: true
-  script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/public deploy@gendercomics.net:/var/gendercomics/website/
-  on:
-    branch: master
+  - provider: script
+    skip_cleanup: true
+    script: ssh deploy@gendercomics.net 'docker pull gendercomics/website:latest && cd /var/gendercomics/docker && docker-compose up -d gendercomics-website-stage
+    on:
+      branch: develop
+  - provider: script
+    skip_cleanup: true
+    script: ssh deploy@gendercomics.net 'docker pull gendercomics/website:1.0.2 && cd /var/gendercomics/docker && docker-compose up -d gendercomics-website
+    on:
+      branch: master
 
 notifications:
   slack:
