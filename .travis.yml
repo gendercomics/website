@@ -49,12 +49,12 @@ before_deploy:
 deploy:
   - provider: script
     skip_cleanup: true
-    script: ssh deploy@gendercomics.net 'docker pull gendercomics/website:latest && cd /var/gendercomics/docker && docker-compose up -d gendercomics-website-stage
+    script: ssh deploy@gendercomics.net 'docker pull gendercomics/website:latest && cd /var/gendercomics/docker && docker-compose up -d gendercomics-website-stage'
     on:
       branch: develop
   - provider: script
     skip_cleanup: true
-    script: ssh deploy@gendercomics.net 'docker pull gendercomics/website:1.0.2 && cd /var/gendercomics/docker && docker-compose up -d gendercomics-website
+    script: ssh deploy@gendercomics.net 'docker pull gendercomics/website:1.0.2 && cd /var/gendercomics/docker && docker-compose up -d gendercomics-website'
     on:
       branch: master
 
