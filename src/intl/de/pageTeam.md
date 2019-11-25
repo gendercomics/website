@@ -22,17 +22,17 @@ team:
         Darüber hinaus ist sie Gleichbehandlungsbeauftragte an der Universität Wien. Sie ist Mitbegründerin der [Österreichischen Gesellschaft für Comic-Forschung und -Vermittlung (OeGeC)](https://oegec.com/).       
       listPublication: >
         - im Erscheinen: Jenseits der Geschlechtergrenzen. Transgender-Narrative und ihre de/stabilisierenden Effekte. In: Wiener Vorlesungen zur Kinder- und Jugendliteratur [Wien: Praesens 2019].
-        
+                  
         - im Erscheinen: Queer Visualities – Queer Spaces. German-Language LGBTIQ+ Comics. In: Alison Halsall und Jonathan Warren (Hg.): The LGBTQ Comics Reader [mit M. Rauchenbacher und K. Serles, 2020, University of Mississippi Press].
-        
+          
         - Sisi. A Double Reflection on a „Queer Icon“. Sissi’s World. In: Heidi Schlipphacke und Maura E. Hametz (Hg.): The Empress Elisabeth in Memory and Myth. New York: Bloomsbury Academic 2018 (New Directions in German Studies), S. 247–273.
-        
+          
         - Bild ist Text ist Bild. Narration und Ästhetik in der Graphic Novel. Hg. v. Susanne Hochreiter und Ursula Klingenböck. Bielefeld: Transcript 2014.
-        
+          
         - Heldinnen und keine. Zu Genre und Affekt in Ulli Lusts *Heute ist der letzte Tag vom Rest deines Lebens*. In: Susanne Hochreiter und Ursula Klingenböck (Hg.): Bild ist Text ist Bild. Narration und Ästhetik in der Graphic Novel. Bielefeld: Transcript 2014, S. 233–256.
         
         - Inter*geschlechtliche Körperlichkeiten. Diskurs/Begegnungen im Erzähltext. Hg v. Angelika Baier und Susanne Hochreiter. Wien: Zaglossus 2014 (challenge GENDER 3).
-        
+          
         - Queer Reading in den Philologien. Modelle und Anwendungen. Hg. v. Anna Babka und Susanne Hochreiter. Göttingen: V&R unipress 2008.
       email: susanne.hochreiter@univie.ac.at
       uni-www: germanistik/susanne-hochreiter
