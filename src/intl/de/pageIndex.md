@@ -7,7 +7,7 @@ index:
   sectionAbstract: Zusammenfassung
   textAbstract: >
     Die Bilder und Narrative von Geschlecht, die Comics immer hervorbringen und bisweilen hinterfragen, sind mannigfaltig und substanziell.
-    Dabei ist nicht nur an Jerry Siegels und Joe Shusters idealisierten Kraftkörper ‚Superman‘ sowie an sexualisierte Weiblichkeitsdarstellungen in DC Comics-Figuren wie ‚Wonder Woman‘ oder ‚Catwoman‘ zu denken; sondern auch an Beispiele aus dem deutschsprachigen Raum, wie etwa Anke Feuchtenbergers und Katrin de Vries’ sich stets neu (de)formierende Körper der ‚Hure H‘, oder Ulli Lusts Kritik an Geschlechterrollen in *Heute ist der letzte Tag vom Rest deines Lebens*.
+    Dabei ist nicht nur an Jerry Siegels und Joe Shusters idealisierten Kraftkörper ‚Superman‘ sowie an sexualisierte Weiblichkeitsdarstellungen in DC Comics wie ‚Wonder Woman‘ oder ‚Catwoman‘ zu denken; sondern auch an Beispiele aus dem deutschsprachigen Raum, wie etwa Anke Feuchtenbergers und Katrin de Vries’ sich stets neu (de)formierende Körper der ‚Hure H‘, oder Ulli Lusts Kritik an Geschlechterrollen in *Heute ist der letzte Tag vom Rest deines Lebens*.
     Comics arbeiten in jedem Fall mit etablierten Registern von Geschlecht bzw. arbeiten sich daran ab und weisen Körper als Träger kultureller Einschreibungen aus.
     Anhand von Einzeldarstellungen (vorwiegend im anglo-amerikanischen Raum), hat die Comicforschung sich diesem Themenfeld bereits angenähert; eine strukturierte Sammlung und Untersuchung der ‚Visualitäten von Geschlecht‘, auch um ihre soziokulturelle Produktivität genau fassen zu können, steht allerdings aus.
     

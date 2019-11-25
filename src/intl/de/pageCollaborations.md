@@ -55,7 +55,7 @@ collaborations:
       name: A Multidisciplinary Study of Feminist Comic Art
       textLead: >
         **A Multidisciplinary Study of Feminist Comic Art**
-      www: http://ostersjostiftelsen.se/projekt/650-a-multidisciplinary-study-of-feminist-comic-art
+      www: https://www.sh.se/english/sodertorn-university/research/our-research/research-database/research-projects/a-multidisciplinary-study-of-feminist-comic-art
   
     aka:
       name: aka - Arbeitskreis Kulturanalyse
