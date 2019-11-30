@@ -54,7 +54,7 @@ deploy:
       all_branches: true
   - provider: script
     skip_cleanup: true
-    script: ssh deploy@gendercomics.net 'docker pull gendercomics/website:1.1.0 && cd /var/gendercomics/docker && docker-compose up -d gendercomics-website'
+    script: ssh deploy@gendercomics.net 'docker pull gendercomics/website:$VERSION && cd /var/gendercomics/docker && docker-compose up -d gendercomics-website'
     on:
       branch: master
 
