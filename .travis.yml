@@ -28,8 +28,10 @@ script:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   - docker build -t gendercomics/website .
   - docker tag gendercomics/website gendercomics/website:latest
+  - docker tag gendercomics/website gendercomics/website:$VERSION
   - docker images
   - docker push gendercomics/website:latest
+  - docker push gendercomics/website:$VERSION
 
 #after_success:
 # - eval "$(ssh-agent -s)"
@@ -49,10 +51,10 @@ deploy:
     skip_cleanup: true
     script: ssh deploy@gendercomics.net 'docker pull gendercomics/website:latest && cd /var/gendercomics/docker && docker-compose up -d gendercomics-website-stage'
     on:
-      branch: develop
+      all_branches: true
   - provider: script
     skip_cleanup: true
-    script: ssh deploy@gendercomics.net 'docker pull gendercomics/website:1.0.2 && cd /var/gendercomics/docker && docker-compose up -d gendercomics-website'
+    script: ssh deploy@gendercomics.net 'docker pull gendercomics/website:$VERSION && cd /var/gendercomics/docker && docker-compose up -d gendercomics-website'
     on:
       branch: master
 
