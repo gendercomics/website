@@ -2,102 +2,111 @@
 collaborations:
   title: Kooperationen
   textLead: >
-    GenderComics arbeitet mit folgenden **Forschern und Institutionen** zusammen.  
-  sectionBoard: Advisory Board
+    GenderComics kooperiert mit den folgenden **Forscher_innen und Institutionen**.
+  sectionBoard: Wissenschaftlicher Beirat
   sectionInstitutions: Institutionen und Projekte
-  sectionPublishers: Kooperationen mit Verlagen
+  sectionPublishers: Verlags-Kooperationen
   accordion:
     contact: Kontakt
     description: Beschreibung
   person:
+    feuchtenberger:
+        name: Anke Feuchtenberger
+        textLead: >
+          **Anke Feuchtenberger**
+        textAbout: >
+          **Anke Feuchtenberger** ist Professorin für Zeichnen und Medienillustration an der Hochschule für Angewandte Wissenschaften Hamburg (HAW).
+          Sie ist nicht nur eine bedeutende Comiczeichnerin des deutschsprachigen Raums, sondern bildet als Professorin an der HAW auch Comickünstler_innen aus. 
+        uni-www: https://vorlesungsverzeichnis.design.haw-hamburg.de/person/anke-feuchtenberger
+
     fliedl:
       name: Konstanze Fliedl
       textLead: >
         **Konstanze Fliedl**
       textAbout: >
-        **Konstanze Fliedl**, professor for German literature, Department of German Philology, University of Vienna: she is a renowned expert on intermediality as well as visual arts and literature. She also chaired two FWF-funded projects – Art in Texts and Art Quotations.   
-        Intermediality and Tradition.  
+        **Konstanze Fliedl** ist Professorin für Neuere Deutsche Literatur am Institut für Germanistik, Universität Wien.
+        Sie ist unter anderem ausgewiesene Expertin für Intermedialität sowie Bildende Kunst und Literatur.
+        Zu diesem Thema leitete sie zwei vom FWF geförderte Projekte – *Kunst im Text* und *Das Bildzitat. Intermedialität und Tradition.*
       uni-www: https://www.univie.ac.at/germanistik/konstanze-fliedl   
-
-    feuchtenberger:
-      name: Anke Feuchtenberger
-      textLead: >
-        **Anke Feuchtenberger**
-      textAbout: >
-        **Anke Feuchtenberger**, professor for drawing and media illustration at the Hamburg University of Applied Sciences (HAW): she is not only an acclaimed German-language comics artist, but also instructs comics artists at the HAW.  
-      uni-www: https://vorlesungsverzeichnis.design.haw-hamburg.de/person/anke-feuchtenberger
-
+    
     frahm:
       name: Ole Frahm
       textLead: >
         **Ole Frahm**
       textAbout: >
-        **Ole Frahm**, co-founder of the Arbeitsstelle für Graphische Literatur (ArGL) at the University of Hamburg: he is one of the leading German-language comics experts. His book, Die Sprache des Comics (2010), is a crucial study for comics studies.
+        **Ole Frahm** gründete mit anderen Studierenden die Arbeitsstelle für Graphische Literatur (ArGL) an der Universität Hamburg.
+        Er promovierte mit der Arbeit *Genealogie des Holocaust. Art Spiegelmans MAUS – A Survivor’s Tale* (Paderborn 2006) und habilitierte mit der Studie *Die Sprache des Comics* (Hamburg 2010). 
+        Arbeitsgebiete: Geschichte, Theorie und Ästhetik von Comics und Radio. Er arbeitet als freier Autor und Künstler in Frankfurt am Main.
+      www:
+        1: https://forschungsforum.net/mitglieder/ole-frahm/
+        2: https://www.comicgesellschaft.de/mitgliederbereich/mitgliederprofile/olefrahm/
 
     nijdam:
       name: Elizabeth Nijdam
       textLead: >
         **Elizabeth "Biz" Nijdam**
       textAbout: >
-        **Elizabeth “Biz” Nijdam**, assistant professor for German Studies in the Department of Central, Eastern, and Northern European Studies at the University of British Columbia in Vancouver, Canada: her current book project, Panelled Pasts: History, Media and Memory in the German Graphic Novel (under contract with Ohio State University Press), examines how comics have become an important form for popular investigations of East German experience.
+        **Elizabeth “Biz” Nijdam** ist Assistenzprofessorin für Germanistik am Department of Central, Eastern, and Northern European Studies an der University of British Columbia in Vancouver, Kanada.
+        Ihr aktuelles Buchprojekt *Panelled Past: History, Media and Memory in the German Graphic Novel* (im Auftrag der Ohio State University Press) untersucht den Stellenwert von Comics für ostdeutsche Erfahrungen.
       academia: https://ubc.academia.edu/ElizabethBizNijdam
 
   institution:
+    feministcomic:
+      name: A Multidisciplinary Study of Feminist Comic Art
+      textLead: >
+        **A Multidisciplinary Study of Feminist Comic Art**
+      www: https://www.sh.se/english/sodertorn-university/research/our-research/research-database/research-projects/a-multidisciplinary-study-of-feminist-comic-art
+  
     aka:
-      name: Arbeitskreis Kulturanalyse
+      name: aka - Arbeitskreis Kulturanalyse
       textLead: >
-        **_Arbeitskreis_ Kulturanalyse**
-      www: https://aka.univie.ac.at
-
+        **aka - Arbeitskreis Kulturanalyse**
+      www: https://aka.univie.ac.at/
+         
     genderagency:
-      name: Research Network Gender and Agency
+      name: Gender and Agency
       textLead: >
-        **Research Network _Gender and Agency_**
-      www: https://genderandagency.univie.ac.at
+        **Gender and Agency**
+      www: https://genderandagency.univie.ac.at/
+      
+    gsa:
+      name: Interdisziplinäres Netzwerk Comic Studies (GSA) 
+      textLead: >
+        **Interdisciplinary Network *Comic Studies* of the German Studies Association (GSA)**
+      www: https://www.thegsa.org/interdisciplinary-networks  
 
     nextcomic:
-      name: Nextcomic-Festival
+      name: NEXTCOMIC Festival
       textLead: >
-        **_NEXTCOMIC-Festival_**
+        **NEXTCOMIC Festival**
       www: http://www.nextcomic.org
 
-    gsa:
-      name: Interdisciplinary Network Comic Studies of the German Studies Association
-      textLead: >
-        **Interdisciplinary Network Comic Studies of the German Studies Association**
-      www: https://www.thegsa.org/interdisciplinary-networks
-
-    feministcomic:
-      name: Research project A Multidisciplinary Study of Feminist Comic Art
-      textLead: >
-        **Research project _A Multidisciplinary Study of Feminist Comic Art_**
-      www: https://www.thegsa.org/interdisciplinary-networks
-
+      
   publisher:
     avant:
       name: avant-verlag
       textLead: >
         **avant-verlag**
       www: https://www.avant-verlag.de
-
+      
     carlsen:
       name: Carlsen
       textLead: >
         **Carlsen**
       www: https://www.carlsen.de
-
+      
     editionmoderne:
       name: Edition Moderne
       textLead: >
         **Edition Moderne**
       www: https://www.editionmoderne.ch
-
+      
     luftschacht:
       name: Luftschacht
       textLead: >
         **Luftschacht**
       www: https://www.luftschacht.com
-
+      
     reprodukt:
       name: Reprodukt
       textLead: >

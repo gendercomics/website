@@ -1,9 +1,9 @@
 import React from 'react'
 import {Link} from 'react-scroll'
-import {useIntl, FormattedMessage, injectIntl} from 'gatsby-plugin-intl'
+import {FormattedMessage, useIntl} from 'gatsby-plugin-intl'
 import Markdown from 'react-remarkable'
 import PageTemplate from '@templates/pageTemplate'
-import {Col, Container, Jumbotron, Card, Nav, Image, Row} from 'react-bootstrap'
+import {Card, Col, Container, Jumbotron, Nav, Row} from 'react-bootstrap'
 import SEO from '@components/helper/seo'
 
 import uniImg from '@assets/institution/UniWien-logo.svg'
@@ -15,7 +15,7 @@ const IndexPage = () => {
     <PageTemplate>
       <SEO
         lang={intl.locale}
-        title={`${intl.formatMessage({ id: 'index.title' })}`}
+        title={`${intl.formatMessage({id: 'index.title'})}`}
       />
       <Jumbotron>
         <Container>
@@ -32,7 +32,7 @@ const IndexPage = () => {
           <Col as="aside" xs="12" lg="3" className="aside mb-4">
             <div className="sticky--aside">
               <h4 className="h4 mb-4">
-                <FormattedMessage id="navigation.toc" />
+                <FormattedMessage id="navigation.toc"/>
               </h4>
               <Nav as="nav" className="flex-column">
                 <Link
@@ -95,16 +95,16 @@ const IndexPage = () => {
           <Col xs="12" lg="9" className="mx-auto">
             <section id="abstract">
               <Markdown>
-                <h2>{intl.formatMessage({ id: 'index.sectionAbstract' })}</h2>
+                <h2>{intl.formatMessage({id: 'index.sectionAbstract'})}</h2>
               </Markdown>
               <Markdown>
-                {intl.formatMessage({ id: 'index.textAbstract' })}
+                {intl.formatMessage({id: 'index.textAbstract'})}
               </Markdown>
             </section>
-            <hr />
+            <hr/>
             <section id="funding">
               <Markdown>
-                <h2>{intl.formatMessage({ id: 'index.sectionFundingOrg' })}</h2>
+                <h2>{intl.formatMessage({id: 'index.sectionFundingOrg'})}</h2>
               </Markdown>
               <Row>
                 <Col xs="12" sm="6">
@@ -114,11 +114,11 @@ const IndexPage = () => {
                         variant="top"
                         className="w-75"
                         src={fwfImg}
-                        alt={intl.formatMessage({ id: 'index.fundingFWF.name' })}
-                        />
+                        alt={intl.formatMessage({id: 'index.fundingFWF.name'})}
+                      />
                     </Card.Body>
                     <Card.Footer>
-                      <Markdown>{intl.formatMessage({ id: 'index.fundingFWF.name' })}</Markdown>
+                      <Markdown>{intl.formatMessage({id: 'index.fundingFWF.name'})}</Markdown>
                       <a
                         href={intl.formatMessage({id: 'index.fundingFWF.www'})}
                         title={intl.formatMessage({id: 'index.fundingFWF.www'})}
@@ -131,16 +131,16 @@ const IndexPage = () => {
                           {intl.formatMessage({id: 'action.www'})}
                         </span>
                       </a>
-                      <small><Markdown>{intl.formatMessage({ id: 'index.fundingFWF.detail' })}</Markdown></small>
+                      <small><Markdown>{intl.formatMessage({id: 'index.fundingFWF.detail'})}</Markdown></small>
                     </Card.Footer>
                   </Card>
                 </Col>
               </Row>
             </section>
-            <hr />
+            <hr/>
             <section id="institution">
               <Markdown>
-                <h2>{intl.formatMessage({ id: 'index.sectionInstitution' })}</h2>
+                <h2>{intl.formatMessage({id: 'index.sectionInstitution'})}</h2>
               </Markdown>
               <Row>
                 <Col xs="12" sm="6">
@@ -150,34 +150,34 @@ const IndexPage = () => {
                         variant="top"
                         className="w-75"
                         src={uniImg}
-                        alt={intl.formatMessage({ id: 'index.instituteUNI.name' })}
-                        />
+                        alt={intl.formatMessage({id: 'index.instituteUNI.name'})}
+                      />
                     </Card.Body>
                     <Card.Footer>
-                      <Markdown>{intl.formatMessage({ id: 'index.instituteUNI.name' })}</Markdown>
+                      <Markdown>{intl.formatMessage({id: 'index.instituteUNI.name'})}</Markdown>
                       <a href={intl.formatMessage({id: 'index.instituteUNI.www'})}
                          target="_blank"
                          title={intl.formatMessage({id: 'index.instituteUNI.www'})}
                          className="float-right"
                          rel="noopener noreferrer">
-                         <i className="fa fa-external-link-square fa-lg fa-fw"></i>
-                         <span className="sr-only">
+                        <i className="fa fa-external-link-square fa-lg fa-fw"></i>
+                        <span className="sr-only">
                            {intl.formatMessage({id: 'action.www'})}
                          </span>
                       </a>
-                      <small><Markdown>{intl.formatMessage({ id: 'index.instituteUNI.detail' })}</Markdown></small>
+                      <small><Markdown>{intl.formatMessage({id: 'index.instituteUNI.detail'})}</Markdown></small>
                     </Card.Footer>
                   </Card>
                 </Col>
               </Row>
             </section>
-            <hr />
+            <hr/>
             <section id="contact">
               <Markdown>
-                <h2>{intl.formatMessage({ id: 'index.sectionContact' })}</h2>
+                <h2>{intl.formatMessage({id: 'index.sectionContact'})}</h2>
               </Markdown>
               <Markdown>
-                {intl.formatMessage({ id: 'index.textContact' })}
+                {intl.formatMessage({id: 'index.textContact'})}
               </Markdown>
             </section>
           </Col>

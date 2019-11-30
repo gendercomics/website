@@ -2,34 +2,38 @@
 team:
   title: Team
   textLead: >
-    **Die Menschen** hinter GenderComics.
+    Das sind **die Menschen** hinter GenderComics.
   sectionCore: Projekt Team
   sectionDev: IT Team
   accordion:
     contact: Kontakt
-    publication: Publikationen
+    resume: Resume
+    publication: Relevante Publikationen
   person:
     susanne:
       name: Susanne Hochreiter
       textLead: >
-        **Susanne Hochreiter** studied German Studies and Philosophy,
-        Psychology and Pedagogics at the University of Vienna and at the FU Berlin.
+        **Susanne Hochreiter**
       textAbout: >
-        In 2003, she received her PhD with a thesis on gender and space in Franz Kafka’s novel fragments. From 2003 to 2005 and from 2010 to 2012 she attended extra-occupational training in theater pedagogy. She has been working as Assistant Professor at the German Department, University of Vienna since 1999. She was Visiting Lecturer in Berne (Switzerland) 2002, Visiting Professor at Wake Forest University in Winston-Salem (NC) 2006/07, and Max Kade Distinguished Visiting Professor at the University of Illinois at Urbana-Champaign (2015). From 2001 to 2016 she led a research project on “Discursive Intersections in Literature on Hermaphroditism” which was supported by the Austrian Science Fund (FWF). Her research interests include modern German and Austrian literature, Comics and Graphic Novels, drama and performance, focusing on gender and queer studies. As equal opportunity officer she is involved in the gender equality and anti-discrimination activities at University of Vienna. She is a co-founder of the [Austrian Association for the Research and Promotion of Comics (OeGeC)](https://oegec.com/).
-      listPublication: >   
-        - “Sisi. A Double Reflection on a ‘Queer Icon’.” Sissi’s World. The Empress Elisabeth in Memory and Myth. Eds. Heidi Schlipphacke and Maura E. Hametz. New York: Bloomsbury Academic, 2018. 247–73. (New Directions in German Studies).
-
-        - Bild ist Text ist Bild. Narration und Ästhetik in der Graphic Novel. Eds. Susanne Hochreiter and Ursula Klingenböck. Bielefeld: Transcript, 2014.
-
-        - “Heldinnen und keine. Zu Genre und Affekt in Ulli Lusts Heute ist der letzte Tag vom Rest deines Lebens”. Bild ist Text ist Bild. Narration und Ästhetik in der Graphic Novel. Eds. Susanne Hochreiter and Ursula Klingenböck. Bielefeld: Transcript, 2014. 233-56.
-
-        - Inter*geschlechtliche Körperlichkeiten. Diskurs/Begegnungen im  Erzähltext. Eds. Angelika Baier and Susanne Hochreiter. Vienna: Zaglossus, 2014. (challenge GENDER, vol. 3).
-
-        - Queer Reading in den Philologien. Modelle und Anwendungen. Eds. Anna Babka and Susanne Hochreiter. Göttingen: V&R unipress, 2008.
-
-        - forthcoming: “Jenseits der Geschlechtergrenzen. Transgender-Narrative und ihre de/stabilisierenden Effekte.” Wiener Vorlesungen zur Kinder- und Jugendliteratur [Vienna: Praesens, 2019].
-
-        - forthcoming: “Queer Visualities and Subversive Spaces in German-Language Comics.” The LGBTQ Comics Reader. Eds. Alison Halsall and Jonathan Warren [with S. Hochreiter and K. Serles, University of Mississippi Press, 2020].        
+        **Susanne Hochreiter** studierte Deutsche Philologie sowie Philosophie, Psychologie und Pädagogik an der Universität Wien und der FU Berlin. 
+        2003 promovierte sie mit einer Arbeit zu Gender und Raum bei Franz Kafka. Zwischen 2003 und 2005 sowie 2010 und 2012 absolvierte sie zusätzlich eine theaterpädagogische Ausbildung. 
+        Seit 1999 ist sie Assistenzprofessorin am Institut für Germanistik in Wien. Darüber hinaus war sie 2002 als Gastprofessorin an der Universität Bern und 2006/07 an der Wake Forest University in Winston-Salem (NC) 2006/07 sowie 2015 als Max Kade Distinguished Visiting Professor an der University of Illinois at Urbana-Champaign tätig. 
+        Zwischen 2001 und 2016 leitete sie das FWF-Projekt *Diskursverhandlungen zwischen Literatur und Hermaphroditismus*. Ihre Forschungsinteressen sind deutschsprachige Literatur, Comics und Graphic Novels sowie Theater und Performance – mit einem Fokus auf Gender und Queer Studies. 
+        Darüber hinaus ist sie Gleichbehandlungsbeauftragte an der Universität Wien. Sie ist Mitbegründerin der [Österreichischen Gesellschaft für Comic-Forschung und -Vermittlung (OeGeC)](https://oegec.com/).       
+      listPublication: >
+        - im Erscheinen: Jenseits der Geschlechtergrenzen. Transgender-Narrative und ihre de/stabilisierenden Effekte. In: Wiener Vorlesungen zur Kinder- und Jugendliteratur [Wien: Praesens 2019].
+                  
+        - im Erscheinen: Queer Visualities – Queer Spaces. German-Language LGBTIQ+ Comics. In: Alison Halsall und Jonathan Warren (Hg.): The LGBTQ Comics Reader [mit M. Rauchenbacher und K. Serles, 2020, University of Mississippi Press].
+          
+        - Sisi. A Double Reflection on a „Queer Icon“. Sissi’s World. In: Heidi Schlipphacke und Maura E. Hametz (Hg.): The Empress Elisabeth in Memory and Myth. New York: Bloomsbury Academic 2018 (New Directions in German Studies), S. 247–273.
+          
+        - Bild ist Text ist Bild. Narration und Ästhetik in der Graphic Novel. Hg. v. Susanne Hochreiter und Ursula Klingenböck. Bielefeld: Transcript 2014.
+          
+        - Heldinnen und keine. Zu Genre und Affekt in Ulli Lusts *Heute ist der letzte Tag vom Rest deines Lebens*. In: Susanne Hochreiter und Ursula Klingenböck (Hg.): Bild ist Text ist Bild. Narration und Ästhetik in der Graphic Novel. Bielefeld: Transcript 2014, S. 233–256.
+        
+        - Inter*geschlechtliche Körperlichkeiten. Diskurs/Begegnungen im Erzähltext. Hg v. Angelika Baier und Susanne Hochreiter. Wien: Zaglossus 2014 (challenge GENDER 3).
+          
+        - Queer Reading in den Philologien. Modelle und Anwendungen. Hg. v. Anna Babka und Susanne Hochreiter. Göttingen: V&R unipress 2008.
       email: susanne.hochreiter@univie.ac.at
       uni-www: germanistik/susanne-hochreiter
       academia: https://univie.academia.edu/SusanneHochreiter
@@ -39,22 +43,27 @@ team:
     marina:
       name: Marina Rauchenbacher
       textLead: >
-        **Marina Rauchenbacher** studied German Studies and Communication Studies at the Universities of Salzburg and Vienna.
+        **Marina Rauchenbacher**
       textAbout: >
-        In 2012, she completed her doctoral thesis on the reception of Karoline von Günderrode. From 2005 to 2013, she worked as a research assistant to the project Kunst im Text (Art in Texts, funded by the Austrian Science Fund) at the Universities of Salzburg and Vienna and as a university assistant at the Department for German Studies, University of Vienna. She was an affiliated scholar at the Beatrice Bain Research Group, University of California, Berkeley (2014/2015). Since fall 2015, she is a research assistant to the project Arthur Schnitzler – Critical Edition (Early Works) and a lecturer at the University of Vienna. Additionally, she was employed as a lecturer for the master programs Interdisciplinary Gender Studies, University of Graz (2016) and Gender Studies, University of Vienna (2017). Since 2019, she is a board member of [aka – Arbeitskreis Kulturanalyse](https://aka.univie.ac.at/), and she is a co-founder of the [Austrian Association for the Research and Promotion of Comics (OeGeC)](https://oegec.com/). Her research and academic teaching focus on Visual Culture Studies, Comics, Image Theories, Gender Studies, Reception Theory, Edition Philology and German-language literature of the 20th and 21st century.
-
+        **Marina Rauchenbacher** studierte Deutsche Philologie und Kommunikationswissenschaften an den Universitäten Salzburg und Wien. 
+        2012 promovierte sie mit einer Arbeit zur Rezeption Karoline von Günderrodes. Zwischen 2005 und 2013 war sie wissenschaftliche Mitarbeiterin für das FWF-Projekt *Kunst im Text* an den Universitäten Salzburg und Wien sowie Universitätsassistentin am Institut für Germanistik, Wien. 
+        2014/15 war sie Affiliated Scholar der Beatrice Bain Research Group an der University of California, Berkeley.
+        Seit 2015 ist sie wissenschaftliche Mitarbeiterin für das FWF-Projekt *Arthur Schnitzler – Kritische Edition (Frühwerk)* sowie Lehrbeauftragte an der Universität Wien. 
+        Darüber hinaus war sie Lehrbeauftragte in den Masterstudiengängen Interdisziplinäre Geschlechterstudien der Universität Graz (2016) sowie Gender Studies der Universität Wien (2017). 
+        Seit 2019 ist sie Vorstandsmitglied von [aka – Arbeitskreis Kulturanalyse](https://aka.univie.ac.at/); darüber hinaus ist sie Mitbegründerin und Vorstandsmitglied der [Österreichischen Gesellschaft für Comicforschung und -vermittlung](https://oegec.com/). 
+        Ihre Forschungs- und Lehrschwerpunkte sind Visuelle Kulturen, Comics, Bildtheorie, Gender Studies, Rezeptions- und Editionstheorien sowie deutschsprachige Literatur des 20. und 21. Jahrhunderts.
       listPublication: >
-        - “Opposing Viewpoints. Politics of Gazing in the Graphic Novel Gift.” Colloquia Germanica 48.4 (2015): Special Issue: German Graphic Novel. Eds. Lynn Kutch and Brett E. Sterling. 245–65. [published in 2018].
-
-        - “Bild : Sprung in die Augen.” Rücksendungen. Ein essayistisches Glossar zu Jacques Derridas Envois/Sendungen. Ed. Matthias Schmidt. Vienna, Berlin: Turia + Kant, 2015. 61–67.
-
-        - “Bilder schießen – Bild sein. Inter*geschlechtliche Körper in Ulrike Draesners Mitgift.” Inter*geschlechtliche Körperlichkeiten. Diskurs/Begegnungen im  Erzähltext. Eds. Angelika Baier and Susanne Hochreiter. Vienna: Zaglossus, 2014. 131-49. (challenge GENDER, vol. 3).
-
-        - Handbuch der Kunstzitate. Malerei, Skulptur, Fotografie in der deutschsprachigen Literatur der Moderne. Eds. Konstanze Fliedl, Marina Rauchenbacher and Joanna Wolf. 2 vols. Berlin and Boston: de Gruyter, 2011.
-
-        - forthcoming: “Fragmented and Framed. Precarious ‘Body Signs’ in Comics by Regina Hofer, Ulli Lust, and Barbara Yelin.” Spaces Between – Gender, Diversity and Identity in Comics. Eds. Nina Heindl and Véronique Sina [with K. Serles, Springer, 2019].
-
-        - forthcoming: “Queer Visualities and Subversive Spaces in German-Language Comics.” The LGBTQ Comics Reader. Eds. Alison Halsall and Jonathan Warren [with S. Hochreiter and K. Serles, University of Mississippi Press, 2020].
+        - im Erscheinen: Fragmented and Framed. Precarious ‘Body Signs’ in Comics by Regina Hofer, Ulli Lust, and Barbara Yelin. In: Nina Heindl und Véronique Sina (Hg.): Spaces Between – Gender, Diversity and Identity in Comics [mit K. Serles, 2020, Springer]
+          
+        - im Erscheinen: Queer Visualities – Queer Spaces. German-Language LGBTIQ+ Comics. In: Alison Halsall und Jonathan Warren (Hg.): The LGBTQ Comics Reader [mit S. Hochreiter und M. Rauchenbacher, 2020, University of Mississippi Press].
+          
+        - Opposing Viewpoints. Politics of Gazing in the Graphic Novel *Gift*. In: Colloquia Germanica 48 (2015), 4: German Graphic Novel. Hg. v. Lynn Kutch und Brett E. Sterling, S. 245–265. [erschienen 2018]
+          
+        - Bild : Sprung in die Augen. In: Matthias Schmidt (Hg.): Rücksendungen. Ein essayistisches Glossar zu Jacques Derridas Envois/Sendungen. Wien/Berlin: Turia + Kant 2015, S. 61–67.
+          
+        - Bilder schießen – Bild sein. Intergeschlechtliche Körper in Ulrike Draesners *Mitgift*. In: Angelika Baier und Susanne Hochreiter (Hg.): Intergeschlechtliche Körperlichkeiten. Diskurs/Begegnungen im Erzähltext. Wien: Zaglossus 2014 (challenge GENDER 3), S. 131–149.
+          
+        - Handbuch der Kunstzitate. Malerei, Skulptur, Fotografie in der deutschsprachigen Literatur der Moderne. Hg. v. Konstanze Fliedl, Marina Rauchenbacher und Joanna Wolf. 2 Bde. Berlin/Boston: de Gruyter 2011.
       email: marina.rauchenbacher@univie.ac.at
       uni-www: germanistik/marina-rauchenbacher
       academia: https://univie.academia.edu/MarinaRauchenbacher
@@ -64,19 +73,23 @@ team:
     katharina:
       name: Katharina Serles
       textLead: >
-        **Katharina Serles** is a doctoral candidate and affiliated researcher at the University of Vienna, where she studied German, English studies and art history.
+        **Katharina Serles**
       textAbout: >
-        From 2009 to 2015, she worked as a research assistant to the projects Art in Texts and Art Quotations: Intermediality and Tradition (both funded by the Austrian Science Fund), as well as a university assistant at the Department for German Studies, University of Vienna. From 2016 to 2018, she was employed as an artistic/scientific assistant at the Art Academy Dresden, Germany. Her main fields of research and teaching include Comics, Literature and Visual Arts, as well as Gender Studies and Image Theories. She has co-founded the [Austrian Association for the Research and Promotion of Comics (OeGeC)](https://oegec.com) and is a member of AG Comicforschung, Society for Comics Studies (ComFor), Comic Studies Network (German Studies Association), and The Comics Studies Society (CSS). She is editor-in-chief of the cultural-political magazine KUPFzeitung.
+        **Katharina Serles** ist Doktorandin und Dozentin an der Universität Wien, wo sie Deutsche Philologie, Amerikanistik und Kunstgeschichte studierte. 
+        Von 2009 bis 2015 war sie wissenschaftliche Mitarbeiterin für die FWF-Projekte *Kunst im Text* und *Das Bildzitat: Intermedialität und Tradition* sowie Universitätsassistentin am Institut für Germanistik, Universität Wien. 
+        Von 2016 bis 2018 war sie als künstlerisch-wissenschaftliche Mitarbeiterin an der Hochschule für Bildende Künste Dresden tätig. 
+        Ihre Forschungs- und Lehrschwerpunkte sind Comics, Literatur und Bildende Kunst, Gender Studies und Bildtheorie. 
+        Sie ist Mitbegründerin der [Österreichischen Gesellschaft für Comicforschung und -vermittlung (OeGeC)](https://oegec.com/), Online-Redaktionsmitglied und Mitglied der Gesellschaft für Comicforschung (ComFor), sowie Mitglied der AG Comicforschung, des Comic Studies Network der German Studies Association (GSA) und der Comics Studies Society (CSS). Außerdem ist sie Leiterin der KUPFzeitung.
       listPublication: >
-        - “BILDER SEHEN ERZÄHLEN. Kunstbetrachtung im Comic”. closure. Kieler e-journal für Comicforschung 4.5 (2018). 134–46. http://www.closure.uni-kiel.de/closure4.5/serles [peer reviewed].
-
-        - “‘Time in comics is infinitely weirder than that.’ Zeit- via Bildkonfiguration bei Marc-Antoine Mathieu und Chris Ware”. Bild ist Text ist Bild. Narration und Ästhetik in der Graphic Novel. Eds. Susanne Hochreiter and Ursula Klingenböck. Bielefeld: transcript, 2014. 79–96.
-
-        - “‘Mona Lisa (Du Luder)’. Bild(de)konstruktionen der Rezeption”. Gemälderedereien. Zur literarischen Diskursivierung von Bildern. Eds. Konstanze Fliedl, Bernhard Oberreither and Katharina Serles. Berlin: Erich Schmidt, 2013. 194–229. (Philologische Studien und Quellen 242).
-
-        - forthcoming: “Fragmented and Framed. Precarious ‘Body Signs’ in Comics by Regina Hofer, Ulli Lust, and Barbara Yelin.” Spaces Between – Gender, Diversity and Identity in Comics. Eds. Nina Heindl and Véronique Sina [with M. Rauchenbacher, Springer, 2019].
-
-        - forthcoming: “Queer Visualities and Subversive Spaces in German-Language Comics.” The LGBTQ Comics Reader. Eds. Alison Halsall and Jonathan Warren [with S. Hochreiter and M. Rauchenbacher, University of Mississippi Press, 2020].
+        - im Erscheinen: Fragmented and Framed. Precarious ‘Body Signs’ in Comics by Regina Hofer, Ulli Lust, and Barbara Yelin. In: Nina Heindl und Véronique Sina (Hg.): Spaces Between – Gender, Diversity and Identity in Comics [mit M. Rauchenbacher, erscheint 2020, Springer]
+         
+        - im Erscheinen: Queer Visualities - Queer Spaces. German-Language LGBTIQ+ Comics. In: Alison Halsall und Jonathan Warren (Hg.): The LGBTQ Comics Reader [mit S. Hochreiter und M. Rauchenbacher, 2020, University of Mississippi Press].
+          
+        - BILDER SEHEN ERZÄHLEN. Kunstbetrachtung im Comic. In: closure. Kieler e-journal für Comicforschung 4 (2018), 5, S. 134–146. [http://www.closure.uni-kiel.de/closure4.5/serles](http://www.closure.uni-kiel.de/closure4.5/serles) [peer reviewed]. 
+        
+        - „Time in comics is infinitely weirder than that.“ Zeit- via Bildkonfiguration bei Marc-Antoine Mathieu und Chris Ware. In: Susanne Hochreiter und Ursula Klingenböck (Hg.): Bild ist Text ist Bild. Narration und Ästhetik in der Graphic Novel. Bielefeld: transcript 2014, S. 79–96. 
+          
+        - „Mona Lisa (Du Luder)“. Bild(de)konstruktionen der Rezeption. In: Konstanze Fliedl, Bernhard Oberreither und Katharina Serles (Hg.): Gemälderedereien. Zur literarischen Diskursivierung von Bildern. Berlin: Erich Schmidt 2013, S. 194–229 (Philologische Studien und Quellen 242).
       email: katharina.serles@univie.ac.at
       linkedIn: katharina-serles-a75b22129
       uni-www: germanistik/katharina-serles
@@ -87,26 +100,27 @@ team:
     ingo:
       name: Ingo Börner
       textLead: >
-        **Ingo Börner** studied German and Slavic Philologies at University of Vienna and Moscow. He is exploring digital methods within humanities and brings great experiences in applying Semantic Web Technology to literature.
+        **Ingo Börner**
       textAbout: >
-        will follow
+        **Ingo Börner** studierte Deutsche Philologie und Slawistik an den Universitäten Wien und Moskau. 
+        Er erforscht den Einsatz digitaler Methoden in den Geistes- und Kulturwissenschaften und hat umfassende Erfahrung mit dem Einsatz von Semantic Web Technology in Literaturwissenschaften.      
       email: ingo.boerner@univie.ac.at
       uni-www: https://www.oeaw.ac.at/acdh/team/current-team/ingo-boerner/
 
     michael:
       name: Michael Litschauer
       textLead: >
-        **Michael Litschauer** is an experienced developer and project leader. A person who understands to lead agile  development processes in a calm and pragmatic way.
+        **Michael Litschauer**
       textAbout: >
-        will follow
-      linkedIn: michael-litschauer-79382689
+        **Michael Litschauer** hat umfassende Erfahrung als Entwickler und Projektleiter. Er versteht es, Projekte pragmatisch und versiert aufzubereiten.
       email: michael.litschauer@gmail.com
+      linkedIn: michael-litschauer-79382689
 
     matthias:
       name: Matthias Grieder
       textLead: >
-        **Matthias Grieder** ist Designer mit den Schwerpunkten User Experience und Usability. Er versteht Kontext durch Beobachtung, Zuhören und Neugier, um Lösungen zu finden und die beste Idee zu verwirklichen.
+        **Matthias Grieder**
       textAbout: >
-        will follow
-      linkedIn: matthias-grieder
+        **Matthias Grieder** arbeitet als Designer und ist spezialisiert in User Experience und Usability.
       email: matthias@zeitvertrieb.net
+      linkedIn: matthias-grieder

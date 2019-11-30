@@ -24,6 +24,11 @@ const Footer = () => {
                   <FormattedMessage id="navigation.collaborations" />
                 </Link>
               </li>
+              <li>
+                <Link to="/imprint/" className="nav-link p-1">
+                  <FormattedMessage id="footer.imprint" />
+                </Link>
+              </li>
               <li className="ml-3">
                 <ScrollTop />
               </li>

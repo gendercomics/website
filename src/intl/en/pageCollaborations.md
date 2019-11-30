@@ -31,7 +31,7 @@ collaborations:
       textLead: >
         **Ole Frahm**
       textAbout: >
-        PD Dr. **Ole Frahm** founded the Research Center for Graphic Literature (ArGL) at the University of Hamburg with other students. 
+        **Ole Frahm** founded the Research Center for Graphic Literature (ArGL) at the University of Hamburg with other students. 
         His PhD thesis is *Genealogie des Holocaust. Art Spiegelmans "MAUS - A Survivor’s Tale"* (Paderborn 2006). 
         He also published *Die Sprache des Comics* (Hamburg 2010) and is currently working on the book *The Specters of the Graphic Novel*. 
         Research areas: history, theory, and aesthetics of comics and radio. He works as author and artist in Frankfurt am Main. 
@@ -52,7 +52,7 @@ collaborations:
       name: A Multidisciplinary Study of Feminist Comic Art
       textLead: >
         **A Multidisciplinary Study of Feminist Comic Art**
-      www: http://ostersjostiftelsen.se/projekt/650-a-multidisciplinary-study-of-feminist-comic-art
+      www: https://www.sh.se/english/sodertorn-university/research/our-research/research-database/research-projects/a-multidisciplinary-study-of-feminist-comic-art
   
     aka:
       name: aka - Arbeitskreis Kulturanalyse
