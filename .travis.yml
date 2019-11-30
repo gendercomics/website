@@ -32,7 +32,6 @@ script:
   - docker images
   - docker push gendercomics/website:latest
   - docker push gendercomics/website:$VERSION
-  - scp -r ./docker-compose.yml deploy@gendercomics.net:/var/gendercomics/website
 
 #after_success:
 # - eval "$(ssh-agent -s)"
@@ -46,6 +45,7 @@ before_deploy:
   - eval "$(ssh-agent -s)"
   - chmod 600 deploy-key
   - ssh-add deploy-key
+  - scp -r ./docker-compose.yml deploy@gendercomics.net:/var/gendercomics/website
 
 deploy:
   - provider: script
