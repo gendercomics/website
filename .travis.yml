@@ -32,6 +32,7 @@ script:
   - docker images
   - docker push gendercomics/website:latest
   - docker push gendercomics/website:$VERSION
+  - scp -r ./docker-compose.yml deploy@gendercomics.net:/var/gendercomics/website
 
 #after_success:
 # - eval "$(ssh-agent -s)"
@@ -49,12 +50,12 @@ before_deploy:
 deploy:
   - provider: script
     skip_cleanup: true
-    script: ssh deploy@gendercomics.net 'docker pull gendercomics/website:latest && cd /var/gendercomics/docker && docker-compose up -d gendercomics-website-stage'
+    script: ssh deploy@gendercomics.net 'docker pull gendercomics/website:latest && cd /var/gendercomics/website && docker-compose up -d gendercomics-website-stage'
     on:
       all_branches: true
   - provider: script
     skip_cleanup: true
-    script: ssh deploy@gendercomics.net 'docker pull gendercomics/website:$VERSION && cd /var/gendercomics/docker && docker-compose up -d gendercomics-website'
+    script: ssh deploy@gendercomics.net 'docker pull gendercomics/website:$VERSION && cd /var/gendercomics/website && docker-compose up -d gendercomics-website'
     on:
       branch: master
 

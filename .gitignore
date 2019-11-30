@@ -39,3 +39,4 @@ $RECYCLE.BIN/
 *.iml
 
 /deploy-key
+/.env
