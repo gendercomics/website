@@ -23,7 +23,6 @@ imprint:
     
     For this project, data protection is of utmost importance; personal data is treated with confidentiality. 
     Any personal information gathered via this website will be used for the intended purposes only and will not be given to third parties. 
-    This website uses Google Analytics, a web analytics service provided by Google Inc. (“Google”).
   textCopyright: >
     **Copyright:**  
     
