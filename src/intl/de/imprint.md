@@ -22,7 +22,6 @@ imprint:
     
     Der Datenschutz hat bei dem Projekt einen hohen Stellenwert und personenbezogene Daten werden absolut vertraulich behandelt. 
     Über diese Website eingegebene Daten werden nur für die gewünschten Zwecke verwendet und nicht an Dritte weitergegeben. 
-    Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. („Google“).
   textCopyright: >
     **Urheberrecht:**  
     
