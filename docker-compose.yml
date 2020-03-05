@@ -12,9 +12,10 @@ services:
       - traefik.frontend.rule=Host:stage.${HOST}
       - traefik.port=80
       - traefik.frontend.auth.basic=gesche:$$apr1$$MAPCYH7m$$8wTgBxTOH731kXK3fo1JC/
+      - traefik.docker.network=proxy
 
   gendercomics-website:
-    image: gendercomics/website:1.1.0
+    image: gendercomics/website:1.1.2
     container_name: gendercomics-website
     restart: always
     networks:
@@ -22,6 +23,7 @@ services:
     labels:
       - traefik.frontend.rule=Host:${HOST}
       - traefik.port=80
+      - traefik.docker.network=proxy
 
 networks:
   proxy:
