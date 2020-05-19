@@ -72,6 +72,12 @@ collaborations:
         **Interdisciplinary Network *Comic Studies* of the German Studies Association (GSA)**
       www: https://www.thegsa.org/interdisciplinary-networks  
 
+    meduni-vienna:
+      name: Medical Comics/Graphic Medicine, Medical University of Vienna
+      textLead: >
+        **Medical Comics/Graphic Medicine**
+      www: http://www.meduniwien.ac.at/medical-comics  
+
     nextcomic:
       name: NEXTCOMIC Festival
       textLead: >

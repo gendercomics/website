@@ -20,6 +20,7 @@ import genderagencyImg from '@assets/institution/GandA-logo.jpg'
 import akaImg from '@assets/institution/aka.png'
 import feministcomicImg from '@assets/comic-book.png'
 import gsaImg from '@assets/comic-book.png'
+import meduniViennaImg from '@assets/comic-book.png'
 
 const Collaborations = () => {
   const intl = useIntl()
@@ -61,66 +62,6 @@ const Collaborations = () => {
                 >
                   <strong>{intl.formatMessage({id: 'collaborations.sectionBoard'})}</strong>
                 </Link>
-                {/*
-                <ul className="list-unstyled">
-                  <li>
-                    <Link
-                      to="fliedl"
-                      href="#fliedl"
-                      className="nav-link"
-                      smooth={true}
-                      offset={-80}
-                      duration={300}
-                      spy={true}
-                      hashSpy={true}
-                    >
-                      {intl.formatMessage({ id: 'collaborations.person.fliedl.name' })}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="feuchtenberger"
-                      href="#feuchtenberger"
-                      className="nav-link"
-                      smooth={true}
-                      offset={-80}
-                      duration={300}
-                      spy={true}
-                      hashSpy={true}
-                    >
-                      {intl.formatMessage({ id: 'collaborations.person.feuchtenberger.name' })}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="frahm"
-                      href="#frahm"
-                      className="nav-link"
-                      smooth={true}
-                      offset={-80}
-                      duration={300}
-                      spy={true}
-                      hashSpy={true}
-                    >
-                      {intl.formatMessage({ id: 'collaborations.person.frahm.name' })}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="nijdam"
-                      href="#nijdam"
-                      className="nav-link"
-                      smooth={true}
-                      offset={-80}
-                      duration={300}
-                      spy={true}
-                      hashSpy={true}
-                    >
-                      {intl.formatMessage({ id: 'collaborations.person.nijdam.name' })}
-                    </Link>
-                  </li>
-                </ul>
-                */}
                 <Link
                   to="institutions"
                   href="#institutions"
@@ -133,80 +74,7 @@ const Collaborations = () => {
                 >
                   <strong>{intl.formatMessage({id: 'collaborations.sectionInstitutions'})}</strong>
                 </Link>
-                {/*
-                <ul className="list-unstyled">
-                  <li>
-                    <Link
-                      to="aka"
-                      href="#aka"
-                      className="nav-link"
-                      smooth={true}
-                      offset={-80}
-                      duration={300}
-                      spy={true}
-                      hashSpy={true}
-                    >
-                      {intl.formatMessage({ id: 'collaborations.institution.aka.name' })}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="genderagency"
-                      href="#genderagency"
-                      className="nav-link"
-                      smooth={true}
-                      offset={-80}
-                      duration={300}
-                      spy={true}
-                      hashSpy={true}
-                    >
-                      {intl.formatMessage({ id: 'collaborations.institution.genderagency.name' })}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="nextcomic"
-                      href="#nextcomic"
-                      className="nav-link"
-                      smooth={true}
-                      offset={-80}
-                      duration={300}
-                      spy={true}
-                      hashSpy={true}
-                    >
-                      {intl.formatMessage({ id: 'collaborations.institution.nextcomic.name' })}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="gsa"
-                      href="#gsa"
-                      className="nav-link"
-                      smooth={true}
-                      offset={-80}
-                      duration={300}
-                      spy={true}
-                      hashSpy={true}
-                    >
-                      {intl.formatMessage({ id: 'collaborations.institution.gsa.name' })}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="feministcomic"
-                      href="#feministcomic"
-                      className="nav-link"
-                      smooth={true}
-                      offset={-80}
-                      duration={300}
-                      spy={true}
-                      hashSpy={true}
-                    >
-                      {intl.formatMessage({ id: 'collaborations.institution.feministcomic.name' })}
-                    </Link>
-                  </li>
-                </ul>
-                */}
+
                 <Link
                   to="publishers"
                   href="#publishers"
@@ -219,80 +87,7 @@ const Collaborations = () => {
                 >
                   <strong>{intl.formatMessage({id: 'collaborations.sectionPublishers'})}</strong>
                 </Link>
-                {/*
-                <ul className="list-unstyled">
-                  <li>
-                    <Link
-                      to="avant"
-                      href="#avant"
-                      className="nav-link"
-                      smooth={true}
-                      offset={-80}
-                      duration={300}
-                      spy={true}
-                      hashSpy={true}
-                    >
-                      {intl.formatMessage({ id: 'collaborations.publisher.avant.name' })}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="carlsen"
-                      href="#carlsen"
-                      className="nav-link"
-                      smooth={true}
-                      offset={-80}
-                      duration={300}
-                      spy={true}
-                      hashSpy={true}
-                    >
-                      {intl.formatMessage({ id: 'collaborations.publisher.carlsen.name' })}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="editionmoderne"
-                      href="#editionmoderne"
-                      className="nav-link"
-                      smooth={true}
-                      offset={-80}
-                      duration={300}
-                      spy={true}
-                      hashSpy={true}
-                    >
-                      {intl.formatMessage({ id: 'collaborations.publisher.editionmoderne.name' })}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="luftschacht"
-                      href="#luftschacht"
-                      className="nav-link"
-                      smooth={true}
-                      offset={-80}
-                      duration={300}
-                      spy={true}
-                      hashSpy={true}
-                    >
-                      {intl.formatMessage({ id: 'collaborations.publisher.luftschacht.name' })}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="reprodukt"
-                      href="#reprodukt"
-                      className="nav-link"
-                      smooth={true}
-                      offset={-80}
-                      duration={300}
-                      spy={true}
-                      hashSpy={true}
-                    >
-                      {intl.formatMessage({ id: 'collaborations.publisher.reprodukt.name' })}
-                    </Link>
-                  </li>
-                </ul>
-                */}
+
               </Nav>
             </div>
           </Col>
@@ -521,6 +316,22 @@ const Collaborations = () => {
                   </Card.Body>
                   <Card.Footer>
                     <span className="text-muted small">{intl.formatMessage({id: 'collaborations.institution.gsa.name'})}</span>
+                  </Card.Footer>
+                </a>
+                {/* meduni wien -  */}
+                <a id="meduni-wien" className="card"
+                   href={intl.formatMessage({id: 'collaborations.institution.meduni-vienna.www'})}
+                   target="_blank"
+                   rel="noopener noreferrer">
+                  <Card.Body>
+                    <Card.Img
+                      variant="top"
+                      src={meduniViennaImg}
+                      alt={intl.formatMessage({id: 'collaborations.institution.meduni-vienna.name'})}
+                    />
+                  </Card.Body>
+                  <Card.Footer>
+                    <span className="text-muted small">{intl.formatMessage({id: 'collaborations.institution.meduni-vienna.name'})}</span>
                   </Card.Footer>
                 </a>
                 {/* nextcomic festival */}
