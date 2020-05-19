@@ -20,6 +20,7 @@ import genderagencyImg from '@assets/institution/GandA-logo.jpg'
 import akaImg from '@assets/institution/aka.png'
 import feministcomicImg from '@assets/comic-book.png'
 import gsaImg from '@assets/comic-book.png'
+import meduniViennaImg from '@assets/comic-book.png'
 
 const Collaborations = () => {
   const intl = useIntl()
@@ -523,6 +524,26 @@ const Collaborations = () => {
                     <span className="text-muted small">{intl.formatMessage({id: 'collaborations.institution.gsa.name'})}</span>
                   </Card.Footer>
                 </a>
+
+                {/* meduni wien -  */}
+                <a id="meduni-wien" className="card"
+                   href={intl.formatMessage({id: 'collaborations.institution.meduni-vienna.www'})}
+                   target="_blank"
+                   rel="noopener noreferrer">
+                  <Card.Body>
+                    <Card.Img
+                      variant="top"
+                      src={meduniViennaImg}
+                      alt={intl.formatMessage({id: 'collaborations.institution.meduni-vienna.name'})}
+                    />
+                  </Card.Body>
+                  <Card.Footer>
+                    <span className="text-muted small">{intl.formatMessage({id: 'collaborations.institution.meduni-vienna.name'})}</span>
+                  </Card.Footer>
+                </a>
+
+
+
                 {/* nextcomic festival */}
                 <a id="nextcomic" className="card"
                    href={intl.formatMessage({id: 'collaborations.institution.nextcomic.www'})}
