@@ -14,6 +14,7 @@ import {
 } from "react-bootstrap";
 import SEO from "@components/helper/seo";
 
+import comicBook from "@assets/comic-book.png";
 import fliedlImg from "@assets/board/konstanze-fliedl.png";
 import feuchtenbergerImg from "@assets/board/anke-feuchtenberger.png";
 import frahmImg from "@assets/board/ole-frahm.jpg";
@@ -426,7 +427,7 @@ const Collaborations = () => {
                   <Card.Body>
                     <Card.Img
                       variant="top"
-                      src={akaImg}
+                      src={comicBook}
                       alt={intl.formatMessage({
                         id:
                           "collaborations.institution.contemporary-swedish-feminist-comics.name"
