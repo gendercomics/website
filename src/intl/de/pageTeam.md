@@ -3,8 +3,8 @@ team:
   title: Team
   textLead: >
     Das sind **die Menschen** hinter GenderComics.
-  sectionCore: Projekt Team
-  sectionDev: DH/IT Team
+  sectionCore: Projekt-Team
+  sectionDev: DH/IT-Team
   sectionAssistance: Studentische Mitarbeit
   accordion:
     contact: Kontakt
