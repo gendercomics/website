@@ -16,15 +16,12 @@ cache:
 before_install:
   - openssl aes-256-cbc -K $encrypted_ac25a508ad54_key -iv $encrypted_ac25a508ad54_iv -in deploy-key.enc -out deploy-key -d
 
-install:
-  - yarn
-
 before_script:
   - npm i -g gatsby-cli
   - VERSION=$(node -p -e "require('./package.json').version")
 
 script:
-  - yarn build
+  - npm build
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   - docker build -t gendercomics/website .
   - docker tag gendercomics/website gendercomics/website:latest
