@@ -59,6 +59,12 @@ collaborations:
       textLead: >
         **aka - Arbeitskreis Kulturanalyse**
       www: https://aka.univie.ac.at/aka/who-is-aka/
+
+    contemporary-swedish-feminist-comics:
+      name: Contemporary Swedish feminist comics as medium for political activism and critique
+      textLead: >
+        **Contemporary Swedish feminist comics as medium for political activism and critique**
+      www: https://www.gu.se/en/research/contemporary-swedish-feminist-comics-as-medium-for-political-activism-and-critique
          
     genderagency:
       name: Gender and Agency
