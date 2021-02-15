@@ -21,7 +21,7 @@ before_script:
   - VERSION=$(node -p -e "require('./package.json').version")
 
 script:
-  - npm build
+  - gatsby build
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   - docker build -t gendercomics/website .
   - docker tag gendercomics/website gendercomics/website:latest
