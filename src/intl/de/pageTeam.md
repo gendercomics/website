@@ -4,7 +4,8 @@ team:
   textLead: >
     Das sind **die Menschen** hinter GenderComics.
   sectionCore: Projekt Team
-  sectionDev: IT Team
+  sectionDev: DH/IT Team
+  sectionAssistance: Studentische Mitarbeit
   accordion:
     contact: Kontakt
     resume: Resume
@@ -97,6 +98,14 @@ team:
       www: https://katharinaserles.com/
       twitter: nichtkatharina
 
+    naomi:
+      name: Naomi Lobnig
+      textLead: >
+        **Naomi Lobnig**
+      textAbout: >
+      email: naomi.lobnig@univie.ac.at
+      uni-www: germanistik/naomi-lobnig/
+
     ingo:
       name: Ingo Börner
       textLead: >
@@ -115,12 +124,3 @@ team:
         **Michael Litschauer** hat umfassende Erfahrung als Entwickler und Projektleiter. Er versteht es, Projekte pragmatisch und versiert aufzubereiten.
       email: michael.litschauer@gmail.com
       linkedIn: michael-litschauer-79382689
-
-    matthias:
-      name: Matthias Grieder
-      textLead: >
-        **Matthias Grieder**
-      textAbout: >
-        **Matthias Grieder** arbeitet als Designer und ist spezialisiert in User Experience und Usability.
-      email: matthias@zeitvertrieb.net
-      linkedIn: matthias-grieder

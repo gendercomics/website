@@ -64,9 +64,9 @@ collaborations:
       www: https://aka.univie.ac.at/
 
     contemporary-swedish-feminist-comics:
-      name: Contemporary Swedish feminist comics as medium for political activism and critique
+      name: Contemporary Swedish Feminist Comics as Medium for Political Activism and Critique
       textLead: >
-        **Contemporary Swedish feminist comics as medium for political activism and critique**
+        **Contemporary Swedish Feminist Comics as Medium for Political Activism and Critique**
       www: https://www.gu.se/en/research/contemporary-swedish-feminist-comics-as-medium-for-political-activism-and-critique
          
     genderagency:

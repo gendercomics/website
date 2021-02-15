@@ -6,12 +6,13 @@ import PageTemplate from '@templates/pageTemplate'
 import {Card, Col, Container, Jumbotron, Nav, Row} from 'react-bootstrap'
 import SEO from '@components/helper/seo'
 
-import susanneImg from '@assets/team/susanne-hochreiter.png'
-import marinaImg from '@assets/team/marina-rauchenbacher.png'
-import katharinaImg from '@assets/team/katharina-serles.png'
-import matthiasImg from '@assets/team/matthias-grieder.png'
-import michaelImg from '@assets/team/michael-litschauer.png'
+
 import ingoImg from '@assets/team/ingo-boerner.png'
+import katharinaImg from '@assets/team/katharina-serles.png'
+import marinaImg from '@assets/team/marina-rauchenbacher.png'
+import michaelImg from '@assets/team/michael-litschauer.png'
+import naomiImg from '@assets/team/naomi-lobnig.png'
+import susanneImg from '@assets/team/susanne-hochreiter.png'
 
 const Team = () => {
   const intl = useIntl()
@@ -97,6 +98,38 @@ const Team = () => {
                     </Link>
                   </li>
                 </ul>
+
+                {/* Assistenz */}
+                <Link
+                  to="uniAssistance"
+                  href="#uniAssistance"
+                  className="nav-link"
+                  smooth={true}
+                  offset={-80}
+                  duration={300}
+                  spy={true}
+                  hashSpy={true}
+                >
+                  <strong>{intl.formatMessage({id: 'team.sectionAssistance'})}</strong>
+                </Link>
+                <ul className="list-unstyled">
+                  <li>
+                    <Link
+                      to="Naomi"
+                      href="#Naomi"
+                      className="nav-link"
+                      smooth={true}
+                      offset={-80}
+                      duration={300}
+                      spy={true}
+                      hashSpy={true}
+                    >
+                      {intl.formatMessage({ id: 'team.person.naomi.name' })}
+                    </Link>
+                  </li>
+                </ul>
+
+
                 <Link
                   to="developmentTeam"
                   href="#developmentTeam"
@@ -109,7 +142,6 @@ const Team = () => {
                 >
                   <strong>{intl.formatMessage({id: 'team.sectionDev'})}</strong>
                 </Link>
-                {/*
                 <ul className="list-unstyled">
                   <li>
                     <Link
@@ -139,22 +171,7 @@ const Team = () => {
                       {intl.formatMessage({ id: 'team.person.michael.name' })}
                     </Link>
                   </li>
-                  <li>
-                    <Link
-                      to="Matthias"
-                      href="#Matthias"
-                      className="nav-link"
-                      smooth={true}
-                      offset={-80}
-                      duration={300}
-                      spy={true}
-                      hashSpy={true}
-                    >
-                      {intl.formatMessage({ id: 'team.person.matthias.name' })}
-                    </Link>
-                  </li>
                 </ul>
-                */}
               </Nav>
             </div>
           </Col>
@@ -439,6 +456,59 @@ const Team = () => {
                 </Card.Footer>
               </details>
             </section>
+            <section id="uniAssistance">
+              <Markdown>
+                <h2 className="mb-3">{intl.formatMessage({id: 'team.sectionAssistance'})}</h2>
+                {/* Susanne Hochreiter */}
+                <details id="Naomi" className="list-group list-group-flush">
+                  <summary eventkey="1">
+                    <div className="list-group-item list-group-item-action d-flex">
+                      <img
+                        className="img-fluid image__person rounded-circle mr-3"
+                        src={naomiImg}
+                        alt={intl.formatMessage({id: 'team.person.naomi.name'})}
+                      />
+                      <div className="lead my-auto">
+                        <Markdown>{intl.formatMessage({id: 'team.person.naomi.textLead'})}</Markdown>
+                      </div>
+                    </div>
+                  </summary>
+                  {/*
+                  <Card.Body>
+                    <Markdown>{intl.formatMessage({id: 'team.person.naomi.textAbout'})}</Markdown>
+                  </Card.Body>
+                  */}
+                  <Card.Footer className="d-flex align-items-center">
+                    <span className="text-muted small">{intl.formatMessage({id: 'team.person.naomi.name'})}</span>
+                    <ul className="list-inline mb-0 ml-auto">
+                      <li className="list-inline-item">
+                        <a href={'mailto:' + intl.formatMessage({id: 'team.person.naomi.email'})}
+                           target="_blank"
+                           rel="noopener noreferrer">
+                          <i className="fa fa-envelope fa-lg fa-fw"></i>
+                          <span className="sr-only">
+                          {intl.formatMessage({id: 'action.sendEmail'})}
+                        </span>
+                        </a>
+                      </li>
+                      <li className="list-inline-item">
+                        <a
+                          href={'https://univie.ac.at/' + intl.formatMessage({id: 'team.person.naomi.uni-www'})}
+                          title={'https://univie.ac.at/' + intl.formatMessage({id: 'team.person.naomi.uni-www'})}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <i className="fa fa-university fa-lg fa-fw"></i>
+                          <span className="sr-only">
+                          {intl.formatMessage({id: 'action.www'})}
+                        </span>
+                        </a>
+                      </li>
+                    </ul>
+                  </Card.Footer>
+                </details>
+              </Markdown>
+            </section>
             {/* IT Team */}
             <section id="developmentTeam">
               <Markdown>
@@ -522,52 +592,6 @@ const Team = () => {
                       <a
                         href={'https://www.linkedin.com/in/' + intl.formatMessage({id: 'team.person.michael.linkedIn'})}
                         title={'https://www.linkedin.com/in/' + intl.formatMessage({id: 'team.person.michael.linkedIn'})}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i className="fa fa-linkedin fa-lg fa-fw"></i>
-                        <span className="sr-only">
-                          {intl.formatMessage({id: 'action.linkedIn'})}
-                        </span>
-                      </a>
-                    </li>
-                  </ul>
-                </Card.Footer>
-              </details>
-              {/* Matthias Grieder */}
-              <details id="Matthias" className="list-group list-group-flush">
-                <summary eventkey="6">
-                  <div className="list-group-item list-group-item-action d-flex">
-                    <img
-                      className="img-fluid image__person rounded-circle mr-3 float-left"
-                      src={matthiasImg}
-                      alt={intl.formatMessage({id: 'team.person.matthias.name'})}
-                    />
-                    <div className="lead my-auto">
-                      <Markdown>{intl.formatMessage({id: 'team.person.matthias.textLead'})}</Markdown>
-                    </div>
-                  </div>
-                </summary>
-                <Card.Body>
-                  <Markdown>{intl.formatMessage({id: 'team.person.matthias.textAbout'})}</Markdown>
-                </Card.Body>
-                <Card.Footer className="d-flex">
-                  <span className="text-muted small">{intl.formatMessage({id: 'team.person.matthias.name'})}</span>
-                  <ul className="list-inline mb-0 ml-auto">
-                    <li className="list-inline-item">
-                      <a href={'mailto:' + intl.formatMessage({id: 'team.person.matthias.email'})}
-                         target="_blank"
-                         rel="noopener noreferrer">
-                        <i className="fa fa-envelope fa-lg fa-fw"></i>
-                        <span className="sr-only">
-                          {intl.formatMessage({id: 'action.sendEmail'})}
-                        </span>
-                      </a>
-                    </li>
-                    <li className="list-inline-item">
-                      <a
-                        href={'https://www.linkedin.com/in/' + intl.formatMessage({id: 'team.person.matthias.linkedIn'})}
-                        title={'https://www.linkedin.com/in/' + intl.formatMessage({id: 'team.person.matthias.linkedIn'})}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
