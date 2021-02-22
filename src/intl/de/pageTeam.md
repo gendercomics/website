@@ -106,6 +106,8 @@ team:
         **Naomi Lobnig** ist Studierende der Universität Wien (Masterstudium Gender Studies und Lehramt). 
         Tätigkeiten an der Universität Wien: wissenschaftliche Projektmitarbeiterin und Tutorin an der Romanistik, seit 01/2021 Studienassistentin im Projekt „Visualitäten von Geschlecht in deutschsprachigen Comics“ an der Germanistik. 
         Derzeit schreibt sie ihre Masterarbeit (bei Marina Rauchenbacher) im Bereich der Graphic Medicine, mit besonderem Fokus auf queer*feministischen Theorien. 
+      listPublication: >
+        - Tanzberger, Renate/Schneider, Claudia/Lobnig, Naomi (2020): Gleichstellung spielerisch thematisiert. Wien. [Spielesammlung_EfEU_2020](https://efeu.or.at/seiten/download/Spielesammlung_EfEU_2020.pdf)
       email: naomi.lobnig@univie.ac.at
       uni-www: germanistik/naomi-lobnig/
 

@@ -476,6 +476,8 @@ const Team = () => {
                   {
                   <Card.Body>
                     <Markdown>{intl.formatMessage({id: 'team.person.naomi.textAbout'})}</Markdown>
+                    <h3 className="h5">{intl.formatMessage({id: 'team.accordion.publication'})}</h3>
+                    <Markdown>{intl.formatMessage({id: 'team.person.naomi.listPublication'})}</Markdown>
                   </Card.Body>
                   }
                   <Card.Footer className="d-flex align-items-center">
