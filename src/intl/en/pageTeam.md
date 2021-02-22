@@ -104,7 +104,9 @@ team:
       textLead: >
         **Naomi Lobnig**
       textAbout: >
-        ****
+        **Naomi Lobnig** is a student at the University of Vienna (Master Gender Studies and Lehramt). 
+        Responsibilities at the University of Vienna: project member and tutor at the Institute for Romance Languages, since 01/2021 student assistant for the project “Visualities of Gender in German-Language Comics“ at the Institute for German Studies. 
+        Currently, she is working on her master thesis in the field of Graphic Medicine, with special focus on Gender Studies and Queer Theory.
       email: naomi.lobnig@univie.ac.at
       uni-www: germanistik/naomi-lobnig/
 

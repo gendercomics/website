@@ -459,7 +459,7 @@ const Team = () => {
             <section id="uniAssistance">
               <Markdown>
                 <h2 className="mb-3">{intl.formatMessage({id: 'team.sectionAssistance'})}</h2>
-                {/* Susanne Hochreiter */}
+                {/* Naomi Lobnig */}
                 <details id="Naomi" className="list-group list-group-flush">
                   <summary eventkey="1">
                     <div className="list-group-item list-group-item-action d-flex">
@@ -473,11 +473,11 @@ const Team = () => {
                       </div>
                     </div>
                   </summary>
-                  {/*
+                  {
                   <Card.Body>
                     <Markdown>{intl.formatMessage({id: 'team.person.naomi.textAbout'})}</Markdown>
                   </Card.Body>
-                  */}
+                  }
                   <Card.Footer className="d-flex align-items-center">
                     <span className="text-muted small">{intl.formatMessage({id: 'team.person.naomi.name'})}</span>
                     <ul className="list-inline mb-0 ml-auto">
