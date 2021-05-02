@@ -3,8 +3,9 @@ team:
   title: Team
   textLead: >
     Das sind **die Menschen** hinter GenderComics.
-  sectionCore: Projekt Team
-  sectionDev: IT Team
+  sectionCore: Projekt-Team
+  sectionDev: DH/IT-Team
+  sectionAssistance: Studentische Mitarbeit
   accordion:
     contact: Kontakt
     resume: Resume
@@ -97,6 +98,19 @@ team:
       www: https://katharinaserles.com/
       twitter: nichtkatharina
 
+    naomi:
+      name: Naomi Lobnig
+      textLead: >
+        **Naomi Lobnig**
+      textAbout: >
+        **Naomi Lobnig** ist Studierende der Universität Wien (Masterstudium Gender Studies und Lehramt). 
+        Tätigkeiten an der Universität Wien: wissenschaftliche Projektmitarbeiterin und Tutorin an der Romanistik, seit 01/2021 Studienassistentin im Projekt „Visualitäten von Geschlecht in deutschsprachigen Comics“ an der Germanistik. 
+        Derzeit schreibt sie ihre Masterarbeit (bei Marina Rauchenbacher) im Bereich der Graphic Medicine, mit besonderem Fokus auf queer*feministischen Theorien. 
+      listPublication: >
+        - Tanzberger, Renate/Schneider, Claudia/Lobnig, Naomi (2020): Gleichstellung spielerisch thematisiert. Wien. [Spielesammlung_EfEU_2020](https://efeu.or.at/seiten/download/Spielesammlung_EfEU_2020.pdf)
+      email: naomi.lobnig@univie.ac.at
+      uni-www: germanistik/naomi-lobnig/
+
     ingo:
       name: Ingo Börner
       textLead: >
@@ -115,12 +129,3 @@ team:
         **Michael Litschauer** hat umfassende Erfahrung als Entwickler und Projektleiter. Er versteht es, Projekte pragmatisch und versiert aufzubereiten.
       email: michael.litschauer@gmail.com
       linkedIn: michael-litschauer-79382689
-
-    matthias:
-      name: Matthias Grieder
-      textLead: >
-        **Matthias Grieder**
-      textAbout: >
-        **Matthias Grieder** arbeitet als Designer und ist spezialisiert in User Experience und Usability.
-      email: matthias@zeitvertrieb.net
-      linkedIn: matthias-grieder
