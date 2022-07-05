@@ -2,7 +2,7 @@ version: '3'
 
 services:
   gendercomics-website-stage:
-    image: gendercomics/website:latest
+    image: gendercomics/website-stage:latest
     container_name: gendercomics-website-stage
     restart: unless-stopped
     networks:
