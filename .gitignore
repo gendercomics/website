@@ -35,7 +35,6 @@ ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 .idea
-.github
 *.iml
 
 /deploy-key
