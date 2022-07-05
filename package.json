@@ -1,6 +1,6 @@
 {
-  "name": "website-nuxt",
-  "version": "1.0.0",
+  "name": "website",
+  "version": "2.0.0-SNAPSHOT",
   "private": true,
   "scripts": {
     "dev": "nuxt",
