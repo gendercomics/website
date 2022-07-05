@@ -1,0 +1,14 @@
+{
+  "BigLogo": {
+    "description": "Auto imported from components/BigLogo.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "Landing": {
+    "description": "Auto imported from components/Landing.vue"
+  },
+  "NuxtLogo": {
+    "description": "Auto imported from components/NuxtLogo.vue"
+  }
+}

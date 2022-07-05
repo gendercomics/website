@@ -1,35 +1,68 @@
-# Gendercomics
+# website-nuxt
 
-This is a website for the project Gendercomics.
+## Build Setup
 
-## What's inside?
+```bash
+# install dependencies
+$ npm install
 
-This project uses [react-bootstrap](https://react-bootstrap.github.io/) and is build with [Gatsby JS](https://www.gatsbyjs.org/).
+# serve with hot reload at localhost:3000
+$ npm run dev
 
-A quick look at the top-level files and directories you'll see in this project.
-    .
-    ├── src
-    ├── static    
-    ├── .gitattributes
-    ├── .gitignore
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── package.json
-    ├── README.md
-    └── yarn.lock
+# build for production and launch server
+$ npm run build
+$ npm run start
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+# generate static project
+$ npm run generate
+```
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of this site.
+For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
-3.  **`/static`**: This directory will only contain static assets as favicon and app-icon. All other assets are loaded from the **`/src/assets`** directory to be used with gatsby-image or webpack-image.
+## Special Directories
 
-4.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
 
-5.  **`gatsby-config.js`**: This is the main configuration file for a this site. It specifies information about the site (metadata), which Gatsby plugins are included, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
+### `assets`
 
-6.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
 
-7.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+
+### `components`
+
+The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
+
+### `layouts`
+
+Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+
+### `pages`
+
+This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
+
+### `plugins`
+
+The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
+
+### `static`
+
+This directory contains your static files. Each file inside this directory is mapped to `/`.
+
+Example: `/static/robots.txt` is mapped as `/robots.txt`.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
+
+### `store`
+
+This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
