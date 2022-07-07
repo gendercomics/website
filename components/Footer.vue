@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <img src="~assets/images/arrow-gray-up-flat.png" class='d-block m-auto'>
-    <b-nav class="mx-auto footer">
+  <div class="footer">
+    <img src="~assets/images/arrow-gray-up-flat.png" class="d-block m-auto" />
+    <b-nav class="mx-auto footer-nav">
       <b-nav-item disabled
         >&copy; {{ $moment().format('YYYY') }} GenderComics - Alle Rechte
         vorbehalten</b-nav-item

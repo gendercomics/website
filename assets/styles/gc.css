@@ -251,13 +251,23 @@
 }
 
 .footer {
+  clear: both;
+  position: relative;
+  margin-top: -24px;
+}
+
+.footer-nav {
   background: var(--gc-gray) 0% 0% no-repeat padding-box;
   background-size: 100%;
+
+  height: 125px;
+
   font-family: var(--gc-font-family-outfit);
   font-size: var(--gc-font-size-18);
-  height: 125px;
+
   justify-content: center;
   align-items: center;
+
   opacity: 1;
 }
 
@@ -313,4 +323,16 @@
 
 .margin-corner-right {
   margin-right: 202px;
+}
+
+.divider-center-corner-left {
+  height: 100px;
+  background-size: 100px 100px;
+  background-image: url('~assets/images/corner-green-line-1-100px.png');
+  background-position: calc(50% - 50px) 50%;
+  background-repeat: no-repeat;
+}
+
+.bkg-transparent {
+  background: transparent;
 }
