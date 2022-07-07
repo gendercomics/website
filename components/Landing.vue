@@ -6,7 +6,7 @@
       <span class="logo-border-top" />
       <img src="~/assets/images/corner-red-filled-1.png" class="float-right" />
     </div>
-    <BigLogo class="logo-border-left-right" />
+    <big-logo class="logo-border-left-right" />
     <div>
       <img src="~/assets/images/corner-red-filled-3.png" />
       <img
