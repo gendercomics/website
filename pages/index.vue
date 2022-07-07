@@ -1,6 +1,6 @@
 <template>
   <div class="pattern-background">
-    <Landing />
+    <landing />
     <divider />
     <img src="">
   </div>
