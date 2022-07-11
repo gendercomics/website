@@ -1,5 +1,5 @@
 <template>
-  <b-container class="mx-auto gc-container-page">
+  <b-container class="mx-auto gc-w-90">
     <div style="height: 40px" />
     <div class="d-flex">
       <img src="~/assets/images/corner-green-line-4.png" />

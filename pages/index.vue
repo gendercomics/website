@@ -1,8 +1,8 @@
 <template>
   <div class="pattern-background">
     <landing />
-    <divider />
-    <img src="">
+    <fwf-uni />
+    <divider position="center" direction="1" />
   </div>
 </template>
 
