@@ -11,7 +11,9 @@
         <span class="d-block tag">Institution</span>
         <span class="d-block titel-kachel">Universität Wien</span>
         <span class="d-block sub-heading">Institut für Germanistik</span>
-        <img class="pt-4" src="~assets/images/logo-UniWien-gray.png" />
+        <a href="https://univie.ac.at" target="_blank">
+          <img class="pt-4" src="~assets/images/logo-UniWien-gray.png" />
+        </a>
       </b-col>
     </b-row>
   </b-container>

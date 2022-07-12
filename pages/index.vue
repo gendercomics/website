@@ -1,6 +1,8 @@
 <template>
   <div>
     <landing />
+    <divider t4 t5 b6 />
+    <contact />
     <divider b1 b2 b3flat b4flat b5 t6 />
     <fwf-uni />
     <divider t1 t2 b3 />
