@@ -1,8 +1,9 @@
 <template>
-  <div class="pattern-background">
+  <div>
     <landing />
+    <divider b1 b2 b3flat b4flat b5 t6 />
     <fwf-uni />
-    <divider position="center" direction="1" />
+    <divider t1 t2 b3 />
   </div>
 </template>
 

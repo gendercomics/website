@@ -6,7 +6,7 @@
         >&copy; {{ $moment().format('YYYY') }} GenderComics - Alle Rechte
         vorbehalten</b-nav-item
       >
-      <b-nav-item>Impressum</b-nav-item>
+      <b-nav-item class="link-passiv">Impressum</b-nav-item>
       <b-nav-item>Datenschutz</b-nav-item>
     </b-nav>
   </div>
@@ -17,5 +17,3 @@ export default {
   name: 'Footer'
 }
 </script>
-
-<style scoped></style>
