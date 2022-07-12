@@ -30,7 +30,7 @@
                 link="mailto:susanne.hochreiter@univie.ac.at"
               />
               <button-green
-                text="Marina Rauchenbacher"
+                text="M. Rauchenbacher"
                 link="mailto:marina.rauchenbacher@univie.ac.at"
               />
               <button-green

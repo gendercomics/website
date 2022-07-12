@@ -5,13 +5,15 @@
         <span class="d-block tag">Fördergeber</span>
         <span class="d-block titel-kachel">FWF Der Wissenschaftsfonds</span>
         <span class="d-block sub-heading">Projektnummer: P 31925</span>
-        <img class="pt-4" src="~assets/images/logo-FWF.png" />
+        <a href="https://www.fwf.ac.at/" target="_blank">
+          <img class="pt-4" src="~assets/images/logo-FWF.png" />
+        </a>
       </b-col>
       <b-col class="gc-col">
         <span class="d-block tag">Institution</span>
         <span class="d-block titel-kachel">Universität Wien</span>
         <span class="d-block sub-heading">Institut für Germanistik</span>
-        <a href="https://univie.ac.at" target="_blank">
+        <a href="https://germanistik.univie.ac.at/" target="_blank">
           <img class="pt-4" src="~assets/images/logo-UniWien-gray.png" />
         </a>
       </b-col>
