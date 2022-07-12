@@ -3,6 +3,7 @@
     <b-row>
       <b-col class="gc-col">
         <span class="d-block titel-xl">Kontakt</span>
+        <button-green text="GenderComics Team" left />
       </b-col>
       <b-col class="gc-col gc-border-right">
         <span class="d-block tag">Kontakt</span>
@@ -26,14 +27,17 @@
           <b-col>
             <div class="text-right">
               <button-green
+                right
                 text="Susanne Hochreiter"
                 link="mailto:susanne.hochreiter@univie.ac.at"
               />
               <button-green
+                right
                 text="Marina Rauchenbacher"
                 link="mailto:marina.rauchenbacher@univie.ac.at"
               />
               <button-green
+                right
                 text="Katharina Serles"
                 link="mailto:katharina.serles@univie.ac.at"
               />

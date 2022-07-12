@@ -250,6 +250,13 @@
   cursor: pointer;
 }
 
+.btn-corner-left {
+  height: 30px;
+  position: relative;
+  left: 27px;
+  bottom: 14px;
+}
+
 .btn-corner-right {
   height: 30px;
   position: relative;
