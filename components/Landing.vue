@@ -26,7 +26,7 @@
       <div id="right-lower-logo" class="w-50">
         <div class="ml-5 margin-corner-right">
           <span class="logo-claim"
-            >Visualitäten von Geschlecht in deutschsprachigen Comics</span
+            >Visualitäten von Geschlecht in deutsch&shy;sprachigen Comics</span
           >
         </div>
       </div>

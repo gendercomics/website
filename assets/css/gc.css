@@ -57,12 +57,6 @@
   --gc-text-transform-uppercase: uppercase;
 }
 
-@font-face {
-  font-family: 'George Rounded';
-  src: local('George Rounded'),
-    url(~assets/fonts/GeorgeRounded.otf) format('opentype');
-}
-
 /* Character Styles */
 .titel-xl {
   font-family: var(--gc-font-family-george-rounded);
@@ -358,10 +352,6 @@
   float: right;
   margin-top: -3px;
   margin-right: -1px;
-}
-
-.margin-corner-right {
-  margin-right: 202px;
 }
 
 .divider-center-1 {
