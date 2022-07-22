@@ -1,5 +1,5 @@
 <template>
-  <b-container class="mx-auto gc-w-90 mt-3">
+  <b-container class="mx-auto gc-w-90">
     <div class="d-flex">
       <img src="~/assets/images/corner-green-line-4.png" />
       <span class="logo-border-top" />

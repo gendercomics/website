@@ -12,10 +12,9 @@
 <script>
 export default {
   name: 'Burger',
-  data: () => ({}),
   methods: {
     toggle() {
-      this.$store.commit('modules/navigation/toggle')
+      this.$store.commit('modules/navigation/toggleBurger')
     }
   }
 }
@@ -45,5 +44,11 @@ export default {
   background-color: var(--gc-red);
 
   cursor: pointer;
+}
+
+.burger-close {
+}
+
+.burger-close:hover {
 }
 </style>

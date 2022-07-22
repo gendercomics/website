@@ -1,22 +1,30 @@
 <template>
   <div class="nav-sticky d-flex">
     <burger />
-    <b-navbar class="gc-nav-bar" sticky>
-      <b-navbar-brand>
-        <NuxtLink to="/">
-          <b-img
-            src="~assets/images/logo-gendercomics-h.png"
-            class="gc-nav-bar-brand-img"
-          />
-        </NuxtLink>
-      </b-navbar-brand>
-    </b-navbar>
-    <div>
-      <img
-        src="~assets/images/arrow-green-down-flat.png"
-        class="arrow-center"
-      />
-      <img src="~assets/images/arrow-green-down-flat.png" class="arrow-right" />
+    <div
+      v-if="$store.getters['modules/navigation/isNavbarVisible']"
+      class="gc-nav-bar"
+    >
+      <b-navbar sticky>
+        <b-navbar-brand>
+          <NuxtLink to="/">
+            <b-img
+              src="~assets/images/logo-gendercomics-h.png"
+              class="gc-nav-bar-brand-img"
+            />
+          </NuxtLink>
+        </b-navbar-brand>
+      </b-navbar>
+      <div>
+        <img
+          src="~assets/images/arrow-green-down-flat.png"
+          class="arrow-center"
+        />
+        <img
+          src="~assets/images/arrow-green-down-flat.png"
+          class="arrow-right"
+        />
+      </div>
     </div>
   </div>
 </template>
