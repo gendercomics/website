@@ -5,7 +5,7 @@
       v-if="$store.getters['modules/navigation/isNavbarVisible']"
       class="gc-nav-bar"
     >
-      <b-navbar sticky>
+      <b-navbar>
         <b-navbar-brand>
           <NuxtLink to="/">
             <b-img
@@ -15,16 +15,13 @@
           </NuxtLink>
         </b-navbar-brand>
       </b-navbar>
-      <div>
-        <img
-          src="~assets/images/arrow-green-down-flat.png"
-          class="arrow-center"
-        />
-        <img
-          src="~assets/images/arrow-green-down-flat.png"
-          class="arrow-right"
-        />
-      </div>
+    </div>
+    <div>
+      <img
+        src="~assets/images/arrow-green-down-flat.png"
+        class="arrow-center"
+      />
+      <img src="~assets/images/arrow-green-down-flat.png" class="arrow-right" />
     </div>
   </div>
 </template>
@@ -61,6 +58,7 @@ export default {
   position: absolute;
   top: 80px;
   left: 50%;
+  margin-left: -37px;
 }
 
 .arrow-right {
