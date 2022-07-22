@@ -16,7 +16,7 @@
         </b-navbar-brand>
       </b-navbar>
     </div>
-    <div>
+    <div v-if="$store.getters['modules/navigation/isNavbarVisible']">
       <img
         src="~assets/images/arrow-green-down-flat.png"
         class="arrow-center"
