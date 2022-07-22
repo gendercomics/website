@@ -1,17 +1,21 @@
 <template>
-  <div class="nav-sticky">
+  <div class="nav-sticky d-flex">
+    <burger />
     <b-navbar class="gc-nav-bar" sticky>
       <b-navbar-brand>
-        <b-img
-          src="~assets/images/logo-gendercomics-h.png"
-          class="gc-nav-bar-brand-img"
-        />
+        <NuxtLink to="/">
+          <b-img
+            src="~assets/images/logo-gendercomics-h.png"
+            class="gc-nav-bar-brand-img"
+          />
+        </NuxtLink>
       </b-navbar-brand>
     </b-navbar>
     <div>
-      <div class="arrow-center">
-        <img src="~assets/images/arrow-green-down-flat.png" />
-      </div>
+      <img
+        src="~assets/images/arrow-green-down-flat.png"
+        class="arrow-center"
+      />
       <img src="~assets/images/arrow-green-down-flat.png" class="arrow-right" />
     </div>
   </div>
@@ -32,6 +36,7 @@ export default {
   height: 80px;
   border-radius: 0px 0px 100px 100px;
   opacity: 1;
+  z-index: 999;
 }
 
 .gc-nav-bar-brand-img {
@@ -45,7 +50,9 @@ export default {
 }
 
 .arrow-center {
-  text-align: center;
+  position: absolute;
+  top: 80px;
+  left: 50%;
 }
 
 .arrow-right {
