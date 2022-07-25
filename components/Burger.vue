@@ -5,6 +5,13 @@
       src="~/assets/images/burger-passive.png"
       class="burger"
       @click="toggle"
+      v-if="!$store.getters['modules/navigation/isBurgerActive']"
+    />
+    <img
+      src="~/assets/images/burger-close.png"
+      class="burger"
+      @click="toggle"
+      v-if="$store.getters['modules/navigation/isBurgerActive']"
     />
   </div>
 </template>
@@ -47,8 +54,5 @@ export default {
 }
 
 .burger-close {
-}
-
-.burger-close:hover {
 }
 </style>

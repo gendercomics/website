@@ -7,6 +7,9 @@ export default {
   }),
 
   getters: {
+    isBurgerActive: state => {
+      return state.isBurgerActive
+    },
     isNavbarVisible: state => {
       return state.isNavbarVisible
     }
