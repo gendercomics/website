@@ -58,7 +58,7 @@ export default {
   position: absolute;
   top: 80px;
   left: 50%;
-  margin-left: -37px;
+  transform: translate(-50%);
 }
 
 .arrow-right {
