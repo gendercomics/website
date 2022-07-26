@@ -1,6 +1,6 @@
 <template>
-  <b-container class="gc-w-90">
-    <b-row id="divider-top-row">
+  <div class="gc-page-margin">
+    <b-row id="divider-top-row" class="d-flex" no-gutters>
       <b-col v-if="t1" id="divider-top-1" />
       <b-col v-else id="divider-corner-invisible" />
       <b-col v-if="t2" id="divider-top-2" />
@@ -16,7 +16,7 @@
       <b-col v-if="t6" id="divider-top-6" />
       <b-col v-else id="divider-corner-invisible" />
     </b-row>
-    <b-row id="divider-bottom-row">
+    <b-row id="divider-bottom-row" no-gutters>
       <b-col v-if="b1" id="divider-bottom-1" />
       <b-col v-else id="divider-corner-invisible" />
       <b-col v-if="b2" id="divider-bottom-2" />
@@ -32,7 +32,7 @@
       <b-col v-if="b6" id="divider-bottom-6" />
       <b-col v-else id="divider-corner-invisible" />
     </b-row>
-  </b-container>
+  </div>
 </template>
 
 <script>
@@ -109,7 +109,6 @@ export default {
 </script>
 
 <style scoped>
-
 #divider-top-1 {
   height: 100px;
   background-size: 100px 100px;
@@ -130,7 +129,7 @@ export default {
   background-image: url('~assets/images/corner-green-line-2-100px.png');
   background-repeat: no-repeat;
   flex: 0 0 100px;
-  margin-right: -2px;
+  margin-right: -1px;
 }
 
 #divider-top-3-flat {
@@ -146,7 +145,7 @@ export default {
   background-image: url('~assets/images/corner-green-line-3-100px.png');
   background-repeat: no-repeat;
   flex: 0 0 100px;
-  margin-left: -2px;
+  margin-left: -1px;
 }
 
 #divider-top-4-flat {
@@ -194,7 +193,7 @@ export default {
   background-image: url('~assets/images/corner-green-line-1-100px.png');
   background-repeat: no-repeat;
   flex: 0 0 100px;
-  margin-right: -2px;
+  margin-right: -1px;
 }
 
 #divider-bottom-3-flat {
@@ -210,7 +209,7 @@ export default {
   background-image: url('~assets/images/corner-green-line-4-100px.png');
   background-repeat: no-repeat;
   flex: 0 0 100px;
-  margin-right: -2px;
+  margin-right: -1px;
 }
 
 #divider-bottom-4-flat {

@@ -235,8 +235,8 @@
   padding: 5px 10px;
   opacity: 1;
 
-  position: relative;
-  right: -22px;
+  margin-right: -5px;
+  margin-left: -5px;
 }
 
 .button-artist:hover {
@@ -246,16 +246,15 @@
 
 .btn-corner-left {
   height: 30px;
-  position: relative;
-  left: 27px;
-  bottom: 14px;
+  transform: translateY(-50%);
+  margin-left: 3px;
 }
 
 .btn-corner-right {
   height: 30px;
-  position: relative;
-  right: -17px;
-  bottom: 14px;
+  width: 30px;
+  transform: translateY(-50%);
+  margin-right: -2px;
 }
 
 .pattern-background {
@@ -270,6 +269,12 @@
 
 .gc-w-90 {
   max-width: 90%;
+}
+
+.gc-page-margin {
+  margin-left: 111px;
+  margin-right: 111px;
+  max-width: available;
 }
 
 .logo-gc {
@@ -292,11 +297,11 @@
   border-left-color: var(--gc-green);
   border-left-width: 2px;
   border-left-style: solid;
-  padding-left: 300px;
+  padding-left: 250px;
   border-right-color: var(--gc-green);
   border-right-width: 2px;
   border-right-style: solid;
-  padding-right: 300px;
+  padding-right: 250px;
 }
 
 .logo-border-bottom {
@@ -356,7 +361,8 @@
 
 .gc-col {
   display: block;
+  position: inherit;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 5%;
+  margin-left: 100px;
 }

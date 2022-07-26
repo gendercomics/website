@@ -2,16 +2,16 @@
   <div>
     <div class="burger" />
     <img
+      v-if="!$store.getters['modules/navigation/isBurgerActive']"
       src="~/assets/images/burger-passive.png"
       class="burger"
       @click="toggle"
-      v-if="!$store.getters['modules/navigation/isBurgerActive']"
     />
     <img
+      v-if="$store.getters['modules/navigation/isBurgerActive']"
       src="~/assets/images/burger-close.png"
       class="burger"
       @click="toggle"
-      v-if="$store.getters['modules/navigation/isBurgerActive']"
     />
   </div>
 </template>
@@ -30,9 +30,11 @@ export default {
 <style scoped>
 .burger {
   position: absolute;
-  left: 5%;
+  left: 111px;
   top: 15px;
   width: 50px;
+  transform: translateX(-50%);
+  margin-left: 1px;
 
   background-color: var(--gc-gray);
   background-repeat: no-repeat;
@@ -44,9 +46,11 @@ export default {
 
 .burger:hover {
   position: absolute;
-  left: 5%;
+  left: 111px;
   top: 15px;
   width: 50px;
+  transform: translateX(-50%);
+  margin-left: 1px;
 
   background-color: var(--gc-red);
 

@@ -1,6 +1,6 @@
 <template>
-  <b-container class="gc-w-90">
-    <b-row>
+  <div class="gc-page-margin">
+    <b-row class="d-flex" no-gutters>
       <b-col class="gc-col">
         <span class="d-block titel-xl">Kontakt</span>
         <button-green text="GenderComics Team" left />
@@ -46,7 +46,7 @@
         </b-row>
       </b-col>
     </b-row>
-  </b-container>
+  </div>
 </template>
 
 <script>
