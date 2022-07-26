@@ -1,7 +1,7 @@
 <template>
-  <b-container class="gc-w-90">
-    <b-row>
-      <b-col class="gc-col gc-border-left">
+  <div class="gc-page-margin">
+    <b-row class="d-flex gc-border-left" no-gutters>
+      <b-col class="gc-col">
         <span class="d-block tag">Fördergeber</span>
         <span class="d-block titel-kachel">FWF Der Wissenschaftsfonds</span>
         <span class="d-block sub-heading">Projektnummer: P 31925</span>
@@ -18,7 +18,7 @@
         </a>
       </b-col>
     </b-row>
-  </b-container>
+  </div>
 </template>
 
 <script>
