@@ -39,4 +39,10 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.logo-corner-green-bottom {
+  float: right;
+  margin-top: -3px;
+  margin-right: -2px;
+}
+</style>
