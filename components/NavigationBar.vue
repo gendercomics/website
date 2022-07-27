@@ -45,7 +45,10 @@ export default {
 }
 
 .gc-nav-bar-brand-img {
-  margin-left: 10%;
+  position: absolute;
+  margin-left: 2em;
+  top: 40px;
+  transform: translateY(-50%);
 }
 
 .nav-sticky {
