@@ -112,7 +112,7 @@ export default {
 #divider-top-1 {
   height: 100px;
   background-size: 100px 100px;
-  background-image: url('~assets/images/corner-green-line-3-100px.png');
+  background-image: url('~assets/images/corner-green-line-3-100px.svg');
   background-repeat: no-repeat;
   flex: 0 0 100px;
 }
@@ -126,7 +126,7 @@ export default {
 #divider-top-3 {
   height: 100px;
   background-size: 100px 100px;
-  background-image: url('~assets/images/corner-green-line-2-100px.png');
+  background-image: url('~assets/images/corner-green-line-2-100px.svg');
   background-repeat: no-repeat;
   flex: 0 0 100px;
   margin-right: -1px;
@@ -142,7 +142,7 @@ export default {
 #divider-top-4 {
   height: 100px;
   background-size: 100px 100px;
-  background-image: url('~assets/images/corner-green-line-3-100px.png');
+  background-image: url('~assets/images/corner-green-line-3-100px.svg');
   background-repeat: no-repeat;
   flex: 0 0 100px;
   margin-left: -1px;
@@ -164,7 +164,7 @@ export default {
 #divider-top-6 {
   height: 100px;
   background-size: 100px 100px;
-  background-image: url('~assets/images/corner-green-line-2-100px.png');
+  background-image: url('~assets/images/corner-green-line-2-100px.svg');
   background-repeat: no-repeat;
   flex: 0 0 100px;
 }
@@ -176,7 +176,7 @@ export default {
 #divider-bottom-1 {
   height: 100px;
   background-size: 100px 100px;
-  background-image: url('~assets/images/corner-red-filled-4-100px.png');
+  background-image: url('~assets/images/corner-red-filled-4-100px.svg');
   background-repeat: no-repeat;
   flex: 0 0 100px;
 }
@@ -190,7 +190,7 @@ export default {
 #divider-bottom-3 {
   height: 100px;
   background-size: 100px 100px;
-  background-image: url('~assets/images/corner-green-line-1-100px.png');
+  background-image: url('~assets/images/corner-green-line-1-100px.svg');
   background-repeat: no-repeat;
   flex: 0 0 100px;
   margin-right: -1px;
@@ -206,7 +206,7 @@ export default {
 #divider-bottom-4 {
   height: 100px;
   background-size: 100px 100px;
-  background-image: url('~assets/images/corner-green-line-4-100px.png');
+  background-image: url('~assets/images/corner-green-line-4-100px.svg');
   background-repeat: no-repeat;
   flex: 0 0 100px;
   margin-right: -1px;
@@ -228,7 +228,7 @@ export default {
 #divider-bottom-6 {
   height: 100px;
   background-size: 100px 100px;
-  background-image: url('~assets/images/corner-green-line-1-100px.png');
+  background-image: url('~assets/images/corner-green-line-1-100px.svg');
   background-repeat: no-repeat;
   flex: 0 0 100px;
 }

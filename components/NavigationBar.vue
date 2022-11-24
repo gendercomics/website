@@ -9,7 +9,7 @@
         <b-navbar-brand>
           <NuxtLink to="/">
             <b-img
-              src="~assets/images/logo-gendercomics-h.png"
+              src="~assets/images/logo-gendercomics-h.svg"
               class="gc-nav-bar-brand-img"
             />
           </NuxtLink>
@@ -18,10 +18,10 @@
     </div>
     <div v-if="$store.getters['modules/navigation/isNavbarVisible']">
       <img
-        src="~assets/images/arrow-green-down-flat.png"
+        src="~assets/images/arrow-green-down-flat.svg"
         class="arrow-center"
       />
-      <img src="~assets/images/arrow-green-down-flat.png" class="arrow-right" />
+      <img src="~assets/images/arrow-green-down-flat.svg" class="arrow-right" />
     </div>
   </div>
 </template>

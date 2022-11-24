@@ -2,13 +2,13 @@
   <div class="pt-2 pb-2">
     <img
       v-if="left"
-      src="~/assets/images/corner-green-3-50px(buttons).png"
+      src="~/assets/images/corner-green-3-50px(buttons).svg"
       class="btn-corner-left"
     />
     <span class="button-artist" @click="openLink">{{ text }}</span>
     <img
       v-if="right"
-      src="~/assets/images/corner-green-2-50px(buttons).png"
+      src="~/assets/images/corner-green-2-50px(buttons).svg"
       class="btn-corner-right"
     />
   </div>
