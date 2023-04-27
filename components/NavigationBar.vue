@@ -14,6 +14,13 @@
             />
           </NuxtLink>
         </b-navbar-brand>
+
+        <b-navbar-nav class="nav-bar-position nav-font">
+          <b-nav-item to="/about" class="pr-3">About</b-nav-item>
+          <b-nav-item to="/team" class="pr-3">Team</b-nav-item>
+          <b-nav-item to="/about" class="pr-3">Collaborations</b-nav-item>
+          <b-nav-item to="/database" class="pr-3">Database</b-nav-item>
+        </b-navbar-nav>
       </b-navbar>
     </div>
     <div v-if="$store.getters['modules/navigation/isNavbarVisible']">
@@ -57,9 +64,25 @@ export default {
   top: 0;
 }
 
+.nav-bar-position {
+  position: absolute;
+  top: 30px;
+  left: 59%;
+  transform: translate(-50%);
+}
+
+.nav-font {
+  font-family: var(--gc-font-family-outfit);
+  font-style: var(--gc-font-style-normal);
+  font-weight: var(--gc-font-weight-normal);
+  font-size: var(--gc-font-size-21);
+  line-height: var(--gc-line-spacing-25);
+  color: var(--gc-gray);
+}
+
 .arrow-center {
   position: absolute;
-  top: 80px;
+  top: 79px;
   left: 50%;
   transform: translate(-50%);
 }
@@ -67,6 +90,6 @@ export default {
 .arrow-right {
   position: absolute;
   right: 75px;
-  top: 80px;
+  top: 79px;
 }
 </style>

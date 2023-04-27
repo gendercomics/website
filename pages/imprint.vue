@@ -1,5 +1,5 @@
 <template>
-  <div></div>
+  <div>Imprint</div>
 </template>
 
 <script>
