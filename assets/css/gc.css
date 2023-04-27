@@ -333,6 +333,9 @@
 .gc-col {
   display: block;
   position: inherit;
-  margin-right: auto;
+}
+
+.col-content {
   margin-left: 100px;
+  margin-right: 100px;
 }

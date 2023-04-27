@@ -3,7 +3,7 @@
     <b-row class="d-flex" no-gutters>
       <b-col class="gc-col">
         <span class="d-block titel-xl">Kontakt</span>
-        <button-green text="GenderComics Team" left />
+        <button-green text="GenderComics Team" left link="/team" />
       </b-col>
       <b-col class="gc-col gc-border-right">
         <span class="d-block tag">Kontakt</span>

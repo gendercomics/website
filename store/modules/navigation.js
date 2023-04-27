@@ -23,6 +23,9 @@ export default {
     initBurger(state) {
       state.isBurgerActive = false
     },
+    setBurgerActive(state) {
+      state.isBurgerActive = true
+    },
     setNavbarVisible(state, visible) {
       state.isNavbarVisible = visible
     }

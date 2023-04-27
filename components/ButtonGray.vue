@@ -41,11 +41,11 @@ export default {
     right: {
       type: Boolean,
       default: false
-    },
+    }
   },
   methods: {
     openLink() {
-      window.open(this.link, '_self')
+      this.$router.push({ path: this.link })
     }
   }
 }

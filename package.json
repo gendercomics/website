@@ -21,9 +21,9 @@
     "core-js": "^3.19.3",
     "nuxt": "^2.15.8",
     "vue": "^2.7.14",
-    "vuejs-logger": "^1.5.5",
     "vue-server-renderer": "^2.7.14",
     "vue-template-compiler": "^2.7.14",
+    "vuejs-logger": "^1.5.5",
     "vuex": "^3.6.2",
     "webpack": "^4.46.0"
   },
