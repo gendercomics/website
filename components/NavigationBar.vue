@@ -18,8 +18,10 @@
         <b-navbar-nav class="nav-bar-position nav-font">
           <b-nav-item to="/about" class="pr-3">About</b-nav-item>
           <b-nav-item to="/team" class="pr-3">Team</b-nav-item>
-          <b-nav-item to="/about" class="pr-3">Collaborations</b-nav-item>
-          <b-nav-item to="/database" class="pr-3">Database</b-nav-item>
+          <b-nav-item to="/collaborations" class="pr-3"
+            >Kooperationen</b-nav-item
+          >
+          <b-nav-item to="/database" class="pr-3">Datenbank</b-nav-item>
         </b-navbar-nav>
       </b-navbar>
     </div>
