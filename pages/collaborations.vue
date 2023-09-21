@@ -1,5 +1,9 @@
 <template>
-  <div></div>
+  <div>
+    <div class="titel-xl center mt-5">
+      Kooperationen
+    </div>
+  </div>
 </template>
 
 <script>
@@ -12,4 +16,12 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.center {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+</style>
