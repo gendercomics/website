@@ -6,7 +6,7 @@ COPY package.json ./
 RUN npm install
 COPY . .
 
-RUN npm run generate
+RUN npm run generate-website
 
 # production environment
 FROM nginx:stable-alpine

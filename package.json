@@ -3,11 +3,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build website": "nuxt build",
-    "dev website": "nuxt dev",
-    "generate website": "nuxt generate",
-    "preview website": "nuxt preview",
-    "postinstall website": "nuxt prepare"
+    "build-website": "nuxt build",
+    "dev-website": "nuxt dev",
+    "generate-website": "nuxt generate",
+    "preview-website": "nuxt preview",
+    "postinstall-website": "nuxt prepare"
   },
   "dependencies": {
     "@nuxt/content": "^2.12.1",
