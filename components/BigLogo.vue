@@ -1,3 +1,5 @@
+<script setup></script>
+
 <template>
   <img
     src="~assets/images/logo-GENDERCOMICS-twolines.svg"
@@ -6,10 +8,15 @@
   />
 </template>
 
-<script>
-export default {
-  name: 'BigLogo'
-}
-</script>
+<style scoped>
+@import '~/assets/css/design.css';
 
-<style scoped></style>
+.logo-gc {
+  background: transparent no-repeat padding-box;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  opacity: 1;
+}
+</style>

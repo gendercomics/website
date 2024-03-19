@@ -1,9 +1,13 @@
 <template>
-  <div class="d-block pattern-background">
-    <navigation-bar />
-    <Nuxt />
-    <Footer />
+  <div class="pattern-background">
+    <slot />
   </div>
 </template>
-<script />
-<style />
+
+<style scoped>
+.pattern-background {
+  background: transparent url('~/assets/images/pattern-background.png') 0 0
+    repeat padding-box;
+  opacity: 1;
+}
+</style>
