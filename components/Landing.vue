@@ -62,7 +62,7 @@
 
       <div id="right-lower-logo" class="w-50">
         <div class="ml-5 margin-corner-right">
-          <span class="logo-claim"
+          <span class="logo-claim flex-ml10"
             >Visualitäten von Geschlecht in deutsch&shy;sprachigen Comics</span
           >
         </div>
@@ -119,17 +119,8 @@
   margin-top: -6px;
 }
 
-.logo-claim {
+.flex-ml10 {
   display: flex;
   margin-left: 10%;
-  margin-top: 10%;
-
-  font-family: var(--gc-font-family-outfit);
-  font-style: var(--gc-font-style-normal);
-  font-weight: var(--gc-font-weight-normal);
-  font-size: var(--gc-font-size-46);
-  line-height: var(--gc-line-spacing-60);
-  letter-spacing: var(--gc-character-spacing-0);
-  color: var(--gc-gray);
 }
 </style>
