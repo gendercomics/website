@@ -9,6 +9,11 @@
   width: 50%;
 }
 
+.w-80 {
+  width: 80%;
+  margin: auto;
+}
+
 .w-90 {
   width: 90%;
   margin: auto;
