@@ -1,20 +1,36 @@
 <script setup></script>
 
 <template>
-  <div class="frame">
-    <div class="corner top-left"></div>
-    <div class="line-top top-center"></div>
-    <div class="corner top-right"></div>
-    <div class="border-left"></div>
-    <div class="content">
-      <div class="inner-content">
-        <big-logo />
+  <div>
+    <div class="hero-frame">
+      <div class="square-200 top-left"></div>
+      <div class="line-top top-border"></div>
+      <div class="square-200 top-right"></div>
+      <div class="border-left"></div>
+      <div class="content">
+        <div class="inner-content">
+          <big-logo />
+        </div>
       </div>
+      <div class="border-right"></div>
+      <div class="square-200 bottom-left"></div>
+      <div class="bottom-center"></div>
+      <div class="square-200 bottom-right"></div>
     </div>
-    <div class="border-right"></div>
-    <div class="corner bottom-left"></div>
-    <div class="bottom-center"></div>
-    <div class="corner bottom-right"></div>
+
+    <div class="divider-row">
+      <div class="cell-fixed" />
+      <div class="cell-dynamic top-border" />
+      <div class="cell-fixed square-200 green-line-1" />
+      <div class="cell-dynamic" span="2">
+        <!--
+        <span
+          >Visualitäten von Geschlecht in deutsch&shy;sprachigen Comics</span
+        >
+        -->
+      </div>
+      <div class="cell-fixed" />
+    </div>
   </div>
 
   <!--
@@ -44,13 +60,13 @@
 <style scoped>
 @import url('~/assets/css/styles.css');
 
-.frame {
+.hero-frame {
   display: grid;
   grid-template-columns: 200px 1fr 200px;
   grid-template-rows: 200px auto 200px;
 }
 
-.corner {
+.square-200 {
   width: 200px;
   height: 200px;
   background-size: cover;
@@ -60,9 +76,8 @@
   background-image: url('~/assets/images/corner-green-line-4.svg');
 }
 
-.top-center {
+.top-border {
   border-top: 2px solid black; /* change line color */
-  height: 200px;
 }
 
 .top-right {
@@ -81,7 +96,7 @@
   background-image: url('~/assets/images/corner-green-line-2.svg');
 }
 
-.border-bottom {
+.bottom-border {
   border-bottom: 2px solid black; /* change line color */
   height: 200px;
 }
@@ -105,5 +120,32 @@
 
 .inner-content {
   flex: 1;
+}
+
+.divider-row {
+  display: grid;
+  grid-template-columns: 200px auto 200px auto auto 200px;
+  margin-top: -2px;
+}
+
+.cell {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.cell-fixed {
+  width: 200px;
+}
+
+.cell-dynamic {
+  /* No fixed width */
+}
+
+.cell-dynamic[span='2'] {
+  grid-column: span 2; /* Spanning two columns */
+}
+
+.green-line-1 {
+  background-image: url('~/assets/images/corner-green-line-1.svg');
 }
 </style>
