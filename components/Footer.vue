@@ -56,7 +56,7 @@ a:hover {
 .footer-element {
   flex: 1;
   text-align: center;
-  color: lightgray;
+  color: var(--lightgray);
   padding-left: 20px;
   padding-right: 20px;
 }
