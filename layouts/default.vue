@@ -1,6 +1,7 @@
 <template>
   <div class="pattern-background">
     <slot />
+    <Footer />
   </div>
 </template>
 

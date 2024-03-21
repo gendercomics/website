@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   pages: true,
   modules: ['@nuxt/content'],
   css: [
-    /* 'assets/css/fonts.css', */
+    'assets/css/fonts.css',
     'assets/css/design.css',
     'assets/css/styles.css',
   ],
