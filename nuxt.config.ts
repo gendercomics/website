@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   modules: ['@nuxt/content'],
   css: [
     'assets/css/design.css',
+    'assets/fonts/GeorgeRounded.otf',
     'assets/css/fonts.css',
     'assets/css/styles.css',
   ],
