@@ -21,13 +21,11 @@
     <div class="bottom-row">
       <div class="cell-fixed" />
       <div class="cell-dynamic top-border" />
-      <div class="cell-fixed cell-centered square-200 green-line-1" />
+      <div class="cell-fixed cell-centered square-200 corner-green-1" />
       <div class="cell cell-dynamic" span="2">
-        <!--
-          <a class="logo-claim cell-claim-text"
-            >Visualitäten von Geschlecht in deutsch&shy;sprachigen Comics</a
-          >
-          -->
+        <p class="logo-claim cell-claim-text">
+          Visualitäten von Geschlecht in deutsch&shy;sprachigen Comics
+        </p>
       </div>
       <div class="cell-fixed" />
     </div>
@@ -107,8 +105,8 @@
   margin-top: -2px;
 }
 
-.cell {
-  border: 1px solid var(--gc-green);
+.cell-debug {
+  border: 1px solid black;
   text-align: center;
 }
 
@@ -124,8 +122,9 @@
   grid-column: span 2; /* Spanning two columns */
 }
 
-.green-line-1 {
+.corner-green-1 {
   background-image: url('~/assets/images/corner-green-line-1.svg');
+  background-size: cover;
 }
 
 .cell-centered {
@@ -133,5 +132,6 @@
 }
 
 .cell-claim-text {
+  padding-left: 10px;
 }
 </style>
