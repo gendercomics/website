@@ -1,8 +1,10 @@
-<script setup></script>
+<script setup>
+import Hero from '~/components/Hero.vue'
+</script>
 
 <template>
   <div class="w-90">
-    <landing />
+    <hero />
     <!--preview value='about' img='about' link='/about' /-->
     <!--divider b1 b2 t3 t4 t5 b5 b6 /-->
     <!--contact /-->
