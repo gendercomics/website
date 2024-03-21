@@ -5,6 +5,7 @@ import Hero from '~/components/Hero.vue'
 <template>
   <div class="w-90">
     <hero />
+    <preview img="~/assets/images/placeholder.png" content="about" />
     <!--preview value='about' img='about' link='/about' /-->
     <!--divider b1 b2 t3 t4 t5 b5 b6 /-->
     <!--contact /-->
