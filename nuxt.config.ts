@@ -3,6 +3,9 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   pages: true,
   modules: ['@nuxt/content'],
+  dir: {
+    assets: 'assets',
+  },
   css: [
     'assets/css/fonts.css',
     'assets/css/design.css',
