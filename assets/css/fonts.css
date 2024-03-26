@@ -38,5 +38,9 @@
 @font-face {
   font-family: 'George Rounded';
   src: local('George Rounded'),
-  url(~/assets/fonts/GeorgeRounded.otf) format('opentype');
+    /* localhost
+  url(~/../assets/fonts/GeorgeRounded.otf) format('opentype');
+  */
+  /* server  */ url(~/assets/fonts/GeorgeRounded.otf) format('opentype');
+
 }
