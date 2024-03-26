@@ -19,22 +19,21 @@
     </div>
 
     <div class="bottom-row">
-      <div class="cell-fixed" />
-      <div class="cell-dynamic top-border" />
-      <div class="cell-fixed cell-centered square-200 corner-green-1" />
-      <div class="cell cell-dynamic" span="2">
-        <p class="logo-claim cell-claim-text">
+      <div class="w-50">
+        <div class="cell-dynamic top-border ml-200 mr-200" />
+        <div class="square-200 corner-green-1" />
+      </div>
+      <div class="w-50">
+        <p class="logo-claim pl-10 ml-10">
           Visualitäten von Geschlecht in deutsch&shy;sprachigen Comics
         </p>
       </div>
-      <div class="cell-fixed" />
+
     </div>
   </div>
 </template>
 
 <style scoped>
-@import url('~/assets/css/styles.css');
-
 .hero-frame {
   display: grid;
   grid-template-columns: 200px 1fr 200px;
@@ -48,7 +47,7 @@
 }
 
 .top-left {
-  background-image: url('~/assets/images/corner-green-line-4.svg');
+  background-image: url('@/assets/images/corner-green-line-4.svg');
 }
 
 .top-border {
@@ -56,11 +55,11 @@
 }
 
 .top-right {
-  background-image: url('~/assets/images/corner-red-filled-1.svg');
+  background-image: url('@/assets/images/corner-red-filled-1.svg');
 }
 
 .bottom-left {
-  background-image: url('~/assets/images/corner-red-filled-3.svg');
+  background-image: url('@/assets/images/corner-red-filled-3.svg');
 }
 
 .bottom-center {
@@ -68,12 +67,7 @@
 }
 
 .bottom-right {
-  background-image: url('~/assets/images/corner-green-line-2.svg');
-}
-
-.bottom-border {
-  border-bottom: 2px solid var(--gc-green);
-  height: 200px;
+  background-image: url('@/assets/images/corner-green-line-2.svg');
 }
 
 .border-left {
@@ -100,18 +94,13 @@
 /** divider row **/
 
 .bottom-row {
-  display: grid;
-  grid-template-columns: 200px auto 200px auto auto 200px;
+  display: flex;
   margin-top: -2px;
 }
 
 .cell-debug {
   border: 1px solid black;
   text-align: center;
-}
-
-.cell-fixed {
-  width: 200px;
 }
 
 .cell-dynamic {
@@ -123,15 +112,15 @@
 }
 
 .corner-green-1 {
-  background-image: url('~/assets/images/corner-green-line-1.svg');
+  margin-top: -2px;
+  float: right;
+  background-image: url('@/assets/images/corner-green-line-1.svg');
   background-size: cover;
 }
 
-.cell-centered {
-  justify-self: end; /* Adjusting the position of cell 3 to the end (right) of its grid cell */
-}
 
-.cell-claim-text {
+.pl-10 {
   padding-left: 10px;
 }
+
 </style>

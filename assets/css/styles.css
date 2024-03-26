@@ -23,6 +23,18 @@
   margin-top: 10px;
 }
 
+.ml-10 {
+  margin-left: 10px;
+}
+
+.ml-200 {
+  margin-left: 200px;
+}
+
+.mr-200 {
+  margin-right: 200px;
+}
+
 .btn-corner-left {
   height: 30px;
   transform: translateY(-50%);
