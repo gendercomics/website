@@ -19,6 +19,10 @@
   margin: auto;
 }
 
+.mt-10 {
+  margin-top: 10px;
+}
+
 .btn-corner-left {
   height: 30px;
   transform: translateY(-50%);

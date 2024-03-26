@@ -9,7 +9,7 @@ const props = defineProps({
   },
   img: {
     type: String,
-    default: '~/assets/images/placeholder.png',
+    default: 'placeholder.png',
   },
   content: {
     type: String,
@@ -20,11 +20,11 @@ const props = defineProps({
 
 <template>
   <div class="row">
-    <div class="cell-debug column border-right w-50">
-      <ImageBox :img="img" />
+    <div class="cell-debug column-left border-right">
+      <ImageBox :img=img />
     </div>
-    <div class="cell-debug column w-50">
-      <TextPreviewBox :content="content" />
+    <div class="cell-debug column-right">
+      <TextPreviewBox :content=content />
     </div>
   </div>
 </template>
@@ -39,7 +39,16 @@ const props = defineProps({
   justify-content: center;
 }
 
-.column {
+.column-left {
+  flex: 0 0 auto;
+  width: 50%;
+  padding-right: 20px;
+}
+
+.column-right {
+  flex: 0 0 auto;
+  width: 50%;
+  padding-left: 20px;
 }
 
 .border-right {

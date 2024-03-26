@@ -1,9 +1,17 @@
-<script setup></script>
+<script setup>
+const props = defineProps({
+  img: {
+    type: String,
+    default: 'placeholder.png',
+  },
+})
+console.log(props.img)
+</script>
 
 <template>
   <div class="container">
     <div class="image-container">
-      <img src="~/assets/images/placeholder.png" alt="img" />
+        <img src="@/assets/images/placeholder.png" alt="" />
     </div>
   </div>
 </template>

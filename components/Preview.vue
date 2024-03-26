@@ -2,7 +2,7 @@
 const props = defineProps({
   img: {
     type: String,
-    default: '~/assets/images/placeholder.png',
+    default: 'placeholder.png',
   },
   content: {
     type: String,
@@ -13,7 +13,7 @@ console.log(props.img)
 </script>
 
 <template>
-  <Columns count="2" :img="img" :content="content" class="w-90" />
+  <Columns :count=2 :img=img :content=content class="w-90" />
 </template>
 
 <style scoped></style>
