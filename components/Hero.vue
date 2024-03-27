@@ -111,15 +111,4 @@
   grid-column: span 2; /* Spanning two columns */
 }
 
-.corner-green-1 {
-  float: right;
-  background-image: url('@/assets/images/corner-green-line-1.svg');
-  background-size: cover;
-}
-
-
-.pl-10 {
-  padding-left: 10px;
-}
-
 </style>

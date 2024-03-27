@@ -39,6 +39,10 @@
   margin-right: 200px;
 }
 
+.pl-10 {
+  padding-left: 10px;
+}
+
 .btn-corner-left {
   height: 30px;
   transform: translateY(-50%);

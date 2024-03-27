@@ -222,3 +222,11 @@
   color: var(--white);
   text-transform: var(--gc-text-transform-uppercase);
 }
+
+/* corners & borders */
+
+.corner-green-1 {
+  float: right;
+  background-image: url('@/assets/images/corner-green-line-1.svg');
+  background-size: cover;
+}
