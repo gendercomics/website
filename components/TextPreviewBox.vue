@@ -1,4 +1,11 @@
-<script setup></script>
+<script setup>
+const props = defineProps({
+  content: {
+    type: String,
+    default: '',
+  },
+})
+</script>
 
 <template>
   <div class="container mt-10">
@@ -7,6 +14,11 @@
       <p class="titel-kachel">Zusammenfassung</p>
       <a class="a">Hallo Welt!</a>
     </div>
+    <!--
+    <div class="button-container">
+      <button-gray text="mehr erfahren" />
+    </div>
+    -->
   </div>
 </template>
 
@@ -16,7 +28,5 @@
   width: 100%;
 }
 
-.text-container {
-}
 
 </style>
