@@ -28,7 +28,6 @@
           Visualitäten von Geschlecht in deutsch&shy;sprachigen Comics
         </p>
       </div>
-
     </div>
   </div>
 </template>
@@ -110,5 +109,4 @@
 .cell-dynamic[span='2'] {
   grid-column: span 2; /* Spanning two columns */
 }
-
 </style>
