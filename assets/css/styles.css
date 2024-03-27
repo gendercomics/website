@@ -19,6 +19,10 @@
   margin: auto;
 }
 
+.mt--2 {
+  margin-top: -2px;
+}
+
 .mt-10 {
   margin-top: 10px;
 }

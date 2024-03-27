@@ -21,7 +21,7 @@
     <div class="bottom-row">
       <div class="w-50">
         <div class="cell-dynamic top-border ml-200 mr-200" />
-        <div class="square-200 corner-green-1" />
+        <div class="square-200 corner-green-1 mt--2" />
       </div>
       <div class="w-50">
         <p class="logo-claim pl-10 ml-10">
@@ -112,7 +112,6 @@
 }
 
 .corner-green-1 {
-  margin-top: -2px;
   float: right;
   background-image: url('@/assets/images/corner-green-line-1.svg');
   background-size: cover;
