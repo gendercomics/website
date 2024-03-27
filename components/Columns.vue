@@ -20,10 +20,10 @@ const props = defineProps({
 
 <template>
   <div class="row">
-    <div class="cell-debug w-50 border-right">
+    <div class="w-50 border-right">
       <ImageBox :img="img" class="plr-20" />
     </div>
-    <div class="cell-debug w-50">
+    <div class="w-50">
       <TextPreviewBox :content="content" class="plr-20" />
     </div>
   </div>
@@ -41,5 +41,6 @@ const props = defineProps({
 
 .border-right {
   border-right: 2px solid var(--gc-green);
+  margin-right: 1px;
 }
 </style>

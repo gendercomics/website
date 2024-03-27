@@ -136,7 +136,6 @@ const props = defineProps({
   background-size: 100px 100px;
   background-image: url('@/assets/images/corner-green-line-3-100px.svg');
   background-repeat: no-repeat;
-  flex: 0 0 100px;
 }
 
 .divider-top-2 {
@@ -150,7 +149,6 @@ const props = defineProps({
   background-size: 100px 100px;
   background-image: url('@/assets/images/corner-green-line-2-100px.svg');
   background-repeat: no-repeat;
-  flex: 0 0 100px;
   margin-right: -1px;
 }
 
@@ -166,7 +164,6 @@ const props = defineProps({
   background-size: 100px 100px;
   background-image: url('@/assets/images/corner-green-line-3-100px.svg');
   background-repeat: no-repeat;
-  flex: 0 0 100px;
   margin-left: -1px;
 }
 
@@ -188,7 +185,6 @@ const props = defineProps({
   background-size: 100px 100px;
   background-image: url('@/assets/images/corner-green-line-2-100px.svg');
   background-repeat: no-repeat;
-  flex: 0 0 100px;
 }
 
 .divider-bottom-1 {
@@ -196,7 +192,6 @@ const props = defineProps({
   background-size: 100px 100px;
   background-image: url('@/assets/images/corner-red-filled-4-100px.svg');
   background-repeat: no-repeat;
-  flex: 0 0 100px;
 }
 
 .divider-bottom-2 {
@@ -210,7 +205,6 @@ const props = defineProps({
   background-size: 100px 100px;
   background-image: url('@/assets/images/corner-green-line-1-100px.svg');
   background-repeat: no-repeat;
-  flex: 0 0 100px;
   margin-right: -1px;
 }
 
@@ -226,7 +220,6 @@ const props = defineProps({
   background-size: 100px 100px;
   background-image: url('@/assets/images/corner-green-line-4-100px.svg');
   background-repeat: no-repeat;
-  flex: 0 0 100px;
   margin-right: -1px;
 }
 
@@ -248,7 +241,6 @@ const props = defineProps({
   background-size: 100px 100px;
   background-image: url('@/assets/images/corner-green-line-1-100px.svg');
   background-repeat: no-repeat;
-  flex: 0 0 100px;
 }
 
 .invisible {
