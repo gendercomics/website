@@ -20,11 +20,11 @@ const props = defineProps({
 
 <template>
   <div class="row">
-    <div class="cell-debug column-left border-right">
-      <ImageBox :img=img />
+    <div class="cell-debug w-50 border-right">
+      <ImageBox :img="img" class="plr-20" />
     </div>
-    <div class="cell-debug column-right">
-      <TextPreviewBox :content=content />
+    <div class="cell-debug w-50">
+      <TextPreviewBox :content="content" class="plr-20" />
     </div>
   </div>
 </template>
@@ -37,18 +37,6 @@ const props = defineProps({
 .row {
   display: flex;
   justify-content: center;
-}
-
-.column-left {
-  flex: 0 0 auto;
-  width: 50%;
-  padding-right: 20px;
-}
-
-.column-right {
-  flex: 0 0 auto;
-  width: 50%;
-  padding-left: 20px;
 }
 
 .border-right {
