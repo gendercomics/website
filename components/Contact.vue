@@ -1,11 +1,13 @@
-<script setup></script>
+<script setup>
+import GreenButton from '~/components/GreenButton.vue'
+</script>
 
 <template>
   <div class="container">
     <div class="w-50">
       <div class="w-90">
         <p class="titel-xl">Kontakt</p>
-        <!-- button-green -->
+        <green-button text="GenderComics Team" link="/team" left />
       </div>
     </div>
     <div class="w-50 border-right flex">
@@ -25,9 +27,21 @@
         </div>
       </div>
       <div class="right-col">
-        <button>Button 1</button>
-        <button>Button 2</button>
-        <button>Button 3</button>
+        <green-button
+          text="Susanne Hochreiter"
+          link="/team/susanne-hochreiter"
+          right
+        />
+        <green-button
+          text="Marina Rauchenbacher"
+          link="/team/marina-rauchenbacher"
+          right
+        />
+        <green-button
+          text="Katharina Serles"
+          link="/team/katharina-serles"
+          right
+        />
       </div>
     </div>
   </div>
@@ -41,6 +55,7 @@
 
 .left-col {
   flex: 1;
+  padding-left: 1.5rem;
 }
 
 .right-col {
@@ -48,6 +63,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .address-block a {
