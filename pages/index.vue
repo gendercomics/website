@@ -1,5 +1,6 @@
 <script setup>
 import Hero from '~/components/Hero.vue'
+import FwfUni from '~/components/FwfUni.vue'
 </script>
 
 <template>
@@ -10,8 +11,8 @@ import Hero from '~/components/Hero.vue'
     <divider b1 b2 t3 t4 b5 b6 />
     <!--contact /-->
     <!-- divider b1 b2 b3flat b4flat b5 t6 /-->
-    <!--fwf-uni /-->
-    <!--divider t1 t2 b3 /-->
+    <fwf-uni />
+    <divider t1 b2 b3 />
   </div>
 </template>
 

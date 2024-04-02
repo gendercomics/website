@@ -19,14 +19,6 @@
   margin: auto;
 }
 
-.mt--2 {
-  margin-top: -2px;
-}
-
-.mt-10 {
-  margin-top: 10px;
-}
-
 .ml-10 {
   margin-left: 10px;
 }
@@ -37,6 +29,18 @@
 
 .mr-200 {
   margin-right: 200px;
+}
+
+.mt--2 {
+  margin-top: -2px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-30 {
+  margin-top: 30px;
 }
 
 .plr-20 {
