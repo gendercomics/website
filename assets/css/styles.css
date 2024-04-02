@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+.flex {
+  display: flex;
+}
+
 .w-50 {
   width: 50%;
 }
