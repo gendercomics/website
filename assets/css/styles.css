@@ -56,6 +56,10 @@
   padding-left: 10px;
 }
 
+.pt-1r {
+  padding-top: 1rem;
+}
+
 .btn-corner-left {
   height: 30px;
   transform: translateY(-50%);

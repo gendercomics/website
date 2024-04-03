@@ -4,7 +4,7 @@ import FwfUni from '~/components/FwfUni.vue'
 </script>
 
 <template>
-  <div class="w-90">
+  <div class="w-90 pt-1r">
     <hero />
     <preview img="placeholder.png" content="about" />
     <divider t4 b5 b6 />
