@@ -1,8 +1,5 @@
 <script setup>
 const navStore = useNavStore()
-/*
-const isOpen = navStore.isNavbarVisible()
-*/
 const isOpen = ref(true)
 </script>
 
@@ -96,9 +93,5 @@ a:link {
 
 a:hover {
   color: var(--white);
-}
-
-.mt-75 {
-  margin-top: 73px;
 }
 </style>
