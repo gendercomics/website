@@ -1,6 +1,5 @@
 <script setup>
 const navStore = useNavStore()
-const isOpen = ref(true)
 </script>
 
 <template>
@@ -9,7 +8,7 @@ const isOpen = ref(true)
     <div v-if="navStore.isNavbarVisible" class="nav-bar">
       <nuxt-link to="/"
         ><img
-          src="~/assets/images/logo-gendercomics-h.svg"
+          src="@/assets/images/logo-gendercomics-h.svg"
           alt="gc"
           class="ml-50"
       /></nuxt-link>
@@ -23,12 +22,14 @@ const isOpen = ref(true)
       </div>
       <div>
         <img
-          src="~assets/images/arrow-green-down-flat.svg"
+          src="@/assets/images/arrow-green-down-flat.svg"
           class="arrow-center"
+          alt="arrow-green-down-flat"
         />
         <img
-          src="~assets/images/arrow-green-down-flat.svg"
+          src="@/assets/images/arrow-green-down-flat.svg"
           class="arrow-right"
+          alt="arrow-green-down-flat"
         />
       </div>
     </div>
@@ -46,13 +47,13 @@ const isOpen = ref(true)
 .nav-bar {
   display: flex;
   justify-self: end;
-  background: var(--gc-green) 0% 0% no-repeat padding-box;
+  background: var(--gc-green) 0 0 no-repeat padding-box;
   color: var(--white);
   padding: 1rem;
 
   left: 10%;
   width: 85%;
-  border-radius: 0px 0px 100px 100px;
+  border-radius: 0 0 100px 100px;
   opacity: 1;
   z-index: 999;
 }
