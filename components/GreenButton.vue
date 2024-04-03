@@ -53,12 +53,12 @@ function openLink() {
   border-radius: 50px;
   cursor: pointer;
   margin-bottom: 10px;
-  width: 200px;
+  width: 220px;
 
   font-family: var(--gc-font-family-george-rounded);
   font-style: var(--gc-font-style-italic);
   font-weight: var(--gc-font-weight-normal);
-  font-size: var(--gc-font-size-14);
+  font-size: var(--gc-font-size-16);
   letter-spacing: var(--gc-character-spacing-0-5);
 }
 
