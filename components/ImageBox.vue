@@ -5,7 +5,6 @@ const props = defineProps({
     default: 'placeholder.png',
   },
 })
-console.log(props.img)
 </script>
 
 <template>
