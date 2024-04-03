@@ -1,22 +1,15 @@
 <script setup>
-const isOpen = ref(false)
-const toggleMenu = () => {
-  console.log('isOpen=' + isOpen.value)
-  isOpen.value = !isOpen.value
-}
+const navStore = useNavStore()
+/*
+const isOpen = navStore.isNavbarVisible()
+*/
+const isOpen = ref(true)
 </script>
 
 <template>
-  <div>
-    <div class="burger-menu" @click="toggleMenu">
-      <div class="burger-line"></div>
-      <div class="burger-line"></div>
-      <div class="burger-line"></div>
-    </div>
-  </div>
-
-  <nav v-if="isOpen" class="navigation">
-    <div class="nav-bar">
+  <nav class="navigation">
+    <burger />
+    <div v-if="navStore.isNavbarVisible" class="nav-bar">
       <nuxt-link to="/"
         ><img
           src="~/assets/images/logo-gendercomics-h.svg"
@@ -31,19 +24,26 @@ const toggleMenu = () => {
         >
         <nuxt-link to="/database" class="nav-link">Datenbank</nuxt-link>
       </div>
+      <div>
+        <img
+          src="~assets/images/arrow-green-down-flat.svg"
+          class="arrow-center"
+        />
+        <img
+          src="~assets/images/arrow-green-down-flat.svg"
+          class="arrow-right"
+        />
+      </div>
     </div>
-
-    <img src="~assets/images/arrow-green-down-flat.svg" class="arrow-center" />
-    <img src="~assets/images/arrow-green-down-flat.svg" class="arrow-right" />
   </nav>
-
-  <div v-if="isOpen"></div>
 </template>
 
 <style scoped>
 .navigation {
   position: sticky;
   top: 0;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .nav-bar {
@@ -54,22 +54,10 @@ const toggleMenu = () => {
   padding: 1rem;
 
   left: 10%;
-  width: 90%;
+  width: 85%;
   border-radius: 0px 0px 100px 100px;
   opacity: 1;
   z-index: 999;
-}
-
-.burger-menu {
-  display: block;
-  cursor: pointer;
-}
-
-.burger-line {
-  width: 25px;
-  height: 3px;
-  background-color: #fff;
-  margin: 5px;
 }
 
 .nav-links {
@@ -79,7 +67,7 @@ const toggleMenu = () => {
 }
 
 .nav-link {
-  margin-right: 2.5rem;
+  margin-right: 2rem;
 
   font-family: var(--gc-font-family-outfit);
   font-style: var(--gc-font-style-normal);
@@ -92,12 +80,14 @@ const toggleMenu = () => {
 .arrow-center {
   position: absolute;
   left: 50%;
+  top: 73px;
   transform: translate(-50%);
 }
 
 .arrow-right {
   position: absolute;
   right: 50px;
+  top: 73px;
 }
 
 a:link {
@@ -106,5 +96,9 @@ a:link {
 
 a:hover {
   color: var(--white);
+}
+
+.mt-75 {
+  margin-top: 73px;
 }
 </style>

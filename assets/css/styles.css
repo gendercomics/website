@@ -9,6 +9,11 @@
   display: flex;
 }
 
+.page-margin {
+  margin-left: 87px;
+  margin-right: 87px;
+}
+
 .w-50 {
   width: 50%;
 }
