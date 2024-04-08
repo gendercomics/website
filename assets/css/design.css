@@ -225,6 +225,12 @@
   text-transform: var(--gc-text-transform-uppercase);
 }
 
+.pattern-background {
+  background: transparent url('@/assets/images/pattern-background.png') 0 0
+    repeat padding-box;
+  opacity: 1;
+}
+
 /* corners & borders */
 
 .corner-green-1 {

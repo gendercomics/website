@@ -37,6 +37,10 @@ const props = defineProps({
     type: Boolean,
     default: false,
   },
+  b1green: {
+    type: Boolean,
+    default: false,
+  },
   b2: {
     type: Boolean,
     default: false,
@@ -97,6 +101,7 @@ const props = defineProps({
     <!-- bottom row -->
     <div class="fixed-width mt--2">
       <div v-if="b1" class="divider-bottom-1" />
+      <div v-else-if="b1green" class="divider-bottom-1-green" />
     </div>
     <div class="mt--2">
       <div v-if="b2" class="divider-bottom-2" />
@@ -191,6 +196,13 @@ const props = defineProps({
   height: 100px;
   background-size: 100px 100px;
   background-image: url('@/assets/images/corner-red-filled-4-100px.svg');
+  background-repeat: no-repeat;
+}
+
+.divider-bottom-1-green {
+  height: 100px;
+  background-size: 100px 100px;
+  background-image: url('@/assets/images/corner-green-line-4-100px.svg');
   background-repeat: no-repeat;
 }
 

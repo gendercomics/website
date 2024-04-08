@@ -16,7 +16,7 @@ const isActive = defineModel('isActive')
 const isHover = ref(false)
 
 function toggleActive() {
-  isActive.value = !isActive.value
+  isActive.value = !isActive
   console.log('isActive: ' + isActive.value)
 }
 
@@ -85,12 +85,14 @@ function toggleFilter() {
   height: 100px;
   border-radius: 100px;
   padding: 5px;
-  border: 2px solid black;
+  border: 2px solid var(--gc-gray);
+  /* background-image: url('@/assets/images/pattern-background.png');*/
 }
 
 .button:hover {
   background-color: var(--white);
   border-color: var(--gc-green);
+  z-index: 999;
 }
 
 .button.active {
@@ -125,7 +127,7 @@ function toggleFilter() {
 .arrow {
   position: absolute;
   width: 75px;
-  bottom: -37px;
+  bottom: -38px;
   left: 50%;
   transform: translateX(-50%);
   transition: filter 0.3s ease;
