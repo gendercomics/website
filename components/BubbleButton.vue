@@ -4,26 +4,15 @@ const props = defineProps({
     type: String,
     default: '',
   },
-  link: {
-    type: String,
-    default: '',
-  },
 })
 
-const isFilter = defineModel('isFilter')
-const isActive = defineModel('isActive')
+const isActive = defineModel({ required: true, default: false })
 
 const isHover = ref(false)
 
 function toggleActive() {
-  isActive.value = !isActive
+  isActive.value = !isActive.value
   console.log('isActive: ' + isActive.value)
-}
-
-function toggleFilter() {
-  // TODO don't change active
-  isFilter.value = !isFilter.value
-  console.log('isFilter: ' + isFilter.value)
 }
 </script>
 
@@ -33,8 +22,9 @@ function toggleFilter() {
     :class="{ active: isActive }"
     @mouseover="isHover = true"
     @mouseleave="isHover = false"
+    @click="toggleActive"
   >
-    <div class="button pattern-background" :class="{ active: isActive }" @click="toggleActive">
+    <div class="button pattern-background" :class="{ active: isActive }">
       <div class="label" :class="{ active: isActive }">{{ label }}</div>
       <div>
         <img
