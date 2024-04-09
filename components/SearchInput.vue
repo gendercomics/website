@@ -124,6 +124,8 @@ function resetInput() {
 
 .reset-btn-hover:hover {
   opacity: 1;
+  transition: ease-out;
+  transition-duration: 0.3s;
 }
 
 .label {
