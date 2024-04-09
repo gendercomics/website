@@ -12,7 +12,6 @@ const isHover = ref(false)
 
 function toggleActive() {
   isActive.value = !isActive.value
-  console.log('isActive: ' + isActive.value)
 }
 </script>
 
