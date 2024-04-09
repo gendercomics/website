@@ -34,9 +34,9 @@ function toggleFilter() {
     @mouseover="isHover = true"
     @mouseleave="isHover = false"
   >
-    <div class="button" :class="{ active: isActive }" @click="toggleActive">
+    <div class="button pattern-background" :class="{ active: isActive }" @click="toggleActive">
       <div class="label" :class="{ active: isActive }">{{ label }}</div>
-      <div @click="toggleActive">
+      <div>
         <img
           v-if="!isHover && !isActive"
           class="arrow"
@@ -86,18 +86,20 @@ function toggleFilter() {
   border-radius: 100px;
   padding: 5px;
   border: 2px solid var(--gc-gray);
-  /* background-image: url('@/assets/images/pattern-background.png');*/
+  transition: background-color 0.3s ease;
+  background-color: white;
 }
 
 .button:hover {
   background-color: var(--white);
   border-color: var(--gc-green);
-  z-index: 999;
+  background-image: none;
 }
 
 .button.active {
   background-color: var(--gc-red);
   border: 2px solid var(--gc-red);
+  background-image: none;
 }
 
 .label {
@@ -157,5 +159,10 @@ function toggleFilter() {
 
 .toggle-button.active .circle {
   opacity: 1;
+}
+
+.pattern-background {
+  background-image: url('@/assets/images/pattern-background.png');
+  transition: background-color 0.3s ease;
 }
 </style>
