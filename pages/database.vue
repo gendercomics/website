@@ -4,8 +4,10 @@ import SearchForm from '~/components/SearchForm.vue'
 
 <template>
   <div class="container page-margin">
-    <SearchForm />
+    <search-form />
+    <search-result-header />
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+</style>

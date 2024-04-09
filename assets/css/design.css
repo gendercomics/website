@@ -238,3 +238,10 @@
   background-image: url('@/assets/images/corner-green-line-1.svg');
   background-size: cover;
 }
+
+.corner-green-3-50px {
+  float: right;
+  background-image: url('@/assets/images/corner-green-3-50px(buttons).svg');
+  background-size: cover;
+  width: 50px;
+}
