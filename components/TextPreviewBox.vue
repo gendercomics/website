@@ -8,7 +8,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="container mt-10">
+  <div class="container-row mt-10">
     <div class="w-90">
       <p class="tag">ABOUT</p>
       <p class="titel-kachel">Zusammenfassung</p>
@@ -23,7 +23,7 @@ const props = defineProps({
 </template>
 
 <style scoped>
-.container {
+.container-row {
   display: flex;
   width: 100%;
 }

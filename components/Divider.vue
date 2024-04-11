@@ -73,7 +73,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="container">
+  <div class="container-row">
     <!-- top row -->
     <div class="fixed-width">
       <div v-if="t1" class="divider-top-1" />
@@ -126,7 +126,7 @@ const props = defineProps({
 </template>
 
 <style scoped>
-.container {
+.container-row {
   display: grid;
   grid-template-rows: auto auto; /* Two rows */
   grid-template-columns: 100px auto 100px 100px auto 100px;

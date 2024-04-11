@@ -26,6 +26,7 @@ export const useNavStore = defineStore('navStore', {
     },
     setNavbarVisible(visible: boolean) {
       this.navbarVisible = visible
+      this.burgerActive = visible
     },
   },
 })

@@ -4,7 +4,7 @@ import TextPreviewBox from '~/components/TextPreviewBox.vue'
 </script>
 
 <template>
-  <div class="container">
+  <div class="container-row">
     <div class="w-50 border-left">
       <div class="w-90">
         <p class="tag">Fördergeber</p>
@@ -33,7 +33,7 @@ import TextPreviewBox from '~/components/TextPreviewBox.vue'
 </template>
 
 <style scoped>
-.container {
+.container-row {
   display: flex;
   width: 100%;
 }

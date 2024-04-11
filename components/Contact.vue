@@ -3,7 +3,7 @@ import GreenButton from '~/components/GreenButton.vue'
 </script>
 
 <template>
-  <div class="container">
+  <div class="container-row">
     <div class="w-50">
       <div class="w-90">
         <p class="titel-xl">Kontakt</p>
@@ -48,7 +48,7 @@ import GreenButton from '~/components/GreenButton.vue'
 </template>
 
 <style scoped>
-.container {
+.container-row {
   display: flex;
   width: 100%;
 }

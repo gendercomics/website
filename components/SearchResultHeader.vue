@@ -3,7 +3,7 @@ const resultsPerPage = defineModel(8)
 </script>
 
 <template>
-  <div class="container">
+  <div class="container-row">
     <div class="titel-s result-count">1234 Ergebnisse</div>
     <div>
       <div class="flex-column">
@@ -27,8 +27,8 @@ const resultsPerPage = defineModel(8)
     <div class="result-sizer-pos res-size-element ml--2">32</div>
     <div class="result-sizer-pos res-size-element ml--2">64</div>
     <div class="result-sizer-pos results-sizer-end ml" />
-    <div class="container line-container">
-      <div class="line-green" :style="{ width: lineWidth }" />
+    <div class="container-row line-container">
+      <div class="line-green" />
       <div class="result-sizer-pos">
         <img
           class="corner-green-100"
@@ -41,7 +41,7 @@ const resultsPerPage = defineModel(8)
 </template>
 
 <style scoped>
-.container {
+.container-row {
   display: flex;
 }
 

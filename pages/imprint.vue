@@ -4,14 +4,14 @@
 
 <template>
   <div class="page-margin flex center">
-    <div class="container">
+    <div class="container-row">
       <div class="titel-xl">Impressum</div>
     </div>
   </div>
 </template>
 
 <style scoped>
-.container {
+.container-row {
   margin-top: 50px
 
 }

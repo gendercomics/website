@@ -8,7 +8,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="container">
+  <div class="container-row">
     <div class="image-container">
         <img src="@/assets/images/placeholder.png" alt="" />
     </div>
@@ -16,7 +16,7 @@ const props = defineProps({
 </template>
 
 <style scoped>
-.container {
+.container-row {
 }
 
 .image-container {
