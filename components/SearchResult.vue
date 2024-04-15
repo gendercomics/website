@@ -21,5 +21,4 @@ import ComicMinimal from '~/components/ComicMinimal.vue'
 .mt-100 {
   margin-top: 100px;
 }
-
 </style>

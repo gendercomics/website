@@ -1,5 +1,5 @@
 <script setup>
-const filter = reactive({
+const filter = defineModel({
   comics: false,
   persons: false,
   publisher: false,
