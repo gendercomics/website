@@ -1,5 +1,12 @@
 <script setup>
-const searchInput = defineModel()
+import { refDebounced } from '@vueuse/core'
+
+const input = ref('')
+
+const searchInput = defineModel(refDebounced(input, 1000))
+
+// const searchInput = defineModel()
+
 function resetInput() {
   searchInput.value = ''
 }
