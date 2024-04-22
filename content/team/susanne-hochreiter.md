@@ -1,0 +1,17 @@
+---
+title: Susanne Hochreiter
+team: Projekt-Team
+email: susanne.hochreiter@univie.ac.at
+uni-www: germanistik/susanne-hochreiter
+academia: https://univie.academia.edu/SusanneHochreiter
+linkedIn: susanne-hochreiter-55728a38
+twitter: HochreSu
+---
+
+**Susanne Hochreiter** studierte Deutsche Philologie sowie Philosophie, Psychologie und Pädagogik an der Universität Wien und der FU Berlin.
+2003 promovierte sie mit einer Arbeit zu Gender und Raum bei Franz Kafka. Zwischen 2003 und 2005 sowie 2010 und 2012 absolvierte sie zusätzlich eine theaterpädagogische Ausbildung.
+<!-- more -->
+Seit 1999 ist sie Assistenzprofessorin am Institut für Germanistik in Wien. Darüber hinaus war sie 2002 als Gastprofessorin an der Universität Bern und 2006/07 an der Wake Forest University in Winston-Salem (NC) 2006/07 sowie 2015 als Max Kade Distinguished Visiting Professor an der University of Illinois at Urbana-Champaign tätig.
+Zwischen 2001 und 2016 leitete sie das FWF-Projekt *Diskursverhandlungen zwischen Literatur und Hermaphroditismus*. Ihre Forschungsinteressen sind deutschsprachige Literatur, Comics und Graphic Novels sowie Theater und Performance – mit einem Fokus auf Gender und Queer Studies.
+Darüber hinaus ist sie Gleichbehandlungsbeauftragte an der Universität Wien. Sie ist Mitbegründerin der [Österreichischen Gesellschaft für Comic-Forschung und -Vermittlung (OeGeC)](https://oegec.com/).
+

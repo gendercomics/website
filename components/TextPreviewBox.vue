@@ -5,20 +5,27 @@ const props = defineProps({
     default: '',
   },
 })
+
+const doc = await useAsyncData('doc', () =>
+  queryContent(props.content).findOne(),
+)
 </script>
 
 <template>
   <div class="container-row mt-10">
-    <div class="w-90">
-      <p class="tag">ABOUT</p>
-      <p class="titel-kachel">Zusammenfassung</p>
-      <a class="a">Hallo Welt!</a>
+    <div class="column">
+      <div class="w-90">
+        <content-renderer :value="doc">
+          <p class="tag">{{ doc.data.value.team }}</p>
+          <p class="titel-kachel">{{ doc.data.value.title }}</p>
+          <content-renderer-markdown
+            class="a mt-1rem"
+            :value="doc.data.value.excerpt"
+          />
+        </content-renderer>
+        <button-gray class="mt-1rem" text="mehr erfahren" :link="props.content"/>
+      </div>
     </div>
-    <!--
-    <div class="button-container">
-      <button-gray text="mehr erfahren" />
-    </div>
-    -->
   </div>
 </template>
 
@@ -28,5 +35,12 @@ const props = defineProps({
   width: 100%;
 }
 
+.column {
+  display: flex;
+  flex-direction: column;
+}
 
+.mt-1rem {
+  margin-top: 1rem;
+}
 </style>

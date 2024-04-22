@@ -1,8 +1,8 @@
 <script setup>
 const props = defineProps({
-  img: {
+  imgUrl: {
     type: String,
-    default: 'placeholder.png',
+    default: '@/assets/images/placeholder.png',
   },
 })
 </script>
@@ -10,13 +10,15 @@ const props = defineProps({
 <template>
   <div class="container-row">
     <div class="image-container">
-        <img src="@/assets/images/placeholder.png" alt="" />
+      <!--nuxt-img :src="require(`@/assets/images/${img}`)" /-->
+      <img src="@/assets/images/placeholder.png" alt="" />
     </div>
   </div>
 </template>
 
 <style scoped>
 .container-row {
+  display: flex;
 }
 
 .image-container {

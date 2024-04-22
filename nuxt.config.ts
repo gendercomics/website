@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url'
 export default defineNuxtConfig({
   devtools: { enabled: true },
   pages: true,
-  modules: ['@nuxt/content', '@pinia/nuxt', 'nuxt-security'],
+  modules: ['@nuxt/content', '@pinia/nuxt', 'nuxt-security', "@nuxt/image"],
   css: [
     'assets/css/fonts.css',
     'assets/css/design.css',

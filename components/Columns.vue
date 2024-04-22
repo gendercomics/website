@@ -16,12 +16,16 @@ const props = defineProps({
     default: null,
   },
 })
+
+onMounted(() => {
+  console.log('columns, img=' + props.img + '; content=' + props.content)
+})
 </script>
 
 <template>
   <div class="row">
     <div class="w-50 border-right">
-      <ImageBox :img="img" class="plr-20" />
+      <ImageBox img-url="img" class="plr-20" />
     </div>
     <div class="w-50">
       <TextPreviewBox :content="content" class="plr-20" />

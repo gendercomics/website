@@ -12,7 +12,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <Columns :count=2 :img="img" :content="content" />
+  <Columns :count="2" :img="props.img" :content="props.content" />
 </template>
 
 <style scoped></style>
