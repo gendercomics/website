@@ -77,10 +77,6 @@ const openLink = () => {
   background-color: var(--gc-red);
 }
 
-.button-container img:hover {
-  opacity: 0;
-}
-
 .w-50px {
   width: 50px;
 }

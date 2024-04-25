@@ -1,6 +1,4 @@
 <script setup>
-import router from '#app/plugins/router.js'
-
 const props = defineProps({
   text: {
     type: String,
@@ -10,37 +8,51 @@ const props = defineProps({
     type: String,
     default: '',
   },
-  left: {
+  leftCorner: {
     type: Boolean,
     default: false,
   },
-  right: {
+  leftArrow: {
+    type: Boolean,
+    default: false,
+  },
+  rightCorner: {
+    type: Boolean,
+    default: false,
+  },
+  rightArrow: {
     type: Boolean,
     default: false,
   },
 })
 
 function openLink() {
-  window.open(props.link, '_self')
-  // TODO use router
+  navigateTo(props.link)
 }
 </script>
 
 <template>
   <div>
     <img
-      v-if="left"
+      v-if="leftCorner"
       src="~/assets/images/corner-green-3-50px(buttons).svg"
       class="btn-corner-left"
       alt="corner-green-3-50px(buttons)"
     />
+    <img
+      v-if="leftArrow"
+      src="~/assets/images/arrow-green-right-flat.svg"
+      class="btn-arrow-left"
+      alt="corner-green-2-50px(buttons)"
+    />
     <button class="green-button" @click="openLink">{{ text }}</button>
     <img
-      v-if="right"
+      v-if="rightCorner"
       src="~/assets/images/corner-green-2-50px(buttons).svg"
       class="btn-corner-right"
       alt="corner-green-2-50px(buttons)"
     />
+
   </div>
 </template>
 
@@ -69,6 +81,10 @@ function openLink() {
 .btn-corner-left {
   transform: translateY(-4px);
   margin-left: -2px;
+}
+
+.btn-arrow-left {
+  transform: translateY(32px);
 }
 
 .btn-corner-right {

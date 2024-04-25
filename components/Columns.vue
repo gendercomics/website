@@ -11,6 +11,10 @@ const props = defineProps({
     type: String,
     default: 'placeholder.png',
   },
+  imgWidth: {
+    type: [Number, String],
+    default: '100%',
+  },
   content: {
     type: String,
     default: null,
@@ -21,7 +25,7 @@ const props = defineProps({
 <template>
   <div class="row">
     <div class="w-50 border-right">
-      <ImageBox :img="props.img" class="plr-20" />
+      <ImageBox :img="props.img" :width="props.imgWidth" class="plr-20" />
     </div>
     <div class="w-50">
       <TextPreviewBox :content="content" class="plr-20" />

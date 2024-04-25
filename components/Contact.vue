@@ -7,7 +7,7 @@ import GreenButton from '~/components/GreenButton.vue'
     <div class="w-50">
       <div class="w-90">
         <p class="titel-xl">Kontakt</p>
-        <green-button text="GenderComics Team" link="/team" left />
+        <green-button text="GenderComics Team" link="/team" left-corner />
       </div>
     </div>
     <div class="w-50 border-right flex">
@@ -30,17 +30,17 @@ import GreenButton from '~/components/GreenButton.vue'
         <green-button
           text="Susanne Hochreiter"
           link="/team/susanne-hochreiter"
-          right
+          rightCorner
         />
         <green-button
           text="Marina Rauchenbacher"
           link="/team/marina-rauchenbacher"
-          right
+          rightCorner
         />
         <green-button
           text="Katharina Serles"
           link="/team/katharina-serles"
-          right
+          rightCorner
         />
       </div>
     </div>

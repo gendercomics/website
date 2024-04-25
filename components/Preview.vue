@@ -4,6 +4,10 @@ const props = defineProps({
     type: String,
     default: 'placeholder.png',
   },
+  imgWidth: {
+    type: [Number, String],
+    default: '100%',
+  },
   content: {
     type: String,
     default: null,
@@ -12,7 +16,12 @@ const props = defineProps({
 </script>
 
 <template>
-  <Columns :count="2" :img="props.img" :content="props.content" />
+  <Columns
+    :count="2"
+    :img="props.img"
+    :img-width="props.imgWidth"
+    :content="props.content"
+  />
 </template>
 
 <style scoped></style>

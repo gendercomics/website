@@ -12,6 +12,7 @@ import DividerRedArrow from '~/components/DividerRedArrow.vue'
       <divider-red-arrow />
       <preview
         img="team/susanne-hochreiter.png"
+        img-width="65%"
         content="team/susanne-hochreiter"
       />
     </div>

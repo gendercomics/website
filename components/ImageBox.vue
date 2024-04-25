@@ -4,6 +4,14 @@ const props = defineProps({
     type: String,
     default: 'placeholder.png',
   },
+  width: {
+    type: [Number, String],
+    default: '100%',
+  },
+  caption: {
+    type: String,
+    default: 'Künstler:in',
+  },
 })
 
 function getImageUrl() {
@@ -12,16 +20,18 @@ function getImageUrl() {
 </script>
 
 <template>
-  <div class="container-row">
+  <div class="container">
     <div class="image-container">
-      <img :src="getImageUrl()" alt="" />
+      <img :src="getImageUrl()" alt="" :width="props.width" />
     </div>
+    <green-button :text="props.caption" left-arrow />
   </div>
 </template>
 
 <style scoped>
-.container-row {
+.container {
   display: flex;
+  flex-direction: column;
 }
 
 .image-container {
