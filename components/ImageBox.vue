@@ -1,17 +1,20 @@
 <script setup>
 const props = defineProps({
-  imgUrl: {
+  img: {
     type: String,
-    default: '@/assets/images/placeholder.png',
+    default: 'placeholder.png',
   },
 })
+
+function getImageUrl() {
+  return new URL(`../assets/images/${props.img}`, import.meta.url)
+}
 </script>
 
 <template>
   <div class="container-row">
     <div class="image-container">
-      <!--nuxt-img :src="require(`@/assets/images/${img}`)" /-->
-      <img src="@/assets/images/placeholder.png" alt="" />
+      <img :src="getImageUrl()" alt="" />
     </div>
   </div>
 </template>
