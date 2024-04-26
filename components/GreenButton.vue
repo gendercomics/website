@@ -52,6 +52,12 @@ function openLink() {
       class="btn-corner-right"
       alt="corner-green-2-50px(buttons)"
     />
+    <img
+      v-if="rightArrow"
+      src="~/assets/images/arrow-green-left-flat.svg"
+      class="btn-arrow-right"
+      alt="corner-green-2-50px(buttons)"
+    />
 
   </div>
 </template>
@@ -91,4 +97,9 @@ function openLink() {
   transform: translateY(-4px);
   margin-right: -2px;
 }
+
+.btn-arrow-right {
+  transform: translateY(32px);
+}
+
 </style>

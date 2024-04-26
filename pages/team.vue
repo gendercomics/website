@@ -14,6 +14,9 @@ import DividerRedArrow from '~/components/DividerRedArrow.vue'
         img="team/susanne-hochreiter.png"
         img-width="65%"
         content="team/susanne-hochreiter"
+        img-caption="Susanne Hochreiter"
+        img-caption-link="/team/susanne-hochreiter"
+        :img-col=1
       />
     </div>
   </div>

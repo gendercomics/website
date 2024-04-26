@@ -15,6 +15,18 @@ const props = defineProps({
     type: [Number, String],
     default: '100%',
   },
+  imgCol: {
+    type: Number,
+    default: 1,
+  },
+  imgCaption: {
+    type: String,
+    default: 'Künstler*in',
+  },
+  imgCaptionLink: {
+    type: String,
+    default: null,
+  },
   content: {
     type: String,
     default: null,
@@ -25,10 +37,28 @@ const props = defineProps({
 <template>
   <div class="row">
     <div class="w-50 border-right">
-      <ImageBox :img="props.img" :width="props.imgWidth" class="plr-20" />
+      <ImageBox
+        v-if="props.imgCol === 1"
+        :img="props.img"
+        :width="props.imgWidth"
+        :caption="props.imgCaption"
+        :caption-link="props.imgCaptionLink"
+      />
+      <div v-else-if="props.imgCol === 2" class="w-50">
+        <TextPreviewBox :content="content" />
+      </div>
     </div>
     <div class="w-50">
-      <TextPreviewBox :content="content" class="plr-20" />
+      <ImageBox
+        v-if="props.imgCol === 2"
+        :img="props.img"
+        :width="props.imgWidth"
+        :caption="props.imgCaption"
+        :caption-link="props.imgCaptionLink"
+      />
+      <div v-else-if="props.imgCol === 1">
+        <TextPreviewBox :content="content" />
+      </div>
     </div>
   </div>
 </template>

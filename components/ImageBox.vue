@@ -10,7 +10,11 @@ const props = defineProps({
   },
   caption: {
     type: String,
-    default: 'Künstler:in',
+    default: 'Künstler*in',
+  },
+  captionLink: {
+    type: String,
+    default: '/',
   },
 })
 
@@ -24,7 +28,13 @@ function getImageUrl() {
     <div class="image-container">
       <img :src="getImageUrl()" alt="" :width="props.width" />
     </div>
-    <green-button :text="props.caption" left-arrow />
+    <div class="caption-container">
+      <green-button
+        :text="props.caption"
+        :link="props.captionLink"
+        right-arrow
+      />
+    </div>
   </div>
 </template>
 
@@ -46,5 +56,11 @@ function getImageUrl() {
   max-width: 90%;
   max-height: 90%;
   border-radius: 50px;
+}
+
+.caption-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 </style>
