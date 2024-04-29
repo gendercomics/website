@@ -1,18 +1,21 @@
 ---
 title: Marina Rauchenbacher
 team: Projekt-Team
-email:
-web-uni:
-academia:
-linkedin:
-twitter:
+email: marina.rauchenbacher@univie.ac.at
+www-uni: germanistik/marina-rauchenbacher
+academia: https://univie.academia.edu/MarinaRauchenbacher
+linkedin: marina-rauchenbacher-b007b3ab
+twitter: marinkima
 ---
 
-**Marina Rauchenbacher** studierte Deutsche Philologie und Kommunikationswissenschaften an den Universitäten Salzburg und Wien. 2012 promovierte sie mit einer Arbeit zur Rezeption Karoline von Günderrodes. Zwischen 2005 und 2013 war sie wissenschaftliche Mitarbeiterin für das FWF-Projekt _Kunst im Text_ an den Universitäten Salzburg und Wien sowie Universitätsassistentin am Institut für Germanistik, Wien. 2014/15 war sie Affiliated Scholar der Beatrice Bain Research Group an der University of California, Berkeley. 
+**Marina Rauchenbacher** studierte Deutsche Philologie und Kommunikationswissenschaften an den Universitäten Salzburg und Wien. 2012 promovierte sie mit einer Arbeit zur Rezeption Karoline von Günderrodes. Zwischen 2005 und 2013 war sie wissenschaftliche Mitarbeiterin für das FWF-Projekt _Kunst im Text_ an den Universitäten Salzburg und Wien sowie Universitätsassistentin am Institut für Germanistik, Wien. 2014/15 war sie Affiliated Scholar der Beatrice Bain Research Group an der University of California, Berkeley.
+
 <!-- more -->
+
 Seit 2015 ist sie wissenschaftliche Mitarbeiterin für das FWF-Projekt _Arthur Schnitzler – Kritische Edition (Frühwerk)_ sowie Lehrbeauftragte an der Universität Wien. Darüber hinaus war sie Lehrbeauftragte in den Masterstudiengängen Interdisziplinäre Geschlechterstudien der Universität Graz (2016) sowie Gender Studies der Universität Wien (2017). Seit 2019 ist sie Vorstandsmitglied von [aka – Arbeitskreis Kulturanalyse](https://aka.univie.ac.at/); darüber hinaus ist sie Mitbegründerin und Vorstandsmitglied der [Österreichischen Gesellschaft für Comicforschung und -vermittlung](https://oegec.com/). Ihre Forschungs- und Lehrschwerpunkte sind Visuelle Kulturen, Comics, Bildtheorie, Gender Studies, Rezeptions- und Editionstheorien sowie deutschsprachige Literatur des 20. und 21. Jahrhunderts.
 
 ### Relevante Publikationen
+
 - im Erscheinen: Fragmented and Framed. Precarious ‘Body Signs’ in Comics by Regina Hofer, Ulli Lust, and Barbara Yelin. In: Nina Heindl und Véronique Sina (Hg.): Spaces Between – Gender, Diversity and Identity in Comics [mit K. Serles, 2020, Springer]
 - im Erscheinen: Queer Visualities – Queer Spaces. German-Language LGBTIQ+ Comics. In: Alison Halsall und Jonathan Warren (Hg.): The LGBTQ Comics Reader [mit S. Hochreiter und M. Rauchenbacher, 2020, University of Mississippi Press].
 - Opposing Viewpoints. Politics of Gazing in the Graphic Novel Gift. In: Colloquia Germanica 48 (2015), 4: German Graphic Novel. Hg. v. Lynn Kutch und Brett E. Sterling, S. 245–265. [erschienen 2018]

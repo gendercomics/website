@@ -17,7 +17,7 @@ import DividerRedArrow from '~/components/DividerRedArrow.vue'
           content="team/susanne-hochreiter"
           img-caption="Susanne Hochreiter"
           img-caption-link="/team/susanne-hochreiter"
-          :img-col="1"
+          :img-col=1
         />
       </div>
       <divider b1 b2 t3 t4 b5 b6 />
@@ -32,6 +32,18 @@ import DividerRedArrow from '~/components/DividerRedArrow.vue'
         />
       </div>
       <divider t1 b2 b3 />
+      <!--
+      <div class="row">
+        <preview
+          img="team/katharina-serles.png"
+          img-width="65%"
+          content="team/katharina-serles"
+          img-caption="Katharina Serles"
+          img-caption-link="/team/katharina-serles"
+          :img-col="1"
+        />
+      </div>
+      -->
     </div>
   </div>
 </template>
