@@ -33,19 +33,19 @@ const props = defineProps({
   },
 })
 </script>
-
 <template>
-  <div class="row">
-    <div class="w-50 border-right">
+  <div class="row" :class="{ 'border-left': props.imgCol === 2 }">
+    <div class="w-50">
       <ImageBox
+        class="border-right"
         v-if="props.imgCol === 1"
         :img="props.img"
         :width="props.imgWidth"
         :caption="props.imgCaption"
         :caption-link="props.imgCaptionLink"
       />
-      <div v-else-if="props.imgCol === 2" class="w-50">
-        <TextPreviewBox :content="content" />
+      <div v-else-if="props.imgCol === 2">
+        <TextPreviewBox :content="props.content" />
       </div>
     </div>
     <div class="w-50">
@@ -55,9 +55,10 @@ const props = defineProps({
         :width="props.imgWidth"
         :caption="props.imgCaption"
         :caption-link="props.imgCaptionLink"
+        :btn-arrow="false"
       />
       <div v-else-if="props.imgCol === 1">
-        <TextPreviewBox :content="content" />
+        <TextPreviewBox :content="props.content" />
       </div>
     </div>
   </div>
@@ -71,10 +72,17 @@ const props = defineProps({
 .row {
   display: flex;
   justify-content: center;
+  margin-left: 1px;
+  margin-right: 2px;
 }
 
 .border-right {
   border-right: 2px solid var(--gc-green);
-  margin-right: 1px;
+  margin-right: -1px;
+}
+
+.border-left {
+  border-left: 2px solid var(--gc-green);
+  margin-left: 0;
 }
 </style>

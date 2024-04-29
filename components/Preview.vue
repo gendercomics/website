@@ -25,6 +25,10 @@ const props = defineProps({
     default: null,
   },
 })
+
+onMounted(() => {
+  console.log('content=' + props.content)
+})
 </script>
 
 <template>

@@ -9,10 +9,13 @@ const props = defineProps({
 const doc = await useAsyncData('doc', () =>
   queryContent(props.content).findOne(),
 )
-</script>
 
+onMounted(() => {
+  console.log('content=' + props.content)
+})
+</script>
 <template>
-  <div class="container-row mt-10">
+  <div class="container-row">
     <div class="column">
       <div class="w-90">
         <content-renderer :value="doc">
@@ -23,7 +26,11 @@ const doc = await useAsyncData('doc', () =>
             :value="doc.data.value.excerpt"
           />
         </content-renderer>
-        <button-gray class="mt-1rem" text="mehr erfahren" :link="props.content"/>
+        <button-gray
+          class="mt-1rem"
+          text="mehr erfahren"
+          :link="props.content"
+        />
       </div>
     </div>
   </div>

@@ -130,6 +130,7 @@ const props = defineProps({
   display: grid;
   grid-template-rows: auto auto; /* Two rows */
   grid-template-columns: 100px auto 100px 100px auto 100px;
+  width: 100%;
 }
 
 .fixed-width {
