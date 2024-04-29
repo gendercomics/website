@@ -42,6 +42,7 @@ const navStore = useNavStore()
   top: 0;
   display: flex;
   justify-content: flex-end;
+  z-index: 999;
 }
 
 .nav-bar {
@@ -55,7 +56,6 @@ const navStore = useNavStore()
   width: 85%;
   border-radius: 0 0 100px 100px;
   opacity: 1;
-  z-index: 999;
 }
 
 .nav-links {
