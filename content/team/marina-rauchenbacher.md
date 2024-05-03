@@ -7,6 +7,7 @@ academia: https://univie.academia.edu/MarinaRauchenbacher
 linkedin: marina-rauchenbacher-b007b3ab
 twitter: marinkima
 ---
+# Marina Rauchenbacher
 
 **Marina Rauchenbacher** studierte Deutsche Philologie und Kommunikationswissenschaften an den Universitäten Salzburg und Wien. 2012 promovierte sie mit einer Arbeit zur Rezeption Karoline von Günderrodes. Zwischen 2005 und 2013 war sie wissenschaftliche Mitarbeiterin für das FWF-Projekt _Kunst im Text_ an den Universitäten Salzburg und Wien sowie Universitätsassistentin am Institut für Germanistik, Wien. 2014/15 war sie Affiliated Scholar der Beatrice Bain Research Group an der University of California, Berkeley.
 

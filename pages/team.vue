@@ -1,15 +1,19 @@
 <script setup lang="ts" xmlns="http://www.w3.org/1999/html">
 import DividerRedArrow from '~/components/DividerRedArrow.vue'
+
+const doc = await useAsyncData('doc', () => queryContent('/team').findOne())
 </script>
 
 <template>
   <div class="page-margin container">
     <div class="column">
-      <div class="titel-xl mt-3rem">Team.</div>
-      <div class="a">
-        Das sind <strong>die Menschen</strong> hinter GenderComics.
-      </div>
+      <content-renderer :value="doc">
+        <div class="titel-xl mt-3rem">{{ doc.data.value.title }}</div>
+        <content-renderer-markdown class="a" :value="doc.data.value.body" />
+      </content-renderer>
+
       <divider-red-arrow />
+
       <div class="row">
         <preview
           img="team/susanne-hochreiter.png"
@@ -17,10 +21,12 @@ import DividerRedArrow from '~/components/DividerRedArrow.vue'
           content="team/susanne-hochreiter"
           img-caption="Susanne Hochreiter"
           img-caption-link="/team/susanne-hochreiter"
-          :img-col=1
+          :img-col="1"
         />
       </div>
+
       <divider b1 b2 t3 t4 b5 b6 />
+
       <div class="row">
         <preview
           img="team/marina-rauchenbacher.png"
@@ -31,7 +37,9 @@ import DividerRedArrow from '~/components/DividerRedArrow.vue'
           :img-col="2"
         />
       </div>
+
       <divider t1 b2 b3 />
+
       <!--
       <div class="row">
         <preview
