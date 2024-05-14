@@ -20,6 +20,9 @@ const navStore = useNavStore()
         >
         <nuxt-link to="/database" class="nav-link">Datenbank</nuxt-link>
       </div>
+      <div class="lang-switcher">
+        <language-button />
+      </div>
       <div>
         <img
           src="@/assets/images/arrow-green-down-flat.svg"
@@ -66,7 +69,6 @@ const navStore = useNavStore()
 
 .nav-link {
   margin-right: 2rem;
-
   font-family: var(--gc-font-family-outfit);
   font-style: var(--gc-font-style-normal);
   font-weight: var(--gc-font-weight-normal);
@@ -95,4 +97,12 @@ a:link {
 a:hover {
   color: var(--white);
 }
+
+.lang-switcher {
+  position: absolute;
+  right: 70px;
+  top: 30px;
+}
 </style>
+
+<i18n></i18n>
