@@ -155,7 +155,7 @@ const props = defineProps({
   background-size: 100px 100px;
   background-image: url('@/assets/images/corner-green-line-2-100px.svg');
   background-repeat: no-repeat;
-  margin-right: -1px;
+  margin-right: -2px;
 }
 
 .divider-top-3-flat {

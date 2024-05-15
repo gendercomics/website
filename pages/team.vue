@@ -16,17 +16,19 @@ const index = await useAsyncData('doc', () =>
 
 <template>
   <div class="page-margin container">
-    <div class="column">
-      <content-renderer :value="index">
-        <div class="titel-xl mt-3rem">{{ index.data.value.title }}</div>
-        <content-renderer-markdown class="a" :value="index.data.value.body" />
-      </content-renderer>
+    <div>
+      <div class="column">
+        <content-renderer :value="index">
+          <div class="titel-xl mt-3rem">{{ index.data.value.title }}</div>
+          <content-renderer-markdown class="a" :value="index.data.value.body" />
+        </content-renderer>
 
-      <divider-red-arrow />
+        <divider-red-arrow />
+      </div>
 
       <content-list :query="memberQuery" v-slot="{ list }">
         <div v-for="(member, index) in list" :key="member._path">
-          <div class="row">
+          <div class="row" :class="{ 'border-left': index % 2 != 0 }">
             <div class="w-50">
               <ImageBox
                 v-if="index % 2 === 0"
@@ -61,12 +63,13 @@ const index = await useAsyncData('doc', () =>
             </div>
             <div class="w-50">
               <ImageBox
+                class="mr-2"
                 v-if="index % 2 != 0"
-                class="border-right"
                 :img="member.img"
                 width="60%"
                 :caption="member.title"
                 :caption-link="member.route"
+                :btn-arrow="false"
               />
               <div v-if="index % 2 === 0">
                 <div class="container-row">
@@ -92,14 +95,15 @@ const index = await useAsyncData('doc', () =>
               </div>
             </div>
           </div>
+
+          <div v-if="index % 2 === 0 && index < list.length - 1">
+            <divider b1 b2 t3 t4 b5 b6 />
+          </div>
+          <div v-else-if="index % 2 != 0">
+            <divider t1 b2 b3 />
+          </div>
         </div>
       </content-list>
-
-      <!--
-      <divider b1 b2 t3 t4 b5 b6 />
-
-      <divider t1 b2 b3 />
-      -->
     </div>
   </div>
 </template>
@@ -134,9 +138,9 @@ const index = await useAsyncData('doc', () =>
   margin-right: -1px;
 }
 
-.container-row {
-  display: flex;
-  width: 100%;
+.border-left {
+  border-left: 2px solid var(--gc-green);
+  margin-left: 0;
 }
 
 .column {
@@ -146,5 +150,9 @@ const index = await useAsyncData('doc', () =>
 
 .mt-1rem {
   margin-top: 1rem;
+}
+
+.mr-2 {
+  margin-right: 2px;
 }
 </style>

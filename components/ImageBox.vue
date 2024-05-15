@@ -44,7 +44,6 @@ function getImageUrl() {
         :text="props.caption"
         :link="props.captionLink"
         right-corner
-        class="mt-45"
       />
     </div>
   </div>
@@ -85,5 +84,9 @@ function getImageUrl() {
   border-right-width: 2px;
   border-right-style: solid;
   padding-bottom: 45px;
+}
+
+.mt-45 {
+  margin-top: 45px;
 }
 </style>
