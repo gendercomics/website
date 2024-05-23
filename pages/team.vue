@@ -125,10 +125,6 @@ const index = await useAsyncData('doc', () =>
   flex-direction: row;
 }
 
-.mt-3rem {
-  margin-top: 3rem;
-}
-
 .a strong {
   font-weight: var(--gc-font-weight-600);
 }
