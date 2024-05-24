@@ -2,18 +2,21 @@
 const navStore = useNavStore()
 
 const isMenuOpen = ref(false)
+const navbar = ref(null)
 
 const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value
 }
 
-const navbar = ref(null)
-
 const handleClickOutside = (event) => {
-  if (isMenuOpen.value && navbar.value && !navbar.value.contains(event.target)) {
-    isMenuOpen.value = false;
+  if (
+    isMenuOpen.value &&
+    navbar.value &&
+    !navbar.value.contains(event.target)
+  ) {
+    isMenuOpen.value = false
   }
-};
+}
 
 onMounted(() => {
   document.addEventListener('click', handleClickOutside)
@@ -35,10 +38,9 @@ onBeforeUnmount(() => {
           class="ml-50"
       /></nuxt-link>
       <div class="nav-links">
-        <!--nuxt-link to="/about" class="nav-link">About</nuxt-link-->
         <div>
           <div class="nav-link" @click="toggleMenu">About</div>
-          <popup-menu :is-menu-open="isMenuOpen" />
+          <popup-menu v-model="isMenuOpen" />
         </div>
         <nuxt-link to="/team" class="nav-link">Team</nuxt-link>
         <nuxt-link to="/collaborations" class="nav-link"

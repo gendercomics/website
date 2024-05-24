@@ -1,21 +1,28 @@
 <script setup>
-const props = defineProps({
-  isMenuOpen: {
-    type: Boolean,
-    default: false,
-  },
-})
+const isMenuOpen = defineModel({ required: true, default: false })
+
+const closeMenu = () => {
+  isMenuOpen.value = false
+}
 </script>
 
 <template>
-  <div v-if="props.isMenuOpen" class="container popup-menu-position">
+  <div v-if="isMenuOpen" class="container popup-menu-position">
     <img src="@/assets/images/arrow-gray-up-flat.svg" alt="" class="arrow" />
     <div class="popup-menu">
       <ul>
-        <li><NuxtLink to="/about" class="menu-item">About</NuxtLink></li>
-        <li><NuxtLink to="/team" class="menu-item">Team</NuxtLink></li>
         <li>
-          <NuxtLink to="/collaborations" class="menu-item"
+          <NuxtLink to="/about" class="menu-item" @click="closeMenu"
+            >About</NuxtLink
+          >
+        </li>
+        <li>
+          <NuxtLink to="/team" class="menu-item" @click="closeMenu"
+            >Team</NuxtLink
+          >
+        </li>
+        <li>
+          <NuxtLink to="/collaborations" class="menu-item" @click="closeMenu"
             >Collaborations</NuxtLink
           >
         </li>
