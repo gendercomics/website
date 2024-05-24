@@ -23,7 +23,7 @@ const closeMenu = () => {
         </li>
         <li>
           <NuxtLink to="/collaborations" class="menu-item" @click="closeMenu"
-            >Collaborations</NuxtLink
+            >Kooperationen</NuxtLink
           >
         </li>
       </ul>

@@ -42,11 +42,10 @@ onBeforeUnmount(() => {
           <div class="nav-link" @click="toggleMenu">About</div>
           <popup-menu v-model="isMenuOpen" />
         </div>
-        <nuxt-link to="/team" class="nav-link">Team</nuxt-link>
-        <nuxt-link to="/collaborations" class="nav-link"
-          >Kooperationen</nuxt-link
-        >
         <nuxt-link to="/database" class="nav-link">Datenbank</nuxt-link>
+        <nuxt-link to="/book" class="nav-link">Buch</nuxt-link>
+        <nuxt-link to="/activities" class="nav-link">Aktivitäten</nuxt-link>
+        <nuxt-link to="/blog" class="nav-link">Blog</nuxt-link>
       </div>
       <div class="lang-switcher">
         <language-button />
