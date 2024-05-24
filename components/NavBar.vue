@@ -1,9 +1,31 @@
 <script setup>
 const navStore = useNavStore()
+
+const isMenuOpen = ref(false)
+
+const toggleMenu = () => {
+  isMenuOpen.value = !isMenuOpen.value
+}
+
+const navbar = ref(null)
+
+const handleClickOutside = (event) => {
+  if (isMenuOpen.value && navbar.value && !navbar.value.contains(event.target)) {
+    isMenuOpen.value = false;
+  }
+};
+
+onMounted(() => {
+  document.addEventListener('click', handleClickOutside)
+})
+
+onBeforeUnmount(() => {
+  document.removeEventListener('click', handleClickOutside)
+})
 </script>
 
 <template>
-  <nav class="navigation">
+  <nav class="navigation" ref="navbar">
     <burger />
     <div v-if="navStore.isNavbarVisible" class="nav-bar">
       <nuxt-link to="/"
@@ -13,7 +35,11 @@ const navStore = useNavStore()
           class="ml-50"
       /></nuxt-link>
       <div class="nav-links">
-        <nuxt-link to="/about" class="nav-link">About</nuxt-link>
+        <!--nuxt-link to="/about" class="nav-link">About</nuxt-link-->
+        <div>
+          <div class="nav-link" @click="toggleMenu">About</div>
+          <popup-menu :is-menu-open="isMenuOpen" />
+        </div>
         <nuxt-link to="/team" class="nav-link">Team</nuxt-link>
         <nuxt-link to="/collaborations" class="nav-link"
           >Kooperationen</nuxt-link
@@ -75,6 +101,7 @@ const navStore = useNavStore()
   font-size: var(--gc-font-size-21);
   line-height: var(--gc-line-spacing-25);
   color: var(--gc-gray);
+  cursor: pointer;
 }
 
 .arrow-center {
@@ -95,6 +122,10 @@ a:link {
 }
 
 a:hover {
+  color: var(--white);
+}
+
+.nav-link:hover {
   color: var(--white);
 }
 
