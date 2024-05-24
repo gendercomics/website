@@ -67,8 +67,8 @@ const closeMenu = () => {
   text-decoration: none;
 }
 
-.popup-menu li:hover {
-  color: var(--gc-gray);
+.popup-menu li a:hover {
+  font-weight: var(--gc-font-weight-600);
   transition: ease-out 0.3s;
 }
 
