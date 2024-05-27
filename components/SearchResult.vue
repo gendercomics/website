@@ -15,7 +15,11 @@ import ComicMinimal from '~/components/ComicMinimal.vue'
 
 <style scoped>
 .result-row {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: flex-end;
+  gap: 20px;
+  box-sizing: border-box;
 }
 
 .mt-100 {

@@ -25,12 +25,11 @@ const props = defineProps({
 
 <style scoped>
 .container {
-  flex: 1 1 calc(25% - 40px);
+  flex: 1 1 calc(25%);
   flex-direction: column;
   border-radius: 100px;
   border: 2px solid var(--gc-green);
   box-sizing: border-box;
-  margin: 20px;
 }
 
 .container:hover {
