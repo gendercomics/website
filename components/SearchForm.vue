@@ -1,7 +1,15 @@
 <script setup>
 import SearchInput from '~/components/SearchInput.vue'
 
-const searchInput = defineModel()
+const searchInput = defineModel({
+  searchString: '',
+  searchFilter: {
+    comics: true,
+    persons: false,
+    publishers: false,
+    keywords: false,
+  },
+})
 </script>
 
 <template>

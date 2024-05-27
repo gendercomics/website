@@ -3,9 +3,9 @@ import { refDebounced } from '@vueuse/core'
 
 const input = ref('')
 
-const searchInput = defineModel(refDebounced(input, 1000))
+// const searchInput = defineModel(refDebounced(input, 1000))
 
-// const searchInput = defineModel()
+const searchInput = defineModel()
 
 function resetInput() {
   searchInput.value = ''
