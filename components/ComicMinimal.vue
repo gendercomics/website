@@ -14,21 +14,23 @@ const props = defineProps({
 <template>
   <div class="container">
     <div class="comic">
-      <img src="@/assets/images/placeholder.png" alt="cover" />
+      <div class="image-container">
+        <img src="@/assets/images/placeholder.png" alt="cover" class="center" />
+      </div>
       <div class="tag font-size-16 mt-25 ml-50">{{ artist }}</div>
-      <div class="titel-kachel mt-10 ml-50">{{ title }}</div>
+      <div class="titel-kachel mt-10 ml-50 mb-3rem">{{ title }}</div>
     </div>
   </div>
 </template>
 
 <style scoped>
 .container {
-  display: flex;
+  flex: 1 1 calc(25% - 40px);
   flex-direction: column;
   border-radius: 100px;
   border: 2px solid var(--gc-green);
-  width: 380px;
-  height: 480px;
+  box-sizing: border-box;
+  margin: 20px;
 }
 
 .container:hover {
@@ -38,11 +40,24 @@ const props = defineProps({
   transition: 0.4s ease-out;
 }
 
+.image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
 .comic img {
-  width: 280px;
+  max-width: 80%;
+  height: auto;
+  display: block;
   border-radius: 50px;
   margin-top: 50px;
-  margin-left: 50px;
 }
 
 .mt-25 {
@@ -51,5 +66,9 @@ const props = defineProps({
 
 .font-size-16 {
   font-size: var(--gc-font-size-16);
+}
+
+.mb-3rem {
+  margin-bottom: 3rem;
 }
 </style>

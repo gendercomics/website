@@ -43,6 +43,7 @@ const resultsPerPage = defineModel(8)
 <style scoped>
 .container-row {
   display: flex;
+  justify-content: flex-end;
 }
 
 .flex-column {
