@@ -115,7 +115,7 @@
   color: var(--gc-green-2);
 }
 
-.h1 {
+h1 {
   font-family: var(--gc-font-family-outfit);
   font-style: var(--gc-font-style-normal);
   font-weight: var(--gc-font-weight-bold);
