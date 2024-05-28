@@ -1,4 +1,6 @@
 <script setup>
+import SearchResultFooter from '~/components/SearchResultFooter.vue'
+
 const searchInput = reactive({
   searchString: '',
   searchFilter: {
@@ -19,6 +21,7 @@ async function searchComics() {
     <search-form v-model="searchInput" @input="searchComics()" />
     <search-result-header />
     <search-result />
+    <search-result-footer />
   </div>
 </template>
 
