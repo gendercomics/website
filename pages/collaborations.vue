@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import DividerRedArrow from '~/components/DividerRedArrow.vue'
+import DividerGreenCorner from '~/components/DividerGreenCorner.vue'
 
 const index = await useAsyncData('doc', () =>
   queryContent('/collaborations').where({ type: 'index' }).findOne(),
@@ -25,7 +26,6 @@ const index = await useAsyncData('doc', () =>
             <archive-box-with-image
               category="Wissenschaftlicher Beirat"
               title="Anke Feuchtenberger"
-              description="Lorem ipsum"
               img="advisory-board/anke-feuchtenberger.png"
             />
           </div>
@@ -33,7 +33,6 @@ const index = await useAsyncData('doc', () =>
             <archive-box-with-image
               category="Wissenschaftlicher Beirat"
               title="Konstanze Fliedl"
-              description="Lorem ipsum"
               img="advisory-board/konstanze-fliedl.png"
             />
           </div>
@@ -46,7 +45,6 @@ const index = await useAsyncData('doc', () =>
             <archive-box-with-image
               category="Wissenschaftlicher Beirat"
               title="Ole Frahm"
-              description="Lorem ipsum"
               img="advisory-board/ole-frahm.jpg"
             />
           </div>
@@ -54,7 +52,6 @@ const index = await useAsyncData('doc', () =>
             <archive-box-with-image
               category="Wissenschaftlicher Beirat"
               title="Elizabeth 'Biz' Nijdam"
-              description="Lorem ipsum"
               img="advisory-board/elizabeth-nijdam.png"
             />
           </div>
@@ -68,13 +65,91 @@ const index = await useAsyncData('doc', () =>
       <div>
         <h1 class="mt-3rem center">Projekte und Institutionen</h1>
         <divider-red-arrow />
+        <divider-green-corner />
+        <div class="row-3">
+          <archive-box-vertical-with-image
+            title="A multidisciplinary study of feminist comic art"
+            link="https://www.sh.se/english/sodertorn-university/research/our-research/research-database/research-projects/a-multidisciplinary-study-of-feminist-comic-art"
+          />
+          <archive-box-vertical-with-image
+            title="aka - Arbeitskreis Kulturanalyse"
+            img="institution/aka.png"
+            link="https://www.kulturanalyse.at/"
+          />
+          <archive-box-vertical-with-image
+            title="Contemporary Swedish feminist comics as medium for political activism and critique"
+            link="https://www.gu.se/en/research/contemporary-swedish-feminist-comics-as-medium-for-political-activism-and-critique"
+          />
+        </div>
+        <divider-green-corner :quadrant="4" />
+        <divider-green-corner :quadrant="3" />
+        <div class="row-3">
+          <archive-box-vertical-with-image
+            title="Gender and Agency"
+            img="institution/GandA-logo.jpg"
+            link="https://genderandagency.univie.ac.at/"
+          />
+          <archive-box-vertical-with-image
+            title="Interdisziplinäres Netzwerk Comic Studies (GSA)"
+            img="institution/gsa-logo.jpg"
+            link="https://www.thegsa.org/interdisciplinary-networks"
+          />
+          <archive-box-vertical-with-image
+            title="Medical Comics/Graphic Medicine, Medizinische Universität Wien"
+            link="https://teachingcenter.meduniwien.ac.at/lehre-und-projekte/medical-comics-ausstellung/"
+          />
+        </div>
+        <divider-green-corner :quadrant="4" />
+        <divider-green-corner :quadrant="3" />
+        <div class="row-3">
+          <archive-box-vertical-with-image
+            title="NEXTCOMIC Festival"
+            img="institution/nextcomic-logo.png"
+            link="https://www.nextcomic.org/"
+            class="grid-item"
+          />
+        </div>
       </div>
 
       <!-- verlage -->
       <div>
-        <h1 class="mt-3rem center">Verlage</h1>
+        <h1 class="mt-3rem center">Verlags-Kooperationen</h1>
         <divider-red-arrow />
+        <divider-green-corner />
+        <div class="row-3">
+          <archive-box-vertical-with-image
+            title="avant-Verlag"
+            img="publisher/avant-logo.jpg"
+            link="https://www.avant-verlag.de/"
+          />
+          <archive-box-vertical-with-image
+            title="Carlsen"
+            img="publisher/carlsen-logo.jpg"
+            link="https://www.carlsen.de/"
+          />
+          <archive-box-vertical-with-image
+            title="Edition Moderne"
+            img="publisher/edition-moderne-logo.jpg"
+            link="https://www.editionmoderne.ch/"
+          />
+        </div>
+        <divider-green-corner :quadrant="4" />
+        <divider-green-corner :quadrant="3" />
+        <div class="row-3">
+          <archive-box-vertical-with-image
+            title="Luftschacht"
+            img="publisher/luftschacht-logo.jpg"
+            link="https://www.luftschacht.com/"
+          />
+          <archive-box-vertical-with-image
+            title="Reprodukt"
+            img="publisher/reprodukt-logo.jpg"
+            link="https://reprodukt.com/"
+          />
+        </div>
       </div>
+
+      <divider-red-arrow />
     </div>
   </div>
 </template>
@@ -97,6 +172,19 @@ const index = await useAsyncData('doc', () =>
   grid-template-columns: repeat(2, 1fr);
   flex-direction: row;
   justify-content: center;
+}
+
+.row-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.grid-item {
+  grid-column: 2; /* Place item in the second (center) column */
+  justify-self: center; /* Center horizontally in the column */
 }
 
 .border-right {
