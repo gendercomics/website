@@ -204,3 +204,4 @@ const index = await useAsyncData('doc', () =>
   justify-content: center;
 }
 </style>
+

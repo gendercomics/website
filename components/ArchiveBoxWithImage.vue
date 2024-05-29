@@ -20,11 +20,31 @@ const props = defineProps({
     type: String,
     default: '#',
   },
+  contentPath: {
+    type: String,
+    default: '',
+  },
+  contentTitle: {
+    type: String,
+    default: '',
+  },
 })
 
 function getImageUrl() {
   return new URL(`../assets/images/${props.img}`, import.meta.url)
 }
+
+/*
+const doc = await useAsyncData('doc', () =>
+  queryContent(props.contentPath)
+    .where({ title: props.contentTitle })
+    .findOne(),
+)
+
+onMounted(() => {
+  console.log('doc: ' + doc.data.value.title)
+})
+*/
 </script>
 
 <template>
@@ -35,6 +55,11 @@ function getImageUrl() {
     <div class="text-container">
       <p class="tag">{{ props.category }}</p>
       <p class="titel-kachel">{{ props.title }}</p>
+      <!--
+      <content-renderer :value="doc">
+        <content-renderer-markdown :value="doc.data.value.body" />
+      </content-renderer>
+      -->
       <p class="a">{{ props.description }}</p>
     </div>
   </div>

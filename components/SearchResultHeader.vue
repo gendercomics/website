@@ -59,6 +59,7 @@ const resultsPerPage = defineModel(8)
 .result-count {
   color: var(--gc-green);
   align-self: flex-end;
+  transform: translateY(50%);
 }
 
 .arrow-red {
