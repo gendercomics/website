@@ -27,12 +27,19 @@ const doc = await useAsyncData('doc', () =>
     />
     <divider b1green b2 b3flat b4flat b5 b6 />
     <div class="text-container">
-      <content-renderer :value="doc">
-        <div class="h1">{{ doc.data.value.heading }}</div>
-        <div class="a mt-2rem">
-          <content-renderer-markdown :value="doc.data.value.body" />
-        </div>
-      </content-renderer>
+      <div class="container-relative">
+        <content-renderer :value="doc">
+          <article-image
+            :image="doc.data.value.image"
+            :caption="doc.data.value.caption"
+            class="image"
+          />
+          <div class="h1">{{ doc.data.value.heading }}</div>
+          <div class="a mt-2rem">
+            <content-renderer-markdown :value="doc.data.value.body" />
+          </div>
+        </content-renderer>
+      </div>
     </div>
     <divider t1 b2 b3flat b4flat b5 t6 />
     <div class="mr-2">
@@ -40,6 +47,7 @@ const doc = await useAsyncData('doc', () =>
     </div>
   </div>
 </template>
+
 <style scoped>
 .container {
   display: flex;
@@ -64,5 +72,15 @@ const doc = await useAsyncData('doc', () =>
   border-right: solid 2px var(--gc-green);
   padding-left: 100px;
   padding-right: 100px;
+}
+
+.container-relative {
+  position: relative;
+  max-width: 100%;
+}
+
+.image {
+  float: right;
+  margin: 0 0 20px 40px;
 }
 </style>
