@@ -6,7 +6,11 @@ import FwfUni from '~/components/FwfUni.vue'
 <template>
   <div class="page-margin pt">
     <hero />
-    <preview img="placeholder.png" content="about" />
+    <preview
+      img="art/feuchtenberger_karlmarxallee.jpeg"
+      img-caption="Anke Feuchtenberger"
+      content="about"
+    />
   </div>
 </template>
 
