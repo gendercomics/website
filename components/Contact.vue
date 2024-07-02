@@ -6,14 +6,14 @@ import GreenButton from '~/components/GreenButton.vue'
   <div class="container-row">
     <div class="w-50">
       <div class="w-90">
-        <p class="titel-xl">Kontakt</p>
+        <div class="titel-xl">Kontakt</div>
         <green-button text="GenderComics Team" link="/team" left-corner />
       </div>
     </div>
     <div class="w-50 border-right flex">
       <div class="left-col">
-        <p class="tag">Kontakt</p>
-        <p class="titel-kachel">GenderComics</p>
+        <div class="tag">Kontakt</div>
+        <div class="titel-kachel">GenderComics</div>
         <div class="address-block mt-30">
           <a class="a">Universität Wien</a>
           <a class="a">Universitätsring 1</a>
