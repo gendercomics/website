@@ -40,3 +40,4 @@ $RECYCLE.BIN/
 /deploy-key
 /.env
 /.nuxt/
+/.output/
