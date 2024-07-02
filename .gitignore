@@ -41,3 +41,4 @@ $RECYCLE.BIN/
 /.env
 /.nuxt/
 /.output/
+/dist/
