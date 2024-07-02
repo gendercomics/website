@@ -81,6 +81,6 @@ const doc = await useAsyncData('doc', () =>
 
 .image {
   float: right;
-  margin: 0 0 20px 40px;
+  margin: 0 0 0 40px;
 }
 </style>
