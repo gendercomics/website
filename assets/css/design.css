@@ -246,3 +246,8 @@ h2 {
   background-size: cover;
   width: 50px;
 }
+
+p {
+  text-indent: 30px;
+  margin-bottom: 1rem;
+}

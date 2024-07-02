@@ -14,9 +14,9 @@ const doc = await useAsyncData('doc', () =>
 <template>
   <div class="container page-margin">
     <content-renderer :value="doc">
-      <div class="titel-xl mt-3rem">{{ doc.data.value.title }}</div>
+      <div class="titel-xl mt-3rem txt-align-center">{{ doc.data.value.title }}</div>
       <div class="w-90">
-        <content-renderer-markdown class="a" :value="doc.data.value.excerpt" />
+        <content-renderer-markdown class="a txt-align-center mt-2rem" :value="doc.data.value.excerpt"/>
       </div>
     </content-renderer>
     <divider-red-arrow />
@@ -34,7 +34,7 @@ const doc = await useAsyncData('doc', () =>
             :caption="doc.data.value.caption"
             class="image"
           />
-          <div class="h1">{{ doc.data.value.heading }}</div>
+          <h1>{{ doc.data.value.heading }}</h1>
           <div class="a mt-2rem">
             <content-renderer-markdown :value="doc.data.value.body" />
           </div>
@@ -82,5 +82,9 @@ const doc = await useAsyncData('doc', () =>
 .image {
   float: right;
   margin: 0 0 0 40px;
+}
+
+.txt-align-center {
+  text-align: center;
 }
 </style>
