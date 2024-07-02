@@ -24,9 +24,9 @@
         <div class="square-200 corner-green-1 mt--2" />
       </div>
       <div class="w-50">
-        <p class="logo-claim pl-10 ml-10">
+        <div class="logo-claim pl-10 ml-10">
           Visualitäten von Geschlecht in deutsch&shy;sprachigen Comics
-        </p>
+        </div>
       </div>
     </div>
   </div>

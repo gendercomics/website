@@ -19,8 +19,8 @@ onMounted(() => {
     <div class="column">
       <div class="w-90">
         <content-renderer :value="doc">
-          <p class="tag">{{ doc.data.value.team }}</p>
-          <p class="titel-kachel">{{ doc.data.value.title }}</p>
+          <div class="tag">{{ doc.data.value.team }}</div>
+          <div class="titel-kachel">{{ doc.data.value.title }}</div>
           <content-renderer-markdown
             class="a mt-1rem"
             :value="doc.data.value.excerpt"
