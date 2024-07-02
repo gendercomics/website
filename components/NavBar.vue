@@ -1,4 +1,10 @@
 <script setup>
+import Database from '~/pages/database.vue'
+
+const { t } = useI18n({
+  useScope: 'local',
+})
+
 const navStore = useNavStore()
 
 const isMenuOpen = ref(false)
@@ -39,13 +45,17 @@ onBeforeUnmount(() => {
       /></nuxt-link>
       <div class="nav-links">
         <div>
-          <div class="nav-link" @click="toggleMenu">About</div>
+          <div class="nav-link" @click="toggleMenu">{{ t('about') }}</div>
           <popup-menu v-model="isMenuOpen" />
         </div>
-        <nuxt-link to="/database" class="nav-link">Datenbank</nuxt-link>
-        <nuxt-link to="/book" class="nav-link">Buch</nuxt-link>
-        <nuxt-link to="/activities" class="nav-link">Aktivitäten</nuxt-link>
-        <nuxt-link to="/blog" class="nav-link">Blog</nuxt-link>
+        <nuxt-link to="/database" class="nav-link">{{
+          t('database')
+        }}</nuxt-link>
+        <nuxt-link to="/book" class="nav-link">{{ t('book') }}</nuxt-link>
+        <nuxt-link to="/activities" class="nav-link">{{
+          t('activities')
+        }}</nuxt-link>
+        <nuxt-link to="/blog" class="nav-link">{{ t('blog') }}</nuxt-link>
       </div>
       <div class="lang-switcher">
         <language-button />
@@ -137,4 +147,17 @@ a:hover {
 }
 </style>
 
-<i18n></i18n>
+<i18n lang="yaml">
+de:
+  about: Über
+  database: Datenbank
+  book: Buch
+  activities: Aktivitäten
+  blog: Blog
+en:
+  about: About
+  database: Database
+  book: Book
+  activities: Activities
+  blog: Blog
+</i18n>
