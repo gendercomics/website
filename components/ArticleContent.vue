@@ -35,6 +35,7 @@ const doc = await useAsyncData('doc', () =>
             class="image"
           />
           <h1>{{ doc.data.value.heading }}</h1>
+          <h2>{{ doc.data.value.subheading }}</h2>
           <div class="a mt-2rem">
             <content-renderer-markdown :value="doc.data.value.body" />
           </div>
