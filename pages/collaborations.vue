@@ -92,21 +92,12 @@ const index = await useAsyncData('doc', () =>
           <archive-box-vertical-with-image
             title="Interdisziplinäres Netzwerk Comic Studies (GSA)"
             img="institution/gsa-logo.jpg"
-            link="https://www.thegsa.org/interdisciplinary-networks"
+            link="https://www.thegsa.org/about"
           />
-          <archive-box-vertical-with-image
-            title="Medical Comics/Graphic Medicine, Medizinische Universität Wien"
-            link="https://teachingcenter.meduniwien.ac.at/lehre-und-projekte/medical-comics-ausstellung/"
-          />
-        </div>
-        <divider-green-corner :quadrant="4" />
-        <divider-green-corner :quadrant="3" />
-        <div class="row-3">
           <archive-box-vertical-with-image
             title="NEXTCOMIC Festival"
             img="institution/nextcomic-logo.png"
             link="https://www.nextcomic.org/"
-            class="grid-item"
           />
         </div>
       </div>
