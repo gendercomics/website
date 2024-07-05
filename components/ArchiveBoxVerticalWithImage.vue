@@ -37,8 +37,8 @@ function openLink() {
       <img :src="getImageUrl()" alt="" />
     </div>
     <div class="text-container">
-      <p class="tag">{{ props.category }}</p>
-      <p class="titel-kachel">{{ props.title }}</p>
+      <div class="tag">{{ props.category }}</div>
+      <div class="titel-kachel">{{ props.title }}</div>
     </div>
   </div>
 </template>

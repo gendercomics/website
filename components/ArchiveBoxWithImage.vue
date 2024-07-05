@@ -53,14 +53,14 @@ onMounted(() => {
       <img :src="getImageUrl()" alt="" />
     </div>
     <div class="text-container">
-      <p class="tag">{{ props.category }}</p>
-      <p class="titel-kachel">{{ props.title }}</p>
+      <div class="tag">{{ props.category }}</div>
+      <div class="titel-kachel">{{ props.title }}</div>
       <!--
       <content-renderer :value="doc">
         <content-renderer-markdown :value="doc.data.value.body" />
       </content-renderer>
       -->
-      <p class="a">{{ props.description }}</p>
+      <div class="a">{{ props.description }}</div>
     </div>
   </div>
 </template>
