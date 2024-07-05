@@ -1,4 +1,8 @@
 <script setup>
+const { t } = useI18n({
+  useScope: 'local',
+})
+
 const isMenuOpen = defineModel({ required: true, default: false })
 
 const closeMenu = () => {
@@ -13,17 +17,17 @@ const closeMenu = () => {
       <ul>
         <li>
           <NuxtLink to="/about" class="menu-item" @click="closeMenu"
-            >About</NuxtLink
+            >{{t('about')}}</NuxtLink
           >
         </li>
         <li>
           <NuxtLink to="/team" class="menu-item" @click="closeMenu"
-            >Team</NuxtLink
+            >{{ t('team') }}</NuxtLink
           >
         </li>
         <li>
           <NuxtLink to="/collaborations" class="menu-item" @click="closeMenu"
-            >Kooperationen</NuxtLink
+            >{{ t('collaborations') }}</NuxtLink
           >
         </li>
       </ul>
@@ -87,3 +91,14 @@ const closeMenu = () => {
   transform: translateX(50%);
 }
 </style>
+
+<i18n lang="yaml">
+de:
+  about: Über
+  team: Team
+  collaborations: Kooperationen
+en:
+  about: About
+  team: Team
+  collaborations: Collaborations
+</i18n>
