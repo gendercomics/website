@@ -1,3 +1,8 @@
+<script setup>
+import FwfUni from '~/components/FwfUni.vue'
+import Mdw from '~/components/Mdw.vue'
+</script>
+
 <template>
   <div class="pattern-background">
     <NavBar />
@@ -15,7 +20,3 @@
 </template>
 
 <style scoped></style>
-<script setup lang="ts">
-import FwfUni from '~/components/FwfUni.vue'
-import Mdw from '~/components/Mdw.vue'
-</script>
