@@ -1,6 +1,4 @@
 <script setup>
-import Database from '~/pages/database.vue'
-
 const { t } = useI18n({
   useScope: 'local',
 })
