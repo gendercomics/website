@@ -29,11 +29,11 @@ export default defineNuxtConfig({
     locales: [
       {
         code: 'de',
-        name: 'DE',
+        name: 'EN',
       },
       {
         code: 'en',
-        name: 'EN',
+        name: 'DE',
       },
     ],
     defaultLocale: 'de',
