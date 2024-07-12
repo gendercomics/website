@@ -183,3 +183,18 @@
   margin-left: 100px;
   margin-right: 100px;
 }
+
+ul {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+li {
+  list-style-type: none; /* Remove default bullets */
+  background: url('@/assets/images/arrow-green-right-index.svg') no-repeat left center; /* Set image as background */
+  padding-left: 35px; /* Adjust padding to make space for the image */
+  background-size: 25px 25px; /* Adjust the size of the background image */
+  background-position: 0 0.5rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
