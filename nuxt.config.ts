@@ -17,7 +17,9 @@ export default defineNuxtConfig({
     'assets/css/styles.css',
   ],
   content: {
-    // options
+    markdown: {
+      anchorLinks: false,
+    },
   },
   alias: {
     images: fileURLToPath(new URL('./assets/images', import.meta.url)),
