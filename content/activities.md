@@ -1,13 +1,17 @@
 ---
 title: Aktivitäten.
-description: work in progress.
+description: Akitivitäten.
+heading:
+subheading:
 type: index
+image: art/hofer_blad.png
+caption: Regina Hofer
 ---
 
 # Publikationen
 
 ### Herausgeber*innenschriften
-- im Entstehen: M. Rauchenbacher, K. Serles u. N. Lobnig (Hg.): _Comics Studies x Gender Studies. Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice._ Unter Mitarbeit v. S. Hochreiter. Berlin, Boston: de Gruyter ( Comicstudien X).
+- im Entstehen: M. Rauchenbacher, K. Serles u. N. Lobnig (Hg.): _Comics Studies x Gender Studies. Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice._ Unter Mitarbeit v. S. Hochreiter. Berlin, Boston: de Gruyter (Comicstudien X).
 - S. Loidl, S. Hochreiter, M. Rauchenbacher u. K. Serles (Hg.): _Graphisches Erzählen in der Kinder- und Jugendliteratur._ Wien: Praesens 2024 (Wiener Vorlesungen zur Kinder- und Jugendliteratur 2).
 - S. Hochreiter, M. Rauchenbacher u. K. Serles (Hg.): Journal of Austrian Studies. Special Issue: _Comics aus und über Österreich_ 55.2 (2022).
 - E. K. Masel, A. Praschinger, M. Rauchenbacher u. R. Kutalek (Hg.): _Körper – Body._ [Begleitheft zur Comic-Ausstellung _Art – Action – Attitude: Körper/Body_ im AKH der Stadt Wien, 2020/2021]. Wien: Medizinische Universität 2020.

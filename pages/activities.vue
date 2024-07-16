@@ -8,13 +8,23 @@ const index = await useAsyncData('doc', () =>
 
 <template>
   <div class="page-margin container">
-    <div class="column">
+    <div class="titel-xl mt-3rem">{{ index.data.value.title }}</div>
+    <divider-red-arrow />
+    <img
+      src="../assets/images/corner-green-3-50px(buttons).svg"
+      alt=""
+      class="translate-50"
+    />
+    <divider b1green b2 b3flat b4flat b5 b6 />
+
+    <div class="column text-container">
       <content-renderer :value="index">
-        <div class="titel-xl mt-3rem">{{ index.data.value.title }}</div>
         <content-renderer-markdown class="a" :value="index.data.value.body" />
       </content-renderer>
-
-      <divider-red-arrow />
+    </div>
+    <divider t1 b2 b3flat b4flat b5 t6 />
+    <div class="mr-2">
+      <divider b4 />
     </div>
   </div>
 </template>
@@ -23,6 +33,7 @@ const index = await useAsyncData('doc', () =>
 .container {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -30,5 +41,19 @@ const index = await useAsyncData('doc', () =>
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  border-left: solid 2px var(--gc-green);
+  border-right: solid 2px var(--gc-green);
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.translate-50 {
+  transform: translateX(50%);
+  margin-right: 2px;
 }
 </style>
