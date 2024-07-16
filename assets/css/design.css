@@ -123,7 +123,7 @@ h1 {
   line-height: var(--gc-line-spacing-55);
   letter-spacing: var(--gc-character-spacing-0-75);
   color: var(--gc-red);
-  margin: 0 1rem 1rem 0 ;
+  margin: 0 0 1rem 0;
 }
 
 h2 {
@@ -144,6 +144,7 @@ h3 {
   line-height: var(--gc-line-spacing-40);
   letter-spacing: var(--gc-character-spacing-0-6);
   color: var(--gc-green-2);
+  margin: 2rem 0 1rem 0;
 }
 
 .h4 {
