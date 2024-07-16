@@ -14,23 +14,23 @@ const closeMenu = () => {
   <div v-if="isMenuOpen" class="container popup-menu-position">
     <img src="@/assets/images/arrow-gray-up-flat.svg" alt="" class="arrow" />
     <div class="popup-menu">
-      <ul>
-        <li>
-          <NuxtLink to="/about" class="menu-item" @click="closeMenu"
-            >{{t('about')}}</NuxtLink
-          >
-        </li>
-        <li>
-          <NuxtLink to="/team" class="menu-item" @click="closeMenu"
-            >{{ t('team') }}</NuxtLink
-          >
-        </li>
-        <li>
-          <NuxtLink to="/collaborations" class="menu-item" @click="closeMenu"
-            >{{ t('collaborations') }}</NuxtLink
-          >
-        </li>
-      </ul>
+      <div class="popup-menu-list">
+        <div class="popup-menu-items">
+          <NuxtLink to="/about" class="menu-item" @click="closeMenu">{{
+            t('about')
+          }}</NuxtLink>
+        </div>
+        <div class="popup-menu-items">
+          <NuxtLink to="/team" class="menu-item" @click="closeMenu">{{
+            t('team')
+          }}</NuxtLink>
+        </div>
+        <div class="popup-menu-items">
+          <NuxtLink to="/collaborations" class="menu-item" @click="closeMenu">{{
+            t('collaborations')
+          }}</NuxtLink>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -56,27 +56,24 @@ const closeMenu = () => {
   left: calc(50% - 100px);
 }
 
-.popup-menu ul {
+.popup-menu-list {
   list-style-type: none;
   padding-top: 2rem;
   padding-bottom: 2rem;
   margin-top: -4px;
 }
 
-.popup-menu li {
+.popup-menu-items {
   padding: 0.5rem 2rem;
 }
 
-.popup-menu li a {
-  text-decoration: none;
-}
-
-.popup-menu li a:hover {
+.menu-item:hover {
   font-weight: var(--gc-font-weight-600);
   transition: ease-out 0.3s;
 }
 
 .menu-item {
+  text-decoration: none;
   font-family: Outfit;
   font-style: normal;
   font-weight: normal;
