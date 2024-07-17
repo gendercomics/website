@@ -13,15 +13,15 @@ const props = defineProps({
     default: '',
   },
 })
+
+const imagePath = computed(() => {
+  return '/images/' + props.image
+})
 </script>
 
 <template>
   <div class="container">
-    <img
-      src="@/assets/images/art/feuchtenberger_karlmarxallee.jpeg"
-      alt=""
-      class="image"
-    />
+    <img :src="imagePath" alt="" class="image" />
     <green-button right-corner :text="props.caption" class="button" />
   </div>
 </template>

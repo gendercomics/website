@@ -21,7 +21,7 @@ const index = await useAsyncData('doc', () =>
       <div class="container-relative">
         <content-renderer :value="index">
           <article-image
-            image="@/assets/images/art/gordon_shelegend.jpg"
+            image="art/gordon_shelegend.jpg"
             caption="Jul Gordon"
             class="image"
           />
