@@ -26,6 +26,5 @@ const props = defineProps({
 .container {
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
 }
 </style>
