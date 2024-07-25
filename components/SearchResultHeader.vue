@@ -1,9 +1,16 @@
 <script setup>
 const resultsPerPage = defineModel(8)
+
+const props = defineProps({
+  frame: {
+    type: Boolean,
+    default: false,
+  },
+})
 </script>
 
 <template>
-  <div class="container-row">
+  <div class="container-row" :class="{ 'border-right-green': props.frame }">
     <div class="titel-s result-count">1234 Ergebnisse</div>
     <div>
       <div class="flex-column">
@@ -27,7 +34,7 @@ const resultsPerPage = defineModel(8)
     <div class="result-sizer-pos res-size-element ml--2">32</div>
     <div class="result-sizer-pos res-size-element ml--2">64</div>
     <div class="result-sizer-pos results-sizer-end ml" />
-    <div class="container-row line-container">
+    <div v-if="!props.frame" class="container-row line-container">
       <div class="line-green" />
       <div class="result-sizer-pos">
         <img
@@ -43,7 +50,7 @@ const resultsPerPage = defineModel(8)
 <style scoped>
 .container-row {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .flex-column {

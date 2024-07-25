@@ -23,6 +23,6 @@ import ComicMinimal from '~/components/ComicMinimal.vue'
 }
 
 .mt-100 {
-  margin-top: 100px;
+  margin-top: -10px;
 }
 </style>

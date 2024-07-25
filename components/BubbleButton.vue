@@ -65,6 +65,7 @@ function toggleActive() {
 .toggle-button {
   display: inline-block;
   cursor: pointer;
+  padding-bottom: 14px;
 }
 
 .button {

@@ -107,6 +107,8 @@
   margin-right: 111px;
 }
 
+/* borders */
+
 .border-top-green {
   border-top-color: var(--gc-green);
   border-top-width: 2px;
@@ -140,7 +142,7 @@
   border-left-style: solid;
 }
 
-.gc-border-right {
+.border-right-green {
   border-right-color: var(--gc-green);
   border-right-width: 2px;
   border-right-style: solid;

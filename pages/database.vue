@@ -17,9 +17,16 @@ async function searchComics() {
 </script>
 
 <template>
+  <article-content content="/database" />
   <div class="center page-margin">
-    <search-form v-model="searchInput" @input="searchComics()" />
-    <search-result-header />
+    <search-form v-model="searchInput" @input="searchComics()" frame />
+    <search-result-header frame />
+
+    <divider b4 b5 t6 />
+    <divider-red-arrow />
+
+    <divider-green-corners />
+
     <search-result />
     <search-result-footer />
   </div>
