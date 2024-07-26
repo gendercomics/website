@@ -22,11 +22,9 @@ async function searchComics() {
     <search-form v-model="searchInput" @input="searchComics()" frame />
     <search-result-header frame />
 
-    <!--
     <divider b4 b5 t6 />
     <divider-red-arrow />
     <divider-green-corners />
-    -->
 
     <search-result />
     <search-result-footer />
