@@ -2,6 +2,7 @@
 import DividerRedArrow from '~/components/DividerRedArrow.vue'
 import type { QueryBuilderParams } from '@nuxt/content/types'
 import ImageBox from '~/components/ImageBox.vue'
+import ContentPreview from '~/pages/ContentPreview.vue'
 
 const memberQuery: QueryBuilderParams = {
   path: '/team',
@@ -38,26 +39,7 @@ const index = await useAsyncData('doc', () =>
                 :caption-link="member.route"
               />
               <div v-else-if="index % 2 != 0">
-                <div class="container-row">
-                  <div class="column">
-                    <div class="w-90">
-                      <content-renderer :value="member">
-                        <div class="tag">{{ member.team }}</div>
-                        <div class="titel-kachel">{{ member.title }}</div>
-                        <content-renderer-markdown
-                          class="a mt-1rem"
-                          :value="member"
-                          excerpt
-                        />
-                      </content-renderer>
-                      <button-gray
-                        class="mt-1rem"
-                        text="mehr erfahren"
-                        :link="member.route"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <content-preview :member="member" />
               </div>
             </div>
             <div class="w-50">
@@ -71,26 +53,7 @@ const index = await useAsyncData('doc', () =>
                 :btn-arrow="false"
               />
               <div v-if="index % 2 === 0">
-                <div class="container-row">
-                  <div class="column">
-                    <div class="w-90">
-                      <content-renderer :value="member">
-                        <div class="tag">{{ member.team }}</div>
-                        <div class="titel-kachel">{{ member.title }}</div>
-                        <content-renderer-markdown
-                          class="a mt-1rem"
-                          :value="member"
-                          excerpt
-                        />
-                      </content-renderer>
-                      <button-gray
-                        class="mt-1rem"
-                        text="mehr erfahren"
-                        :link="member.route"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <content-preview :member="member" />
               </div>
             </div>
           </div>
