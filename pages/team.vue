@@ -43,8 +43,8 @@ const index = await useAsyncData('doc', () =>
                   <div class="column">
                     <div class="w-90">
                       <content-renderer :value="member">
-                        <p class="tag">{{ member.team }}</p>
-                        <p class="titel-kachel">{{ member.title }}</p>
+                        <div class="tag">{{ member.team }}</div>
+                        <div class="titel-kachel">{{ member.title }}</div>
                         <content-renderer-markdown
                           class="a mt-1rem"
                           :value="member"
@@ -76,8 +76,8 @@ const index = await useAsyncData('doc', () =>
                   <div class="column">
                     <div class="w-90">
                       <content-renderer :value="member">
-                        <p class="tag">{{ member.team }}</p>
-                        <p class="titel-kachel">{{ member.title }}</p>
+                        <div class="tag">{{ member.team }}</div>
+                        <div class="titel-kachel">{{ member.title }}</div>
                         <content-renderer-markdown
                           class="a mt-1rem"
                           :value="member"
