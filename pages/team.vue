@@ -2,7 +2,6 @@
 import DividerRedArrow from '~/components/DividerRedArrow.vue'
 import type { QueryBuilderParams } from '@nuxt/content/types'
 import ImageBox from '~/components/ImageBox.vue'
-import TextPreviewBox from '~/components/TextPreviewBox.vue'
 
 const memberQuery: QueryBuilderParams = {
   path: '/team',
