@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <article-content content="/impressum" />
+  <article-content content="/imprint" />
 </template>
 
 <style scoped></style>

@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <article-content content="/datenschutz" />
+  <article-content content="/privacy" />
 </template>
 
 <style scoped></style>
