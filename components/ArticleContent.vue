@@ -9,14 +9,22 @@ const props = defineProps({
 const doc = await useAsyncData('doc', () =>
   queryContent(props.content).findOne(),
 )
+
 </script>
 
 <template>
   <div class="container page-margin">
     <content-renderer :value="doc">
-      <div class="titel-xl mt-3rem txt-align-center">{{ doc.data.value.title }}</div>
+      <div class="titel-xl mt-3rem txt-align-center">
+        {{ doc.data.value.title }}
+      </div>
       <div class="w-90">
-        <content-renderer-markdown class="a txt-align-center mt-2rem" :value="doc.data.value.excerpt"/>
+        <div v-if="doc.data.value.excerpt">
+          <content-renderer-markdown
+            class="a txt-align-center mt-2rem"
+            :value="doc.data.value.excerpt"
+          />
+        </div>
       </div>
     </content-renderer>
     <divider-red-arrow />
@@ -29,13 +37,17 @@ const doc = await useAsyncData('doc', () =>
     <div class="text-container">
       <div class="container-relative">
         <content-renderer :value="doc">
-          <article-image
-            :image="doc.data.value.image"
-            :caption="doc.data.value.caption"
-            class="image"
-          />
+          <div v-if="doc.data.value.img">
+            <article-image
+              :image="doc.data.value.img"
+              :caption="doc.data.value.caption"
+              class="image"
+            />
+          </div>
           <h1>{{ doc.data.value.heading }}</h1>
-          <h2>{{ doc.data.value.subheading }}</h2>
+          <h2 v-if="doc.data.value.subheading">
+            {{ doc.data.value.subheading }}
+          </h2>
           <div class="a mt-2rem">
             <content-renderer-markdown :value="doc.data.value.body" />
           </div>

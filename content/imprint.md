@@ -2,13 +2,7 @@
 title: Impressum
 description: Impressum
 heading: Impressum
-subheading:
-type: index
-image:
-caption:
 ---
-
-<!-- more -->
 
 **Medieninhaberin:** Projekt Visualitäten von Geschlecht in deutschsprachigen Comics  
 **Sitz:** Institut für Germanistik, Universitätsring 1, 1010 Vienna, Austria
