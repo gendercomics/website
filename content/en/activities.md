@@ -56,7 +56,7 @@ caption: Regina Hofer
 - Rauchenbacher, Marina. “Who (and Where) is *Alice*? Anke Feuchtenberger’s Feminist-Disruptive Identity Criticism.” _Comparative Comics Studies_, edited by Christian Bachmann, Juliane Blank, and Stephan Packard. Berlin. Christian A. Bachmann Verlag.
 - Babka, Anna, and Marina Rauchenbacher. “Queer Studies.” _Handbuch Kulturwissenschaftliche ‚Studies‘_, edited by Jonas Nesselhauf and Florian Weber. Walter de Gruyter.
 
-### Final Thesis
+### Master Thesis
 - Lobnig, Naomi. _Alternative Krankheitsnarrative in den Comics_ Vergiss dich nicht _von Lika Nüssli und_ Aliceheimer’s _von Dana Walrath_. University of Vienna, Master thesis, 2022.
 
 ### Kürzere/journalistische Arbeiten, Interviews, Rezensionen u.a.
