@@ -14,28 +14,28 @@ caption: Regina Hofer
 - im Entstehen: M. Rauchenbacher, K. Serles u. N. Lobnig (Hg.): _Comics Studies x Gender Studies. Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice._ Unter Mitarbeit v. Susanne Hochreiter. Berlin, Boston: de Gruyter.
 - S. Loidl, S. Hochreiter, M. Rauchenbacher u. K. Serles (Hg.): _Graphisches Erzählen in der Kinder- und Jugendliteratur._ Wien: Praesens 2024 (Wiener Vorlesungen zur Kinder- und Jugendliteratur 2).
 - S. Hochreiter, M. Rauchenbacher u. K. Serles (Hg.): Journal of Austrian Studies. Special Issue: _Comics aus und über Österreich_ 55.2 (2022).
-- E. K. Masel, A. Praschinger, M. Rauchenbacher u. R. Kutalek (Hg.): _Körper – Body._ [Begleitheft zur Comic-Ausstellung _Art – Action – Attitude: Körper/Body_ im AKH der Stadt Wien, 2020/2021]. Wien: Medizinische Universität 2020.
+- E. K. Masel, A. Praschinger, M. Rauchenbacher u. R. Kutalek (Hg.): _Körper – Body._ \[Begleitheft zur Comic-Ausstellung _Art – Action – Attitude: Körper/Body_ im AKH der Stadt Wien, 2020/2021]. Wien: Medizinische Universität 2020.
 
 ### Wissenschaftliche Aufsätze
 - M. Rauchenbacher: _Comics from the German-Language Realm and Health Humanities: An Overview._ In: Stephanie M. Hilger (Hg.): The Health Humanities in German Studies. London: Bloomsbury 2024, S. 79–98 [https://doi.org/10.5040/9781350296220.ch-5](https://doi.org/10.5040/9781350296220.ch-5).
 - K. Serles: _Raum-Zeitlichkeit und Adoleszenz in Lukas Jüligers Vakuum._ In: Susanne Hochreiter, Sonja Loidl, Marina Rauchenbacher u. Katharina Serles (Hg.): Graphisches Erzählen in der Kinder- und Jugendliteratur. Wien: Praesens 2024, S. 141–166.
 - S. Hochreiter: _Schwule Pärchen, Töchter und andere Figuren. Marginalisierte Held*innen und homosoziale Strukturen in Asterix-Comics._ In: Susanne Hochreiter, Sonja Loidl, Marina Rauchenbacher u. Katharina Serles (Hg.): Graphisches Erzählen in der Kinder- und Jugendliteratur. Wien: Praesens 2024, S. 169–194.
 - M. Rauchenbacher: _Gewalt erzählen in Comics / Narrating Violence in Comics._ In: Daniela Finzi u. Monika Pessler (Hg.): Gewalt erzählen. Eine Comic-Ausstellung / Narrating Violence. A Comic Exhibition. Wien: Sigmund Freud Museum 2023, S. 10–41.
-- M. Rauchenbacher: _Un_familiäre Selbst. Des- und Re-Orientierung in Parsua Bashis_ Nylon Road. In: Barbara Margarethe Eggert, Kalina Kupczyńska u. Véronique Sina (Hg.): Familie und Comic. Kritische Perspektiven auf soziale Mikrostrukturen in grafischen Narrationen. Berlin, Boston: de Gruyter 2023 (Comicstudien 1), S. 55–68.
+- M. Rauchenbacher: _Un_familiäre Selbst. Des- und Re-Orientierung in Parsua Bashis_ Nylon Road. In: Barbara Margarethe Eggert, Kalina Kupczyńska u. Véronique Sina (Hg.): Familie und Comic. Kritische Perspektiven auf soziale Mikrostrukturen in grafischen Narrationen. Berlin, Boston: de Gruyter 2023 (Comicstudien 1), S. 55–68. [https://doi.org/10.1515/9783110786392](https://doi.org/10.1515/9783110786392)
 - K. Serles: _So etwas wie Shape-Shifter? Trans*Familien in Joris Bas Backers und Nettmanns_ Familienjuwelen _und Maurizio Onanons_ Oma Herbert. In: Barbara Margarethe Eggert, Kalina Kupczyńska u. Véronique Sina (Hg.): Familie und Comic. Kritische Perspektiven auf soziale Mikrostrukturen in grafischen Narrationen. Berlin, Boston: de Gruyter 2023 (Comicstudien 1), S. 69–82.
 - M. Rauchenbacher: _Programmatisch Alice. Irrgärten und Grenzüberschreitungen des Erzählens._ In: Andreas Stuhlmann u. Ole Frahm (Hg.): Die Königin Vontjanze. Kleiner Atlas zum Werk von Anke Feuchtenberger. Hamburg: Textem 2023, S. 195–204.
-- M. Rauchenbacher: _Das „Wunder an unserem Kinde“. Körper, Dis_ability, Krankheit in Heidi-Comics – am Beispiel Klara._ In: Linda Leskau u. Sigrid Nieberle (Hg.): (Re)Reading Heidi. Bielefeld: transcript 2023 (Diversity in Culture 1), S. 311–326.
+- M. Rauchenbacher: _Das „Wunder an unserem Kinde“. Körper, Dis_ability, Krankheit in Heidi-Comics – am Beispiel Klara._ In: Linda Leskau u. Sigrid Nieberle (Hg.): (Re)Reading Heidi. Bielefeld: transcript 2023 (Diversity in Culture 1), S. 311–326. [https://doi.org/10.1515/9783839462898-020](https://doi.org/10.1515/9783839462898-020)
 - N. Lobnig: _Narrative des Erinnerns und Vergessens in Alzheimer-Comics._ In: closure. Kieler e-Journal für Comicforschung 9 (2023), S. 49–75. [http://www.closure.uni-kiel.de/closure9/lobnig](http://www.closure.uni-kiel.de/closure9/lobnig).
 - M. Rauchenbacher: _Comics – posthuman, queer-end_um_un-ordnend._ In: Genealogy+Critique. Collection: Posthuman Gender Theory 8. (2022), 1, S. 1–27. DOI:  [https://doi.org/10.16995/gc.9167](https://doi.org/10.16995/gc.9167)
 - N. Lobnig: _Alternative Krankheitsnarrative in den Comics_ Vergiss dich nicht _von Lika Nüssli und_ Aliceheimer’s _von Dana Walrath. Masterarbeit am Institut für Germanistik, Universität Wien 2022.
 - S. Hochreiter, M. Rauchenbacher u. K. Serles: _Queer Visualities­–Queer Spaces. German-Language LGBTQ+ Comics._ In: Alison Halsall u. Jonathan Warren (Hg.): The LGBTQ+ Comics Studies Reader: Critical Openings, Future Directions. Jackson: UP of Mississippi 2022, S. 114–133. DOI: [https://doi.org/10.2307/j.ctv2w227ck.10](https://doi.org/10.2307/j.ctv2w227ck.10)
 - S. Hochreiter, M. Rauchenbacher u. K. Serles: _Gender in Comics? Fragen und Antworten zum Forschungsprojekt_ Visualitäten von Geschlecht in deutschsprachigen Comics. In: Mitteilungen der Vereinigung österreichischer Bibliothekarinnen & Bibliothekare.  Schwerpunktthema: Archiv-, Bibliotheks- und Dokumentationspolitiken. Frauen*- und geschlechterspezifische Zugänge 75.1 (2022), S. 226–239, [https://journals.univie.ac.at/index.php/voebm/article/view/7214/7242](https://journals.univie.ac.at/index.php/voebm/article/view/7214/7242).
-- S. Hochreiter, M. Rauchenbacher u. K. Serles: _Vorwort der Herausgeberinnen._ In: Journal of Austrian Studies. Special Issue: _Comics aus und über Österreich_ 55.2 (2022), S. 1–10.
+- S. Hochreiter, M. Rauchenbacher u. K. Serles: _Vorwort der Herausgeberinnen._ In: Journal of Austrian Studies. Special Issue: _Comics aus und über Österreich_ 55.2 (2022), S. 1–10. [https://doi.org/10.1353/oas.2022.0028](https://doi.org/10.1353/oas.2022.0028)
 - B. Frena, M. Rauchenbacher u. K. Serles: _Vi-ral-enna. Tracing und Connecting virale Wiener Comics-Kultur._ In: Wiener Digitale Revue 2 (8.12.2021), [https://doi.org/10.25365/wdr-02-03-03](https://doi.org/10.25365/wdr-02-03-03).
 - M. Rauchenbacher u. K. Serles: _A Brief History of Girlsplaining? Reading Klengel, Patu, and Schrupp with Strömquist._ Or: _Reflecting Visualities of Gender and Feminism in German-Language Comics._ In: Kristy Beers Fägersten, Anna Nordenstam, Margareta Wallin Wictorin und Leena Romu (Hg.): Comic Art and Feminism in the Baltic Sea Region. Transnational Perspectives. London: Routledge 2021 (Routledge Studies in Gender, Sexuality, and Comics), S. 61–82. [DOI:https://doi.org/10.4324/9781003039402-6](https://doi.org/10.4324/9781003039402-6)
 - M. Rauchenbacher u. K. Serles: _Fragmented and Framed. Precarious ‚Body Signs‘ in Comics by Regina Hofer, Ulli Lust, Barbara Yelin and Peer Meter._ In: Nina Eckhoff-Heindl u. Véronique Sina (Hg.): Spaces Between. Gender, Diversity and Identity in Comics. Wiesbaden: Springer 2020, S. 79–93. DOI: [https://doi.org/10.1007/978-3-658-30116-3_6](https://doi.org/10.1007/978-3-658-30116-3_6)
 - K. Serles: _The Book of Robert. Crumb und die ‚illustrierte‘ Schöpfung._ In: closure. Kieler e-Journal für Comicforschung 6.5 (2020), S. 44–65. [https://www.closure.uni-kiel.de/closure6.5/serles](https://www.closure.uni-kiel.de/closure6.5/serles).
-- M. Rauchenbacher: _Opposing Viewpoints. Politics of Gazing in the Graphic Novel_ Gift. In: Colloquia Germanica. Special Issue: German Graphic Novel 48.4 (2015). Hg. v. Lynn Kutch and Brett E. Sterling, S. 245–265. [Publikationsjahr: 2018]
+- M. Rauchenbacher: _Opposing Viewpoints. Politics of Gazing in the Graphic Novel_ Gift. In: Colloquia Germanica. Special Issue: German Graphic Novel 48.4 (2015). Hg. v. Lynn Kutch and Brett E. Sterling, S. 245–265. \[Publikationsjahr: 2018]
 - K. Serles: _BILDER SEHEN ERZÄHLEN. Kunstbetrachtung im Comic._ In: closure. Kieler e-journal für Comicforschung 4.5 (2018), S. 134–46. [http://www.closure.uni-kiel.de/closure4.5/serles](http://www.closure.uni-kiel.de/closure4.5/serles).
 - K. Serles: _„Time in comics is infinitely weirder than that.“ Zeit- via Bildkonfiguration bei Marc-Antoine Mathieu und Chris Ware._ In: Susanne Hochreiter u. Ursula Klingenböck (Hg.): Bild ist Text ist Bild. Narration und Ästhetik in der Graphic Novel. Bielefeld: transcript 2014, S. 79–96.
 
@@ -55,24 +55,24 @@ caption: Regina Hofer
 
 ### Kürzere/journalistische Arbeiten, Interviews, Rezensionen u.a.
 - N. Lobnig, Renate Tanzberger u. Rosemarie Ortner: _Queere Comics in der Arbeit mit Jugendlichen. Eine kommentierte Empfehlungsliste._ Queer-feministischer Bildungsverein EfEU, Wien, im Erscheinen.
-- N. Lobnig: _„Darstellen, wie ich mich selbst sehe“._ [Rezension und Interview zu Maia Kobabes Gender Queer]. In: an.schläge 5 (2024), im Erscheinen.
+- N. Lobnig: _„Darstellen, wie ich mich selbst sehe“._ \[Rezension und Interview zu Maia Kobabes Gender Queer]. In: an.schläge 5 (2024), im Erscheinen.
 - M. Rauchenbacher: _Spross #2. Redaktion: Janne Marie Dauer. Hg. v. Nicolas Dostal._ In: [literaturhaus.at](https://www.literaturhaus-wien.at/event/spross-magazin-2-blau-sein/), Buchmagazin, 5. April 2024.
 - S. Hochreiter, M. Rauchenbacher u. K. Serles: _Comics in, aus und über Österreich._ In: COMMA. Comic Magazin Austria 2 (2024), S. 36–37.
 - K. Serles: _Bei_strich. Ein Vor_wort._ In: COMMA. Comic Magazin Austria 2 (2024), S. 3.
 - K. Serles: _Fünf Fragen an… Martin Erasmus._ In: COMMA. Comic Magazin Austria 2 (2024), S. 31–33.
 - M. Rauchenbacher: _Fünf Fragen an … Vina Yun._ In: COMMA. Comic Magazin Austria 2 (2024), S. 12–15.
 - M. Rauchenbacher: _Vinz Schwarzbauer, „Mäander“._ In: [literaturhaus.at](https://www.literaturhaus-wien.at/review/maeander/), Buchmagazin, 23. Jänner 2024.
-- - N. Lobnig: _Die Ränder des Erzählbaren visualisieren._ [Rezension und Interview zu Barbara Yelins _Emmie Arbel. Die Farben der Erinnerung_]. In: an.schläge 1 (2024), S. 39.
-- N. Lobnig: Aufwühlend und Rätselhaft. [Rezension zu Anke Feuchtenbergers _Genossin Kuckuck_]. In: an.schläge 1 (2024), S. 40.
+- N. Lobnig: _Die Ränder des Erzählbaren visualisieren._ \[Rezension und Interview zu Barbara Yelins _Emmie Arbel. Die Farben der Erinnerung_]. In: an.schläge 1 (2024), S. 39.
+- N. Lobnig: Aufwühlend und Rätselhaft. \[Rezension zu Anke Feuchtenbergers _Genossin Kuckuck_]. In: an.schläge 1 (2024), S. 40.
 - N. Lobnig: _Krankheit zeichnen._ In: an.schläge 7 (2023), S. 24.
-- N. Lobnig: _Bildgewaltig._ [Rezension zu Sole Oteros Napthalin]. In: an.schläge 8 (2023), S. 43.
+- N. Lobnig: _Bildgewaltig._ \[Rezension zu Sole Oteros Napthalin]. In: an.schläge 8 (2023), S. 43.
 - N. Lobnig: _Dykes to Watch Out For._ In: an.schläge 7 (2023), S. 33.
-- N. Lobnig: _Veränderung ist das einzig Sichere._ [Rezension zu Nele Jongelings _Emil:ia_]. In: an.schläge 1 (2023), S. 38.
+- N. Lobnig: _Veränderung ist das einzig Sichere._ \[Rezension zu Nele Jongelings _Emil:ia_]. In: an.schläge 1 (2023), S. 38.
 - K. Serles: _Ein „ziemlich weißer Fleck auf der Comic-Landkarte“: Gottfried Gusenbauer und Martin Reiterer über österreichische Comic-Geschichte(n) und -Szene(n)._ In: Journal of Austrian Studies. Special Issue: _Comics aus und über Österreich_ 55.2 (2022), S. 155–172.
 - M. Rauchenbacher: Endorsement für: James Hodapp (Hg.): Graphic Novels and Comics as World Literature. New York u. a.: Bloomsbury 2022.
 - N. Lobnig: _Queerfeministische Comic-Kunst. Das widerständige Potenzial von Comics._ In: an.schläge 5 (2022).
 - K. Serles: _Bei_strich. Ein Vor_wort._ In: Comic Magazin Austria 1 (2021), S. 3.
-- M. Rauchenbacher: _Comics – Graphic Medicine – Comics._ In: Eva Katharina Masel, Andrea Praschinger, M. Rauchenbacher u. Ruth Kutalek (Hg.): Körper – Body. [Begleitheft zur Comic-Ausstellung _Art – Action – Attitude: Körper/Body_ im AKH der Stadt Wien, 2020/2021]. Wien: Medizinische Universität 2020, S. 12f.
+- M. Rauchenbacher: _Comics – Graphic Medicine – Comics._ In: Eva Katharina Masel, Andrea Praschinger, M. Rauchenbacher u. Ruth Kutalek (Hg.): Körper – Body. \[Begleitheft zur Comic-Ausstellung _Art – Action – Attitude: Körper/Body_ im AKH der Stadt Wien, 2020/2021]. Wien: Medizinische Universität 2020, S. 12f.
 - M. Rauchenbacher: _Was können Comics? Sie können viel. Sie können mehr._ In: Renate Mowlam: Was ist ein Comic? Medizinische Universität Wien 2020, S. 3 (engl.: _What can Comics achieve? They can achieve a lot. They can achieve much more._ In: Renate Mowlam: What is a Comic? Medical University of Vienna 2020, p. 3).
 - K. Serles: _Gemachter Sex._ In: Spring 14: Sex (2020), S. 4–5.
 
