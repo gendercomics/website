@@ -1,6 +1,6 @@
 ---
-title: Aktivitäten.
-description: Akitivitäten.
+title: Activities.
+description: Activities.
 heading:
 subheading:
 type: index
@@ -8,13 +8,15 @@ image: art/hofer_blad.png
 caption: Regina Hofer
 ---
 
-# Publikationen
+# Publications
 
-### Herausgeber*innenschriften
-- im Entstehen: M. Rauchenbacher, K. Serles u. N. Lobnig (Hg.): _Comics Studies x Gender Studies. Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice._ Unter Mitarbeit v. S. Hochreiter. Berlin, Boston: de Gruyter (Comicstudien X).
-- S. Loidl, S. Hochreiter, M. Rauchenbacher u. K. Serles (Hg.): _Graphisches Erzählen in der Kinder- und Jugendliteratur._ Wien: Praesens 2024 (Wiener Vorlesungen zur Kinder- und Jugendliteratur 2).
-- S. Hochreiter, M. Rauchenbacher u. K. Serles (Hg.): Journal of Austrian Studies. Special Issue: _Comics aus und über Österreich_ 55.2 (2022).
-- E. K. Masel, A. Praschinger, M. Rauchenbacher u. R. Kutalek (Hg.): _Körper – Body._ [Begleitheft zur Comic-Ausstellung _Art – Action – Attitude: Körper/Body_ im AKH der Stadt Wien, 2020/2021]. Wien: Medizinische Universität 2020.
+### Edited Volumes
+- forthcoming: Rauchenbacher, Marina, Katharina Serles, and Naomi Lobnig, editors. _Comics Studies x Gender Studies. Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice_, in collaboration with Susanne Hochreiter. Berlin: Walter de Gruyter. 
+Loidl, Sonja, Susanne Hochreiter, Marina Rauchenbacher, and Katharina Serles, editors. _Graphisches Erzählen in der Kinder- und Jugendliteratur_. Vienna: Praesens Verlag, 2024, Wiener Vorlesungen zur Kinder- und Jugendliteratur 2.
+Hochreiter, Susanne, Marina Rauchenbacher, and Katharina Serles, editors. _Comics aus und über Österreich_, special issue of _Journal of Austrian Studies_, vol. 55, no. 2, 2022. [https://doi.org/10.1353/oas.2022.0028](https://doi.org/10.1353/oas.2022.0028)
+Masel, Eva Katharina, Andrea Praschinger, Marina Rauchenbacher, and Ruth Kutalek, editors. _Körper – Body_. Medical University Wien, 2020.
+Hochreiter, Susanne, and Ursula Klingenböck, editors. _Bild ist Text ist Bild: Narration und Ästhetik in der Graphic Novel_. Bielefeld: transcript, 2014.
+
 
 ### Wissenschaftliche Aufsätze
 - K. Serles: _Raum-Zeitlichkeit und Adoleszenz in Lukas Jüligers Vakuum._ In: Susanne Hochreiter, Sonja Loidl, Marina Rauchenbacher u. Katharina Serles (Hg.): Graphisches Erzählen in der Kinder- und Jugendliteratur. Wien: Praesens 2024, S. 141–166.
