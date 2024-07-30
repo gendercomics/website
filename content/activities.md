@@ -15,6 +15,7 @@ caption: Regina Hofer
 - S. Loidl, S. Hochreiter, M. Rauchenbacher u. K. Serles (Hg.): _Graphisches Erzählen in der Kinder- und Jugendliteratur._ Wien: Praesens 2024 (Wiener Vorlesungen zur Kinder- und Jugendliteratur 2).
 - S. Hochreiter, M. Rauchenbacher u. K. Serles (Hg.): Journal of Austrian Studies. Special Issue: _Comics aus und über Österreich_ 55.2 (2022).
 - E. K. Masel, A. Praschinger, M. Rauchenbacher u. R. Kutalek (Hg.): _Körper – Body._ \[Begleitheft zur Comic-Ausstellung _Art – Action – Attitude: Körper/Body_ im AKH der Stadt Wien, 2020/2021]. Wien: Medizinische Universität 2020.
+- S. Hochreiter u. U. Klingenböck (Hg.): _Bild ist Text ist Bild: Narration und Ästhetik in der Graphic Novel_. Bielefeld: transcript 2014.
 
 ### Wissenschaftliche Aufsätze
 - M. Rauchenbacher: _Comics from the German-Language Realm and Health Humanities: An Overview._ In: Stephanie M. Hilger (Hg.): The Health Humanities in German Studies. London: Bloomsbury 2024, S. 79–98 [https://doi.org/10.5040/9781350296220.ch-5](https://doi.org/10.5040/9781350296220.ch-5).
@@ -37,6 +38,7 @@ caption: Regina Hofer
 - K. Serles: _The Book of Robert. Crumb und die ‚illustrierte‘ Schöpfung._ In: closure. Kieler e-Journal für Comicforschung 6.5 (2020), S. 44–65. [https://www.closure.uni-kiel.de/closure6.5/serles](https://www.closure.uni-kiel.de/closure6.5/serles).
 - M. Rauchenbacher: _Opposing Viewpoints. Politics of Gazing in the Graphic Novel_ Gift. In: Colloquia Germanica. Special Issue: German Graphic Novel 48.4 (2015). Hg. v. Lynn Kutch and Brett E. Sterling, S. 245–265. \[Publikationsjahr: 2018]
 - K. Serles: _BILDER SEHEN ERZÄHLEN. Kunstbetrachtung im Comic._ In: closure. Kieler e-journal für Comicforschung 4.5 (2018), S. 134–46. [http://www.closure.uni-kiel.de/closure4.5/serles](http://www.closure.uni-kiel.de/closure4.5/serles).
+- S. Hochreiter: _Zu Genre und Affekt in Ulli Lusts_ Heute ist der letzte Tag vom Rest deines Lebens. In: Susanne Hochreiter u. Ursula Klingenböck (Hg.): Bild ist Text ist Bild. Narration und Ästhetik in der Graphic Novel. Bielefeld: transcript 2014, S. 233-256.
 - K. Serles: _„Time in comics is infinitely weirder than that.“ Zeit- via Bildkonfiguration bei Marc-Antoine Mathieu und Chris Ware._ In: Susanne Hochreiter u. Ursula Klingenböck (Hg.): Bild ist Text ist Bild. Narration und Ästhetik in der Graphic Novel. Bielefeld: transcript 2014, S. 79–96.
 
 ### Wissenschaftliche Aufsätze in Druck/im Entstehen:
