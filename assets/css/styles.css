@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+body {
+  min-width: 1285px
+}
+
 .flex {
   display: flex;
 }
