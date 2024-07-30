@@ -28,7 +28,6 @@ caption: Regina Hofer
 - M. Rauchenbacher: _Das „Wunder an unserem Kinde“. Körper, Dis_ability, Krankheit in Heidi-Comics – am Beispiel Klara._ In: Linda Leskau u. Sigrid Nieberle (Hg.): (Re)Reading Heidi. Bielefeld: transcript 2023 (Diversity in Culture 1), S. 311–326. [https://doi.org/10.1515/9783839462898-020](https://doi.org/10.1515/9783839462898-020)
 - N. Lobnig: _Narrative des Erinnerns und Vergessens in Alzheimer-Comics._ In: closure. Kieler e-Journal für Comicforschung 9 (2023), S. 49–75. [http://www.closure.uni-kiel.de/closure9/lobnig](http://www.closure.uni-kiel.de/closure9/lobnig).
 - M. Rauchenbacher: _Comics – posthuman, queer-end_um_un-ordnend._ In: Genealogy+Critique. Collection: Posthuman Gender Theory 8. (2022), 1, S. 1–27. DOI:  [https://doi.org/10.16995/gc.9167](https://doi.org/10.16995/gc.9167)
-- N. Lobnig: _Alternative Krankheitsnarrative in den Comics_ Vergiss dich nicht _von Lika Nüssli und_ Aliceheimer’s _von Dana Walrath. Masterarbeit am Institut für Germanistik, Universität Wien 2022.
 - S. Hochreiter, M. Rauchenbacher u. K. Serles: _Queer Visualities­–Queer Spaces. German-Language LGBTQ+ Comics._ In: Alison Halsall u. Jonathan Warren (Hg.): The LGBTQ+ Comics Studies Reader: Critical Openings, Future Directions. Jackson: UP of Mississippi 2022, S. 114–133. DOI: [https://doi.org/10.2307/j.ctv2w227ck.10](https://doi.org/10.2307/j.ctv2w227ck.10)
 - S. Hochreiter, M. Rauchenbacher u. K. Serles: _Gender in Comics? Fragen und Antworten zum Forschungsprojekt_ Visualitäten von Geschlecht in deutschsprachigen Comics. In: Mitteilungen der Vereinigung österreichischer Bibliothekarinnen & Bibliothekare.  Schwerpunktthema: Archiv-, Bibliotheks- und Dokumentationspolitiken. Frauen*- und geschlechterspezifische Zugänge 75.1 (2022), S. 226–239, [https://journals.univie.ac.at/index.php/voebm/article/view/7214/7242](https://journals.univie.ac.at/index.php/voebm/article/view/7214/7242).
 - S. Hochreiter, M. Rauchenbacher u. K. Serles: _Vorwort der Herausgeberinnen._ In: Journal of Austrian Studies. Special Issue: _Comics aus und über Österreich_ 55.2 (2022), S. 1–10. [https://doi.org/10.1353/oas.2022.0028](https://doi.org/10.1353/oas.2022.0028)
@@ -54,7 +53,10 @@ S. Hochreiter: _Fantastillionen und arme Schlucker. Ein Essay über Gender, Bege
 - M. Rauchenbacher: _]         [. Verstummen und Stille in Ulli Lusts Comic-Adaption von Marcel Beyers Roman_ Flughunde. In: Melanie Unseld u. Akiko Yamada (Hg.): Laute(r) Bilder. Musik in Manga, Comic & Co. (Jahrbuch Musik und Gender, Bd. **).
 - M. Rauchenbacher u. K. Serles: _Gender/Queer Studies / Intersektionalitätsforschung._ In: Juliane Blank u. Stephan Packard (Hg.): Handbuch Comicforschung. Berlin, Boston: de Gruyter.
 - A. Babka u. M. Rauchenbacher: _Queer Studies._ In: Handbuch Kulturwissenschaftliche ‚Studies‘. Hg. v. Jonas Nesselhauf u. Florian Weber. Berlin, Boston: de Gruyter.
-- M. Rauchenbacher: _Comics on Display. Conceptual Remarks on_ Gewalt erzählen. Eine Comic-Ausstellung / Narrating Violence. A Comic Exhibition (_Sigmund Freud Museum Vienna_). In: Elisabeth Krimmer u. Maureen Burdock (Hg.): German Graphic Narratives and Trauma. Camden House. 
+- M. Rauchenbacher: _Comics on Display. Conceptual Remarks on_ Gewalt erzählen. Eine Comic-Ausstellung / Narrating Violence. A Comic Exhibition (_Sigmund Freud Museum Vienna_). In: Elisabeth Krimmer u. Maureen Burdock (Hg.): German Graphic Narratives and Trauma. Camden House.
+
+### Abschlussarbeit
+- N. Lobnig: _Alternative Krankheitsnarrative in den Comics_ Vergiss dich nicht _von Lika Nüssli und_ Aliceheimer’s _von Dana Walrath. Masterarbeit am Institut für Germanistik, Universität Wien 2022.
 
 ### Kürzere/journalistische Arbeiten, Interviews, Rezensionen u.a.
 - N. Lobnig, Renate Tanzberger u. Rosemarie Ortner: _Queere Comics in der Arbeit mit Jugendlichen. Eine kommentierte Empfehlungsliste._ Queer-feministischer Bildungsverein EfEU, Wien, im Erscheinen.
