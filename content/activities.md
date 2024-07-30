@@ -15,6 +15,7 @@ caption: Regina Hofer
 - S. Loidl, S. Hochreiter, M. Rauchenbacher u. K. Serles (Hg.): _Graphisches Erzählen in der Kinder- und Jugendliteratur._ Wien: Praesens 2024 (Wiener Vorlesungen zur Kinder- und Jugendliteratur 2).
 - S. Hochreiter, M. Rauchenbacher u. K. Serles (Hg.): Journal of Austrian Studies. Special Issue: _Comics aus und über Österreich_ 55.2 (2022).
 - E. K. Masel, A. Praschinger, M. Rauchenbacher u. R. Kutalek (Hg.): _Körper – Body._ \[Begleitheft zur Comic-Ausstellung _Art – Action – Attitude: Körper/Body_ im AKH der Stadt Wien, 2020/2021]. Wien: Medizinische Universität 2020.
+- S. Hochreiter u. U. Klingenböck (Hg.): _Bild ist Text ist Bild: Narration und Ästhetik in der Graphic Novel_. Bielefeld: transcript 2014.
 
 ### Wissenschaftliche Aufsätze
 - M. Rauchenbacher: _Comics from the German-Language Realm and Health Humanities: An Overview._ In: Stephanie M. Hilger (Hg.): The Health Humanities in German Studies. London: Bloomsbury 2024, S. 79–98 [https://doi.org/10.5040/9781350296220.ch-5](https://doi.org/10.5040/9781350296220.ch-5).
