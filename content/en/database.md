@@ -2,14 +2,14 @@
 title: Database
 description: Database
 heading: Database
-subheading: Database
+subheading:
 type: index
 image: art/jongeling_detransition.png
 caption: Regina Hofer
 ---
 
-Eine bibliografische und beschlagwortete Sammlung deutschsprachiger Comics mit explizitem Gender-Bezug.
+Created as part of the project and constantly updated, the database is the first comprehensive collection of German-language comics with an explicit reference to gender.
 
 <!--more-->
 
-Die im Zuge des Projekts entstandene und laufend befüllte Datenbank leistet eine erstmalig umfassende Sammlung deutschsprachiger Comics mit explizitem Gender-Bezug. Im Herbst 2024 wird sie als Open-Access-Datenbank einer breiten, internationalen Öffentlichkeit zugänglich gemacht. Die Ergebnisse werden durch  ein Schlagwortsystem sowie ein Glossar wichtiger Begriffe aufbereitet.
+In fall 2024, it will be made available to a broad, international public as an open-access database. A keyword system and a glossary of essential terms will organize the results.
