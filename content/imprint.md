@@ -1,7 +1,7 @@
 ---
-title: Impressum
-description: Impressum
-heading: Impressum
+title: Impressum.
+description: Impressum.
+heading: Impressum.
 ---
 
 **Medieninhaberin:** Projekt _Visualitäten von Geschlecht in deutschsprachigen Comics_  
