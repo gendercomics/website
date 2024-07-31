@@ -211,8 +211,8 @@ caption: Regina Hofer
 - 2019: FWF research grant for the project _Visualities of Gender in German-language Comics_, Grant-DOI: [10.55776/P31925](https://www.fwf.ac.at/forschungsradar/10.55776/P31925).
 
 
-# Pressespiegel
-- M. Mayer: _Geliebte Stereotype_, morgen 274: „Schmäh“, Mai 2022, https://www.morgen.at/schmaeh/geliebte-stereotype.
-- B. Mader: _Wonderwomans unsägliche Lovestory_, Kurier, 31. Mai 2020, https://kurier.at/wissen/wissenschaft/wonderwomans-unsaegliche-lovestory/400937030.
-- B. Hausbichler u. K. Krichmayr: _Gender im Comic: „Jeder Comic-Körper ist ambivalent“_, Der Standard, 10. Juni 2020, https://www.derstandard.at/story/2000117983669/gender-im-comic-jeder-comic-koerper-ist-ambivalent.
-- U. Schmitzer: _SALZBURGER NACHTSTUDIO X-Men. Das Prinzip Superhero_, Ö1, 4. März 2020.
+# Press reviews
+- Mayer, Magdalena. “Geliebte Stereotype.” _morgen_, no. 274, May 2022, [https://www.morgen.at/schmaeh/geliebte-stereotype](https://www.morgen.at/schmaeh/geliebte-stereotype).
+- Beer, Barbara. “Wonderwomans unsägliche Lovestory.” _Kurier_, May 31, 2020, [https://kurier.at/wissen/wissenschaft/wonderwomans-unsaegliche-lovestory/400937030](https://kurier.at/wissen/wissenschaft/wonderwomans-unsaegliche-lovestory/400937030).
+- Hausbichler, Beate, and Karin Krichmayr. “Gender im Comic: ’Jeder Comic-Körper ist ambivalent.’ _Der Standard_, June 10, 2020, [https://www.derstandard.at/story/2000117983669/gender-im-comic-jeder-comic-koerper-ist-ambivalent](https://www.derstandard.at/story/2000117983669/gender-im-comic-jeder-comic-koerper-ist-ambivalent).
+- Schmitzer, Ulrike. “SALZBURGER NACHTSTUDIO X-Men: Das Prinzip Superhero.” _Ö1_, March 4, 2020.
