@@ -6,22 +6,19 @@ const { t } = useI18n({
 
 <template>
   <div class="container-row">
-    <div class="w-50" />
-    <div class="w-50 border-left">
-      <div class="w-90">
-        <div class="tag">{{ t('tag1') }}</div>
-        <div class="tag gray">{{ t('tag2') }}</div>
-        <div class="titel-kachel">{{ t('title') }}</div>
-        <a class="a">{{ t('subtitle') }}</a>
-        <a href="https://germanistik.univie.ac.at/" target="_blank">
-          <img
-            src="~assets/images/mdw_Logo_R_DE_blau.svg"
-            alt="mdw"
-            class="mt-30"
-            width="440px"
-          />
-        </a>
-      </div>
+    <div class="w-90">
+      <div class="tag">{{ t('tag1') }}</div>
+      <div class="tag gray">{{ t('tag2') }}</div>
+      <div class="titel-kachel">{{ t('title') }}</div>
+      <a class="a">{{ t('subtitle') }}</a>
+      <a href="https://www.mdw.ac.at/ikm/" target="_blank">
+        <img
+          src="~assets/images/mdw_Logo_R_DE_blau.svg"
+          alt="mdw"
+          class="mt-30"
+          width="440px"
+        />
+      </a>
     </div>
   </div>
 </template>
@@ -30,13 +27,6 @@ const { t } = useI18n({
 .container-row {
   display: flex;
   width: 100%;
-}
-
-.border-left {
-  border-left-color: var(--gc-green);
-  border-left-width: 2px;
-  border-left-style: solid;
-  margin-left: -1px;
 }
 
 .gray {
@@ -51,7 +41,7 @@ de:
   title: Universität für Musik und darstellende Kunst Wien
   subtitle: International Research Center Gender and Performativity
 en:
-  tag1: Nationale Forschungspartnerin
+  tag1: National Research Partner
   tag2: Evelyn Annuß
   title: Universität für Musik und darstellende Kunst Wien
   subtitle: International Research Center Gender and Performativity

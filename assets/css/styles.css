@@ -117,7 +117,6 @@ body {
   border-top-color: var(--gc-green);
   border-top-width: 2px;
   border-top-style: solid;
-  width: 80%;
 }
 
 .border-green-left-right {
@@ -140,7 +139,7 @@ body {
   margin-top: -3px;
 }
 
-.gc-border-left {
+.border-left-green {
   border-left-color: var(--gc-green);
   border-left-width: 2px;
   border-left-style: solid;

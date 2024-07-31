@@ -1,7 +1,4 @@
-<script setup>
-import ImageBox from '~/components/ImageBox.vue'
-import TextPreviewBox from '~/components/TextPreviewBox.vue'
-</script>
+<script setup></script>
 
 <template>
   <div class="container-row">
