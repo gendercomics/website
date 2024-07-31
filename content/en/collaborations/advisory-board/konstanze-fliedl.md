@@ -5,6 +5,5 @@ img: adivosory-board/konstanze-fliedl.png
 uni-www: https://www.univie.ac.at/germanistik/konstanze-fliedl
 ---
 
-**Konstanze Fliedl** ist Professorin für Neuere Deutsche Literatur am Institut für Germanistik, Universität Wien.
-Sie ist unter anderem ausgewiesene Expertin für Intermedialität sowie Bildende Kunst und Literatur.
-Zu diesem Thema leitete sie zwei vom FWF geförderte Projekte – _Kunst im Text_ und _Das Bildzitat. Intermedialität und Tradition._
+**Konstanze Fliedl** was a professor of German Literature at the Department of German Studies, University of Vienna. She is a renowned expert on intermediality, as well as visual arts and literature. She also chaired two subject-relevant FWF-funded projects _Kunst im Text_ and _Das Bildzitat: Intermedialität und Tradition_.
+
