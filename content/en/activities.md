@@ -59,7 +59,7 @@ caption: Regina Hofer
 ### Master Thesis
 - Lobnig, Naomi. _Alternative Krankheitsnarrative in den Comics_ Vergiss dich nicht _von Lika Nüssli und_ Aliceheimer’s _von Dana Walrath_. University of Vienna, Master thesis, 2022.
 
-### Kürzere/journalistische Arbeiten, Interviews, Rezensionen u.a.
+### Journalistic Texts, Interviews, Reviews, Science to Public
 - N. Lobnig, Renate Tanzberger u. Rosemarie Ortner: _Queere Comics in der Arbeit mit Jugendlichen. Eine kommentierte Empfehlungsliste._ Queer-feministischer Bildungsverein EfEU, Wien, im Erscheinen.
 - N. Lobnig: _„Darstellen, wie ich mich selbst sehe“._ [Rezension und Interview zu Maia Kobabes Gender Queer]. In: an.schläge 5 (2024), im Erscheinen.
 - M. Rauchenbacher: _Franz Suess: Drei oder vier Bagatellen._ In: literaturhaus.at, Buchmagazin, im Erscheinen.
