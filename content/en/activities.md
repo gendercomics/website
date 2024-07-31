@@ -194,19 +194,22 @@ caption: Regina Hofer
 - Serles, Katharina. Curation of a “window exhibition” by Maria Frenay, Austrian Association for Comics, Agentur Raumpioniere Wien, July 1–September 30, 2022.
 - Masel, Eva K., Andrea Praschinger, Marina Rauchenbacher, and Ruth Kutalek. Curation of the exhibition _rt – Action – Attitude: Körper/Body_, Vienna General Hospital and Medical University Vienna, March-June 2021.
 
-# Betreuung von Abschlussarbeiten
-- M. Rauchenbacher: _Erin Sedelmaier: Verwandtschaft zwischen Körpern in Luke Pearsons Hilda-Comics (Masterarbeit, Masterstudium Gender Studies, Universität Wien)_, laufend
-- M. Rauchenbacher: _Fiona Sironic: Potentiale queerfeministischer Perspektiven für das Medium Videospiel (Masterarbeit, Masterstudium Gender Studies, Universität Wien)_, laufend
-- M. Rauchenbacher: _Naomi Lobnig: Alternative Krankheitsnarrative in den Comics Vergiss dich nicht von Lika Nüssli und Aliceheimer’s von Dana Walrath (Masterarbeit, Institut für Germanistik, Universität Wien)_, abgeschlossen 2022
+# Supervision of Final Theses
+- Rauchenbacher, Marina – Erin Sedelmaier. _Verwandtschaft zwischen Körpern in Luke Pearsons Hilda-Comics_. University of Vienna, Master thesis, ongoing.
+- Rauchenbacher, Marina – Fiona Sironic. _Potentiale queerfeministischer Perspektiven für das Medium Videospiel_. University of Vienna, Master thesis, ongoing. 
+- Hochreiter, Susanne – Ines Christina Höfer. _Queere Beziehungsgeflechte und Identitätsfragen in Entenhausen: Ein Queer Reading ausgewählter Comics_. University of Vienna, Master thesis, 2023.  
+- Rauchenbacher, Marina – Naomi Lobnig. _Alternative Krankheitsnarrative in den Comics_ Vergiss dich nicht _von Lika Nüssli und_ Aliceheimer’s _von Dana Walrath_. University of Vienna, Master thesis, 2022.
 
-# Review-Tätigkeit
-- M. Rauchenbacher: Mitglied des Advisory Boards der Reihe _Comicstudien_, de Gruyter Verlag (seit 2020)
-- M. Rauchenbacher: Gutachterin für _European Comic Art_ (2021)
-- M. Rauchenbacher: Gutachterin für Seminar. _A Journal of Germanic Studies_ (2020)
+# Review Activities
+- Rauchenbacher, Marina. Member of the advisory board of the series _Comicstudien_, Walter de Gruyter (since 2020).
+- Rauchenbacher, Marina. Reviewer for _European Comic Art_ (2021)
+- Rauchenbacher, Marina. Reviewer for _Seminar: A Journal of Germanic Studies_ (2020)
 
-# Preise und Förderungen
-- FWF-open-access-Förderung für M. Rauchenbacher, K. Serles u. N. Lobnig (Hg.): _Comics Studies x Gender Studies. Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice._ Unter Mitarbeit v. S. Hochreiter. Berlin, Boston: de Gruyter (Comicstudien X).
-- Will Eisner Comic Industry Award for Best Academic/Scholarly Work 2023: Alison Halsall und Jonathan Warren (Hg.): _The LGBTQ+ Comics Studies Reader: Critical Openings, Future Directions._ Jackson: UP of Mississippi, 2022 (darin: S. Hochreiter, M. Rauchenbacher u. K. Serles: Queer Visualities­–Queer Spaces. German-Language LGBTQ+ Comics, S. 114–133)
+# Awards and Grants
+- 2024: FWF open access grant: Marina Rauchenbacher, Katharina Serles, and Naomi Lobnig, eds. _Comics Studies x Gender Studies: Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice_. Berlin, Walter de Gruyter, forthcoming. Grant-DOI: [10.55776/PUB1145](https://www.fwf.ac.at/forschungsradar/10.55776/PUB1145).
+- 2023: Will Eisner Comic Industry Award for Best Academic/Scholarly Work 2023: Alison Halsall and Jonathan Warren, eds. _The LGBTQ+ Comics Studies Reader: Critical Openings, Future Directions_. Jackson: UP of Mississippi, 2022 (therein: Susanne Hochreiter, Marina Rauchenbacher, and Katharina Serles. “Queer Visualities ­– Queer Spaces. German-Language LGBTQ+ Comics”, pp. 114-33.)
+- 2019: FWF research grant for the project _Visualities of Gender in German-language Comics_, Grant-DOI: [10.55776/P31925](https://www.fwf.ac.at/forschungsradar/10.55776/P31925).
+
 
 # Pressespiegel
 - M. Mayer: _Geliebte Stereotype_, morgen 274: „Schmäh“, Mai 2022, https://www.morgen.at/schmaeh/geliebte-stereotype.
