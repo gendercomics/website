@@ -58,7 +58,7 @@ S. Hochreiter: _Fantastillionen und arme Schlucker. Ein Essay über Gender, Bege
 ### Abschlussarbeit
 - N. Lobnig: _Alternative Krankheitsnarrative in den Comics_ Vergiss dich nicht _von Lika Nüssli und_ Aliceheimer’s _von Dana Walrath. Masterarbeit am Institut für Germanistik, Universität Wien 2022.
 
-### Kürzere/journalistische Arbeiten, Interviews, Rezensionen u.a.
+### Journalistische Arbeiten, Interviews, Rezensionen, Science to Public
 - N. Lobnig, Renate Tanzberger u. Rosemarie Ortner: _Queere Comics in der Arbeit mit Jugendlichen. Eine kommentierte Empfehlungsliste._ Queer-feministischer Bildungsverein EfEU, Wien, im Erscheinen.
 - N. Lobnig: _„Darstellen, wie ich mich selbst sehe“._ \[Rezension und Interview zu Maia Kobabes Gender Queer]. In: an.schläge 5 (2024), im Erscheinen.
 - M. Rauchenbacher: _Spross #2. Redaktion: Janne Marie Dauer. Hg. v. Nicolas Dostal._ In: [literaturhaus.at](https://www.literaturhaus-wien.at/event/spross-magazin-2-blau-sein/), Buchmagazin, 5. April 2024.
