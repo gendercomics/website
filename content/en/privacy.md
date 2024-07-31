@@ -1,6 +1,6 @@
 ---
-title: Datenschutz
-heading: Datenschutz
+title: Data Protection.
+heading: Data Protection.
 ---
 <!--more-->
 **Datenschutz:**
