@@ -1,7 +1,7 @@
 ---
-title: Database
-description: Database
-heading: Database
+title: Database.
+description: Database.
+heading: Database.
 subheading:
 type: index
 image: art/jongeling_detransition.png
