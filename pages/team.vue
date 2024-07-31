@@ -33,7 +33,7 @@ const index = await useAsyncData('doc', () =>
               <ImageBox
                 v-if="index % 2 === 0"
                 class="border-right"
-                :img="member.img"
+                :img="member.image"
                 width="60%"
                 :caption="member.title"
                 :caption-link="member.route"
@@ -46,7 +46,7 @@ const index = await useAsyncData('doc', () =>
               <ImageBox
                 class="mr-2"
                 v-if="index % 2 != 0"
-                :img="member.img"
+                :img="member.image"
                 width="60%"
                 :caption="member.title"
                 :caption-link="member.route"

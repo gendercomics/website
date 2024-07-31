@@ -10,6 +10,9 @@ const doc = await useAsyncData('doc', () =>
   queryContent(props.content).findOne(),
 )
 
+onMounted(() => {
+  console.log('debug: ' + JSON.stringify(doc.data.value.image))
+})
 </script>
 
 <template>
@@ -37,9 +40,9 @@ const doc = await useAsyncData('doc', () =>
     <div class="text-container">
       <div class="container-relative">
         <content-renderer :value="doc">
-          <div v-if="doc.data.value.img">
+          <div v-if="doc.data.value.image">
             <article-image
-              :image="doc.data.value.img"
+              :image="doc.data.value.image"
               :caption="doc.data.value.caption"
               class="image"
             />

@@ -29,6 +29,10 @@ const props = defineProps({
 function openLink() {
   navigateTo(props.link)
 }
+
+const hasLink = computed(() => {
+  return props.link !== ''
+})
 </script>
 
 <template>
@@ -45,7 +49,18 @@ function openLink() {
       class="btn-arrow-left"
       alt="corner-green-2-50px(buttons)"
     />
-    <button class="green-button" @click="openLink">{{ text }}</button>
+
+    <button
+      v-if="hasLink"
+      class="green-button cursor-pointer"
+      @click="openLink"
+    >
+      {{ text }}
+    </button>
+    <button v-else class="green-button">
+      {{ text }}
+    </button>
+
     <img
       v-if="rightCorner"
       src="~/assets/images/corner-green-2-50px(buttons).svg"
@@ -68,7 +83,6 @@ function openLink() {
   color: var(--white);
   border: none;
   border-radius: 50px;
-  cursor: pointer;
   margin-bottom: 10px;
   width: 220px;
 
@@ -77,6 +91,10 @@ function openLink() {
   font-weight: var(--gc-font-weight-normal);
   font-size: var(--gc-font-size-16);
   letter-spacing: var(--gc-character-spacing-0-5);
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .green-button:hover {
