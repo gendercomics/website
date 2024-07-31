@@ -131,22 +131,23 @@ caption: Regina Hofer
 - Rauchenbacher, Marina. _Women’s Viewpoints: Systems of Gazing in the Graphic Novel_ Gift. Annual Conference of the German Studies Association, Washington, DC, October 1-4, 2015.
 
 
-# Lehre
-- in Planung, WiSe 2024: M. Rauchenbacher: Masterseminar _In Wort und Bild. Strategien des Erzählens in Comics_ (Institut für Germanistik, Universität Wien)
-- K. Serles: _Mind the Gap. Comictheorie_ (SoSe 2024, Kunstschule Wien)
-- K. Serles: _Mit der Axt im Auge. Comictheorie_ (WiSe 2023, Kunstschule Wien)
-- S. Hochreiter: Hybride Körper in Comics und Graphic Novels. Fortbildung für Lehrende. KPH Wien, Bildungszentrum Lacknergasse, 12. Oktober 2023.
-- M. Rauchenbacher: _Leben sehen. (Auto)Biografische Comics_ (März 2023, Literarische Kurse. Fernkurs für Literatur, Wien)
-- M. Rauchenbacher: Proseminar _Krankheit und Dis_ability in deutschsprachigen Comics_ (WiSe 2021, Institut für Germanistik, Universität Wien)
-- M. Rauchenbacher: Vorlesungs-Einheit _Verborgen : Im Zentrum : Dazwischen. Kranke Körper in Heidi-Comics_ (SoSe 2021, Ringvorlesung _Wiedersehen mit Heidi / Re-reading Heidi_, organisiert v. Linda Leskau u. Sigrid Nieberle, Institut für Diversitätsstudien, TU Dortmund)
-- S. Hochreiter; M. Rauchenbacher; K. Serles: Vorlesung mit Übung _Themenfelder I: Gender Studies – Comics Studies_ (WiSe 2020, Masterstudium Gender Studies, Universität Wien)
-- M. Rauchenbacher: Seminar _Kranke Körper-Zeichen. Geschlecht und psychische Erkrankungen in Comics_ (SoSe 2020, Masterstudium Gender Studies, Universität Wien, tlw. online)
-- M. Rauchenbacher u. K. Serles: Seminar _Klonk! Gurgl? Pling!_ (Juli 2020, Kinderuni Wien)
-- S. Hochreiter: Grafisches Erzählen und Literaturcomics. Lehre im Rahmen eines ERASMUS-Aufenthalts an der Humboldt-Universität zu Berlin. 3.–5. Februar 2020.
-- M. Rauchenbacher u. K. Serles: Proseminar _Körper-Zeichen. Gender und Diversität in deutschsprachigen Comics_ (WiSe 2018, Institut für Germanistik, Universität Wien)
-- K. Serles: Seminar _Blickregime/Blickperformances_ (SoSe 2017, Angewandte Theaterwissenschaft und Produktionsdramaturgie, HfBK Dresden)
-- K. Serles: Projektwoche _(Un)folding Time and Space. Timeframes, Storyboards und Nonlineares Erzählen_ (WiSe 2016, Studiengang Bühnen- und Kostümbild, HfBK Dresden & Studiengang Regie, Theaterakademie August Everding München)
-- M. Rauchenbacher u. K. Serles: Proseminar _Erzählte Körper – Gezeichnete Blicke_ (SoSe 2014, Institut für Germanistik, Universität Wien)
+### Teaching
+- Rauchenbacher, Marina. Graduate seminar _In Wort und Bild: Strategien des Erzählens in Comics_ (fall 2024, Department of German Philology, University of Vienna).
+Serles, Katharina. _Mind the Gap: Comictheorie_ (spring 2024, Kunstschule Wien).
+Serles, Katharina. _Mit der Axt im Auge: Comictheorie_ (fall 2023, Kunstschule Wien).
+Hochreiter, Susanne. :Hybride Körper in Comics und Graphic Novels: Fortbildung für Lehrende_ (KPH Vienna, Bildungszentrum Lacknergasse, October 12, 2023).
+Rauchenbacher, Marina. _Leben sehen: (Auto)Biografische Comics_ (March 2023, _Literarische Kurse: Fernkurs für Literatur_, Wien).
+Rauchenbacher, Marina. Undergraduate seminar _Krankheit und Dis_ability in deutschsprachigen Comics_ (fall 2021, Department of German Philology, University of Vienna).
+Rauchenbacher, Marina. Lecture _Verborgen : Im Zentrum : Dazwischen: Kranke Körper in Heidi-Comics_ (spring 2021, lecture series _Wiedersehen mit Heidi / Re-reading Heidi_, organized by Linda Leskau and Sigrid Nieberle, Institute für Diversity Studies, TU Dortmund).
+Hochreiter, Susanne, Marina Rauchenbacher, and Katharina Serles. Lecture Series _Gender Studies – Comics Studies_ (fall 2020, Master Program Gender Studies, University of Vienna).
+Rauchenbacher, Marina. Seminar _Kranke Körper-Zeichen: Geschlecht und psychische Erkrankungen in Comics_ (spring 2020, Master Program Gender Studies, University of Vienna).
+Rauchenbacher, Marina, and Katharina Serles. _Seminar Klonk! Gurgl? Pling!_ (July 2020, Vienna Children’s University). 
+Hochreiter, Susanne. _Grafisches Erzählen und Literaturcomics_ (February 3-5, 2020, HU Berlin).
+Rauchenbacher, Marina, and Katharina Serles. Undergraduate seminar _Körper-Zeichen: Gender und Diversität in deutschsprachigen Comics_ (fall 2018, Department of German Philology, University of Vienna).
+Serles, Katharina. Seminar _Blickregime/Blickperformances_ (spring 2017, Applied Theatre Studies and Production Dramaturgy, HfBK Dresden).
+Serles, Katharina. _(Un)folding Time and Space: Timeframes, Storyboards und Nonlineares Erzählen_ (fall 2016, Study program _Stage Setting and Costume Design_, HfBK Dresden & Study program _Stage Directing_, Theaterakademie August Everding Munich).
+Rauchenbacher, Marina, and Katharina Serles. Undergraduate seminar _Erzählte Körper – Gezeichnete Blicke_ (winter 2014, Department of German Philology, University of Vienna).
+
 
 # Diskussionen, Moderationen, Interviews, Workshops
 - M. Rauchenbacher: Moderation und Künstler*innengespräche, 1. Kooperationsveranstaltung der Österreichischen Gesellschaft für Comics mit dem Literaturhaus Wien: Präsentation der Anthologie _SPROSS #2_, Literaturhaus Wien, 3. April 2024  
