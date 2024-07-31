@@ -1,7 +1,7 @@
 ---
 title: Kooperationen.
-description: GenderComics kooperiert mit den folgenden Forscher_innen und Institutionen.
+description: GenderComics cooperates with the following resesarchers, projects, and institutions.
 type: index
 ---
 
-GenderComics kooperiert mit den folgenden **Forscher_innen und Institutionen**.
+GenderComics cooperates with the following **resesarchers, projects, and institutions**.
