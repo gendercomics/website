@@ -1,7 +1,7 @@
 ---
-title: Kooperationen.
-description: GenderComics cooperates with the following resesarchers, projects, and institutions.
+title: Collaborations.
+description: gendercomics collaborates with the following resesarchers, projects, and institutions.
 type: index
 ---
 
-GenderComics cooperates with the following **resesarchers, projects, and institutions**.
+_gendercomics_ collaborates with the following **resesarchers, projects, and institutions**.
