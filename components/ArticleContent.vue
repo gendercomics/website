@@ -9,10 +9,6 @@ const props = defineProps({
 const doc = await useAsyncData('doc', () =>
   queryContent(props.content).findOne(),
 )
-
-onMounted(() => {
-  console.log('debug: ' + JSON.stringify(doc.data.value.image))
-})
 </script>
 
 <template>
