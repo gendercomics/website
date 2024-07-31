@@ -1,7 +1,7 @@
 ---
 title: Team.
-description: Das sind die Menschen hinter GenderComics.
+description: These are the people behind gendercomics.
 type: index
 ---
 
-Das sind **die Menschen** hinter GenderComics.
+These are **the people** behind _gendercomics_.
