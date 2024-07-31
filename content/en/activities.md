@@ -14,7 +14,7 @@ caption: Regina Hofer
 - forthcoming: Rauchenbacher, Marina, Katharina Serles, and Naomi Lobnig, editors. _Comics Studies x Gender Studies. Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice_, in collaboration with Susanne Hochreiter. Berlin: Walter de Gruyter. 
 - Loidl, Sonja, Susanne Hochreiter, Marina Rauchenbacher, and Katharina Serles, editors. _Graphisches Erzählen in der Kinder- und Jugendliteratur_. Vienna: Praesens Verlag, 2024, Wiener Vorlesungen zur Kinder- und Jugendliteratur 2.
 - Hochreiter, Susanne, Marina Rauchenbacher, and Katharina Serles, editors. _Comics aus und über Österreich_, special issue of _Journal of Austrian Studies_, vol. 55, no. 2, 2022. [https://doi.org/10.1353/oas.2022.0028](https://doi.org/10.1353/oas.2022.0028)
-- Masel, Eva Katharina, Andrea Praschinger, Marina Rauchenbacher, and Ruth Kutalek, editors. _Körper – Body_. Medical University Wien, 2020.
+- Masel, Eva Katharina, Andrea Praschinger, Marina Rauchenbacher, and Ruth Kutalek, editors. _Körper – Body_. Vienna General Hospital and Medical University Vienna, 2020.
 - Hochreiter, Susanne, and Ursula Klingenböck, editors. _Bild ist Text ist Bild: Narration und Ästhetik in der Graphic Novel_. Bielefeld: transcript, 2014.
 
 
@@ -78,8 +78,8 @@ caption: Regina Hofer
 - Rauchenbacher, Marina. Endorsement for _Graphic Novels and Comics as World Literature_, edited by James Hodapp (New York, Bloomsbury, 2022).
 - Lobnig, Naomi. “Queerfeministische Comic-Kunst: Das widerständige Potenzial von Comics.” _an.schläge_, no. 5, 2022.
 - Serles, Katharina. “Bei_strich: Ein Vor_wort.” _COMMA: Comic Magazin Austria_, no. 1, 2022, pp. 3.
-- Rauchenbacher, Marina. “Comics – Graphic Medicine – Comics.” Körper – Body, edited by Eva Katharina Masel, Andrea Praschinger, Marina Rauchenbacher, and Ruth Kutalek. Medical University Wien, 2020, pp. 12-13.
-- Rauchenbacher, Marina. “Was können Comics? Sie können viel. Sie können mehr.” Renate Mowlam. _Was ist ein Comic?_ Medical University Wien, 2020, p. 3; (engl.: “What can Comics achieve? They can achieve a lot. They can achieve much more.” Renate Mowlam. _What is a Comic?_ Medical University of Vienna 2020, p. 3).
+- Rauchenbacher, Marina. “Comics – Graphic Medicine – Comics.” Körper – Body, edited by Eva Katharina Masel, Andrea Praschinger, Marina Rauchenbacher, and Ruth Kutalek. Vienna General Hospital and Medical University Vienna, 2020, pp. 12-13.
+- Rauchenbacher, Marina. “Was können Comics? Sie können viel. Sie können mehr.” Renate Mowlam. _Was ist ein Comic?_ Vienna General Hospital and Medical University Vienna, 2020, p. 3; (engl.: “What can Comics achieve? They can achieve a lot. They can achieve much more.” Renate Mowlam. _What is a Comic?_ Vienna General Hospital and Medical University Vienna, 2020, p. 3).
 - Serles, Katharina. “Gemachter Sex.” _Spring_, no. 14, 2020, pp. 4-5.
 
 
@@ -133,82 +133,86 @@ caption: Regina Hofer
 
 ### Teaching
 - Rauchenbacher, Marina. Graduate seminar _In Wort und Bild: Strategien des Erzählens in Comics_ (fall 2024, Department of German Philology, University of Vienna).
-Serles, Katharina. _Mind the Gap: Comictheorie_ (spring 2024, Kunstschule Wien).
-Serles, Katharina. _Mit der Axt im Auge: Comictheorie_ (fall 2023, Kunstschule Wien).
-Hochreiter, Susanne. :Hybride Körper in Comics und Graphic Novels: Fortbildung für Lehrende_ (KPH Vienna, Bildungszentrum Lacknergasse, October 12, 2023).
-Rauchenbacher, Marina. _Leben sehen: (Auto)Biografische Comics_ (March 2023, _Literarische Kurse: Fernkurs für Literatur_, Wien).
-Rauchenbacher, Marina. Undergraduate seminar _Krankheit und Dis_ability in deutschsprachigen Comics_ (fall 2021, Department of German Philology, University of Vienna).
-Rauchenbacher, Marina. Lecture _Verborgen : Im Zentrum : Dazwischen: Kranke Körper in Heidi-Comics_ (spring 2021, lecture series _Wiedersehen mit Heidi / Re-reading Heidi_, organized by Linda Leskau and Sigrid Nieberle, Institute für Diversity Studies, TU Dortmund).
-Hochreiter, Susanne, Marina Rauchenbacher, and Katharina Serles. Lecture Series _Gender Studies – Comics Studies_ (fall 2020, Master Program Gender Studies, University of Vienna).
-Rauchenbacher, Marina. Seminar _Kranke Körper-Zeichen: Geschlecht und psychische Erkrankungen in Comics_ (spring 2020, Master Program Gender Studies, University of Vienna).
-Rauchenbacher, Marina, and Katharina Serles. _Seminar Klonk! Gurgl? Pling!_ (July 2020, Vienna Children’s University). 
-Hochreiter, Susanne. _Grafisches Erzählen und Literaturcomics_ (February 3-5, 2020, HU Berlin).
-Rauchenbacher, Marina, and Katharina Serles. Undergraduate seminar _Körper-Zeichen: Gender und Diversität in deutschsprachigen Comics_ (fall 2018, Department of German Philology, University of Vienna).
-Serles, Katharina. Seminar _Blickregime/Blickperformances_ (spring 2017, Applied Theatre Studies and Production Dramaturgy, HfBK Dresden).
-Serles, Katharina. _(Un)folding Time and Space: Timeframes, Storyboards und Nonlineares Erzählen_ (fall 2016, Study program _Stage Setting and Costume Design_, HfBK Dresden & Study program _Stage Directing_, Theaterakademie August Everding Munich).
-Rauchenbacher, Marina, and Katharina Serles. Undergraduate seminar _Erzählte Körper – Gezeichnete Blicke_ (winter 2014, Department of German Philology, University of Vienna).
+- Serles, Katharina. _Mind the Gap: Comictheorie_ (spring 2024, Kunstschule Wien).
+- Serles, Katharina. _Mit der Axt im Auge: Comictheorie_ (fall 2023, Kunstschule Wien).
+- Hochreiter, Susanne. :Hybride Körper in Comics und Graphic Novels: Fortbildung für Lehrende_ (KPH Vienna, Bildungszentrum Lacknergasse, October 12, 2023).
+- Rauchenbacher, Marina. _Leben sehen: (Auto)Biografische Comics_ (March 2023, _Literarische Kurse: Fernkurs für Literatur_, Wien).
+- Rauchenbacher, Marina. Undergraduate seminar _Krankheit und Dis_ability in deutschsprachigen Comics_ (fall 2021, Department of German Philology, University of Vienna).
+- Rauchenbacher, Marina. Lecture _Verborgen : Im Zentrum : Dazwischen: Kranke Körper in Heidi-Comics_ (spring 2021, lecture series _Wiedersehen mit Heidi / Re-reading Heidi_, organized by Linda Leskau and Sigrid Nieberle, Institute für Diversity Studies, TU Dortmund).
+- Hochreiter, Susanne, Marina Rauchenbacher, and Katharina Serles. Lecture Series _Gender Studies – Comics Studies_ (fall 2020, Master Program Gender Studies, University of Vienna).
+- Rauchenbacher, Marina. Seminar _Kranke Körper-Zeichen: Geschlecht und psychische Erkrankungen in Comics_ (spring 2020, Master Program Gender Studies, University of Vienna).
+- Rauchenbacher, Marina, and Katharina Serles. _Seminar Klonk! Gurgl? Pling!_ (July 2020, Vienna Children’s University). 
+- Hochreiter, Susanne. _Grafisches Erzählen und Literaturcomics_ (February 3-5, 2020, HU Berlin).
+- Rauchenbacher, Marina, and Katharina Serles. Undergraduate seminar _Körper-Zeichen: Gender und Diversität in deutschsprachigen Comics_ (fall 2018, Department of German Philology, University of Vienna).
+- Serles, Katharina. Seminar _Blickregime/Blickperformances_ (spring 2017, Applied Theatre Studies and Production Dramaturgy, HfBK Dresden).
+- Serles, Katharina. _(Un)folding Time and Space: Timeframes, Storyboards und Nonlineares Erzählen_ (fall 2016, Study program _Stage Setting and Costume Design_, HfBK Dresden & Study program _Stage Directing_, Theaterakademie August Everding Munich).
+- Rauchenbacher, Marina, and Katharina Serles. Undergraduate seminar _Erzählte Körper – Gezeichnete Blicke_ (winter 2014, Department of German Philology, University of Vienna).
 
 
-# Diskussionen, Moderationen, Interviews, Workshops
-- M. Rauchenbacher: Moderation und Künstler*innengespräche, 1. Kooperationsveranstaltung der Österreichischen Gesellschaft für Comics mit dem Literaturhaus Wien: Präsentation der Anthologie _SPROSS #2_, Literaturhaus Wien, 3. April 2024  
-- M. Rauchenbacher: Moderation und Künstler*innengespräche, Suuuper-Samstag, Nextcomic Festival 2024, 16. März 2024
-- K. Serles: _ComicMonday: Lesung und Gespräch mit Ilse Kilic und Fritz Widhalm_, Österreichische Gesellschaft für Comics, Rooming Inn Wien, 29. Jänner 2024
-- M. Rauchenbacher: ComicMonday: Gespräch mit Darren Fisher, Österreichische Gesellschaft für Comics, 26. Februar 2023, Rooming Inn Wien
-- M. Rauchenbacher:  Künstler*innengespräch mit Regina Hofer und Leopold Maurer, Sigmund Freud Museum Wien, 15. Februar 2024
-- M. Rauchenbacher: Künstlerinnengespräch mit Inna Sahakyan zu ihrem Film _Aurora’s Sunrise_, VWI Visual, Wiener Wiesenthal Institut für Holocaust-Studien, 30. November 2023
-- M. Rauchenbacher: ComicMonday, Moderation und Gespräch mit Raoul Eisele und Monika Ernst, Österreichische Gesellschaft für Comics, 27. November 2023, Rooming Inn Wien
-- M. Rauchenbacher:  Eröffnungsvortrag zur Teil-Ausstellung _Gewalt erzählen. Eine Comic-Ausstellung_, Veranstaltungszentrum Kolarac, Belgrad, 18. November 2023
-- M. Rauchenbacher: Künstlerinnengespräch mit Anke Feuchtenberger, Kooperation Sigmund Freud Museum Wien und Vienna Art Week, 16. November 2023
-- M. Rauchenbacher: Eröffnungsvortrag zur Ausstellung _Gewalt erzählen. Eine Comic-Ausstellung_, Sigmund Freud Museum Wien, 19. Oktober 2023
-- M. Rauchenbacher: Podiumsdiskussion zur Arbeit Anke Feuchtenbergers, „Zeichnen als Wunscherfüllung“ – Ein Fest für Anke Feuchtenberger, 28. bis 29. September 2023
-- M. Rauchenbacher: Künstler*innengespräche mit Janne Marie Dauer und Vinz Schwarzbauer, Literaturmeile Zieglergasse, 16. September 2023
-- M. Rauchenbacher: Podiumsdiskussion zu Emma Calders _Beware of Trains_, Tricky Women/Tricky Realities, Sigmund Freud Museum Wien, 22. Juni 2023
-- M. Rauchenbacher: _ComicMonday: Moderation und Gespräch mit Ranthild Salzer_, Österreichischen Gesellschaft für Comics, 3. Juli 2023
-- K. Serles: Interview zum Thema _Geschichte und Ausblick der Comicszene in Österreich_, Radio Fro, April 2023, https://www.fro.at/geschichte-und-ausblick-der-comicszene-in-oesterreich-2
-- K. Serles: Moderation des _Suuuper Samstags_, Nextcomic Festival, 18. März 2023
-- M. Rauchenbacher: Podiumsdiskussion zu Tal Kantors _Letter to a Pig_, Tricky Women/Tricky Realities, Sigmund Freud Museum Wien, 20. April 2023
-- R. Becker, N. Bulling, J. Rutar, K. Serles: K. Serles: _WHAT TO DO WITH FACTS AND FIGURES? Fragebogen für Comic-Arbeiter*innen_, Trafohaus, Documenta 15, Kassel, 2. September 2022
-- K. Serles: Eröffnungsgespräch der Fensterausstellung von Maria Frenay, Österreichische Gesellschaft für Comics, Agentur Raumpioniere Wien, 1. Juli – 30. September 2022
-- K. Serles: _ComicMonday: Gespräch mit Barbara Juch_, Österreichische Gesellschaft für Comics, online, 13. Juni 2022
-- K. Serles: _ComicMonday: Gespräch mit Martin Erasmus_, Österreichische Gesellschaft für Comics, online, 25. April 2022
-- M. Rauchenbacher u. K. Serles: _Präsentation der Comic-Karte Wien, Suuuper Sonntag_, Nextcomic Festival, 13. März 2022
-- K. Serles: _ComicMonday: Gespräch mit Christoph Keller_, Österreichische Gesellschaft für Comics, online, 28. Februar 2022
-- M. Rauchenbacher: Gespräch mit Vina Yun über _Homestories_, 16. Jahrestagung der Gesellschaft für Comicforschung, Universität Salzburg, online, 14.–16. Oktober 2021
-- M. Rauchenbacher: Künstlerinnengespräch mit Nina Hable, Michael Hacker, Albert Mitringer, Renate Mowlam und Franz Suess, Literaturmeile Zieglergasse, 17. September 2021
-- K. Serles: Interview zum Thema _Comic und Forschung_, Podcast _Reden wir über Kunst!_, Kunstmeile Krems, 15. Juli 2021, https://kunstmeilekrems.podigee.io/8-neue-episode
-- S. Hochreiter: _about dance, comics, and survival._ Workshop mit maRia Probst. im Rahmen von: per/mutation (annual IDOCDE symposium; Impulstanz), 31. Juli 2021
-- M. Rauchenbacher: Interview zur Österreichischen Gesellschaft für Comics und dem Forschungsprojekt _Visualitäten von Geschlecht in deutschsprachigen Comics_, Nerdsisters, Folge 52, Juni 2021 https://nerdsisters.at/episoden/
-- M. Rauchenbacher u. K. Serles: _Off the Blob. Gespräch mit Renate Mowlam_, Nextcomic Festival, Mai 2021, https://www.youtube.com/watch?v=8b6FTv79eas
-- B. Frena, M. Rauchenbacher, K. Serles: _ComicMonday: Gespräch mit Sebastian Broskwa und Malte Steinhausen_, Österreichische Gesellschaft für Comics, online, 14. April 2021
-- S. Hochreiter, M. Rauchenbacher u. K. Serles: Online-Workshop Projekt _Visualities of Gender in German-Language Comics_ mit internationalen Projektpartner*innen, 14.–15. Dezember 2020
-- K. Serles: _ComicMonday: Gespräch mit Renate Mowlam, Barbara M. Eggert und Horst Stein_, Österreichische Gesellschaft für Comics, online, 6. Juli 2020
-- B. Frena, M. Rauchenbacher u. K. Serles: _Vi-ral-enna. Tracing Comics Through Vienna in Times of Corona_, Online-Summer Session Comics and Society der Nordic Summer University, 26. Juni–3. August 2020
-- K. Serles: _ComicMonday: Gespräch mit Barbara M. Eggert und Gottfried Gusenbauer_, Österreichische Gesellschaft für Comics, online, 23. März 2020
-- M. Rauchenbacher u. K. Serles: _GRENZ|KÖRPER|RÄNDER. TRANS|GENDER IN DEUTSCHSPRACHIGEN COMICS_. Lesekreis von aka – Arbeitskreis Kulturanalyse, Oktober 2019
+### Discussions, Moderations, Interviews, and Workshops
+- Serles, Katharina. Moderation and artist talk: _Drei oder vier Bagatellen_, by Franz Suess, 2nd cooperation event of the Austrian Association for Comics and Literaturhaus Vienna, June 14, 2024.
+- Rauchenbacher, Marina. Moderation and artist talks _SPROSS #2: Blau sein_, edited by Janne Marie Dauer, 1st cooperation event of the Austrian Association for Comics and Literaturhaus Vienna, Literaturhaus Vienna, April 3, 2024.
+- Rauchenbacher, Marina. Moderation and artist talks, Suuuper-Samstag, Nextcomic Festival 2024, March 16, 2024.
+- Serles, Katharina. ComicMonday: presentation and artist talk with Ilse Kilic and Fritz Widhalm, Austrian Association for Comics, Rooming Inn Vienna, January 29, 2024.
+- Rauchenbacher, Marina. ComicMonday: presentation and artist talk with Darren C. Fisher, Austrian Association for Comics, Rooming Inn Vienna, February 26, 2024.
+- Rauchenbacher, Marina. Artist talk with Regina Hofer and Leopold Maurer, Sigmund Freud Museum Vienna, February 15, 2024.
+- Rauchenbacher, Marina. Artist talk with Inna Sahakyan about her film _Aurora’s Sunrise_, VWI Visual, Wiener Wiesenthal Institut für Holocaust-Studien, November 30, 2023.
+- Rauchenbacher, Marina. ComicMonday: presentation and artist Talk with Raoul Eisele and Monika Ernst, Austrian Association for Comics, Rooming Inn Vienna, November 27, 2023.
+- Rauchenbacher, Marina. Opening lecture for the partial exhibition _Narrating Violence: A Comic Exhibition_, Event Center Kolarac, Belgrade, November 18, 2023.
+- Rauchenbacher, Marina. Artist Talk with Anke Feuchtenberger, Sigmund Freud Museum Vienna and Vienna Art Week, November 16, 2023.
+- Rauchenbacher, Marina. Opening lecture for the exhibition _Narrating Violence: A Comic Exhibition_, Sigmund Freud Museum Vienna, October 19, 2023.
+- Rauchenbacher, Marina. Panel discussion about the work of Anke Feuchtenberger, Symposium _Zeichnen als Wunscherfüllung – Ein Fest für Anke Feuchtenberger_, September 28-29, 2023.
+- Rauchenbacher, Marina. Artist talks with Janne Marie Dauer and Vinz Schwarzbauer, Literaturmeile Zieglergasse, September 16, 2023.
+- Rauchenbacher, Marina. ComicMonday: talk with Ranthild Salzer, Austrian Association for Comics, online, July 3, 2023.
+- Rauchenbacher, Marina. Panel discussion about Emma Calders _Beware of Trains_, Tricky Women/Tricky Realities, Sigmund Freud Museum Vienna, June 22, 2023.
+- Rauchenbacher, Marina. Interview about the Austrian Association for Comics and the research project _Visualities of Gender in German-language Comics_, Nerdsisters, Folge 52, June 2023 [https://nerdsisters.at/episoden/](https://nerdsisters.at/episoden/).
+- Serles, Katharina. Interview _Geschichte und Ausblick der Comicszene in Österreich_, Radio Fro, April 2023, [https://www.fro.at/geschichte-und-ausblick-der-comicszene-in-oesterreich-2](https://www.fro.at/geschichte-und-ausblick-der-comicszene-in-oesterreich-2).
+- Serles, Katharina. Moderation and artist talks, Suuuper-Samstag, Nextcomic Festival 2023, March 18, 2023.
+- Rauchenbacher, Marina. Panel discussion about Tal Kantors _Letter to a Pig_, Tricky Women/Tricky Realities, Sigmund Freud Museum Vienna, April 20, 2023.
+- Becker, Romain, Nino Bulling, Jana Rutar, and Katharina Serles. _WHAT TO DO WITH FACTS AND FIGURES? Fragebogen für Comic-Arbeiter*innen_, Trafohaus, Documenta 15, Kassel, September 2, 2022.
+- Serles, Katharina. Opening talk for a “window exhibition“ by Maria Frenay, Austrian Association for Comics, Agentur Raumpioniere Vienna, July 1, 2022.
+- Serles, Katharina. ComicMonday: talk with Barbara Juch, Austrian Association for Comics, online, June 13, 2022,
+- Serles, Katharina. ComicMonday: talk with Martin Erasmus, Austrian Association for Comics, online, April 25, 2022.
+- Rauchenbacher, Marina, and Katharina Serles. Presentation of the Viennese Comics Map, Suuuper-Sonntag, Nextcomic Festival, March 13, 2022.
+- Serles, Katharina. ComicMonday: talk with Christoph Keller, Austrian Association for Comics, online, February 28, 2022.
+- Rauchenbacher, Marina. Artist talk with Vina Yun about _Homestories_, Annual Conference of the German Society for Comic Studies, University of Salzburg, online, October 14-16, 2021.
+- Rauchenbacher, Marina. Artist talks with Nina Hable, Michael Hacker, Albert Mitringer, Renate Mowlam, and Franz Suess, Literaturmeile Zieglergasse, September 17, 2021.
+- Serles, Katharina. Interview _Comic und Forschung_, Podcast _Reden wir über Kunst!_, Kunstmeile Krems, July 15, 2021, [https://kunstmeilekrems.podigee.io/8-neue-episode](https://kunstmeilekrems.podigee.io/8-neue-episode).
+- Hochreiter, Susanne, and maRia Probst. _about dance, comics, and survival. per/mutation_. Annual IDOCDE Symposium, Vienna, July 31, 2021.
+- Rauchenbacher, Marina, and Katharina Serles. _Off the Blob_. Artist talk with Renate Mowlam, Nextcomic Festival, May 2021, [https://www.youtube.com/watch?v=8b6FTv79eas](https://www.youtube.com/watch?v=8b6FTv79eas).
+- Frena, Bernhard, Marina Rauchenbacher, and Katharina Serles: ComicMonday: talk with Sebastian Broskwa and Malte Steinhausen, Austrian Association for Comics, online, April 14, 2021.
+- Hochreiter, Susanne, Marina Rauchenbacher, and Katharina Serles. Online workshop _Visualities of Gender in German-Language Comics with international project partners_, December 14-15, 2020.
+- Serles, Katharina. ComicMonday: talk with Renate Mowlam, Barbara M. Eggert, and Horst Stein, Austrian Association for Comics, online, July 6, 2020.
+- Serles, Katharina. ComicMonday: talk with Barbara M. Eggert and Gottfried Gusenbauer, Austrian Association for Comics, online, March 23, 2020.
+- Rauchenbacher, Marina, and Katharina Serles. _GRENZ|KÖRPER|RÄNDER: TRANS|GENDER IN DEUTSCHSPRACHIGEN COMICS_. Reading group, aka – Arbeitskreis Kulturanalyse, October 2019.
 
-# Ausstellungen
-- M. Rauchenbacher: Kuration der Ausstellung _Gewalt erzählen. Eine Comic-Ausstellung_, Sigmund Freud Museum Wien, Oktober 2023–April 2024 (Teilausstellung im Kulturforum Belgrad, Veranstaltungszentrum Kolarac, 19. November 2023–2. Dezember 2023)
-- M. Rauchenbacher: Kuration der Ausstellung _Comics aus Österreich II_, Literaturmeile Zieglergasse, 16. September 2023
-- M. Rauchenbacher: Kuration der Ausstellung _Comics aus Österreich I_, Literaturmeile Zieglergasse, 17. September 2022
-- K. Serles: Kuration der _Fensterausstellung_ von Maria Frenay, Österreichische Gesellschaft für Comics, Agentur Raumpioniere Wien, 1. Juli–30. September 2022
-- E. K. Masel, A. Praschinger, M. Rauchenbacher u. R. Kutalek: Kuration der _Art – Action – Attitude: Körper/Body_, AKH/Medizinische Universität Wien, März–Juni 2021
 
-# Betreuung von Abschlussarbeiten
-- M. Rauchenbacher: _Erin Sedelmaier: Verwandtschaft zwischen Körpern in Luke Pearsons Hilda-Comics (Masterarbeit, Masterstudium Gender Studies, Universität Wien)_, laufend
-- M. Rauchenbacher: _Fiona Sironic: Potentiale queerfeministischer Perspektiven für das Medium Videospiel (Masterarbeit, Masterstudium Gender Studies, Universität Wien)_, laufend
-- M. Rauchenbacher: _Naomi Lobnig: Alternative Krankheitsnarrative in den Comics Vergiss dich nicht von Lika Nüssli und Aliceheimer’s von Dana Walrath (Masterarbeit, Institut für Germanistik, Universität Wien)_, abgeschlossen 2022
+# Exhibitions
+- Rauchenbacher, Marina. Curation of the exhibition _Narrating Violence: A Comic Exhibition_, Sigmund Freud Museum Vienna, October 2023–April 2024 (partial exhibition: Event Center Kolarac, Belgrade, November 18-December 2, 2023).
+- Rauchenbacher, Marina. Curation of the exhibition _Comics aus Österreich II_, Literaturmeile Zieglergasse, September 16, 2023.
+- Rauchenbacher, Marina. Curation of the exhibition _Comics aus Österreich I_, Literaturmeile Zieglergasse, September 17, 2022.
+- Serles, Katharina. Curation of a “window exhibition” by Maria Frenay, Austrian Association for Comics, Agentur Raumpioniere Wien, July 1–September 30, 2022.
+- Masel, Eva K., Andrea Praschinger, Marina Rauchenbacher, and Ruth Kutalek. Curation of the exhibition _rt – Action – Attitude: Körper/Body_, Vienna General Hospital and Medical University Vienna, March-June 2021.
 
-# Review-Tätigkeit
-- M. Rauchenbacher: Mitglied des Advisory Boards der Reihe _Comicstudien_, de Gruyter Verlag (seit 2020)
-- M. Rauchenbacher: Gutachterin für _European Comic Art_ (2021)
-- M. Rauchenbacher: Gutachterin für Seminar. _A Journal of Germanic Studies_ (2020)
+# Supervision of Final Theses
+- Rauchenbacher, Marina – Erin Sedelmaier. _Verwandtschaft zwischen Körpern in Luke Pearsons Hilda-Comics_. University of Vienna, Master thesis, ongoing.
+- Rauchenbacher, Marina – Fiona Sironic. _Potentiale queerfeministischer Perspektiven für das Medium Videospiel_. University of Vienna, Master thesis, ongoing. 
+- Hochreiter, Susanne – Ines Christina Höfer. _Queere Beziehungsgeflechte und Identitätsfragen in Entenhausen: Ein Queer Reading ausgewählter Comics_. University of Vienna, Master thesis, 2023.  
+- Rauchenbacher, Marina – Naomi Lobnig. _Alternative Krankheitsnarrative in den Comics_ Vergiss dich nicht _von Lika Nüssli und_ Aliceheimer’s _von Dana Walrath_. University of Vienna, Master thesis, 2022.
 
-# Preise und Förderungen
-- FWF-open-access-Förderung für M. Rauchenbacher, K. Serles u. N. Lobnig (Hg.): _Comics Studies x Gender Studies. Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice._ Unter Mitarbeit v. S. Hochreiter. Berlin, Boston: de Gruyter (Comicstudien X).
-- Will Eisner Comic Industry Award for Best Academic/Scholarly Work 2023: Alison Halsall und Jonathan Warren (Hg.): _The LGBTQ+ Comics Studies Reader: Critical Openings, Future Directions._ Jackson: UP of Mississippi, 2022 (darin: S. Hochreiter, M. Rauchenbacher u. K. Serles: Queer Visualities­–Queer Spaces. German-Language LGBTQ+ Comics, S. 114–133)
+# Review Activities
+- Rauchenbacher, Marina. Member of the advisory board of the series _Comicstudien_, Walter de Gruyter (since 2020).
+- Rauchenbacher, Marina. Reviewer for _European Comic Art_ (2021)
+- Rauchenbacher, Marina. Reviewer for _Seminar: A Journal of Germanic Studies_ (2020)
 
-# Pressespiegel
-- M. Mayer: _Geliebte Stereotype_, morgen 274: „Schmäh“, Mai 2022, https://www.morgen.at/schmaeh/geliebte-stereotype.
-- B. Mader: _Wonderwomans unsägliche Lovestory_, Kurier, 31. Mai 2020, https://kurier.at/wissen/wissenschaft/wonderwomans-unsaegliche-lovestory/400937030.
-- B. Hausbichler u. K. Krichmayr: _Gender im Comic: „Jeder Comic-Körper ist ambivalent“_, Der Standard, 10. Juni 2020, https://www.derstandard.at/story/2000117983669/gender-im-comic-jeder-comic-koerper-ist-ambivalent.
-- U. Schmitzer: _SALZBURGER NACHTSTUDIO X-Men. Das Prinzip Superhero_, Ö1, 4. März 2020.
+# Awards and Grants
+- 2024: FWF open access grant: Marina Rauchenbacher, Katharina Serles, and Naomi Lobnig, eds. _Comics Studies x Gender Studies: Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice_. Berlin, Walter de Gruyter, forthcoming. Grant-DOI: [10.55776/PUB1145](https://www.fwf.ac.at/forschungsradar/10.55776/PUB1145).
+- 2023: Will Eisner Comic Industry Award for Best Academic/Scholarly Work 2023: Alison Halsall and Jonathan Warren, eds. _The LGBTQ+ Comics Studies Reader: Critical Openings, Future Directions_. Jackson: UP of Mississippi, 2022 (therein: Susanne Hochreiter, Marina Rauchenbacher, and Katharina Serles. “Queer Visualities ­– Queer Spaces. German-Language LGBTQ+ Comics”, pp. 114-33.)
+- 2019: FWF research grant for the project _Visualities of Gender in German-language Comics_, Grant-DOI: [10.55776/P31925](https://www.fwf.ac.at/forschungsradar/10.55776/P31925).
+
+
+# Press reviews
+- Mayer, Magdalena. “Geliebte Stereotype.” _morgen_, no. 274, May 2022, [https://www.morgen.at/schmaeh/geliebte-stereotype](https://www.morgen.at/schmaeh/geliebte-stereotype).
+- Beer, Barbara. “Wonderwomans unsägliche Lovestory.” _Kurier_, May 31, 2020, [https://kurier.at/wissen/wissenschaft/wonderwomans-unsaegliche-lovestory/400937030](https://kurier.at/wissen/wissenschaft/wonderwomans-unsaegliche-lovestory/400937030).
+- Hausbichler, Beate, and Karin Krichmayr. “Gender im Comic: ’Jeder Comic-Körper ist ambivalent.’ _Der Standard_, June 10, 2020, [https://www.derstandard.at/story/2000117983669/gender-im-comic-jeder-comic-koerper-ist-ambivalent](https://www.derstandard.at/story/2000117983669/gender-im-comic-jeder-comic-koerper-ist-ambivalent).
+- Schmitzer, Ulrike. “SALZBURGER NACHTSTUDIO X-Men: Das Prinzip Superhero.” _Ö1_, March 4, 2020.
