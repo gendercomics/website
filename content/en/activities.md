@@ -83,53 +83,53 @@ caption: Regina Hofer
 - Serles, Katharina. “Gemachter Sex.” _Spring_, no. 14, 2020, pp. 4-5.
 
 
-### Scientific Talks
-- Serles, Katharina. “Du siehst aus wie ein Bauer”: Verkörperte Klasse in Eva Müllers Scheiblettenkind (2023), Comicsalon Erlangen, June 2, 2024.
-Rauchenbacher, Marina. Arranged in Color. Janne Marie Dauer’s Adaptation of Bov Bjerg’s Novel Auerhaus, Narrative Transfers: From the Literary to the Graphic, Université Paul Valéry-Montpellier 3, online, April 25, 2024.
-Serles, Katharina.  “Kauf dir mal ein Buch. Loser!” Klasse, Körper und Kanon in Eva Müllers Scheiblettenkind (2023), Annual Conference of the German Society for Comic Studies, Stiftung Akademie Waldschlösschen, Gleichen, December 11-13, 2023.
-Hochreiter, Susanne, Marina Rauchenbacher, and Katharina Serles. Project Presentation: Visualities of Gender in German-language Comics, University of Music and Performing Arts Vienna, November 23, 2023.
-Serles, Katharina. Organisiert euch! Kontexte und Bedingungen der Comics-Arbeit, Annual Conference of the German Society for Comic Studies,  online, November 16-18, 2022.
-Serles, Katharina. Organisiert euch! Arbeit mit und in Comics, Aktionswoche der Comic Gewerkschaft, Documenta 15, Kassel, August 29-31, 2022.
-Serles, Katharina. Getting Organized: Comics, Communality, and Care, Conference: Comics, Activism, Feminisms, University of Gothenburg, August 17-19, 2022.
-Serles, Katharina. Feministische Kollektive: Spring. Panel Vorbilderinnen im Fokus queer-feministischer Comicforschung (in Cooperation with AG Comicforschung), for the exhibition Vorbilder*innen: Feminismus in Comic und Illustration, Comicsalon Erlangen, June 18, 2022.
-Hochreiter, Susanne. Fathers. Sons. Strangers. Franz Kafka’s The Judgement and The Metamorphosis as Graphic Novels. Annual Conference of the Association of Adaptation Studies: (In)Visible Adaptation. Diversity and Inclusion. Lisbon, June 23-25, 2022.
-Rauchenbacher, Marina. Gender und psychische Erkrankungen in Comics, Workshop Geschlechterdarstellung in visuellen narrativen Medien, University of Salzburg, online, November 13, 2021.
-Rauchenbacher, Marina. Grenzen – Grenzungen – Grenzende Körper: Comics über Flucht/Migration & ihr gesellschaftspolitisches Potenzial, Annual Conference of the AG Comicforschung, October 20-22, 2021.
-Serles, Katharina. Im Transit verloren: Gender-Grenz-Überschreitungen in Franz Suess’ Paul Zwei, Annual Conference of the AG Comicforschung, October 20-22, 2021.
-Hochreiter, Susanne, Naomi Lobnig, Marina Rauchenbacher, and Katharina Serles: Sehen und Gesehen-Werden: Visualitäten von Geschlecht in deutschsprachigen Comics, 8th Annual Conference of the ÖGGF: Gender: Ambivalente Un_Sichtbarkeiten, University of Vienna, September 20-22, 2021.
-Rauchenbacher, Marina. Verborgen : Im Zentrum : Dazwischen: Körper, Dis_ability, Krankheit in Heidi-Comics – am Beispiel Klara, Online-Conference Wiedersehen mit Heidi / Re-reading Heidi, TU Dortmund, September 16-17, 2021.
-Hochreiter, Susanne, Naomi Lobnig, Marina Rauchenbacher, and Katharina Serles: Von Girlsplaining zu Busengewunder. Gender in (feministischen) Comics, Cooperation between Stichwort and Frauenhetz Vienna, May 3, 2021.
-Rauchenbacher, Marina. Familiäre Subversion. Dekonstruktive Potenziale von Wiederholung und Simultaneität in Parsua Bashis Nylon Road, Online-Panel Queering Family, Nextcomic Festival 2021, Linz, March 20, 2021.
-Serles, Katharina. So etwas wie Shape-Shifter? Trans*-Familien in Joris Bas Backers & Nettmanns Familienjuwelen (2018) und Maurizio Onanos Oma Herbert (2019), Online-Panel Queering Family, Nextcomic Festival 2021, Linz, March 20, 2021.
-Serles, Katharina. Der posthumane Körper in Mokis Sumpfland (2019), online lecture series Comic – Kunst – Körper, FU Berlin, January 28, 2021.
-Rauchenbacher, Marina. Unterbrochen. Unabgeschlossen. Unwägbar. Materialisierte, wiederholte, transformierte Comics-Körper, Online-Symposium Gender Revisited. Negotiating Gender in the Age of Posthumanism, University of Graz, December 10-12, 2020.
-Serles, Katharina. “Super Organism Rhizomatic Think Tanks.” Der posthumane Körper in Mokis Sumpfland und Dominik Wendlands Egon, Online Symposium Gender Revisited. Negotiating Gender in the Age of Posthumanism, University of Graz, December 10-12, 2020.
-Frena, Bernhard, Marina Rauchenbacher, and Katharina Serles: Vi-ral-enna: Tracing Comics Through Vienna in Times of Corona, Online-Summer Session Comics and Society der Nordic Summer University, June 26-August 3, 2020.
-Rauchenbacher, Marina. KörperZeiten – ZeitKörper in Marcel Beyers / Ulli Lusts Flughunde (1995 / 2013), Online-Workshop KörperZeiten. Darstellungen „anderen“ Zeiterlebens in Literatur und Comic / CorpoRealities: Perceptions of Extraordinary Time in Literature and Comics, FU Berlin, June 25-27, 2020.
-Serles, Katharina. „Die Axt im Auge“: Comics sehen, denken und vermitteln, Lecture Series Bits & Bites, Zentrum Didaktik für Kunst und interdisziplinären Unterricht, University of Applied Arts Vienna, June 4, 2020.
-Rauchenbacher, Marina, and Katharina Serles: Theorizing Visualities of Gender and Feminism in German-Language Comics, Konferenz Comics and Feminism, Södertörn University, Stockholm, February 19-20, 2020.
-Rauchenbacher, Marina, and Katharina Serles: Visualitäten von Geschlecht in deutschsprachigen Comics, Kunstschule Vienna, February 3, 2020.
-Rauchenbacher, Marina. Who (and where) is Alice? Anke Feuchtenberger’s Adaptation of Lewis Carroll’s Alice, Annual Conference of the German Society for Comic Studies, Erika Fuchs-Haus, Schwarzenbach a. d. Saale, November 8-10, 2019.
-Serles, Katharina. Visualities of Gender in German-language Comics, Annual Conference of the German Society for Comic Studies, Erika Fuchs-Haus, Schwarzenbach a. d. Saale, November 8-10, 2019.
-Rauchenbacher, Marina. StimmBilder. Kreation und Erosion von Stimmen und Körpern in Ulli Lusts und Marcel Beyers Flughunde, Workshop Musik – Gender – Manga, Workshop Musik – Gender – Manga, University of Music and Performative Arts, Vienna, September 19-20, 2019.
-Serles, Katharina. “als ob ich in einem meiner eigenen Songs gefangen wäre”: Musik und Männlichkeit in Reinhards Kleists Nick Cave. Mercy on me, Workshop Musik – Gender – Manga, Workshop Musik – Gender – Manga, University of Music and Performative Arts, Vienna, September 19-20, 2019.
-Rauchenbacher, Marina. Bringing Viewpoints to Mind: German-Language Comics on Flight and Migration, 2nd Annual Conference of the Comics Studies Society, Toronto, July 25-27, 2019.
-Serles, Katharina. Nothing Left Out? Canonical Images and The Politics of Cosmogony-Comics, 2nd Annual Conference of the Comics Studies Society, Toronto, July 25-27, 2019.
-Rauchenbacher, Marina, and Katharina Serles: Queering Comics: ‚Fatties‘ and ‚Whores‘, Gender Gaps and Body Signs, Annual Conference of the Society for the Study of Narrative, Pamplona, May 30- June 1, 2019.
-Serles, Katharina. Tree of Jessa: How a Feminist Comics Altar Responds to Patriarchal Mythologies, Conference Feminisms and the Bible, Keynes Library, Birkbeck College, University of London, May 2, 2019.
-Rauchenbacher, Marina, and Katharina Serles. Betrachtet, tradiert und transformiert: Anke Feuchtenbergers Comic-Altar und Geschlechter-Geschichte(n), LWL – Museum für Kunst und Kultur, Münster, April 2, 2019.
-Rauchenbacher, Marina. Bildwissenschaften und Visual Culture Studies, Lecture Series Graphisches Erzählen in der Kinder- und Jugendliteratur, University of Vienna, November 29, 2018.
-Serles, Katharina. Räumlichkeit und Adoleszenz in Comics, Lecture Series Graphisches Erzählen in der Kinder- und Jugendliteratur, University of Vienna, November 29, 2018.
-Rauchenbacher, Marina, and Katharina Serles. Gerahmt und zerstückelt. Zeichenhaftigkeit und Wahrnehmung von Körpern in Comics, Annual Conference of the German Society for Comic Studies, University of Cologne, September 17-19, 2018.
-Serles, Katharina. Idolizing Jewish Women: Gender & The Second Commandment in Comics, 11. Congress of the EAJS, Krakow, July 15-19, 2018.
-Serles, Katharina. Musings on Museum Comics, CSSC Annual Conference, Toronto, May 10-11, 2018.
-Hochreiter, Susanne. Kafka transmedial. Erzählung in der Graphic Novel, Lecture Series Serielles und transmediales Erzählen in der Kinder- und Jugendliteratur, University of Vienna, January 11, 2018.
-Rauchenbacher, Marina. Subversive Blicke. Blickpolitik in Ulli Lust’s Heute ist der letzte Tag vom Rest deines Lebens, Annual Conference of the German Studies Association, Atlanta, GA, October 5-8, 2017.
-Serles, Katharina. Dazwischen. Subversion im Gutter, Annual Conference of the German Studies Association, Atlanta, GA, October 5-8, 2017.
-Serles, Katharina. BILDER SEHEN ERZÄHLEN. Kunstbetrachtung im Comic, 3rd Workshop of the AG Comicforschung, University of Cologne, March 2-3, 2017.
-Serles, Katharina. (Über)Macht der Bilder und ihre Subversion im Comic, Momentum 16, Kongress für kritische Wissenschaft, Hallstatt, October 13-16, 2016.
-Rauchenbacher, Marina. Women’s Viewpoints. Systems of Gazing in the Graphic Novel Gift, Annual Conference of the German Studies Association, Washington, DC, October 1-4, 2015.
--
+### Talks and Presentations
+- Serles, Katharina. _“Du siehst aus wie ein Bauer”: Verkörperte Klasse in Eva Müllers_ Scheiblettenkind (2023). Comicsalon Erlangen, June 2, 2024.
+- Rauchenbacher, Marina. _Arranged in Color: Janne Marie Dauer’s Adaptation of Bov Bjerg’s Novel_ Auerhaus. Workshop _Narrative Transfers: From the Literary to the Graphic_, Université Paul Valéry-Montpellier 3, April 25, 2024.
+- Serles, Katharina.  _“Kauf dir mal ein Buch. Loser!” Klasse, Körper und Kanon in Eva Müllers_ Scheiblettenkind (2023). Annual Conference of the German Society for Comic Studies, Stiftung Akademie Waldschlösschen, Gleichen, December 11-13, 2023.
+- Hochreiter, Susanne, Marina Rauchenbacher, and Katharina Serles. _Project Presentation: Visualities of Gender in German-language Comics_. University of Music and Performing Arts Vienna, November 23, 2023.
+- Serles, Katharina. _Organisiert euch! Kontexte und Bedingungen der Comics-Arbeit_. Annual Conference of the German Society for Comic Studies, online, November 16-18, 2022.
+- Serles, Katharina. _Organisiert euch! Arbeit mit und in Comics_. Aktionswoche der Comic Gewerkschaft, Documenta 15, Kassel, August 29-31, 2022.
+- Serles, Katharina. _Getting Organized: Comics, Communality, and Care_, Conference _Comics, Activism, Feminisms_. University of Gothenburg, August 17-19, 2022.
+- Serles, Katharina. _Feministische Kollektive: Spring_, Panel: _Vorbilderinnen im Fokus queer-feministischer Comicforschung_ (in Cooperation with AG Comicforschung) and for the exhibition _Vorbilder*innen: Feminismus in Comic und Illustration_. Comicsalon Erlangen, June 18, 2022.
+- Hochreiter, Susanne. _Fathers. Sons. Strangers. Franz Kafka’s_ The Judgement _and_ The Metamorphosis _as Graphic Novels_, Annual Conference of the Association of Adaptation Studies: _(In)Visible Adaptation. Diversity and Inclusion_. Lisbon, June 23-25, 2022.
+- Rauchenbacher, Marina. _Gender und psychische Erkrankungen in Comics_, Workshop _Geschlechterdarstellung in visuellen narrativen Medien_. University of Salzburg, online, November 13, 2021.
+- Rauchenbacher, Marina. _Grenzen – Grenzungen – Grenzende Körper: Comics über Flucht/Migration & ihr gesellschaftspolitisches Potenzial_. Annual Conference of the AG Comicforschung, October 20-22, 2021.
+- Serles, Katharina. _Im Transit verloren: Gender-Grenz-Überschreitungen in Franz Suess’_ Paul Zwei. Annual Conference of the AG Comicforschung, October 20-22, 2021.
+- Hochreiter, Susanne, Naomi Lobnig, Marina Rauchenbacher, and Katharina Serles: _Sehen und Gesehen-Werden: Visualitäten von Geschlecht in deutschsprachigen Comics_. Annual Conference of the ÖGGF _Gender: Ambivalente Un_Sichtbarkeiten_, University of Vienna, September 20-22, 2021.
+- Rauchenbacher, Marina. _Verborgen : Im Zentrum : Dazwischen: Körper, Dis_ability, Krankheit in Heidi-Comics – am Beispiel Klara_. Online-Conference _Wiedersehen mit Heidi / Re-reading Heidi_, TU Dortmund, September 16-17, 2021.
+- Hochreiter, Susanne, Naomi Lobnig, Marina Rauchenbacher, and Katharina Serles. _Von Girlsplaining zu Busengewunder: Gender in (feministischen) Comics_. Cooperation event of Stichwort and Frauenhetz Vienna, May 3, 2021.
+- Rauchenbacher, Marina. _Familiäre Subversion: Dekonstruktive Potenziale von Wiederholung und Simultaneität in Parsua Bashis_ Nylon Road. Online-Panel _Queering Family_, Nextcomic Festival Linz, March 20, 2021.
+- Serles, Katharina. _So etwas wie Shape-Shifter? Trans*-Familien in Joris Bas Backers & Nettmanns_ Familienjuwelen _(2018) und Maurizio Onanos_ Oma Herbert _(2019)_. Online-Panel _Queering Family_, Nextcomic Festival Linz, March 20, 2021.
+- Serles, Katharina. _Der posthumane Körper in Mokis_ Sumpfland _(2019)_. Online lecture series _Comic – Kunst – Körper_, FU Berlin, January 28, 2021.
+- Rauchenbacher, Marina. _Unterbrochen. Unabgeschlossen. Unwägbar: Materialisierte, wiederholte, transformierte Comics-Körper_, Online Symposium _Gender Revisited: Negotiating Gender in the Age of Posthumanism_, University of Graz, December 10-12, 2020.
+- Serles, Katharina. _“Super Organism Rhizomatic Think Tanks”: Der posthumane Körper in Mokis_ Sumpfland _und Dominik Wendlands_ Egon. Online Symposium _Gender Revisited: Negotiating Gender in the Age of Posthumanism_, University of Graz, December 10-12, 2020.
+- Frena, Bernhard, Marina Rauchenbacher, and Katharina Serles. _Vi-ral-enna: Tracing Comics Through Vienna in Times of Corona_, Online Summer Session _Comics and Society_, Nordic Summer University, June 26-August 3, 2020.
+- Rauchenbacher, Marina. _KörperZeiten – ZeitKörper in Marcel Beyers / Ulli Lusts_ Flughunde _(1995 / 2013)_. Online Workshop _KörperZeiten: Darstellungen “anderen” Zeiterlebens in Literatur und Comic / CorpoRealities: Perceptions of Extraordinary Time in Literature and Comics_, FU Berlin, June 25-27, 2020.
+- Serles, Katharina. _„Die Axt im Auge“: Comics sehen, denken und vermitteln_. Lecture series _Bits & Bites_, Zentrum Didaktik für Kunst und interdisziplinären Unterricht, University of Applied Arts Vienna, June 4, 2020.
+- Rauchenbacher, Marina, and Katharina Serles: _Theorizing Visualities of Gender and Feminism in German-Language Comics_. Conference _Comics and Feminism_, Södertörn University Stockholm, February 19-20, 2020.
+- Rauchenbacher, Marina, and Katharina Serles: _Visualitäten von Geschlecht in deutschsprachigen Comics_. Kunstschule Vienna, February 3, 2020.
+- Rauchenbacher, Marina. _Who (and where) is Alice? Anke Feuchtenberger’s Adaptation of Lewis Carroll’s_ Alice. Annual Conference of the German Society for Comic Studies, Erika Fuchs-Haus Schwarzenbach/Saale, November 8-10, 2019.
+- Serles, Katharina. _Visualities of Gender in German-language Comics_. Annual Conference of the German Society for Comic Studies, Erika Fuchs-Haus Schwarzenbach/Saale, November 8-10, 2019.
+- Rauchenbacher, Marina. _StimmBilder: Kreation und Erosion von Stimmen und Körpern in Ulli Lusts und Marcel Beyers_ Flughunde. Workshop _Musik – Gender – Manga, University of Music and Performative Arts Vienna, September 19-20, 2019.
+- Serles, Katharina. _“als ob ich in einem meiner eigenen Songs gefangen wäre”: Musik und Männlichkeit in Reinhards Kleists_ Nick Cave: Mercy on me. Workshop _Musik – Gender – Manga_, University of Music and Performative Arts Vienna, September 19-20, 2019.
+- Rauchenbacher, Marina. _Bringing Viewpoints to Mind: German-Language Comics on Flight and Migration_, Annual Conference of the Comics Studies Society, Toronto, July 25-27, 2019.
+- Serles, Katharina. _Nothing Left Out? Canonical Images and The Politics of Cosmogony-Comics_, Annual Conference of the Comics Studies Society, Toronto, July 25-27, 2019.
+- Rauchenbacher, Marina, and Katharina Serles. _Queering Comics: ‚Fatties‘ and ‚Whores‘, Gender Gaps and Body Signs_. Annual Conference of the Society for the Study of Narrative, Pamplona, May 30-June 1, 2019.
+- Serles, Katharina. _Tree of Jessa: How a Feminist Comics Altar Responds to Patriarchal Mythologies_. Conference _Feminisms and the Bible_, Keynes Library, Birkbeck College, University of London, May 2, 2019.
+- Rauchenbacher, Marina, and Katharina Serles. _Betrachtet, tradiert und transformiert: Anke Feuchtenbergers Comic-Altar und Geschlechter-Geschichte(n)_. LWL – Museum für Kunst und Kultur, Münster, April 2, 2019.
+- Rauchenbacher, Marina. _Bildwissenschaften und Visual Culture Studies_. Lecture series _Graphisches Erzählen in der Kinder- und Jugendliteratur_, University of Vienna, November 29, 2018.
+- Serles, Katharina. _Räumlichkeit und Adoleszenz in Comics_. Lecture series _Graphisches Erzählen in der Kinder- und Jugendliteratur_, University of Vienna, November 29, 2018.
+- Rauchenbacher, Marina, and Katharina Serles. _Gerahmt und zerstückelt: Zeichenhaftigkeit und Wahrnehmung von Körpern in Comics_. Annual Conference of the German Society for Comic Studies, University of Cologne, September 17-19, 2018.
+- Serles, Katharina. _Idolizing Jewish Women: Gender & The Second Commandment in Comics_, 11. Congress of the EAJS, Krakow, July 15-19, 2018.
+- Serles, Katharina. _Musings on Museum Comics_, CSSC Annual Conference, Toronto, May 10-11, 2018.
+- Hochreiter, Susanne. _Kafka transmedial: Erzählung in der Graphic Novel_. Lecture series _Serielles und transmediales Erzählen in der Kinder- und Jugendliteratur_, University of Vienna, January 11, 2018.
+- Rauchenbacher, Marina. _Subversive Blicke: Blickpolitik in Ulli Lust’s_ Heute ist der letzte Tag vom Rest deines Lebens. Annual Conference of the German Studies Association, Atlanta, GA, October 5-8, 2017.
+- Serles, Katharina. _Dazwischen: Subversion im Gutter_. Annual Conference of the German Studies Association, Atlanta, GA, October 5-8, 2017.
+- Serles, Katharina. _BILDER SEHEN ERZÄHLEN: Kunstbetrachtung im Comic_. 3rd Workshop of the AG Comicforschung, University of Cologne, March 2-3, 2017.
+- Serles, Katharina. _(Über)Macht der Bilder und ihre Subversion im Comic_. Momentum 16: Kongress für kritische Wissenschaft, Hallstatt, October 13-16, 2016.
+- Rauchenbacher, Marina. _Women’s Viewpoints: Systems of Gazing in the Graphic Novel_ Gift. Annual Conference of the German Studies Association, Washington, DC, October 1-4, 2015.
+
 
 # Lehre
 - in Planung, WiSe 2024: M. Rauchenbacher: Masterseminar _In Wort und Bild. Strategien des Erzählens in Comics_ (Institut für Germanistik, Universität Wien)
