@@ -1,8 +1,8 @@
 ---
-title: Datenbank.
-description: Datenbank.
-heading:
-subheading:
+title: Database
+description: Database
+heading: Database
+subheading: Database
 type: index
 image: art/jongeling_detransition.png
 caption: Regina Hofer
