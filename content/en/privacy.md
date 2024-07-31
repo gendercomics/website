@@ -3,9 +3,8 @@ title: Data Protection.
 heading: Data Protection.
 ---
 <!--more-->
-**Datenschutz:**
-Der Datenschutz hat bei dem Projekt einen hohen Stellenwert und personenbezogene Daten werden absolut vertraulich behandelt.
-Über diese Website eingegebene Daten werden nur für die gewünschten Zwecke verwendet und nicht an Dritte weitergegeben.
+**Data protection:**
+The project attaches great importance to data protection and treats personal data with absolute confidentiality. Data entered via this website will only be used for the desired purposes and will not be passed on to third parties.
 
-**Urheberrecht:**
+**Copyright:**
 Aufbau und Inhalt dieser Website sind urheberrechtlich geschützt. Die Verwendung von Text- und/oder Bildmaterial ist – sofern nicht ausdrücklich anders angegeben – nur mit Zustimmung des Projekts erlaubt.
