@@ -1,26 +1,24 @@
 ---
-title: Impressum
-heading: Impressum
+title: Imprint.
+heading: Imprint.
 ---
 <!--more-->
 
-**Medieninhaberin:** Projekt Visualitäten von Geschlecht in deutschsprachigen Comics  
-**Sitz:** Institut für Germanistik, Universitätsring 1, 1010 Vienna, Austria
+**Media Owner:** Project _Visualities of Gender in German-language Comics_, Department of German Philology, Universitätsring 1, 1010 Vienna, Austria
 
-**E-Mail:** [mail@gendercomics.net](mailto:mail@gendercomics.net)
+**Email:** [mail@gendercomics.net](mailto:mail@gendercomics.net)
 
 **Website:** [gendercomics.net](https://gendercomics.net)  
-**Redaktion:** Michael Litschauer, Marina Rauchenbacher, Katharina Serles
+**Editorial team:** Michael Litschauer, Marina Rauchenbacher, Katharina Serles
 
-**Haftung:**
-Die Informationen auf dieser Website wurden sorgfältig erstellt und werden nach Möglichkeit laufend aktualisiert.
-Die Medieninhaberin übernimmt keine Haftung für Richtigkeit, Vollständigkeit und Aktualität, sowie uneingeschränkte Zugänglichkeit der Inhalte der Website und haftet auch nicht für Richtigkeit, Vollständigkeit, Aktualität sowie Zugänglichkeit von Websites Dritter, die nicht von dem Projekt betrieben werden, auf die es aber auf seiner Website verweist.
-Ebenfalls wird keine Haftung übernommen für allfällige direkte oder indirekte Schäden oder Folgeschäden, die als Folge des Gebrauchs von Informationen oder Material von der Website des Projekts oder durch Zugriff über Links auf andere Websites entstehen.
-text
+**Liability:**
+The information on this website has been carefully compiled and is updated continuously wherever possible.
+The media owner accepts no liability for the accuracy, completeness, up-to-dateness, or unrestricted accessibility of the website‘s content. Similarly, the media owner is not liable for the accuracy, completeness, up-to-dateness, or accessibility of third-party websites that are not operated by the project but to which it refers on its website.
+Likewise, no liability is accepted for any direct or indirect damage or consequential damage arising from using information or material from the project's website or access via links to other websites.
 
-**Datenschutz:**
-Der Datenschutz hat bei dem Projekt einen hohen Stellenwert und personenbezogene Daten werden absolut vertraulich behandelt.
-Über diese Website eingegebene Daten werden nur für die gewünschten Zwecke verwendet und nicht an Dritte weitergegeben.
+**Data protection:**
+The project attaches great importance to data protection and treats personal data with absolute confidentiality.
+Data entered via this website will only be used for the desired purposes and will not be passed on to third parties.
 
-**Urheberrecht:**
-Aufbau und Inhalt dieser Website sind urheberrechtlich geschützt. Die Verwendung von Text- und/oder Bildmaterial ist – sofern nicht ausdrücklich anders angegeben – nur mit Zustimmung des Projekts erlaubt.
+**Copyright:**
+The structure and content of this website are protected by copyright. Unless expressly stated otherwise, the use of text and/or image material is only permitted with the project‘s consent. 
