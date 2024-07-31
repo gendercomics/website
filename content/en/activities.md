@@ -14,7 +14,7 @@ caption: Regina Hofer
 - forthcoming: Rauchenbacher, Marina, Katharina Serles, and Naomi Lobnig, editors. _Comics Studies x Gender Studies. Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice_, in collaboration with Susanne Hochreiter. Berlin: Walter de Gruyter. 
 - Loidl, Sonja, Susanne Hochreiter, Marina Rauchenbacher, and Katharina Serles, editors. _Graphisches Erzählen in der Kinder- und Jugendliteratur_. Vienna: Praesens Verlag, 2024, Wiener Vorlesungen zur Kinder- und Jugendliteratur 2.
 - Hochreiter, Susanne, Marina Rauchenbacher, and Katharina Serles, editors. _Comics aus und über Österreich_, special issue of _Journal of Austrian Studies_, vol. 55, no. 2, 2022. [https://doi.org/10.1353/oas.2022.0028](https://doi.org/10.1353/oas.2022.0028)
-- Masel, Eva Katharina, Andrea Praschinger, Marina Rauchenbacher, and Ruth Kutalek, editors. _Körper – Body_. Medical University Wien, 2020.
+- Masel, Eva Katharina, Andrea Praschinger, Marina Rauchenbacher, and Ruth Kutalek, editors. _Körper – Body_. Vienna General Hospital and Medical University Vienna, 2020.
 - Hochreiter, Susanne, and Ursula Klingenböck, editors. _Bild ist Text ist Bild: Narration und Ästhetik in der Graphic Novel_. Bielefeld: transcript, 2014.
 
 
@@ -78,8 +78,8 @@ caption: Regina Hofer
 - Rauchenbacher, Marina. Endorsement for _Graphic Novels and Comics as World Literature_, edited by James Hodapp (New York, Bloomsbury, 2022).
 - Lobnig, Naomi. “Queerfeministische Comic-Kunst: Das widerständige Potenzial von Comics.” _an.schläge_, no. 5, 2022.
 - Serles, Katharina. “Bei_strich: Ein Vor_wort.” _COMMA: Comic Magazin Austria_, no. 1, 2022, pp. 3.
-- Rauchenbacher, Marina. “Comics – Graphic Medicine – Comics.” Körper – Body, edited by Eva Katharina Masel, Andrea Praschinger, Marina Rauchenbacher, and Ruth Kutalek. Medical University Wien, 2020, pp. 12-13.
-- Rauchenbacher, Marina. “Was können Comics? Sie können viel. Sie können mehr.” Renate Mowlam. _Was ist ein Comic?_ Medical University Wien, 2020, p. 3; (engl.: “What can Comics achieve? They can achieve a lot. They can achieve much more.” Renate Mowlam. _What is a Comic?_ Medical University of Vienna 2020, p. 3).
+- Rauchenbacher, Marina. “Comics – Graphic Medicine – Comics.” Körper – Body, edited by Eva Katharina Masel, Andrea Praschinger, Marina Rauchenbacher, and Ruth Kutalek. Vienna General Hospital and Medical University Vienna, 2020, pp. 12-13.
+- Rauchenbacher, Marina. “Was können Comics? Sie können viel. Sie können mehr.” Renate Mowlam. _Was ist ein Comic?_ Vienna General Hospital and Medical University Vienna, 2020, p. 3; (engl.: “What can Comics achieve? They can achieve a lot. They can achieve much more.” Renate Mowlam. _What is a Comic?_ Vienna General Hospital and Medical University Vienna, 2020, p. 3).
 - Serles, Katharina. “Gemachter Sex.” _Spring_, no. 14, 2020, pp. 4-5.
 
 
@@ -187,12 +187,12 @@ caption: Regina Hofer
 - Rauchenbacher, Marina, and Katharina Serles. _GRENZ|KÖRPER|RÄNDER: TRANS|GENDER IN DEUTSCHSPRACHIGEN COMICS_. Reading group, aka – Arbeitskreis Kulturanalyse, October 2019.
 
 
-# Ausstellungen
-- M. Rauchenbacher: Kuration der Ausstellung _Gewalt erzählen. Eine Comic-Ausstellung_, Sigmund Freud Museum Wien, Oktober 2023–April 2024 (Teilausstellung im Kulturforum Belgrad, Veranstaltungszentrum Kolarac, 19. November 2023–2. Dezember 2023)
-- M. Rauchenbacher: Kuration der Ausstellung _Comics aus Österreich II_, Literaturmeile Zieglergasse, 16. September 2023
-- M. Rauchenbacher: Kuration der Ausstellung _Comics aus Österreich I_, Literaturmeile Zieglergasse, 17. September 2022
-- K. Serles: Kuration der _Fensterausstellung_ von Maria Frenay, Österreichische Gesellschaft für Comics, Agentur Raumpioniere Wien, 1. Juli–30. September 2022
-- E. K. Masel, A. Praschinger, M. Rauchenbacher u. R. Kutalek: Kuration der _Art – Action – Attitude: Körper/Body_, AKH/Medizinische Universität Wien, März–Juni 2021
+# Exhibitions
+- Rauchenbacher, Marina. Curation of the exhibition _Narrating Violence: A Comic Exhibition_, Sigmund Freud Museum Vienna, October 2023–April 2024 (partial exhibition: Event Center Kolarac, Belgrade, November 18-December 2, 2023).
+- Rauchenbacher, Marina. Curation of the exhibition _Comics aus Österreich II_, Literaturmeile Zieglergasse, September 16, 2023.
+- Rauchenbacher, Marina. Curation of the exhibition _Comics aus Österreich I_, Literaturmeile Zieglergasse, September 17, 2022.
+- Serles, Katharina. Curation of a “window exhibition” by Maria Frenay, Austrian Association for Comics, Agentur Raumpioniere Wien, July 1–September 30, 2022.
+- Masel, Eva K., Andrea Praschinger, Marina Rauchenbacher, and Ruth Kutalek. Curation of the exhibition _rt – Action – Attitude: Körper/Body_, Vienna General Hospital and Medical University Vienna, March-June 2021.
 
 # Betreuung von Abschlussarbeiten
 - M. Rauchenbacher: _Erin Sedelmaier: Verwandtschaft zwischen Körpern in Luke Pearsons Hilda-Comics (Masterarbeit, Masterstudium Gender Studies, Universität Wien)_, laufend
