@@ -4,4 +4,4 @@ description: work in progress.
 type: index
 ---
 
-coming **soon**.
+**coming soon.**

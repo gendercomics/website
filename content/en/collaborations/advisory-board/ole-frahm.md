@@ -6,6 +6,4 @@ www-1: https://forschungsforum.net/mitglieder/ole-frahm/
 www-2: https://www.comicgesellschaft.de/mitgliederbereich/mitgliederprofile/olefrahm/
 ---
 
-**Ole Frahm** gründete mit anderen Studierenden die Arbeitsstelle für Graphische Literatur (ArGL) an der Universität Hamburg.
-Er promovierte mit der Arbeit _Genealogie des Holocaust. Art Spiegelmans MAUS – A Survivor’s Tale_ (Paderborn 2006) und habilitierte mit der Studie _Die Sprache des Comics_ (Hamburg 2010).
-Arbeitsgebiete: Geschichte, Theorie und Ästhetik von Comics und Radio. Er arbeitet als freier Autor und Künstler in Frankfurt am Main.
+**Ole Frahm** founded the Research Center for Graphic Literature (ArGL) at the University of Hamburg with other students. His PhD thesis is entitled _Genealogie des Holocaust: Art Spiegelmans “MAUS – A Survivor’s Tale”_: (Paderborn 2006). He also published _Die Sprache des Comics_ (Hamburg 2010). His research interests are the history, theory, and aesthetics of comics and radio. He works as an author and artist in Frankfurt am Main.
