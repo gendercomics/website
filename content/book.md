@@ -1,5 +1,5 @@
 ---
-title: Comics Studies x Gender Studies. Schnittmengen von Forschung, Lehre und Praxis / 
+title: Comics Studies x Gender Studies. Schnittmengen von Forschung, Lehre und Praxis / Intersections of research, teaching, and practice
 description: Comics Studies x Gender Studies. Schnittmengen von Forschung, Lehre und Praxis
 heading: Comics Studies x Gender Studies.
 subheading: Schnittmengen von Forschung, Lehre und Praxis
