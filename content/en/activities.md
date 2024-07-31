@@ -1,7 +1,7 @@
 ---
 title: Activities.
 description: Activities.
-heading:
+heading: Activities.
 subheading:
 type: index
 image: art/hofer_blad.png
