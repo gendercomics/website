@@ -42,9 +42,9 @@
   /* TODO: solve config to be used for local and server build */
 
     /* localhost */
-  /*
-  url(~/../assets/fonts/GeorgeRounded.otf) format('opentype');
-   */
+  url(@/assets/fonts/GeorgeRounded.otf) format('opentype');
   /* server  */
+  /*
   url(~/assets/fonts/GeorgeRounded.otf) format('opentype');
+   */
 }
