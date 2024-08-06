@@ -1,5 +1,7 @@
 {
-  "name": "nuxt-app",
+  "name": "gendercomics-webapp",
+  "version": "2.0.0",
+  "description": "GenderComics website based on Nuxt3",
   "private": true,
   "type": "module",
   "scripts": {
