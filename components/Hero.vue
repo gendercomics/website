@@ -21,7 +21,7 @@
     <div class="bottom-row">
       <div class="w-50">
         <div class="cell-dynamic top-border ml-200 mr-200" />
-        <div class="square-200 corner-green-1 mt--2" />
+        <div class="square-200 corner-green-1 mt--2 mr--1" />
       </div>
       <div class="w-50">
         <div class="logo-claim pl-10 ml-10">
@@ -108,5 +108,9 @@
 
 .cell-dynamic[span='2'] {
   grid-column: span 2; /* Spanning two columns */
+}
+
+.mr--1 {
+  margin-right: -1px;
 }
 </style>

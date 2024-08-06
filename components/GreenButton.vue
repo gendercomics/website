@@ -83,7 +83,6 @@ const hasLink = computed(() => {
   color: var(--white);
   border: none;
   border-radius: 50px;
-  margin-bottom: 10px;
   width: 220px;
 
   font-family: var(--gc-font-family-george-rounded);

@@ -1,5 +1,8 @@
 <script setup>
+import { useFeatureStore } from '~/stores/features.ts'
+
 const year = new Date().getFullYear()
+const featureStore = useFeatureStore()
 </script>
 
 <template>
@@ -13,8 +16,10 @@ const year = new Date().getFullYear()
       <div class="footer-element">
         &copy; {{ year }} GenderComics - Alle Rechte vorbehalten
       </div>
-      <NuxtLink to="/imprint" class="footer-element">Impressum</NuxtLink>
-      <NuxtLink to="/privacy" class="footer-element">Datenschutz</NuxtLink>
+      <div v-if="!featureStore.isComingSoon">
+        <NuxtLink to="/imprint" class="footer-element">Impressum</NuxtLink>
+        <NuxtLink to="/privacy" class="footer-element">Datenschutz</NuxtLink>
+      </div>
     </div>
   </div>
 </template>
