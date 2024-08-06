@@ -1,6 +1,6 @@
-# build, publis and deploy an API docker image
+# build, publish and deploy an API docker image
 
-name: stage - build, publish & deploy docker image
+name: production - build, publish & deploy docker image
 
 on:
   push:
@@ -67,7 +67,7 @@ jobs:
           # then run these commands
           ssh_after: |
             echo 'running docker-compose'
-            docker pull gendercomics/website:latest
+            docker pull gendercomics/website:${{ steps.meta.outputs.tags }}
             cd /var/gendercomics/website
             docker-compose up -d gendercomics-website
             echo 'DONE!!!'
