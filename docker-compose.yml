@@ -14,7 +14,7 @@ services:
       - traefik.docker.network=proxy
 
   gendercomics-website:
-    image: gendercomics/website:1.1.5
+    image: gendercomics/website:2.0.2
     container_name: gendercomics-website
     restart: always
     networks:
