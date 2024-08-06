@@ -67,7 +67,7 @@ jobs:
           # then run these commands
           ssh_after: |
             echo 'running docker-compose'
-            docker pull gendercomics/website:${{ steps.meta.outputs.tags }}
+            docker pull gendercomics/website:2.0.1
             cd /var/gendercomics/website
             docker-compose up -d gendercomics-website
             echo 'DONE!!!'
