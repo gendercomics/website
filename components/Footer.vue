@@ -1,6 +1,9 @@
 <script setup>
 import { useFeatureStore } from '~/stores/features.ts'
 
+const { t } = useI18n({
+  useScope: 'local',
+})
 const year = new Date().getFullYear()
 const featureStore = useFeatureStore()
 </script>
@@ -14,11 +17,15 @@ const featureStore = useFeatureStore()
     />
     <div class="footer-block">
       <div class="footer-element">
-        &copy; {{ year }} GenderComics - Alle Rechte vorbehalten
+        &copy; {{ year }} GenderComics - {{ t('copyright') }}
       </div>
       <div v-if="!featureStore.isComingSoon">
-        <NuxtLink to="/imprint" class="footer-element">Impressum</NuxtLink>
-        <NuxtLink to="/privacy" class="footer-element">Datenschutz</NuxtLink>
+        <NuxtLink to="/imprint" class="footer-element">{{
+          t('imprint')
+        }}</NuxtLink>
+        <NuxtLink to="/privacy" class="footer-element">{{
+          t('privacy')
+        }}</NuxtLink>
       </div>
     </div>
   </div>
@@ -66,3 +73,14 @@ a:hover {
   padding-right: 20px;
 }
 </style>
+
+<i18n lang="yaml">
+de:
+  imprint: Über
+  privacy: Datenbank
+  copyright: Alle Rechte vorbehalten.
+en:
+  imprint: Imprint
+  privacy: Privacy Policy
+  copyright: All rights reserved.
+</i18n>

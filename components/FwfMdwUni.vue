@@ -10,11 +10,16 @@ const { t } = useI18n({
       <!-- fwf -->
       <div class="border-left-green">
         <div class="w-90">
-          <div class="tag">Fördergeber</div>
-          <div class="titel-kachel">FWF Der Wissenschaftsfonds</div>
+          <div class="tag">{{ t('funding-org') }}</div>
+          <div class="titel-kachel">{{ t('fwf') }}</div>
           <div>
             <a class="a">Grant DOI</a>
-            <a class="ml-10 link-passiv" href="https://www.fwf.ac.at/en/research-radar/10.55776/P31925" target="_blank">10.55776/P31925</a>
+            <a
+              class="ml-10 link-passiv"
+              href="https://www.fwf.ac.at/en/research-radar/10.55776/P31925"
+              target="_blank"
+              >10.55776/P31925</a
+            >
           </div>
           <a href="https://www.fwf.ac.at/" target="_blank">
             <img src="@/assets/images/logo-FWF.png" alt="FWF" class="mt-30" />
@@ -40,9 +45,9 @@ const { t } = useI18n({
       <!-- uni -->
       <div class="border-right-green mt--6 mr--1 pb-75">
         <div class="w-90">
-          <div class="tag">Institution</div>
-          <div class="titel-kachel">Universität Wien</div>
-          <a class="a">Institut für Germanistik</a>
+          <div class="tag">{{ t('institution') }}</div>
+          <div class="titel-kachel">{{ t('uni') }}</div>
+          <a class="a">{{ t('germanistik') }}</a>
           <a href="https://germanistik.univie.ac.at/" target="_blank">
             <img
               src="~assets/images/logo-UniWien-gray.png"
@@ -100,13 +105,15 @@ const { t } = useI18n({
 
 <i18n lang="yaml">
 de:
-  mdw-tag1: Nationale Forschungspartnerin
-  mdw-tag2: Evelyn Annuß
-  mdw-title: Universität für Musik und darstellende Kunst Wien
-  mdw-subtitle: International Research Center Gender and Performativity
+  funding-org: Fördergeber
+  fwf: FWF Der Wissenschaftsfonds
+  institution: Institution
+  uni: Universität Wien
+  germanistik: Institut für Germanistik
 en:
-  mdw-tag1: Nationale Forschungspartnerin
-  mdw-tag2: Evelyn Annuß
-  mdw-title: Universität für Musik und darstellende Kunst Wien
-  mdw-subtitle: International Research Center Gender and Performativity
+  funding-org: Funding Organization
+  fwf: Austrian Science Fund (FWF)
+  institution: Institution
+  uni: University of Vienna
+  germanistik: Department of German Studies
 </i18n>

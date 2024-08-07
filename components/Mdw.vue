@@ -41,8 +41,8 @@ de:
   title: Universität für Musik und darstellende Kunst Wien
   subtitle: International Research Center Gender and Performativity
 en:
-  tag1: National Research Partner
+  tag1: National research partner
   tag2: Evelyn Annuß
-  title: Universität für Musik und darstellende Kunst Wien
+  title: University of music and performing arts Vienna
   subtitle: International Research Center Gender and Performativity
 </i18n>
