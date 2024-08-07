@@ -76,8 +76,8 @@ a:hover {
 
 <i18n lang="yaml">
 de:
-  imprint: Über
-  privacy: Datenbank
+  imprint: Impressum
+  privacy: Datenschutz
   copyright: Alle Rechte vorbehalten.
 en:
   imprint: Imprint
