@@ -30,7 +30,7 @@ jobs:
             latest=true
 
       - name: build and push docker image
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           file: ./Dockerfile
           build-args: VUE_APP_API_URL=https://api-stage.gendercomics.net/
