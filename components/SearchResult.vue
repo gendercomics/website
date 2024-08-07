@@ -5,10 +5,12 @@ import ComicMinimal from '~/components/ComicMinimal.vue'
 <template>
   <div class="flex mt-100">
     <div class="result-row">
+      <!--
       <comic-minimal artist="Anke Feuchtenberger" title="Genossin Kuckuck" />
       <comic-minimal />
       <comic-minimal />
       <comic-minimal />
+      -->
     </div>
   </div>
 </template>

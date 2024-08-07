@@ -1,6 +1,8 @@
 <script setup>
 import { refDebounced } from '@vueuse/core'
-
+const { t } = useI18n({
+  useScope: 'local',
+})
 const input = ref('')
 
 // const searchInput = defineModel(refDebounced(input, 1000))
@@ -20,8 +22,9 @@ function resetInput() {
       <input
         type="text"
         id="inputField"
-        placeholder="Type to search"
+        :placeholder="t('placeholder')"
         v-model="searchInput"
+        disabled
       />
       <img
         class="reset-btn"
@@ -145,3 +148,10 @@ function resetInput() {
   padding-left: 15px;
 }
 </style>
+
+<i18n lang="yaml">
+de:
+  placeholder: Coming soon ...
+en:
+  placeholder: Coming soon ...
+</i18n>
