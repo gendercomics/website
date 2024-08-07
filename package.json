@@ -1,6 +1,6 @@
 {
   "name": "gendercomics-webapp",
-  "version": "2.0.2",
+  "version": "2.1.0-SNAPSHOT",
   "description": "GenderComics website based on Nuxt3",
   "private": true,
   "type": "module",
