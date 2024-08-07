@@ -5,9 +5,9 @@ const props = defineProps({
     default: '',
   },
 })
-
+const { locale } = useI18n()
 const doc = await useAsyncData('doc', () =>
-  queryContent(props.content).findOne(),
+  queryContent('/' + locale.value + props.content).findOne(),
 )
 </script>
 

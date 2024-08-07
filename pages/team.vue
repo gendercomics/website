@@ -4,13 +4,15 @@ import type { QueryBuilderParams } from '@nuxt/content/types'
 import ImageBox from '~/components/ImageBox.vue'
 import ContentPreview from '~/components/ContentPreview.vue'
 
+const { locale } = useI18n()
 const memberQuery: QueryBuilderParams = {
-  path: '/team',
+  path: '/' + locale.value + '/team',
   where: [{ type: 'member' }],
 }
-
 const index = await useAsyncData('doc', () =>
-  queryContent('/team').where({ title: 'Team.' }).findOne(),
+  queryContent('/' + locale.value + '/team')
+    .where({ title: 'Team.' })
+    .findOne(),
 )
 </script>
 

@@ -1,8 +1,12 @@
-<script setup lang="ts">
+<script setup>
 import DividerRedArrow from '~/components/DividerRedArrow.vue'
 
+const { locale } = useI18n()
+
 const index = await useAsyncData('doc', () =>
-  queryContent('/activities').where({ type: 'index' }).findOne(),
+  queryContent('/' + locale.value + '/activities')
+    .where({ type: 'index' })
+    .findOne(),
 )
 </script>
 

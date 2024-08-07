@@ -5,6 +5,14 @@ const props = defineProps({
     default: '',
   },
 })
+const { t } = useI18n({
+  useScope: 'local',
+})
+const { locale } = useI18n()
+
+const i18nContent = computed(() => {
+  return '/' + locale.value + '/' + props.content
+})
 
 const doc = await useAsyncData('doc', () =>
   queryContent(props.content).findOne(),
@@ -22,11 +30,7 @@ const doc = await useAsyncData('doc', () =>
             :value="doc.data.value.excerpt"
           />
         </content-renderer>
-        <button-gray
-          class="mt-1rem"
-          text="mehr erfahren"
-          :link="props.content"
-        />
+        <button-gray class="mt-1rem" :text="t('more')" :link="i18nContent" />
       </div>
     </div>
   </div>
@@ -47,3 +51,10 @@ const doc = await useAsyncData('doc', () =>
   margin-top: 1rem;
 }
 </style>
+
+<i18n lang="yaml">
+de:
+  more: Mehr erfahren
+en:
+  more: Learn more
+</i18n>

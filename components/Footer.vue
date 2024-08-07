@@ -20,12 +20,12 @@ const featureStore = useFeatureStore()
         &copy; {{ year }} GenderComics - {{ t('copyright') }}
       </div>
       <div v-if="!featureStore.isComingSoon">
-        <NuxtLink to="/imprint" class="footer-element">{{
+        <nuxt-link-locale to="/imprint" class="footer-element">{{
           t('imprint')
-        }}</NuxtLink>
-        <NuxtLink to="/privacy" class="footer-element">{{
+        }}</nuxt-link-locale>
+        <nuxt-link-locale to="/privacy" class="footer-element">{{
           t('privacy')
-        }}</NuxtLink>
+        }}</nuxt-link-locale>
       </div>
     </div>
   </div>

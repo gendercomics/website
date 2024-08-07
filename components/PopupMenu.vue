@@ -16,19 +16,22 @@ const closeMenu = () => {
     <div class="popup-menu">
       <div class="popup-menu-list">
         <div class="popup-menu-items">
-          <NuxtLink to="/about" class="menu-item" @click="closeMenu">{{
+          <nuxt-link-locale to="/about" class="menu-item" @click="closeMenu">{{
             t('about')
-          }}</NuxtLink>
+          }}</nuxt-link-locale>
         </div>
         <div class="popup-menu-items">
-          <NuxtLink to="/team" class="menu-item" @click="closeMenu">{{
+          <nuxt-link-locale to="/team" class="menu-item" @click="closeMenu">{{
             t('team')
-          }}</NuxtLink>
+          }}</nuxt-link-locale>
         </div>
         <div class="popup-menu-items">
-          <NuxtLink to="/collaborations" class="menu-item" @click="closeMenu">{{
-            t('collaborations')
-          }}</NuxtLink>
+          <nuxt-link-locale
+            to="/collaborations"
+            class="menu-item"
+            @click="closeMenu"
+            >{{ t('collaborations') }}</nuxt-link-locale
+          >
         </div>
       </div>
     </div>

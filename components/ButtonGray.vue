@@ -9,12 +9,7 @@ const props = defineProps({
     default: '',
   },
 })
-
 const isHover = ref(false)
-
-const openLink = () => {
-  navigateTo(props.link)
-}
 </script>
 
 <template>
@@ -31,14 +26,13 @@ const openLink = () => {
       alt="corner-red-flat-3-50px(buttons)"
       class="w-50px"
     />
-    <div
-      class="button"
-      @click="openLink"
+    <nuxt-link-locale
+      :to="props.link"
       @mouseover="isHover = true"
       @mouseleave="isHover = false"
+      class="button"
+      >{{ props.text }}</nuxt-link-locale
     >
-      {{ props.text }}
-    </div>
   </div>
 </template>
 
@@ -58,6 +52,7 @@ const openLink = () => {
   color: var(--white);
   text-align: center;
   text-transform: uppercase;
+  text-decoration: none;
 
   background: var(--gc-gray) 0% 0% no-repeat padding-box;
   border-radius: 0 50px 50px 50px;
