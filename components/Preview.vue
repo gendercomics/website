@@ -14,7 +14,7 @@ const props = defineProps({
   },
   imgCaptionLink: {
     type: String,
-    default: '/',
+    default: '#',
   },
   imgCol: {
     type: Number,
@@ -28,15 +28,55 @@ const props = defineProps({
 </script>
 
 <template>
-  <Columns
-    :count="2"
-    :img="props.img"
-    :img-width="props.imgWidth"
-    :img-caption="props.imgCaption"
-    :img-caption-link="props.imgCaptionLink"
-    :img-col="props.imgCol"
-    :content="props.content"
-  />
+  <div class="row" :class="{ 'border-left': props.imgCol === 2 }">
+    <div class="w-50">
+      <ImageBox
+        class="border-right"
+        v-if="props.imgCol === 1"
+        :img="props.img"
+        :width="props.imgWidth"
+        :caption="props.imgCaption"
+        :caption-link="props.imgCaptionLink"
+      />
+      <div v-else-if="props.imgCol === 2">
+        <TextPreviewBox :content="props.content" />
+      </div>
+    </div>
+    <div class="w-50">
+      <ImageBox
+        v-if="props.imgCol === 2"
+        :img="props.img"
+        :width="props.imgWidth"
+        :caption="props.imgCaption"
+        :caption-link="props.imgCaptionLink"
+        :btn-arrow="false"
+      />
+      <div v-else-if="props.imgCol === 1">
+        <TextPreviewBox :content="props.content" />
+      </div>
+    </div>
+  </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.cell-debug {
+  border: 1px solid black;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-left: 1px;
+  margin-right: 2px;
+}
+
+.border-right {
+  border-right: 2px solid var(--gc-green);
+  margin-right: -1px;
+}
+
+.border-left {
+  border-left: 2px solid var(--gc-green);
+  margin-left: 0;
+}
+</style>

@@ -49,19 +49,16 @@ const hasLink = computed(() => {
       class="btn-arrow-left"
       alt="corner-green-2-50px(buttons)"
     />
-
-    <!--
-    <button
+    <nuxt-link-locale
+      :to="props.link"
       v-if="hasLink"
       class="green-button cursor-pointer"
-      @click="openLink"
     >
       {{ text }}
-    </button>
-    -->
-    <button v-else class="green-button">
+    </nuxt-link-locale>
+    <nuxt-link-locale v-else to="#" class="green-button">
       {{ text }}
-    </button>
+    </nuxt-link-locale>
 
     <img
       v-if="rightCorner"
@@ -86,12 +83,14 @@ const hasLink = computed(() => {
   border: none;
   border-radius: 50px;
   width: 220px;
+  height: 40px;
 
   font-family: var(--gc-font-family-george-rounded);
   font-style: var(--gc-font-style-italic);
   font-weight: var(--gc-font-weight-normal);
   font-size: var(--gc-font-size-16);
   letter-spacing: var(--gc-character-spacing-0-5);
+  text-decoration: none;
 }
 
 .cursor-pointer {

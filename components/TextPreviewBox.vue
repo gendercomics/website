@@ -11,11 +11,11 @@ const { t } = useI18n({
 const { locale } = useI18n()
 
 const i18nContent = computed(() => {
-  return '/' + locale.value + '/' + props.content
+  return '/' + locale.value + props.content
 })
 
 const doc = await useAsyncData('doc', () =>
-  queryContent(props.content).findOne(),
+  queryContent('/' + locale.value + props.content).findOne(),
 )
 </script>
 <template>

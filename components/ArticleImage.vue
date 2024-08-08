@@ -22,7 +22,7 @@ const imagePath = computed(() => {
 <template>
   <div class="container">
     <img :src="imagePath" alt="" class="image" />
-    <green-button right-corner :text="props.caption" class="button" />
+    <green-button right-corner :text="props.caption" class="button p-10" />
   </div>
 </template>
 
@@ -40,5 +40,9 @@ const imagePath = computed(() => {
   margin-top: 20px;
   align-self: flex-end;
   margin-right: -100px;
+}
+
+.p-10 {
+  padding-bottom: 10px;
 }
 </style>

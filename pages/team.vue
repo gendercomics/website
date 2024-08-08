@@ -37,7 +37,7 @@ const index = await useAsyncData('doc', () =>
                 class="border-right"
                 :img="member.image"
                 width="60%"
-                :caption="member.title"
+                :caption="member.caption"
                 :caption-link="member.route"
               />
               <div v-else-if="index % 2 != 0">
@@ -50,7 +50,7 @@ const index = await useAsyncData('doc', () =>
                 v-if="index % 2 != 0"
                 :img="member.image"
                 width="60%"
-                :caption="member.title"
+                :caption="member.caption"
                 :caption-link="member.route"
                 :btn-arrow="false"
               />

@@ -31,16 +31,19 @@ const { t } = useI18n({
       </div>
       <div class="right-col">
         <green-button
+          class="p-10"
           text="Susanne Hochreiter"
           link="/team/susanne-hochreiter"
           rightCorner
         />
         <green-button
+          class="p-10"
           text="Marina Rauchenbacher"
           link="/team/marina-rauchenbacher"
           rightCorner
         />
         <green-button
+          class="p-10"
           text="Katharina Serles"
           link="/team/katharina-serles"
           rightCorner
@@ -77,6 +80,11 @@ const { t } = useI18n({
   border-right-color: var(--gc-green);
   border-right-width: 2px;
   border-right-style: solid;
+}
+
+.p-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 </style>
 
