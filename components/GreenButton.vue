@@ -50,6 +50,7 @@ const hasLink = computed(() => {
       alt="corner-green-2-50px(buttons)"
     />
 
+    <!--
     <button
       v-if="hasLink"
       class="green-button cursor-pointer"
@@ -57,6 +58,7 @@ const hasLink = computed(() => {
     >
       {{ text }}
     </button>
+    -->
     <button v-else class="green-button">
       {{ text }}
     </button>
