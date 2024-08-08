@@ -11,7 +11,8 @@ const { t } = useI18n({
 const { locale } = useI18n()
 
 const i18nContent = computed(() => {
-  return '/' + locale.value + props.content
+  if (locale.value !== 'de') return '/' + locale.value + props.content
+  else return props.content
 })
 
 const doc = await useAsyncData('doc', () =>

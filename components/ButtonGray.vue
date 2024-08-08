@@ -26,12 +26,12 @@ const isHover = ref(false)
       alt="corner-red-flat-3-50px(buttons)"
       class="w-50px"
     />
-    <nuxt-link-locale
+    <nuxt-link
       :to="props.link"
       @mouseover="isHover = true"
       @mouseleave="isHover = false"
       class="button"
-      >{{ props.text }}</nuxt-link-locale
+      >{{ props.text }}</nuxt-link
     >
   </div>
 </template>

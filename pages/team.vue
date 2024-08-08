@@ -14,6 +14,9 @@ const index = await useAsyncData('doc', () =>
     .where({ title: 'Team.' })
     .findOne(),
 )
+
+const pathSusanne = '/' + locale.value + '/team/susanne-hochreiter'
+const pathMarina = '/' + locale.value + '/team/marina-rauchenbacher'
 </script>
 
 <template>
@@ -24,7 +27,6 @@ const index = await useAsyncData('doc', () =>
           <div class="titel-xl mt-3rem">{{ index.data.value.title }}</div>
           <content-renderer-markdown class="a" :value="index.data.value.body" />
         </content-renderer>
-
         <divider-red-arrow />
       </div>
 

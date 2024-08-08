@@ -49,16 +49,16 @@ const hasLink = computed(() => {
       class="btn-arrow-left"
       alt="corner-green-2-50px(buttons)"
     />
-    <nuxt-link-locale
+    <nuxt-link
       :to="props.link"
       v-if="hasLink"
       class="green-button cursor-pointer"
     >
       {{ text }}
-    </nuxt-link-locale>
-    <nuxt-link-locale v-else to="#" class="green-button">
+    </nuxt-link>
+    <nuxt-link v-else to="#" class="green-button">
       {{ text }}
-    </nuxt-link-locale>
+    </nuxt-link>
 
     <img
       v-if="rightCorner"
