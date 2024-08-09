@@ -5,7 +5,7 @@ heading: Database.
 subheading:
 type: index
 image: art/jongeling_detransition.png
-caption: Nele (Per) Jongeling
+caption: Nele Jongeling
 ---
 
 Created as part of the project and constantly updated, the database is the first comprehensive collection of German-language comics with an explicit reference to gender.

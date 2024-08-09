@@ -5,7 +5,7 @@ heading: Datenbank.
 subheading: 
 type: index
 image: art/jongeling_detransition.png
-caption: Nele (Per) Jongeling
+caption: Nele Jongeling
 ---
 
 Die im Zuge des Projekts entstandene und laufend befüllte Datenbank leistet eine erstmalig umfassende Sammlung deutschsprachiger Comics mit explizitem Gender-Bezug. 
