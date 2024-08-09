@@ -2,7 +2,7 @@
 import { fileURLToPath } from 'node:url'
 
 export default defineNuxtConfig({
-  ssr: true,
+  ssr: false,
   devtools: { enabled: true },
   pages: true,
 
@@ -53,7 +53,7 @@ export default defineNuxtConfig({
 
   nitro: {
     prerender: {
-      failOnError: false,
+      failOnError: true,
     },
   },
 
