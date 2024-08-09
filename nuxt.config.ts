@@ -30,13 +30,7 @@ export default defineNuxtConfig({
     images: fileURLToPath(new URL('./assets/images', import.meta.url)),
   },
 
-  security: {
-    headers: {
-      contentSecurityPolicy: {
-        'script-src': ["'none'"],
-      },
-    },
-  },
+  security: {},
 
   i18n: {
     locales: [
