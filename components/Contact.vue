@@ -33,19 +33,19 @@ const { t } = useI18n({
         <green-button
           class="p-10"
           text="Susanne Hochreiter"
-          link="mailto:susanne.hochreiter@univie.ac.a"
+          link="mailto:susanne.hochreiter@univie.ac.at"
           rightCorner
         />
         <green-button
           class="p-10"
           text="Marina Rauchenbacher"
-          link="mailto:marina.rauchenbacher@univie.ac.at"
+          link="mailto:rauchenbacher@mdw.ac.at"
           rightCorner
         />
         <green-button
           class="p-10"
           text="Katharina Serles"
-          link="mailto:katharina.serles@univie.ac.a"
+          link="mailto:katharina.serles@univie.ac.at"
           rightCorner
         />
       </div>
