@@ -31,7 +31,17 @@ export default defineNuxtConfig({
   },
 
   security: {
-    // options
+    headers: {
+      contentSecurityPolicy: {
+        'script-src': [
+          "'self'",
+          'https:',
+          "'unsafe-inline'",
+          "'strict-dynamic'",
+          "'nonce-{{nonce}}'",
+        ],
+      },
+    },
   },
 
   i18n: {
