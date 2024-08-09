@@ -33,7 +33,7 @@ export default defineNuxtConfig({
   security: {
     headers: {
       contentSecurityPolicy: {
-        'script-src': ["'self'"],
+        'script-src': ["'none'"],
       },
     },
   },
