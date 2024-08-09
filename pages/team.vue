@@ -4,14 +4,19 @@ import type { QueryBuilderParams } from '@nuxt/content/types'
 import ImageBox from '~/components/ImageBox.vue'
 import ContentPreview from '~/components/ContentPreview.vue'
 
+const { locale } = useI18n()
 const memberQuery: QueryBuilderParams = {
-  path: '/team',
+  path: '/' + locale.value + '/team',
   where: [{ type: 'member' }],
 }
-
 const index = await useAsyncData('doc', () =>
-  queryContent('/team').where({ title: 'Team.' }).findOne(),
+  queryContent('/' + locale.value + '/team')
+    .where({ title: 'Team.' })
+    .findOne(),
 )
+
+const pathSusanne = '/' + locale.value + '/team/susanne-hochreiter'
+const pathMarina = '/' + locale.value + '/team/marina-rauchenbacher'
 </script>
 
 <template>
@@ -22,7 +27,6 @@ const index = await useAsyncData('doc', () =>
           <div class="titel-xl mt-3rem">{{ index.data.value.title }}</div>
           <content-renderer-markdown class="a" :value="index.data.value.body" />
         </content-renderer>
-
         <divider-red-arrow />
       </div>
 
@@ -35,7 +39,7 @@ const index = await useAsyncData('doc', () =>
                 class="border-right"
                 :img="member.image"
                 width="60%"
-                :caption="member.title"
+                :caption="member.caption"
                 :caption-link="member.route"
               />
               <div v-else-if="index % 2 != 0">
@@ -48,7 +52,7 @@ const index = await useAsyncData('doc', () =>
                 v-if="index % 2 != 0"
                 :img="member.image"
                 width="60%"
-                :caption="member.title"
+                :caption="member.caption"
                 :caption-link="member.route"
                 :btn-arrow="false"
               />

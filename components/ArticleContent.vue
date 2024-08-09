@@ -1,14 +1,25 @@
-<script setup>
+<script setup lang="ts">
 const props = defineProps({
   content: {
     type: String,
     default: '',
   },
 })
+const { locale } = useI18n()
 
-const doc = await useAsyncData('doc', () =>
-  queryContent(props.content).findOne(),
-)
+const i18nPath = '/' + locale.value + props.content
+
+async function fetchContent() {
+  try {
+    return await queryContent(i18nPath).findOne()
+  } catch (err: any) {
+    return await queryContent(props.content).findOne()
+  }
+}
+
+const doc = await useAsyncData('doc', () => fetchContent(), {
+  watch: [locale],
+})
 </script>
 
 <template>
@@ -33,6 +44,7 @@ const doc = await useAsyncData('doc', () =>
       class="translate-50"
     />
     <divider b1green b2 b3flat b4flat b5 b6 />
+
     <div class="text-container">
       <div class="container-relative">
         <content-renderer :value="doc">

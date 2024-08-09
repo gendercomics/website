@@ -1,9 +1,14 @@
 <script setup lang="ts">
 import DividerRedArrow from '~/components/DividerRedArrow.vue'
 import DividerGreenCorner from '~/components/DividerGreenCorner.vue'
-
+const { t } = useI18n({
+  useScope: 'local',
+})
+const { locale } = useI18n()
 const index = await useAsyncData('doc', () =>
-  queryContent('/collaborations').where({ type: 'index' }).findOne(),
+  queryContent('/' + locale.value + '/collaborations')
+    .where({ type: 'index' })
+    .findOne(),
 )
 </script>
 
@@ -17,21 +22,21 @@ const index = await useAsyncData('doc', () =>
 
       <!-- Wissenschaftlicher Beirat -->
       <div>
-        <h1 class="mt-3rem center">Wissenschaftlicher Beirat</h1>
+        <h1 class="mt-3rem center">{{ t('advisory-board') }}</h1>
 
         <divider-red-arrow />
 
         <div class="row-2">
           <div class="border-right">
             <archive-box-with-image
-              category="Wissenschaftlicher Beirat"
+              :category="t('advisory-board')"
               title="Anke Feuchtenberger"
               img="advisory-board/anke-feuchtenberger.png"
             />
           </div>
           <div>
             <archive-box-with-image
-              category="Wissenschaftlicher Beirat"
+              :category="t('advisory-board')"
               title="Konstanze Fliedl"
               img="advisory-board/konstanze-fliedl.png"
             />
@@ -43,14 +48,14 @@ const index = await useAsyncData('doc', () =>
         <div class="row-2">
           <div class="border-left">
             <archive-box-with-image
-              category="Wissenschaftlicher Beirat"
+              :category="t('advisory-board')"
               title="Ole Frahm"
               img="advisory-board/ole-frahm.jpg"
             />
           </div>
           <div class="border-right">
             <archive-box-with-image
-              category="Wissenschaftlicher Beirat"
+              :category="t('advisory-board')"
               title="Elizabeth 'Biz' Nijdam"
               img="advisory-board/elizabeth-nijdam.png"
             />
@@ -63,7 +68,7 @@ const index = await useAsyncData('doc', () =>
 
       <!-- Projekte und Institutionen -->
       <div>
-        <h1 class="mt-3rem center">Projekte und Institutionen</h1>
+        <h1 class="mt-3rem center">{{ t('projects-institutions') }}</h1>
         <divider-red-arrow />
         <divider-green-corner />
         <div class="row-3">
@@ -104,7 +109,7 @@ const index = await useAsyncData('doc', () =>
 
       <!-- verlage -->
       <div>
-        <h1 class="mt-3rem center">Verlags-Kooperationen</h1>
+        <h1 class="mt-3rem center">{{ t('publisher') }}</h1>
         <divider-red-arrow />
         <divider-green-corner />
         <div class="row-3">
@@ -196,3 +201,13 @@ const index = await useAsyncData('doc', () =>
 }
 </style>
 
+<i18n lang="yaml">
+de:
+  advisory-board: Wissenschaftlicher Beirat
+  projects-institutions: Projekte und Institutionen
+  publisher: Verlags-Kooperationen
+en:
+  advisory-board: Advisory Board
+  projects-institutions: Projects and Institutions
+  publisher: Collaborations with publishers
+</i18n>

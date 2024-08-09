@@ -1,12 +1,13 @@
 ---
 title: Imprint.
+description: Imprint.
 heading: Imprint.
+type: index
 ---
-<!--more-->
 
 **Media Owner:** Project _Visualities of Gender in German-language Comics_, Department of German Philology, Universitätsring 1, 1010 Vienna, Austria
 
-**Email:** [mail@gendercomics.net](mailto:mail@gendercomics.net)
+**Email:** [contact@gendercomics.net](mailto:contact@gendercomics.net)
 
 **Website:** [gendercomics.net](https://gendercomics.net)  
 **Editorial team:** Michael Litschauer, Marina Rauchenbacher, Katharina Serles

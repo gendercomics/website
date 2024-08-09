@@ -1,6 +1,10 @@
 <script setup>
-const resultsPerPage = defineModel(8)
+import { useFeatureStore } from '~/stores/features.ts'
 
+const featureStore = useFeatureStore()
+const { t } = useI18n({
+  useScope: 'local',
+})
 const props = defineProps({
   frame: {
     type: Boolean,
@@ -11,7 +15,9 @@ const props = defineProps({
 
 <template>
   <div class="container-row" :class="{ 'border-right-green': props.frame }">
-    <div class="titel-s result-count">1234 Ergebnisse</div>
+    <div v-if="featureStore.isDatabaseEnabled" class="titel-s result-count">
+      {{ t('results') }}
+    </div>
     <div>
       <div class="flex-column">
         <img
@@ -27,7 +33,7 @@ const props = defineProps({
       </div>
     </div>
     <div class="result-sizer-pos">
-      <div class="results-sizer-start tag">Results per page</div>
+      <div class="results-sizer-start tag">{{ t('page-size') }}</div>
     </div>
     <div class="result-sizer-pos res-size-element">8</div>
     <div class="result-sizer-pos res-size-element ml--2">16</div>
@@ -145,3 +151,12 @@ const props = defineProps({
   width: 100px;
 }
 </style>
+
+<i18n lang="yaml">
+de:
+  results: x Ergebnisse
+  page-size: Ergebnisse / Seite
+en:
+  results: x Results
+  page-size: Results per page
+</i18n>

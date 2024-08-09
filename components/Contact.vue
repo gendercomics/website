@@ -1,21 +1,24 @@
 <script setup>
 import GreenButton from '~/components/GreenButton.vue'
+const { t } = useI18n({
+  useScope: 'local',
+})
 </script>
 
 <template>
   <div class="container-row">
     <div class="w-50">
       <div class="w-90">
-        <div class="titel-xl">Kontakt</div>
+        <div class="titel-xl">{{ t('contact') }}</div>
         <green-button text="GenderComics Team" link="/team" left-corner />
       </div>
     </div>
     <div class="w-50 border-right flex">
       <div class="left-col">
-        <div class="tag">Kontakt</div>
+        <div class="tag">{{ t('contact') }}</div>
         <div class="titel-kachel">GenderComics</div>
         <div class="address-block mt-30">
-          <a class="a">Universität Wien</a>
+          <a class="a">{{ t('uni') }}</a>
           <a class="a">Universitätsring 1</a>
           <a class="a">1010 Wien</a>
         </div>
@@ -28,18 +31,21 @@ import GreenButton from '~/components/GreenButton.vue'
       </div>
       <div class="right-col">
         <green-button
+          class="p-10"
           text="Susanne Hochreiter"
-          link="/team/susanne-hochreiter"
+          link="mailto:susanne.hochreiter@univie.ac.a"
           rightCorner
         />
         <green-button
+          class="p-10"
           text="Marina Rauchenbacher"
-          link="/team/marina-rauchenbacher"
+          link="mailto:marina.rauchenbacher@univie.ac.at"
           rightCorner
         />
         <green-button
+          class="p-10"
           text="Katharina Serles"
-          link="/team/katharina-serles"
+          link="mailto:katharina.serles@univie.ac.a"
           rightCorner
         />
       </div>
@@ -75,4 +81,18 @@ import GreenButton from '~/components/GreenButton.vue'
   border-right-width: 2px;
   border-right-style: solid;
 }
+
+.p-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 </style>
+
+<i18n lang="yaml">
+de:
+  contact: Kontakt
+  uni: Universität Wien
+en:
+  contact: Contact
+  uni: University of Vienna
+</i18n>

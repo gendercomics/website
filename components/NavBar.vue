@@ -35,25 +35,29 @@ onBeforeUnmount(() => {
   <nav class="navigation" ref="navbar">
     <burger />
     <div v-if="navStore.isNavbarVisible" class="nav-bar">
-      <nuxt-link to="/"
+      <nuxt-link-locale to="/"
         ><img
           src="@/assets/images/logo-gendercomics-h.svg"
           alt="gc"
           class="ml-50"
-      /></nuxt-link>
+      /></nuxt-link-locale>
       <div class="nav-links">
         <div>
           <div class="nav-link" @click="toggleMenu">{{ t('about') }}</div>
           <popup-menu v-model="isMenuOpen" />
         </div>
-        <nuxt-link to="/database" class="nav-link">{{
+        <nuxt-link-locale to="/database" class="nav-link">{{
           t('database')
-        }}</nuxt-link>
-        <nuxt-link to="/book" class="nav-link">{{ t('book') }}</nuxt-link>
-        <nuxt-link to="/activities" class="nav-link">{{
+        }}</nuxt-link-locale>
+        <nuxt-link-locale to="/book" class="nav-link">{{
+          t('book')
+        }}</nuxt-link-locale>
+        <nuxt-link-locale to="/activities" class="nav-link">{{
           t('activities')
-        }}</nuxt-link>
-        <nuxt-link to="/blog" class="nav-link">{{ t('blog') }}</nuxt-link>
+        }}</nuxt-link-locale>
+        <nuxt-link-locale to="/blog" class="nav-link">{{
+          t('blog')
+        }}</nuxt-link-locale>
       </div>
       <div class="lang-switcher">
         <language-button />

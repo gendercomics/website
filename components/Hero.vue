@@ -1,4 +1,8 @@
-<script setup></script>
+<script setup>
+const { t } = useI18n({
+  useScope: 'local',
+})
+</script>
 
 <template>
   <div>
@@ -25,7 +29,7 @@
       </div>
       <div class="w-50">
         <div class="logo-claim pl-10 ml-10">
-          Visualitäten von Geschlecht in deutsch&shy;sprachigen Comics
+          {{ t('title') }}
         </div>
       </div>
     </div>
@@ -114,3 +118,10 @@
   margin-right: -1px;
 }
 </style>
+
+<i18n lang="yaml">
+de:
+  title: Visualitäten von Geschlecht in deutsch-sprachigen Comics
+en:
+  title: Visualities of Gender in German-Language Comics
+</i18n>

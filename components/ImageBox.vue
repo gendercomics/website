@@ -22,15 +22,15 @@ const props = defineProps({
   },
 })
 
-function getImageUrl() {
-  return new URL(`../assets/images/${props.img}`, import.meta.url)
-}
+const imagePath = computed(() => {
+  return '/images/' + props.img
+})
 </script>
 
 <template>
   <div class="container">
     <div class="image-container border-right">
-      <img :src="getImageUrl()" alt="" :width="props.width" />
+      <img :src="imagePath" alt="" :width="props.width" />
     </div>
     <div class="caption-container margin">
       <green-button

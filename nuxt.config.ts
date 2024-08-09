@@ -2,6 +2,7 @@
 import { fileURLToPath } from 'node:url'
 
 export default defineNuxtConfig({
+  ssr: true,
   devtools: { enabled: true },
   pages: true,
 
@@ -30,7 +31,11 @@ export default defineNuxtConfig({
   },
 
   security: {
-    // options
+    headers: {
+      contentSecurityPolicy: {
+        'script-src': ["'none'"],
+      },
+    },
   },
 
   i18n: {
@@ -49,6 +54,12 @@ export default defineNuxtConfig({
       useCookie: true,
       cookieKey: 'i18n_gc',
       redirectOn: 'root',
+    },
+  },
+
+  nitro: {
+    prerender: {
+      failOnError: false,
     },
   },
 
