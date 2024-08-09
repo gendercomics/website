@@ -8,7 +8,6 @@ const props = defineProps({
 const { locale } = useI18n()
 
 const i18nPath = '/' + locale.value + props.content
-//const doc = await useAsyncData('doc', () => queryContent(i18nPath).findOne())
 
 async function fetchContent() {
   try {
@@ -18,13 +17,8 @@ async function fetchContent() {
   }
 }
 
-//const doc = await useAsyncData('doc', () => queryContent(i18nPath).findOne())
 const doc = await useAsyncData('doc', () => fetchContent(), {
   watch: [locale],
-})
-
-onMounted(() => {
-  console.log('doc: ' + doc.data.value.title)
 })
 </script>
 
