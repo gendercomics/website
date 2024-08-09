@@ -43,6 +43,6 @@ de:
 en:
   tag1: National research partner
   tag2: Evelyn Annuß
-  title: University of music and performing arts Vienna
+  title: University of Music and Performing Arts Vienna
   subtitle: International Research Center Gender and Performativity
 </i18n>
