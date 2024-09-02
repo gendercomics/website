@@ -2,7 +2,7 @@
 import { fileURLToPath } from 'node:url'
 
 export default defineNuxtConfig({
-  ssr: false,
+  ssr: true,
   devtools: { enabled: true },
   pages: true,
 
@@ -56,6 +56,4 @@ export default defineNuxtConfig({
       failOnError: false,
     },
   },
-
-  compatibilityDate: '2024-07-31',
 })
