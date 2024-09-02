@@ -30,6 +30,8 @@ jobs:
             latest=true
 
       - name: build and push docker image
+        env:
+          CI: false
         uses: docker/build-push-action@v6
         with:
           file: ./Dockerfile
