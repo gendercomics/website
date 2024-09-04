@@ -10,6 +10,6 @@ RUN npm run generate-website
 
 # production environment
 FROM nginx:stable-alpine
-COPY --from=build-stage .output/public /usr/share/nginx/html
+COPY --from=build-stage /app/.output/public /usr/share/nginx/html
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
