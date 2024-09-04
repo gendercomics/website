@@ -1,9 +1,14 @@
-<script>
-export default {
-  props: {
-    member: {},
+<script setup>
+const props = defineProps({
+  member: {
+    type: Object,
+    default: {},
   },
-}
+})
+
+const { t } = useI18n({
+  useScope: 'local',
+})
 </script>
 
 <template>
@@ -19,11 +24,7 @@ export default {
             excerpt
           />
         </content-renderer>
-        <button-gray
-          class="mt-1rem"
-          text="mehr erfahren"
-          :link="member.route"
-        />
+        <button-gray class="mt-1rem" :text="t('more')" :link="member.route" />
       </div>
     </div>
   </div>
@@ -49,3 +50,10 @@ export default {
   margin-top: 1rem;
 }
 </style>
+
+<i18n lang="yaml">
+de:
+  more: Mehr erfahren
+en:
+  more: Learn more
+</i18n>
