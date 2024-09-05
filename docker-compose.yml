@@ -4,6 +4,8 @@ services:
   gendercomics-website-stage:
     image: gendercomics/website-stage:latest
     container_name: gendercomics-website-stage
+    ports:
+      - 80:3000
     restart: unless-stopped
     networks:
       - proxy
