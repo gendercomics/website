@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@nuxt/image": "^1.6.0",
-    "nuxt": "^3.12.4",
+    "nuxt": "^3.13.1",
     "prettier": "^3.2.5"
   }
 }
