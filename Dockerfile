@@ -10,13 +10,12 @@ COPY package.json ./
 RUN npm install
 COPY . .
 
-RUN npm run build-website
+RUN npm run generate-website
 
 # run
-FROM base
+FROM nginx:stable-alpine
+WORKDIR /app
 
-
-COPY --from=build /app/.output /.output
-EXPOSE 3000
-#CMD ["nginx", "-g", "daemon off;"]
-CMD ["node", ".output/server/index.mjs"]
+COPY --from=build /app/.output/public /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
