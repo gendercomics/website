@@ -61,7 +61,7 @@ export default defineNuxtConfig({
     // TODO define rules for the pages
     '/': { prerender: true },
     '/database/**': {
-      ssr: false,
+      ssr: true,
     },
   },
 
