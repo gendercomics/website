@@ -57,5 +57,13 @@ export default defineNuxtConfig({
     },
   },
 
+  routeRules: {
+    // TODO define rules for the pages
+    '/': { prerender: true },
+    '/database/**': {
+      ssr: false,
+    },
+  },
+
   compatibilityDate: '2024-09-04',
 })
