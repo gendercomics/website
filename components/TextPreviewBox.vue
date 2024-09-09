@@ -23,7 +23,7 @@ const doc = await useAsyncData('doc', () =>
   <div class="container-row">
     <div class="column">
       <div class="w-90">
-        <content-renderer :value="doc">
+        <content-renderer :value="doc" :key="$route.fullPath" >
           <div class="tag">{{ doc.data.value.team }}</div>
           <div class="titel-kachel">{{ doc.data.value.title }}</div>
           <content-renderer-markdown

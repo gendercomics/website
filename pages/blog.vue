@@ -12,7 +12,7 @@ const index = await useAsyncData('doc', () =>
 <template>
   <div class="page-margin container">
     <div class="column">
-      <content-renderer :value="index">
+      <content-renderer :value="index" :key="$route.fullPath">
         <div class="titel-xl mt-3rem">{{ index.data.value.title }}</div>
         <content-renderer-markdown class="a" :value="index.data.value.body" />
       </content-renderer>

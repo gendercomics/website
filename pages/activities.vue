@@ -23,7 +23,7 @@ const index = await useAsyncData('doc', () =>
 
     <div class="column text-container">
       <div class="container-relative">
-        <content-renderer :value="index">
+        <content-renderer :value="index" :key="$route.fullPath">
           <article-image
             image="art/gordon_shelegend.jpg"
             caption="Jul Gordon"

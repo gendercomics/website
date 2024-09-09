@@ -47,7 +47,7 @@ const doc = await useAsyncData('doc', () => fetchContent(), {
 
     <div class="text-container">
       <div class="container-relative">
-        <content-renderer :value="doc">
+        <content-renderer :value="doc" :key="$route.fullPath">
           <div v-if="doc.data.value.image">
             <article-image
               :image="doc.data.value.image"

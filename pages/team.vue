@@ -23,7 +23,7 @@ const pathMarina = '/' + locale.value + '/team/marina-rauchenbacher'
   <div class="page-margin container">
     <div>
       <div class="column">
-        <content-renderer :value="index">
+        <content-renderer :value="index" :key="$route.fullPath">
           <div class="titel-xl mt-3rem">{{ index.data.value.title }}</div>
           <content-renderer-markdown class="a" :value="index.data.value.body" />
         </content-renderer>
