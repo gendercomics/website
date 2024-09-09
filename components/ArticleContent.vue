@@ -24,7 +24,7 @@ const doc = await useAsyncData('doc', () => fetchContent(), {
 
 <template>
   <div class="container page-margin">
-    <content-renderer :value="doc">
+    <content-renderer :value="doc" :key="$route.fullPath">
       <div class="titel-xl mt-3rem txt-align-center">
         {{ doc.data.value.title }}
       </div>
