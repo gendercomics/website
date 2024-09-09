@@ -17,7 +17,7 @@ async function fetchContent() {
   }
 }
 
-const doc = await useAsyncData('doc', () => fetchContent(), {
+const doc = await useAsyncData(() => fetchContent(), {
   watch: [locale],
 })
 </script>
