@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import * as querystring from 'node:querystring'
+
 const props = defineProps({
   content: {
     type: String,
@@ -17,9 +19,9 @@ async function fetchContent() {
   }
 }
 
-const doc = await useAsyncData(() => fetchContent(), {
-  watch: [locale],
-})
+const doc = await useAsyncData(() =>
+  queryContent('/' + locale.value + props.content).findOne(),
+)
 </script>
 
 <template>
