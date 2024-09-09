@@ -24,19 +24,22 @@ const doc = await useAsyncData('doc', () => fetchContent(), {
 
 <template>
   <div class="container page-margin">
-    <content-renderer :value="doc" :key="$route.fullPath">
-      <div class="titel-xl mt-3rem txt-align-center">
-        {{ doc.data.value.title }}
-      </div>
-      <div class="w-90">
-        <div v-if="doc.data.value.excerpt">
-          <content-renderer-markdown
-            class="a txt-align-center mt-2rem"
-            :value="doc.data.value.excerpt"
-          />
+    <client-only>
+      <content-renderer :value="doc" :key="$route.fullPath">
+        <div class="titel-xl mt-3rem txt-align-center">
+          {{ doc.data.value.title }}
         </div>
-      </div>
-    </content-renderer>
+        <div class="w-90">
+          <div v-if="doc.data.value.excerpt">
+            <content-renderer-markdown
+              class="a txt-align-center mt-2rem"
+              :value="doc.data.value.excerpt"
+            />
+          </div>
+        </div>
+      </content-renderer>
+    </client-only>
+
     <divider-red-arrow />
     <img
       src="../assets/images/corner-green-3-50px(buttons).svg"
@@ -47,22 +50,24 @@ const doc = await useAsyncData('doc', () => fetchContent(), {
 
     <div class="text-container">
       <div class="container-relative">
-        <content-renderer :value="doc" :key="$route.fullPath">
-          <div v-if="doc.data.value.image">
-            <article-image
-              :image="doc.data.value.image"
-              :caption="doc.data.value.caption"
-              class="image"
-            />
-          </div>
-          <h1>{{ doc.data.value.heading }}</h1>
-          <h2 v-if="doc.data.value.subheading">
-            {{ doc.data.value.subheading }}
-          </h2>
-          <div class="a mt-2rem">
-            <content-renderer-markdown :value="doc.data.value.body" />
-          </div>
-        </content-renderer>
+        <client-only>
+          <content-renderer :value="doc" :key="$route.fullPath">
+            <div v-if="doc.data.value.image">
+              <article-image
+                :image="doc.data.value.image"
+                :caption="doc.data.value.caption"
+                class="image"
+              />
+            </div>
+            <h1>{{ doc.data.value.heading }}</h1>
+            <h2 v-if="doc.data.value.subheading">
+              {{ doc.data.value.subheading }}
+            </h2>
+            <div class="a mt-2rem">
+              <content-renderer-markdown :value="doc.data.value.body" />
+            </div>
+          </content-renderer>
+        </client-only>
       </div>
     </div>
     <divider t1 b2 b3flat b4flat b5 t6 />
