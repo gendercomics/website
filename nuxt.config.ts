@@ -33,6 +33,7 @@ export default defineNuxtConfig({
   security: {},
 
   i18n: {
+    strategy: 'prefix_and_default',
     locales: [
       {
         code: 'de',
