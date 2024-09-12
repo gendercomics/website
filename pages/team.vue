@@ -11,12 +11,9 @@ const memberQuery: QueryBuilderParams = {
 }
 const index = await useAsyncData('doc', () =>
   queryContent('/' + locale.value + '/team')
-    .where({ title: 'Team.' })
+    .where({ type: 'index' })
     .findOne(),
 )
-
-const pathSusanne = '/' + locale.value + '/team/susanne-hochreiter'
-const pathMarina = '/' + locale.value + '/team/marina-rauchenbacher'
 </script>
 
 <template>

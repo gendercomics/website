@@ -1,5 +1,4 @@
 <script setup lang="ts">
-
 const props = defineProps({
   content: {
     type: String,
@@ -20,22 +19,22 @@ async function fetchContent() {
 
 // let { data: doc } = await useAsyncData(() => fetchContent(i18nPath.value))
 
-let doc = await useAsyncData(() =>
-  queryContent(i18nPath.value).findOne(),
-)
+let doc = await useAsyncData(() => queryContent(i18nPath.value).findOne())
 
 // Watch the route and refetch content on route change
 /*
 watch(
   () => route.fullPath,
   async () => {
-    doc = await queryContent('/' + locale.value + props.content).findOne()
+    console.log("route changed: " + route.fullPath)
+    doc = await queryContent(i18nPath.value).findOne()
   },
 )
  */
 
 // Alternatively, using `onBeforeRouteUpdate`
 onBeforeRouteUpdate(async (to, from, next) => {
+  console.log("i18nPath: " + i18nPath.value)
   doc = await queryContent(i18nPath.value).findOne()
   next()
 })
