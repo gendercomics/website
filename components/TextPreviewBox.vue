@@ -10,20 +10,21 @@ const { t } = useI18n({
 })
 const { locale } = useI18n()
 
-const i18nContent = computed(() => {
-  if (locale.value !== 'de') return '/' + locale.value + props.content
-  else return props.content
-})
+const i18nPath = computed(() => '/' + locale.value + props.content)
 
-const doc = await useAsyncData('doc', () =>
-  queryContent('/' + locale.value + props.content).findOne(),
-)
+let doc = await useAsyncData(() => queryContent(i18nPath.value).findOne())
+
+onBeforeRouteUpdate(async (to, from, next) => {
+  console.log('i18nPath: ' + i18nPath.value)
+  doc = await queryContent(i18nPath.value).findOne()
+  next()
+})
 </script>
 <template>
   <div class="container-row">
     <div class="column">
       <div class="w-90">
-        <content-renderer :value="doc" :key="$route.fullPath" >
+        <content-renderer :value="doc" :key="$route.fullPath">
           <div class="tag">{{ doc.data.value.team }}</div>
           <div class="titel-kachel">{{ doc.data.value.title }}</div>
           <content-renderer-markdown
@@ -31,7 +32,7 @@ const doc = await useAsyncData('doc', () =>
             :value="doc.data.value.excerpt"
           />
         </content-renderer>
-        <button-gray class="mt-1rem" :text="t('more')" :link="i18nContent" />
+        <button-gray class="mt-1rem" :text="t('more')" :link="i18nPath" />
       </div>
     </div>
   </div>
