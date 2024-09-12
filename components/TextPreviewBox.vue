@@ -9,16 +9,18 @@ const { t } = useI18n({
   useScope: 'local',
 })
 const { locale } = useI18n()
+const route = useRoute()
 
 const i18nPath = computed(() => '/' + locale.value + props.content)
 
 let doc = await useAsyncData(() => queryContent(i18nPath.value).findOne())
 
-onBeforeRouteUpdate(async (to, from, next) => {
-  console.log('i18nPath: ' + i18nPath.value)
-  doc = await queryContent(i18nPath.value).findOne()
-  next()
-})
+watch(
+  () => route.fullPath,
+  async () => {
+    doc = await useAsyncData(() => queryContent(i18nPath.value).findOne())
+  },
+)
 </script>
 <template>
   <div class="container-row">
