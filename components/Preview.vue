@@ -39,7 +39,7 @@ const props = defineProps({
         :caption-link="props.imgCaptionLink"
       />
       <div v-else-if="props.imgCol === 2">
-        <TextPreviewBox :content="props.content" />
+        <TextPreviewBox :content="props.content" :key="$i18n.locale" />
       </div>
     </div>
     <div class="w-50">
@@ -52,7 +52,7 @@ const props = defineProps({
         :btn-arrow="false"
       />
       <div v-else-if="props.imgCol === 1">
-        <TextPreviewBox :content="props.content" />
+        <TextPreviewBox :content="props.content" :key="$i18n.locale" />
       </div>
     </div>
   </div>
