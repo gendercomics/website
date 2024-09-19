@@ -6,6 +6,7 @@ const props = defineProps({
   },
 })
 const { locale } = useI18n()
+const route = useRoute()
 
 const i18nPath = computed(() => '/' + locale.value + props.content)
 
@@ -17,7 +18,6 @@ async function fetchContent() {
   }
 }
 
-// let { data: doc } = await useAsyncData(() => fetchContent(i18nPath.value))
 
 let doc = await useAsyncData(() => queryContent(i18nPath.value).findOne())
 
@@ -32,12 +32,22 @@ watch(
 )
  */
 
+watch(
+  () => i18nPath.value,
+  async () => {
+    console.log("watch: " + route.fullPath)
+    doc = await useAsyncData(() => queryContent(i18nPath.value).findOne())
+  },
+)
+
 // Alternatively, using `onBeforeRouteUpdate`
+/*
 onBeforeRouteUpdate(async (to, from, next) => {
   console.log("i18nPath: " + i18nPath.value)
   doc = await queryContent(i18nPath.value).findOne()
   next()
 })
+*/
 </script>
 
 <template>

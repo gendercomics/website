@@ -16,11 +16,14 @@ const i18nPath = computed(() => '/' + locale.value + props.content)
 let doc = await useAsyncData(() => queryContent(i18nPath.value).findOne())
 
 watch(
-  () => route.fullPath,
+  () => i18nPath.value,
   async () => {
+    console.log("watch: " + i18nPath.value)
     doc = await useAsyncData(() => queryContent(i18nPath.value).findOne())
   },
 )
+
+
 </script>
 <template>
   <div class="container-row">
