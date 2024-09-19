@@ -11,7 +11,7 @@ caption: Regina Hofer
 # Publications
 
 ### Edited Volumes
-- forthcoming: Rauchenbacher, Marina, Katharina Serles, and Naomi Lobnig, editors. _Comics Studies x Gender Studies. Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice_, in collaboration with Susanne Hochreiter. Berlin: Walter de Gruyter. 
+- forthcoming: Rauchenbacher, Marina, Katharina Serles, and Naomi Lobnig, editors. _Comics Studies x Gender Studies: Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice_, in collaboration with Susanne Hochreiter. Berlin: Walter de Gruyter. 
 - Loidl, Sonja, Susanne Hochreiter, Marina Rauchenbacher, and Katharina Serles, editors. _Graphisches Erzählen in der Kinder- und Jugendliteratur_. Vienna: Praesens Verlag, 2024, Wiener Vorlesungen zur Kinder- und Jugendliteratur 2.
 - Hochreiter, Susanne, Marina Rauchenbacher, and Katharina Serles, editors. _Comics aus und über Österreich_, special issue of _Journal of Austrian Studies_, vol. 55, no. 2, 2022. [https://doi.org/10.1353/oas.2022.0028](https://doi.org/10.1353/oas.2022.0028)
 - Masel, Eva Katharina, Andrea Praschinger, Marina Rauchenbacher, and Ruth Kutalek, editors. _Körper – Body_. Vienna General Hospital and Medical University Vienna, 2020.
@@ -19,6 +19,8 @@ caption: Regina Hofer
 
 
 ### Scientific Articles
+- Rauchenbacher, Marina. “Boote | Grenzen | Unsicherheit: Das gesellschaftspolitische Potenzial von Comics über Flucht und Migration.” _Comics und Intersektionalität_, edited by Anna Beckmann, Kalina Kupczyńska, Marie Schröer, and Véronique Sina. Berlin: Walter de Gruyter, 2024. pp. 117–34. [https://doi.org/10.1515/9783110799385-010](https://doi.org/10.1515/9783110799385-010)
+- Serles, Katharina. “Im Transit verloren: Gender-Grenz-Überschreitungen in Franz Suess’ _Paul Zwei_.” _Comics und Intersektionalität_, edited by Anna Beckmann, Kalina Kupczyńska, Marie Schröer, and Véronique Sina. Berlin: Walter de Gruyter, 2024. pp. 135–50. [https://doi.org/10.1515/9783110799385-011] (https://doi.org/10.1515/9783110799385-011)
 - Rauchenbacher, Marina. “Comics from the German-Language Realm and Health Humanities: An Overview.” _The Health Humanities in German Studies_, edited by Stephanie M. Hilger. Bloomsbury, 2024, pp. 79-98. [https://doi.org/10.5040/9781350296220.ch-5](https://doi.org/10.5040/9781350296220.ch-5)
 - Serles, Katharina. “Raum-Zeitlichkeit und Adoleszenz in Lukas Jüligers Vakuum.” _Graphisches Erzählen in der Kinder- und Jugendliteratur_, edited by Susanne Hochreiter, Sonja Loidl, Marina Rauchenbacher, and Katharina Serles. Vienna: Praesens, 2024, pp. 141-66.
 - Hochreiter, Susanne: “Schwule Pärchen, Töchter und andere Figuren: Marginalisierte Held\*innen und homosoziale Strukturen in Asterix-Comics.” _Graphisches Erzählen in der Kinder- und Jugendliteratur_, edited by Susanne Hochreiter, Sonja Loidl, Marina Rauchenbacher, and Katharina Serles. Vienna: Praesens, 2024, pp. 169-94.
@@ -42,8 +44,6 @@ caption: Regina Hofer
 - Serles, Katharina: “‘Time in comics is infinitely weirder than that’: Zeit- via Bildkonfiguration bei Marc-Antoine Mathieu und Chris Ware.” _Bild ist Text ist Bild: Narration und Ästhetik in der Graphic Novel_, edited by Susanne Hochreiter and Ursula Klingenböck. Bielefeld: transcript, 2014, pp. 79-96.
 
 ### Scientific Articles (forthcoming)
-- Rauchenbacher, Marina. “Grenzen – Grenzungen – Grenzende Körper. Comics über Flucht/Migration und ihr gesellschaftspolitisches Potenzial.” _Race, Class, Gender & Beyond: Intersektionale Ansätze der Comicforschung_, edited by Anna Beckmann, Kalina Kupczyńska, Marie Schröer, and Véronique Sina. Walter de Gruyter.
-- Serles, Katharina. “Im Transit verloren: Gender-Grenz-Überschreitungen in Franz Suess’ _Paul Zwei_.” _Race, Class, Gender & Beyond: Intersektionale Ansätze der Comicforschung_, edited by Anna Beckmann, Kalina Kupczyńska, Marie Schröer, and Véronique Sina. Walter de Gruyter.
 - Rauchenbacher, Marina. “Körper-Zeit-Körper: Zeitkonzepte in Ulli Lusts und Marcel Beyers _Flughunde_.” _Closure: Kieler e-Journal für Comicforschung_, no. 10.5.
 - Hochreiter, Susanne. “Fantastillionen und arme Schlucker. Ein Essay über Gender, Begehren und soziale Klasse in Entenhausen.” _Comics Studies x Gender Studies: Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice_, edited by Marina Rauchenbacher, Katharina Serles, and Naomi Lobnig in collaboration with Susanne Hochreiter. Berlin: Walter de Gruyter.
 - Lobnig, Naomi. “Alternative Betrachtungsweisen des alternden Körpers in Lika Nüsslis _Vergiss dich nicht_.” _Comics Studies x Gender Studies: Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice_, edited by Marina Rauchenbacher, Katharina Serles, and Naomi Lobnig in collaboration with Susanne Hochreiter. Berlin: Walter de Gruyter.
