@@ -58,11 +58,10 @@ export default defineNuxtConfig({
     },
   },
 
-  routeRules: {
-    // TODO define rules for the pages
-    '/': { prerender: true },
-    '/database/**': {
-      ssr: true,
+  render: {
+    etag: false,
+    static: {
+      cacheControl: false,
     },
   },
 
