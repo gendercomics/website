@@ -139,7 +139,7 @@ caption: Regina Hofer
 - Rauchenbacher, Marina. Graduate seminar _In Wort und Bild: Strategien des Erzählens in Comics_ (fall 2024, Department of German Philology, University of Vienna).
 - Serles, Katharina. _Mind the Gap: Comictheorie_ (spring 2024, Kunstschule Wien).
 - Serles, Katharina. _Mit der Axt im Auge: Comictheorie_ (fall 2023, Kunstschule Wien).
-- Hochreiter, Susanne. :Hybride Körper in Comics und Graphic Novels: Fortbildung für Lehrende_ (KPH Vienna, Bildungszentrum Lacknergasse, October 12, 2023).
+- Hochreiter, Susanne. _Hybride Körper in Comics und Graphic Novels: Fortbildung für Lehrende_ (KPH Vienna, Bildungszentrum Lacknergasse, October 12, 2023).
 - Rauchenbacher, Marina. _Leben sehen: (Auto)Biografische Comics_ (March 2023, _Literarische Kurse: Fernkurs für Literatur_, Wien).
 - Rauchenbacher, Marina. Undergraduate seminar _Krankheit und Dis_ability in deutschsprachigen Comics_ (fall 2021, Department of German Philology, University of Vienna).
 - Rauchenbacher, Marina. Lecture _Verborgen : Im Zentrum : Dazwischen: Kranke Körper in Heidi-Comics_ (spring 2021, lecture series _Wiedersehen mit Heidi / Re-reading Heidi_, organized by Linda Leskau and Sigrid Nieberle, Institute für Diversity Studies, TU Dortmund).
