@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { useAsyncData } from '#app'
+
 const props = defineProps({
   content: {
     type: String,
@@ -18,7 +20,6 @@ async function fetchContent() {
   }
 }
 
-
 let doc = await useAsyncData(() => queryContent(i18nPath.value).findOne())
 
 // Watch the route and refetch content on route change
@@ -31,15 +32,13 @@ watch(
   },
 )
  */
-
 watch(
   () => i18nPath.value,
   async () => {
-    console.log("watch: " + route.fullPath)
+    //console.log('watch: ' + route.fullPath)
     doc = await useAsyncData(() => queryContent(i18nPath.value).findOne())
   },
 )
-
 // Alternatively, using `onBeforeRouteUpdate`
 /*
 onBeforeRouteUpdate(async (to, from, next) => {
@@ -52,7 +51,7 @@ onBeforeRouteUpdate(async (to, from, next) => {
 
 <template>
   <div class="container page-margin">
-    <content-renderer :value="doc" :key="$route.fullPath">
+    <content-renderer :value="doc" :key="i18nPath">
       <div class="titel-xl mt-3rem txt-align-center">
         {{ doc.data.value.title }}
       </div>
@@ -76,7 +75,7 @@ onBeforeRouteUpdate(async (to, from, next) => {
 
     <div class="text-container">
       <div class="container-relative">
-        <content-renderer :value="doc" :key="$route.fullPath">
+        <content-renderer :value="doc" :key="i18nPath">
           <div v-if="doc.data.value.image">
             <article-image
               :image="doc.data.value.image"

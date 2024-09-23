@@ -8,6 +8,6 @@ onMounted(() => {
 
 <template>
   <main>
-    <article-content :content="slug" />
+    <article-content :content="slug" :key="slug.value" />
   </main>
 </template>

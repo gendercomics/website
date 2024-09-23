@@ -20,7 +20,7 @@ const index = await useAsyncData('doc', () =>
   <div class="page-margin container">
     <div>
       <div class="column">
-        <content-renderer :value="index" :key="$route.fullPath">
+        <content-renderer :value="index" :key="locale.value + '/team'">
           <div class="titel-xl mt-3rem">{{ index.data.value.title }}</div>
           <content-renderer-markdown class="a" :value="index.data.value.body" />
         </content-renderer>
