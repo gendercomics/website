@@ -126,7 +126,7 @@ caption: Regina Hofer
 - M. Rauchenbacher: _Subversive Blicke. Blickpolitik in Ulli Lust’s_ Heute ist der letzte Tag vom Rest deines Lebens, Jahrestagung der German Studies Association, Atlanta, GA, 5.–8. Oktober 2017.
 - K. Serles: _Dazwischen. Subversion im Gutter_, Jahrestagung der German Studies Association, Atlanta, GA, 5.–8. Oktober 2017.
 - K. Serles: _BILDER SEHEN ERZÄHLEN. Kunstbetrachtung im Comic_, 3. Workshop der AG Comicforschung, Universität zu Köln, 2.–3. März 2017.
-- K. Serles: _(Über)Macht der Bilder und ihre Subversion im Comic_, Momentum 16, Kongress für kritische Wissenschaft, Hallstatt, 13.–16.10.2016.
+- K. Serles: _(Über)Macht der Bilder und ihre Subversion im Comic_, Momentum 16, Kongress für kritische Wissenschaft, Hallstatt, 13.–16. Oktober 2016.
 - M. Rauchenbacher: _Women’s Viewpoints. Systems of Gazing in the Graphic Novel_ Gift, Jahrestagung der German Studies Association, Washington, DC, 1.–4. Oktober 2015.
 
 # Lehre
