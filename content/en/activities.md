@@ -163,7 +163,7 @@ caption: Regina Hofer
 - Rauchenbacher, Marina. Artist talk with Inna Sahakyan about her film _Aurora’s Sunrise_, VWI Visual, Wiener Wiesenthal Institut für Holocaust-Studien, November 30, 2023.
 - Rauchenbacher, Marina. ComicMonday: presentation and artist Talk with Raoul Eisele and Monika Ernst, Austrian Association for Comics, Rooming Inn Vienna, November 27, 2023.
 - Rauchenbacher, Marina. Opening lecture for the partial exhibition _Narrating Violence: A Comic Exhibition_, Event Center Kolarac, Belgrade, November 18, 2023.
-- Rauchenbacher, Marina. Artist Talk with Anke Feuchtenberger, Sigmund Freud Museum Vienna and Vienna Art Week, November 16, 2023.
+- Rauchenbacher, Marina. Artist talk with Anke Feuchtenberger, Sigmund Freud Museum Vienna and Vienna Art Week, November 16, 2023.
 - Rauchenbacher, Marina. Opening lecture for the exhibition _Narrating Violence: A Comic Exhibition_, Sigmund Freud Museum Vienna, October 19, 2023.
 - Rauchenbacher, Marina. Panel discussion about the work of Anke Feuchtenberger, Symposium _Zeichnen als Wunscherfüllung – Ein Fest für Anke Feuchtenberger_, September 28-29, 2023.
 - Rauchenbacher, Marina. Artist talks with Janne Marie Dauer and Vinz Schwarzbauer, Literaturmeile Zieglergasse, September 16, 2023.
@@ -212,8 +212,8 @@ caption: Regina Hofer
 
 # Awards and Grants
 - 2024: FWF open access grant: Marina Rauchenbacher, Katharina Serles, and Naomi Lobnig, eds. _Comics Studies x Gender Studies: Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice_. Berlin, Walter de Gruyter, forthcoming. Grant-DOI: [10.55776/PUB1145](https://www.fwf.ac.at/forschungsradar/10.55776/PUB1145).
-- 2023: Will Eisner Comic Industry Award for Best Academic/Scholarly Work 2023: Alison Halsall and Jonathan Warren, eds. _The LGBTQ+ Comics Studies Reader: Critical Openings, Future Directions_. Jackson: UP of Mississippi, 2022 (therein: Susanne Hochreiter, Marina Rauchenbacher, and Katharina Serles. “Queer Visualities ­– Queer Spaces. German-Language LGBTQ+ Comics”, pp. 114-33.)
-- 2019: FWF research grant for the project _Visualities of Gender in German-language Comics_, Grant-DOI: [10.55776/P31925](https://www.fwf.ac.at/forschungsradar/10.55776/P31925).
+- 2023: Will Eisner Comic Industry Award for Best Academic/Scholarly Work 2023: Alison Halsall and Jonathan Warren, eds. _The LGBTQ+ Comics Studies Reader: Critical Openings, Future Directions_. Jackson: UP of Mississippi, 2022 (therein: Susanne Hochreiter, Marina Rauchenbacher, and Katharina Serles. “Queer Visualities ­– Queer Spaces. German-Language LGBTQ+ Comics”, pp. 114-33).
+- 2019: FWF research grant for the project _Visualities of Gender in German-language Comics_. Grant-DOI: [10.55776/P31925](https://www.fwf.ac.at/forschungsradar/10.55776/P31925).
 
 
 # Press reviews
