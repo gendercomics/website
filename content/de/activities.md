@@ -61,7 +61,7 @@ caption: Regina Hofer
 
 ### Journalistische Arbeiten, Interviews, Rezensionen, Science to Public
 - N. Lobnig, Renate Tanzberger u. Rosemarie Ortner: _Queere Comics in der Arbeit mit Jugendlichen. Eine kommentierte Empfehlungsliste._ Queer-feministischer Bildungsverein EfEU, Wien, im Erscheinen.
-- N. Lobnig: _„Darstellen, wie ich mich selbst sehe“._ \[Rezension und Interview zu Maia Kobabes Gender Queer]. In: an.schläge 5 (2024), im Erscheinen.
+- N. Lobnig: _„Darstellen, wie ich mich selbst sehe“._ \[Rezension und Interview zu Maia Kobabes Gender Queer]. In: an.schläge 5 (2024), S. 39.
 - M. Rauchenbacher: _Spross #2. Redaktion: Janne Marie Dauer. Hg. v. Nicolas Dostal._ In: [literaturhaus.at](https://www.literaturhaus-wien.at/event/spross-magazin-2-blau-sein/), Buchmagazin, 5. April 2024.
 - S. Hochreiter, M. Rauchenbacher u. K. Serles: _Comics in, aus und über Österreich._ In: COMMA. Comic Magazin Austria 2 (2024), S. 36–37.
 - K. Serles: _Bei_strich. Ein Vor_wort._ In: COMMA. Comic Magazin Austria 2 (2024), S. 3.
@@ -77,7 +77,7 @@ caption: Regina Hofer
 - K. Serles: _Ein „ziemlich weißer Fleck auf der Comic-Landkarte“: Gottfried Gusenbauer und Martin Reiterer über österreichische Comic-Geschichte(n) und -Szene(n)._ In: Journal of Austrian Studies. Special Issue: _Comics aus und über Österreich_ 55.2 (2022), S. 155–172.
 - M. Rauchenbacher: Endorsement für: James Hodapp (Hg.): Graphic Novels and Comics as World Literature. New York u. a.: Bloomsbury 2022.
 - N. Lobnig: _Queerfeministische Comic-Kunst. Das widerständige Potenzial von Comics._ In: an.schläge 5 (2022).
-- K. Serles: _Bei_strich. Ein Vor_wort._ In: Comic Magazin Austria 1 (2021), S. 3.
+- K. Serles: _Bei_strich. Ein Vor_wort._ In: COMMA. Comic Magazin Austria 1 (2021), S. 3.
 - M. Rauchenbacher: _Comics – Graphic Medicine – Comics._ In: Eva Katharina Masel, Andrea Praschinger, M. Rauchenbacher u. Ruth Kutalek (Hg.): Körper – Body. \[Begleitheft zur Comic-Ausstellung _Art – Action – Attitude: Körper/Body_ im AKH der Stadt Wien, 2020/2021]. Wien: Medizinische Universität 2020, S. 12f.
 - M. Rauchenbacher: _Was können Comics? Sie können viel. Sie können mehr._ In: Renate Mowlam: Was ist ein Comic? Medizinische Universität Wien 2020, S. 3 (engl.: _What can Comics achieve? They can achieve a lot. They can achieve much more._ In: Renate Mowlam: What is a Comic? Medical University of Vienna 2020, p. 3).
 - K. Serles: _Gemachter Sex._ In: Spring 14: Sex (2020), S. 4–5.
