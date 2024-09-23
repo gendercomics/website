@@ -163,7 +163,7 @@ caption: Regina Hofer
 - M. Rauchenbacher: Interview zur Österreichischen Gesellschaft für Comics und dem Forschungsprojekt _Visualitäten von Geschlecht in deutschsprachigen Comics_, Nerdsisters, Folge 52, Juni 2021, [https://nerdsisters.at/episoden/](https://nerdsisters.at/episoden/)
 - M. Rauchenbacher: Podiumsdiskussion zu Emma Calders _Beware of Trains_, Tricky Women/Tricky Realities, Sigmund Freud Museum Wien, 22. Juni 2023
 - K. Serles: Interview zum Thema _Geschichte und Ausblick der Comicszene in Österreich_, Radio Fro, April 2023, [https://www.fro.at/geschichte-und-ausblick-der-comicszene-in-oesterreich-2](https://www.fro.at/geschichte-und-ausblick-der-comicszene-in-oesterreich-2)
-- K. Serles: Moderation des _Suuuper Samstags_, Nextcomic Festival, 18. März 2023
+- K. Serles: Moderation, Suuuper-Samstag, Nextcomic Festival, 18. März 2023
 - M. Rauchenbacher: Podiumsdiskussion zu Tal Kantors _Letter to a Pig_, Tricky Women/Tricky Realities, Sigmund Freud Museum Wien, 20. April 2023
 - R. Becker, N. Bulling, J. Rutar, K. Serles: K. Serles: _WHAT TO DO WITH FACTS AND FIGURES? Fragebogen für Comic-Arbeiter*innen_, Trafohaus, Documenta 15, Kassel, 2. September 2022
 - K. Serles: Eröffnungsgespräch der Fensterausstellung von Maria Frenay, Österreichische Gesellschaft für Comics, Agentur Raumpioniere Wien, 1. Juli–30. September 2022
