@@ -61,7 +61,7 @@ caption: Regina Hofer
 
 ### Journalistic Texts, Interviews, Reviews, Science to Public
 - Lobnig, Naomi, Renate Tanzberger, and Rosemarie Ortner. _Queere Comics in der Arbeit mit Jugendlichen: Eine kommentierte Empfehlungsliste_. Vienna: Queer-feministischer Bildungsverein EfEU, forthcoming.
-- Lobnig, Naomi. Review of _Gender Queer_, by Maia Kobabe and Interview with Maia Kobabe: “Darstellen, wie ich mich selbst sehe.” _an.schläge_, no. 5, 2024, pp. 39.
+- Lobnig, Naomi. Review of _Gender Queer_, by Maia Kobabe and Interview with Maia Kobabe: “Darstellen, wie ich mich selbst sehe.” _an.schläge_, no. 5, 2024, p. 39.
 - Rauchenbacher, Marina. Review of Spross #2: _Blau sein_, edited by Janne Marie Dauer and Nicolas Dostal. [https://www.literaturhaus-wien.at/review/spross-2-blau-sein](https://www.literaturhaus-wien.at/review/spross-2-blau-sein), April 5, 2024.
 - Hochreiter, Susanne, Marina Rauchenbacher, and Katharina Serles: “Comics in, aus und über Österreich.” _COMMA: Comic Magazin Austria_, no. 2, 2024, pp. 36-37.
 - Serles, Katharina. “Bei_strich: Ein Vor_wort.” _COMMA: Comic Magazin Austria_, no. 2, 2024, p. 3.
