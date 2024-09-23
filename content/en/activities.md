@@ -52,9 +52,9 @@ caption: Regina Hofer
 - Serles, Katharina. “Körper, Kunst und Kanon: (Queer)feministische Bildermächtigungen in Comics.” _Comics Studies x Gender Studies: Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice_, edited by Marina Rauchenbacher, Katharina Serles, and Naomi Lobnig in collaboration with Susanne Hochreiter. Berlin: Walter de Gruyter.
 - Rauchenbacher, Marina. “]         [. Verstummen und Stille in Ulli Lusts Comic-Adaption von Marcel Beyers Roman _Flughunde_.” _Laute(r) Bilder: Musik in Manga, Comic & Co_, edited by Melanie Unseld and Akiko Yamada, special issue of _Jahrbuch Musik und Gender_.
 - Rauchenbacher, Marina. “Comics on Display: Conceptual Remarks on _Gewalt erzählen. Eine Comic-Ausstellung / Narrating Violence. A Comic Exhibition (Sigmund Freud Museum Vienna)_.” _German Graphic Narratives and Trauma_, edited by Elisabeth Krimmer and Maureen Burdock. Camden House. 
-- Rauchenbacher, Marina, and Katharina Serles. “Gender/Queer Studies / Intersektionalitätsforschung.” _Handbuch Comicforschung_, edited by Juliane Blank and Stephan Packard. Berlin, Boston: Walter de Gruyter.
+- Rauchenbacher, Marina, and Katharina Serles. “Gender/Queer Studies / Intersektionalitätsforschung.” _Handbuch Comicforschung_, edited by Juliane Blank and Stephan Packard. Berlin: Walter de Gruyter.
 - Rauchenbacher, Marina. “Who (and Where) is *Alice*? Anke Feuchtenberger’s Feminist-Disruptive Identity Criticism.” _Comparative Comics Studies_, edited by Christian Bachmann, Juliane Blank, and Stephan Packard. Berlin: Christian A. Bachmann Verlag.
-- Babka, Anna, and Marina Rauchenbacher. “Queer Studies.” _Handbuch Kulturwissenschaftliche ‚Studies‘_, edited by Jonas Nesselhauf and Florian Weber. Berlin, Boston: Walter de Gruyter.
+- Babka, Anna, and Marina Rauchenbacher. “Queer Studies.” _Handbuch Kulturwissenschaftliche ‚Studies‘_, edited by Jonas Nesselhauf and Florian Weber. Berlin: Walter de Gruyter.
 
 ### Master Thesis
 - Lobnig, Naomi. _Alternative Krankheitsnarrative in den Comics_ Vergiss dich nicht _von Lika Nüssli und_ Aliceheimer’s _von Dana Walrath_. University of Vienna, Master thesis, 2022.
