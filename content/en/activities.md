@@ -43,6 +43,7 @@ caption: Regina Hofer
 - Hochreiter, Susanne. “Zu Genre und Affekt in Ulli Lusts _Heute ist der letzte Tag vom Rest deines Lebens_.” _Bild ist Text ist Bild: Narration und Ästhetik in der Graphic Novel_, edited by Susanne Hochreiter and Ursula Klingenböck. Bielefeld: transcript, 2014, pp. 233-256.
 - Serles, Katharina. “‘Time in comics is infinitely weirder than that’: Zeit- via Bildkonfiguration bei Marc-Antoine Mathieu und Chris Ware.” _Bild ist Text ist Bild: Narration und Ästhetik in der Graphic Novel_, edited by Susanne Hochreiter and Ursula Klingenböck. Bielefeld: transcript, 2014, pp. 79-96.
 
+
 ### Scientific Articles (forthcoming)
 - Rauchenbacher, Marina. “Körper-Zeit-Körper: Zeitkonzepte in Ulli Lusts und Marcel Beyers _Flughunde_.” _Closure: Kieler e-Journal für Comicforschung_, no. 10.5.
 - Hochreiter, Susanne. “Fantastillionen und arme Schlucker. Ein Essay über Gender, Begehren und soziale Klasse in Entenhausen.” _Comics Studies x Gender Studies: Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice_, edited by Marina Rauchenbacher, Katharina Serles, and Naomi Lobnig in collaboration with Susanne Hochreiter. Berlin: Walter de Gruyter.
@@ -56,8 +57,11 @@ caption: Regina Hofer
 - Rauchenbacher, Marina. “Who (and Where) is *Alice*? Anke Feuchtenberger’s Feminist-Disruptive Identity Criticism.” _Comparative Comics Studies_, edited by Christian Bachmann, Juliane Blank, and Stephan Packard. Berlin: Christian A. Bachmann Verlag.
 - Babka, Anna, and Marina Rauchenbacher. “Queer Studies.” _Handbuch Kulturwissenschaftliche ‚Studies‘_, edited by Jonas Nesselhauf and Florian Weber. Berlin: Walter de Gruyter.
 
+
 ### Master Thesis
+- Höfer, Ines Christina. _Queere Beziehungsgeflechte und Identitätsfragen in Entenhausen: Ein Queer Reading ausgewählter Comics_. University of Vienna, Master thesis, 2023.
 - Lobnig, Naomi. _Alternative Krankheitsnarrative in den Comics_ Vergiss dich nicht _von Lika Nüssli und_ Aliceheimer’s _von Dana Walrath_. University of Vienna, Master thesis, 2022.
+
 
 ### Journalistic Texts, Interviews, Reviews, Science to Public
 - Lobnig, Naomi, Renate Tanzberger, and Rosemarie Ortner. _Queere Comics in der Arbeit mit Jugendlichen: Eine kommentierte Empfehlungsliste_. Vienna: Queer-feministischer Bildungsverein EfEU, forthcoming.
@@ -70,7 +74,7 @@ caption: Regina Hofer
 - Rauchenbacher, Marina. Review of _Mäander_, by Vinz Schwarzbauer, [https://www.literaturhaus-wien.at/review/maeander](https://www.literaturhaus-wien.at/review/maeander), January 23, 2024.
 - Lobnig, Naomi. Review of _Emmie Arbel: Die Farben der Erinnerung_, by Barbara Yelin and Interview with Barbara Yelin: “Die Ränder des Erzählbaren visualisieren.” _an.schläge_, no. 1, 2024, p. 39.
 - Lobnig, Naomi. Review of _Genossin Kuckuck_, by Anke Feuchtenberger: “Aufwühlend und Rätselhaft.” _an.schläge_, no. 1, 2024, p. 40.
-- Lobnig, Naomi. Review: “Krankheit zeichnen.” _an.schläge_, no. 7, 2023, p. 24. 
+- Lobnig, Naomi. “Krankheit zeichnen.” _an.schläge_, no. 7, 2023, p. 24. 
 - Lobnig, Naomi. Review of _Naphtalin_, by Sole Otero: “Bildgewaltig.” _an.schläge_, no. 8, 2023, p. 43.
 - Lobnig, Naomi. Review of _Dykes to Watch Out For_, by Alison Bechdel. _an.schläge_, no. 7, 2023, p. 33.
 - Lobnig, Naomi. Review of  _Emil:ia_, by Nele Jongeling: “Veränderung ist das einzig Sichere.” _an.schläge_, no. 1, 2023, p. 38.
@@ -81,6 +85,7 @@ caption: Regina Hofer
 - Rauchenbacher, Marina. “Comics – Graphic Medicine – Comics.” Körper – Body, edited by Eva Katharina Masel, Andrea Praschinger, Marina Rauchenbacher, and Ruth Kutalek. Vienna General Hospital and Medical University Vienna, 2020, pp. 12-13.
 - Rauchenbacher, Marina. “Was können Comics? Sie können viel. Sie können mehr.” Renate Mowlam. _Was ist ein Comic?_ Vienna General Hospital and Medical University Vienna, 2020, p. 3; (engl.: “What can Comics achieve? They can achieve a lot. They can achieve much more.” Renate Mowlam. _What is a Comic?_ Vienna General Hospital and Medical University Vienna, 2020, p. 3).
 - Serles, Katharina. “Gemachter Sex.” _Spring_, no. 16, 2020, pp. 4-5.
+
 
 ### Talks and Presentations
 - Serles, Katharina. _“Du siehst aus wie ein Bauer”: Verkörperte Klasse in Eva Müllers_ Scheiblettenkind (2023). Comicsalon Erlangen, June 2, 2024.
@@ -193,11 +198,12 @@ caption: Regina Hofer
 - Serles, Katharina. Curation of a “window exhibition” by Maria Frenay, Austrian Association for Comics, Agentur Raumpioniere Wien, July 1–September 30, 2022.
 - Masel, Eva K., Andrea Praschinger, Marina Rauchenbacher, and Ruth Kutalek. Curation of the exhibition _rt – Action – Attitude: Körper/Body_, Vienna General Hospital and Medical University Vienna, March-June 2021.
 
+
 # Supervision of Final Theses
 - Rauchenbacher, Marina – Erin Sedelmaier. _Verwandtschaft zwischen Körpern in Luke Pearsons Hilda-Comics_. University of Vienna, Master thesis, ongoing.
 - Rauchenbacher, Marina – Fiona Sironic. _Potentiale queerfeministischer Perspektiven für das Medium Videospiel_. University of Vienna, Master thesis, ongoing. 
-- Hochreiter, Susanne – Ines Christina Höfer. _Queere Beziehungsgeflechte und Identitätsfragen in Entenhausen: Ein Queer Reading ausgewählter Comics_. University of Vienna, Master thesis, 2023.  
-- Rauchenbacher, Marina – Naomi Lobnig. _Alternative Krankheitsnarrative in den Comics_ Vergiss dich nicht _von Lika Nüssli und_ Aliceheimer’s _von Dana Walrath_. University of Vienna, Master thesis, 2022.
+
+
 
 # Review Activities
 - Rauchenbacher, Marina. Member of the advisory board of the series _Comicstudien_, Walter de Gruyter (since 2020).
