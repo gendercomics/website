@@ -57,7 +57,7 @@ caption: Regina Hofer
 
 ### Abschlussarbeit
 - N. Lobnig: _Alternative Krankheitsnarrative in den Comics_ Vergiss dich nicht _von Lika Nüssli und_ Aliceheimer’s 
- von Dana Walrath. Masterarbeit am Institut für Germanistik, Universität Wien 2022.
+ _von Dana Walrath_. Masterarbeit am Institut für Germanistik, Universität Wien 2022.
 
 ### Journalistische Arbeiten, Interviews, Rezensionen, Science to Public
 - N. Lobnig, Renate Tanzberger u. Rosemarie Ortner: _Queere Comics in der Arbeit mit Jugendlichen. Eine kommentierte Empfehlungsliste._ Queer-feministischer Bildungsverein EfEU, Wien, im Erscheinen.
