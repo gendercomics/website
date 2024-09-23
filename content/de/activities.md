@@ -65,13 +65,13 @@ caption: Regina Hofer
 - M. Rauchenbacher: _Spross #2. Redaktion: Janne Marie Dauer. Hg. v. Nicolas Dostal._ In: [literaturhaus.at](https://www.literaturhaus-wien.at/event/spross-magazin-2-blau-sein/), Buchmagazin, 5. April 2024.
 - S. Hochreiter, M. Rauchenbacher u. K. Serles: _Comics in, aus und über Österreich._ In: COMMA. Comic Magazin Austria 2 (2024), S. 36–37.
 - K. Serles: _Bei_strich. Ein Vor_wort._ In: COMMA. Comic Magazin Austria 2 (2024), S. 3.
-- K. Serles: _Fünf Fragen an… Martin Erasmus._ In: COMMA. Comic Magazin Austria 2 (2024), S. 31–33.
+- K. Serles: _Fünf Fragen an … Martin Erasmus._ In: COMMA. Comic Magazin Austria 2 (2024), S. 31–33.
 - M. Rauchenbacher: _Fünf Fragen an … Vina Yun._ In: COMMA. Comic Magazin Austria 2 (2024), S. 12–15.
 - M. Rauchenbacher: _Vinz Schwarzbauer, „Mäander“._ In: [literaturhaus.at](https://www.literaturhaus-wien.at/review/maeander/), Buchmagazin, 23. Jänner 2024.
 - N. Lobnig: _Die Ränder des Erzählbaren visualisieren._ \[Rezension und Interview zu Barbara Yelins _Emmie Arbel. Die Farben der Erinnerung_]. In: an.schläge 1 (2024), S. 39.
 - N. Lobnig: Aufwühlend und Rätselhaft. \[Rezension zu Anke Feuchtenbergers _Genossin Kuckuck_]. In: an.schläge 1 (2024), S. 40.
 - N. Lobnig: _Krankheit zeichnen._ In: an.schläge 7 (2023), S. 24.
-- N. Lobnig: _Bildgewaltig._ \[Rezension zu Sole Oteros Napthalin]. In: an.schläge 8 (2023), S. 43.
+- N. Lobnig: _Bildgewaltig._ \[Rezension zu Sole Oteros _Napthalin_]. In: an.schläge 8 (2023), S. 43.
 - N. Lobnig: _Dykes to Watch Out For._ In: an.schläge 7 (2023), S. 33.
 - N. Lobnig: _Veränderung ist das einzig Sichere._ \[Rezension zu Nele Jongelings _Emil:ia_]. In: an.schläge 1 (2023), S. 38.
 - K. Serles: _Ein „ziemlich weißer Fleck auf der Comic-Landkarte“: Gottfried Gusenbauer und Martin Reiterer über österreichische Comic-Geschichte(n) und -Szene(n)._ In: Journal of Austrian Studies. Special Issue: _Comics aus und über Österreich_ 55.2 (2022), S. 155–172.
