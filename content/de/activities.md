@@ -56,6 +56,7 @@ caption: Regina Hofer
 - M. Rauchenbacher: _Comics on Display. Conceptual Remarks on_ Gewalt erzählen. Eine Comic-Ausstellung / Narrating Violence. A Comic Exhibition (_Sigmund Freud Museum Vienna_). In: Elisabeth Krimmer u. Maureen Burdock (Hg.): German Graphic Narratives and Trauma. Camden House.
 
 ### Abschlussarbeit
+- Ines Christina Höfer: _Queere Beziehungsgeflechte und Identitätsfragen in Entenhausen. Ein Queer Reading ausgewählter Comics._ Masterarbeit am Institut für Germanisitik, Universität Wien 2023
 - N. Lobnig: _Alternative Krankheitsnarrative in den Comics_ Vergiss dich nicht _von Lika Nüssli und_ Aliceheimer’s 
  _von Dana Walrath_. Masterarbeit am Institut für Germanistik, Universität Wien 2022.
 
@@ -193,8 +194,6 @@ caption: Regina Hofer
 # Betreuung von Abschlussarbeiten
 - M. Rauchenbacher – Erin Sedelmaier: _Verwandtschaft zwischen Körpern in Luke Pearsons Hilda-Comics._ Masterarbeit. Universität Wien, laufend
 - M. Rauchenbacher – Fiona Sironic: _Potentiale queerfeministischer Perspektiven für das Medium Videospiel._ Masterarbeit. Universität Wien, laufend
-- S. Hochreiter – Ines Christina Höfer: _Queere Beziehungsgeflechte und Identitätsfragen in Entenhausen. Ein Queer Reading ausgewählter Comics._ Masterarbeit. Universität Wien 2023
-- M. Rauchenbacher – Naomi Lobnig: _Alternative Krankheitsnarrative in den Comics_ Vergiss dich nicht _von Lika Nüssli und_ Aliceheimer’s _von Dana Walrath._ Masterarbeit. Universität Wien 2022
 
 # Review-Tätigkeit
 - M. Rauchenbacher: Mitglied des Advisory Board der Reihe _Comicstudien_, de Gruyter Verlag (seit 2020)
