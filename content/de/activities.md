@@ -80,7 +80,7 @@ caption: Regina Hofer
 - K. Serles: _Bei_strich. Ein Vor_wort._ In: COMMA. Comic Magazin Austria 1 (2021), S. 3.
 - M. Rauchenbacher: _Comics – Graphic Medicine – Comics._ In: Eva Katharina Masel, Andrea Praschinger, M. Rauchenbacher u. Ruth Kutalek (Hg.): Körper – Body. \[Begleitheft zur Comic-Ausstellung _Art – Action – Attitude: Körper/Body_ im AKH der Stadt Wien, 2020/2021]. Wien: Medizinische Universität 2020, S. 12f.
 - M. Rauchenbacher: _Was können Comics? Sie können viel. Sie können mehr._ In: Renate Mowlam: Was ist ein Comic? Medizinische Universität Wien 2020, S. 3 (engl.: _What can Comics achieve? They can achieve a lot. They can achieve much more._ In: Renate Mowlam: What is a Comic? Medical University of Vienna 2020, p. 3).
-- K. Serles: _Gemachter Sex._ In: Spring 14: Sex (2020), S. 4–5.
+- K. Serles: _Gemachter Sex._ In: Spring. _Sex_ 14 (2020), S. 4–5.
 
 # Wissenschaftliche Vorträge
 - K. Serles: _„Du siehst aus wie ein Bauer.“ Verkörperte Klasse in Eva Müllers_ Scheiblettenkind (2023), Comicsalon Erlangen, 2. Juni 2024.
