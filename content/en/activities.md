@@ -125,8 +125,8 @@ caption: Regina Hofer
 - Rauchenbacher, Marina. _Bildwissenschaften und Visual Culture Studies_. Lecture series _Graphisches Erzählen in der Kinder- und Jugendliteratur_, University of Vienna, November 29, 2018.
 - Serles, Katharina. _Räumlichkeit und Adoleszenz in Comics_. Lecture series _Graphisches Erzählen in der Kinder- und Jugendliteratur_, University of Vienna, November 29, 2018.
 - Rauchenbacher, Marina, and Katharina Serles. _Gerahmt und zerstückelt: Zeichenhaftigkeit und Wahrnehmung von Körpern in Comics_. Annual Conference of the German Society for Comic Studies, University of Cologne, September 17-19, 2018.
-- Serles, Katharina. _Idolizing Jewish Women: Gender & The Second Commandment in Comics_, 11. Congress of the EAJS, Krakow, July 15-19, 2018.
-- Serles, Katharina. _Musings on Museum Comics_, CSSC Annual Conference, Toronto, May 10-11, 2018.
+- Serles, Katharina. _Idolizing Jewish Women: Gender & The Second Commandment in Comics_. 11. Congress of the EAJS, Krakow, July 15-19, 2018.
+- Serles, Katharina. _Musings on Museum Comics_. CSSC Annual Conference, Toronto, May 10-11, 2018.
 - Hochreiter, Susanne. _Kafka transmedial: Erzählung in der Graphic Novel_. Lecture series _Serielles und transmediales Erzählen in der Kinder- und Jugendliteratur_, University of Vienna, January 11, 2018.
 - Rauchenbacher, Marina. _Subversive Blicke: Blickpolitik in Ulli Lust’s_ Heute ist der letzte Tag vom Rest deines Lebens. Annual Conference of the German Studies Association, Atlanta, GA, October 5-8, 2017.
 - Serles, Katharina. _Dazwischen: Subversion im Gutter_. Annual Conference of the German Studies Association, Atlanta, GA, October 5-8, 2017.
