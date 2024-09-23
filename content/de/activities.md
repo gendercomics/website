@@ -201,8 +201,8 @@ caption: Regina Hofer
 - M. Rauchenbacher: Gutachterin für Seminar. _A Journal of Germanic Studies_ (2020)
 
 # Preise und Förderungen
-- 2024: FWF-open-access-Förderung: M. Rauchenbacher, K. Serles u. N. Lobnig (Hg.): _Comics Studies x Gender Studies. Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice._ Unter Mitarbeit v. Susanne Hochreiter. Berlin, Boston: de Gruyter (im Entstehen) Grant-DOI: [10.55776/PUB1145](https://www.fwf.ac.at/forschungsradar/10.55776/P31925)
-- 2023: Will Eisner Comic Industry Award for Best Academic/Scholarly Work 2023: Alison Halsall und Jonathan Warren (Hg.): _The LGBTQ+ Comics Studies Reader: Critical Openings, Future Directions._ Jackson: UP of Mississippi, 2022 (darin: S. Hochreiter, M. Rauchenbacher u. K. Serles: Queer Visualities­–Queer Spaces. German-Language LGBTQ+ Comics, S. 114–133)
+- 2024: FWF-open-access-Förderung: M. Rauchenbacher, K. Serles u. N. Lobnig (Hg.): _Comics Studies x Gender Studies. Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice._ Unter Mitarbeit v. Susanne Hochreiter. Berlin, Boston: de Gruyter (im Entstehen), Grant-DOI: [10.55776/PUB1145](https://www.fwf.ac.at/forschungsradar/10.55776/P31925)
+- 2023: Will Eisner Comic Industry Award for Best Academic/Scholarly Work 2023: Alison Halsall und Jonathan Warren (Hg.): _The LGBTQ+ Comics Studies Reader: Critical Openings, Future Directions._ Jackson: UP of Mississippi, 2022 (darin: S. Hochreiter, M. Rauchenbacher u. K. Serles: _Queer Visualities­–Queer Spaces. German-Language LGBTQ+ Comics_, S. 114–133)
 - 2019: FWF-Förderung für das Projekt Visualitäten von Geschlecht in deutschsprachigen Comics, Grant-DOI: [10.55776/P31925](https://www.fwf.ac.at/forschungsradar/10.55776/P31925)
 
 # Pressespiegel
