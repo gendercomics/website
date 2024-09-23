@@ -56,7 +56,8 @@ caption: Regina Hofer
 - M. Rauchenbacher: _Comics on Display. Conceptual Remarks on_ Gewalt erzählen. Eine Comic-Ausstellung / Narrating Violence. A Comic Exhibition (_Sigmund Freud Museum Vienna_). In: Elisabeth Krimmer u. Maureen Burdock (Hg.): German Graphic Narratives and Trauma. Camden House.
 
 ### Abschlussarbeit
-- N. Lobnig: _Alternative Krankheitsnarrative in den Comics_ Vergiss dich nicht _von Lika Nüssli und_ Aliceheimer’s _von Dana Walrath. Masterarbeit am Institut für Germanistik, Universität Wien 2022.
+- N. Lobnig: _Alternative Krankheitsnarrative in den Comics_ Vergiss dich nicht _von Lika Nüssli und_ Aliceheimer’s 
+ von Dana Walrath. Masterarbeit am Institut für Germanistik, Universität Wien 2022.
 
 ### Journalistische Arbeiten, Interviews, Rezensionen, Science to Public
 - N. Lobnig, Renate Tanzberger u. Rosemarie Ortner: _Queere Comics in der Arbeit mit Jugendlichen. Eine kommentierte Empfehlungsliste._ Queer-feministischer Bildungsverein EfEU, Wien, im Erscheinen.
