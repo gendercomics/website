@@ -149,7 +149,7 @@ caption: Regina Hofer
 # Diskussionen, Moderationen, Interviews, Workshops
 - M. Rauchenbacher: Moderation und Künstler*innengespräche, 1. Kooperationsveranstaltung der Österreichischen Gesellschaft für Comics mit dem Literaturhaus Wien: Präsentation der Anthologie _SPROSS #2_, Literaturhaus Wien, 3. April 2024  
 - M. Rauchenbacher: Moderation und Künstler*innengespräche, Suuuper-Samstag, Nextcomic Festival 2024, 16. März 2024
-- K. Serles: _ComicMonday: Lesung und Gespräch mit Ilse Kilic und Fritz Widhalm_, Österreichische Gesellschaft für Comics, Rooming Inn Wien, 29. Jänner 2024
+- K. Serles: ComicMonday: Lesung und Gespräch mit Ilse Kilic und Fritz Widhalm, Österreichische Gesellschaft für Comics, Rooming Inn Wien, 29. Jänner 2024
 - M. Rauchenbacher: ComicMonday: Gespräch mit Darren C. Fisher, Österreichische Gesellschaft für Comics, Rooming Inn Wien, 26. Februar 2023
 - M. Rauchenbacher:  Künstler*innengespräch mit Regina Hofer und Leopold Maurer, Sigmund Freud Museum Wien, 15. Februar 2024
 - M. Rauchenbacher: Künstlerinnengespräch mit Inna Sahakyan zu ihrem Film _Aurora’s Sunrise_, VWI Visual, Wiener Wiesenthal Institut für Holocaust-Studien, 30. November 2023
@@ -157,20 +157,20 @@ caption: Regina Hofer
 - M. Rauchenbacher:  Eröffnungsvortrag zur Teil-Ausstellung _Gewalt erzählen. Eine Comic-Ausstellung_, Veranstaltungszentrum Kolarac, Belgrad, 18. November 2023
 - M. Rauchenbacher: Künstlerinnengespräch mit Anke Feuchtenberger, Kooperation Sigmund Freud Museum Wien und Vienna Art Week, 16. November 2023
 - M. Rauchenbacher: Eröffnungsvortrag zur Ausstellung _Gewalt erzählen. Eine Comic-Ausstellung_, Sigmund Freud Museum Wien, 19. Oktober 2023
-- M. Rauchenbacher: Podiumsdiskussion zur Arbeit Anke Feuchtenbergers, „Zeichnen als Wunscherfüllung“ – Ein Fest für Anke Feuchtenberger, 28. bis 29. September 2023
+- M. Rauchenbacher: Podiumsdiskussion zur Arbeit Anke Feuchtenbergers, „Zeichnen als Wunscherfüllung“ – Ein Fest für Anke Feuchtenberger, 28.–29. September 2023
 - M. Rauchenbacher: Künstler*innengespräche mit Janne Marie Dauer und Vinz Schwarzbauer, Literaturmeile Zieglergasse, 16. September 2023
-- M. Rauchenbacher: _ComicMonday: Moderation und Gespräch mit Ranthild Salzer_, Österreichische Gesellschaft für Comics, 3. Juli 2023
-- M. Rauchenbacher: Interview zur Österreichischen Gesellschaft für Comics und dem Forschungsprojekt _Visualitäten von Geschlecht in deutschsprachigen Comics_, Nerdsisters, Folge 52, Juni 2021 [https://nerdsisters.at/episoden/](https://nerdsisters.at/episoden/)
+- M. Rauchenbacher: ComicMonday: Moderation und Gespräch mit Ranthild Salzer, Österreichische Gesellschaft für Comics, 3. Juli 2023
+- M. Rauchenbacher: Interview zur Österreichischen Gesellschaft für Comics und dem Forschungsprojekt _Visualitäten von Geschlecht in deutschsprachigen Comics_, Nerdsisters, Folge 52, Juni 2021, [https://nerdsisters.at/episoden/](https://nerdsisters.at/episoden/)
 - M. Rauchenbacher: Podiumsdiskussion zu Emma Calders _Beware of Trains_, Tricky Women/Tricky Realities, Sigmund Freud Museum Wien, 22. Juni 2023
 - K. Serles: Interview zum Thema _Geschichte und Ausblick der Comicszene in Österreich_, Radio Fro, April 2023, [https://www.fro.at/geschichte-und-ausblick-der-comicszene-in-oesterreich-2](https://www.fro.at/geschichte-und-ausblick-der-comicszene-in-oesterreich-2)
 - K. Serles: Moderation des _Suuuper Samstags_, Nextcomic Festival, 18. März 2023
 - M. Rauchenbacher: Podiumsdiskussion zu Tal Kantors _Letter to a Pig_, Tricky Women/Tricky Realities, Sigmund Freud Museum Wien, 20. April 2023
 - R. Becker, N. Bulling, J. Rutar, K. Serles: K. Serles: _WHAT TO DO WITH FACTS AND FIGURES? Fragebogen für Comic-Arbeiter*innen_, Trafohaus, Documenta 15, Kassel, 2. September 2022
-- K. Serles: Eröffnungsgespräch der Fensterausstellung von Maria Frenay, Österreichische Gesellschaft für Comics, Agentur Raumpioniere Wien, 1. Juli – 30. September 2022
-- K. Serles: _ComicMonday: Gespräch mit Barbara Juch_, Österreichische Gesellschaft für Comics, online, 13. Juni 2022
-- K. Serles: _ComicMonday: Gespräch mit Martin Erasmus_, Österreichische Gesellschaft für Comics, online, 25. April 2022
-- M. Rauchenbacher u. K. Serles: _Präsentation der Comic-Karte Wien, Suuuper Sonntag_, Nextcomic Festival, 13. März 2022
-- K. Serles: _ComicMonday: Gespräch mit Christoph Keller_, Österreichische Gesellschaft für Comics, online, 28. Februar 2022
+- K. Serles: Eröffnungsgespräch der Fensterausstellung von Maria Frenay, Österreichische Gesellschaft für Comics, Agentur Raumpioniere Wien, 1. Juli–30. September 2022
+- K. Serles: ComicMonday: Gespräch mit Barbara Juch, Österreichische Gesellschaft für Comics, online, 13. Juni 2022
+- K. Serles: ComicMonday: Gespräch mit Martin Erasmus, Österreichische Gesellschaft für Comics, online, 25. April 2022
+- M. Rauchenbacher u. K. Serles: Präsentation der Comic-Karte Wien, Suuuper Sonntag, Nextcomic Festival, 13. März 2022
+- K. Serles: ComicMonday: Gespräch mit Christoph Keller, Österreichische Gesellschaft für Comics, online, 28. Februar 2022
 - M. Rauchenbacher: Gespräch mit Vina Yun über _Homestories_, 16. Jahrestagung der Gesellschaft für Comicforschung, Universität Salzburg, online, 14.–16. Oktober 2021
 - M. Rauchenbacher: Künstlerinnengespräch mit Nina Hable, Michael Hacker, Albert Mitringer, Renate Mowlam und Franz Suess, Literaturmeile Zieglergasse, 17. September 2021
 - K. Serles: Interview zum Thema _Comic und Forschung_, Podcast _Reden wir über Kunst!_, Kunstmeile Krems, 15. Juli 2021, [https://kunstmeilekrems.podigee.io/8-neue-episode](https://kunstmeilekrems.podigee.io/8-neue-episode)
