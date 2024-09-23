@@ -76,7 +76,7 @@ caption: Regina Hofer
 - N. Lobnig: _Dykes to Watch Out For._ In: an.schläge 7 (2023), S. 33.
 - N. Lobnig: _Veränderung ist das einzig Sichere._ \[Rezension zu Nele Jongelings _Emil:ia_]. In: an.schläge 1 (2023), S. 38.
 - K. Serles: _Ein „ziemlich weißer Fleck auf der Comic-Landkarte“: Gottfried Gusenbauer und Martin Reiterer über österreichische Comic-Geschichte(n) und -Szene(n)._ In: Journal of Austrian Studies. Special Issue: _Comics aus und über Österreich_ 55.2 (2022), S. 155–172.
-- M. Rauchenbacher: Endorsement für: James Hodapp (Hg.): Graphic Novels and Comics as World Literature. New York u. a.: Bloomsbury 2022.
+- M. Rauchenbacher: Endorsement für: James Hodapp (Hg.): _Graphic Novels and Comics as World Literature_. New York u. a.: Bloomsbury 2022.
 - N. Lobnig: _Queerfeministische Comic-Kunst. Das widerständige Potenzial von Comics._ In: an.schläge 5 (2022).
 - K. Serles: _Bei_strich. Ein Vor_wort._ In: COMMA. Comic Magazin Austria 1 (2021), S. 3.
 - M. Rauchenbacher: _Comics – Graphic Medicine – Comics._ In: Eva Katharina Masel, Andrea Praschinger, M. Rauchenbacher u. Ruth Kutalek (Hg.): Körper – Body. \[Begleitheft zur Comic-Ausstellung _Art – Action – Attitude: Körper/Body_ im AKH der Stadt Wien, 2020/2021]. Wien: Medizinische Universität 2020, S. 12f.
