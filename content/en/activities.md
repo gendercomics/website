@@ -61,14 +61,14 @@ caption: Regina Hofer
 
 ### Journalistic Texts, Interviews, Reviews, Science to Public
 - Lobnig, Naomi, Renate Tanzberger, and Rosemarie Ortner. _Queere Comics in der Arbeit mit Jugendlichen: Eine kommentierte Empfehlungsliste_. Vienna: Queer-feministischer Bildungsverein EfEU, forthcoming.
-- Lobnig, Naomi. Review and Interview: “Darstellen, wie ich mich selbst sehe.” _an.schläge_, no. 5, 2024, forthcoming.
+- Lobnig, Naomi. Review of _Gender Queer_, by Maia Kobabe and Interview with Maia Kobabe: “Darstellen, wie ich mich selbst sehe.” _an.schläge_, no. 5, 2024, pp. 39.
 - Rauchenbacher, Marina. Review of Spross #2: _Blau sein_, edited by Janne Marie Dauer and Nicolas Dostal. [https://www.literaturhaus-wien.at/review/spross-2-blau-sein](https://www.literaturhaus-wien.at/review/spross-2-blau-sein), April 5, 2024.
 - Hochreiter, Susanne, Marina Rauchenbacher, and Katharina Serles: “Comics in, aus und über Österreich.” _COMMA: Comic Magazin Austria_, no. 2, 2024, pp. 36-37.
 - Serles, Katharina. “Bei_strich: Ein Vor_wort.” _COMMA: Comic Magazin Austria_, no. 2, 2024, p. 3.
 - Serles, Katharina. “Fünf Fragen an… Martin Erasmus.” _COMMA: Comic Magazin Austria_, no. 2, 2024, pp. 31-33.
 - Rauchenbacher, Marina. “Fünf Fragen an… Vina Yun.” _COMMA: Comic Magazin Austria_, no. 2, 2024, pp. 12-15.
 - Rauchenbacher, Marina. Review of _Mäander_, by Vinz Schwarzbauer, [https://www.literaturhaus-wien.at/review/maeander](https://www.literaturhaus-wien.at/review/maeander), January 23, 2024.
-- Lobnig, Naomi. Review of _Emmie Arbel: Die Farben der Erinnerung_, by Barbara Yelin and and Interview with Barbara Yelin: “Die Ränder des Erzählbaren visualisieren.” _an.schläge_, no. 1, 2024, p. 39.
+- Lobnig, Naomi. Review of _Emmie Arbel: Die Farben der Erinnerung_, by Barbara Yelin and Interview with Barbara Yelin: “Die Ränder des Erzählbaren visualisieren.” _an.schläge_, no. 1, 2024, p. 39.
 - Lobnig, Naomi. Review of _Genossin Kuckuck_, by Anke Feuchtenberger: “Aufwühlend und Rätselhaft.” _an.schläge_, no. 1, 2024, p. 40.
 - Lobnig, Naomi. Review: “Krankheit zeichnen.” _an.schläge_, no. 7, 2023, p. 24. 
 - Lobnig, Naomi. Review of _Naphtalin_, by Sole Otero: “Bildgewaltig.” _an.schläge_, no. 8, 2023, p. 43.
@@ -80,8 +80,7 @@ caption: Regina Hofer
 - Serles, Katharina. “Bei_strich: Ein Vor_wort.” _COMMA: Comic Magazin Austria_, no. 1, 2022, pp. 3.
 - Rauchenbacher, Marina. “Comics – Graphic Medicine – Comics.” Körper – Body, edited by Eva Katharina Masel, Andrea Praschinger, Marina Rauchenbacher, and Ruth Kutalek. Vienna General Hospital and Medical University Vienna, 2020, pp. 12-13.
 - Rauchenbacher, Marina. “Was können Comics? Sie können viel. Sie können mehr.” Renate Mowlam. _Was ist ein Comic?_ Vienna General Hospital and Medical University Vienna, 2020, p. 3; (engl.: “What can Comics achieve? They can achieve a lot. They can achieve much more.” Renate Mowlam. _What is a Comic?_ Vienna General Hospital and Medical University Vienna, 2020, p. 3).
-- Serles, Katharina. “Gemachter Sex.” _Spring_, no. 14, 2020, pp. 4-5.
-
+- Serles, Katharina. “Gemachter Sex.” _Spring_, no. 16, 2020, pp. 4-5.
 
 ### Talks and Presentations
 - Serles, Katharina. _“Du siehst aus wie ein Bauer”: Verkörperte Klasse in Eva Müllers_ Scheiblettenkind (2023). Comicsalon Erlangen, June 2, 2024.
