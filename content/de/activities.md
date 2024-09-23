@@ -61,7 +61,7 @@ caption: Regina Hofer
 
 ### Journalistische Arbeiten, Interviews, Rezensionen, Science to Public
 - N. Lobnig, Renate Tanzberger u. Rosemarie Ortner: _Queere Comics in der Arbeit mit Jugendlichen. Eine kommentierte Empfehlungsliste._ Queer-feministischer Bildungsverein EfEU, Wien, im Erscheinen.
-- N. Lobnig: _„Darstellen, wie ich mich selbst sehe“._ \[Rezension und Interview zu Maia Kobabes Gender Queer]. In: an.schläge 5 (2024), S. 39.
+- N. Lobnig: _„Darstellen, wie ich mich selbst sehe“._ \[Rezension und Interview zu Maia Kobabes _Gender Queer_]. In: an.schläge 5 (2024), S. 39.
 - M. Rauchenbacher: _Spross #2. Redaktion: Janne Marie Dauer. Hg. v. Nicolas Dostal._ In: [literaturhaus.at](https://www.literaturhaus-wien.at/event/spross-magazin-2-blau-sein/), Buchmagazin, 5. April 2024.
 - S. Hochreiter, M. Rauchenbacher u. K. Serles: _Comics in, aus und über Österreich._ In: COMMA. Comic Magazin Austria 2 (2024), S. 36–37.
 - K. Serles: _Bei_strich. Ein Vor_wort._ In: COMMA. Comic Magazin Austria 2 (2024), S. 3.
