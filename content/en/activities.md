@@ -30,7 +30,7 @@ caption: Regina Hofer
 - Rauchenbacher, Marina. “Programmatisch Alice: Irrgärten und Grenzüberschreitungen des Erzählens.” _Die Königin Vontjanze. Kleiner Atlas zum Werk von Anke Feuchtenberger_, edited by Andreas Stuhlmann and Ole Frahm. Hamburg: Textem, 2023, pp. 195–204.
 - Rauchenbacher, Marina. “Das ‘Wunder an unserem Kinde’: Körper, Dis_ability, Krankheit in Heidi-Comics – am Beispiel Klara.” _Wiedersehen mit Heidi. Polyperspektivische Lektüren der Heidi-Romane von Johanna Spyri_, edited by Linda Leskau and Sigrid Nieberle. Bielefeld: transcript, 2023. Diversity in Culture 1, pp. 311–26. [https://doi.org/10.1515/9783839462898-020](https://doi.org/10.1515/9783839462898-020)
 - Lobnig, Naomi. “Narrative des Erinnerns und Vergessens in Alzheimer-Comics.” _Closure: Kieler e-Journal für Comicforschung_, no. 9, 2023, pp. 49–75. [http://www.closure.uni-kiel.de/closure9/lobnig](http://www.closure.uni-kiel.de/closure9/lobnig)
-- Rauchenbacher, Marina. “Comics – posthuman, queer-end, um_un-ordnend.” _Genealogy+Critique_, no. 8 (2022), 1, pp. 1–27. [https://doi.org/10.16995/gc.9167](https://doi.org/10.16995/gc.9167)
+- Rauchenbacher, Marina. “Comics – posthuman, queer-end, um_un-ordnend.” _Genealogy+Critique_, no. 8, vol. 1 (2022), pp. 1–27. [https://doi.org/10.16995/gc.9167](https://doi.org/10.16995/gc.9167)
 - Hochreiter, Susanne, Marina Rauchenbacher, and Katharina Serles. “Queer Visualities ­– Queer Spaces. German-Language LGBTQ+ Comics.” _The LGBTQ+ Comics Studies Reader: Critical Openings, Future Directions_, edited by Alison Halsall and Jonathan Warren. Jackson: UP of Mississippi, 2022, pp. 114–33. [https://doi.org/10.2307/j.ctv2w227ck.10/](https://doi.org/10.2307/j.ctv2w227ck.10)
 - Hochreiter, Susanne, Marina Rauchenbacher, and Katharina Serles. “Vorwort der Herausgeberinnen.” _Comics aus und über Österreich_, special issue of _Journal of Austrian Studies_, vol. 55, no. 2, 2022, pp. 1–10. [https://doi.org/10.1353/oas.2022.0028](https://doi.org/10.1353/oas.2022.0028)
 - Hochreiter, Susanne, Marina Rauchenbacher, and Katharina Serles. “Gender in Comics? Fragen und Antworten zum Forschungsprojekt _Visualitäten von Geschlecht in deutschsprachigen Comics_.” _Mitteilungen der Vereinigung österreichischer Bibliothekarinnen & Bibliothekare_, vol. 75, no. 1, 2022, 1, pp. 226–39. [https://doi.org/10.31263/voebm.v75i1.7214](https://doi.org/10.31263/voebm.v75i1.7214)
@@ -52,15 +52,15 @@ caption: Regina Hofer
 - Rauchenbacher, Marina. “Psyche zeigen: Comics über Essstörungen.” _Comics Studies x Gender Studie: Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice_, edited by Marina Rauchenbacher, Katharina Serles, and Naomi Lobnig in collaboration with Susanne Hochreiter. Berlin: Walter de Gruyter.
 - Serles, Katharina. “Körper, Kunst und Kanon: (Queer)feministische Bildermächtigungen in Comics.” _Comics Studies x Gender Studies: Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice_, edited by Marina Rauchenbacher, Katharina Serles, and Naomi Lobnig in collaboration with Susanne Hochreiter. Berlin: Walter de Gruyter.
 - Rauchenbacher, Marina. “]         [. Verstummen und Stille in Ulli Lusts Comic-Adaption von Marcel Beyers Roman _Flughunde_.” _Laute(r) Bilder: Musik in Manga, Comic & Co_, edited by Melanie Unseld and Akiko Yamada, special issue of _Jahrbuch Musik und Gender_.
-- Rauchenbacher, Marina. “Comics on Display: Conceptual Remarks on _Gewalt erzählen. Eine Comic-Ausstellung / Narrating Violence. A Comic Exhibition (Sigmund Freud Museum Vienna)_.” _German Graphic Narratives and Trauma_, edited by Elisabeth Krimmer and Maureen Burdock. Camden House. 
+- Rauchenbacher, Marina. “Comics on Display: Conceptual Remarks on _Gewalt erzählen. Eine Comic-Ausstellung / Narrating Violence. A Comic Exhibition (Sigmund Freud Museum Vienna)_.” _German Graphic Narratives and Trauma_, edited by Elisabeth Krimmer and Maureen Burdock. Rochester: Camden House. 
 - Rauchenbacher, Marina, and Katharina Serles. “Gender/Queer Studies / Intersektionalitätsforschung.” _Handbuch Comicforschung_, edited by Juliane Blank and Stephan Packard. Berlin: Walter de Gruyter.
 - Rauchenbacher, Marina. “Who (and Where) is *Alice*? Anke Feuchtenberger’s Feminist-Disruptive Identity Criticism.” _Comparative Comics Studies_, edited by Christian Bachmann, Juliane Blank, and Stephan Packard. Berlin: Christian A. Bachmann Verlag.
 - Babka, Anna, and Marina Rauchenbacher. “Queer Studies.” _Handbuch Kulturwissenschaftliche ‚Studies‘_, edited by Jonas Nesselhauf and Florian Weber. Berlin: Walter de Gruyter.
 
 
 ### Master Thesis
-- Höfer, Ines Christina. _Queere Beziehungsgeflechte und Identitätsfragen in Entenhausen: Ein Queer Reading ausgewählter Comics_. University of Vienna, Master thesis, 2023.
-- Lobnig, Naomi. _Alternative Krankheitsnarrative in den Comics_ Vergiss dich nicht _von Lika Nüssli und_ Aliceheimer’s _von Dana Walrath_. University of Vienna, Master thesis, 2022.
+- Höfer, Ines Christina. _Queere Beziehungsgeflechte und Identitätsfragen in Entenhausen: Ein Queer Reading ausgewählter Comics_. University of Vienna, Master thesis, 2023 (under the supervision of Susanne Hochreiter).
+- Lobnig, Naomi. _Alternative Krankheitsnarrative in den Comics_ Vergiss dich nicht _von Lika Nüssli und_ Aliceheimer’s _von Dana Walrath_. University of Vienna, Master thesis, 2022 (under the supervision of Marina Rauchenbacher.
 
 
 ### Journalistic Texts, Interviews, Reviews, Science to Public
@@ -139,7 +139,7 @@ caption: Regina Hofer
 - Rauchenbacher, Marina. Graduate seminar _In Wort und Bild: Strategien des Erzählens in Comics_ (fall 2024, Department of German Philology, University of Vienna).
 - Serles, Katharina. _Mind the Gap: Comictheorie_ (spring 2024, Kunstschule Wien).
 - Serles, Katharina. _Mit der Axt im Auge: Comictheorie_ (fall 2023, Kunstschule Wien).
-- Hochreiter, Susanne. _Hybride Körper in Comics und Graphic Novels: Fortbildung für Lehrende_ (KPH Vienna, Bildungszentrum Lacknergasse, October 12, 2023).
+- Hochreiter, Susanne. _Hybride Körper in Comics und Graphic Novels: Fortbildung für Lehrende_ (October 12, 2023, KPH Vienna, Bildungszentrum Lacknergasse).
 - Rauchenbacher, Marina. _Leben sehen: (Auto)Biografische Comics_ (March 2023, _Literarische Kurse: Fernkurs für Literatur_, Wien).
 - Rauchenbacher, Marina. Undergraduate seminar _Krankheit und Dis_ability in deutschsprachigen Comics_ (fall 2021, Department of German Philology, University of Vienna).
 - Rauchenbacher, Marina. Lecture _Verborgen : Im Zentrum : Dazwischen: Kranke Körper in Heidi-Comics_ (spring 2021, lecture series _Wiedersehen mit Heidi / Re-reading Heidi_, organized by Linda Leskau and Sigrid Nieberle, Institute für Diversity Studies, TU Dortmund).
