@@ -53,7 +53,7 @@ caption: Regina Hofer
 - M. Rauchenbacher: _]         [. Verstummen und Stille in Ulli Lusts Comic-Adaption von Marcel Beyers Roman_ Flughunde. In: Melanie Unseld u. Akiko Yamada (Hg.): Laute(r) Bilder. Musik in Manga, Comic & Co. (Jahrbuch Musik und Gender, Bd. **).
 - M. Rauchenbacher u. K. Serles: _Gender/Queer Studies / Intersektionalitätsforschung._ In: Juliane Blank u. Stephan Packard (Hg.): Handbuch Comicforschung. Berlin, Boston: de Gruyter.
 - A. Babka u. M. Rauchenbacher: _Queer Studies._ In: Handbuch Kulturwissenschaftliche ‚Studies‘. Hg. v. Jonas Nesselhauf u. Florian Weber. Berlin, Boston: de Gruyter.
-- M. Rauchenbacher: _Comics on Display. Conceptual Remarks on_ Gewalt erzählen. Eine Comic-Ausstellung / Narrating Violence. A Comic Exhibition (_Sigmund Freud Museum Vienna_). In: Elisabeth Krimmer u. Maureen Burdock (Hg.): German Graphic Narratives and Trauma. Rochester, NY: Camden House.
+- M. Rauchenbacher: _Comics on Display. Conceptual Remarks on_ Gewalt erzählen. Eine Comic-Ausstellung / Narrating Violence. A Comic Exhibition (_Sigmund Freud Museum Vienna_). In: Elisabeth Krimmer u. Maureen Burdock (Hg.): German Graphic Narratives and Trauma. Rochester: Camden House.
 
 ### Abschlussarbeit
 - Ines Christina Höfer: _Queere Beziehungsgeflechte und Identitätsfragen in Entenhausen. Ein Queer Reading ausgewählter Comics._ Masterarbeit. Universität Wien 2023 (betreut von Susanne Hochreiter).
