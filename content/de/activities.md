@@ -56,9 +56,9 @@ caption: Regina Hofer
 - M. Rauchenbacher: _Comics on Display. Conceptual Remarks on_ Gewalt erzählen. Eine Comic-Ausstellung / Narrating Violence. A Comic Exhibition (_Sigmund Freud Museum Vienna_). In: Elisabeth Krimmer u. Maureen Burdock (Hg.): German Graphic Narratives and Trauma. Rochester, NY: Camden House.
 
 ### Abschlussarbeit
-- Ines Christina Höfer: _Queere Beziehungsgeflechte und Identitätsfragen in Entenhausen. Ein Queer Reading ausgewählter Comics._ Masterarbeit am Institut für Germanisitik, Universität Wien 2023
+- Ines Christina Höfer: _Queere Beziehungsgeflechte und Identitätsfragen in Entenhausen. Ein Queer Reading ausgewählter Comics._ Masterarbeit. Universität Wien 2023 (betreut von Susanne Hochreiter).
 - N. Lobnig: _Alternative Krankheitsnarrative in den Comics_ Vergiss dich nicht _von Lika Nüssli und_ Aliceheimer’s 
- _von Dana Walrath_. Masterarbeit am Institut für Germanistik, Universität Wien 2022.
+ _von Dana Walrath_. Masterarbeit. Universität Wien 2022 (betreut von Marina Rauchenbacher).
 
 ### Journalistische Arbeiten, Interviews, Rezensionen, Science to Public
 - N. Lobnig, Renate Tanzberger u. Rosemarie Ortner: _Queere Comics in der Arbeit mit Jugendlichen. Eine kommentierte Empfehlungsliste._ Queer-feministischer Bildungsverein EfEU, Wien, im Erscheinen.
@@ -79,7 +79,7 @@ caption: Regina Hofer
 - M. Rauchenbacher: Endorsement für: James Hodapp (Hg.): _Graphic Novels and Comics as World Literature_. New York u. a.: Bloomsbury 2022.
 - N. Lobnig: _Queerfeministische Comic-Kunst. Das widerständige Potenzial von Comics._ In: an.schläge 5 (2022).
 - K. Serles: _Bei_strich. Ein Vor_wort._ In: COMMA. Comic Magazin Austria 1 (2021), S. 3.
-- M. Rauchenbacher: _Comics – Graphic Medicine – Comics._ In: Eva Katharina Masel, Andrea Praschinger, M. Rauchenbacher u. Ruth Kutalek (Hg.): Körper – Body. \[Begleitheft zur Comic-Ausstellung _Art – Action – Attitude: Körper/Body_ im AKH der Stadt Wien, 2020/2021]. Wien: Medizinische Universität 2020, S. 12f.
+- M. Rauchenbacher: _Comics – Graphic Medicine – Comics._ In: Eva Katharina Masel, Andrea Praschinger, M. Rauchenbacher u. Ruth Kutalek (Hg.): Körper – Body. \[Begleitheft zur Comic-Ausstellung _Art – Action – Attitude: Körper/Body_ im AKH der Stadt Wien, 2020/2021]. Wien: Medizinische Universität 2020, S. 12–13.
 - M. Rauchenbacher: _Was können Comics? Sie können viel. Sie können mehr._ In: Renate Mowlam: Was ist ein Comic? Medizinische Universität Wien 2020, S. 3 (engl.: _What can Comics achieve? They can achieve a lot. They can achieve much more._ In: Renate Mowlam: What is a Comic? Medical University of Vienna 2020, p. 3).
 - K. Serles: _Gemachter Sex._ In: Spring. _Sex_ 16 (2020), S. 4–5.
 
@@ -134,14 +134,14 @@ caption: Regina Hofer
 - M. Rauchenbacher: Masterseminar _In Wort und Bild. Strategien des Erzählens in Comics_ (WiSe  2024, Institut für Germanistik, Universität Wien)
 - K. Serles: _Mind the Gap. Comictheorie_ (SoSe 2024, Kunstschule Wien)
 - K. Serles: _Mit der Axt im Auge. Comictheorie_ (WiSe 2023, Kunstschule Wien)
-- S. Hochreiter: _Hybride Körper in Comics und Graphic Novels._ Fortbildung für Lehrende. KPH Wien, Bildungszentrum Lacknergasse, 12. Oktober 2023.
+- S. Hochreiter: _Hybride Körper in Comics und Graphic Novels._ (12. Oktober 2023, Fortbildung für Lehrende an der KPH Wien, Bildungszentrum Lacknergasse)
 - M. Rauchenbacher: _Leben sehen. (Auto)Biografische Comics_ (März 2023, Literarische Kurse. Fernkurs für Literatur, Wien)
 - M. Rauchenbacher: Proseminar _Krankheit und Dis_ability in deutschsprachigen Comics_ (WiSe 2021, Institut für Germanistik, Universität Wien)
 - M. Rauchenbacher: Vorlesungs-Einheit _Verborgen : Im Zentrum : Dazwischen. Kranke Körper in Heidi-Comics_ (SoSe 2021, Ringvorlesung _Wiedersehen mit Heidi / Re-reading Heidi_, organisiert v. Linda Leskau u. Sigrid Nieberle, Institut für Diversitätsstudien, TU Dortmund)
 - S. Hochreiter; M. Rauchenbacher; K. Serles: Vorlesung mit Übung _Themenfelder I: Gender Studies – Comics Studies_ (WiSe 2020, Masterstudium Gender Studies, Universität Wien)
 - M. Rauchenbacher: Seminar _Kranke Körper-Zeichen. Geschlecht und psychische Erkrankungen in Comics_ (SoSe 2020, Masterstudium Gender Studies, Universität Wien, tlw. online)
 - M. Rauchenbacher u. K. Serles: Seminar _Klonk! Gurgl? Pling!_ (Juli 2020, Kinderuni Wien)
-- S. Hochreiter: _Grafisches Erzählen und Literaturcomics._ Lehre im Rahmen eines ERASMUS-Aufenthalts an der Humboldt-Universität zu Berlin, 3.–5. Februar 2020.
+- S. Hochreiter: _Grafisches Erzählen und Literaturcomics._ (3.–5. Februar 2020, Lehre im Rahmen eines ERASMUS-Aufenthalts an der Humboldt-Universität zu Berlin)
 - M. Rauchenbacher u. K. Serles: Proseminar _Körper-Zeichen. Gender und Diversität in deutschsprachigen Comics_ (WiSe 2018, Institut für Germanistik, Universität Wien)
 - K. Serles: Seminar _Blickregime/Blickperformances_ (SoSe 2017, Angewandte Theaterwissenschaft und Produktionsdramaturgie, HfBK Dresden)
 - K. Serles: Projektwoche _(Un)folding Time and Space. Timeframes, Storyboards und Nonlineares Erzählen_ (WiSe 2016, Studiengang Bühnen- und Kostümbild, HfBK Dresden & Studiengang Regie, Theaterakademie August Everding München)
@@ -192,13 +192,13 @@ caption: Regina Hofer
 - E. K. Masel, A. Praschinger, M. Rauchenbacher u. R. Kutalek: Kuration der Ausstellung _Art – Action – Attitude: Körper/Body_, AKH/Medizinische Universität Wien, März–Juni 2021
 
 # Betreuung von Abschlussarbeiten
-- M. Rauchenbacher – Erin Sedelmaier: _Verwandtschaft zwischen Körpern in Luke Pearsons Hilda-Comics._ Masterarbeit. Universität Wien, laufend
-- M. Rauchenbacher – Fiona Sironic: _Potentiale queerfeministischer Perspektiven für das Medium Videospiel._ Masterarbeit. Universität Wien, laufend
+- M. Rauchenbacher – Erin Sedelmaier: _Verwandtschaft zwischen Körpern in Luke Pearsons Hilda-Comics._ Masterarbeit. Universität Wien, laufend.
+- M. Rauchenbacher – Fiona Sironic: _Potentiale queerfeministischer Perspektiven für das Medium Videospiel._ Masterarbeit. Universität Wien, laufend. 
 
 # Review-Tätigkeit
 - M. Rauchenbacher: Mitglied des Advisory Board der Reihe _Comicstudien_, de Gruyter Verlag (seit 2020)
 - M. Rauchenbacher: Gutachterin für _European Comic Art_ (2021)
-- M. Rauchenbacher: Gutachterin für Seminar. _A Journal of Germanic Studies_ (2020)
+- M. Rauchenbacher: Gutachterin für _Seminar. A Journal of Germanic Studies_ (2020)
 
 # Preise und Förderungen
 - 2024: FWF-open-access-Förderung: M. Rauchenbacher, K. Serles u. N. Lobnig (Hg.): _Comics Studies x Gender Studies. Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice._ Unter Mitarbeit v. Susanne Hochreiter. Berlin, Boston: de Gruyter (im Entstehen), Grant-DOI: [10.55776/PUB1145](https://www.fwf.ac.at/forschungsradar/10.55776/P31925)
