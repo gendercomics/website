@@ -1,8 +1,12 @@
 <script setup>
 const route = useRoute()
+const { locale } = useI18n()
 const slug = ref(route.path)
 onMounted(() => {
   console.log('slug=' + slug.value)
+})
+watch(locale, () => {
+  window.location.reload()
 })
 </script>
 
