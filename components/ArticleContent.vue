@@ -35,7 +35,7 @@ watch(
 watch(
   () => i18nPath.value,
   async () => {
-    //console.log('watch: ' + route.fullPath)
+    console.log('ArticleContent watch: ' + i18nPath.value)
     doc = await useAsyncData(() => queryContent(i18nPath.value).findOne())
   },
 )
@@ -52,7 +52,7 @@ onBeforeRouteUpdate(async (to, from, next) => {
 <template>
   <div class="container page-margin">
     <content-renderer :value="doc" :key="i18nPath">
-      <div class="titel-xl mt-3rem txt-align-center">
+      <div v-if="doc.data" class="titel-xl mt-3rem txt-align-center">
         {{ doc.data.value.title }}
       </div>
       <div class="w-90">

@@ -1,6 +1,8 @@
 <script setup>
 import SearchResultFooter from '~/components/SearchResultFooter.vue'
 
+const { locale } = useI18n()
+
 const searchInput = reactive({
   searchString: '',
   searchFilter: {

@@ -6,7 +6,8 @@ onMounted(() => {
   console.log('slug=' + slug.value)
 })
 watch(locale, () => {
-  window.location.reload()
+  console.log('watch=' + slug.value + ', locale=' + locale.value)
+  //window.location.reload()
 })
 </script>
 
