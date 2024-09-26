@@ -51,6 +51,9 @@ onBeforeRouteUpdate(async (to, from, next) => {
 
 <template>
   <div class="container page-margin">
+
+    <!--
+
     <content-renderer :value="doc" :key="i18nPath">
       <div v-if="doc.data" class="titel-xl mt-3rem txt-align-center">
         {{ doc.data.value.title }}
@@ -64,6 +67,7 @@ onBeforeRouteUpdate(async (to, from, next) => {
         </div>
       </div>
     </content-renderer>
+-->
 
     <divider-red-arrow />
     <img
