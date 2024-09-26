@@ -8,7 +8,7 @@ const { locale } = useI18n()
 const route = useRoute()
 const fullPath = ref(route.fullPath)
 
-const index = await useAsyncData('collaborations', () =>
+const index = await useAsyncData(fullPath.value, () =>
   queryContent('/' + locale.value + '/collaborations')
     .where({ type: 'index' })
     .findOne(),

@@ -1,11 +1,12 @@
 <script setup>
 import DividerRedArrow from '~/components/DividerRedArrow.vue'
+import { useAsyncData } from '#app'
 
 const { locale } = useI18n()
 const route = useRoute()
 const fullPath = ref(route.fullPath)
 
-const index = await useAsyncData('activities', () =>
+let index = await useAsyncData(fullPath.value, () =>
   queryContent('/' + locale.value + '/activities')
     .where({ type: 'index' })
     .findOne(),

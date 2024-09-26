@@ -6,12 +6,11 @@ const { locale } = useI18n()
 const route = useRoute()
 const fullPath = ref(route.fullPath)
 
-const index = await useAsyncData('blog', () =>
+const index = await useAsyncData(fullPath.value, () =>
   queryContent('/' + locale.value + '/blog')
     .where({ type: 'index' })
     .findOne(),
 )
-
 </script>
 
 <template>
