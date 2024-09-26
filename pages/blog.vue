@@ -1,15 +1,17 @@
 <script setup lang="ts">
 import DividerRedArrow from '~/components/DividerRedArrow.vue'
+import { useAsyncData } from '#app'
 
 const { locale } = useI18n()
 const route = useRoute()
 const fullPath = ref(route.fullPath)
 
-const index = await useAsyncData('doc', () =>
+const index = await useAsyncData('blog', () =>
   queryContent('/' + locale.value + '/blog')
     .where({ type: 'index' })
     .findOne(),
 )
+
 </script>
 
 <template>

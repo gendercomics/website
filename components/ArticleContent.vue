@@ -21,13 +21,17 @@ async function fetchContent() {
   }
 }
 
-let doc = await useAsyncData(() => queryContent(i18nPath.value).findOne())
+let doc = await useAsyncData(fullPath.value, () =>
+  queryContent(i18nPath.value).findOne(),
+)
 
 watch(
   () => fullPath.value,
   async () => {
     console.log('ArticleContent watch: ' + fullPath.value)
-    doc = await useAsyncData(() => queryContent(i18nPath.value).findOne())
+    doc = await useAsyncData(fullPath.value, () =>
+      queryContent(i18nPath.value).findOne(),
+    )
   },
 )
 
