@@ -9,6 +9,7 @@ const props = defineProps({
 })
 const { locale } = useI18n()
 const route = useRoute()
+const fullPath = ref(route.fullPath)
 
 const i18nPath = computed(() => '/' + locale.value + props.content)
 
@@ -23,17 +24,21 @@ async function fetchContent() {
 let doc = await useAsyncData(() => queryContent(i18nPath.value).findOne())
 
 watch(
-  () => i18nPath.value,
+  () => fullPath.value,
   async () => {
-    console.log('ArticleContent watch: ' + i18nPath.value)
+    console.log('ArticleContent watch: ' + fullPath.value)
     doc = await useAsyncData(() => queryContent(i18nPath.value).findOne())
   },
 )
+
+onMounted(() => {
+  console.log('ArticleContent fullPath: ' + fullPath.value)
+})
 </script>
 
 <template>
   <div class="container page-margin">
-    <content-renderer :value="doc" :key="i18nPath.value">
+    <content-renderer :value="doc" :key="fullPath.value">
       <div v-if="doc.data" class="titel-xl mt-3rem txt-align-center">
         {{ doc.data.value.title }}
       </div>
@@ -42,6 +47,7 @@ watch(
           <content-renderer-markdown
             class="a txt-align-center mt-2rem"
             :value="doc.data.value.excerpt"
+            :key="fullPath.value"
           />
         </div>
       </div>
@@ -57,7 +63,7 @@ watch(
 
     <div class="text-container">
       <div class="container-relative">
-        <content-renderer :value="doc" :key="i18nPath">
+        <content-renderer :value="doc" :key="fullPath.value">
           <div v-if="doc.data.value.image">
             <article-image
               :image="doc.data.value.image"
@@ -70,7 +76,10 @@ watch(
             {{ doc.data.value.subheading }}
           </h2>
           <div class="a mt-2rem">
-            <content-renderer-markdown :value="doc.data.value.body" />
+            <content-renderer-markdown
+              :value="doc.data.value.body"
+              :key="fullPath.value"
+            />
           </div>
         </content-renderer>
       </div>
