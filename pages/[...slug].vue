@@ -2,6 +2,7 @@
 const route = useRoute()
 const { locale } = useI18n()
 const slug = ref(route.path)
+
 onMounted(() => {
   console.log('slug=' + slug.value)
 })
@@ -13,6 +14,6 @@ watch(locale, () => {
 
 <template>
   <main>
-    <article-content :content="slug" :key="slug.value" />
+    <article-content :content="slug" />
   </main>
 </template>

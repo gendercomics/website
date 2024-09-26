@@ -10,6 +10,7 @@ const { t } = useI18n({
 })
 const { locale } = useI18n()
 const route = useRoute()
+const fullPath = ref(route.fullPath)
 
 const i18nPath = computed(() => '/' + locale.value + props.content)
 
@@ -18,23 +19,22 @@ let doc = await useAsyncData(() => queryContent(i18nPath.value).findOne())
 watch(
   () => i18nPath.value,
   async () => {
-    console.log("watch: " + i18nPath.value)
+    console.log('watch: ' + i18nPath.value)
     doc = await useAsyncData(() => queryContent(i18nPath.value).findOne())
   },
 )
-
-
 </script>
 <template>
   <div class="container-row">
     <div class="column">
       <div class="w-90">
-        <content-renderer :value="doc" :key="i18nPath.value">
+        <content-renderer :value="doc" :key="fullPath.value">
           <div class="tag">{{ doc.data.value.team }}</div>
           <div class="titel-kachel">{{ doc.data.value.title }}</div>
           <content-renderer-markdown
             class="a mt-1rem"
             :value="doc.data.value.excerpt"
+            :key="fullPath.value"
           />
         </content-renderer>
         <button-gray class="mt-1rem" :text="t('more')" :link="i18nPath" />

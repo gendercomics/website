@@ -2,6 +2,9 @@
 import DividerRedArrow from '~/components/DividerRedArrow.vue'
 
 const { locale } = useI18n()
+const route = useRoute()
+const fullPath = ref(route.fullPath)
+
 const index = await useAsyncData('doc', () =>
   queryContent('/' + locale.value + '/blog')
     .where({ type: 'index' })
@@ -12,9 +15,13 @@ const index = await useAsyncData('doc', () =>
 <template>
   <div class="page-margin container">
     <div class="column">
-      <content-renderer :value="index" :key="$route.fullPath">
+      <content-renderer :value="index" :key="fullPath.value">
         <div class="titel-xl mt-3rem">{{ index.data.value.title }}</div>
-        <content-renderer-markdown class="a" :value="index.data.value.body" />
+        <content-renderer-markdown
+          class="a"
+          :value="index.data.value.body"
+          :key="fullPath.value"
+        />
       </content-renderer>
 
       <divider-red-arrow />
