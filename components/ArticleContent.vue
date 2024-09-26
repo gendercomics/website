@@ -14,7 +14,7 @@ const i18nPath = computed(() => '/' + locale.value + props.content)
 
 async function fetchContent() {
   try {
-    return await queryContent(i18nPath).findOne()
+    return await queryContent(i18nPath.value).findOne()
   } catch (err: any) {
     return await queryContent(props.content).findOne()
   }
@@ -22,16 +22,6 @@ async function fetchContent() {
 
 let doc = await useAsyncData(() => queryContent(i18nPath.value).findOne())
 
-// Watch the route and refetch content on route change
-/*
-watch(
-  () => route.fullPath,
-  async () => {
-    console.log("route changed: " + route.fullPath)
-    doc = await queryContent(i18nPath.value).findOne()
-  },
-)
- */
 watch(
   () => i18nPath.value,
   async () => {
@@ -39,19 +29,11 @@ watch(
     doc = await useAsyncData(() => queryContent(i18nPath.value).findOne())
   },
 )
-// Alternatively, using `onBeforeRouteUpdate`
-/*
-onBeforeRouteUpdate(async (to, from, next) => {
-  console.log("i18nPath: " + i18nPath.value)
-  doc = await queryContent(i18nPath.value).findOne()
-  next()
-})
-*/
 </script>
 
 <template>
   <div class="container page-margin">
-    <content-renderer :value="doc" :key="i18nPath">
+    <content-renderer :value="doc" :key="i18nPath.value">
       <div v-if="doc.data" class="titel-xl mt-3rem txt-align-center">
         {{ doc.data.value.title }}
       </div>
