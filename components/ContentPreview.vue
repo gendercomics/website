@@ -16,7 +16,7 @@ const { t } = useI18n({
     <div class="column">
       <div class="w-90">
         <content-renderer :value="member" :key="$route.fullPath">
-          <div class="tag">{{ member.team }}</div>
+          <div class="tag">{{ member.tag }}</div>
           <div class="titel-kachel">{{ member.title }}</div>
           <content-renderer-markdown
             class="a mt-1rem"

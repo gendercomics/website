@@ -29,7 +29,7 @@ watch(
     <div class="column">
       <div class="w-90">
         <content-renderer :value="doc" :key="fullPath.value">
-          <div class="tag">{{ doc.data.value.team }}</div>
+          <div class="tag">{{ doc.data.value.tag }}</div>
           <div class="titel-kachel">{{ doc.data.value.title }}</div>
           <content-renderer-markdown
             class="a mt-1rem"
