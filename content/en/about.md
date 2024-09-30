@@ -1,6 +1,6 @@
 ---
 title: Visualities of Gender in German-Language Comics.
-heading: Abstract.
+heading: Abstract
 description: Visualities of Gender in German-Language Comics.
 image: art/feuchtenberger_karlmarxallee.jpeg
 caption: Anke Feuchtenberger

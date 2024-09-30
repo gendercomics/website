@@ -1,6 +1,6 @@
 ---
 title: Visualitäten von Geschlecht in deutschsprachigen Comics.
-heading: Abstract.
+heading: Abstract
 description: Visualitäten von Geschlecht in deutschsprachigen Comics.
 type: index
 image: art/feuchtenberger_karlmarxallee.jpeg
