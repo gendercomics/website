@@ -21,17 +21,13 @@ async function fetchContent() {
   }
 }
 
-let doc = await useAsyncData(fullPath.value, () =>
-  queryContent(i18nPath.value).findOne(),
-)
+let doc = await useAsyncData(fullPath.value, () => fetchContent())
 
 watch(
   () => fullPath.value,
   async () => {
     console.log('ArticleContent watch: ' + fullPath.value)
-    doc = await useAsyncData(fullPath.value, () =>
-      queryContent(i18nPath.value).findOne(),
-    )
+    doc = await useAsyncData(fullPath.value, () => fetchContent())
   },
 )
 
@@ -43,7 +39,10 @@ onMounted(() => {
 <template>
   <div class="container page-margin">
     <content-renderer :value="doc" :key="fullPath.value">
-      <div v-if="doc.data" class="titel-xl mt-3rem txt-align-center">
+      <div
+        v-if="doc.data.value.title"
+        class="titel-xl mt-3rem txt-align-center"
+      >
         {{ doc.data.value.title }}
       </div>
       <div class="w-90">
