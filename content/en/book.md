@@ -1,7 +1,7 @@
 ---
 title: Comics Studies x Gender Studies. Schnittmengen von Forschung, Lehre und Praxis / Intersections of Research, Teaching, and Practice
 description: Comics Studies x Gender Studies. Schnittmengen von Forschung, Lehre und Praxis / Intersections of Research, Teaching, and Practice
-heading: Comics Studies x Gender Studies.
+heading: Comics Studies x Gender Studies
 subheading: Schnittmengen von Forschung, Lehre und Praxis / Intersections of Research, Teaching, and Practice
 type: index
 image: art/hofer_blad.png

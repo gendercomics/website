@@ -1,7 +1,7 @@
 ---
-title: Imprint.
-description: Imprint.
-heading: Imprint.
+title: Imprint
+description: Imprint
+heading: Imprint
 type: index
 ---
 
