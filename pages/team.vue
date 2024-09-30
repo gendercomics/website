@@ -44,7 +44,7 @@ const index = await useAsyncData(fullPath.value, () =>
                 :img="member.image"
                 width="60%"
                 :caption="member.caption"
-                :caption-link="member.route"
+                :caption-link="member.captionLink"
               />
               <div v-else-if="index % 2 != 0">
                 <content-preview :member="member" />
@@ -57,7 +57,7 @@ const index = await useAsyncData(fullPath.value, () =>
                 :img="member.image"
                 width="60%"
                 :caption="member.caption"
-                :caption-link="member.route"
+                :caption-link="member.captionLink"
                 :btn-arrow="false"
               />
               <div v-if="index % 2 === 0">
