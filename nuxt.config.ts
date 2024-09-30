@@ -26,11 +26,7 @@ export default defineNuxtConfig({
     },
   },
 
-  alias: {
-    images: fileURLToPath(new URL('./assets/images', import.meta.url)),
-  },
-
-  security: {},
+   security: {},
 
   i18n: {
     strategy: 'prefix_and_default',
