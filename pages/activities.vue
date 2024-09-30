@@ -32,8 +32,9 @@ onMounted(() => {
       <div class="container-relative">
         <content-renderer :value="index" :key="fullPath.value">
           <article-image
-            image="art/gordon_shelegend.jpg"
-            caption="Jul Gordon"
+            :image="index.data.value.image"
+            :caption="index.data.value.caption"
+            :caption-link="index.data.value.captionLink"
             class="image"
           />
           <content-renderer-markdown

@@ -1,11 +1,12 @@
 ---
-title: Activities.
-description: Activities.
-heading: Activities.
+title: Activities
+description: Activities
+heading: Activities
 subheading:
 type: index
-image: art/hofer_blad.png
-caption: Regina Hofer
+image: art/gordon_shelegend.jpg
+caption: Jul Gordon
+captionLink: https://julgordon.de/
 ---
 
 # Publications
