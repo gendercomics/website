@@ -121,7 +121,7 @@ const { t } = useI18n({
 
 <i18n lang="yaml">
 de:
-  title: Visualitäten von Geschlecht in deutsch-sprachigen Comics
+  title: Visualitäten von Geschlecht in deutschsprachigen Comics
 en:
   title: Visualities of Gender in German-Language Comics
 </i18n>
