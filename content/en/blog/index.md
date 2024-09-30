@@ -1,6 +1,6 @@
 ---
-title: Blog.
-description: work in progress.
+title: Blog
+description: work in progress
 type: index
 ---
 

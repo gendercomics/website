@@ -1,5 +1,5 @@
 ---
-title: Team.
+title: Team
 description: Das sind die Menschen hinter GenderComics.
 type: index
 ---
