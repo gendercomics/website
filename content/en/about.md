@@ -4,6 +4,7 @@ heading: Abstract.
 description: Visualities of Gender in German-Language Comics.
 image: art/feuchtenberger_karlmarxallee.jpeg
 caption: Anke Feuchtenberger
+captionLink: https://www.ankefeuchtenberger.de/
 ---
 
 A **fundamental research project** that examines the conditions, characteristics, and structures of visualities of gender in comics. It is the first systematic analysis of German-language comics on this scale.

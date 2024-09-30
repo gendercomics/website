@@ -5,6 +5,7 @@ description: Visualitäten von Geschlecht in deutschsprachigen Comics.
 type: index
 image: art/feuchtenberger_karlmarxallee.jpeg
 caption: Anke Feuchtenberger
+captionLink: https://www.ankefeuchtenberger.de/
 ---
 
 **Ein Grundlagenforschungsprojekt**, das die Bedingungen, Eigenschaften und Strukturen von Visualitäten von Geschlecht untersucht.
