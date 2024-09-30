@@ -22,7 +22,12 @@ const imagePath = computed(() => {
 <template>
   <div class="container">
     <img :src="imagePath" alt="" class="image" />
-    <green-button right-corner :text="props.caption" class="button p-10" />
+    <green-button
+      right-corner
+      :text="props.caption"
+      :link="props.captionLink"
+      class="button p-10"
+    />
   </div>
 </template>
 

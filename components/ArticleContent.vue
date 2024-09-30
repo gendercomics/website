@@ -71,6 +71,7 @@ onMounted(() => {
             <article-image
               :image="doc.data.value.image"
               :caption="doc.data.value.caption"
+              :caption-link="doc.data.value.captionLink"
               class="image"
             />
           </div>
