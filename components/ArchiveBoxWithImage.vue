@@ -30,9 +30,15 @@ const props = defineProps({
   },
 })
 
+/*
 function getImageUrl() {
   return new URL(`../assets/images/${props.img}`, import.meta.url)
 }
+*/
+
+const imagePath = computed(() => {
+  return '/images/' + props.img
+})
 
 /*
 const doc = await useAsyncData('doc', () =>
@@ -40,27 +46,23 @@ const doc = await useAsyncData('doc', () =>
     .where({ title: props.contentTitle })
     .findOne(),
 )
-
-onMounted(() => {
-  console.log('doc: ' + doc.data.value.title)
-})
 */
+onMounted(() => {
+  console.log(props.title + ' props: ' + props.description)
+})
 </script>
 
 <template>
   <div class="container">
     <div class="image-container">
-      <img :src="getImageUrl()" alt="" />
+      <img :src="imagePath" alt="" />
     </div>
     <div class="text-container">
       <div class="tag">{{ props.category }}</div>
       <div class="titel-kachel">{{ props.title }}</div>
-      <!--
-      <content-renderer :value="doc">
-        <content-renderer-markdown :value="doc.data.value.body" />
+      <content-renderer :value="props.description" tag="div">
+        <content-renderer-markdown class="a mt-2rem" :value="props.description" />
       </content-renderer>
-      -->
-      <div class="a">{{ props.description }}</div>
     </div>
   </div>
 </template>
@@ -80,9 +82,9 @@ onMounted(() => {
 }
 
 .image-container img {
-  width: 75%;
+  width: 200px;
   height: auto;
-  border-radius: 50px;
+  border-radius: 20px;
 }
 
 .text-container {

@@ -13,6 +13,19 @@ const index = await useAsyncData(fullPath.value, () =>
     .where({ type: 'index' })
     .findOne(),
 )
+
+const feuchtenberger = await useAsyncData(
+  locale.value + '/collaborations/advisory-board/anke-feuchtenberger',
+  () =>
+    queryContent(
+      '/' + locale.value + '/collaborations/advisory-board/anke-feuchtenberger',
+    ).findOne(),
+)
+
+onMounted(() => {
+  console.log('locale: ' + locale.value)
+  console.log('anke: ' + feuchtenberger.data.value.tag)
+})
 </script>
 
 <template>
@@ -36,9 +49,10 @@ const index = await useAsyncData(fullPath.value, () =>
         <div class="row-2">
           <div class="border-right">
             <archive-box-with-image
-              :category="t('advisory-board')"
-              title="Anke Feuchtenberger"
-              img="advisory-board/anke-feuchtenberger.png"
+              :category="feuchtenberger.data.value.tag"
+              :title="feuchtenberger.data.value.title"
+              :img="feuchtenberger.data.value.img"
+              :description="feuchtenberger.data.value.body"
             />
           </div>
           <div>
