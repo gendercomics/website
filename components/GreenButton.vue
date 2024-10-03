@@ -119,4 +119,8 @@ const hasLink = computed(() => {
   transform: translateY(32px);
   margin-right: -2px;
 }
+
+a[href]:hover {
+  color: var(--white);
+}
 </style>

@@ -216,12 +216,5 @@ a[href]  {
 }
 
 a[href]:hover {
-  font-family: var(--gc-font-family-outfit);
-  font-style: var(--gc-font-style-normal);
-  font-weight: var(--gc-font-weight-300);
-  font-size: var(--gc-font-size-18);
-  line-height: var(--gc-line-spacing-29);
-  letter-spacing: var(--gc-character-spacing-0-18);
   color: var(--gc-red);
-  text-decoration: none;
 }
