@@ -5,7 +5,7 @@ heading: Datenbank
 subheading: 
 type: index
 image: art/jongeling_detransition.png
-caption: Nele (Peer) Jongeling
+caption: Nele Jongeling
 captionLink: https://nelejongeling.de/
 ---
 
