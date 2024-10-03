@@ -23,7 +23,6 @@ const { t } = useI18n({
           <a class="a">1010 Wien</a>
         </div>
         <div class="address-block mt-30">
-          <a class="link-passiv">+43 1 4277 0</a>
           <a class="link-passiv" href="mailto:contact@gendercomics.net"
             >contact@gendercomics.net</a
           >
