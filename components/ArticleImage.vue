@@ -39,6 +39,7 @@ const imagePath = computed(() => {
 .image {
   width: 420px;
   height: auto;
+  border-radius: 50px;
 }
 
 .button {
