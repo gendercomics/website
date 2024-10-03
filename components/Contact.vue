@@ -23,7 +23,7 @@ const { t } = useI18n({
           <a class="a">1010 Wien</a>
         </div>
         <div class="address-block mt-30">
-          <a class="link-passiv" href="mailto:contact@gendercomics.net"
+          <a class="link-passiv no-deco" href="mailto:contact@gendercomics.net"
             >contact@gendercomics.net</a
           >
         </div>
@@ -84,6 +84,10 @@ const { t } = useI18n({
 .p-10 {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.no-deco {
+  text-decoration: none;
 }
 </style>
 
