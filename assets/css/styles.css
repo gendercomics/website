@@ -204,7 +204,7 @@ li {
   padding-bottom: 0.3rem;
 }
 
-a  {
+a[href]  {
   font-family: var(--gc-font-family-outfit);
   font-style: var(--gc-font-style-normal);
   font-weight: var(--gc-font-weight-300);
@@ -215,7 +215,7 @@ a  {
   text-decoration: none;
 }
 
-a:hover {
+a[href]:hover {
   font-family: var(--gc-font-family-outfit);
   font-style: var(--gc-font-style-normal);
   font-weight: var(--gc-font-weight-300);
