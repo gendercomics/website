@@ -30,11 +30,13 @@ const fliedl = await useAsyncData(
     ).findOne(),
 )
 
-onMounted(() => {
-  console.log('locale: ' + locale.value)
-  console.log('feuchtenberger: ' + feuchtenberger.data.value?.title)
-  console.log('fliedl: ' + fliedl.data.value?.title)
-})
+const frahm = await useAsyncData(
+  locale.value + '/collaborations/advisory-board/ole-frahm',
+  () =>
+    queryContent(
+      '/' + locale.value + '/collaborations/advisory-board/ole-frahm',
+    ).findOne(),
+)
 </script>
 
 <template>
@@ -79,9 +81,10 @@ onMounted(() => {
         <div class="row-2">
           <div class="border-left">
             <archive-box-with-image
-              :category="t('advisory-board')"
-              title="Ole Frahm"
-              img="advisory-board/ole-frahm.jpg"
+              :category="frahm.data.value.tag"
+              :title="frahm.data.value.title"
+              :img="frahm.data.value.img"
+              :description="frahm.data.value.body"
             />
           </div>
           <div class="border-right">
