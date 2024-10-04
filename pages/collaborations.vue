@@ -37,6 +37,14 @@ const frahm = await useAsyncData(
       '/' + locale.value + '/collaborations/advisory-board/ole-frahm',
     ).findOne(),
 )
+
+const nijdam = await useAsyncData(
+  locale.value + '/collaborations/advisory-board/elizabeth-nijdam',
+  () =>
+    queryContent(
+      '/' + locale.value + '/collaborations/advisory-board/elizabeth-nijdam',
+    ).findOne(),
+)
 </script>
 
 <template>
@@ -89,9 +97,10 @@ const frahm = await useAsyncData(
           </div>
           <div class="border-right">
             <archive-box-with-image
-              :category="t('advisory-board')"
-              title="Elizabeth 'Biz' Nijdam"
-              img="advisory-board/elizabeth-nijdam.png"
+              :category="nijdam.data.value.tag"
+              :title="nijdam.data.value.title"
+              :img="nijdam.data.value.img"
+              :description="nijdam.data.value.body"
             />
           </div>
         </div>
@@ -210,11 +219,6 @@ const frahm = await useAsyncData(
   flex-direction: row;
   justify-content: center;
   gap: 20px;
-}
-
-.grid-item {
-  grid-column: 2; /* Place item in the second (center) column */
-  justify-self: center; /* Center horizontally in the column */
 }
 
 .border-right {
