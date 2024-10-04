@@ -22,9 +22,18 @@ const feuchtenberger = await useAsyncData(
     ).findOne(),
 )
 
+const fliedl = await useAsyncData(
+  locale.value + '/collaborations/advisory-board/konstanze-fliedl',
+  () =>
+    queryContent(
+      '/' + locale.value + '/collaborations/advisory-board/konstanze-fliedl',
+    ).findOne(),
+)
+
 onMounted(() => {
   console.log('locale: ' + locale.value)
-  console.log('anke: ' + feuchtenberger.data.value.tag)
+  console.log('feuchtenberger: ' + feuchtenberger.data.value?.title)
+  console.log('fliedl: ' + fliedl.data.value?.title)
 })
 </script>
 
@@ -57,9 +66,10 @@ onMounted(() => {
           </div>
           <div>
             <archive-box-with-image
-              :category="t('advisory-board')"
-              title="Konstanze Fliedl"
-              img="advisory-board/konstanze-fliedl.png"
+              :category="fliedl.data.value.tag"
+              :title="fliedl.data.value.title"
+              :img="fliedl.data.value.img"
+              :description="fliedl.data.value.body"
             />
           </div>
         </div>
