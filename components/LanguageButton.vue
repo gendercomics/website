@@ -45,4 +45,8 @@ const availableLocales = computed(() => {
   background-color: var(--gc-red);
   transition: background-color 0.3s ease;
 }
+
+a[href]:hover {
+  color: var(--white);
+}
 </style>
