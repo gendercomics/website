@@ -30,25 +30,8 @@ const props = defineProps({
   },
 })
 
-/*
-function getImageUrl() {
-  return new URL(`../assets/images/${props.img}`, import.meta.url)
-}
-*/
-
 const imagePath = computed(() => {
   return '/images/' + props.img
-})
-
-/*
-const doc = await useAsyncData('doc', () =>
-  queryContent(props.contentPath)
-    .where({ title: props.contentTitle })
-    .findOne(),
-)
-*/
-onMounted(() => {
-  console.log(props.title + ' props: ' + props.description)
 })
 </script>
 
@@ -61,7 +44,10 @@ onMounted(() => {
       <div class="tag">{{ props.category }}</div>
       <div class="titel-kachel">{{ props.title }}</div>
       <content-renderer :value="props.description" tag="div">
-        <content-renderer-markdown class="a mt-2rem" :value="props.description" />
+        <content-renderer-markdown
+          class="a mt-2rem"
+          :value="props.description"
+        />
       </content-renderer>
     </div>
   </div>
