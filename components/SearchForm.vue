@@ -1,10 +1,6 @@
 <script setup>
 import SearchInput from '~/components/SearchInput.vue'
 
-const { t } = useI18n({
-  useScope: 'local',
-})
-
 const props = defineProps({
   frame: {
     type: Boolean,

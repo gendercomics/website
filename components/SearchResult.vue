@@ -11,19 +11,10 @@ onMounted(() => {
 <template>
   <div class="flex mt-100">
     <div class="result-row">
-      <comic-minimal artist="Anke Feuchtenberger" title="Genossin Kuckuck" />
-      <comic-minimal />
-      <comic-minimal />
-      <comic-minimal />
+      <div v-for="(comic, index) in data" :key="index">
+        <comic-minimal :comic="comic" />
+      </div>
     </div>
-
-    <ul>
-      <li v-for="(comic, index) in data" :key="index">
-        {{ comic.title }}
-
-        <div v-for="(creator, c) in comic" :key="c"></div>
-      </li>
-    </ul>
   </div>
 </template>
 

@@ -8,17 +8,49 @@ const props = defineProps({
     type: String,
     default: 'Title',
   },
+  comic: {
+    type: Object,
+    default: {},
+  },
 })
+
+function imageUrl(id, cover) {
+  //return new URL(`../assets/images/${props.img}`, import.meta.url)
+
+  console.log(`http://localhost:8001/images/` + id + `/` + cover)
+  if (cover === null) {
+    return new URL(`@/assets/images/placeholder.png`, import.meta.url)
+  }
+  return new URL(
+    `http://localhost:8001/images/` + id + `/` + cover,
+    import.meta.url,
+  )
+}
 </script>
 
 <template>
   <div class="container">
     <div class="comic">
       <div class="image-container">
-        <img src="@/assets/images/placeholder.png" alt="cover" class="center" />
+        <img
+          :src="imageUrl(comic.id, comic.cover)"
+          alt="cover"
+          class="center"
+        />
       </div>
-      <div class="tag font-size-16 mt-25 ml-50">{{ artist }}</div>
-      <div class="titel-kachel mt-10 ml-50 mb-3rem">{{ title }}</div>
+      <div
+        v-for="(creator, index) in props.comic.creators"
+        :key="index"
+        class="mt-10"
+      >
+        <div class="font-creator ml-50">
+          {{ creator.name.firstName }}
+          {{ creator.name.lastName }}
+        </div>
+      </div>
+      <div class="font-titel mt-10 ml-50 mb-3rem">
+        {{ props.comic.title }}
+      </div>
     </div>
   </div>
 </template>
@@ -30,6 +62,7 @@ const props = defineProps({
   border-radius: 100px;
   border: 2px solid var(--gc-green);
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 .container:hover {
@@ -63,8 +96,29 @@ const props = defineProps({
   margin-top: 25px;
 }
 
-.font-size-16 {
-  font-size: var(--gc-font-size-16);
+.font-creator {
+  font-family: var(--gc-font-family-outfit), sans-serif;
+  font-style: var(--gc-font-style-normal);
+  font-weight: var(--gc-font-weight-bold);
+  font-size: var(--gc-font-size-12);
+  line-height: var(--gc-line-spacing-10);
+  letter-spacing: var(--gc-character-spacing-1);
+  color: var(--gc-green-2);
+  text-transform: var(--gc-text-transform-uppercase);
+}
+
+.font-titel {
+  font-family: var(--gc-font-family-outfit), sans-serif;
+  font-style: var(--gc-font-style-normal);
+  font-weight: var(--gc-font-weight-600);
+  font-size: var(--gc-font-size-25);
+  line-height: var(--gc-line-spacing-25);
+  letter-spacing: var(--gc-character-spacing-0-17);
+  color: var(--gc-green-2);
+}
+
+.font-size-32 {
+  font-size: var(--gc-font-size-32);
 }
 
 .mb-3rem {
