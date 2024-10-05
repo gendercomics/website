@@ -2,9 +2,10 @@
 import SearchResultFooter from '~/components/SearchResultFooter.vue'
 
 const { locale } = useI18n()
+const featureStore = useFeatureStore()
 
 const searchInput = reactive({
-  searchString: '',
+  searchTerm: '',
   searchFilter: {
     comics: true,
     persons: false,
@@ -13,9 +14,23 @@ const searchInput = reactive({
   },
 })
 
-async function searchComics() {
-  console.log('searchString=' + searchInput.searchString)
+async function search() {
+  return await $fetch('http://localhost:8001/search', {
+    query: { searchTerm: searchInput.searchTerm },
+    method: 'POST',
+  })
 }
+
+let { data } = reactive({})
+
+function searchComics() {
+  console.log('searchTerm=' + searchInput.searchTerm)
+  data = search()
+}
+
+onMounted(() => {
+  console.log('searchInput=' + JSON.stringify(searchInput))
+})
 </script>
 
 <template>
@@ -28,7 +43,7 @@ async function searchComics() {
     <divider-red-arrow />
     <divider-green-corners />
 
-    <search-result />
+    <search-result v-model="data" />
     <search-result-footer />
   </div>
 </template>

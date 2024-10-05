@@ -1,6 +1,10 @@
 <script setup>
 import SearchInput from '~/components/SearchInput.vue'
 
+const { t } = useI18n({
+  useScope: 'local',
+})
+
 const props = defineProps({
   frame: {
     type: Boolean,
@@ -9,7 +13,7 @@ const props = defineProps({
 })
 
 const searchInput = defineModel({
-  searchString: '',
+  searchTerm: '',
   searchFilter: {
     comics: true,
     persons: false,
@@ -29,7 +33,7 @@ const searchInput = defineModel({
       v-model="searchInput.searchFilter"
     />
     <search-input
-      v-model="searchInput.searchString"
+      v-model="searchInput.searchTerm"
       :class="{ 'border-right-green': props.frame }"
     />
   </div>

@@ -154,9 +154,9 @@ const props = defineProps({
 
 <i18n lang="yaml">
 de:
-  results: x Ergebnisse
+  results: keine Ergebnisse
   page-size: Ergebnisse / Seite
 en:
-  results: x Results
+  results: no Results
   page-size: Results per page
 </i18n>
