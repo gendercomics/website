@@ -26,6 +26,16 @@ function imageUrl(id, cover) {
     import.meta.url,
   )
 }
+
+function name(creator) {
+  if (creator === null || creator === undefined || creator.name === null) {
+    return ''
+  } else if (creator.name.name !== null) {
+    return creator.name.name
+  } else {
+    return creator.name.firstName + ' ' + creator.name.lastName
+  }
+}
 </script>
 
 <template>
@@ -43,10 +53,7 @@ function imageUrl(id, cover) {
         :key="index"
         class="mt-10"
       >
-        <div class="font-creator ml-50">
-          {{ creator.name.firstName }}
-          {{ creator.name.lastName }}
-        </div>
+        <div class="font-creator ml-50">{{ name(creator) }}</div>
       </div>
       <div class="font-titel mt-10 ml-50 mb-3rem">
         {{ props.comic.title }}
