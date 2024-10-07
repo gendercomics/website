@@ -39,7 +39,7 @@ function name(creator) {
 </script>
 
 <template>
-  <div class="container">
+  <div class="container" @click="navigateTo('/comic/' + comic.id)">
     <div class="comic">
       <div class="image-container">
         <img

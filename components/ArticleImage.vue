@@ -12,16 +12,31 @@ const props = defineProps({
     type: String,
     default: '',
   },
+  fromUrl: {
+    type: Boolean,
+    default: false,
+  },
 })
 
 const imagePath = computed(() => {
   return '/images/' + props.image
 })
+
+const imageURL = computed(() => {
+  return 'http://localhost:8001/images/' + props.image
+})
+/*
+function imageUrl() {
+  return new URL('images', `http://localhost:8001/images/${props.image}`)
+}
+
+ */
 </script>
 
 <template>
   <div class="container">
-    <img :src="imagePath" alt="" class="image" />
+    <img v-if="fromUrl" :src="imageURL" alt="" class="image" />
+    <img v-else :src="imagePath" alt="" class="image" />
     <green-button
       right-corner
       :text="props.caption"
