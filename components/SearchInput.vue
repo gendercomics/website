@@ -1,4 +1,6 @@
 <script setup>
+import { watchDebounced } from '@vueuse/core'
+
 const featureStore = useFeatureStore()
 const { t } = useI18n({
   useScope: 'local',
@@ -7,10 +9,21 @@ const { t } = useI18n({
 // const searchInput = defineModel(refDebounced(input, 1000))
 
 const searchInput = defineModel()
+const input = ref('')
 
 function resetInput() {
+  input.value = ''
   searchInput.value = ''
 }
+
+watchDebounced(
+  input,
+  () => {
+    console.log('changed!')
+    searchInput.value = input.value
+  },
+  { debounce: 500 },
+)
 </script>
 
 <template>

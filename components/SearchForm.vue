@@ -39,8 +39,4 @@ const searchInput = defineModel({
 .margin-top {
   margin-top: -134px;
 }
-
-.margin-bt {
-  margin-bottom: 14px;
-}
 </style>
