@@ -2,7 +2,7 @@
 const route = useRoute()
 
 const id = route.params.id
-console.log('ID= ' + id)
+console.log('ID=' + id)
 </script>
 
 <template>
