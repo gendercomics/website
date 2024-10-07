@@ -17,7 +17,6 @@ const props = defineProps({
 function imageUrl(id, cover) {
   //return new URL(`../assets/images/${props.img}`, import.meta.url)
 
-  console.log(`http://localhost:8001/images/` + id + `/` + cover)
   if (cover === null) {
     return new URL(`@/assets/images/placeholder.png`, import.meta.url)
   }
