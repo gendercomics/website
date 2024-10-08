@@ -1,5 +1,4 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import { fileURLToPath } from 'node:url'
 
 export default defineNuxtConfig({
   ssr: true,
@@ -26,7 +25,13 @@ export default defineNuxtConfig({
     },
   },
 
-   security: {},
+  security: {
+    headers: {
+      contentSecurityPolicy: {
+        'img-src': false,
+      },
+    },
+  },
 
   i18n: {
     strategy: 'prefix_and_default',

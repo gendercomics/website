@@ -3,7 +3,7 @@ import { defineStore } from 'pinia'
 export const useFeatureStore = defineStore('featureStore', {
   state: () => ({
     comingSoon: false,
-    databaseEnabled: false,
+    databaseEnabled: true,
   }),
   getters: {
     isComingSoon: (state) => {

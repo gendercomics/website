@@ -9,7 +9,7 @@ const props = defineProps({
 })
 
 const searchInput = defineModel({
-  searchString: '',
+  searchTerm: '',
   searchFilter: {
     comics: true,
     persons: false,
@@ -29,7 +29,7 @@ const searchInput = defineModel({
       v-model="searchInput.searchFilter"
     />
     <search-input
-      v-model="searchInput.searchString"
+      v-model="searchInput.searchTerm"
       :class="{ 'border-right-green': props.frame }"
     />
   </div>
@@ -38,9 +38,5 @@ const searchInput = defineModel({
 <style scoped>
 .margin-top {
   margin-top: -134px;
-}
-
-.margin-bt {
-  margin-bottom: 14px;
 }
 </style>

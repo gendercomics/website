@@ -1,5 +1,6 @@
 <script setup>
 import GreenButton from '~/components/GreenButton.vue'
+
 const { t } = useI18n({
   useScope: 'local',
 })
@@ -10,7 +11,12 @@ const { t } = useI18n({
     <div class="w-50">
       <div class="w-90">
         <div class="titel-xl">{{ t('contact') }}</div>
-        <green-button text="GenderComics Team" link="/team" left-corner />
+        <green-button
+          text="GenderComics Team"
+          link="/team"
+          left-corner
+          target="_self"
+        />
       </div>
     </div>
     <div class="w-50 border-right flex">
