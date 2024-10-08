@@ -16,6 +16,14 @@ const props = defineProps({
     type: Boolean,
     default: false,
   },
+  width: {
+    type: String,
+    default: '420px',
+  },
+  height: {
+    type: String,
+    default: 'auto',
+  },
 })
 
 const imagePath = computed(() => {
@@ -35,8 +43,22 @@ function imageUrl() {
 
 <template>
   <div class="container">
-    <img v-if="fromUrl" :src="imageURL" alt="" class="image" />
-    <img v-else :src="imagePath" alt="" class="image" />
+    <img
+      v-if="fromUrl"
+      :src="imageURL"
+      alt=""
+      class="image"
+      :height="props.height"
+      :width="props.width"
+    />
+    <img
+      v-else
+      :src="imagePath"
+      alt=""
+      class="image"
+      :height="props.height"
+      :width="props.width"
+    />
     <green-button
       right-corner
       :text="props.caption"
