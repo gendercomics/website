@@ -2,7 +2,7 @@
 const route = useRoute()
 const id = route.params.id
 const comic = ref([])
-const { t } = useI18n({
+const { t, locale } = useI18n({
   useScope: 'local',
 })
 const { data, status, error, refresh, clear } = await useFetch(
@@ -21,6 +21,11 @@ function name(creator) {
 
 function comicLink(comicId) {
   return '/comic/' + comicId
+}
+
+function i18nKeyword(values) {
+  if (locale.value === 'en') return values.en.name
+  return values.de.name
 }
 
 onMounted(() => {
@@ -73,6 +78,19 @@ onMounted(() => {
                   >, {{ t('volume') }}
                   {{ series.volume }}
                 </div>
+              </div>
+            </div>
+            <div v-if="data.genres">
+              <h6>{{ t('genres') }}</h6>
+              <div v-for="(genre, g) in data.genres" :key="g">
+                <div class="a">{{ i18nKeyword(genre.values) }}</div>
+              </div>
+            </div>
+
+            <div v-if="data.keywords">
+              <h6>{{ t('keywords') }}</h6>
+              <div v-for="(keyword, k) in data.keywords" :key="k">
+                <div class="a">{{ i18nKeyword(keyword.values) }}</div>
               </div>
             </div>
           </div>
@@ -137,11 +155,15 @@ onMounted(() => {
 </style>
 <i18n lang="yaml">
 de:
+  genres: Genre(s)
+  keywords: Schlagworte
   pages: Seiten
   series: Reihe(n)
   volume: Band
 en:
+  genres: Genre(s)
+  keywords: Keyword(s)
   pages: pages
-  series: series
+  series: Series
   volume: volume
 </i18n>
