@@ -64,6 +64,17 @@ onMounted(() => {
                 {{ data.partOf.pages }}
               </div>
             </div>
+            <div v-if="data.seriesList">
+              <h6>{{ t('series') }}</h6>
+              <div v-for="(series, s) in data.seriesList" :key="s">
+                <div class="a">
+                  <router-link :to="comicLink(series.comic.id)">
+                    {{ series.comic.title }}</router-link
+                  >, {{ t('volume') }}
+                  {{ series.volume }}
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div v-if="data.cover">
@@ -127,6 +138,10 @@ onMounted(() => {
 <i18n lang="yaml">
 de:
   pages: Seiten
+  series: Reihe(n)
+  volume: Band
 en:
   pages: pages
+  series: series
+  volume: volume
 </i18n>
