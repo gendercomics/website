@@ -2,7 +2,9 @@
 const route = useRoute()
 const id = route.params.id
 const comic = ref([])
-
+const { t } = useI18n({
+  useScope: 'local',
+})
 const { data, status, error, refresh, clear } = await useFetch(
   'http://localhost:8001/comics/' + id,
 )
@@ -17,6 +19,10 @@ function name(creator) {
   }
 }
 
+function comicLink(comicId) {
+  return '/comic/' + comicId
+}
+
 onMounted(() => {
   console.log('ID=' + id)
 })
@@ -24,36 +30,57 @@ onMounted(() => {
 
 <template>
   <div class="container page-margin">
-    <divider b1 b2 t3 t4 b5 b6 />
+    <divider-red-arrow />
+    <img
+      src="../assets/images/corner-green-3-50px(buttons).svg"
+      alt=""
+      class="translate-50"
+    />
+    <divider b1green b2 b3flat b4flat b5 b6 />
+
     <div class="text-container">
-      <div class="bib-container">
-        <h1>{{ data.title }}</h1>
-        <h2>{{ data.subTitle }}</h2>
-        <div v-for="(creator, c) in data.creators" :key="c">
-          <h4>{{ name(creator) }}</h4>
-        </div>
-        <div v-for="(publisher, p) in data.publishers" :key="p">
-          <div class="a">
-            {{ publisher.location }}, {{ publisher.name }} {{ data.year }}
+      <div class="container-relative">
+        <div>
+          <h1>{{ data.title }}</h1>
+          <h2>
+            {{ data.subTitle }}
+          </h2>
+          <div class="a mt-2rem">
+            <div v-for="(creator, c) in data.creators" :key="c">
+              <h4>{{ name(creator) }}</h4>
+            </div>
+            <div v-for="(publisher, p) in data.publishers" :key="p">
+              <div class="a">
+                {{ publisher.location }}, {{ publisher.name }} {{ data.year }}
+              </div>
+            </div>
+            <div v-if="data.isbn" class="a">ISBN: {{ data.isbn }}</div>
+            <div v-if="data.partOf">
+              <div class="a">
+                in:
+                <router-link :to="comicLink(data.partOf.comic.id)">
+                  {{ data.partOf.comic.title }}</router-link
+                >, {{ t('pages') }}
+                {{ data.partOf.pages }}
+              </div>
+            </div>
           </div>
         </div>
-        <div class="a">ISBN: {{ data.isbn }}</div>
-      </div>
-      <!--
-        <div v-if="doc.data.value.image">
-        -->
-      <article-image
-        :image="data.id + '/' + data.cover"
-        from-url
-        class="image-container"
-        width="auto"
-        height="400px"
-      />
-      <!--
+        <div v-if="data.cover">
+          <article-image
+            :image="data.id + '/' + data.cover"
+            from-url
+            class="image"
+            width="auto"
+            height="400px"
+          />
         </div>
-        -->
+      </div>
     </div>
-    <divider t1 b2 b3 b4 b5 t6 />
+    <divider t1 b2 b3flat b4flat b5 t6 />
+    <div class="mr-2">
+      <divider b4 />
+    </div>
   </div>
 </template>
 
@@ -63,19 +90,43 @@ onMounted(() => {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-top: 1rem;
+}
+
+.translate-50 {
+  transform: translateX(50%);
+  margin-right: 2px;
+}
+
+.mr-2 {
+  margin-right: 2px;
 }
 
 .text-container {
-  display: flex;
   border-left: solid 2px var(--gc-green);
   border-right: solid 2px var(--gc-green);
   padding-left: 100px;
   padding-right: 100px;
 }
 
-.image-container {
+.container-relative {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  max-width: 100%;
+}
+
+.image {
   float: right;
   margin: 0 0 0 40px;
 }
+
+.txt-align-center {
+  text-align: center;
+}
 </style>
+<i18n lang="yaml">
+de:
+  pages: Seiten
+en:
+  pages: pages
+</i18n>
