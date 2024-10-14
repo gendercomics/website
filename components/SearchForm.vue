@@ -11,7 +11,7 @@ const props = defineProps({
 const searchInput = defineModel({
   searchTerm: '',
   searchFilter: {
-    comics: true,
+    comics: false,
     persons: false,
     publishers: false,
     keywords: false,

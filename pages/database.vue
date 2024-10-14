@@ -8,9 +8,9 @@ const featureStore = useFeatureStore()
 const searchInput = reactive({
   searchTerm: '',
   searchFilter: {
-    comics: true,
-    persons: true,
-    publishers: true,
+    comics: false,
+    persons: false,
+    publishers: false,
     keywords: false,
   },
 })
