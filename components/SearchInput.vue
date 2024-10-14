@@ -178,7 +178,7 @@ const onInput = useDebounceFn(() => {
 de:
   search-label: Suche
   placeholder: Suchbegriff eingeben
-  placeholder-disabled: kommt bald ...
+  placeholder-disabled: demnächst verfügbar ...
 en:
   search-label: Search
   placeholder: Type to Search
