@@ -34,7 +34,7 @@ export default defineNuxtConfig({
   },
 
   i18n: {
-    strategy: 'prefix',
+    strategy: 'prefix_and_default',
     locales: [
       {
         code: 'de',
