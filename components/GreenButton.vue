@@ -24,6 +24,10 @@ const props = defineProps({
     type: Boolean,
     default: false,
   },
+  target: {
+    type: String,
+    default: '_blank',
+  },
 })
 
 function openLink() {
@@ -53,6 +57,7 @@ const hasLink = computed(() => {
       :to="props.link"
       v-if="hasLink"
       class="green-button cursor-pointer"
+      :target="props.target"
     >
       {{ text }}
     </nuxt-link>
@@ -118,5 +123,9 @@ const hasLink = computed(() => {
 .btn-arrow-right {
   transform: translateY(32px);
   margin-right: -2px;
+}
+
+a[href]:hover {
+  color: var(--white);
 }
 </style>

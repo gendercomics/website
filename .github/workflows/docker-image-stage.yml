@@ -2,13 +2,18 @@
 
 name: stage - build, publish & deploy docker image
 
-on: [ push ]
+on: [push]
 
 jobs:
   push_to_registry:
     name: push docker image to docker hub
     runs-on: ubuntu-latest
     steps:
+      - name: setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
       - name: check out the repo
         uses: actions/checkout@master
 

@@ -1,17 +1,22 @@
-<script>
-export default {
-  props: {
-    member: {},
+<script setup>
+const props = defineProps({
+  member: {
+    type: Object,
+    default: {},
   },
-}
+})
+
+const { t } = useI18n({
+  useScope: 'local',
+})
 </script>
 
 <template>
   <div class="container-row">
     <div class="column">
       <div class="w-90">
-        <content-renderer :value="member">
-          <div class="tag">{{ member.team }}</div>
+        <content-renderer :value="member" :key="$route.fullPath">
+          <div class="tag">{{ member.tag }}</div>
           <div class="titel-kachel">{{ member.title }}</div>
           <content-renderer-markdown
             class="a mt-1rem"
@@ -19,11 +24,7 @@ export default {
             excerpt
           />
         </content-renderer>
-        <button-gray
-          class="mt-1rem"
-          text="mehr erfahren"
-          :link="member.route"
-        />
+        <button-gray class="mt-1rem" :text="t('more')" :link="member.route" />
       </div>
     </div>
   </div>
@@ -49,3 +50,10 @@ export default {
   margin-top: 1rem;
 }
 </style>
+
+<i18n lang="yaml">
+de:
+  more: Mehr erfahren
+en:
+  more: Learn more
+</i18n>

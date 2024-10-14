@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { useAsyncData } from '#app'
+
 const props = defineProps({
   content: {
     type: String,
@@ -6,26 +8,41 @@ const props = defineProps({
   },
 })
 const { locale } = useI18n()
+const route = useRoute()
+const fullPath = ref(route.fullPath)
 
-const i18nPath = '/' + locale.value + props.content
+const i18nPath = computed(() => '/' + locale.value + props.content)
 
 async function fetchContent() {
   try {
-    return await queryContent(i18nPath).findOne()
+    return await queryContent(i18nPath.value).findOne()
   } catch (err: any) {
     return await queryContent(props.content).findOne()
   }
 }
 
-const doc = await useAsyncData('doc', () => fetchContent(), {
-  watch: [locale],
+let doc = await useAsyncData(fullPath.value, () => fetchContent())
+
+watch(
+  () => fullPath.value,
+  async () => {
+    console.log('ArticleContent watch: ' + fullPath.value)
+    doc = await useAsyncData(fullPath.value, () => fetchContent())
+  },
+)
+
+onMounted(() => {
+  console.log('ArticleContent fullPath: ' + fullPath.value)
 })
 </script>
 
 <template>
   <div class="container page-margin">
-    <content-renderer :value="doc">
-      <div class="titel-xl mt-3rem txt-align-center">
+    <content-renderer :value="doc" :key="fullPath.value">
+      <div
+        v-if="doc.data.value.title"
+        class="titel-xl mt-3rem txt-align-center"
+      >
         {{ doc.data.value.title }}
       </div>
       <div class="w-90">
@@ -33,10 +50,12 @@ const doc = await useAsyncData('doc', () => fetchContent(), {
           <content-renderer-markdown
             class="a txt-align-center mt-2rem"
             :value="doc.data.value.excerpt"
+            :key="fullPath.value"
           />
         </div>
       </div>
     </content-renderer>
+
     <divider-red-arrow />
     <img
       src="../assets/images/corner-green-3-50px(buttons).svg"
@@ -47,11 +66,12 @@ const doc = await useAsyncData('doc', () => fetchContent(), {
 
     <div class="text-container">
       <div class="container-relative">
-        <content-renderer :value="doc">
+        <content-renderer :value="doc" :key="fullPath.value">
           <div v-if="doc.data.value.image">
             <article-image
               :image="doc.data.value.image"
               :caption="doc.data.value.caption"
+              :caption-link="doc.data.value.captionLink"
               class="image"
             />
           </div>
@@ -60,7 +80,10 @@ const doc = await useAsyncData('doc', () => fetchContent(), {
             {{ doc.data.value.subheading }}
           </h2>
           <div class="a mt-2rem">
-            <content-renderer-markdown :value="doc.data.value.body" />
+            <content-renderer-markdown
+              :value="doc.data.value.body"
+              :key="fullPath.value"
+            />
           </div>
         </content-renderer>
       </div>

@@ -1,7 +1,7 @@
 ---
 title: Elizabeth Nijdam
-type: advisory-board
-img: adivosory-board/elizabeth-nijdam.png
+tag: Wissenschaftlicher Beirat
+img: advisory-board/elizabeth-nijdam.png
 academia: https://ubc.academia.edu/ElizabethBizNijdam
 ---
 

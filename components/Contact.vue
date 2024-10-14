@@ -1,5 +1,6 @@
 <script setup>
 import GreenButton from '~/components/GreenButton.vue'
+
 const { t } = useI18n({
   useScope: 'local',
 })
@@ -10,7 +11,12 @@ const { t } = useI18n({
     <div class="w-50">
       <div class="w-90">
         <div class="titel-xl">{{ t('contact') }}</div>
-        <green-button text="GenderComics Team" link="/team" left-corner />
+        <green-button
+          text="GenderComics Team"
+          link="/team"
+          left-corner
+          target="_self"
+        />
       </div>
     </div>
     <div class="w-50 border-right flex">
@@ -23,8 +29,7 @@ const { t } = useI18n({
           <a class="a">1010 Wien</a>
         </div>
         <div class="address-block mt-30">
-          <a class="link-passiv">+43 1 4277 0</a>
-          <a class="link-passiv" href="mailto:contact@gendercomics.net"
+          <a class="link-passiv no-deco" href="mailto:contact@gendercomics.net"
             >contact@gendercomics.net</a
           >
         </div>
@@ -85,6 +90,10 @@ const { t } = useI18n({
 .p-10 {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.no-deco {
+  text-decoration: none;
 }
 </style>
 

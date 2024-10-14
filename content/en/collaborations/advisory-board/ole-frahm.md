@@ -1,7 +1,7 @@
 ---
 title: Ole Frahm
-type: advisory-board
-img: adivosory-board/ole-frahm.jpg
+tag: Advisory Board
+img: advisory-board/ole-frahm.jpg
 www-1: https://forschungsforum.net/mitglieder/ole-frahm/
 www-2: https://www.comicgesellschaft.de/mitgliederbereich/mitgliederprofile/olefrahm/
 ---

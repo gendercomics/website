@@ -1,5 +1,4 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import { fileURLToPath } from 'node:url'
 
 export default defineNuxtConfig({
   ssr: true,
@@ -26,19 +25,16 @@ export default defineNuxtConfig({
     },
   },
 
-  alias: {
-    images: fileURLToPath(new URL('./assets/images', import.meta.url)),
-  },
-
   security: {
     headers: {
       contentSecurityPolicy: {
-        'script-src': ["'none'"],
+        'img-src': false,
       },
     },
   },
 
   i18n: {
+    strategy: 'prefix_and_default',
     locales: [
       {
         code: 'de',
@@ -63,5 +59,12 @@ export default defineNuxtConfig({
     },
   },
 
-  compatibilityDate: '2024-07-31',
+  render: {
+    etag: false,
+    static: {
+      cacheControl: false,
+    },
+  },
+
+  compatibilityDate: '2024-09-04',
 })

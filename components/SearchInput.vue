@@ -1,9 +1,8 @@
 <script setup>
-import { refDebounced } from '@vueuse/core'
+const featureStore = useFeatureStore()
 const { t } = useI18n({
   useScope: 'local',
 })
-const input = ref('')
 
 // const searchInput = defineModel(refDebounced(input, 1000))
 
@@ -12,17 +11,43 @@ const searchInput = defineModel()
 function resetInput() {
   searchInput.value = ''
 }
+
+/*
+watchDebounced(
+  input,
+  () => {
+    console.log('changed!')
+    searchInput.value = input.value
+  },
+  { debounce: 500 },
+)
+
+
+const onInput = useDebounceFn(() => {
+  console.log(searchInput.value)
+}, 500)
+
+ */
 </script>
 
 <template>
   <div>
     <img src="@/assets/images/corner-green-line-3-100px.svg" alt="" />
     <div class="input-container">
-      <label for="inputField" class="label">Filter</label>
+      <label for="inputField" class="label">{{ t('search-label') }}</label>
+
       <input
+        v-if="featureStore.isDatabaseEnabled"
         type="text"
         id="inputField"
         :placeholder="t('placeholder')"
+        v-model="searchInput"
+      />
+      <input
+        v-else
+        type="text"
+        id="inputField"
+        :placeholder="t('placeholder-disabled')"
         v-model="searchInput"
         disabled
       />
@@ -151,7 +176,11 @@ function resetInput() {
 
 <i18n lang="yaml">
 de:
-  placeholder: Coming soon ...
+  search-label: Suche
+  placeholder: Suchbegriff eingeben
+  placeholder-disabled: demnächst verfügbar ...
 en:
-  placeholder: Coming soon ...
+  search-label: Search
+  placeholder: Type to Search
+  placeholder-disabled: coming soon ...
 </i18n>

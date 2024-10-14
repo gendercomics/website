@@ -12,17 +12,58 @@ const props = defineProps({
     type: String,
     default: '',
   },
+  noCaption: {
+    type: Boolean,
+    default: false,
+  },
+  fromUrl: {
+    type: Boolean,
+    default: false,
+  },
+  width: {
+    type: String,
+    default: '420px',
+  },
+  height: {
+    type: String,
+    default: 'auto',
+  },
 })
 
 const imagePath = computed(() => {
   return '/images/' + props.image
 })
+
+const imageURL = computed(() => {
+  return 'http://localhost:8001/images/' + props.image
+})
 </script>
 
 <template>
   <div class="container">
-    <img :src="imagePath" alt="" class="image" />
-    <green-button right-corner :text="props.caption" class="button p-10" />
+    <img
+      v-if="fromUrl"
+      :src="imageURL"
+      alt=""
+      class="image"
+      :height="props.height"
+      :width="props.width"
+    />
+    <img
+      v-else
+      :src="imagePath"
+      alt=""
+      class="image"
+      :height="props.height"
+      :width="props.width"
+    />
+    <green-button
+      v-if="!props.noCaption"
+      right-corner
+      :text="props.caption"
+      :link="props.captionLink"
+      class="button p-10"
+    />
   </div>
 </template>
 
@@ -34,6 +75,7 @@ const imagePath = computed(() => {
 .image {
   width: 420px;
   height: auto;
+  border-radius: 50px;
 }
 
 .button {

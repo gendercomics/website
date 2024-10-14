@@ -5,19 +5,58 @@ const { t } = useI18n({
   useScope: 'local',
 })
 const { locale } = useI18n()
-const index = await useAsyncData('doc', () =>
+const route = useRoute()
+const fullPath = ref(route.fullPath)
+
+const index = await useAsyncData(fullPath.value, () =>
   queryContent('/' + locale.value + '/collaborations')
     .where({ type: 'index' })
     .findOne(),
+)
+
+const feuchtenberger = await useAsyncData(
+  locale.value + '/collaborations/advisory-board/anke-feuchtenberger',
+  () =>
+    queryContent(
+      '/' + locale.value + '/collaborations/advisory-board/anke-feuchtenberger',
+    ).findOne(),
+)
+
+const fliedl = await useAsyncData(
+  locale.value + '/collaborations/advisory-board/konstanze-fliedl',
+  () =>
+    queryContent(
+      '/' + locale.value + '/collaborations/advisory-board/konstanze-fliedl',
+    ).findOne(),
+)
+
+const frahm = await useAsyncData(
+  locale.value + '/collaborations/advisory-board/ole-frahm',
+  () =>
+    queryContent(
+      '/' + locale.value + '/collaborations/advisory-board/ole-frahm',
+    ).findOne(),
+)
+
+const nijdam = await useAsyncData(
+  locale.value + '/collaborations/advisory-board/elizabeth-nijdam',
+  () =>
+    queryContent(
+      '/' + locale.value + '/collaborations/advisory-board/elizabeth-nijdam',
+    ).findOne(),
 )
 </script>
 
 <template>
   <div class="page-margin container">
     <div class="column">
-      <content-renderer :value="index">
+      <content-renderer :value="index" :key="fullPath.value">
         <div class="titel-xl mt-3rem">{{ index.data.value.title }}</div>
-        <content-renderer-markdown class="a" :value="index.data.value.body" />
+        <content-renderer-markdown
+          class="a"
+          :value="index.data.value.body"
+          :key="fullPath.value"
+        />
       </content-renderer>
 
       <!-- Wissenschaftlicher Beirat -->
@@ -29,16 +68,18 @@ const index = await useAsyncData('doc', () =>
         <div class="row-2">
           <div class="border-right">
             <archive-box-with-image
-              :category="t('advisory-board')"
-              title="Anke Feuchtenberger"
-              img="advisory-board/anke-feuchtenberger.png"
+              :category="feuchtenberger.data.value.tag"
+              :title="feuchtenberger.data.value.title"
+              :img="feuchtenberger.data.value.img"
+              :description="feuchtenberger.data.value.body"
             />
           </div>
           <div>
             <archive-box-with-image
-              :category="t('advisory-board')"
-              title="Konstanze Fliedl"
-              img="advisory-board/konstanze-fliedl.png"
+              :category="fliedl.data.value.tag"
+              :title="fliedl.data.value.title"
+              :img="fliedl.data.value.img"
+              :description="fliedl.data.value.body"
             />
           </div>
         </div>
@@ -48,16 +89,18 @@ const index = await useAsyncData('doc', () =>
         <div class="row-2">
           <div class="border-left">
             <archive-box-with-image
-              :category="t('advisory-board')"
-              title="Ole Frahm"
-              img="advisory-board/ole-frahm.jpg"
+              :category="frahm.data.value.tag"
+              :title="frahm.data.value.title"
+              :img="frahm.data.value.img"
+              :description="frahm.data.value.body"
             />
           </div>
           <div class="border-right">
             <archive-box-with-image
-              :category="t('advisory-board')"
-              title="Elizabeth 'Biz' Nijdam"
-              img="advisory-board/elizabeth-nijdam.png"
+              :category="nijdam.data.value.tag"
+              :title="nijdam.data.value.title"
+              :img="nijdam.data.value.img"
+              :description="nijdam.data.value.body"
             />
           </div>
         </div>
@@ -176,11 +219,6 @@ const index = await useAsyncData('doc', () =>
   flex-direction: row;
   justify-content: center;
   gap: 20px;
-}
-
-.grid-item {
-  grid-column: 2; /* Place item in the second (center) column */
-  justify-self: center; /* Center horizontally in the column */
 }
 
 .border-right {

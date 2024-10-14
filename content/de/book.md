@@ -1,11 +1,12 @@
 ---
-title: Comics Studies x Gender Studies. Schnittmengen von Forschung, Lehre und Praxis / Intersections of research, teaching, and practice.
-description: Comics Studies x Gender Studies. Schnittmengen von Forschung, Lehre und Praxis / Intersections of research, teaching, and practice.
-heading: Comics Studies x Gender Studies.
-subheading: Schnittmengen von Forschung, Lehre und Praxis / Intersections of research, teaching, and practice.
+title: Comics Studies x Gender Studies. Schnittmengen von Forschung, Lehre und Praxis / Intersections of research, teaching, and practice
+description: Comics Studies x Gender Studies. Schnittmengen von Forschung, Lehre und Praxis / Intersections of research, teaching, and practice
+heading: Comics Studies x Gender Studies
+subheading: Schnittmengen von Forschung, Lehre und Praxis / Intersections of research, teaching, and practice
 type: index
 image: art/hofer_blad.png
 caption: Regina Hofer
+captionLink: https://www.luftschacht.com/produkt/regina-hofer-blad/
 ---
 
 Die abschließende Projektpublikation liefert einen Überblick über aktuelle Themen und Forschungsansätze, die Comic Studies und Gender Studies miteinander verbinden. Sie eröffnet innovative Perspektiven, stößt produktive Diskussionen über Geschlecht, Identität und visuelle Repräsentation an und erörtert intersektionale Fragen nach verschränkten Struktur- und Diskriminierungskategorien.

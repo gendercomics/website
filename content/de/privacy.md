@@ -1,7 +1,7 @@
 ---
-title: Datenschutz.
-description: Datenschutz.
-heading: Datenschutz.
+title: Datenschutz
+description: Datenschutz
+heading: Datenschutz
 subheading:
 type: index
 image:

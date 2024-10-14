@@ -90,6 +90,10 @@ const closeMenu = () => {
   width: 100px;
   transform: translateX(50%);
 }
+
+a[href]:hover {
+  color: var(--white);
+}
 </style>
 
 <i18n lang="yaml">

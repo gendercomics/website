@@ -1,7 +1,7 @@
 ---
 title: Konstanze Fliedl
-type: advisory-board
-img: adivosory-board/konstanze-fliedl.png
+tag: advisory-board
+img: advisory-board/konstanze-fliedl.png
 uni-www: https://www.univie.ac.at/germanistik/konstanze-fliedl
 ---
 

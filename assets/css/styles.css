@@ -6,7 +6,7 @@
 }
 
 body {
-  min-width: 1285px
+  min-width: 1380px
 }
 
 .flex {
@@ -202,4 +202,19 @@ li {
   background-position: 0 0.5rem;
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
+}
+
+a[href]  {
+  font-family: var(--gc-font-family-outfit);
+  font-style: var(--gc-font-style-normal);
+  font-weight: var(--gc-font-weight-300);
+  font-size: var(--gc-font-size-18);
+  line-height: var(--gc-line-spacing-29);
+  letter-spacing: var(--gc-character-spacing-0-18);
+  color: var(--gc-green-2);
+  text-decoration: none;
+}
+
+a[href]:hover {
+  color: var(--gc-red);
 }

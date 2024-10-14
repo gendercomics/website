@@ -1,7 +1,7 @@
 ---
 title: Anke Feuchtenberger
-type: Wissenschaftlicher Beirat
-img: adivosory-board/anke-feuchtenberger.png
+tag: Wissenschaftlicher Beirat
+img: advisory-board/anke-feuchtenberger.png
 uni-www: https://vorlesungsverzeichnis.design.haw-hamburg.de/person/anke-feuchtenberger
 ---
 

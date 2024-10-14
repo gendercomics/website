@@ -1,7 +1,7 @@
 ---
-title: Privacy Policy.
-heading: Privacy Policy.
-description: Privacy Policy.
+title: Privacy Policy
+heading: Privacy Policy
+description: Privacy Policy
 type: index
 image:
 caption:

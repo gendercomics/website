@@ -1,13 +1,20 @@
 <script setup>
 import DividerRedArrow from '~/components/DividerRedArrow.vue'
+import { useAsyncData } from '#app'
 
 const { locale } = useI18n()
+const route = useRoute()
+const fullPath = ref(route.fullPath)
 
-const index = await useAsyncData('doc', () =>
+let index = await useAsyncData(fullPath.value, () =>
   queryContent('/' + locale.value + '/activities')
     .where({ type: 'index' })
     .findOne(),
 )
+
+onMounted(() => {
+  console.log('fullPath: ' + fullPath.value)
+})
 </script>
 
 <template>
@@ -23,13 +30,18 @@ const index = await useAsyncData('doc', () =>
 
     <div class="column text-container">
       <div class="container-relative">
-        <content-renderer :value="index">
+        <content-renderer :value="index" :key="fullPath.value">
           <article-image
-            image="art/gordon_shelegend.jpg"
-            caption="Jul Gordon"
+            :image="index.data.value.image"
+            :caption="index.data.value.caption"
+            :caption-link="index.data.value.captionLink"
             class="image"
           />
-          <content-renderer-markdown class="a" :value="index.data.value.body" />
+          <content-renderer-markdown
+            class="a"
+            :value="index.data.value.body"
+            :key="fullPath.value"
+          />
         </content-renderer>
       </div>
     </div>

@@ -1,7 +1,7 @@
 ---
 title: Anke Feuchtenberger
-type: Advisory Board
-img: adivosory-board/anke-feuchtenberger.png
+tag: Advisory Board
+img: advisory-board/anke-feuchtenberger.png
 uni-www: https://vorlesungsverzeichnis.design.haw-hamburg.de/person/anke-feuchtenberger
 ---
 

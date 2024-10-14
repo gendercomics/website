@@ -79,4 +79,8 @@ const isHover = ref(false)
 .transition {
   transition: ease-out 0.3s;
 }
+
+a[href]:hover {
+  color: var(--white);
+}
 </style>

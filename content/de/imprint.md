@@ -1,7 +1,7 @@
 ---
-title: Impressum.
-description: Impressum.
-heading: Impressum.
+title: Impressum
+description: Impressum
+heading: Impressum
 subheading: 
 type: index
 image:

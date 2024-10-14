@@ -45,6 +45,7 @@
   --gc-character-spacing-0-32: 0.32px;
   --gc-character-spacing-0-38: 0.38px;
   --gc-character-spacing-0-75: 0.75px;
+  --gc-line-spacing-10: 10px;
   --gc-line-spacing-25: 25px;
   --gc-line-spacing-27: 27px;
   --gc-line-spacing-29: 29px;
@@ -147,7 +148,7 @@ h3 {
   margin: 2rem 0 1rem 0;
 }
 
-.h4 {
+h4 {
   font-family: var(--gc-font-family-outfit);
   font-style: var(--gc-font-style-normal);
   font-weight: var(--gc-font-weight-300);
@@ -157,7 +158,7 @@ h3 {
   color: var(--gc-green-2);
 }
 
-.h5 {
+h5 {
   font-family: var(--gc-font-family-outfit);
   font-style: var(--gc-font-style-normal);
   font-weight: var(--gc-font-weight-bold);
@@ -167,7 +168,7 @@ h3 {
   color: var(--gc-gray);
 }
 
-.h6 {
+h6 {
   font-family: var(--gc-font-family-outfit);
   font-style: var(--gc-font-style-normal);
   font-weight: var(--gc-font-weight-bold);

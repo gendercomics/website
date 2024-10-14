@@ -1,7 +1,7 @@
 ---
 title: Elizabeth Nijdam
-type: Advisory Board
-img: adivosory-board/elizabeth-nijdam.png
+tag: Advisory Board
+img: advisory-board/elizabeth-nijdam.png
 academia: https://ubc.academia.edu/ElizabethBizNijdam
 ---
 

@@ -5,27 +5,31 @@ import ImageBox from '~/components/ImageBox.vue'
 import ContentPreview from '~/components/ContentPreview.vue'
 
 const { locale } = useI18n()
+const route = useRoute()
+const fullPath = ref(route.fullPath)
+
 const memberQuery: QueryBuilderParams = {
   path: '/' + locale.value + '/team',
   where: [{ type: 'member' }],
 }
-const index = await useAsyncData('doc', () =>
+const index = await useAsyncData(fullPath.value, () =>
   queryContent('/' + locale.value + '/team')
-    .where({ title: 'Team.' })
+    .where({ type: 'index' })
     .findOne(),
 )
-
-const pathSusanne = '/' + locale.value + '/team/susanne-hochreiter'
-const pathMarina = '/' + locale.value + '/team/marina-rauchenbacher'
 </script>
 
 <template>
   <div class="page-margin container">
     <div>
       <div class="column">
-        <content-renderer :value="index">
+        <content-renderer :value="index" :key="fullPath.value">
           <div class="titel-xl mt-3rem">{{ index.data.value.title }}</div>
-          <content-renderer-markdown class="a" :value="index.data.value.body" />
+          <content-renderer-markdown
+            class="a"
+            :value="index.data.value.body"
+            :key="fullPath.value"
+          />
         </content-renderer>
         <divider-red-arrow />
       </div>
@@ -40,7 +44,7 @@ const pathMarina = '/' + locale.value + '/team/marina-rauchenbacher'
                 :img="member.image"
                 width="60%"
                 :caption="member.caption"
-                :caption-link="member.route"
+                :caption-link="member.captionLink"
               />
               <div v-else-if="index % 2 != 0">
                 <content-preview :member="member" />
@@ -53,7 +57,7 @@ const pathMarina = '/' + locale.value + '/team/marina-rauchenbacher'
                 :img="member.image"
                 width="60%"
                 :caption="member.caption"
-                :caption-link="member.route"
+                :caption-link="member.captionLink"
                 :btn-arrow="false"
               />
               <div v-if="index % 2 === 0">
