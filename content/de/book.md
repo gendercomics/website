@@ -1,8 +1,8 @@
 ---
-title: Comics Studies x Gender Studies. Schnittmengen von Forschung, Lehre und Praxis / Intersections of research, teaching, and practice
+title: Comics Studies x Gender Studies
 description: Comics Studies x Gender Studies. Schnittmengen von Forschung, Lehre und Praxis / Intersections of research, teaching, and practice
 heading: Comics Studies x Gender Studies
-subheading: Schnittmengen von Forschung, Lehre und Praxis / Intersections of research, teaching, and practice
+subheading: Schnittmengen von Forschung, Lehre und Praxis
 type: index
 image: art/hofer_blad.png
 caption: Regina Hofer
