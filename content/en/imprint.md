@@ -9,7 +9,8 @@ type: index
 
 **Email:** [contact@gendercomics.net](mailto:contact@gendercomics.net)
 
-**Website:** [gendercomics.net](https://gendercomics.net)  
+**Website:** [gendercomics.net](https://gendercomics.net) 
+
 **Editorial team:** Michael Litschauer, Marina Rauchenbacher, Katharina Serles
 
 **Liability:**

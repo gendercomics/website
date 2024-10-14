@@ -9,11 +9,13 @@ caption:
 ---
 
 **Medieninhaberin:** Projekt _Visualitäten von Geschlecht in deutschsprachigen Comics_  
+
 **Sitz:** Institut für Germanistik, Universitätsring 1, 1010 Vienna, Austria
 
 **Email:** [contact@gendercomics.net](mailto:contact@gendercomics.net)
 
 **Website:** [gendercomics.net](https://gendercomics.net)  
+
 **Redaktion:** Michael Litschauer, Marina Rauchenbacher, Katharina Serles
 
 **Haftung:**
