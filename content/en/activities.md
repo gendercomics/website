@@ -83,7 +83,7 @@ captionLink: https://julgordon.de/
 - Rauchenbacher, Marina. “Was können Comics? Sie können viel. Sie können mehr.” Renate Mowlam. _Was ist ein Comic?_ Vienna General Hospital and Medical University Vienna, 2020, p. 3 (engl.: “What can Comics achieve? They can achieve a lot. They can achieve much more.” Renate Mowlam. _What is a Comic?_ Vienna General Hospital and Medical University Vienna, 2020, p. 3).
 - Serles, Katharina. “Gemachter Sex.” _Spring_, no. 16, 2020, pp. 4–5.
 
-### Talks and Presentations
+# Talks and Presentations
 - Serles, Katharina. _“Du siehst aus wie ein Bauer”: Verkörperte Klasse in Eva Müllers_ Scheiblettenkind (2023). Comicsalon Erlangen, June 2, 2024.
 - Rauchenbacher, Marina. _Arranged in Color: Janne Marie Dauer’s Adaptation of Bov Bjerg’s Novel_ Auerhaus. Workshop _Narrative Transfers: From the Literary to the Graphic_, Université Paul Valéry-Montpellier 3, April 25, 2024.
 - Serles, Katharina.  _“Kauf dir mal ein Buch. Loser!” Klasse, Körper und Kanon in Eva Müllers_ Scheiblettenkind (2023). Annual Conference of the German Society for Comic Studies, Stiftung Akademie Waldschlösschen, Gleichen, December 11–13, 2023.
@@ -130,7 +130,7 @@ captionLink: https://julgordon.de/
 - Serles, Katharina. _(Über)Macht der Bilder und ihre Subversion im Comic_. Momentum 16: Kongress für kritische Wissenschaft, Hallstatt, October 13–16, 2016.
 - Rauchenbacher, Marina. _Women’s Viewpoints: Systems of Gazing in the Graphic Novel_ Gift. Annual Conference of the German Studies Association, Washington, DC, October 1–4, 2015.
 
-### Teaching
+# Teaching
 - Rauchenbacher, Marina. Graduate seminar _In Wort und Bild: Strategien des Erzählens in Comics_ (fall 2024, Department of German Philology, University of Vienna).
 - Serles, Katharina. _Mind the Gap: Comictheorie_ (spring 2024, Kunstschule Wien).
 - Serles, Katharina. _Mit der Axt im Auge: Comictheorie_ (fall 2023, Kunstschule Wien).
@@ -147,10 +147,10 @@ captionLink: https://julgordon.de/
 - Serles, Katharina. _(Un)folding Time and Space: Timeframes, Storyboards und Nonlineares Erzählen_ (fall 2016, Study program _Stage Setting and Costume Design_, HfBK Dresden & Study program _Stage Directing_, Theaterakademie August Everding Munich).
 - Rauchenbacher, Marina, and Katharina Serles. Undergraduate seminar _Erzählte Körper – Gezeichnete Blicke_ (winter 2014, Department of German Philology, University of Vienna).
 
-### Discussions, Moderations, Interviews, and Workshops
+# Discussions, Moderations, Interviews, and Workshops
 - Serles, Katharina. Moderation and artist talk: _Drei oder vier Bagatellen_, by Franz Suess, 2nd cooperation event of the Austrian Association for Comics and Literaturhaus Vienna, June 14, 2024.
 - Rauchenbacher, Marina. Moderation and artist talks _SPROSS #2: Blau sein_, edited by Janne Marie Dauer, 1st cooperation event of the Austrian Association for Comics and Literaturhaus Vienna, Literaturhaus Vienna, April 3, 2024.
-- Rauchenbacher, Marina. Moderation and artist talks, Suuuper-Samstag, Nextcomic Festival 2024, March 16, 2024.
+- Rauchenbacher, Marina. Moderation and artist talks, Suuuper-Samstag, Netcomic Festival 2024, March 16, 2024.
 - Serles, Katharina. ComicMonday: presentation and artist talk with Ilse Kilic and Fritz Widhalm, Austrian Association for Comics, Rooming Inn Vienna, January 29, 2024.
 - Rauchenbacher, Marina. ComicMonday: presentation and artist talk with Darren C. Fisher, Austrian Association for Comics, Rooming Inn Vienna, February 26, 2024.
 - Rauchenbacher, Marina. Artist talk with Regina Hofer and Leopold Maurer, Sigmund Freud Museum Vienna, February 15, 2024.
