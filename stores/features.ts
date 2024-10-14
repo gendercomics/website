@@ -14,7 +14,7 @@ export const useFeatureStore = defineStore('featureStore', {
       return state.databaseEnabled
     },
     isBlogEnabled: (state) => {
-      return state.databaseEnabled
+      return state.blogEnabled
     },
   },
 })
