@@ -55,6 +55,7 @@ export default defineNuxtConfig({
 
   nitro: {
     prerender: {
+      concurrency: 1,
       failOnError: false,
     },
   },
