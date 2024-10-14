@@ -89,14 +89,20 @@ onMounted(() => {
             <div v-if="data.genres" class="mt-2rem">
               <h6>{{ t('genres') }}</h6>
               <div v-for="(genre, g) in data.genres" :key="g">
-                <div class="a">{{ i18nKeyword(genre.values) }}</div>
+                <green-button
+                  :text="i18nKeyword(genre.values)"
+                  class="mt-1rem"
+                />
               </div>
             </div>
 
             <div v-if="data.keywords" class="mt-2rem">
               <h6>{{ t('keywords') }}</h6>
               <div v-for="(keyword, k) in data.keywords" :key="k">
-                <div class="a">{{ i18nKeyword(keyword.values) }}</div>
+                <green-button
+                  :text="i18nKeyword(keyword.values)"
+                  class="mt-1rem"
+                />
               </div>
             </div>
           </div>
@@ -108,6 +114,7 @@ onMounted(() => {
             class="image"
             width="auto"
             height="400px"
+            no-caption
           />
         </div>
       </div>

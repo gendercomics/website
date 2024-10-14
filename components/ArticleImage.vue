@@ -12,6 +12,10 @@ const props = defineProps({
     type: String,
     default: '',
   },
+  noCaption: {
+    type: Boolean,
+    default: false,
+  },
   fromUrl: {
     type: Boolean,
     default: false,
@@ -33,12 +37,6 @@ const imagePath = computed(() => {
 const imageURL = computed(() => {
   return 'http://localhost:8001/images/' + props.image
 })
-/*
-function imageUrl() {
-  return new URL('images', `http://localhost:8001/images/${props.image}`)
-}
-
- */
 </script>
 
 <template>
@@ -60,6 +58,7 @@ function imageUrl() {
       :width="props.width"
     />
     <green-button
+      v-if="!props.noCaption"
       right-corner
       :text="props.caption"
       :link="props.captionLink"
