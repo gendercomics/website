@@ -4,6 +4,7 @@ const { t } = useI18n({
 })
 
 const navStore = useNavStore()
+const featureStore = useFeatureStore()
 
 const isMenuOpen = ref(false)
 const navbar = ref(null)
@@ -55,9 +56,12 @@ onBeforeUnmount(() => {
         <nuxt-link-locale to="/activities" class="nav-link">{{
           t('activities')
         }}</nuxt-link-locale>
-        <nuxt-link-locale to="/blog" class="nav-link">{{
-          t('blog')
-        }}</nuxt-link-locale>
+        <nuxt-link-locale
+          v-if="featureStore.isBlogEnabled"
+          to="/blog"
+          class="nav-link"
+          >{{ t('blog') }}</nuxt-link-locale
+        >
       </div>
       <div class="lang-switcher">
         <language-button />
