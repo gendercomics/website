@@ -50,6 +50,7 @@ onMounted(() => {
           <h2>
             {{ data.subTitle }}
           </h2>
+          <div class="a">{{ data.issue }}</div>
           <div class="a mt-2rem">
             <div v-for="(creator, c) in data.creators" :key="c">
               <h4>{{ name(creator) }}</h4>
@@ -80,6 +81,11 @@ onMounted(() => {
                 </div>
               </div>
             </div>
+
+            <div v-for="(link, l) in data.hyperLinks" :key="l">
+              <a :href="link.url" target="_blank">{{ link.url }}</a>
+            </div>
+
             <div v-if="data.genres">
               <h6>{{ t('genres') }}</h6>
               <div v-for="(genre, g) in data.genres" :key="g">
@@ -133,14 +139,15 @@ onMounted(() => {
 .text-container {
   border-left: solid 2px var(--gc-green);
   border-right: solid 2px var(--gc-green);
-  padding-left: 100px;
-  padding-right: 100px;
+  width: 100%;
+  padding-left: 87pt;
+  padding-right: 87pt;
+  box-sizing: border-box;
 }
 
 .container-relative {
   display: flex;
   flex-direction: row;
-  position: relative;
   max-width: 100%;
 }
 

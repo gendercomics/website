@@ -1,6 +1,4 @@
 <script setup>
-import { useDebounceFn, watchDebounced } from '@vueuse/core'
-
 const featureStore = useFeatureStore()
 const { t } = useI18n({
   useScope: 'local',
@@ -23,11 +21,13 @@ watchDebounced(
   },
   { debounce: 500 },
 )
- */
+
 
 const onInput = useDebounceFn(() => {
   console.log(searchInput.value)
 }, 500)
+
+ */
 </script>
 
 <template>
@@ -42,7 +42,6 @@ const onInput = useDebounceFn(() => {
         id="inputField"
         :placeholder="t('placeholder')"
         v-model="searchInput"
-        @input="onInput()"
       />
       <input
         v-else
