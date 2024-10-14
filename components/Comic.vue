@@ -155,10 +155,6 @@ onMounted(() => {
   float: right;
   margin: 0 0 0 40px;
 }
-
-.txt-align-center {
-  text-align: center;
-}
 </style>
 <i18n lang="yaml">
 de:
