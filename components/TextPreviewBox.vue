@@ -14,17 +14,13 @@ const fullPath = ref(route.fullPath)
 
 const i18nPath = computed(() => '/' + locale.value + props.content)
 
-let doc = await useAsyncData(() =>
-  queryContent(fullPath.value + props.content, i18nPath.value).findOne(),
-)
+let doc = await useAsyncData(() => queryContent(i18nPath.value).findOne())
 
 watch(
   () => i18nPath.value,
   async () => {
     console.log('watch: ' + i18nPath.value)
-    doc = await useAsyncData(() =>
-      queryContent(fullPath.value + props.content, i18nPath.value).findOne(),
-    )
+    doc = await useAsyncData(() => queryContent(i18nPath.value).findOne())
   },
 )
 </script>
