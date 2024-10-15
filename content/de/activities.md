@@ -1,12 +1,11 @@
 ---
-title: Aktivitäten
-description: Aktivitäten
-heading: Aktivitäten
+title: Aktivitäten.
+description: Aktivitäten.
+heading: Aktivitäten.
 subheading:
 type: index
-image: art/gordon_shelegend.jpg
-caption: Jul Gordon
-captionLink: https://julgordon.de/
+image: art/hofer_blad.png
+caption: Regina Hofer
 ---
 
 # Publikationen
@@ -19,7 +18,7 @@ captionLink: https://julgordon.de/
 - S. Hochreiter u. U. Klingenböck (Hg.): _Bild ist Text ist Bild: Narration und Ästhetik in der Graphic Novel_. Bielefeld: transcript 2014.
 
 ### Wissenschaftliche Aufsätze
-- M. Rauchenbacher: _Boote | Grenzen | Unsicherheit. Das gesellschaftspolitische Potenzial von Comics über Flucht und Migration_ In: Anna Beckmann, Kalina Kupczyńska, Marie Schröer u. Véronique Sina (Hg.): Comics und Intersektionalität. Berlin, Boston: de Gruyter 2024 (Comicstudien 3), S. 117–134. [https://doi.org/10.1515/9783110799385-010](https://doi.org/10.1515/9783110799385-010)
+- M. Rauchenbacher: _Boote | Grenzen | Unsicherheit. Das gesellschaftspolitische Potenzial von Comics über Flucht und Migration_ In: Anna Beckmann, Kalina Kupczyńska, Marie Schröer u. Véronique Sina (Hg.): Comics und Intersektionalität. Berlin, Boston: de Gruyter 2024 (Comicstudien 3), S. 117–134. [https://doi.org/10.1515/9783110799385-010](https://doi.org/10.1515/9783110799385-010) 
 - K. Serles: _Im Transit verloren. Gender-Grenz-Überschreitungen in Franz Suess’_ Paul Zwei. In: Anna Beckmann, Kalina Kupczyńska, Marie Schröer u. Véronique Sina (Hg.): Comics und Intersektionalität. Berlin, Boston: de Gruyter 2024 (Comicstudien 3), S. 135–150. [https://doi.org/10.1515/9783110799385-011](https://doi.org/10.1515/9783110799385-011)
 - M. Rauchenbacher: _Comics from the German-Language Realm and Health Humanities: An Overview._ In: Stephanie M. Hilger (Hg.): The Health Humanities in German Studies. London: Bloomsbury 2024, S. 79–98. [https://doi.org/10.5040/9781350296220.ch-5](https://doi.org/10.5040/9781350296220.ch-5)
 - K. Serles: _Raum-Zeitlichkeit und Adoleszenz in Lukas Jüligers Vakuum._ In: Susanne Hochreiter, Sonja Loidl, Marina Rauchenbacher u. Katharina Serles (Hg.): Graphisches Erzählen in der Kinder- und Jugendliteratur. Wien: Praesens 2024, S. 141–166.
@@ -58,8 +57,8 @@ captionLink: https://julgordon.de/
 
 ### Abschlussarbeit
 - Ines Christina Höfer: _Queere Beziehungsgeflechte und Identitätsfragen in Entenhausen. Ein Queer Reading ausgewählter Comics._ Masterarbeit. Universität Wien 2023 (betreut von Susanne Hochreiter).
-- N. Lobnig: _Alternative Krankheitsnarrative in den Comics_ Vergiss dich nicht _von Lika Nüssli und_ Aliceheimer’s
-  _von Dana Walrath_. Masterarbeit. Universität Wien 2022 (betreut von Marina Rauchenbacher).
+- N. Lobnig: _Alternative Krankheitsnarrative in den Comics_ Vergiss dich nicht _von Lika Nüssli und_ Aliceheimer’s 
+ _von Dana Walrath_. Masterarbeit. Universität Wien 2022 (betreut von Marina Rauchenbacher).
 
 ### Journalistische Arbeiten, Interviews, Rezensionen, Science to Public
 - N. Lobnig, Renate Tanzberger u. Rosemarie Ortner: _Queere Comics in der Arbeit mit Jugendlichen. Eine kommentierte Empfehlungsliste._ Queer-feministischer Bildungsverein EfEU, Wien, im Erscheinen.
@@ -93,7 +92,7 @@ captionLink: https://julgordon.de/
 - K. Serles: _Organisiert euch! Arbeit mit und in Comics_, Aktionswoche der Comic Gewerkschaft, Documenta 15, Kassel, 29.–31. August 2022.
 - K. Serles: _Getting Organized. Comics, Communality and Care_, Konferenz _Comics, Activism, Feminisms_, Universität Göteborg, 17.–19. August 2022.
 - K. Serles: _Feministische Kollektive: Spring_, Panel _Vorbilderinnen im Fokus queer-feministischer Comicforschung_ (in Kooperation mit der AG Comicforschung) im Rahmen der Ausstellung _Vorbilder*innen. Feminismus in Comic und Illustration_, Comicsalon Erlangen, 18. Juni 2022.
-- S. Hochreiter: _Fathers. Sons. Strangers. Franz Kafka’s_ The Judgement _and_ The Metamorphosis _as Graphic Novels_, Jahreskonferenz der Association of Adaptation Studies: _(In)Visible Adaptation. Diversity and Inclusion_, Lissabon, 23.–25. Juni 2022.
+- S. Hochreiter: _Fathers. Sons. Strangers. Franz Kafka’s_ The Judgement _and_ The Metamorphosis _as Graphic Novels_, Jahreskonferenz der Association of Adaptation Studies: _(In)Visible Adaptation. Diversity and Inclusion_, Lissabon, 23.–25. Juni 2022. 
 - M. Rauchenbacher: _Gender und psychische Erkrankungen in Comics_, Workshop _Geschlechterdarstellung in visuellen narrativen Medien_, Universität Salzburg, online, 13. November 2021.
 - M. Rauchenbacher: _Grenzen – Grenzungen – Grenzende Körper. Comics über Flucht/Migration & ihr gesellschaftspolitisches Potenzial_, Jahrestagung der AG Comicforschung: _Race, Class & Beyond. Intersektionale Ansätze der Comicforschung_, Schloss Herrenhausen, Hannover, 20.–22. Oktober 2021.
 - K. Serles: _Im Transit verloren. Gender-Grenz-Überschreitungen in Franz Suess’ Paul Zwei_, Jahrestagung der AG Comicforschung: _Race, Class & Beyond. Intersektionale Ansätze der Comicforschung_, Schloss Herrenhausen, Hannover, 20.–22. Oktober 2021.
@@ -113,7 +112,7 @@ captionLink: https://julgordon.de/
 - M. Rauchenbacher: _Who (and where) is Alice? Anke Feuchtenberger’s Adaptation of Lewis Carroll’s_ Alice, Jahrestagung der Gesellschaft für Comicforschung (ComFor), Erika Fuchs-Haus, Schwarzenbach a. d. Saale, 8.–10 November 2019.
 - K. Serles: _Visualities of Gender in German-language Comics_, Jahrestagung der Gesellschaft für Comicforschung (ComFor), Erika Fuchs-Haus, Schwarzenbach a. d. Saale, 8.–10 November 2019.
 - M. Rauchenbacher: _StimmBilder. Kreation und Erosion von Stimmen und Körpern in Ulli Lusts und Marcel Beyers_ Flughunde, Workshop _Musik – Gender – Manga_, Universität für Musik und Darstellende Kunst Wien, 19.–20. September 2019.
-- K. Serles: _„als ob ich in einem meiner eigenen Songs gefangen wäre“. Musik und Männlichkeit in Reinhards Kleists_ Nick Cave. Mercy on me, Workshop _Musik – Gender – Manga_, Universität für Musik und Darstellende Kunst Wien, 19.–20. September 2019.
+- K. Serles: _„als ob ich in einem meiner eigenen Songs gefangen wäre“. Musik und Männlichkeit in Reinhards Kleists_ Nick Cave. Mercy on me, Workshop _Musik – Gender – Manga_, Universität für Musik und Darstellende Kunst Wien, 19.–20. September 2019. 
 - M. Rauchenbacher: _Bringing Viewpoints to Mind: German-Language Comics on Flight and Migration_, 2. Jahrestagung der Comics Studies Society, Toronto, 25.–27. Juli 2019.
 - K. Serles: _Nothing Left Out? Canonical Images and The Politics of Cosmogony-Comics_, 2. Jahrestagung der Comics Studies Society, Toronto, 25.–27. Juli 2019.
 - M. Rauchenbacher u. K. Serles: _Queering Comics: ‚Fatties‘ and ‚Whores‘, Gender Gaps and Body Signs_, Jahrestagung der Society for the Study of Narrative, Pamplona, 30. Mai–1. Juni 2019.
@@ -149,7 +148,7 @@ captionLink: https://julgordon.de/
 - M. Rauchenbacher u. K. Serles: Proseminar _Erzählte Körper – Gezeichnete Blicke_ (SoSe 2014, Institut für Germanistik, Universität Wien)
 
 # Diskussionen, Moderationen, Interviews, Workshops
-- M. Rauchenbacher: Moderation und Künstler*innengespräche, 1. Kooperationsveranstaltung der Österreichischen Gesellschaft für Comics mit dem Literaturhaus Wien: Präsentation der Anthologie _SPROSS #2_, Literaturhaus Wien, 3. April 2024
+- M. Rauchenbacher: Moderation und Künstler*innengespräche, 1. Kooperationsveranstaltung der Österreichischen Gesellschaft für Comics mit dem Literaturhaus Wien: Präsentation der Anthologie _SPROSS #2_, Literaturhaus Wien, 3. April 2024  
 - M. Rauchenbacher: Moderation und Künstler*innengespräche, Suuuper-Samstag, Nextcomic Festival 2024, 16. März 2024
 - K. Serles: _ComicMonday: Lesung und Gespräch mit Ilse Kilic und Fritz Widhalm_, Österreichische Gesellschaft für Comics, Rooming Inn Wien, 29. Jänner 2024
 - M. Rauchenbacher: _ComicMonday: Gespräch mit Darren C. Fisher_, Österreichische Gesellschaft für Comics, Rooming Inn Wien, 26. Februar 2023
@@ -194,7 +193,7 @@ captionLink: https://julgordon.de/
 
 # Betreuung von Abschlussarbeiten
 - M. Rauchenbacher – Erin Sedelmaier: _Verwandtschaft zwischen Körpern in Luke Pearsons Hilda-Comics._ Masterarbeit. Universität Wien, laufend.
-- M. Rauchenbacher – Fiona Sironic: _Potentiale queerfeministischer Perspektiven für das Medium Videospiel._ Masterarbeit. Universität Wien, laufend.
+- M. Rauchenbacher – Fiona Sironic: _Potentiale queerfeministischer Perspektiven für das Medium Videospiel._ Masterarbeit. Universität Wien, laufend. 
 
 # Review-Tätigkeit
 - M. Rauchenbacher: Mitglied des Advisory Board der Reihe _Comicstudien_, de Gruyter Verlag (seit 2020)
