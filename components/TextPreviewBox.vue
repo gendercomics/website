@@ -10,7 +10,6 @@ const { t } = useI18n({
 })
 const { locale } = useI18n()
 const route = useRoute()
-const fullPath = ref(route.fullPath)
 
 const i18nPath = computed(() => '/' + locale.value + props.content)
 const key = computed(() => 'preview:' + i18nPath.value)
