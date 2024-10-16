@@ -10,22 +10,13 @@ const { t } = useI18n({
 })
 const { locale } = useI18n()
 const route = useRoute()
+const fullPath = ref(route.fullPath)
 
 const i18nPath = computed(() => '/' + locale.value + props.content)
 const key = computed(() => 'preview:' + i18nPath.value)
 
 let doc = await useAsyncData(key.value, () =>
   queryContent(i18nPath.value).findOne(),
-)
-
-watch(
-  () => i18nPath.value,
-  async () => {
-    console.log('watch: ' + i18nPath.value)
-    doc = await useAsyncData(key.value, () =>
-      queryContent(i18nPath.value).findOne(),
-    )
-  },
 )
 
 onMounted(() => {
