@@ -10,31 +10,39 @@ const { t } = useI18n({
 })
 const { locale } = useI18n()
 const route = useRoute()
-const fullPath = ref(route.fullPath)
 
 const i18nPath = computed(() => '/' + locale.value + props.content)
+const key = computed(() => 'preview:' + i18nPath.value)
 
-let doc = await useAsyncData(() => queryContent(i18nPath.value).findOne())
+let doc = await useAsyncData(key.value, () =>
+  queryContent(i18nPath.value).findOne(),
+)
 
 watch(
   () => i18nPath.value,
   async () => {
     console.log('watch: ' + i18nPath.value)
-    doc = await useAsyncData(() => queryContent(i18nPath.value).findOne())
+    doc = await useAsyncData(key.value, () =>
+      queryContent(i18nPath.value).findOne(),
+    )
   },
 )
+
+onMounted(() => {
+  console.log('TextPreviewBox key: ' + key.value)
+})
 </script>
 <template>
   <div class="container-row">
     <div class="column">
       <div class="w-90">
-        <content-renderer :value="doc" :key="fullPath.value">
+        <content-renderer :value="doc" :key="key.value">
           <div class="tag">{{ doc.data.value.tag }}</div>
           <div class="titel-kachel">{{ doc.data.value.title }}</div>
           <content-renderer-markdown
             class="a mt-1rem"
             :value="doc.data.value.excerpt"
-            :key="fullPath.value"
+            :key="key.value"
           />
         </content-renderer>
         <button-gray class="mt-1rem" :text="t('more')" :link="i18nPath" />
