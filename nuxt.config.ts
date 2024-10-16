@@ -13,6 +13,12 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
   ],
 
+  runtimeConfig: {
+    public: {
+      DB_API_BASE_URL: process.env.DB_API_BASE_URL,
+    },
+  },
+
   css: [
     'assets/css/fonts.css',
     'assets/css/design.css',
