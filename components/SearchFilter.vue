@@ -5,7 +5,7 @@ const { t } = useI18n({
 const filter = defineModel({
   comics: false,
   persons: false,
-  publisher: false,
+  publishers: false,
   keywords: false,
 })
 </script>
@@ -25,7 +25,7 @@ const filter = defineModel({
       />
       <bubble-button
         :label="t('publisher')"
-        v-model="filter.publisher"
+        v-model="filter.publishers"
         class="pr-1r"
       />
       <bubble-button :label="t('keywords')" v-model="filter.keywords" />

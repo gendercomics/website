@@ -11,14 +11,18 @@ const searchInput = reactive({
   searchTerm: '',
   searchFilter: {
     comics: true,
-    persons: false,
-    publishers: false,
+    persons: true,
+    publishers: true,
     keywords: false,
   },
 })
 
 let data = {}
 const comics = ref([])
+
+const resultSize = computed(() => {
+  return comics.value.length
+})
 
 // Debounced input handler
 const onInput = useDebounceFn(() => {
@@ -56,7 +60,7 @@ onMounted(() => {
   <article-content content="/database" />
   <div class="center page-margin">
     <search-form v-model="searchInput" @input="onInput" frame />
-    <search-result-header frame />
+    <search-result-header :num-results="resultSize" frame />
 
     <divider b4 b5 t6 />
     <divider-red-arrow />

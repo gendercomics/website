@@ -10,14 +10,15 @@ const props = defineProps({
     type: Boolean,
     default: false,
   },
+  numResults: {
+    type: Number,
+    default: 0,
+  },
 })
 </script>
 
 <template>
   <div class="container-row" :class="{ 'border-right-green': props.frame }">
-    <div v-if="featureStore.isDatabaseEnabled" class="titel-s result-count">
-      {{ t('results') }}
-    </div>
     <div>
       <div class="flex-column">
         <img
@@ -32,14 +33,21 @@ const props = defineProps({
         />
       </div>
     </div>
-    <div class="result-sizer-pos">
-      <div class="results-sizer-start tag">{{ t('page-size') }}</div>
+
+    <img
+      class="num-result-arrow"
+      src="@/assets/images/arrow-green-left-flat.svg"
+      alt="corner-green-3-50px(buttons)"
+    />
+    <div class="titel-s result-count">
+      {{ t('results', props.numResults) }}
     </div>
-    <div class="result-sizer-pos res-size-element">8</div>
-    <div class="result-sizer-pos res-size-element ml--2">16</div>
-    <div class="result-sizer-pos res-size-element ml--2">32</div>
-    <div class="result-sizer-pos res-size-element ml--2">64</div>
-    <div class="result-sizer-pos results-sizer-end ml" />
+    <img
+      class="num-result-arrow"
+      src="@/assets/images/arrow-green-right-flat.svg"
+      alt="corner-green-3-50px(buttons)"
+    />
+
     <div v-if="!props.frame" class="container-row line-container">
       <div class="line-green" />
       <div class="result-sizer-pos">
@@ -73,6 +81,7 @@ const props = defineProps({
   color: var(--gc-green);
   align-self: flex-end;
   transform: translateY(50%);
+  padding: 0 10px;
 }
 
 .arrow-red {
@@ -86,55 +95,9 @@ const props = defineProps({
   margin-left: 46px;
 }
 
-.results-sizer-start {
-  background-color: var(--gc-gray);
-  border-radius: 100px 0 0 100px;
-  opacity: 1;
-  color: var(--white);
-  padding: 10px;
-  height: 37px;
-}
-
 .result-sizer-pos {
   align-self: flex-end;
   margin-bottom: -28px;
-}
-
-.results-sizer-end {
-  background-color: var(--gc-gray);
-  border-radius: 0 100px 100px 0;
-  opacity: 1;
-  padding: 10px;
-  height: 37px;
-  width: 20px;
-}
-
-.res-size-element {
-  font-family: var(--gc-font-family-outfit);
-  font-style: var(--gc-font-style-normal);
-  font-weight: var(--gc-font-weight-normal);
-  font-size: var(--gc-font-size-20);
-  line-height: var(--gc-line-spacing-33);
-  letter-spacing: var(--gc-character-spacing-1);
-  color: var(--lightgray);
-  padding: 10px;
-  width: 33px;
-  justify-self: center;
-  text-align: center;
-  border: 2px solid var(--gc-gray);
-  cursor: pointer;
-  transition: ease-out 0.3s;
-}
-
-.res-size-element:hover {
-  color: var(--gc-green);
-  font-weight: var(--gc-font-weight-bold);
-  background-color: var(--white);
-  transition: background-color ease-out 0.3s;
-}
-
-.ml--2 {
-  margin-left: -2px;
 }
 
 .line-green {
@@ -150,13 +113,17 @@ const props = defineProps({
   margin-bottom: -70px;
   width: 100px;
 }
+
+.num-result-arrow {
+  transform: translateY(48%);
+}
 </style>
 
 <i18n lang="yaml">
 de:
-  results: keine Ergebnisse
+  results: keine Ergebnisse | {n} Ergebnis | {n} Ergebnisse
   page-size: Ergebnisse
 en:
-  results: no Results
+  results: no Results | {n} Result | {n} Results
   page-size: Results
 </i18n>
