@@ -2,16 +2,8 @@ import { defineStore } from 'pinia'
 
 export const useSearchStore = defineStore('searchStore', {
   state: () => ({
-    searchInput: {
-      searchTerm: '',
-      searchFilter: {
-        comics: true,
-        persons: true,
-        publishers: true,
-        keywords: false,
-      },
-      numResults: 8,
-    },
+    setSearchInput: null as SearchInput,
+    numResults: 8,
   }),
   getters: {
     getSearchInput: (state) => {
@@ -22,11 +14,23 @@ export const useSearchStore = defineStore('searchStore', {
     },
   },
   actions: {
-    setSearchTerm: (searchInput: Object) => {
-      state.searchInput = searchInput
+    setSearchInput(searchInput: SearchInput) {
+      this.searchInput = searchInput
+      console.log('searchInput=' + JSON.stringify(searchInput))
     },
     setNumResults(numResults: integer) {
-      state.numResults = numResults
+      this.numResults = numResults
+      console.log('numResults=' + this.getNumResults)
     },
   },
 })
+
+interface SearchInput {
+  searchTerm: string
+  searchFilter: {
+    comics: Boolean
+    persons: Boolean
+    publishers: Boolean
+    keywords: Boolean
+  }
+}

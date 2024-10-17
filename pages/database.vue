@@ -10,7 +10,7 @@ const appConfig = useAppConfig()
 const searchInput = reactive({
   searchTerm: '',
   searchFilter: {
-    comics: false,
+    comics: true,
     persons: false,
     publishers: false,
     keywords: false,
@@ -26,6 +26,8 @@ const onInput = useDebounceFn(() => {
     console.log('search term (' + searchInput.searchTerm + ') too short')
   } else {
     console.log('Searching for:', searchInput.searchTerm)
+    searchStore.setSearchInput(searchInput)
+    searchStore.setNumResults(16)
     search()
   }
 }, 500)
@@ -36,7 +38,6 @@ async function search() {
       query: { searchTerm: searchInput.searchTerm },
       method: 'POST',
     })
-
     // Update the comics list with the fetched data
     comics.value = data
     console.log('Search result:', comics.value)
@@ -47,7 +48,7 @@ async function search() {
 
 onMounted(() => {
   console.log('API base url: ' + appConfig.dbApiBaseUrl)
-  //searchInput = searchStore.getSearchInput.value
+  console.log('stored searchTerm: ' + searchStore.getSearchTerm)
 })
 </script>
 
