@@ -11,6 +11,18 @@ export default defineNuxtConfig({
     },
   },
 
+  $staging: {
+    appConfig: {
+      dbApiBaseUrl: 'https://api-stage.gendercomics.net',
+    },
+  },
+
+  $production: {
+    appConfig: {
+      dbApiBaseUrl: 'https://api.gendercomics.net',
+    },
+  },
+
   modules: [
     '@nuxt/content',
     '@pinia/nuxt',
