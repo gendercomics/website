@@ -4,6 +4,7 @@ import { useDebounceFn } from '@vueuse/core'
 
 const { locale } = useI18n()
 const featureStore = useFeatureStore()
+const appConfig = useAppConfig()
 
 const searchInput = reactive({
   searchTerm: '',
@@ -28,7 +29,7 @@ const onInput = useDebounceFn(() => {
 }, 500)
 
 async function search() {
-  data = await $fetch('http://localhost:8001/search', {
+  data = await $fetch(appConfig.dbApiBaseUrl + '/search', {
     query: { searchTerm: searchInput.searchTerm },
     method: 'POST',
     onResponse() {
@@ -48,6 +49,10 @@ watchDebounced(
   { debounce: 500, maxWait: 1000 },
 )
  */
+
+onMounted(() => {
+  console.log('API base url: ' + appConfig.dbApiBaseUrl)
+})
 </script>
 
 <template>

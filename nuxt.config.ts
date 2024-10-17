@@ -5,6 +5,12 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   pages: true,
 
+  $development: {
+    appConfig: {
+      dbApiBaseUrl: 'http://localhost:8001',
+    },
+  },
+
   modules: [
     '@nuxt/content',
     '@pinia/nuxt',
@@ -12,12 +18,6 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxtjs/i18n',
   ],
-
-  runtimeConfig: {
-    public: {
-      DB_API_BASE_URL: process.env.DB_API_BASE_URL,
-    },
-  },
 
   css: [
     'assets/css/fonts.css',
