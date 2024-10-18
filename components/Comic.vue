@@ -5,8 +5,9 @@ const comic = ref([])
 const { t, locale } = useI18n({
   useScope: 'local',
 })
+const appConfig = useAppConfig()
 const { data, status, error, refresh, clear } = await useFetch(
-  'http://localhost:8001/comics/' + id,
+  appConfig.dbApiBaseUrl + '/comics/' + id,
 )
 
 function name(creator) {
@@ -110,7 +111,7 @@ onMounted(() => {
         <div v-if="data.cover">
           <article-image
             :image="data.id + '/' + data.cover"
-            from-url
+            from-api-url
             class="image"
             width="auto"
             height="400px"
