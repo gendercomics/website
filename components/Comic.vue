@@ -5,8 +5,9 @@ const comic = ref([])
 const { t, locale } = useI18n({
   useScope: 'local',
 })
+const appConfig = useAppConfig()
 const { data, status, error, refresh, clear } = await useFetch(
-  'http://localhost:8001/comics/' + id,
+  appConfig.dbApiBaseUrl + '/comics/' + id,
 )
 
 function name(creator) {
@@ -46,18 +47,19 @@ onMounted(() => {
     <div class="text-container">
       <div class="container-relative">
         <div>
-          <h1>{{ data.title }}</h1>
+          <h1>{{ data.title }} {{ data.issue }}</h1>
           <h2>
             {{ data.subTitle }}
           </h2>
-          <div class="a">{{ data.issue }}</div>
           <div class="a mt-2rem">
             <div v-for="(creator, c) in data.creators" :key="c">
               <h4>{{ name(creator) }}</h4>
             </div>
-            <div v-for="(publisher, p) in data.publishers" :key="p">
-              <div class="a">
-                {{ publisher.location }}, {{ publisher.name }} {{ data.year }}
+            <div class="mt-2rem">
+              <div v-for="(publisher, p) in data.publishers" :key="p">
+                <div class="a">
+                  {{ publisher.location }}, {{ publisher.name }} {{ data.year }}
+                </div>
               </div>
             </div>
             <div v-if="data.isbn" class="a">ISBN: {{ data.isbn }}</div>
@@ -65,12 +67,13 @@ onMounted(() => {
               <div class="a">
                 in:
                 <router-link :to="comicLink(data.partOf.comic.id)">
-                  {{ data.partOf.comic.title }}</router-link
+                  {{ data.partOf.comic.title }}
+                  {{ data.partOf.comic.issue }}</router-link
                 >, {{ t('pages') }}
                 {{ data.partOf.pages }}
               </div>
             </div>
-            <div v-if="data.seriesList">
+            <div v-if="data.seriesList" class="mt-2rem">
               <h6>{{ t('series') }}</h6>
               <div v-for="(series, s) in data.seriesList" :key="s">
                 <div class="a">
@@ -82,8 +85,10 @@ onMounted(() => {
               </div>
             </div>
 
+            <div class="mt-1rem">
             <div v-for="(link, l) in data.hyperLinks" :key="l">
               <a :href="link.url" target="_blank">{{ link.url }}</a>
+            </div>
             </div>
 
             <div v-if="data.genres" class="mt-2rem">
@@ -110,7 +115,7 @@ onMounted(() => {
         <div v-if="data.cover">
           <article-image
             :image="data.id + '/' + data.cover"
-            from-url
+            from-api-url
             class="image"
             width="auto"
             height="400px"

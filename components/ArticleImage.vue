@@ -16,7 +16,7 @@ const props = defineProps({
     type: Boolean,
     default: false,
   },
-  fromUrl: {
+  fromApiUrl: {
     type: Boolean,
     default: false,
   },
@@ -34,15 +34,16 @@ const imagePath = computed(() => {
   return '/images/' + props.image
 })
 
+const appConfig = useAppConfig()
 const imageURL = computed(() => {
-  return 'http://localhost:8001/images/' + props.image
+  return appConfig.apiImageUrl + '/' + props.image
 })
 </script>
 
 <template>
   <div class="container">
     <img
-      v-if="fromUrl"
+      v-if="fromApiUrl"
       :src="imageURL"
       alt=""
       class="image"

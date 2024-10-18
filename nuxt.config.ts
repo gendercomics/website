@@ -8,6 +8,22 @@ export default defineNuxtConfig({
   $development: {
     appConfig: {
       dbApiBaseUrl: 'http://localhost:8001',
+      apiImageUrl: 'http://localhost:8001/images'
+    },
+  },
+
+  // staging does not work yet
+  $staging: {
+    appConfig: {
+      dbApiBaseUrl: 'https://api-stage.gendercomics.net',
+      apiImageUrl: 'https://api-stage.gendercomics.net/images'
+    },
+  },
+
+  $production: {
+    appConfig: {
+      dbApiBaseUrl: 'https://api.gendercomics.net',
+      apiImageUrl: 'https://api.gendercomics.net/images'
     },
   },
 
