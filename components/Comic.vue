@@ -73,7 +73,7 @@ onMounted(() => {
                 {{ data.partOf.pages }}
               </div>
             </div>
-            <div v-if="data.seriesList" class="mt-2rem">
+            <div v-if="data.seriesList && data.seriesList.length > 0" class="mt-2rem">
               <h6>{{ t('series') }}</h6>
               <div v-for="(series, s) in data.seriesList" :key="s">
                 <div class="a">
