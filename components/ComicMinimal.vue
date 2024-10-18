@@ -70,6 +70,7 @@ function name(creator) {
   border: 2px solid var(--gc-green);
   box-sizing: border-box;
   cursor: pointer;
+  min-width: 280px;
 }
 
 .container:hover {
