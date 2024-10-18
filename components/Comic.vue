@@ -46,11 +46,10 @@ onMounted(() => {
     <div class="text-container">
       <div class="container-relative">
         <div>
-          <h1>{{ data.title }}</h1>
+          <h1>{{ data.title }} {{ data.issue }}</h1>
           <h2>
             {{ data.subTitle }}
           </h2>
-          <div class="a">{{ data.issue }}</div>
           <div class="a mt-2rem">
             <div v-for="(creator, c) in data.creators" :key="c">
               <h4>{{ name(creator) }}</h4>
@@ -65,7 +64,8 @@ onMounted(() => {
               <div class="a">
                 in:
                 <router-link :to="comicLink(data.partOf.comic.id)">
-                  {{ data.partOf.comic.title }}</router-link
+                  {{ data.partOf.comic.title }}
+                  {{ data.partOf.comic.issue }}</router-link
                 >, {{ t('pages') }}
                 {{ data.partOf.pages }}
               </div>

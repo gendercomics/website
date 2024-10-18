@@ -14,6 +14,8 @@ const props = defineProps({
   },
 })
 
+const appConfig = useAppConfig()
+
 function imageUrl(id, cover) {
   //return new URL(`../assets/images/${props.img}`, import.meta.url)
 
@@ -21,7 +23,7 @@ function imageUrl(id, cover) {
     return new URL(`@/assets/images/placeholder.png`, import.meta.url)
   }
   return new URL(
-    `http://localhost:8001/images/` + id + `/` + cover,
+    appConfig.apiImageUrl + `/` + id + `/` + cover,
     import.meta.url,
   )
 }
@@ -55,7 +57,7 @@ function name(creator) {
         <div class="font-creator ml-50">{{ name(creator) }}</div>
       </div>
       <div class="font-titel mt-10 ml-50 mb-3rem">
-        {{ props.comic.title }}
+        {{ props.comic.title }} {{ props.comic.issue }}
       </div>
     </div>
   </div>
