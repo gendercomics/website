@@ -49,14 +49,13 @@ function name(creator) {
           class="center"
         />
       </div>
-      <div
-        v-for="(creator, index) in props.comic.creators"
-        :key="index"
-        class="mt-10"
-      >
-        <div class="font-creator ml-50">{{ name(creator) }}</div>
+
+      <div class="mt-creator">
+        <div v-for="(creator, index) in props.comic.creators" :key="index">
+          <div class="font-creator ml-50 mt-5">{{ name(creator) }}</div>
+        </div>
       </div>
-      <div class="font-titel mt-10 ml-50 mb-3rem">
+      <div class="font-titel mt-10 ml-50 mr-50 mb-3rem">
         {{ props.comic.title }} {{ props.comic.issue }}
       </div>
     </div>
@@ -94,14 +93,16 @@ function name(creator) {
 
 .comic img {
   max-width: 80%;
+  max-height: 250px;
   height: auto;
+  width: auto;
   display: block;
   border-radius: 50px;
   margin-top: 50px;
 }
 
-.mt-25 {
-  margin-top: 25px;
+.mt-creator {
+  margin-top: 20px;
 }
 
 .font-creator {
@@ -131,5 +132,9 @@ function name(creator) {
 
 .mb-3rem {
   margin-bottom: 3rem;
+}
+
+.mt-5 {
+  margin-top: 5px;
 }
 </style>

@@ -55,9 +55,11 @@ onMounted(() => {
             <div v-for="(creator, c) in data.creators" :key="c">
               <h4>{{ name(creator) }}</h4>
             </div>
-            <div v-for="(publisher, p) in data.publishers" :key="p">
-              <div class="a">
-                {{ publisher.location }}, {{ publisher.name }} {{ data.year }}
+            <div class="mt-2rem">
+              <div v-for="(publisher, p) in data.publishers" :key="p">
+                <div class="a">
+                  {{ publisher.location }}, {{ publisher.name }} {{ data.year }}
+                </div>
               </div>
             </div>
             <div v-if="data.isbn" class="a">ISBN: {{ data.isbn }}</div>
@@ -71,7 +73,7 @@ onMounted(() => {
                 {{ data.partOf.pages }}
               </div>
             </div>
-            <div v-if="data.seriesList">
+            <div v-if="data.seriesList" class="mt-2rem">
               <h6>{{ t('series') }}</h6>
               <div v-for="(series, s) in data.seriesList" :key="s">
                 <div class="a">
@@ -83,8 +85,10 @@ onMounted(() => {
               </div>
             </div>
 
+            <div class="mt-1rem">
             <div v-for="(link, l) in data.hyperLinks" :key="l">
               <a :href="link.url" target="_blank">{{ link.url }}</a>
+            </div>
             </div>
 
             <div v-if="data.genres" class="mt-2rem">
