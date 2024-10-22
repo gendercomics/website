@@ -38,9 +38,14 @@ const onInput = useDebounceFn(() => {
 
 async function search() {
   try {
-    data = await $fetch(appConfig.dbApiBaseUrl + '/search', {
-      query: { searchTerm: searchInput.searchTerm },
+    data = await $fetch(appConfig.dbApiBaseUrl + '/search-web', {
+      //query: { searchTerm: searchInput.searchTerm },
       method: 'POST',
+      contentType: 'application/json',
+      body: {
+        searchTerm: searchInput.searchTerm,
+        searchFilter: searchInput.searchFilter,
+      },
     })
     // Update the comics list with the fetched data
     comics.value = data
