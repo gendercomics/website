@@ -5,6 +5,7 @@ import { useAsyncData } from '#app'
 const { locale } = useI18n()
 const route = useRoute()
 const fullPath = ref(route.fullPath)
+const keywordId = route.params.id
 
 const index = await useAsyncData(fullPath.value, () =>
   queryContent('/' + locale.value + '/glossary')
