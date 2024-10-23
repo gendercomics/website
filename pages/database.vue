@@ -56,6 +56,10 @@ async function search() {
   }
 }
 
+function resetSearchResult() {
+  comics.value = []
+}
+
 watch(searchInput.searchFilter, () => {
   console.log('searchFilter changed')
   searchStore.setSearchInput(searchInput)
@@ -80,7 +84,12 @@ onMounted(() => {
 <template>
   <article-content content="/database" />
   <div class="center page-margin">
-    <search-form v-model="searchInput" @input="onInput" frame />
+    <search-form
+      v-model="searchInput"
+      @input="onInput"
+      @clear="resetSearchResult"
+      frame
+    />
     <search-result-header :num-results="resultSize" frame />
 
     <divider b4 b5 t6 />

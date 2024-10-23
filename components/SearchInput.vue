@@ -3,11 +3,12 @@ const featureStore = useFeatureStore()
 const { t } = useI18n({
   useScope: 'local',
 })
-
+const emit = defineEmits(['clear'])
 const searchInput = defineModel()
 
 function resetInput() {
   searchInput.value = ''
+  emit('clear')
 }
 </script>
 

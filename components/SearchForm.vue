@@ -1,6 +1,7 @@
 <script setup>
 import SearchInput from '~/components/SearchInput.vue'
 
+const emit = defineEmits(['clear'])
 const props = defineProps({
   frame: {
     type: Boolean,
@@ -17,6 +18,10 @@ const searchInput = defineModel({
     keywords: false,
   },
 })
+
+function clear() {
+  emit('clear')
+}
 </script>
 
 <template>
@@ -31,6 +36,7 @@ const searchInput = defineModel({
     <search-input
       v-model="searchInput.searchTerm"
       :class="{ 'border-right-green': props.frame }"
+      @clear="clear"
     />
   </div>
 </template>
