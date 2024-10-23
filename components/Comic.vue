@@ -111,6 +111,7 @@ onMounted(() => {
                   :text="i18nKeyword(keyword.values)"
                   class="mt-1rem"
                   :link="/glossary/ + keyword.id"
+                  target='_self'
                 />
               </div>
             </div>
