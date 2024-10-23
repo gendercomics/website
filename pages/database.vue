@@ -15,6 +15,7 @@ const searchInput = reactive({
     publishers: true,
     keywords: false,
   },
+  language: 'de',
 })
 
 let data = {}
@@ -45,6 +46,7 @@ async function search() {
       body: {
         searchTerm: searchInput.searchTerm,
         searchFilter: searchInput.searchFilter,
+        language: locale.value,
       },
     })
     // Update the comics list with the fetched data
