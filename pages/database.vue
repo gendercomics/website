@@ -12,7 +12,7 @@ const searchInput = reactive({
   searchFilter: {
     comics: true,
     persons: true,
-    publishers: true,
+    publishers: false,
     keywords: false,
   },
   language: 'de',
@@ -32,7 +32,6 @@ const onInput = useDebounceFn(() => {
   } else {
     console.log('Searching for:', searchInput.searchTerm)
     searchStore.setSearchInput(searchInput)
-    searchStore.setNumResults(16)
     search()
   }
 }, 500)
@@ -57,9 +56,24 @@ async function search() {
   }
 }
 
+watch(searchInput.searchFilter, () => {
+  console.log('searchFilter changed')
+  searchStore.setSearchInput(searchInput)
+  if (searchInput.searchTerm.length >= 3) {
+    search()
+  }
+})
+
 onMounted(() => {
   console.log('API base url: ' + appConfig.dbApiBaseUrl)
-  console.log('stored searchTerm: ' + searchStore.getSearchTerm)
+  console.log(
+    'stored searchInput: ' + JSON.stringify(searchStore.getSearchInput),
+  )
+  if (searchStore.getSearchInput !== null) {
+    searchInput.searchTerm = searchStore.getSearchInput.searchTerm
+    searchInput.searchFilter = searchStore.getSearchInput.searchFilter
+    search()
+  }
 })
 </script>
 
