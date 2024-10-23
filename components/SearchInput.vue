@@ -4,30 +4,11 @@ const { t } = useI18n({
   useScope: 'local',
 })
 
-// const searchInput = defineModel(refDebounced(input, 1000))
-
 const searchInput = defineModel()
 
 function resetInput() {
   searchInput.value = ''
 }
-
-/*
-watchDebounced(
-  input,
-  () => {
-    console.log('changed!')
-    searchInput.value = input.value
-  },
-  { debounce: 500 },
-)
-
-
-const onInput = useDebounceFn(() => {
-  console.log(searchInput.value)
-}, 500)
-
- */
 </script>
 
 <template>
