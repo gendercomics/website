@@ -171,7 +171,7 @@ onMounted(() => {
 <i18n lang="yaml">
 de:
   genres: Genre(s)
-  keywords: Schlagworte
+  keywords: Schlagwort(e)
   pages: Seiten
   series: Reihe(n)
   volume: Band
