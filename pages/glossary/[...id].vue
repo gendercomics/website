@@ -6,12 +6,26 @@ const { locale } = useI18n()
 const route = useRoute()
 const fullPath = ref(route.fullPath)
 const keywordId = route.params.id
+const appConfig = useAppConfig()
 
 const index = await useAsyncData(fullPath.value, () =>
   queryContent('/' + locale.value + '/glossary')
     .where({ type: 'index' })
     .findOne(),
 )
+
+/*
+const { initialKeyword, status, error, refresh, clear } = await useFetch(
+  appConfig.dbApiBaseUrl + '/keywords/' + keywordId,
+)
+*/
+const { topKw, status, error, refresh, clear } = await useFetch(
+  appConfig.dbApiBaseUrl + '/keywords/top',
+)
+
+onMounted(() => {
+  console.log('top level keywords: ' + JSON.stringify(topKw))
+})
 </script>
 
 <template>
@@ -26,6 +40,7 @@ const index = await useAsyncData(fullPath.value, () =>
         />
       </content-renderer>
 
+      <!-- div class="a">{{ initialKeyword }}</div -->
       <divider-red-arrow />
     </div>
   </div>
