@@ -24,7 +24,7 @@ const { data, status, error, refresh, clear } = await useFetch(
 )
 
 onMounted(() => {
-  console.log('top level keywords: ' + JSON.stringify(data))
+  //console.log('top level keywords: ' + JSON.stringify(data))
 })
 </script>
 
@@ -40,7 +40,10 @@ onMounted(() => {
         />
       </content-renderer>
 
-      <div class="a">{{ topKw }}</div>
+      <div v-for="(kw, index) in data" :key="index">
+        <h1 v-if="locale === 'de'" class="mt-5">{{ kw.values.de.name }}</h1>
+        <h1 v-else class="mt-5">{{ kw.values.en.name }}</h1>
+      </div>
       <divider-red-arrow />
     </div>
   </div>
