@@ -19,12 +19,12 @@ const { initialKeyword, status, error, refresh, clear } = await useFetch(
   appConfig.dbApiBaseUrl + '/keywords/' + keywordId,
 )
 */
-const { topKw, status, error, refresh, clear } = await useFetch(
+const { data, status, error, refresh, clear } = await useFetch(
   appConfig.dbApiBaseUrl + '/keywords/top',
 )
 
 onMounted(() => {
-  console.log('top level keywords: ' + JSON.stringify(topKw))
+  console.log('top level keywords: ' + JSON.stringify(data))
 })
 </script>
 
@@ -40,7 +40,7 @@ onMounted(() => {
         />
       </content-renderer>
 
-      <!-- div class="a">{{ initialKeyword }}</div -->
+      <div class="a">{{ topKw }}</div>
       <divider-red-arrow />
     </div>
   </div>
