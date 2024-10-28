@@ -3,7 +3,6 @@ import SearchResultFooter from '~/components/SearchResultFooter.vue'
 import { useDebounceFn } from '@vueuse/core'
 
 const { locale } = useI18n()
-const featureStore = useFeatureStore()
 const searchStore = useSearchStore()
 const appConfig = useAppConfig()
 
