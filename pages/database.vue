@@ -58,6 +58,7 @@ async function search() {
 
 function resetSearchResult() {
   comics.value = []
+  searchStore.setSearchInput(null)
 }
 
 watch(searchInput.searchFilter, () => {
@@ -74,6 +75,7 @@ onMounted(() => {
     'stored searchInput: ' + JSON.stringify(searchStore.getSearchInput),
   )
   if (searchStore.getSearchInput !== null) {
+    navigateTo('#search')
     searchInput.searchTerm = searchStore.getSearchInput.searchTerm
     searchInput.searchFilter = searchStore.getSearchInput.searchFilter
     search()
@@ -85,6 +87,7 @@ onMounted(() => {
   <article-content content="/database" />
   <div class="center page-margin">
     <search-form
+      id="search"
       v-model="searchInput"
       @input="onInput"
       @clear="resetSearchResult"
