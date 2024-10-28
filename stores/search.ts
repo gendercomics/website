@@ -2,7 +2,7 @@ import { defineStore } from 'pinia'
 
 export const useSearchStore = defineStore('searchStore', {
   state: () => ({
-    searchInput: {} as SearchInput,
+    searchInput: null as SearchInput,
   }),
   getters: {
     getSearchInput: (state) => {
