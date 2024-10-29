@@ -3,7 +3,6 @@ import SearchResultFooter from '~/components/SearchResultFooter.vue'
 import { useDebounceFn } from '@vueuse/core'
 
 const { locale } = useI18n()
-const featureStore = useFeatureStore()
 const searchStore = useSearchStore()
 const appConfig = useAppConfig()
 
@@ -12,9 +11,10 @@ const searchInput = reactive({
   searchFilter: {
     comics: true,
     persons: true,
-    publishers: true,
+    publishers: false,
     keywords: false,
   },
+  language: 'de',
 })
 
 let data = {}
@@ -31,7 +31,6 @@ const onInput = useDebounceFn(() => {
   } else {
     console.log('Searching for:', searchInput.searchTerm)
     searchStore.setSearchInput(searchInput)
-    searchStore.setNumResults(16)
     search()
   }
 }, 500)
@@ -45,6 +44,7 @@ async function search() {
       body: {
         searchTerm: searchInput.searchTerm,
         searchFilter: searchInput.searchFilter,
+        language: locale.value,
       },
     })
     // Update the comics list with the fetched data
@@ -55,16 +55,43 @@ async function search() {
   }
 }
 
+function resetSearchResult() {
+  comics.value = []
+  searchStore.setSearchInput(null)
+}
+
+watch(searchInput.searchFilter, () => {
+  console.log('searchFilter changed')
+  searchStore.setSearchInput(searchInput)
+  if (searchInput.searchTerm.length >= 3) {
+    search()
+  }
+})
+
 onMounted(() => {
   console.log('API base url: ' + appConfig.dbApiBaseUrl)
-  console.log('stored searchTerm: ' + searchStore.getSearchTerm)
+  console.log(
+    'stored searchInput: ' + JSON.stringify(searchStore.getSearchInput),
+  )
+  if (searchStore.getSearchInput !== null) {
+    navigateTo('#search')
+    searchInput.searchTerm = searchStore.getSearchInput.searchTerm
+    searchInput.searchFilter = searchStore.getSearchInput.searchFilter
+    search()
+  }
 })
 </script>
 
 <template>
   <article-content content="/database" />
   <div class="center page-margin">
-    <search-form v-model="searchInput" @input="onInput" frame />
+    <search-form
+      id="search"
+      v-model="searchInput"
+      @input="onInput"
+      @clear="resetSearchResult"
+      frame
+    />
     <search-result-header :num-results="resultSize" frame />
 
     <divider b4 b5 t6 />

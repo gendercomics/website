@@ -17,10 +17,8 @@ const props = defineProps({
 const appConfig = useAppConfig()
 
 function imageUrl(id, cover) {
-  //return new URL(`../assets/images/${props.img}`, import.meta.url)
-
   if (cover === null) {
-    return new URL(`@/assets/images/placeholder.png`, import.meta.url)
+    return new URL(`@/assets/images/logo-gendercomics.svg`, import.meta.url)
   }
   return new URL(
     appConfig.apiImageUrl + `/` + id + `/` + cover,
@@ -47,6 +45,7 @@ function name(creator) {
           :src="imageUrl(comic.id, comic.cover)"
           alt="cover"
           class="center"
+          :class="{ rounded: comic.cover !== null }"
         />
       </div>
 
@@ -98,7 +97,6 @@ function name(creator) {
   height: auto;
   width: auto;
   display: block;
-  border-radius: 50px;
   margin-top: 50px;
 }
 
@@ -137,5 +135,9 @@ function name(creator) {
 
 .mt-5 {
   margin-top: 5px;
+}
+
+.rounded {
+  border-radius: 50px;
 }
 </style>

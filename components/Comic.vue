@@ -73,7 +73,10 @@ onMounted(() => {
                 {{ data.partOf.pages }}
               </div>
             </div>
-            <div v-if="data.seriesList && data.seriesList.length > 0" class="mt-2rem">
+            <div
+              v-if="data.seriesList && data.seriesList.length > 0"
+              class="mt-2rem"
+            >
               <h6>{{ t('series') }}</h6>
               <div v-for="(series, s) in data.seriesList" :key="s">
                 <div class="a">
@@ -86,9 +89,9 @@ onMounted(() => {
             </div>
 
             <div class="mt-1rem">
-            <div v-for="(link, l) in data.hyperLinks" :key="l">
-              <a :href="link.url" target="_blank">{{ link.url }}</a>
-            </div>
+              <div v-for="(link, l) in data.hyperLinks" :key="l">
+                <a :href="link.url" target="_blank">{{ link.url }}</a>
+              </div>
             </div>
 
             <div v-if="data.genres" class="mt-2rem">
@@ -107,6 +110,8 @@ onMounted(() => {
                 <green-button
                   :text="i18nKeyword(keyword.values)"
                   class="mt-1rem"
+                  :link="/glossary/ + keyword.id"
+                  target='_self'
                 />
               </div>
             </div>
@@ -171,7 +176,7 @@ onMounted(() => {
 <i18n lang="yaml">
 de:
   genres: Genre(s)
-  keywords: Schlagworte
+  keywords: Schlagwort(e)
   pages: Seiten
   series: Reihe(n)
   volume: Band

@@ -76,6 +76,10 @@ body {
   margin-top: 3rem;
 }
 
+.pb-1r {
+  padding-bottom: 1rem;
+}
+
 .plr-20 {
   padding-left: 20px;
   padding-right: 20px;
