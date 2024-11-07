@@ -1,12 +1,38 @@
 <script setup>
-const { t } = useI18n({
+const props = defineProps({
+  searchInput: {
+    type: Object,
+    default: {},
+  },
+})
+
+const { t, locale } = useI18n({
   useScope: 'local',
 })
+const appConfig = useAppConfig()
+
+let data = {}
+async function download() {
+  try {
+    data = await $fetch(appConfig.dbApiBaseUrl + '/search/download', {
+      //query: { searchTerm: searchInput.searchTerm },
+      method: 'POST',
+      contentType: 'application/json',
+      body: {
+        searchTerm: props.searchInput.searchTerm,
+        searchFilter: props.searchInput.searchFilter,
+        language: locale.value,
+      },
+    })
+  } catch (error) {
+    console.error('Search request failed:', error)
+  }
+}
 </script>
 
 <template>
   <div class="container-row w-50 mr--1">
-    <green-button :text="t('load-more')" link="#" right-arrow />
+    <green-button :text="t('download')" right-arrow @click='download'/>
   </div>
 </template>
 
@@ -23,7 +49,7 @@ const { t } = useI18n({
 
 <i18n lang="yaml">
 de:
-  load-more: Mehr Ergebnisse laden
+  download: Ergebnisse speichern
 en:
-  load-more: Load more results
+  download: Download results
 </i18n>
