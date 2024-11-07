@@ -100,7 +100,7 @@ onMounted(() => {
 
     <search-result v-model="comics" />
 
-    <search-result-footer v-if="resultSize > 0" />
+    <search-result-footer v-if="resultSize > 0" :search-input="searchInput" />
   </div>
 </template>
 
