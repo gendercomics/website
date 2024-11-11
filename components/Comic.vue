@@ -42,7 +42,6 @@ function i18nKeyword(values) {
 }
 
 function searchCreator(creator) {
-  console.log(name(creator))
   searchInput.searchTerm = name(creator)
   searchInput.searchFilter.comics = false
   searchInput.searchFilter.persons = true
@@ -51,6 +50,17 @@ function searchCreator(creator) {
   searchStore.setSearchInput(searchInput)
   navigateTo("/database#search")
 }
+
+function searchPublisher(publisher) {
+  searchInput.searchTerm = publisher.name
+  searchInput.searchFilter.comics = false
+  searchInput.searchFilter.persons = false
+  searchInput.searchFilter.publishers = true
+  searchInput.searchFilter.keywords = false
+  searchStore.setSearchInput(searchInput)
+  navigateTo("/database#search")
+}
+
 
 onMounted(() => {
   console.log('ID=' + id)
@@ -76,13 +86,13 @@ onMounted(() => {
           </h2>
           <div class="a mt-2rem">
             <div v-for="(creator, c) in data.creators" :key="c">
-              <h4 @click="searchCreator(creator)" class="pointer">
+              <h4 @click="searchCreator(creator)" class="link">
                 {{ name(creator) }}
               </h4>
             </div>
             <div class="mt-2rem">
               <div v-for="(publisher, p) in data.publishers" :key="p">
-                <div class="a">
+                <div class="a link" @click='searchPublisher(publisher)'>
                   {{ publisher.location }}, {{ publisher.name }} {{ data.year }}
                 </div>
               </div>
@@ -198,8 +208,12 @@ onMounted(() => {
   margin: 0 0 0 40px;
 }
 
-.pointer {
+.link {
   cursor: pointer;
+}
+
+.link:hover {
+  color: var(--gc-red);
 }
 </style>
 <i18n lang="yaml">
