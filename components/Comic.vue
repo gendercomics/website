@@ -1,7 +1,6 @@
 <script setup lang="ts">
 const route = useRoute()
 const id = route.params.id
-const comic = ref([])
 const { t, locale } = useI18n({
   useScope: 'local',
 })
@@ -48,7 +47,7 @@ function searchCreator(creator) {
   searchInput.searchFilter.publishers = false
   searchInput.searchFilter.keywords = false
   searchStore.setSearchInput(searchInput)
-  navigateTo("/database#search")
+  navigateTo('/database#search')
 }
 
 function searchPublisher(publisher) {
@@ -58,9 +57,15 @@ function searchPublisher(publisher) {
   searchInput.searchFilter.publishers = true
   searchInput.searchFilter.keywords = false
   searchStore.setSearchInput(searchInput)
-  navigateTo("/database#search")
+  navigateTo('/database#search')
 }
 
+function openLink(wikidataId: string) {
+  navigateTo('https://www.wikidata.org/wiki/ ' + wikidataId, {
+    external: true,
+    open: '_blank',
+  })
+}
 
 onMounted(() => {
   console.log('ID=' + id)
@@ -85,14 +90,28 @@ onMounted(() => {
             {{ data.subTitle }}
           </h2>
           <div class="a mt-2rem">
-            <div v-for="(creator, c) in data.creators" :key="c">
+            <div v-for="(creator, c) in data.creators" :key="c" class="flex">
               <h4 @click="searchCreator(creator)" class="link">
                 {{ name(creator) }}
               </h4>
+              <!-- wikidata -->
+              <!--
+              <div
+                class="pointer"
+              >
+                <div @click="openLink(creator.wikidata)">
+                  <img
+                    src="@/assets/images/Wikidata-logo-en.svg"
+                    alt="wikidata-logo-en"
+                    class="wikidata"
+                  />
+                </div>
+              </div>
+              -->
             </div>
             <div class="mt-2rem">
               <div v-for="(publisher, p) in data.publishers" :key="p">
-                <div class="a link" @click='searchPublisher(publisher)'>
+                <div class="a link" @click="searchPublisher(publisher)">
                   {{ publisher.location }}, {{ publisher.name }} {{ data.year }}
                 </div>
               </div>
@@ -208,12 +227,23 @@ onMounted(() => {
   margin: 0 0 0 40px;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 .link {
   cursor: pointer;
 }
 
 .link:hover {
   color: var(--gc-red);
+}
+
+.wikidata {
+  height: 35px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
 }
 </style>
 <i18n lang="yaml">
