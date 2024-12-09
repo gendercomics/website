@@ -19,7 +19,8 @@ captionLink: https://julgordon.de/
 - S. Hochreiter u. U. Klingenböck (Hg.): _Bild ist Text ist Bild: Narration und Ästhetik in der Graphic Novel_. Bielefeld: transcript 2014.
 
 ### Wissenschaftliche Aufsätze
-- M. Rauchenbacher: _Körper-Zeit-Körper. Zeitkonzepte in Ulli Lusts und Marcel Beyers_ Flughunde. In: closure. Kieler e-Journal für Comicforschung. Special Issue: _ChronoCorpoRealities. Embodied Perceptions of ‘Extraordinary’ Time in Comics / KörperZeitBilder. Darstellungen ‚anderen‘ Zeiterlebens im Comic_ 10.5 (2024). Hg. v. Irmela Marei Krüger-Fürhoff u. Nina Schmidt.
+- A. Babka u. M. Rauchenbacher: _Queer Studies._ In: Handbuch Kulturwissenschaftliche ‚Studies‘. Hg. v. Jonas Nesselhauf u. Florian Weber. Berlin, Boston: de Gruyter, S. 473–496. [https://doi.org/10.1515/9783110712919-027](https://doi.org/10.1515/9783110712919-027)
+- M. Rauchenbacher: _Körper-Zeit-Körper. Zeitkonzepte in Ulli Lusts und Marcel Beyers_ Flughunde. In: closure. Kieler e-Journal für Comicforschung. Special Issue: _ChronoCorpoRealities. Embodied Perceptions of ‘Extraordinary’ Time in Comics / KörperZeitBilder. Darstellungen ‚anderen‘ Zeiterlebens im Comic_ 10.5 (2024). Hg. v. Irmela Marei Krüger-Fürhoff u. Nina Schmidt, S. 99–117.
 - M. Rauchenbacher: _Boote | Grenzen | Unsicherheit. Das gesellschaftspolitische Potenzial von Comics über Flucht und Migration_ In: Anna Beckmann, Kalina Kupczyńska, Marie Schröer u. Véronique Sina (Hg.): Comics und Intersektionalität. Berlin, Boston: de Gruyter 2024 (Comicstudien 3), S. 117–134. [https://doi.org/10.1515/9783110799385-010](https://doi.org/10.1515/9783110799385-010)
 - K. Serles: _Im Transit verloren. Gender-Grenz-Überschreitungen in Franz Suess’_ Paul Zwei. In: Anna Beckmann, Kalina Kupczyńska, Marie Schröer u. Véronique Sina (Hg.): Comics und Intersektionalität. Berlin, Boston: de Gruyter 2024 (Comicstudien 3), S. 135–150. [https://doi.org/10.1515/9783110799385-011](https://doi.org/10.1515/9783110799385-011)
 - M. Rauchenbacher: _Comics from the German-Language Realm and Health Humanities: An Overview._ In: Stephanie M. Hilger (Hg.): The Health Humanities in German Studies. London: Bloomsbury 2024, S. 79–98. [https://doi.org/10.5040/9781350296220.ch-5](https://doi.org/10.5040/9781350296220.ch-5)
@@ -53,7 +54,6 @@ captionLink: https://julgordon.de/
 - M. Rauchenbacher: _Who (and Where) is *Alice*? Anke Feuchtenberger’s Feminist-Disruptive Identity Criticism._ In: Christian Bachmann, Juliane Blank u. Stephan Packard (Hg.): Comparative Comics Studies. Berlin: Christian A. Bachmann Verlag.
 - M. Rauchenbacher: _]         [. Verstummen und Stille in Ulli Lusts Comic-Adaption von Marcel Beyers Roman_ Flughunde. In: Melanie Unseld u. Akiko Yamada (Hg.): Laute(r) Bilder. Musik in Manga, Comic & Co. (Jahrbuch Musik und Gender, Bd. **).
 - M. Rauchenbacher u. K. Serles: _Gender/Queer Studies / Intersektionalitätsforschung._ In: Juliane Blank u. Stephan Packard (Hg.): Handbuch Comicforschung. Berlin, Boston: de Gruyter.
-- A. Babka u. M. Rauchenbacher: _Queer Studies._ In: Handbuch Kulturwissenschaftliche ‚Studies‘. Hg. v. Jonas Nesselhauf u. Florian Weber. Berlin, Boston: de Gruyter.
 - M. Rauchenbacher: _Comics on Display. Conceptual Remarks on_ Gewalt erzählen. Eine Comic-Ausstellung / Narrating Violence. A Comic Exhibition (_Sigmund Freud Museum Vienna_). In: Elisabeth Krimmer u. Maureen Burdock (Hg.): German Graphic Narratives and Trauma. Rochester: Camden House.
 
 ### Abschlussarbeit
