@@ -19,6 +19,8 @@ captionLink: https://julgordon.de/
 - Hochreiter, Susanne, and Ursula Klingenböck, editors. _Bild ist Text ist Bild: Narration und Ästhetik in der Graphic Novel_. Bielefeld: transcript, 2014.
 
 ### Scientific Articles
+- Babka, Anna, and Marina Rauchenbacher. “Queer Studies.” _Handbuch Kulturwissenschaftliche ‚Studies‘_, edited by Jonas Nesselhauf and Florian Weber. Berlin: Walter de Gruyter, pp. 473–496. [https://doi.org/10.1515/9783110712919-027](https://doi.org/10.1515/9783110712919-027)
+- Rauchenbacher, Marina. “Körper-Zeit-Körper: Zeitkonzepte in Ulli Lusts und Marcel Beyers _Flughunde_.” _Closure: Kieler e-Journal für Comicforschung_, no. 10.5. 2024, pp. 99–117.
 - Rauchenbacher, Marina. “Boote | Grenzen | Unsicherheit: Das gesellschaftspolitische Potenzial von Comics über Flucht und Migration.” _Comics und Intersektionalität_, edited by Anna Beckmann, Kalina Kupczyńska, Marie Schröer, and Véronique Sina. Berlin: Walter de Gruyter, 2024, pp. 117–34. [https://doi.org/10.1515/9783110799385-010](https://doi.org/10.1515/9783110799385-010)
 - Serles, Katharina. “Im Transit verloren: Gender-Grenz-Überschreitungen in Franz Suess’ _Paul Zwei_.” _Comics und Intersektionalität_, edited by Anna Beckmann, Kalina Kupczyńska, Marie Schröer, and Véronique Sina. Berlin: Walter de Gruyter, 2024. pp. 135–50. [https://doi.org/10.1515/9783110799385-011](https://doi.org/10.1515/9783110799385-011)
 - Rauchenbacher, Marina. “Comics from the German-Language Realm and Health Humanities: An Overview.” _The Health Humanities in German Studies_, edited by Stephanie M. Hilger. London: Bloomsbury, 2024, pp. 79–98. [https://doi.org/10.5040/9781350296220.ch-5](https://doi.org/10.5040/9781350296220.ch-5)
@@ -44,7 +46,6 @@ captionLink: https://julgordon.de/
 - Serles, Katharina. “‘Time in comics is infinitely weirder than that’: Zeit- via Bildkonfiguration bei Marc-Antoine Mathieu und Chris Ware.” _Bild ist Text ist Bild: Narration und Ästhetik in der Graphic Novel_, edited by Susanne Hochreiter and Ursula Klingenböck. Bielefeld: transcript, 2014, pp. 79–96.
 
 ### Scientific Articles (forthcoming)
-- Rauchenbacher, Marina. “Körper-Zeit-Körper: Zeitkonzepte in Ulli Lusts und Marcel Beyers _Flughunde_.” _Closure: Kieler e-Journal für Comicforschung_, no. 10.5.
 - Hochreiter, Susanne. “Fantastillionen und arme Schlucker. Ein Essay über Gender, Begehren und soziale Klasse in Entenhausen.” _Comics Studies x Gender Studies: Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice_, edited by Marina Rauchenbacher, Katharina Serles, and Naomi Lobnig in collaboration with Susanne Hochreiter. Berlin: Walter de Gruyter.
 - Lobnig, Naomi. “Alternative Betrachtungsweisen des alternden Körpers in Lika Nüsslis _Vergiss dich nicht_.” _Comics Studies x Gender Studies: Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice_, edited by Marina Rauchenbacher, Katharina Serles, and Naomi Lobnig in collaboration with Susanne Hochreiter. Berlin: Walter de Gruyter.
 - Lobnig, Naomi. “Queere Beziehungsweisen in Küsse für Jet und abfackeln.” _Comics Studies x Gender Studies: Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice_, edited by Marina Rauchenbacher, Katharina Serles, and Naomi Lobnig in collaboration with Susanne Hochreiter. Berlin: Walter de Gruyter.
@@ -54,7 +55,6 @@ captionLink: https://julgordon.de/
 - Rauchenbacher, Marina. “Comics on Display: Conceptual Remarks on _Gewalt erzählen. Eine Comic-Ausstellung / Narrating Violence. A Comic Exhibition (Sigmund Freud Museum Vienna)_.” _German Graphic Narratives and Trauma_, edited by Elisabeth Krimmer and Maureen Burdock. Rochester: Camden House.
 - Rauchenbacher, Marina, and Katharina Serles. “Gender/Queer Studies / Intersektionalitätsforschung.” _Handbuch Comicforschung_, edited by Juliane Blank and Stephan Packard. Berlin: Walter de Gruyter.
 - Rauchenbacher, Marina. “Who (and Where) is *Alice*? Anke Feuchtenberger’s Feminist-Disruptive Identity Criticism.” _Comparative Comics Studies_, edited by Christian Bachmann, Juliane Blank, and Stephan Packard. Berlin: Christian A. Bachmann Verlag.
-- Babka, Anna, and Marina Rauchenbacher. “Queer Studies.” _Handbuch Kulturwissenschaftliche ‚Studies‘_, edited by Jonas Nesselhauf and Florian Weber. Berlin: Walter de Gruyter.
 
 ### Master Thesis
 - Höfer, Ines Christina. _Queere Beziehungsgeflechte und Identitätsfragen in Entenhausen: Ein Queer Reading ausgewählter Comics_. University of Vienna, Master thesis, 2023 (under the supervision of Susanne Hochreiter).
@@ -84,6 +84,7 @@ captionLink: https://julgordon.de/
 - Serles, Katharina. “Gemachter Sex.” _Spring_, no. 16, 2020, pp. 4–5.
 
 # Talks and Presentations
+- Rauchenbacher, Marina. _Seeing (with) Medusa. Counter-readings on Demonization in Literature and Comics_. Annual Women in German Conference, October 24–26, 2024.
 - Serles, Katharina. _“Du siehst aus wie ein Bauer”: Verkörperte Klasse in Eva Müllers_ Scheiblettenkind (2023). Comicsalon Erlangen, June 2, 2024.
 - Rauchenbacher, Marina. _Arranged in Color: Janne Marie Dauer’s Adaptation of Bov Bjerg’s Novel_ Auerhaus. Workshop _Narrative Transfers: From the Literary to the Graphic_, Université Paul Valéry-Montpellier 3, April 25, 2024.
 - Serles, Katharina.  _“Kauf dir mal ein Buch. Loser!” Klasse, Körper und Kanon in Eva Müllers_ Scheiblettenkind (2023). Annual Conference of the German Society for Comic Studies, Stiftung Akademie Waldschlösschen, Gleichen, December 11–13, 2023.
