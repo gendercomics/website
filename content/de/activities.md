@@ -19,6 +19,7 @@ captionLink: https://julgordon.de/
 - S. Hochreiter u. U. Klingenböck (Hg.): _Bild ist Text ist Bild: Narration und Ästhetik in der Graphic Novel_. Bielefeld: transcript 2014.
 
 ### Wissenschaftliche Aufsätze
+- M. Rauchenbacher: _Körper-Zeit-Körper. Zeitkonzepte in Ulli Lusts und Marcel Beyers_ Flughunde. In: closure. Kieler e-Journal für Comicforschung. Special Issue: _ChronoCorpoRealities. Embodied Perceptions of ‘Extraordinary’ Time in Comics / KörperZeitBilder. Darstellungen ‚anderen‘ Zeiterlebens im Comic_ 10.5 (2024). Hg. v. Irmela Marei Krüger-Fürhoff u. Nina Schmidt.
 - M. Rauchenbacher: _Boote | Grenzen | Unsicherheit. Das gesellschaftspolitische Potenzial von Comics über Flucht und Migration_ In: Anna Beckmann, Kalina Kupczyńska, Marie Schröer u. Véronique Sina (Hg.): Comics und Intersektionalität. Berlin, Boston: de Gruyter 2024 (Comicstudien 3), S. 117–134. [https://doi.org/10.1515/9783110799385-010](https://doi.org/10.1515/9783110799385-010)
 - K. Serles: _Im Transit verloren. Gender-Grenz-Überschreitungen in Franz Suess’_ Paul Zwei. In: Anna Beckmann, Kalina Kupczyńska, Marie Schröer u. Véronique Sina (Hg.): Comics und Intersektionalität. Berlin, Boston: de Gruyter 2024 (Comicstudien 3), S. 135–150. [https://doi.org/10.1515/9783110799385-011](https://doi.org/10.1515/9783110799385-011)
 - M. Rauchenbacher: _Comics from the German-Language Realm and Health Humanities: An Overview._ In: Stephanie M. Hilger (Hg.): The Health Humanities in German Studies. London: Bloomsbury 2024, S. 79–98. [https://doi.org/10.5040/9781350296220.ch-5](https://doi.org/10.5040/9781350296220.ch-5)
@@ -44,7 +45,6 @@ captionLink: https://julgordon.de/
 - K. Serles: _„Time in comics is infinitely weirder than that.“ Zeit- via Bildkonfiguration bei Marc-Antoine Mathieu und Chris Ware._ In: Susanne Hochreiter u. Ursula Klingenböck (Hg.): Bild ist Text ist Bild. Narration und Ästhetik in der Graphic Novel. Bielefeld: transcript 2014, S. 79–96.
 
 ### Wissenschaftliche Aufsätze in Druck/im Entstehen:
-- M. Rauchenbacher: _Körper-Zeit-Körper. Zeitkonzepte in Ulli Lusts und Marcel Beyers_ Flughunde. In: closure. Kieler e-Journal für Comicforschung. Special Issue: _ChronoCorpoRealities. Embodied Perceptions of ‘Extraordinary’ Time in Comics / KörperZeitBilder. Darstellungen ‚anderen‘ Zeiterlebens im Comic_ 10.5 (2024). Hg. v. Irmela Marei Krüger-Fürhoff u. Nina Schmidt.
 - S. Hochreiter: _Fantastillionen und arme Schlucker. Ein Essay über Gender, Begehren und soziale Klasse in Entenhausen._ In: M. Rauchenbacher, K. Serles u. N. Lobnig (Hg.): Comics Studies x Gender Studies. Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice. Unter Mitarbeit von Susanne Hochreiter. Berlin, Boston: de Gruyter (Comicstudien).
 - N. Lobnig: _Alternative Betrachtungsweisen des alternden Körpers in Lika Nüsslis_ Vergiss dich nicht. In: M. Rauchenbacher, K. Serles u. N. Lobnig (Hg.): Comics Studies x Gender Studies. Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice. Unter Mitarbeit von Susanne Hochreiter. Berlin, Boston: de Gruyter (Comicstudien).
 - N. Lobnig: _Queere_ Beziehungsweisen _in_ Küsse für Jet _und_ abfackeln. In: M. Rauchenbacher, K. Serles u. N. Lobnig (Hg.): Comics Studies x Gender Studies. Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice. Unter Mitarbeit von Susanne Hochreiter. Berlin, Boston: de Gruyter (Comicstudien).
@@ -85,6 +85,7 @@ captionLink: https://julgordon.de/
 - K. Serles: _Gemachter Sex._ In: Spring. _Sex_ 16 (2020), S. 4–5.
 
 # Wissenschaftliche Vorträge
+- M. Rauchenbacher: _Seeing (with) Medusa. Counter-readings on Demoniziation in Literature and Comics_, Annual Women in German Conference, 24.–26. Oktober 2024.
 - K. Serles: _„Du siehst aus wie ein Bauer.“ Verkörperte Klasse in Eva Müllers_ Scheiblettenkind (2023), Comicsalon Erlangen, 2. Juni 2024.
 - M. Rauchenbacher: _Arranged in Color. Janne Marie Dauer’s Adaptation of Bov Bjerg’s Novel_ Auerhaus, Narrative Transfers. From the Literary to the Graphic, Université Paul Valéry-Montpellier 3, online, 25. April 2024.
 - K. Serles: _„Kauf dir mal ein Buch. Loser!“ Klasse, Körper und Kanon in Eva Müllers Scheiblettenkind (2023)_, Jahrestagung der Gesellschaft für Comicforschung (ComFor), Stiftung Akademie Waldschlösschen, Gleichen, 11.–13. Dezember 2023.
