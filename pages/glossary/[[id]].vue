@@ -59,13 +59,13 @@ onMounted(() => {
               :key="idx"
             >
               <div v-if="related.source.id === keywordId">
-                <green-button
+                <outline-button
                   v-if="locale === 'de'"
                   :text="related.source.values.de.name"
                   class="pr-1r pb-1r"
                   highlight
                 />
-                <green-button
+                <outline-button
                   v-else
                   :text="related.source.values.en.name"
                   class="pr-1r pb-1r"
@@ -73,12 +73,12 @@ onMounted(() => {
                 />
               </div>
               <div v-else>
-                <green-button
+                <outline-button
                   v-if="locale === 'de'"
                   :text="related.source.values.de.name"
                   class="pr-1r pb-1r"
                 />
-                <green-button
+                <outline-button
                   v-else
                   :text="related.source.values.en.name"
                   class="pr-1r pb-1r"
