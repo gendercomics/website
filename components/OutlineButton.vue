@@ -56,8 +56,6 @@ const hasLink = computed(() => {
   color: var(--gc-green);
   border: 2px solid var(--gc-green);
   border-radius: 50px;
-  width: 220px;
-  height: 40px;
 
   font-family: var(--gc-font-family-george-rounded), sans-serif;
   font-style: var(--gc-font-style-normal);
