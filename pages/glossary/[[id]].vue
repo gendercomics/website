@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import DividerRedArrow from '~/components/DividerRedArrow.vue'
 import { useAsyncData } from '#app'
 
@@ -7,6 +7,13 @@ const route = useRoute()
 const fullPath = ref(route.fullPath)
 const keywordId = route.params.id
 const appConfig = useAppConfig()
+
+const filter = defineModel({
+  power: false,
+  health: false,
+  sex: false,
+  age: false,
+})
 
 const index = await useAsyncData(fullPath.value, () =>
   queryContent('/' + locale.value + '/glossary')
@@ -45,7 +52,16 @@ onMounted(() => {
 
       <divider b1 b2 t3 t4 b5 b6 />
 
-      <!-- TODO button-block -->
+      <!-- TODO button-block      -->
+      <div class="border-right-green w-100 column">
+        <keyword-filter v-model="filter" class="border-left-green w-100" />
+        <div>
+          <img
+            src="@/assets/images/corner-green-line-3-100px.svg"
+            class="corner-left-img"
+          />
+        </div>
+      </div>
 
       <!-- keyword block -->
       <div class="kw-container">
@@ -105,5 +121,12 @@ onMounted(() => {
 
 .mb-2r {
   margin-bottom: 2rem;
+}
+
+.corner-left-img {
+  display: flex;
+  justify-content: flex-start;
+  width: 100px;
+  height: 100px;
 }
 </style>
