@@ -21,7 +21,7 @@ const { data, status, error, refresh, clear } = await useFetch(
 */
 
 const { data, status, error, refresh, clear } = await useFetch(
-  appConfig.dbApiBaseUrl + '/keywords/top',
+  appConfig.dbApiBaseUrl + '/keywords?type=content',
 )
 
 onMounted(() => {
@@ -43,53 +43,33 @@ onMounted(() => {
 
       <divider-red-arrow />
 
-      <div v-for="(kw, index) in data" :key="index">
-        <divider b1 b2 t3 t4 b5 b6 />
-        <div class="border-green-left-right">
-          <div class="kw-container">
-            <div class="w-100 mb-2r">
-              <h1 v-if="locale === 'de'" class="mt-5">
-                {{ kw.values.de.name }}
-              </h1>
-              <h1 v-else class="mt-5">{{ kw.values.en.name }}</h1>
-            </div>
-            <div
-              class="kw-container"
-              v-for="(related, idx) in kw.relations"
-              :key="idx"
-            >
-              <div v-if="related.source.id === keywordId">
-                <outline-button
-                  v-if="locale === 'de'"
-                  :text="related.source.values.de.name"
-                  class="pr-1r pb-1r"
-                  highlight
-                />
-                <outline-button
-                  v-else
-                  :text="related.source.values.en.name"
-                  class="pr-1r pb-1r"
-                  highlight
-                />
-              </div>
-              <div v-else>
-                <outline-button
-                  v-if="locale === 'de'"
-                  :text="related.source.values.de.name"
-                  class="pr-1r pb-1r"
-                />
-                <outline-button
-                  v-else
-                  :text="related.source.values.en.name"
-                  class="pr-1r pb-1r"
-                />
-              </div>
-            </div>
+      <divider b1 b2 t3 t4 b5 b6 />
+
+      <!-- TODO button-block -->
+
+      <!-- keyword block -->
+      <div class="kw-container">
+        <div v-for="(kw, index) in data" :key="index">
+          <div>
+            <outline-button
+              v-if="locale === 'de'"
+              :text="kw.values.de.name"
+              class="pr-1r pb-1r"
+            />
+            <outline-button
+              v-else
+              :text="kw.values.en.name"
+              class="pr-1r pb-1r"
+            />
           </div>
         </div>
-
-        <divider t1 b2 b3 b4 b5 t6 />
       </div>
+
+      <!-- keyword block end -->
+
+      <divider b4 b5 t6 />
+
+      <!-- TODO text block for cluster description -->
 
       <divider-red-arrow />
     </div>
@@ -113,6 +93,10 @@ onMounted(() => {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: flex-end;
+  padding-right: 4rem;
+  padding-left: 4rem;
+  border-right: solid 2px var(--gc-green);
 }
 
 .w-100 {
