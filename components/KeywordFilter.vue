@@ -46,10 +46,10 @@ de:
   power: Macht Gewalt
   health: Gesundheit Krankheit Dis_ability
   sex: Geschlecht Sexualität
-  age: Alter Entwicklung Identität
+  age: Entwicklung Identität
 en:
   power: Power Violence
   health: Health Illness Dis_ability
   sex: Gender Sexuality
-  age: Age Development Identity
+  age: Development Identity
 </i18n>
