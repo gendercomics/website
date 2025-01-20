@@ -64,6 +64,11 @@ onMounted(() => {
         </div>
       </div>
 
+      <!-- frame block -->
+      <div>
+        <!-- place image here -->
+      </div>
+
       <!-- Filter reset block -->
       <div class="border-right-green w-100 column">
         <div class="filter-reset-container">
