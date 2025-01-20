@@ -59,7 +59,23 @@ onMounted(() => {
           <img
             src="@/assets/images/corner-green-line-3-100px.svg"
             class="corner-left-img"
+            alt=""
           />
+        </div>
+      </div>
+
+      <!-- Filter reset block -->
+      <div class="border-right-green w-100 column">
+        <div class="filter-reset-container">
+          <div>
+            <img
+              src="@/assets/images/corner-green-1-50px(buttons).svg"
+              alt=""
+              class="corner-1"
+            />
+            <divider-red-arrow up class="red-arrow" />
+          </div>
+          <div class="font-filter-active filter-reset-btn">Filter aufheben</div>
         </div>
       </div>
 
@@ -128,5 +144,42 @@ onMounted(() => {
   justify-content: flex-start;
   width: 100px;
   height: 100px;
+}
+
+.corner-1-50 {
+  width: 50px;
+  height: 50px;
+}
+
+.filter-reset-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding-bottom: 2rem;
+  transform: translateY(-2px);
+}
+
+.filter-reset-btn {
+  display: flex;
+  cursor: pointer;
+  width: 200px;
+}
+
+.font-filter-active {
+  font-family: var(--gc-font-family-george-rounded), sans-serif;
+  font-style: var(--gc-font-style-normal);
+  font-weight: var(--gc-font-weight-bold);
+  font-size: var(--gc-font-size-32);
+  line-height: var(--gc-line-spacing-35);
+  color: var(--gc-red);
+  text-transform: var(--gc-text-transform-uppercase);
+}
+
+.corner-1 {
+  transform: translateX(-12px);
+}
+
+.red-arrow {
+  transform: translatey(-4px);
 }
 </style>
