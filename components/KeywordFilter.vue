@@ -2,25 +2,37 @@
 const { t } = useI18n({
   useScope: 'local',
 })
+
 const filter = defineModel({
   power: false,
   health: false,
   sex: false,
-  age: false,
+  development: false,
 })
 </script>
 
 <template>
   <div>
     <div class="container-row row-height">
-        <div>
-          <bubble-button :label="t('power')" class="pr-1r" />
-          <bubble-button :label="t('health')" class="pr-1r" />
-          <bubble-button :label="t('sex')" class="pr-1r" />
-          <bubble-button :label="t('age')" class="pr-1r" />
-        </div>
+      <div>
+        <bubble-button
+          :label="t('power')"
+          class="pr-1r"
+          v-model="filter.power"
+        />
+        <bubble-button
+          :label="t('health')"
+          class="pr-1r"
+          v-model="filter.health"
+        />
+        <bubble-button :label="t('sex')" class="pr-1r" v-model="filter.sex" />
+        <bubble-button
+          :label="t('development')"
+          class="pr-1r"
+          v-model="filter.development"
+        />
       </div>
-
+    </div>
 
     <div class="container-row"></div>
   </div>
@@ -46,10 +58,10 @@ de:
   power: Macht Gewalt
   health: Gesundheit Krankheit Dis_ability
   sex: Geschlecht Sexualität
-  age: Entwicklung Identität
+  development: Entwicklung Identität
 en:
   power: Power Violence
   health: Health Illness Dis_ability
   sex: Gender Sexuality
-  age: Development Identity
+  development: Development Identity
 </i18n>

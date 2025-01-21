@@ -8,28 +8,53 @@ const fullPath = ref(route.fullPath)
 const keywordId = route.params.id
 const appConfig = useAppConfig()
 
-const filter = defineModel({
+const filter = reactive({
   power: false,
   health: false,
   sex: false,
-  age: false,
+  development: false,
 })
 
+const clusterIds = {
+  power: '66bb37ed01c0892ad764274e',
+  health: '2',
+  sex: '3',
+  development: '4',
+}
 const index = await useAsyncData(fullPath.value, () =>
   queryContent('/' + locale.value + '/glossary')
     .where({ type: 'index' })
     .findOne(),
 )
 
-/*
-const { data, status, error, refresh, clear } = await useFetch(
-  appConfig.dbApiBaseUrl + '/keywords/' + keywordId,
-)
-*/
-
 const { data, status, error, refresh, clear } = await useFetch(
   appConfig.dbApiBaseUrl + '/keywords?type=content',
 )
+
+let cluster = {}
+let keywordIds = []
+
+async function getCluster(clusterId) {
+  try {
+    cluster = await $fetch(
+      appConfig.dbApiBaseUrl + '/keyword/cluster/' + clusterId,
+      {
+        //query: { searchTerm: searchInput.searchTerm },
+        method: 'GET',
+        contentType: 'application/json',
+      },
+    )
+  } catch (error) {
+    console.error('Search request failed:', error)
+  }
+}
+
+watch(filter, () => {
+  console.log('clusterFilter changed: ' + JSON.stringify(filter))
+  for (const k in filter) {
+    console.log('filer:' + k + '=' + filter[k] + ' clusterId: ' + clusterIds[k])
+  }
+})
 
 onMounted(() => {
   //console.log('top level keywords: ' + JSON.stringify(data))
@@ -52,7 +77,7 @@ onMounted(() => {
 
       <divider b1 b2 t3 t4 b5 b6 />
 
-      <!-- TODO button-block      -->
+      <!-- button-block      -->
       <div class="border-right-green w-100 column">
         <keyword-filter v-model="filter" class="border-left-green w-100" />
         <div>
