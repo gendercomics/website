@@ -17,47 +17,65 @@ const filter = reactive({
 
 const clusterIds = {
   power: '66bb37ed01c0892ad764274e',
-  health: '2',
-  sex: '3',
-  development: '4',
+  health: '6627a7e069717325da0968ab',
+  sex: '638f1f5769717325da0968a3',
+  development: '66bb381901c0892ad764274f',
 }
+
+const clusters = reactive({
+  power: {},
+  health: {},
+  sex: {},
+  development: {},
+})
+
 const index = await useAsyncData(fullPath.value, () =>
   queryContent('/' + locale.value + '/glossary')
     .where({ type: 'index' })
     .findOne(),
 )
 
-const { data, status, error, refresh, clear } = await useFetch(
-  appConfig.dbApiBaseUrl + '/keywords?type=content',
+const {
+  data: kw,
+  status: kwStatus,
+  error: kwError,
+  refresh: kwRefresh,
+  clear: kwClear,
+} = await useFetch(appConfig.dbApiBaseUrl + '/keywords?type=content')
+
+const {
+  data: clusterPower,
+  status: cpStatus,
+  error: cpError,
+  refresh: cpRefresh,
+} = await useFetch(appConfig.dbApiBaseUrl + '/keywords/' + clusterIds.power)
+
+const {
+  data: clusterHealth,
+  status: chStatus,
+  error: chError,
+  refresh: chRefresh,
+} = await useFetch(appConfig.dbApiBaseUrl + '/keywords/' + clusterIds.health)
+
+const {
+  data: clusterSex,
+  status: csStatus,
+  error: csError,
+  refresh: csRefresh,
+} = await useFetch(appConfig.dbApiBaseUrl + '/keywords/' + clusterIds.sex)
+
+const {
+  data: clusterDevelopment,
+  status: cdStatus,
+  error: cdError,
+  refresh: cdRefresh,
+} = await useFetch(
+  appConfig.dbApiBaseUrl + '/keywords/' + clusterIds.development,
 )
-
-let cluster = {}
-let keywordIds = []
-
-async function getCluster(clusterId) {
-  try {
-    cluster = await $fetch(
-      appConfig.dbApiBaseUrl + '/keyword/cluster/' + clusterId,
-      {
-        //query: { searchTerm: searchInput.searchTerm },
-        method: 'GET',
-        contentType: 'application/json',
-      },
-    )
-  } catch (error) {
-    console.error('Search request failed:', error)
-  }
-}
-
-watch(filter, () => {
-  console.log('clusterFilter changed: ' + JSON.stringify(filter))
-  for (const k in filter) {
-    console.log('filer:' + k + '=' + filter[k] + ' clusterId: ' + clusterIds[k])
-  }
-})
 
 onMounted(() => {
   //console.log('top level keywords: ' + JSON.stringify(data))
+  console.log('onMounted')
 })
 </script>
 
@@ -111,7 +129,7 @@ onMounted(() => {
 
       <!-- keyword block -->
       <div class="kw-container">
-        <div v-for="(kw, index) in data" :key="index">
+        <div v-for="(kw, index) in kw" :key="index">
           <div>
             <outline-button
               v-if="locale === 'de'"
@@ -130,10 +148,58 @@ onMounted(() => {
       <!-- keyword block end -->
 
       <divider b4 b5 t6 />
+      <divider-red-arrow />
 
       <!-- TODO text block for cluster description -->
+      <div>
+        <!-- display power/violence keyword description -->
+        <div v-if="filter.power" class="column">
+          <div v-if="locale === 'de'">
+            <h1>{{ clusterPower.values.de.name }}</h1>
+            <div>{{ clusterPower.values.de.description }}</div>
+          </div>
+          <div v-else-if="locale === 'en'">
+            <h1>{{ clusterPower.values.en.name }}</h1>
+            <div>{{ clusterPower.values.en.description }}</div>
+          </div>
+        </div>
 
-      <divider-red-arrow />
+        <!-- display health/illness/dis_ability keyword description -->
+        <div v-if="filter.health" class="column">
+          <div v-if="locale === 'de'">
+            <h1>{{ clusterHealth.values.de.name }}</h1>
+            <div>{{ clusterHealth.values.en.description }}</div>
+          </div>
+          <div v-else-if="locale === 'en'">
+            <h1>{{ clusterHealth.values.en.name }}</h1>
+            <div>{{ clusterHealth.values.en.description }}</div>
+          </div>
+        </div>
+
+        <!-- display gender/sexuality keyword description -->
+        <div v-if="filter.sex" class="column">
+          <div v-if="locale === 'de'">
+            <h1>{{ clusterSex.values.de.name }}</h1>
+            <div>{{ clusterSex.values.en.description }}</div>
+          </div>
+          <div v-else-if="locale === 'en'">
+            <h1>{{ clusterSex.values.en.name }}</h1>
+            <div>{{ clusterSex.values.en.description }}</div>
+          </div>
+        </div>
+
+        <!-- display development/identity keyword description -->
+        <div v-if="filter.development" class="column">
+          <div v-if="locale === 'de'">
+            <h1>{{ clusterDevelopment.values.de.name }}</h1>
+            <div>{{ clusterDevelopment.values.en.description }}</div>
+          </div>
+          <div v-else-if="locale === 'en'">
+            <h1>{{ clusterDevelopment.values.en.name }}</h1>
+            <div>{{ clusterDevelopment.values.en.description }}</div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -213,3 +279,16 @@ onMounted(() => {
   transform: translatey(-4px);
 }
 </style>
+
+<i18n lang="yaml">
+de:
+  power: Macht/Gewalt
+  health: Gesundheit/Krankheit/Dis_ability
+  sex: Geschlecht/Sexualität
+  development: Entwicklung/Identität
+en:
+  power: Power/Violence
+  health: Health/Illness/Dis_ability
+  sex: Gender/Sexuality
+  development: Development/Identity
+</i18n>
