@@ -22,13 +22,6 @@ const clusterIds = {
   development: '66bb381901c0892ad764274f',
 }
 
-const clusters = reactive({
-  power: {},
-  health: {},
-  sex: {},
-  development: {},
-})
-
 const index = await useAsyncData(fullPath.value, () =>
   queryContent('/' + locale.value + '/glossary')
     .where({ type: 'index' })
@@ -72,6 +65,10 @@ const {
 } = await useFetch(
   appConfig.dbApiBaseUrl + '/keywords/' + clusterIds.development,
 )
+
+const allKeywords = computed(() => {
+  return !filter.power && !filter.health && !filter.sex && !filter.development
+})
 
 onMounted(() => {
   //console.log('top level keywords: ' + JSON.stringify(data))
@@ -128,7 +125,8 @@ onMounted(() => {
       </div>
 
       <!-- keyword block -->
-      <div class="kw-container">
+      <!-- display all keywords -->
+      <div class="kw-container" v-if="allKeywords">
         <div v-for="(kw, index) in kw" :key="index">
           <div>
             <outline-button
@@ -139,6 +137,78 @@ onMounted(() => {
             <outline-button
               v-else
               :text="kw.values.en.name"
+              class="pr-1r pb-1r"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- display keywords of cluster power/violence-->
+      <div class="kw-container" v-if="filter.power">
+        <div v-for="(kw, index) in clusterPower.relations" :key="index">
+          <div>
+            <outline-button
+              v-if="locale === 'de'"
+              :text="kw.source.values.de.name"
+              class="pr-1r pb-1r"
+            />
+            <outline-button
+              v-else
+              :text="kw.source.values.en.name"
+              class="pr-1r pb-1r"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- display keywords of cluster health/illness/dis_ability -->
+      <div class="kw-container" v-if="filter.health">
+        <div v-for="(kw, index) in clusterHealth.relations" :key="index">
+          <div>
+            <outline-button
+              v-if="locale === 'de'"
+              :text="kw.source.values.de.name"
+              class="pr-1r pb-1r"
+            />
+            <outline-button
+              v-else
+              :text="kw.source.values.en.name"
+              class="pr-1r pb-1r"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- display keywords of cluster gender/sexuality -->
+      <div class="kw-container" v-if="filter.sex">
+        <div v-for="(kw, index) in clusterSex.relations" :key="index">
+          <div>
+            <outline-button
+              v-if="locale === 'de'"
+              :text="kw.source.values.de.name"
+              class="pr-1r pb-1r"
+            />
+            <outline-button
+              v-else
+              :text="kw.source.values.en.name"
+              class="pr-1r pb-1r"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- display keywords of cluster development/identity -->
+      <div class="kw-container" v-if="filter.development">
+        <div v-for="(kw, index) in clusterDevelopment.relations" :key="index">
+          <div>
+            <outline-button
+              v-if="locale === 'de'"
+              :text="kw.source.values.de.name"
+              class="pr-1r pb-1r"
+            />
+            <outline-button
+              v-else
+              :text="kw.source.values.en.name"
               class="pr-1r pb-1r"
             />
           </div>
