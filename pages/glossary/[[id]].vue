@@ -69,11 +69,6 @@ const {
 const allKeywords = computed(() => {
   return !filter.power && !filter.health && !filter.sex && !filter.development
 })
-
-onMounted(() => {
-  //console.log('top level keywords: ' + JSON.stringify(data))
-  console.log('onMounted')
-})
 </script>
 
 <template>
@@ -226,11 +221,11 @@ onMounted(() => {
         <div v-if="filter.power" class="column">
           <div v-if="locale === 'de'">
             <h1>{{ clusterPower.values.de.name }}</h1>
-            <div>{{ clusterPower.values.de.description }}</div>
+            <div v-html="clusterPower.values.de.description" />
           </div>
           <div v-else-if="locale === 'en'">
             <h1>{{ clusterPower.values.en.name }}</h1>
-            <div>{{ clusterPower.values.en.description }}</div>
+            <div v-html="clusterPower.values.en.description" />
           </div>
         </div>
 
@@ -238,11 +233,11 @@ onMounted(() => {
         <div v-if="filter.health" class="column">
           <div v-if="locale === 'de'">
             <h1>{{ clusterHealth.values.de.name }}</h1>
-            <div>{{ clusterHealth.values.en.description }}</div>
+            <div v-html="clusterHealth.values.de.description" />
           </div>
           <div v-else-if="locale === 'en'">
             <h1>{{ clusterHealth.values.en.name }}</h1>
-            <div>{{ clusterHealth.values.en.description }}</div>
+            <div v-html="clusterHealth.values.en.description" />
           </div>
         </div>
 
@@ -250,11 +245,11 @@ onMounted(() => {
         <div v-if="filter.sex" class="column">
           <div v-if="locale === 'de'">
             <h1>{{ clusterSex.values.de.name }}</h1>
-            <div>{{ clusterSex.values.en.description }}</div>
+            <div v-html="clusterSex.values.de.description" />
           </div>
           <div v-else-if="locale === 'en'">
             <h1>{{ clusterSex.values.en.name }}</h1>
-            <div>{{ clusterSex.values.en.description }}</div>
+            <div v-html="clusterSex.values.en.description" />
           </div>
         </div>
 
@@ -262,11 +257,11 @@ onMounted(() => {
         <div v-if="filter.development" class="column">
           <div v-if="locale === 'de'">
             <h1>{{ clusterDevelopment.values.de.name }}</h1>
-            <div>{{ clusterDevelopment.values.en.description }}</div>
+            <div v-html="clusterDevelopment.values.de.description" />
           </div>
           <div v-else-if="locale === 'en'">
             <h1>{{ clusterDevelopment.values.en.name }}</h1>
-            <div>{{ clusterDevelopment.values.en.description }}</div>
+            <div v-html="clusterDevelopment.values.en.description" />
           </div>
         </div>
       </div>
