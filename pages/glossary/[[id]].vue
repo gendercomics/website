@@ -216,9 +216,11 @@ const allKeywords = computed(() => {
       <divider-red-arrow />
 
       <!-- TODO text block for cluster description -->
-      <div>
-        <!-- display power/violence keyword description -->
-        <div v-if="filter.power" class="column">
+
+      <!-- display power/violence keyword description -->
+      <div v-if="filter.power" class="container">
+        <divider b1green b2 t3 t4 b5 b6 />
+        <div class="text-container">
           <div v-if="locale === 'de'">
             <h1>{{ clusterPower.values.de.name }}</h1>
             <div v-html="clusterPower.values.de.description" />
@@ -228,9 +230,14 @@ const allKeywords = computed(() => {
             <div v-html="clusterPower.values.en.description" />
           </div>
         </div>
+        <divider t1 b2 b3 b4 b5 t6 />
+        <divider-red-arrow />
+      </div>
 
-        <!-- display health/illness/dis_ability keyword description -->
-        <div v-if="filter.health" class="column">
+      <!-- display health/illness/dis_ability keyword description -->
+      <div v-if="filter.health" class="container">
+        <divider b1green b2 t3 t4 b5 b6 />
+        <div class="text-container">
           <div v-if="locale === 'de'">
             <h1>{{ clusterHealth.values.de.name }}</h1>
             <div v-html="clusterHealth.values.de.description" />
@@ -240,9 +247,14 @@ const allKeywords = computed(() => {
             <div v-html="clusterHealth.values.en.description" />
           </div>
         </div>
+        <divider t1 b2 b3 b4 b5 t6 />
+        <divider-red-arrow />
+      </div>
 
-        <!-- display gender/sexuality keyword description -->
-        <div v-if="filter.sex" class="column">
+      <!-- display gender/sexuality keyword description -->
+      <div v-if="filter.sex" class="container">
+        <divider b1green b2 t3 t4 b5 b6 />
+        <div class="text-container">
           <div v-if="locale === 'de'">
             <h1>{{ clusterSex.values.de.name }}</h1>
             <div v-html="clusterSex.values.de.description" />
@@ -252,9 +264,14 @@ const allKeywords = computed(() => {
             <div v-html="clusterSex.values.en.description" />
           </div>
         </div>
+        <divider t1 b2 b3 b4 b5 t6 />
+        <divider-red-arrow />
+      </div>
 
-        <!-- display development/identity keyword description -->
-        <div v-if="filter.development" class="column">
+      <!-- display development/identity keyword description -->
+      <div v-if="filter.development" class="container">
+        <divider b1green b2 t3 t4 b5 b6 />
+        <div class="text-container">
           <div v-if="locale === 'de'">
             <h1>{{ clusterDevelopment.values.de.name }}</h1>
             <div v-html="clusterDevelopment.values.de.description" />
@@ -264,6 +281,8 @@ const allKeywords = computed(() => {
             <div v-html="clusterDevelopment.values.en.description" />
           </div>
         </div>
+        <divider t1 b2 b3 b4 b5 t6 />
+        <divider-red-arrow />
       </div>
     </div>
   </div>
@@ -274,6 +293,16 @@ const allKeywords = computed(() => {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  border-left: solid 2px var(--gc-green);
+  border-right: solid 2px var(--gc-green);
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .column {
