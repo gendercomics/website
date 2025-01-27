@@ -2,11 +2,23 @@
 import DividerRedArrow from '~/components/DividerRedArrow.vue'
 import { useAsyncData } from '#app'
 
+const searchStore = useSearchStore()
 const { locale } = useI18n()
 const route = useRoute()
 const fullPath = ref(route.fullPath)
 const keywordId = route.params.id
 const appConfig = useAppConfig()
+
+const searchInput = reactive({
+  searchTerm: '',
+  searchFilter: {
+    comics: true,
+    persons: true,
+    publishers: false,
+    keywords: false,
+  },
+  language: locale.value,
+})
 
 const filter = reactive({
   power: false,
@@ -69,6 +81,17 @@ const {
 const allKeywords = computed(() => {
   return !filter.power && !filter.health && !filter.sex && !filter.development
 })
+
+function searchDb(kw) {
+  console.log('search db for keyword: ' + kw)
+  searchInput.searchTerm = kw
+  searchInput.searchFilter.comics = false
+  searchInput.searchFilter.persons = false
+  searchInput.searchFilter.publishers = false
+  searchInput.searchFilter.keywords = true
+  searchStore.setSearchInput(searchInput)
+  navigateTo('/database')
+}
 </script>
 
 <template>
@@ -132,6 +155,7 @@ const allKeywords = computed(() => {
               v-if="locale === 'de'"
               :text="kw.values.de.name"
               class="pr-1r pb-1r"
+              @click="searchDb(kw.values.de.name)"
             />
             <outline-button
               v-else
