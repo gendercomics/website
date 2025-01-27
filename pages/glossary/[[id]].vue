@@ -88,14 +88,18 @@ const allKeywords = computed(() => {
       <divider b1 b2 t3 t4 b5 b6 />
 
       <!-- button-block      -->
-      <div class="border-right-green w-100 column">
-        <keyword-filter v-model="filter" class="border-left-green w-100" />
-        <div>
+      <div class="border-right-green w-100 mr-2px">
+        <keyword-filter
+          v-model="filter"
+          class="border-left-green w-100 ml-2px"
+        />
+        <div class="w-100 ml-2px">
           <img
             src="@/assets/images/corner-green-line-3-100px.svg"
             class="corner-left-img"
             alt=""
           />
+          <div class="btn-border-bottom mt--2" />
         </div>
       </div>
 
@@ -105,7 +109,7 @@ const allKeywords = computed(() => {
       </div>
 
       <!-- Filter reset block -->
-      <div class="border-right-green w-100 column">
+      <div class="border-right-green w-100 mr-2px">
         <div class="filter-reset-container">
           <div>
             <img
@@ -115,7 +119,7 @@ const allKeywords = computed(() => {
             />
             <divider-red-arrow up class="red-arrow" />
           </div>
-          <div class="font-filter-active filter-reset-btn">Filter aufheben</div>
+          <!-- div class="font-filter-active filter-reset-btn">Filter aufheben</div -->
         </div>
       </div>
 
@@ -366,11 +370,25 @@ const allKeywords = computed(() => {
 }
 
 .corner-1 {
-  transform: translateX(-12px);
+  transform: translateX(-74px);
 }
 
 .red-arrow {
-  transform: translatey(-4px);
+  transform: translate(-62px, -4px);
+}
+
+.btn-border-bottom {
+  border-bottom: 2px solid var(--gc-green);
+  margin-left: 100px;
+  margin-right: 150px;
+}
+
+.mr-2px {
+  margin-right: 2px;
+}
+
+.ml-2px {
+  margin-left: 2px;
 }
 </style>
 
