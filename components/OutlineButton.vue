@@ -29,24 +29,12 @@ const hasLink = computed(() => {
 
 <template>
   <div>
-    <nuxt-link
-      :to="props.link"
-      v-if="hasLink"
-      class='outline-button cursor-pointer'
-      :target="props.target"
+    <div
+      class="outline-button cursor-pointer"
       :class="{ highlight: props.highlight }"
     >
       {{ text }}
-    </nuxt-link>
-    <nuxt-link
-      v-else
-      to="#"
-      class='outline-button'
-      :class="{ highlight: props.highlight }"
-    >
-      {{ text }}
-    </nuxt-link>
-
+    </div>
   </div>
 </template>
 
@@ -59,7 +47,7 @@ const hasLink = computed(() => {
 
   font-family: var(--gc-font-family-george-rounded), sans-serif;
   font-style: var(--gc-font-style-normal);
-  font-weight: var(--gc-font-weight-bold );
+  font-weight: var(--gc-font-weight-bold);
   font-size: var(--gc-font-size-16);
   letter-spacing: var(--gc-character-spacing-0-5);
   text-decoration: none;
@@ -75,7 +63,6 @@ const hasLink = computed(() => {
   box-shadow: 0 0 40px 0 var(--gc-green);
 }
 
-
 a[href]:hover {
   color: var(--gc-green);
 }
@@ -84,5 +71,4 @@ a[href]:hover {
   box-shadow: 0 0 20px 0 var(--gc-red);
   background-color: var(--gc-gray);
 }
-
 </style>

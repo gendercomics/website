@@ -82,7 +82,7 @@ const allKeywords = computed(() => {
   return !filter.power && !filter.health && !filter.sex && !filter.development
 })
 
-function searchDb(kw) {
+function setSearchStore(kw) {
   console.log('search db for keyword: ' + kw)
   searchInput.searchTerm = kw
   searchInput.searchFilter.comics = false
@@ -155,12 +155,13 @@ function searchDb(kw) {
               v-if="locale === 'de'"
               :text="kw.values.de.name"
               class="pr-1r pb-1r"
-              @click="searchDb(kw.values.de.name)"
+              @click="setSearchStore(kw.values.de.name)"
             />
             <outline-button
               v-else
               :text="kw.values.en.name"
               class="pr-1r pb-1r"
+              @click="setSearchStore(kw.values.en.name)"
             />
           </div>
         </div>
@@ -174,11 +175,13 @@ function searchDb(kw) {
               v-if="locale === 'de'"
               :text="kw.source.values.de.name"
               class="pr-1r pb-1r"
+              @click="setSearchStore(kw.source.values.de.name)"
             />
             <outline-button
               v-else
-              :text="kw.source.values.en.name"
+              :text="kw.source.values.de.name"
               class="pr-1r pb-1r"
+              @click="setSearchStore(kw.source.values.en.name)"
             />
           </div>
         </div>
@@ -192,11 +195,13 @@ function searchDb(kw) {
               v-if="locale === 'de'"
               :text="kw.source.values.de.name"
               class="pr-1r pb-1r"
+              @click="setSearchStore(kw.source.values.de.name)"
             />
             <outline-button
               v-else
               :text="kw.source.values.en.name"
               class="pr-1r pb-1r"
+              @click="setSearchStore(kw.source.values.en.name)"
             />
           </div>
         </div>
@@ -210,11 +215,13 @@ function searchDb(kw) {
               v-if="locale === 'de'"
               :text="kw.source.values.de.name"
               class="pr-1r pb-1r"
+              @click="setSearchStore(kw.source.values.de.name)"
             />
             <outline-button
               v-else
               :text="kw.source.values.en.name"
               class="pr-1r pb-1r"
+              @click="setSearchStore(kw.source.values.en.name)"
             />
           </div>
         </div>
@@ -228,11 +235,13 @@ function searchDb(kw) {
               v-if="locale === 'de'"
               :text="kw.source.values.de.name"
               class="pr-1r pb-1r"
+              @click="setSearchStore(kw.source.values.de.name)"
             />
             <outline-button
               v-else
               :text="kw.source.values.en.name"
               class="pr-1r pb-1r"
+              @click="setSearchStore(kw.source.values.en.name)"
             />
           </div>
         </div>
