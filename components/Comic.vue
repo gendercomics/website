@@ -67,6 +67,18 @@ function openLink(wikidataId: string) {
   })
 }
 
+function searchKw(kw) {
+  console.log('search db for keyword: ' + kw)
+  searchInput.searchTerm = kw
+  searchInput.searchFilter.comics = false
+  searchInput.searchFilter.persons = false
+  searchInput.searchFilter.publishers = false
+  searchInput.searchFilter.keywords = true
+  searchStore.setSearchInput(searchInput)
+  navigateTo('/database')
+}
+
+
 onMounted(() => {
   console.log('ID=' + id)
 })
@@ -160,12 +172,11 @@ onMounted(() => {
 
             <div v-if="data.keywords" class="mt-2rem">
               <h6>{{ t('keywords') }}</h6>
-              <div v-for="(keyword, k) in data.keywords" :key="k">
-                <green-button
+              <div v-for="(keyword, k) in data.keywords" :key="k" class="flex">
+                <outline-button
                   :text="i18nKeyword(keyword.values)"
                   class="mt-1rem"
-                  :link="/glossary/ + keyword.id"
-                  target="_self"
+                  @click="searchKw(i18nKeyword(keyword.values))"
                 />
               </div>
             </div>
