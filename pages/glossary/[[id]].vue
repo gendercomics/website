@@ -92,6 +92,47 @@ function setSearchStore(kw) {
   searchStore.setSearchInput(searchInput)
   navigateTo('/database')
 }
+
+watch(
+  () => filter.power,
+  (power) => {
+    if (power) {
+      filter.health = false
+      filter.sex = false
+      filter.development = false
+    }
+  },
+)
+watch(
+  () => filter.health,
+  (health) => {
+    if (health) {
+      filter.power = false
+      filter.sex = false
+      filter.development = false
+    }
+  },
+)
+watch(
+  () => filter.sex,
+  (sex) => {
+    if (sex) {
+      filter.power = false
+      filter.health = false
+      filter.development = false
+    }
+  },
+)
+watch(
+  () => filter.development,
+  (development) => {
+    if (development) {
+      filter.power = false
+      filter.health = false
+      filter.sex = false
+    }
+  },
+)
 </script>
 
 <template>
