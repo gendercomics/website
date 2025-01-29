@@ -151,7 +151,9 @@ captionLink: https://julgordon.de/
 - M. Rauchenbacher u. K. Serles: Proseminar _Erzählte Körper – Gezeichnete Blicke_ (SoSe 2014, Institut für Germanistik, Universität Wien)
 
 # Diskussionen, Moderationen, Interviews, Workshops
-- M. Rauchenbacher: Moderation und Künstler*innengespräche, 1. Kooperationsveranstaltung der Österreichischen Gesellschaft für Comics mit dem Literaturhaus Wien: Präsentation der Anthologie _SPROSS #2_, Literaturhaus Wien, 3. April 2024
+- M. Rauchenbacher: Moderation und Künstlergespräch: Reinhard Kleist: _LOW_, Literaturhaus Wien, 23. Jänner 2025.
+- M. Rauchenbacher: Moderation und Künstlerinnengespräch: Tina Brenneisen: _Oblomowa_, 4. Kooperationsveranstaltung der Österreichischen Gesellschaft für Comics mit dem Literaturhaus Wien, 18. Dezember 2024.
+- M. Rauchenbacher: Moderation und Künstler*innengespräche, Präsentation der Anthologie _SPROSS #2_, 1. Kooperationsveranstaltung der Österreichischen Gesellschaft für Comics mit dem Literaturhaus Wien, 3. April 2024.
 - M. Rauchenbacher: Moderation und Künstler*innengespräche, Suuuper-Samstag, Nextcomic Festival 2024, 16. März 2024
 - K. Serles: _ComicMonday: Lesung und Gespräch mit Ilse Kilic und Fritz Widhalm_, Österreichische Gesellschaft für Comics, Rooming Inn Wien, 29. Jänner 2024
 - M. Rauchenbacher: _ComicMonday: Gespräch mit Darren C. Fisher_, Österreichische Gesellschaft für Comics, Rooming Inn Wien, 26. Februar 2023
