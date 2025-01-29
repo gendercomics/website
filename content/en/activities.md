@@ -19,6 +19,8 @@ captionLink: https://julgordon.de/
 - Hochreiter, Susanne, and Ursula Klingenböck, editors. _Bild ist Text ist Bild: Narration und Ästhetik in der Graphic Novel_. Bielefeld: transcript, 2014.
 
 ### Scientific Articles
+- Rauchenbacher, Marina: “]         [: Verstummen und Stille in Ulli Lusts Comic-Adaption von Marcel Beyers Roman _Flughunde_”. _Jahrbuch Musik und Gender_, vol. 15, 2024: Laute(r) Bilder. Musik in Manga, Comic & Co, ed. by Melanie Unseld and Akiko Yamada, pp. 93–113.
+- K. Serles: “‘als ob ich in einem meiner eigenen Songs gefangen wäre‘: Musik und Männlichkeit in Reinhard Kleists _Nick Cave. Mercy on me_. _Jahrbuch Musik und Gender_, vol. 15, 2024: Laute(r) Bilder. Musik in Manga, Comic & Co, ed. by Melanie Unseld and Akiko Yamada, pp. 115–134.
 - Babka, Anna, and Marina Rauchenbacher. “Queer Studies.” _Handbuch Kulturwissenschaftliche ‚Studies‘_, edited by Jonas Nesselhauf and Florian Weber. Berlin: Walter de Gruyter, pp. 473–496. [https://doi.org/10.1515/9783110712919-027](https://doi.org/10.1515/9783110712919-027)
 - Rauchenbacher, Marina. “Körper-Zeit-Körper: Zeitkonzepte in Ulli Lusts und Marcel Beyers _Flughunde_.” _Closure: Kieler e-Journal für Comicforschung_, no. 10.5. 2024, pp. 99–117.
 - Rauchenbacher, Marina. “Boote | Grenzen | Unsicherheit: Das gesellschaftspolitische Potenzial von Comics über Flucht und Migration.” _Comics und Intersektionalität_, edited by Anna Beckmann, Kalina Kupczyńska, Marie Schröer, and Véronique Sina. Berlin: Walter de Gruyter, 2024, pp. 117–34. [https://doi.org/10.1515/9783110799385-010](https://doi.org/10.1515/9783110799385-010)
