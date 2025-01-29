@@ -19,6 +19,8 @@ captionLink: https://julgordon.de/
 - Hochreiter, Susanne, and Ursula Klingenböck, editors. _Bild ist Text ist Bild: Narration und Ästhetik in der Graphic Novel_. Bielefeld: transcript, 2014.
 
 ### Scientific Articles
+- Rauchenbacher, Marina: “]         [: Verstummen und Stille in Ulli Lusts Comic-Adaption von Marcel Beyers Roman _Flughunde_”. _Jahrbuch Musik und Gender_, vol. 15, 2024: Laute(r) Bilder. Musik in Manga, Comic & Co, ed. by Melanie Unseld and Akiko Yamada, pp. 93–113.
+- K. Serles: “‘als ob ich in einem meiner eigenen Songs gefangen wäre‘: Musik und Männlichkeit in Reinhard Kleists _Nick Cave. Mercy on me_. _Jahrbuch Musik und Gender_, vol. 15, 2024: Laute(r) Bilder. Musik in Manga, Comic & Co, ed. by Melanie Unseld and Akiko Yamada, pp. 115–134.
 - Babka, Anna, and Marina Rauchenbacher. “Queer Studies.” _Handbuch Kulturwissenschaftliche ‚Studies‘_, edited by Jonas Nesselhauf and Florian Weber. Berlin: Walter de Gruyter, pp. 473–496. [https://doi.org/10.1515/9783110712919-027](https://doi.org/10.1515/9783110712919-027)
 - Rauchenbacher, Marina. “Körper-Zeit-Körper: Zeitkonzepte in Ulli Lusts und Marcel Beyers _Flughunde_.” _Closure: Kieler e-Journal für Comicforschung_, no. 10.5. 2024, pp. 99–117.
 - Rauchenbacher, Marina. “Boote | Grenzen | Unsicherheit: Das gesellschaftspolitische Potenzial von Comics über Flucht und Migration.” _Comics und Intersektionalität_, edited by Anna Beckmann, Kalina Kupczyńska, Marie Schröer, and Véronique Sina. Berlin: Walter de Gruyter, 2024, pp. 117–34. [https://doi.org/10.1515/9783110799385-010](https://doi.org/10.1515/9783110799385-010)
@@ -51,7 +53,6 @@ captionLink: https://julgordon.de/
 - Lobnig, Naomi. “Queere Beziehungsweisen in Küsse für Jet und abfackeln.” _Comics Studies x Gender Studies: Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice_, edited by Marina Rauchenbacher, Katharina Serles, and Naomi Lobnig in collaboration with Susanne Hochreiter. Berlin: Walter de Gruyter.
 - Rauchenbacher, Marina. “Psyche zeigen: Comics über Essstörungen.” _Comics Studies x Gender Studie: Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice_, edited by Marina Rauchenbacher, Katharina Serles, and Naomi Lobnig in collaboration with Susanne Hochreiter. Berlin: Walter de Gruyter.
 - Serles, Katharina. “Körper, Kunst und Kanon: (Queer)feministische Bildermächtigungen in Comics.” _Comics Studies x Gender Studies: Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice_, edited by Marina Rauchenbacher, Katharina Serles, and Naomi Lobnig in collaboration with Susanne Hochreiter. Berlin: Walter de Gruyter.
-- Rauchenbacher, Marina. “]         [. Verstummen und Stille in Ulli Lusts Comic-Adaption von Marcel Beyers Roman _Flughunde_.” _Laute(r) Bilder: Musik in Manga, Comic & Co_, edited by Melanie Unseld and Akiko Yamada, special issue of _Jahrbuch Musik und Gender_.
 - Rauchenbacher, Marina. “Comics on Display: Conceptual Remarks on _Gewalt erzählen. Eine Comic-Ausstellung / Narrating Violence. A Comic Exhibition (Sigmund Freud Museum Vienna)_.” _German Graphic Narratives and Trauma_, edited by Elisabeth Krimmer and Maureen Burdock. Rochester: Camden House.
 - Rauchenbacher, Marina, and Katharina Serles. “Gender/Queer Studies / Intersektionalitätsforschung.” _Handbuch Comicforschung_, edited by Juliane Blank and Stephan Packard. Berlin: Walter de Gruyter.
 - Rauchenbacher, Marina. “Who (and Where) is *Alice*? Anke Feuchtenberger’s Feminist-Disruptive Identity Criticism.” _Comparative Comics Studies_, edited by Christian Bachmann, Juliane Blank, and Stephan Packard. Berlin: Christian A. Bachmann Verlag.
@@ -84,7 +85,7 @@ captionLink: https://julgordon.de/
 - Serles, Katharina. “Gemachter Sex.” _Spring_, no. 16, 2020, pp. 4–5.
 
 # Talks and Presentations
-- Rauchenbacher, Marina. _Seeing (with) Medusa. Counter-readings on Demonization in Literature and Comics_. Annual Women in German Conference, October 24–26, 2024.
+- Rauchenbacher, Marina. _Seeing (with) Medusa: Counter-readings on Demonization in Literature and Comics_. Annual Women in German Conference, October 24–26, 2024.
 - Serles, Katharina. _“Du siehst aus wie ein Bauer”: Verkörperte Klasse in Eva Müllers_ Scheiblettenkind (2023). Comicsalon Erlangen, June 2, 2024.
 - Rauchenbacher, Marina. _Arranged in Color: Janne Marie Dauer’s Adaptation of Bov Bjerg’s Novel_ Auerhaus. Workshop _Narrative Transfers: From the Literary to the Graphic_, Université Paul Valéry-Montpellier 3, April 25, 2024.
 - Serles, Katharina.  _“Kauf dir mal ein Buch. Loser!” Klasse, Körper und Kanon in Eva Müllers_ Scheiblettenkind (2023). Annual Conference of the German Society for Comic Studies, Stiftung Akademie Waldschlösschen, Gleichen, December 11–13, 2023.
@@ -149,9 +150,11 @@ captionLink: https://julgordon.de/
 - Rauchenbacher, Marina, and Katharina Serles. Undergraduate seminar _Erzählte Körper – Gezeichnete Blicke_ (winter 2014, Department of German Philology, University of Vienna).
 
 # Discussions, Moderations, Interviews, and Workshops
+- Rauchenbacher, Marina. Moderation and artist talk: _LOW_, by Reinhard Kleist, Literaturhaus Vienna, January 23, 2025.
+- Rauchenbacher, Marina. Moderation and artist talk: _Oblomowa_, by Tina Brenneisen, 4th cooperation event of the Austrian Association for Comics and Literaturhaus Vienna, December 18, 2024.
 - Serles, Katharina. Moderation and artist talk: _Drei oder vier Bagatellen_, by Franz Suess, 2nd cooperation event of the Austrian Association for Comics and Literaturhaus Vienna, June 14, 2024.
 - Rauchenbacher, Marina. Moderation and artist talks _SPROSS #2: Blau sein_, edited by Janne Marie Dauer, 1st cooperation event of the Austrian Association for Comics and Literaturhaus Vienna, Literaturhaus Vienna, April 3, 2024.
-- Rauchenbacher, Marina. Moderation and artist talks, Suuuper-Samstag, Netcomic Festival 2024, March 16, 2024.
+- Rauchenbacher, Marina. Moderation and artist talks, Suuuper-Samstag, Nextcomic Festival 2024, March 16, 2024.
 - Serles, Katharina. ComicMonday: presentation and artist talk with Ilse Kilic and Fritz Widhalm, Austrian Association for Comics, Rooming Inn Vienna, January 29, 2024.
 - Rauchenbacher, Marina. ComicMonday: presentation and artist talk with Darren C. Fisher, Austrian Association for Comics, Rooming Inn Vienna, February 26, 2024.
 - Rauchenbacher, Marina. Artist talk with Regina Hofer and Leopold Maurer, Sigmund Freud Museum Vienna, February 15, 2024.
