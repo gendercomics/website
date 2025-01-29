@@ -157,7 +157,7 @@ onMounted(() => {
       <content-renderer :value="index" :key="fullPath.value">
         <div class="titel-xl mt-3rem">{{ index.data.value.title }}</div>
         <content-renderer-markdown
-          class="a"
+          class="a txt-align-center mt-2rem"
           :value="index.data.value.body"
           :key="fullPath.value"
         />
@@ -479,6 +479,10 @@ onMounted(() => {
 
 .ml-2px {
   margin-left: 2px;
+}
+
+.txt-align-center {
+  text-align: center;
 }
 </style>
 
