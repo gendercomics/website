@@ -86,7 +86,7 @@ captionLink: https://julgordon.de/
 - Serles, Katharina. “Gemachter Sex.” _Spring_, no. 16, 2020, pp. 4–5.
 
 # Talks and Presentations
-- Rauchenbacher, Marina. _Seeing (with) Medusa. Counter-readings on Demonization in Literature and Comics_. Annual Women in German Conference, October 24–26, 2024.
+- Rauchenbacher, Marina. _Seeing (with) Medusa: Counter-readings on Demonization in Literature and Comics_. Annual Women in German Conference, October 24–26, 2024.
 - Serles, Katharina. _“Du siehst aus wie ein Bauer”: Verkörperte Klasse in Eva Müllers_ Scheiblettenkind (2023). Comicsalon Erlangen, June 2, 2024.
 - Rauchenbacher, Marina. _Arranged in Color: Janne Marie Dauer’s Adaptation of Bov Bjerg’s Novel_ Auerhaus. Workshop _Narrative Transfers: From the Literary to the Graphic_, Université Paul Valéry-Montpellier 3, April 25, 2024.
 - Serles, Katharina.  _“Kauf dir mal ein Buch. Loser!” Klasse, Körper und Kanon in Eva Müllers_ Scheiblettenkind (2023). Annual Conference of the German Society for Comic Studies, Stiftung Akademie Waldschlösschen, Gleichen, December 11–13, 2023.
@@ -151,9 +151,11 @@ captionLink: https://julgordon.de/
 - Rauchenbacher, Marina, and Katharina Serles. Undergraduate seminar _Erzählte Körper – Gezeichnete Blicke_ (winter 2014, Department of German Philology, University of Vienna).
 
 # Discussions, Moderations, Interviews, and Workshops
+- Rauchenbacher, Marina. Moderation and artist talk: _LOW_, by Reinhard Kleist, Literaturhaus Vienna, January 23, 2025.
+- Rauchenbacher, Marina. Moderation and artist talk: _Oblomowa_, by Tina Brenneisen, 4th cooperation event of the Austrian Association for Comics and Literaturhaus Vienna, December 18, 2024.
 - Serles, Katharina. Moderation and artist talk: _Drei oder vier Bagatellen_, by Franz Suess, 2nd cooperation event of the Austrian Association for Comics and Literaturhaus Vienna, June 14, 2024.
 - Rauchenbacher, Marina. Moderation and artist talks _SPROSS #2: Blau sein_, edited by Janne Marie Dauer, 1st cooperation event of the Austrian Association for Comics and Literaturhaus Vienna, Literaturhaus Vienna, April 3, 2024.
-- Rauchenbacher, Marina. Moderation and artist talks, Suuuper-Samstag, Netcomic Festival 2024, March 16, 2024.
+- Rauchenbacher, Marina. Moderation and artist talks, Suuuper-Samstag, Nextcomic Festival 2024, March 16, 2024.
 - Serles, Katharina. ComicMonday: presentation and artist talk with Ilse Kilic and Fritz Widhalm, Austrian Association for Comics, Rooming Inn Vienna, January 29, 2024.
 - Rauchenbacher, Marina. ComicMonday: presentation and artist talk with Darren C. Fisher, Austrian Association for Comics, Rooming Inn Vienna, February 26, 2024.
 - Rauchenbacher, Marina. Artist talk with Regina Hofer and Leopold Maurer, Sigmund Freud Museum Vienna, February 15, 2024.
