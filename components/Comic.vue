@@ -32,7 +32,7 @@ function name(creator) {
 }
 
 function comicLink(comicId) {
-  return '/comic/' + comicId
+  return '/' + locale.value + '/comic/' + comicId
 }
 
 function i18nKeyword(values) {
@@ -47,7 +47,7 @@ function searchCreator(creator) {
   searchInput.searchFilter.publishers = false
   searchInput.searchFilter.keywords = false
   searchStore.setSearchInput(searchInput)
-  navigateTo('/database#search')
+  navigateTo('/' + locale.value + '/database#search')
 }
 
 function searchPublisher(publisher) {
@@ -57,7 +57,7 @@ function searchPublisher(publisher) {
   searchInput.searchFilter.publishers = true
   searchInput.searchFilter.keywords = false
   searchStore.setSearchInput(searchInput)
-  navigateTo('/database#search')
+  navigateTo('/' + locale.value + '/database#search')
 }
 
 function openLink(wikidataId: string) {
@@ -75,9 +75,8 @@ function searchKw(kw) {
   searchInput.searchFilter.publishers = false
   searchInput.searchFilter.keywords = true
   searchStore.setSearchInput(searchInput)
-  navigateTo('/database')
+  navigateTo('/' + locale.value + '/database#search')
 }
-
 
 onMounted(() => {
   console.log('ID=' + id)

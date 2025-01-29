@@ -22,7 +22,7 @@ function searchDb() {
   searchInput.searchFilter.publishers = false
   searchInput.searchFilter.keywords = true
   searchStore.setSearchInput(searchInput)
-  navigateTo('/' + locale.value + '/database')
+  navigateTo('/' + locale.value + '/database#search')
 }
 
 onMounted(() => {
