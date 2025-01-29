@@ -6,7 +6,7 @@ const searchStore = useSearchStore()
 const { locale } = useI18n()
 const route = useRoute()
 const fullPath = ref(route.fullPath)
-const keywordId = route.params.id
+const slug = route.params.slug
 const appConfig = useAppConfig()
 
 const searchInput = reactive({
@@ -32,6 +32,13 @@ const clusterIds = {
   health: '6627a7e069717325da0968ab',
   sex: '638f1f5769717325da0968a3',
   development: '66bb381901c0892ad764274f',
+}
+
+const clusterSlugs = {
+  power: 'power-violence',
+  health: 'health-illness-dis-ability',
+  sex: 'gender-sexuality',
+  development: 'development-identity',
 }
 
 const index = await useAsyncData(fullPath.value, () =>
@@ -133,6 +140,15 @@ watch(
     }
   },
 )
+
+const clusterName = Object.entries(clusterSlugs).find(
+  ([key, value]) => value === slug,
+)?.[0]
+
+onMounted(() => {
+  console.log('glossary slug: ' + slug + ', clusterName: ' + clusterName)
+  filter[clusterName] = true
+})
 </script>
 
 <template>
