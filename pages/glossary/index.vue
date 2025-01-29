@@ -220,7 +220,7 @@ watch(
             />
             <outline-button
               v-else
-              :text="kw.source.values.de.name"
+              :text="kw.source.values.en.name"
               class="pr-1r pb-1r"
               @click="setSearchStore(kw.source.values.en.name)"
             />
