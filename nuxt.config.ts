@@ -1,14 +1,17 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
 export default defineNuxtConfig({
-  ssr: true,
+  routeRules: {
+    '/': { ssr: true },
+    '/database/keyword/**': { isr: true },
+  },
   devtools: { enabled: true },
   pages: true,
 
   $development: {
     appConfig: {
       dbApiBaseUrl: 'http://localhost:8001',
-      apiImageUrl: 'http://localhost:8001/images'
+      apiImageUrl: 'http://localhost:8001/images',
     },
   },
 
@@ -16,14 +19,14 @@ export default defineNuxtConfig({
   $staging: {
     appConfig: {
       dbApiBaseUrl: 'https://api-stage.gendercomics.net',
-      apiImageUrl: 'https://api-stage.gendercomics.net/images'
+      apiImageUrl: 'https://api-stage.gendercomics.net/images',
     },
   },
 
   $production: {
     appConfig: {
       dbApiBaseUrl: 'https://api.gendercomics.net',
-      apiImageUrl: 'https://api.gendercomics.net/images'
+      apiImageUrl: 'https://api.gendercomics.net/images',
     },
   },
 
