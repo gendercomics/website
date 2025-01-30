@@ -22,6 +22,10 @@ function getImageUrl() {
   return new URL(`../assets/images/${props.img}`, import.meta.url)
 }
 
+const imagePath = computed(() => {
+  return '/images/' + props.img
+})
+
 const linkTarget = computed(() => {
   return props.link.startsWith('https') ? '_blank' : '_self'
 })
@@ -34,7 +38,7 @@ function openLink() {
 <template>
   <div class="container" @click="openLink">
     <div v-if="props.img !== null" class="image-container">
-      <img :src="getImageUrl()" alt="" />
+      <img :src="imagePath" alt="" />
     </div>
     <div class="text-container">
       <div class="tag">{{ props.category }}</div>
