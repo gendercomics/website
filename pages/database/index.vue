@@ -6,6 +6,8 @@ const { locale } = useI18n()
 const searchStore = useSearchStore()
 const appConfig = useAppConfig()
 
+const route = useRoute()
+
 const searchInput = reactive({
   searchTerm: '',
   searchFilter: {
@@ -68,7 +70,23 @@ watch(searchInput.searchFilter, () => {
   }
 })
 
+function setSearchStoreForKeyword() {
+  console.log('setSearchStoreForKeyword: ' + route.query.keyword)
+  searchInput.searchTerm = route.query.keyword
+  searchInput.searchFilter.comics = false
+  searchInput.searchFilter.persons = false
+  searchInput.searchFilter.publishers = false
+  searchInput.searchFilter.keywords = true
+
+  searchStore.setSearchInput(searchInput)
+}
+
 onMounted(() => {
+  console.log('onMounted route.query: ' + route.query.keyword)
+  if (route.query.keyword) {
+    setSearchStoreForKeyword()
+  }
+
   console.log('API base url: ' + appConfig.dbApiBaseUrl)
   console.log(
     'stored searchInput: ' + JSON.stringify(searchStore.getSearchInput),
