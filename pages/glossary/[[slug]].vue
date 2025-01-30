@@ -154,6 +154,29 @@ onMounted(() => {
 <template>
   <div class="page-margin container">
     <div class="column">
+      <div v-if="locale === 'de'" class="txt-align-center">
+        <div class="titel-xl mt-3rem">Glossar</div>
+        <div class="a mt-2rem">
+          Das Glossar bietet Informationen zu den vier Clustern des
+          Schlagwortsystems – Geschlecht/Sexualität,
+          Gesundheit/Krankheit/Dis_ability, Entwicklung/Identität und
+          Macht/Gewalt – inklusive darin zentraler Schlagwörter sowie zitierter
+          und weiterführender Literatur. Es verlinkt zu den Schlagwörtern.
+        </div>
+      </div>
+
+      <div v-if="locale === 'en'" class="txt-align-center">
+        <div class="titel-xl mt-3rem">Glossary</div>
+        <div class="a mt-2rem">
+          The glossary provides a definition of the individual clusters –
+          gender/sexuality, health/illness/dis_ability, development/identity,
+          and power/violence – including the key terms within them as well as
+          cited and further literature. It is linked to the assigned terms
+          accordingly.
+        </div>
+      </div>
+
+      <!--
       <content-renderer :value="index" :key="'/' + locale.value + '/glossary'">
         <div class="titel-xl mt-3rem">{{ index.data.value.title }}</div>
         <content-renderer-markdown
@@ -162,8 +185,9 @@ onMounted(() => {
           :key="'/' + locale.value + '/glossary'"
         />
       </content-renderer>
+      -->
 
-      <divider-red-arrow />
+      <divider-red-arrow class="mt-2rem" />
 
       <divider b1 b2 t3 t4 b5 b6 />
 
