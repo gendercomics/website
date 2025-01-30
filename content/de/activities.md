@@ -19,6 +19,8 @@ captionLink: https://julgordon.de/
 - S. Hochreiter u. U. Klingenböck (Hg.): _Bild ist Text ist Bild: Narration und Ästhetik in der Graphic Novel_. Bielefeld: transcript 2014.
 
 ### Wissenschaftliche Aufsätze
+- M. Rauchenbacher: _]         [. Verstummen und Stille in Ulli Lusts Comic-Adaption von Marcel Beyers Roman_ Flughunde. In: Jahrbuch Musik und Gender 15 (2024): Laute(r) Bilder. Musik in Manga, Comic & Co. Hg. v. Melanie Unseld und Akiko Yamada, S. 93–113.
+- K. Serles: _„als ob ich in einem meiner eigenen Songs gefangen wäre“. Musik und Männlichkeit in Reinhard Kleists_ Nick Cave. Mercy on me. In: Jahrbuch Musik und Gender 15 (2024): Laute(r) Bilder. Musik in Manga, Comic & Co. Hg. v. Melanie Unseld und Akiko Yamada, S. 115–134.
 - A. Babka u. M. Rauchenbacher: _Queer Studies._ In: Jonas Nesselhauf u. Florian Weber (Hg.): Handbuch Kulturwissenschaftliche ‚Studies‘. Berlin, Boston: de Gruyter, S. 473–496. [https://doi.org/10.1515/9783110712919-027](https://doi.org/10.1515/9783110712919-027)
 - M. Rauchenbacher: _Körper-Zeit-Körper. Zeitkonzepte in Ulli Lusts und Marcel Beyers_ Flughunde. In: closure. Kieler e-Journal für Comicforschung. Special Issue: _ChronoCorpoRealities. Embodied Perceptions of ‘Extraordinary’ Time in Comics / KörperZeitBilder. Darstellungen ‚anderen‘ Zeiterlebens im Comic_ 10.5 (2024). Hg. v. Irmela Marei Krüger-Fürhoff u. Nina Schmidt, S. 99–117.
 - M. Rauchenbacher: _Boote | Grenzen | Unsicherheit. Das gesellschaftspolitische Potenzial von Comics über Flucht und Migration_ In: Anna Beckmann, Kalina Kupczyńska, Marie Schröer u. Véronique Sina (Hg.): Comics und Intersektionalität. Berlin, Boston: de Gruyter 2024 (Comicstudien 3), S. 117–134. [https://doi.org/10.1515/9783110799385-010](https://doi.org/10.1515/9783110799385-010)
@@ -46,6 +48,7 @@ captionLink: https://julgordon.de/
 - K. Serles: _„Time in comics is infinitely weirder than that.“ Zeit- via Bildkonfiguration bei Marc-Antoine Mathieu und Chris Ware._ In: Susanne Hochreiter u. Ursula Klingenböck (Hg.): Bild ist Text ist Bild. Narration und Ästhetik in der Graphic Novel. Bielefeld: transcript 2014, S. 79–96.
 
 ### Wissenschaftliche Aufsätze in Druck/im Entstehen:
+- M. Rauchenbacher: _Körper-Zeit-Körper. Zeitkonzepte in Ulli Lusts und Marcel Beyers_ Flughunde. In: closure. Kieler e-Journal für Comicforschung. Special Issue: _ChronoCorpoRealities. Embodied Perceptions of ‘Extraordinary’ Time in Comics / KörperZeitBilder. Darstellungen ‚anderen‘ Zeiterlebens im Comic_ 10.5 (2024). Hg. v. Irmela Marei Krüger-Fürhoff u. Nina Schmidt.
 - S. Hochreiter: _Fantastillionen und arme Schlucker. Ein Essay über Gender, Begehren und soziale Klasse in Entenhausen._ In: M. Rauchenbacher, K. Serles u. N. Lobnig (Hg.): Comics Studies x Gender Studies. Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice. Unter Mitarbeit von Susanne Hochreiter. Berlin, Boston: de Gruyter (Comicstudien).
 - N. Lobnig: _Alternative Betrachtungsweisen des alternden Körpers in Lika Nüsslis_ Vergiss dich nicht. In: M. Rauchenbacher, K. Serles u. N. Lobnig (Hg.): Comics Studies x Gender Studies. Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice. Unter Mitarbeit von Susanne Hochreiter. Berlin, Boston: de Gruyter (Comicstudien).
 - N. Lobnig: _Queere_ Beziehungsweisen _in_ Küsse für Jet _und_ abfackeln. In: M. Rauchenbacher, K. Serles u. N. Lobnig (Hg.): Comics Studies x Gender Studies. Schnittmengen von Forschung, Lehre und Praxis – Intersections of Research, Teaching, and Practice. Unter Mitarbeit von Susanne Hochreiter. Berlin, Boston: de Gruyter (Comicstudien).
@@ -54,6 +57,7 @@ captionLink: https://julgordon.de/
 - M. Rauchenbacher: _Who (and Where) is *Alice*? Anke Feuchtenberger’s Feminist-Disruptive Identity Criticism._ In: Christian Bachmann, Juliane Blank u. Stephan Packard (Hg.): Comparative Comics Studies. Berlin: Christian A. Bachmann Verlag.
 - M. Rauchenbacher: _]         [. Verstummen und Stille in Ulli Lusts Comic-Adaption von Marcel Beyers Roman_ Flughunde. In: Melanie Unseld u. Akiko Yamada (Hg.): Laute(r) Bilder. Musik in Manga, Comic & Co. (Jahrbuch Musik und Gender, Bd. **).
 - M. Rauchenbacher u. K. Serles: _Gender/Queer Studies / Intersektionalitätsforschung._ In: Juliane Blank u. Stephan Packard (Hg.): Handbuch Comicforschung. Berlin, Boston: de Gruyter.
+- A. Babka u. M. Rauchenbacher: _Queer Studies._ In: Handbuch Kulturwissenschaftliche ‚Studies‘. Hg. v. Jonas Nesselhauf u. Florian Weber. Berlin, Boston: de Gruyter.
 - M. Rauchenbacher: _Comics on Display. Conceptual Remarks on_ Gewalt erzählen. Eine Comic-Ausstellung / Narrating Violence. A Comic Exhibition (_Sigmund Freud Museum Vienna_). In: Elisabeth Krimmer u. Maureen Burdock (Hg.): German Graphic Narratives and Trauma. Rochester: Camden House.
 
 ### Abschlussarbeit
@@ -85,7 +89,6 @@ captionLink: https://julgordon.de/
 - K. Serles: _Gemachter Sex._ In: Spring. _Sex_ 16 (2020), S. 4–5.
 
 # Wissenschaftliche Vorträge
-- M. Rauchenbacher: _Seeing (with) Medusa. Counter-readings on Demoniziation in Literature and Comics_, Annual Women in German Conference, 24.–26. Oktober 2024.
 - K. Serles: _„Du siehst aus wie ein Bauer.“ Verkörperte Klasse in Eva Müllers_ Scheiblettenkind (2023), Comicsalon Erlangen, 2. Juni 2024.
 - M. Rauchenbacher: _Arranged in Color. Janne Marie Dauer’s Adaptation of Bov Bjerg’s Novel_ Auerhaus, Narrative Transfers. From the Literary to the Graphic, Université Paul Valéry-Montpellier 3, online, 25. April 2024.
 - K. Serles: _„Kauf dir mal ein Buch. Loser!“ Klasse, Körper und Kanon in Eva Müllers Scheiblettenkind (2023)_, Jahrestagung der Gesellschaft für Comicforschung (ComFor), Stiftung Akademie Waldschlösschen, Gleichen, 11.–13. Dezember 2023.
