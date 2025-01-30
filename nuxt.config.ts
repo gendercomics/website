@@ -1,10 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
 export default defineNuxtConfig({
-  routeRules: {
-    '/': { ssr: true },
-    '/database/keyword/**': { isr: true },
-  },
+  ssr: true,
   devtools: { enabled: true },
   pages: true,
 
