@@ -41,7 +41,7 @@ const clusterSlugs = {
   development: 'development-identity',
 }
 
-const index = await useAsyncData(fullPath.value, () =>
+const index = await useAsyncData('/' + locale.value + '/glossary', () =>
   queryContent('/' + locale.value + '/glossary')
     .where({ type: 'index' })
     .findOne(),
@@ -154,12 +154,12 @@ onMounted(() => {
 <template>
   <div class="page-margin container">
     <div class="column">
-      <content-renderer :value="index" :key="fullPath.value">
+      <content-renderer :value="index" :key="'/' + locale.value + '/glossary'">
         <div class="titel-xl mt-3rem">{{ index.data.value.title }}</div>
         <content-renderer-markdown
           class="a txt-align-center mt-2rem"
           :value="index.data.value.body"
-          :key="fullPath.value"
+          :key="'/' + locale.value + '/glossary'"
         />
       </content-renderer>
 
