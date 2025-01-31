@@ -54,8 +54,9 @@ Die Datenbank bietet sowohl eine Volltextsuche als auch die Möglichkeit, geziel
 Das Schlagwortsystem ist in vier Cluster gegliedert, die an intersektionalen/interdependenten Fragestellungen orientiert sind: 
 - Geschlecht/Sexualität
 - Gesundheit/Krankheit/Dis_ability 
-- Identität/Entwicklung
-- Macht/Gewalt 
+- Entwicklung/Identität
+- Macht/Gewalt
+  
 Jeder Cluster umfasst mehrere Schlagwörter, die zueinander in Beziehung gesetzt wurden und sich teilweise überschneiden, d.h. in mehreren Clustern vorkommen können. Die Datenbank stellt hierbei **keinen Anspruch auf Vollständigkeit oder Abgeschlossenheit**, sondern entwirft mit der Beschlagwortung der Comics erste Analyseansätze. Geplant ist die Beantragung eines Folgeprojekts, das auch spezifisch das Beschlagwortungssystem in den Blick nehmen wird.
 
 ## 9. Wie funktioniert das Glossar?
