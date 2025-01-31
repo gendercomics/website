@@ -1,5 +1,5 @@
 ---
-title: Anke Feuchtberger
+title: Anke Feuchtenberger
 heading:
 description: 
 tag: Über
