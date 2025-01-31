@@ -55,7 +55,7 @@ The keyword system is divided into four clusters that are guided by intersection
 - Gender/sexuality
 - Health/illness/dis_ability
 - Development/identity
-- Power/violence 
+- Power/violence
 Each cluster comprises several keywords that are related to each other and may partially overlap, i.e., they may occur in several clusters. **The database makes no claim to exhaustiveness or completeness**, but rather its keywording of the comics provides an initial approach to analysis. An application is planned for a follow-up project that will focus specifically on the indexing system. 
 
 ## 9. How does the glossary work? 
