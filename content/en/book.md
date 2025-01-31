@@ -6,7 +6,7 @@ subheading: Intersections of Research, Teaching, and Practice
 type: index
 image: art/hofer_blad.png
 caption: Regina Hofer
-captionLink: https://www.luftschacht.com/produkt/regina-hofer-blad/
+captionLink: /artist/regina-hofer
 ---
 
 The project’s final publication provides an overview of current topics and research approaches that combine Comics Studies with Gender Studies. It opens up innovative perspectives, initiates productive discussions on gender, identity, and visual representation, and discusses intersectional/interdependent topics.

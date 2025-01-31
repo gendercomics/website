@@ -6,7 +6,7 @@ subheading:
 type: index
 image: art/jongeling_detransition.png
 caption: Nele Jongeling
-captionLink: https://nelejongeling.de/
+captionLink: /artist/nele-jongeling
 ---
 
 # ABOUT
