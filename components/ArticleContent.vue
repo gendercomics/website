@@ -6,6 +6,10 @@ const props = defineProps({
     type: String,
     default: '',
   },
+  target: {
+    type: String,
+    default: '_self',
+  },
 })
 const { locale } = useI18n()
 const route = useRoute()
@@ -72,6 +76,7 @@ onMounted(() => {
               :image="doc.data.value.image"
               :caption="doc.data.value.caption"
               :caption-link="doc.data.value.captionLink"
+              :target="props.target"
               class="image"
             />
           </div>

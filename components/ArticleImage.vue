@@ -28,6 +28,10 @@ const props = defineProps({
     type: String,
     default: 'auto',
   },
+  target: {
+    type: String,
+    default: '_blank',
+  },
 })
 
 const imagePath = computed(() => {
@@ -63,6 +67,7 @@ const imageURL = computed(() => {
       right-corner
       :text="props.caption"
       :link="props.captionLink"
+      :target='props.target'
       class="button p-10"
     />
   </div>

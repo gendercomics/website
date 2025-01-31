@@ -26,7 +26,7 @@ const props = defineProps({
   },
   target: {
     type: String,
-    default: '_blank',
+    default: '_self',
   },
   highlight: {
     type: Boolean,
