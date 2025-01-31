@@ -6,7 +6,7 @@ tag: Über
 type: index
 image: art/feuchtenberger_karlmarxallee.jpeg
 caption: Anke Feuchtenberger
-captionLink: https://www.ankefeuchtenberger.de/
+captionLink: /artist/anke-feuchtenberger
 ---
 
 **Ein Grundlagenforschungsprojekt**, das die Bedingungen, Eigenschaften und Strukturen von Visualitäten von Geschlecht untersucht.

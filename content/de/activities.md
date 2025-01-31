@@ -6,7 +6,7 @@ subheading:
 type: index
 image: art/gordon_shelegend.jpg
 caption: Jul Gordon
-captionLink: https://julgordon.de/
+captionLink: /artist/jul-gordon
 ---
 
 # Publikationen

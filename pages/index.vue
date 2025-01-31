@@ -16,7 +16,7 @@ const featureStore = useFeatureStore()
       v-else
       img="art/feuchtenberger_karlmarxallee.jpeg"
       img-caption="Anke Feuchtenberger"
-      img-caption-link="https://www.ankefeuchtenberger.de/"
+      img-caption-link="/artist/anke-feuchtenberger"
       content="/about"
     />
   </div>
