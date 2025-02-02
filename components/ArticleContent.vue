@@ -15,8 +15,6 @@ const { locale } = useI18n()
 const route = useRoute()
 const fullPath = ref(route.fullPath)
 
-const modifiedString = computed(() => props.content.slice(3))
-
 const i18nPath = computed(() => {
   if (locale.value === 'en' && props.content.startsWith('/en')) {
     return props.content
@@ -29,11 +27,6 @@ async function fetchContent() {
   try {
     return await queryContent(i18nPath.value).findOne()
   } catch (err: any) {
-    // FIXME workaround for artist short-bio
-    if (props.content.startsWith('/en')) {
-      return await queryContent(modifiedString).findOne()
-    }
-
     return await queryContent(props.content).findOne()
   }
 }
