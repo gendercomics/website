@@ -19,7 +19,7 @@ const i18nPath = computed(() => {
   if (locale.value === 'en' && props.content.startsWith('/en')) {
     return props.content
   }
-  
+
   return '/' + locale.value + props.content
 })
 
@@ -27,6 +27,11 @@ async function fetchContent() {
   try {
     return await queryContent(i18nPath.value).findOne()
   } catch (err: any) {
+    // FIXME workaround for artist short-bio
+    if (props.content.startsWith('/en')) {
+      props.content.substring(3)
+    }
+
     return await queryContent(props.content).findOne()
   }
 }
