@@ -15,7 +15,13 @@ const { locale } = useI18n()
 const route = useRoute()
 const fullPath = ref(route.fullPath)
 
-const i18nPath = computed(() => '/' + locale.value + props.content)
+const i18nPath = computed(() => {
+  if (locale.value === 'en' && props.content.startsWith('/en')) {
+    return props.content
+  }
+  
+  return '/' + locale.value + props.content
+})
 
 async function fetchContent() {
   try {
