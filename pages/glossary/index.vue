@@ -146,8 +146,10 @@ const clusterName = Object.entries(clusterSlugs).find(
 )?.[0]
 
 onMounted(() => {
-  console.log('glossary slug: ' + slug + ', clusterName: ' + clusterName)
-  filter[clusterName] = true
+  console.log('onMounted route.query: ' + route.query.cluster)
+  if (route.query.cluster) {
+    filter[route.query.cluster] = true
+  }
 })
 </script>
 

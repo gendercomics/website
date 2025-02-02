@@ -5,7 +5,7 @@ const slug = ref(route.path)
 </script>
 
 <template>
-  <article-content :content="slug" target='_self' />
+  <article-content :content="slug" target="_self" :key="slug" />
 </template>
 
 <style scoped></style>
