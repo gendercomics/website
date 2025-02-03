@@ -1,6 +1,6 @@
 {
   "name": "gendercomics-webapp",
-  "version": "2.3.0",
+  "version": "2.3.1-SNAPSHOT",
   "description": "GenderComics website",
   "private": true,
   "type": "module",
