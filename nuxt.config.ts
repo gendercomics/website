@@ -78,6 +78,19 @@ export default defineNuxtConfig({
     prerender: {
       concurrency: 1,
       failOnError: false,
+      routes: [
+        '/',
+        '/de',
+        '/en',
+        '/de/artist/anke-feuchtenberger',
+        '/de/artist/jul-gordon',
+        '/de/artist/nele-jongeling',
+        '/de/artist/regina-hofer',
+        '/en/artist/anke-feuchtenberger',
+        '/en/artist/jul-gordon',
+        '/en/artist/nele-jongeling',
+        '/en/artist/regina-hofer',
+      ],
     },
   },
 

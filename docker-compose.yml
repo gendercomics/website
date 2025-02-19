@@ -3,6 +3,8 @@ version: '3'
 services:
   gendercomics-website-stage:
     image: gendercomics/website-stage:latest
+    environment:
+      - NUXT_ENV=staging
     container_name: gendercomics-website-stage
     restart: unless-stopped
     networks:
@@ -14,7 +16,7 @@ services:
       - traefik.docker.network=proxy
 
   gendercomics-website:
-    image: gendercomics/website:2.3.0
+    image: gendercomics/website:2.3.1
     container_name: gendercomics-website
     restart: always
     networks:
