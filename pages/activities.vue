@@ -11,10 +11,6 @@ let index = await useAsyncData(fullPath.value, () =>
     .where({ type: 'index' })
     .findOne(),
 )
-
-onMounted(() => {
-  console.log('fullPath: ' + fullPath.value)
-})
 </script>
 
 <template>
@@ -35,6 +31,7 @@ onMounted(() => {
             :image="index.data.value.image"
             :caption="index.data.value.caption"
             :caption-link="index.data.value.captionLink"
+            target="_self"
             class="image"
           />
           <content-renderer-markdown
