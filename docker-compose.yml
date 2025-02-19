@@ -3,6 +3,8 @@ version: '3'
 services:
   gendercomics-website-stage:
     image: gendercomics/website-stage:latest
+    environment:
+      - NUXT_ENV=staging
     container_name: gendercomics-website-stage
     restart: unless-stopped
     networks:
