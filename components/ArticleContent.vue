@@ -48,19 +48,20 @@ onMounted(() => {
 
 <template>
   <div class="container page-margin">
-    <content-renderer :value="doc" :key="fullPath.value">
+    <content-renderer :value="doc" :key="fullPath">
       <div
         v-if="doc.data.value.title"
         class="titel-xl mt-3rem txt-align-center"
       >
         {{ doc.data.value.title }}
       </div>
+      <div>[{{ locale }}] {{ fullPath }}</div>
       <div class="w-90">
         <div v-if="doc.data.value.excerpt">
           <content-renderer-markdown
             class="a txt-align-center mt-2rem"
             :value="doc.data.value.excerpt"
-            :key="fullPath.value"
+            :key="fullPath"
           />
         </div>
       </div>
