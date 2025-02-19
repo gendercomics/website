@@ -55,7 +55,6 @@ onMounted(() => {
       >
         {{ doc.data.value.title }}
       </div>
-      <div>[{{ locale }}] {{ fullPath }}</div>
       <div class="w-90">
         <div v-if="doc.data.value.excerpt">
           <content-renderer-markdown
