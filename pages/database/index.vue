@@ -1,6 +1,7 @@
 <script setup>
 import SearchResultFooter from '~/components/SearchResultFooter.vue'
 import { useDebounceFn } from '@vueuse/core'
+import { useAsyncData } from '#app'
 
 const { locale } = useI18n()
 const searchStore = useSearchStore()
@@ -81,6 +82,12 @@ function setSearchStoreForKeyword() {
   searchStore.setSearchInput(searchInput)
 }
 
+let faq = await useAsyncData('db-faq-' + locale.value, () =>
+  queryContent('/' + locale.value + '/database')
+    .where({ type: 'faq' })
+    .findOne(),
+)
+
 onMounted(() => {
   console.log('onMounted route.query: ' + route.query.keyword)
   if (route.query.keyword) {
@@ -119,6 +126,16 @@ onMounted(() => {
     <search-result v-model="comics" />
 
     <search-result-footer v-if="resultSize > 0" :search-input="searchInput" />
+
+    <!-- FAQs -->
+    <divider b1green b2 t3 t4 b5 b6 />
+    <div class="border-green-left-right">
+      <content-renderer :value="faq">
+        <content-renderer-markdown class="a" :value="faq.data.value.body" />
+      </content-renderer>
+    </div>
+    <divider t1 b2 b3 b4 b5 t6 />
+    <!-- FAQs end -->
   </div>
 </template>
 
