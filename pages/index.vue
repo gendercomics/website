@@ -2,8 +2,11 @@
 import Hero from '~/components/Hero.vue'
 import { useFeatureStore } from '~/stores/features.ts'
 import ComingSoon from '~/components/ComingSoon.vue'
+import { init, trackPages } from 'insights-js'
 
 const featureStore = useFeatureStore()
+init('TrYgnSHvKAIkGdBl')
+trackPages()
 </script>
 
 <template>
