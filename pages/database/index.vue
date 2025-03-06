@@ -40,7 +40,10 @@ const onInput = useDebounceFn(() => {
 }, 500)
 
 async function search() {
-  track({ id: 'database-search', parameters: { searchInput: searchInput } })
+  track({
+    id: 'database-search',
+    parameters: { searchTerm: searchInput.searchTerm },
+  })
   try {
     data = await $fetch(appConfig.dbApiBaseUrl + '/search-web', {
       //query: { searchTerm: searchInput.searchTerm },
