@@ -2,6 +2,7 @@
 import SearchResultFooter from '~/components/SearchResultFooter.vue'
 import { useDebounceFn } from '@vueuse/core'
 import { useAsyncData } from '#app'
+import { track } from 'insights-js'
 
 const { locale } = useI18n()
 const searchStore = useSearchStore()
@@ -55,6 +56,8 @@ async function search() {
     console.log('Search result:', comics.value)
   } catch (error) {
     console.error('Search request failed:', error)
+  } finally {
+    track({ id: 'database-search', parameters: { searchInput: searchInput } })
   }
 }
 
