@@ -1,7 +1,10 @@
 <script setup>
 import { useFeatureStore } from '~/stores/features.ts'
+import { init, trackPages } from 'insights-js'
 
 const featureStore = useFeatureStore()
+init('TrYgnSHvKAIkGdBl')
+trackPages()
 </script>
 
 <template>
