@@ -3,7 +3,15 @@ import { useFeatureStore } from '~/stores/features.ts'
 import { init, trackPages } from 'insights-js'
 
 const featureStore = useFeatureStore()
-init('TrYgnSHvKAIkGdBl')
+const trackingDisabled = computed(() => {
+  const hostname = window.location.hostname
+  const isProductionDomain = hostname === 'gendercomics.net'
+  const isStaging =
+    hostname === 'stage.gendercomics.net' || hostname.includes('stage')
+  return !isProductionDomain || isStaging
+})
+
+init('TrYgnSHvKAIkGdBl', (disabled = trackingDisabled))
 trackPages()
 </script>
 
