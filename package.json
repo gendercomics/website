@@ -16,6 +16,7 @@
     "@nuxtjs/i18n": "^8.5.5",
     "@pinia/nuxt": "^0.5.4",
     "@vueuse/core": "^11.1.0",
+    "insights-js": "^1.2.11",
     "nuxt-security": "^2.0.0",
     "pinia": "^2.2.4",
     "vue": "^3.5.12",
