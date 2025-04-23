@@ -2,6 +2,7 @@
 import SearchResultFooter from '~/components/SearchResultFooter.vue'
 import { useDebounceFn } from '@vueuse/core'
 import { useAsyncData } from '#app'
+import { track } from 'insights-js'
 
 const { locale } = useI18n()
 const searchStore = useSearchStore()
@@ -39,6 +40,10 @@ const onInput = useDebounceFn(() => {
 }, 500)
 
 async function search() {
+  track({
+    id: 'database-search',
+    parameters: { searchTerm: searchInput.searchTerm },
+  })
   try {
     data = await $fetch(appConfig.dbApiBaseUrl + '/search-web', {
       //query: { searchTerm: searchInput.searchTerm },
