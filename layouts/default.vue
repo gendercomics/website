@@ -11,7 +11,7 @@ const trackingDisabled = computed(() => {
   return !isProductionDomain || isStaging
 })
 
-init('TrYgnSHvKAIkGdBl', (disabled = trackingDisabled))
+init('TrYgnSHvKAIkGdBl', { disabled: trackingDisabled })
 trackPages()
 </script>
 
