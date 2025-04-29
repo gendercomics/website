@@ -13,20 +13,20 @@
   },
   "dependencies": {
     "@nuxt/content": "^2.13.2",
-    "@nuxtjs/i18n": "^8.5.5",
+    "@nuxtjs/i18n": "^8.0.0",
     "@pinia/nuxt": "^0.5.4",
     "@vueuse/core": "^11.1.0",
     "insights-js": "^1.2.11",
     "nuxt-security": "^2.0.0",
     "pinia": "^2.2.4",
-    "vue": "^3.5.12",
+    "vue": "^3.3.4",
     "vue-router": "^4.4.5"
   },
   "devDependencies": {
     "@nuxt/image": "^1.8.1",
     "eslint": "^9.20.0",
     "eslint-plugin-vue": "^9.32.0",
-    "nuxt": "^3.13.2",
+    "nuxt": "^3.7.4",
     "prettier": "^3.3.3"
   }
 }
