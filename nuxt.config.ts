@@ -12,12 +12,12 @@ export default defineNuxtConfig({
   },
 
   // staging does not work yet
-  $staging: {
-    appConfig: {
-      dbApiBaseUrl: 'https://api-stage.gendercomics.net',
-      apiImageUrl: 'https://api-stage.gendercomics.net/images',
-    },
-  },
+  // $staging: {
+  //   appConfig: {
+  //     dbApiBaseUrl: 'https://api-stage.gendercomics.net',
+  //     apiImageUrl: 'https://api-stage.gendercomics.net/images',
+  //   },
+  // },
 
   $production: {
     appConfig: {
@@ -44,6 +44,7 @@ export default defineNuxtConfig({
     markdown: {
       anchorLinks: false,
     },
+    documentDriven: true,
   },
 
   security: {
@@ -118,12 +119,12 @@ export default defineNuxtConfig({
     },
   },
 
-  render: {
-    etag: false,
-    static: {
-      cacheControl: false,
-    },
-  },
+  // render: {
+  //   etag: false,
+  //   static: {
+  //     cacheControl: false,
+  //   },
+  // },
 
   compatibilityDate: '2024-09-04',
 })

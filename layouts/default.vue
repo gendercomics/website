@@ -3,8 +3,16 @@ import { useFeatureStore } from '~/stores/features.ts'
 import { init, trackPages } from 'insights-js'
 
 const featureStore = useFeatureStore()
-init('TrYgnSHvKAIkGdBl')
-trackPages()
+const { isDev } = useRuntimeConfig()
+
+if (!isDev) {
+  init('TrYgnSHvKAIkGdBl')
+  trackPages()
+}
+
+onMounted(() => {
+  console.log('isDev', isDev)
+})
 </script>
 
 <template>

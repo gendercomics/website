@@ -43,12 +43,12 @@ const imagePath = computed(() => {
     <div class="text-container">
       <div class="tag">{{ props.category }}</div>
       <div class="titel-kachel">{{ props.title }}</div>
-      <content-renderer :value="props.description" tag="div">
-        <content-renderer-markdown
+      <ContentRenderer :value="props.description" tag="div">
+        <ContentRendererMarkdown
           class="a mt-2rem"
           :value="props.description"
         />
-      </content-renderer>
+      </ContentRenderer>
     </div>
   </div>
 </template>
