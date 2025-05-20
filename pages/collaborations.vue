@@ -8,56 +8,25 @@ const { locale } = useI18n()
 const route = useRoute()
 const fullPath = ref(route.fullPath)
 
-const index = await useAsyncData(fullPath.value, () =>
-  queryContent('/' + locale.value + '/collaborations')
-    .where({ type: 'index' })
-    .findOne(),
-)
-
-const feuchtenberger = await useAsyncData(
-  locale.value + '/collaborations/advisory-board/anke-feuchtenberger',
-  () =>
-    queryContent(
-      '/' + locale.value + '/collaborations/advisory-board/anke-feuchtenberger',
-    ).findOne(),
-)
-
-const fliedl = await useAsyncData(
-  locale.value + '/collaborations/advisory-board/konstanze-fliedl',
-  () =>
-    queryContent(
-      '/' + locale.value + '/collaborations/advisory-board/konstanze-fliedl',
-    ).findOne(),
-)
-
-const frahm = await useAsyncData(
-  locale.value + '/collaborations/advisory-board/ole-frahm',
-  () =>
-    queryContent(
-      '/' + locale.value + '/collaborations/advisory-board/ole-frahm',
-    ).findOne(),
-)
-
-const nijdam = await useAsyncData(
-  locale.value + '/collaborations/advisory-board/elizabeth-nijdam',
-  () =>
-    queryContent(
-      '/' + locale.value + '/collaborations/advisory-board/elizabeth-nijdam',
-    ).findOne(),
-)
+const indexPath = computed(() => '/' + locale.value + '/collaborations')
+const feuchtenbergerPath = computed(() => '/' + locale.value + '/collaborations/advisory-board/anke-feuchtenberger')
+const fliedlPath = computed(() => '/' + locale.value + '/collaborations/advisory-board/konstanze-fliedl')
+const frahmPath = computed(() => '/' + locale.value + '/collaborations/advisory-board/ole-frahm')
+const nijdamPath = computed(() => '/' + locale.value + '/collaborations/advisory-board/elizabeth-nijdam')
 </script>
 
 <template>
   <div class="page-margin container">
     <div class="column">
-      <content-renderer :value="index" :key="fullPath.value">
-        <div class="titel-xl mt-3rem">{{ index.data.value.title }}</div>
-        <content-renderer-markdown
-          class="a"
-          :value="index.data.value.body"
-          :key="fullPath.value"
-        />
-      </content-renderer>
+      <ContentDisplay :path="indexPath">
+        <template #default="{ doc }">
+          <div class="titel-xl mt-3rem">{{ doc.title }}</div>
+          <ContentRendererMarkdown
+            class="a"
+            :value="doc.body"
+          />
+        </template>
+      </ContentDisplay>
 
       <!-- Wissenschaftlicher Beirat -->
       <div>
@@ -67,20 +36,28 @@ const nijdam = await useAsyncData(
 
         <div class="row-2">
           <div class="border-right">
-            <archive-box-with-image
-              :category="feuchtenberger.data.value.tag"
-              :title="feuchtenberger.data.value.title"
-              :img="feuchtenberger.data.value.img"
-              :description="feuchtenberger.data.value.body"
-            />
+            <ContentDisplay :path="feuchtenbergerPath">
+              <template #default="{ doc }">
+                <archive-box-with-image
+                  :category="doc.tag"
+                  :title="doc.title"
+                  :img="doc.img"
+                  :description="doc.body"
+                />
+              </template>
+            </ContentDisplay>
           </div>
           <div>
-            <archive-box-with-image
-              :category="fliedl.data.value.tag"
-              :title="fliedl.data.value.title"
-              :img="fliedl.data.value.img"
-              :description="fliedl.data.value.body"
-            />
+            <ContentDisplay :path="fliedlPath">
+              <template #default="{ doc }">
+                <archive-box-with-image
+                  :category="doc.tag"
+                  :title="doc.title"
+                  :img="doc.img"
+                  :description="doc.body"
+                />
+              </template>
+            </ContentDisplay>
           </div>
         </div>
 
@@ -88,20 +65,28 @@ const nijdam = await useAsyncData(
 
         <div class="row-2">
           <div class="border-left">
-            <archive-box-with-image
-              :category="frahm.data.value.tag"
-              :title="frahm.data.value.title"
-              :img="frahm.data.value.img"
-              :description="frahm.data.value.body"
-            />
+            <ContentDisplay :path="frahmPath">
+              <template #default="{ doc }">
+                <archive-box-with-image
+                  :category="doc.tag"
+                  :title="doc.title"
+                  :img="doc.img"
+                  :description="doc.body"
+                />
+              </template>
+            </ContentDisplay>
           </div>
           <div class="border-right">
-            <archive-box-with-image
-              :category="nijdam.data.value.tag"
-              :title="nijdam.data.value.title"
-              :img="nijdam.data.value.img"
-              :description="nijdam.data.value.body"
-            />
+            <ContentDisplay :path="nijdamPath">
+              <template #default="{ doc }">
+                <archive-box-with-image
+                  :category="doc.tag"
+                  :title="doc.title"
+                  :img="doc.img"
+                  :description="doc.body"
+                />
+              </template>
+            </ContentDisplay>
           </div>
         </div>
 
