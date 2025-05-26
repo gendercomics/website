@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { useAsyncData } from '#app'
+
 const props = defineProps({
   content: {
     type: String,
@@ -21,6 +23,24 @@ const i18nPath = computed(() => {
   return '/' + locale.value + props.content
 })
 
+async function fetchContent() {
+  try {
+    return await queryContent(i18nPath.value).findOne()
+  } catch (err: any) {
+    return await queryContent(props.content).findOne()
+  }
+}
+
+let doc = await useAsyncData(fullPath.value, () => fetchContent())
+
+watch(
+  () => fullPath.value,
+  async () => {
+    console.log('ArticleContent watch: ' + fullPath.value)
+    doc = await useAsyncData(fullPath.value, () => fetchContent())
+  },
+)
+
 onMounted(() => {
   console.log('ArticleContent fullPath: ' + fullPath.value)
 })
@@ -28,25 +48,23 @@ onMounted(() => {
 
 <template>
   <div class="container page-margin">
-    <ContentDisplay :path="i18nPath">
-      <template #default="{ doc }">
-        <div
-          v-if="doc.title"
-          class="titel-xl mt-3rem txt-align-center"
-        >
-          {{ doc.title }}
+    <content-renderer :value="doc" :key="fullPath">
+      <div
+        v-if="doc.data.value.title"
+        class="titel-xl mt-3rem txt-align-center"
+      >
+        {{ doc.data.value.title }}
+      </div>
+      <div class="w-90">
+        <div v-if="doc.data.value.excerpt">
+          <content-renderer-markdown
+            class="a txt-align-center mt-2rem"
+            :value="doc.data.value.excerpt"
+            :key="fullPath"
+          />
         </div>
-        <div class="w-90">
-          <div v-if="doc.excerpt">
-            <ContentRendererMarkdown
-              class="a txt-align-center mt-2rem"
-              :value="doc.excerpt"
-              :key="fullPath"
-            />
-          </div>
-        </div>
-      </template>
-    </ContentDisplay>
+      </div>
+    </content-renderer>
 
     <divider-red-arrow />
     <img
@@ -58,29 +76,27 @@ onMounted(() => {
 
     <div class="text-container">
       <div class="container-relative">
-        <ContentDisplay :path="i18nPath">
-          <template #default="{ doc }">
-            <div v-if="doc.image">
-              <article-image
-                :image="doc.image"
-                :caption="doc.caption"
-                :caption-link="doc.captionLink"
-                :target="props.target"
-                class="image"
-              />
-            </div>
-            <h1>{{ doc.heading }}</h1>
-            <h2 v-if="doc.subheading">
-              {{ doc.subheading }}
-            </h2>
-            <div class="a mt-2rem">
-              <ContentRendererMarkdown
-                :value="doc.body"
-                :key="fullPath"
-              />
-            </div>
-          </template>
-        </ContentDisplay>
+        <content-renderer :value="doc" :key="fullPath.value">
+          <div v-if="doc.data.value.image">
+            <article-image
+              :image="doc.data.value.image"
+              :caption="doc.data.value.caption"
+              :caption-link="doc.data.value.captionLink"
+              :target="props.target"
+              class="image"
+            />
+          </div>
+          <h1>{{ doc.data.value.heading }}</h1>
+          <h2 v-if="doc.data.value.subheading">
+            {{ doc.data.value.subheading }}
+          </h2>
+          <div class="a mt-2rem">
+            <content-renderer-markdown
+              :value="doc.data.value.body"
+              :key="fullPath.value"
+            />
+          </div>
+        </content-renderer>
       </div>
     </div>
     <divider t1 b2 b3flat b4flat b5 t6 />
