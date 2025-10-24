@@ -6,7 +6,7 @@ on: [push]
 
 jobs:
   setup:
-    name: push docker image to docker hub
+    name: setup_node.js
     runs-on: ubuntu-latest
     steps:
       - name: Setup Node.js
@@ -20,6 +20,7 @@ jobs:
         run: npm ci
 
   push_to_registry:
+    needs: setup_node.js
     name: push docker image to docker hub
     runs-on: ubuntu-latest
     steps:
