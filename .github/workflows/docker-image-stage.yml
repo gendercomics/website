@@ -43,7 +43,9 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           file: ./Dockerfile
-          build-args: VUE_APP_API_URL=https://api-stage.gendercomics.net/
+          build-args: |
+            NODE_VERSION=22
+            VUE_APP_API_URL=https://api-stage.gendercomics.net/
           push: true
           tags: ${{ steps.meta.outputs.tags }}
 
