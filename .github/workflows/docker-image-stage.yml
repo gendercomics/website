@@ -6,7 +6,6 @@ on: [push]
 
 jobs:
   push_to_registry:
-    needs: setup
     name: push docker image to docker hub
     runs-on: ubuntu-latest
     steps:
