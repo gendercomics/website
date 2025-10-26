@@ -1,75 +1,87 @@
-# Nuxt 3 Minimal Starter
+# GenderComics Website
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+The official website for GenderComics, built with Nuxt 3. This project serves as the digital platform for the GenderComics initiative, providing information, resources, and content about gender representation in comics.
 
-## Setup
+## Features
 
-Make sure to install the dependencies:
+- 🚀 Built with Nuxt 3 for optimal performance
+- 🌐 Multi-language support with i18n
+- 📚 Content management with @nuxt/content
+- 🖼️ Optimized image handling with @nuxt/image
+- 🔒 Security features with nuxt-security
+- 📊 Analytics integration with insights-js
+- 🗃️ State management with Pinia
+
+## Prerequisites
+
+- Node.js (LTS version recommended)
+- npm, pnpm, yarn, or bun package manager
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies:
 
 ```bash
-# npm
+# Using npm
 npm install
 
-# pnpm
+# Using pnpm
 pnpm install
 
-# yarn
+# Using yarn
 yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+## Development
 
-Start the development server on `http://localhost:3000`:
+Start the development server:
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+npm run dev-website
 ```
 
-## Production
+The website will be available at `http://localhost:3000`
 
-Build the application for production:
+## Building for Production
+
+To build the application for production:
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+npm run build-website
 ```
 
-Locally preview production build:
+To preview the production build locally:
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
+npm run preview-website
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Project Structure
+
+- `content/` - Contains the website's content in markdown format
+- `components/` - Vue components used throughout the application
+- `pages/` - Application views and routes
+- `public/` - Static assets
+- `locales/` - Translation files for internationalization
+
+## Contributing
+
+Please read our contributing guidelines before submitting pull requests.
+
+## License
+
+This project is licensed under the Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0) license.
+
+This means you are free to:
+- Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+
+Under the following terms:
+- Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+- NoDerivatives — If you remix, transform, or build upon the material, you may not distribute the modified material.
+
+For more information, see the [full license text](https://creativecommons.org/licenses/by-nd/4.0/).
+
+## Contact
+
+[Add contact information here]
