@@ -9,14 +9,13 @@ const { t } = useI18n({
   useScope: 'local',
 })
 const { locale } = useI18n()
-const route = useRoute()
 
 const i18nPath = computed(() => '/' + locale.value + props.content)
 const key = computed(() => 'preview:' + i18nPath.value)
 
-let doc = await useAsyncData(key.value, () =>
-  queryContent(i18nPath.value).findOne(),
-)
+const { data: doc } = await useAsyncData(key.value, () => {
+  return queryCollection('content').path(i18nPath.value).first()
+})
 
 onMounted(() => {
   console.log('TextPreviewBox key: ' + key.value)
@@ -26,15 +25,16 @@ onMounted(() => {
   <div class="container-row">
     <div class="column">
       <div class="w-90">
-        <content-renderer :value="doc" :key="key.value">
-          <div class="tag">{{ doc.data.value.tag }}</div>
-          <div class="titel-kachel">{{ doc.data.value.title }}</div>
-          <content-renderer-markdown
+        <div>
+          <div class="tag">{{ doc.tag }}</div>
+          <div class="titel-kachel">{{ doc.title }}</div>
+          <ContentRenderer
+            :key="doc.id"
+            :value="doc.excerpt"
             class="a mt-1rem"
-            :value="doc.data.value.excerpt"
-            :key="key.value"
           />
-        </content-renderer>
+        </div>
+
         <button-gray class="mt-1rem" :text="t('more')" :link="i18nPath" />
       </div>
     </div>
