@@ -135,9 +135,9 @@ onMounted(() => {
     <!-- FAQs -->
     <divider b1green b2 t3 t4 b5 b6 />
     <div class="border-green-left-right">
-      <content-renderer :value="faq">
-        <content-renderer-markdown class="a" :value="faq.data.value.body" />
-      </content-renderer>
+      <ContentRenderer :value="faq">
+        <ContentRenderer class="a" :value="faq.data.value.body" />
+      </ContentRenderer>
     </div>
     <divider t1 b2 b3 b4 b5 t6 />
     <!-- FAQs end -->

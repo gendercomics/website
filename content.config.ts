@@ -15,6 +15,7 @@ export default defineContentConfig({
           })
           .optional(),
         tag: z.string().optional(),
+        type: z.string().optional(),
       }),
     }),
   },

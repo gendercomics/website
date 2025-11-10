@@ -26,7 +26,7 @@ const i18nPath = computed(() => {
 async function fetchContent() {
   try {
     return await queryContent(i18nPath.value).findOne()
-  } catch (err: any) {
+  } catch (err) {
     return await queryContent(props.content).findOne()
   }
 }
@@ -48,7 +48,7 @@ onMounted(() => {
 
 <template>
   <div class="container page-margin">
-    <content-renderer :value="doc" :key="fullPath">
+    <ContentRenderer :value="doc" :key="fullPath">
       <div
         v-if="doc.data.value.title"
         class="titel-xl mt-3rem txt-align-center"
@@ -57,14 +57,14 @@ onMounted(() => {
       </div>
       <div class="w-90">
         <div v-if="doc.data.value.excerpt">
-          <content-renderer-markdown
+          <ContentRenderer
             class="a txt-align-center mt-2rem"
             :value="doc.data.value.excerpt"
             :key="fullPath"
           />
         </div>
       </div>
-    </content-renderer>
+    </ContentRenderer>
 
     <divider-red-arrow />
     <img
@@ -76,7 +76,7 @@ onMounted(() => {
 
     <div class="text-container">
       <div class="container-relative">
-        <content-renderer :value="doc" :key="fullPath.value">
+        <ContentRenderer :value="doc" :key="fullPath.value">
           <div v-if="doc.data.value.image">
             <article-image
               :image="doc.data.value.image"
@@ -91,12 +91,12 @@ onMounted(() => {
             {{ doc.data.value.subheading }}
           </h2>
           <div class="a mt-2rem">
-            <content-renderer-markdown
+            <ContentRenderer
               :value="doc.data.value.body"
               :key="fullPath.value"
             />
           </div>
-        </content-renderer>
+        </ContentRenderer>
       </div>
     </div>
     <divider t1 b2 b3flat b4flat b5 t6 />

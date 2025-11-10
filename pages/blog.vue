@@ -16,14 +16,14 @@ const index = await useAsyncData(fullPath.value, () =>
 <template>
   <div class="page-margin container">
     <div class="column">
-      <content-renderer :value="index" :key="fullPath.value">
+      <ContentRenderer :value="index" :key="fullPath.value">
         <div class="titel-xl mt-3rem">{{ index.data.value.title }}</div>
-        <content-renderer-markdown
+        <ContentRenderer
           class="a"
           :value="index.data.value.body"
           :key="fullPath.value"
         />
-      </content-renderer>
+      </ContentRenderer>
 
       <divider-red-arrow />
     </div>

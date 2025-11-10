@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import DividerRedArrow from '~/components/DividerRedArrow.vue'
 import DividerGreenCorner from '~/components/DividerGreenCorner.vue'
+
 const { t } = useI18n({
   useScope: 'local',
 })
@@ -50,14 +51,14 @@ const nijdam = await useAsyncData(
 <template>
   <div class="page-margin container">
     <div class="column">
-      <content-renderer :value="index" :key="fullPath.value">
+      <ContentRenderer :value="index" :key="fullPath.value">
         <div class="titel-xl mt-3rem">{{ index.data.value.title }}</div>
-        <content-renderer-markdown
+        <ContentRenderer
           class="a"
           :value="index.data.value.body"
           :key="fullPath.value"
         />
-      </content-renderer>
+      </ContentRenderer>
 
       <!-- Wissenschaftlicher Beirat -->
       <div>

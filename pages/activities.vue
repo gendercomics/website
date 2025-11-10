@@ -26,7 +26,7 @@ let index = await useAsyncData(fullPath.value, () =>
 
     <div class="column text-container">
       <div class="container-relative">
-        <content-renderer :value="index" :key="fullPath.value">
+        <ContentRenderer :value="index" :key="fullPath.value">
           <article-image
             :image="index.data.value.image"
             :caption="index.data.value.caption"
@@ -34,12 +34,12 @@ let index = await useAsyncData(fullPath.value, () =>
             target="_self"
             class="image"
           />
-          <content-renderer-markdown
+          <ContentRenderer
             class="a"
             :value="index.data.value.body"
             :key="fullPath.value"
           />
-        </content-renderer>
+        </ContentRenderer>
       </div>
     </div>
     <divider t1 b2 b3flat b4flat b5 t6 />
