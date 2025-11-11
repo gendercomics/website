@@ -1,5 +1,5 @@
 # base
-ARG NODE_VERSION=18.20.4
+ARG NODE_VERSION=22.21.1
 FROM node:${NODE_VERSION}-slim AS base
 
 #build
@@ -7,7 +7,8 @@ FROM base AS build
 WORKDIR /app
 
 COPY package.json ./
-RUN npm install
+# Use pnpm via corepack for faster, reliable installs
+RUN corepack enable && corepack use pnpm@10.21.0 && pnpm install --no-frozen-lockfile
 COPY . .
 
 RUN npm run generate-website
