@@ -11,7 +11,7 @@ COPY package.json ./
 RUN corepack enable && corepack use pnpm@10.21.0 && pnpm install --no-frozen-lockfile
 COPY . .
 
-RUN npm run generate-website
+RUN pnpm run generate-website
 # Add verification
 RUN ls -la .output/public || exit 1
 
