@@ -44,6 +44,7 @@ export default defineNuxtConfig({
     markdown: {
       anchorLinks: false,
     },
+    experimental: { nativeSqlite: true },
   },
 
   security: {
