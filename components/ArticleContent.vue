@@ -24,20 +24,19 @@ const i18nPath = computed(() => {
 })
 
 async function fetchContent() {
-  try {
-    return await queryContent(i18nPath.value).findOne()
-  } catch (err) {
-    return await queryContent(props.content).findOne()
-  }
+  return (
+    await queryCollection('content').path(i18nPath.value).first() ??
+    await queryCollection('content').path(props.content).first()
+  )
 }
 
-let doc = await useAsyncData(fullPath.value, () => fetchContent())
+const { data: doc } = await useAsyncData(fullPath.value, () => fetchContent())
 
 watch(
   () => fullPath.value,
   async () => {
     console.log('ArticleContent watch: ' + fullPath.value)
-    doc = await useAsyncData(fullPath.value, () => fetchContent())
+    doc.value = await fetchContent()
   },
 )
 
@@ -48,23 +47,18 @@ onMounted(() => {
 
 <template>
   <div class="container page-margin">
-    <ContentRenderer :value="doc" :key="fullPath">
-      <div
-        v-if="doc.data.value.title"
-        class="titel-xl mt-3rem txt-align-center"
-      >
-        {{ doc.data.value.title }}
+    <div v-if="doc?.title" class="titel-xl mt-3rem txt-align-center">
+      {{ doc?.title }}
+    </div>
+    <div class="w-90">
+      <div v-if="doc?.excerpt">
+        <ContentRenderer
+          class="a txt-align-center mt-2rem"
+          :value="doc?.excerpt"
+          :key="fullPath"
+        />
       </div>
-      <div class="w-90">
-        <div v-if="doc.data.value.excerpt">
-          <ContentRenderer
-            class="a txt-align-center mt-2rem"
-            :value="doc.data.value.excerpt"
-            :key="fullPath"
-          />
-        </div>
-      </div>
-    </ContentRenderer>
+    </div>
 
     <divider-red-arrow />
     <img
@@ -76,27 +70,20 @@ onMounted(() => {
 
     <div class="text-container">
       <div class="container-relative">
-        <ContentRenderer :value="doc" :key="fullPath.value">
-          <div v-if="doc.data.value.image">
-            <article-image
-              :image="doc.data.value.image"
-              :caption="doc.data.value.caption"
-              :caption-link="doc.data.value.captionLink"
-              :target="props.target"
-              class="image"
-            />
-          </div>
-          <h1>{{ doc.data.value.heading }}</h1>
-          <h2 v-if="doc.data.value.subheading">
-            {{ doc.data.value.subheading }}
-          </h2>
-          <div class="a mt-2rem">
-            <ContentRenderer
-              :value="doc.data.value.body"
-              :key="fullPath.value"
-            />
-          </div>
-        </ContentRenderer>
+        <div v-if="doc?.image">
+          <article-image
+            :image="doc?.image"
+            :caption="doc?.caption"
+            :caption-link="doc?.captionLink"
+            :target="props.target"
+            class="image"
+          />
+        </div>
+        <h1>{{ doc?.heading }}</h1>
+        <h2 v-if="doc?.subheading">{{ doc?.subheading }}</h2>
+        <div class="a mt-2rem">
+          <ContentRenderer :value="(doc?.body ?? {})" :key="fullPath.value" />
+        </div>
       </div>
     </div>
     <divider t1 b2 b3flat b4flat b5 t6 />
