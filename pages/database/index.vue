@@ -87,10 +87,11 @@ function setSearchStoreForKeyword() {
   searchStore.setSearchInput(searchInput)
 }
 
-let faq = await useAsyncData('db-faq-' + locale.value, () =>
-  queryContent('/' + locale.value + '/database')
-    .where({ type: 'faq' })
-    .findOne(),
+const { data: faq } = await useAsyncData('db-faq-' + locale.value, () =>
+  queryCollection('content')
+    .path('/' + locale.value + '/database')
+    .where('type', '=', 'faq')
+    .first(),
 )
 
 onMounted(() => {
@@ -135,9 +136,7 @@ onMounted(() => {
     <!-- FAQs -->
     <divider b1green b2 t3 t4 b5 b6 />
     <div class="border-green-left-right">
-      <ContentRenderer :value="faq">
-        <ContentRenderer class="a" :value="faq.data.value.body" />
-      </ContentRenderer>
+      <ContentRenderer class="a" :value="(faq?.body ?? {})" />
     </div>
     <divider t1 b2 b3 b4 b5 t6 />
     <!-- FAQs end -->

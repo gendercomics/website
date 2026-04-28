@@ -9,56 +9,55 @@ const { locale } = useI18n()
 const route = useRoute()
 const fullPath = ref(route.fullPath)
 
-const index = await useAsyncData(fullPath.value, () =>
-  queryContent('/' + locale.value + '/collaborations')
-    .where({ type: 'index' })
-    .findOne(),
+const { data: index } = await useAsyncData(fullPath.value, () =>
+  queryCollection('content')
+    .path('/' + locale.value + '/collaborations')
+    .where('type', '=', 'index')
+    .first(),
 )
 
-const feuchtenberger = await useAsyncData(
+const { data: feuchtenberger } = await useAsyncData(
   locale.value + '/collaborations/advisory-board/anke-feuchtenberger',
   () =>
-    queryContent(
-      '/' + locale.value + '/collaborations/advisory-board/anke-feuchtenberger',
-    ).findOne(),
+    queryCollection('content')
+      .path('/' + locale.value + '/collaborations/advisory-board/anke-feuchtenberger')
+      .first(),
 )
 
-const fliedl = await useAsyncData(
+const { data: fliedl } = await useAsyncData(
   locale.value + '/collaborations/advisory-board/konstanze-fliedl',
   () =>
-    queryContent(
-      '/' + locale.value + '/collaborations/advisory-board/konstanze-fliedl',
-    ).findOne(),
+    queryCollection('content')
+      .path('/' + locale.value + '/collaborations/advisory-board/konstanze-fliedl')
+      .first(),
 )
 
-const frahm = await useAsyncData(
+const { data: frahm } = await useAsyncData(
   locale.value + '/collaborations/advisory-board/ole-frahm',
   () =>
-    queryContent(
-      '/' + locale.value + '/collaborations/advisory-board/ole-frahm',
-    ).findOne(),
+    queryCollection('content')
+      .path('/' + locale.value + '/collaborations/advisory-board/ole-frahm')
+      .first(),
 )
 
-const nijdam = await useAsyncData(
+const { data: nijdam } = await useAsyncData(
   locale.value + '/collaborations/advisory-board/elizabeth-nijdam',
   () =>
-    queryContent(
-      '/' + locale.value + '/collaborations/advisory-board/elizabeth-nijdam',
-    ).findOne(),
+    queryCollection('content')
+      .path('/' + locale.value + '/collaborations/advisory-board/elizabeth-nijdam')
+      .first(),
 )
 </script>
 
 <template>
   <div class="page-margin container">
     <div class="column">
-      <ContentRenderer :value="index" :key="fullPath.value">
-        <div class="titel-xl mt-3rem">{{ index.data.value.title }}</div>
-        <ContentRenderer
-          class="a"
-          :value="index.data.value.body"
-          :key="fullPath.value"
-        />
-      </ContentRenderer>
+      <div class="titel-xl mt-3rem">{{ index?.title }}</div>
+      <ContentRenderer
+        class="a"
+        :value="(index?.body ?? {})"
+        :key="fullPath.value"
+      />
 
       <!-- Wissenschaftlicher Beirat -->
       <div>
@@ -69,18 +68,18 @@ const nijdam = await useAsyncData(
         <div class="row-2">
           <div class="border-right">
             <archive-box-with-image
-              :category="feuchtenberger.data.value.tag"
-              :title="feuchtenberger.data.value.title"
-              :img="feuchtenberger.data.value.img"
-              :description="feuchtenberger.data.value.body"
+              :category="feuchtenberger?.tag"
+              :title="feuchtenberger?.title"
+              :img="feuchtenberger?.img"
+              :description="feuchtenberger?.body"
             />
           </div>
           <div>
             <archive-box-with-image
-              :category="fliedl.data.value.tag"
-              :title="fliedl.data.value.title"
-              :img="fliedl.data.value.img"
-              :description="fliedl.data.value.body"
+              :category="fliedl?.tag"
+              :title="fliedl?.title"
+              :img="fliedl?.img"
+              :description="fliedl?.body"
             />
           </div>
         </div>
@@ -90,18 +89,18 @@ const nijdam = await useAsyncData(
         <div class="row-2">
           <div class="border-left">
             <archive-box-with-image
-              :category="frahm.data.value.tag"
-              :title="frahm.data.value.title"
-              :img="frahm.data.value.img"
-              :description="frahm.data.value.body"
+              :category="frahm?.tag"
+              :title="frahm?.title"
+              :img="frahm?.img"
+              :description="frahm?.body"
             />
           </div>
           <div class="border-right">
             <archive-box-with-image
-              :category="nijdam.data.value.tag"
-              :title="nijdam.data.value.title"
-              :img="nijdam.data.value.img"
-              :description="nijdam.data.value.body"
+              :category="nijdam?.tag"
+              :title="nijdam?.title"
+              :img="nijdam?.img"
+              :description="nijdam?.body"
             />
           </div>
         </div>

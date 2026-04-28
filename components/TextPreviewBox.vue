@@ -26,11 +26,11 @@ onMounted(() => {
     <div class="column">
       <div class="w-90">
         <div>
-          <div class="tag">{{ doc.tag }}</div>
-          <div class="titel-kachel">{{ doc.title }}</div>
+          <div class="tag">{{ doc?.tag }}</div>
+          <div class="titel-kachel">{{ doc?.title }}</div>
           <ContentRenderer
-            :key="doc.id"
-            :value="doc.excerpt"
+            :key="doc?.id"
+            :value="(doc?.excerpt ?? {})"
             class="a mt-1rem"
           />
         </div>

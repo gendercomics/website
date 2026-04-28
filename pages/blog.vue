@@ -6,24 +6,23 @@ const { locale } = useI18n()
 const route = useRoute()
 const fullPath = ref(route.fullPath)
 
-const index = await useAsyncData(fullPath.value, () =>
-  queryContent('/' + locale.value + '/blog')
-    .where({ type: 'index' })
-    .findOne(),
+const { data: index } = await useAsyncData(fullPath.value, () =>
+  queryCollection('content')
+    .path('/' + locale.value + '/blog')
+    .where('type', '=', 'index')
+    .first(),
 )
 </script>
 
 <template>
   <div class="page-margin container">
     <div class="column">
-      <ContentRenderer :value="index" :key="fullPath.value">
-        <div class="titel-xl mt-3rem">{{ index.data.value.title }}</div>
-        <ContentRenderer
-          class="a"
-          :value="index.data.value.body"
-          :key="fullPath.value"
-        />
-      </ContentRenderer>
+      <div class="titel-xl mt-3rem">{{ index?.title }}</div>
+      <ContentRenderer
+        class="a"
+        :value="(index?.body ?? {})"
+        :key="fullPath.value"
+      />
 
       <divider-red-arrow />
     </div>

@@ -41,10 +41,11 @@ const clusterSlugs = {
   development: 'development-identity',
 }
 
-const index = await useAsyncData('/' + locale.value + '/glossary', () =>
-  queryContent('/' + locale.value + '/glossary')
-    .where({ type: 'index' })
-    .findOne(),
+const { data: index } = await useAsyncData('/' + locale.value + '/glossary', () =>
+  queryCollection('content')
+    .path('/' + locale.value + '/glossary')
+    .where('type', '=', 'index')
+    .first(),
 )
 
 const {
