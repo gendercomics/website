@@ -89,8 +89,7 @@ function setSearchStoreForKeyword() {
 
 const { data: faq } = await useAsyncData('db-faq-' + locale.value, () =>
   queryCollection('content')
-    .path('/' + locale.value + '/database')
-    .where('type', '=', 'faq')
+    .path('/' + locale.value + '/database/faq')
     .first(),
 )
 
