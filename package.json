@@ -26,6 +26,15 @@
     "vue": "^3.5.22",
     "vue-router": "^4.6.3"
   },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "better-sqlite3",
+      "esbuild",
+      "sharp",
+      "vue-demi"
+    ]
+  },
   "devDependencies": {
     "@nuxt/image": "^1.11.0",
     "eslint": "^9.38.0",
