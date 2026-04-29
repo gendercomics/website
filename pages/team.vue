@@ -9,7 +9,7 @@ const { data: members } = await useAsyncData('team-members-' + locale.value, () 
   return queryCollection('content')
     .where('path', 'LIKE', '/' + locale.value + '/team/%')
     .where('type', '=', 'member')
-    .order('path', 'ASC')
+    .order('stem', 'ASC')
     .all()
 })
 
