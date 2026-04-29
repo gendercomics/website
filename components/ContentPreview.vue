@@ -2,7 +2,7 @@
 const props = defineProps({
   member: {
     type: Object,
-    default: {},
+    default: () => ({}),
   },
 })
 
@@ -15,16 +15,10 @@ const { t } = useI18n({
   <div class="container-row">
     <div class="column">
       <div class="w-90">
-        <content-renderer :value="member" :key="$route.fullPath">
-          <div class="tag">{{ member.tag }}</div>
-          <div class="titel-kachel">{{ member.title }}</div>
-          <content-renderer-markdown
-            class="a mt-1rem"
-            :value="member"
-            excerpt
-          />
-        </content-renderer>
-        <button-gray class="mt-1rem" :text="t('more')" :link="member.route" />
+        <div class="tag">{{ member?.tag }}</div>
+        <div class="titel-kachel">{{ member?.title }}</div>
+        <ContentRenderer class="a mt-1rem" :key="$route.fullPath" :value="(member?.excerpt ?? {})" />
+        <button-gray class="mt-1rem" :text="t('more')" :link="member?.route" />
       </div>
     </div>
   </div>

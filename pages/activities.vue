@@ -6,16 +6,17 @@ const { locale } = useI18n()
 const route = useRoute()
 const fullPath = ref(route.fullPath)
 
-let index = await useAsyncData(fullPath.value, () =>
-  queryContent('/' + locale.value + '/activities')
-    .where({ type: 'index' })
-    .findOne(),
+const { data: index } = await useAsyncData(fullPath.value, () =>
+  queryCollection('content')
+    .path('/' + locale.value + '/activities')
+    .where('type', '=', 'index')
+    .first(),
 )
 </script>
 
 <template>
   <div class="page-margin container">
-    <div class="titel-xl mt-3rem">{{ index.data.value.title }}</div>
+    <div class="titel-xl mt-3rem">{{ index?.title }}</div>
     <divider-red-arrow />
     <img
       src="../assets/images/corner-green-3-50px(buttons).svg"
@@ -26,20 +27,18 @@ let index = await useAsyncData(fullPath.value, () =>
 
     <div class="column text-container">
       <div class="container-relative">
-        <content-renderer :value="index" :key="fullPath.value">
-          <article-image
-            :image="index.data.value.image"
-            :caption="index.data.value.caption"
-            :caption-link="index.data.value.captionLink"
-            target="_self"
-            class="image"
-          />
-          <content-renderer-markdown
-            class="a"
-            :value="index.data.value.body"
-            :key="fullPath.value"
-          />
-        </content-renderer>
+        <article-image
+          :image="index?.image"
+          :caption="index?.caption"
+          :caption-link="index?.captionLink"
+          target="_self"
+          class="image"
+        />
+        <ContentRenderer
+          class="a"
+          :value="(index?.body ?? {})"
+          :key="fullPath.value"
+        />
       </div>
     </div>
     <divider t1 b2 b3flat b4flat b5 t6 />

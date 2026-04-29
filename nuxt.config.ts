@@ -44,12 +44,25 @@ export default defineNuxtConfig({
     markdown: {
       anchorLinks: false,
     },
+    experimental: { nativeSqlite: true },
   },
 
   security: {
     headers: {
       contentSecurityPolicy: {
         'img-src': false,
+        // Required for @sqlite.org/sqlite-wasm used by Nuxt Content v3
+        'script-src': ["'self'", "https:", "'unsafe-inline'", "'strict-dynamic'", "'nonce-{{nonce}}'", "'wasm-unsafe-eval'"],
+      },
+    },
+  },
+
+  // Allow Nuxt Content internal API routes to work without security middleware interference
+  routeRules: {
+    '/__nuxt_content/**': {
+      security: {
+        xssValidator: false,
+        rateLimiter: false,
       },
     },
   },
@@ -59,11 +72,11 @@ export default defineNuxtConfig({
     locales: [
       {
         code: 'de',
-        name: 'EN',
+        name: 'DE',
       },
       {
         code: 'en',
-        name: 'DE',
+        name: 'EN',
       },
     ],
     defaultLocale: 'de',
