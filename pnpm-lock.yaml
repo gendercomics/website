@@ -9,41 +9,44 @@ importers:
   .:
     dependencies:
       '@nuxt/content':
-        specifier: ^3.13.0
+        specifier: ^3.0.0
         version: 3.13.0(better-sqlite3@12.9.0)(magicast@0.5.2)
       '@nuxtjs/i18n':
         specifier: ^9.5.6
         version: 9.5.6(@vue/compiler-dom@3.5.33)(eslint@9.39.4(jiti@2.6.1))(magicast@0.5.2)(rollup@4.60.2)(vue@3.5.33(typescript@5.9.3))
       '@pinia/nuxt':
-        specifier: ^0.11.3
+        specifier: ^0.11.2
         version: 0.11.3(magicast@0.5.2)(pinia@3.0.4(typescript@5.9.3)(vue@3.5.33(typescript@5.9.3)))
       '@vueuse/core':
         specifier: ^11.3.0
         version: 11.3.0(vue@3.5.33(typescript@5.9.3))
       better-sqlite3:
-        specifier: ^12.9.0
+        specifier: ^12.4.1
         version: 12.9.0
       insights-js:
         specifier: ^1.2.11
         version: 1.2.11
       nuxt-security:
-        specifier: ^2.5.1
+        specifier: ^2.4.0
         version: 2.5.1(magicast@0.5.2)(rollup@4.60.2)
       pinia:
-        specifier: ^3.0.4
+        specifier: ^3.0.3
         version: 3.0.4(typescript@5.9.3)(vue@3.5.33(typescript@5.9.3))
       vue:
-        specifier: ^3.5.33
+        specifier: ^3.5.22
         version: 3.5.33(typescript@5.9.3)
       vue-router:
-        specifier: ^4.6.4
+        specifier: ^4.6.3
         version: 4.6.4(vue@3.5.33(typescript@5.9.3))
+      zod:
+        specifier: ^3.25.76
+        version: 3.25.76
     devDependencies:
       '@nuxt/image':
         specifier: ^1.11.0
         version: 1.11.0(db0@0.3.4(better-sqlite3@12.9.0))(ioredis@5.10.1)(magicast@0.5.2)(srvx@0.11.15)
       eslint:
-        specifier: ^9.39.4
+        specifier: ^9.38.0
         version: 9.39.4(jiti@2.6.1)
       eslint-config-prettier:
         specifier: ^10.1.8
@@ -52,10 +55,10 @@ importers:
         specifier: ^9.33.0
         version: 9.33.0(eslint@9.39.4(jiti@2.6.1))
       nuxt:
-        specifier: ^3.21.2
+        specifier: ^3.19.3
         version: 3.21.2(@emnapi/core@1.7.0)(@emnapi/runtime@1.7.0)(@parcel/watcher@2.5.6)(@vue/compiler-sfc@3.5.33)(better-sqlite3@12.9.0)(cac@6.7.14)(db0@0.3.4(better-sqlite3@12.9.0))(eslint@9.39.4(jiti@2.6.1))(ioredis@5.10.1)(magicast@0.5.2)(optionator@0.9.4)(rollup-plugin-visualizer@7.0.1(rollup@4.60.2))(rollup@4.60.2)(srvx@0.11.15)(terser@5.46.2)(typescript@5.9.3)(vite@7.3.2(jiti@2.6.1)(terser@5.46.2)(yaml@2.8.3))(yaml@2.8.3)
       prettier:
-        specifier: ^3.8.3
+        specifier: ^3.6.2
         version: 3.8.3
 
 packages:
