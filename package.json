@@ -15,16 +15,16 @@
     "postinstall-website": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxt/content": "^3.0.0",
+    "@nuxt/content": "^3.13.0",
     "@nuxtjs/i18n": "^9.5.6",
-    "@pinia/nuxt": "^0.11.2",
+    "@pinia/nuxt": "^0.11.3",
     "@vueuse/core": "^11.3.0",
-    "better-sqlite3": "^12.4.1",
+    "better-sqlite3": "^12.9.0",
     "insights-js": "^1.2.11",
-    "nuxt-security": "^2.4.0",
-    "pinia": "^3.0.3",
-    "vue": "^3.5.22",
-    "vue-router": "^4.6.3",
+    "nuxt-security": "^2.5.1",
+    "pinia": "^3.0.4",
+    "vue": "^3.5.33",
+    "vue-router": "^4.6.4",
     "zod": "^3.25.76"
   },
   "pnpm": {
@@ -38,10 +38,10 @@
   },
   "devDependencies": {
     "@nuxt/image": "^1.11.0",
-    "eslint": "^9.38.0",
+    "eslint": "^9.39.4",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-vue": "^9.33.0",
-    "nuxt": "^3.19.3",
-    "prettier": "^3.6.2"
+    "nuxt": "^3.21.2",
+    "prettier": "^3.8.3"
   }
 }
