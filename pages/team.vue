@@ -1,27 +1,19 @@
-<script setup lang="ts" xmlns="http://www.w3.org/1999/html">
+<script setup lang="ts">
 import DividerRedArrow from '~/components/DividerRedArrow.vue'
 
 const { locale } = useI18n()
-const route = useRoute()
-const fullPath = ref(route.fullPath)
 
 const memberPath = computed(() => '/' + locale.value + '/team')
 
-/*
-const members = await useAsyncData('team-members-' + locale.value, () =>
-  queryContent(memberPath.value).where({ type: 'member' }).find(),
-)
-*/
-
-const memberKey = computed(() => 'team-members-' + locale.value)
-const { data: members } = await useAsyncData(memberKey.value, () => {
+const { data: members } = await useAsyncData('team-members-' + locale.value, () => {
   return queryCollection('content')
-    .path(memberPath.value)
+    .where('path', 'LIKE', '/' + locale.value + '/team/%')
     .where('type', '=', 'member')
+    .order('path', 'ASC')
     .all()
 })
 
-const { data: index } = await useAsyncData('team-${locale.value}', () => {
+const { data: index } = await useAsyncData(`team-index-${locale.value}`, () => {
   return queryCollection('content')
     .path(memberPath.value)
     .where('type', '=', 'index')
@@ -38,52 +30,44 @@ const { data: index } = await useAsyncData('team-${locale.value}', () => {
         <divider-red-arrow />
       </div>
 
-      <div>{{ members }}</div>
-
-      <div v-for="member in members" :key="member.id">
-        <div>{{ member.id }}</div>
-      </div>
-
-      <!--
-      <div v-for="(member, index) in members.data.value" :key="member._path">
-        <div class="row" :class="{ 'border-left': index % 2 != 0 }">
+      <div v-for="(member, i) in members" :key="member.path">
+        <div class="row" :class="{ 'border-left': i % 2 != 0 }">
           <div class="w-50">
             <ImageBox
-              v-if="index % 2 === 0"
+              v-if="i % 2 === 0"
               class="border-right"
               :img="member.image"
               width="60%"
               :caption="member.caption"
               :caption-link="member.captionLink"
             />
-            <div v-else-if="index % 2 != 0">
+            <div v-else-if="i % 2 != 0">
               <content-preview :member="member" />
             </div>
           </div>
           <div class="w-50">
             <ImageBox
               class="mr-2"
-              v-if="index % 2 != 0"
+              v-if="i % 2 != 0"
               :img="member.image"
               width="60%"
               :caption="member.caption"
               :caption-link="member.captionLink"
               :btn-arrow="false"
             />
-            <div v-if="index % 2 === 0">
+            <div v-if="i % 2 === 0">
               <content-preview :member="member" />
             </div>
           </div>
         </div>
 
-        <div v-if="index % 2 === 0 && index < members.data.value.length - 1">
+        <div v-if="i % 2 === 0 && i < (members?.length ?? 0) - 1">
           <divider b1 b2 t3 t4 b5 b6 />
         </div>
-        <div v-else-if="index % 2 != 0">
+        <div v-else-if="i % 2 != 0">
           <divider t1 b2 b3 />
         </div>
       </div>
-      -->
     </div>
   </div>
 </template>
@@ -117,11 +101,6 @@ const { data: index } = await useAsyncData('team-${locale.value}', () => {
 .border-left {
   border-left: 2px solid var(--gc-green);
   margin-left: 0;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
 }
 
 .mt-1rem {
