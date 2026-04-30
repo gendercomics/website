@@ -48,7 +48,7 @@ jobs:
         uses: actions/checkout@main
 
       - name: deploy stage
-        uses: alinz/ssh-scp-action@main
+        uses: alinz/ssh-scp-action@master
         with:
           key: ${{ secrets.DEPLOY_KEY }}
           host: ${{ secrets.APP_HOST }}
