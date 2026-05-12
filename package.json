@@ -21,9 +21,9 @@
     "@vueuse/core": "^11.3.0",
     "better-sqlite3": "^12.9.0",
     "insights-js": "^1.2.11",
-    "nuxt-security": "^2.5.1",
+    "nuxt-security": "^2.6.0",
     "pinia": "^3.0.4",
-    "vue": "^3.5.33",
+    "vue": "^3.5.34",
     "vue-router": "^4.6.4",
     "zod": "^3.25.76"
   },
