@@ -6,7 +6,7 @@ FROM node:${NODE_VERSION}-slim AS base
 FROM base AS build
 WORKDIR /app
 
-COPY package.json ./
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml .npmrc ./
 # Use pnpm via corepack for faster, reliable installs
 RUN corepack enable && corepack use pnpm@10.21.0 && pnpm install --no-frozen-lockfile
 COPY . .
