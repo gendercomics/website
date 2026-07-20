@@ -43,3 +43,12 @@ $RECYCLE.BIN/
 /.output/
 /dist/
 /dist
+
+## Testing
+/test-results/
+/playwright-report/
+/blob-report/
+
+## Nuxt/ESLint local artifacts
+.eslintcache
+.nuxtrc
