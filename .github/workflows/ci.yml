@@ -1,0 +1,63 @@
+name: ci - lint, test & build
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    name: lint, unit/component tests, build
+    runs-on: ubuntu-latest
+    steps:
+      - name: check out the repo
+        uses: actions/checkout@v4
+
+      - name: set up pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: set up node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+
+      - name: install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: lint
+        # Pre-existing lint debt (see PR description) means this isn't a
+        # merge-blocking gate yet - it still surfaces results in CI output.
+        # Flip this off once the backlog of errors is cleared.
+        continue-on-error: true
+        run: pnpm run lint-website
+
+      - name: unit & component tests
+        run: pnpm run test-website
+
+      - name: build
+        run: pnpm run build-website
+
+  e2e:
+    name: e2e smoke tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: check out the repo
+        uses: actions/checkout@v4
+
+      - name: set up pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: set up node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+
+      - name: install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: install playwright browsers
+        run: pnpm exec playwright install --with-deps chromium
+
+      - name: e2e tests
+        run: pnpm run test-e2e-website
+        env:
+          CI: true
