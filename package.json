@@ -13,7 +13,7 @@
     "dev-website": "nuxt dev",
     "generate-website": "nuxt generate",
     "preview-website": "nuxt preview",
-    "postinstall-website": "nuxt prepare",
+    "postinstall": "nuxt prepare",
     "lint-website": "eslint .",
     "test-website": "vitest run",
     "test-watch-website": "vitest",
