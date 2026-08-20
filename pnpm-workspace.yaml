@@ -4,3 +4,9 @@ allowBuilds:
   esbuild: true
   sharp: true
   vue-demi: true
+
+overrides:
+  # ipx@2.1.1 (pulled in by @nuxt/image) pins sharp ^0.32.6, which has
+  # known libvips CVEs (GHSA fixed in 0.35.0). Force the patched version;
+  # ipx only uses sharp's stable resize/format API, unaffected by the bump.
+  sharp: ^0.35.0
