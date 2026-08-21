@@ -32,15 +32,6 @@
     "vue-router": "^4.6.4",
     "zod": "^3.25.76"
   },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "@parcel/watcher",
-      "better-sqlite3",
-      "esbuild",
-      "sharp",
-      "vue-demi"
-    ]
-  },
   "devDependencies": {
     "@nuxt/image": "^1.11.0",
     "@nuxt/test-utils": "^4.1.0",
