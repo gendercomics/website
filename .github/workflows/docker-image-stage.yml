@@ -36,6 +36,7 @@ jobs:
           build-args: |
             NODE_VERSION=22
             VUE_APP_API_URL=https://api-stage.gendercomics.net/
+            NUXT_PUBLIC_POSTHOG_KEY=${{ secrets.NUXT_PUBLIC_POSTHOG_KEY }}
           push: true
           tags: ${{ steps.meta.outputs.tags }}
 

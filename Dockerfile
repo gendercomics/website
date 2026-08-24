@@ -11,6 +11,9 @@ COPY package.json pnpm-lock.yaml pnpm-workspace.yaml .npmrc ./
 RUN corepack enable && corepack use pnpm@10.21.0 && pnpm install --no-frozen-lockfile
 COPY . .
 
+ARG NUXT_PUBLIC_POSTHOG_KEY
+ENV NUXT_PUBLIC_POSTHOG_KEY=$NUXT_PUBLIC_POSTHOG_KEY
+
 RUN pnpm run generate-website
 # Add verification
 RUN ls -la .output/public || exit 1
