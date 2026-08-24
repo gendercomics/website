@@ -9,7 +9,7 @@ The official website for GenderComics, built with Nuxt 3. This project serves as
 - 📚 Content management with @nuxt/content
 - 🖼️ Optimized image handling with @nuxt/image
 - 🔒 Security features with nuxt-security
-- 📊 Analytics integration with insights-js
+- 📊 Analytics integration with PostHog
 - 🗃️ State management with Pinia
 
 ## Prerequisites

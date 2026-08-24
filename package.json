@@ -25,9 +25,9 @@
     "@pinia/nuxt": "^1.0.2",
     "@vueuse/core": "^14.4.0",
     "better-sqlite3": "^12.11.1",
-    "insights-js": "^1.2.11",
     "nuxt-security": "^2.6.0",
     "pinia": "^4.0.3",
+    "posthog-js": "^1.418.13",
     "vue": "^3.5.41",
     "vue-router": "^5.2.0",
     "zod": "^3.25.76"

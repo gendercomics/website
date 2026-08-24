@@ -4,6 +4,15 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   pages: true,
 
+  runtimeConfig: {
+    public: {
+      // Project API key from PostHog (public.posthog.com project settings).
+      // Safe to expose client-side. Set via NUXT_PUBLIC_POSTHOG_KEY.
+      posthogKey: '',
+      posthogHost: 'https://eu.i.posthog.com',
+    },
+  },
+
   $development: {
     appConfig: {
       dbApiBaseUrl: 'http://localhost:8001',
