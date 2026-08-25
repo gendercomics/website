@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.0.2](https://github.com/gendercomics/website/compare/3.0.1...3.0.2) (2026-08-25)
+
+
+### Bug Fixes
+
+* **ci:** pin production deploys to the release tag instead of latest ([71927b2](https://github.com/gendercomics/website/commit/71927b2732f9818b815cbca7a6c8fe74501d05df))
+* **ci:** pin production deploys to the release tag instead of latest ([55ea311](https://github.com/gendercomics/website/commit/55ea311550022a69000db0dadb46520e2fd98207))
+
 ## [3.0.1](https://github.com/gendercomics/website/compare/3.0.0...3.0.1) (2026-08-25)
 
 
