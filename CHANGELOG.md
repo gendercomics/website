@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.0.4](https://github.com/gendercomics/website/compare/3.0.3...3.0.4) (2026-08-25)
+
+
+### Bug Fixes
+
+* **ci:** use a PAT for release-please so its tags trigger deploys ([e353cb8](https://github.com/gendercomics/website/commit/e353cb858c4ac69b5ac5fa49b8797711b8b4ef02))
+* **ci:** use a PAT for release-please so its tags trigger deploys ([aa21a10](https://github.com/gendercomics/website/commit/aa21a10a5f714952316d7bf0b7e955c3bf3607e3))
+
 ## [3.0.3](https://github.com/gendercomics/website/compare/3.0.2...3.0.3) (2026-08-25)
 
 
