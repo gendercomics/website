@@ -70,7 +70,8 @@ jobs:
           # then run these commands
           ssh_after: |
             echo 'running docker-compose'
-            docker pull gendercomics/website:latest
             cd /var/gendercomics/website
+            echo 'WEBSITE_VERSION=${{ github.ref_name }}' > .env
+            docker pull gendercomics/website:${{ github.ref_name }}
             docker-compose up -d gendercomics-website
             echo 'DONE!!!'
