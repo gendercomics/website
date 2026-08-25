@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.0.3](https://github.com/gendercomics/website/compare/3.0.2...3.0.3) (2026-08-25)
+
+
+### Bug Fixes
+
+* **ci:** pass WEBSITE_VERSION inline instead of writing .env ([c53d9b8](https://github.com/gendercomics/website/commit/c53d9b8bf6d6d9f3834abbced7767f15942ac6a7))
+* **ci:** pass WEBSITE_VERSION inline instead of writing .env ([5efff3d](https://github.com/gendercomics/website/commit/5efff3d3cfa2ca11c8f91d9ae3edac92275b692f))
+
 ## [3.0.2](https://github.com/gendercomics/website/compare/3.0.1...3.0.2) (2026-08-25)
 
 
