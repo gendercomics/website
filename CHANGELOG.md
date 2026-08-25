@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.0.1](https://github.com/gendercomics/website/compare/3.0.0...3.0.1) (2026-08-25)
+
+
+### Bug Fixes
+
+* **ci:** pull the correct image tag when deploying to production ([397f80d](https://github.com/gendercomics/website/commit/397f80daabb1c8be9787604123e1e50cf049449f))
+* **ci:** pull the correct image tag when deploying to production ([898852a](https://github.com/gendercomics/website/commit/898852adb65035fdaf724951078e3b9610f50ded))
+
 ## [3.0.0](https://github.com/gendercomics/website/compare/2.4.2...3.0.0) (2026-08-24)
 
 
