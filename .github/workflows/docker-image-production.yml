@@ -43,15 +43,15 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
 
-  deploy_stage:
+  deploy_production:
     needs: push_to_registry
-    name: stage deployment to digitalocean.com
+    name: production deployment to digitalocean.com
     runs-on: ubuntu-latest
     steps:
       - name: check out the repo
         uses: actions/checkout@main
 
-      - name: deploy stage
+      - name: deploy production
         uses: alinz/ssh-scp-action@master
         with:
           key: ${{ secrets.DEPLOY_KEY }}
@@ -59,7 +59,7 @@ jobs:
           user: ${{ secrets.DEPLOY_USER }}
           # runs this on remove server
           ssh_before: |
-            echo 'STAGE: deploying ${{ github.ref }}'
+            echo 'PRODUCTION: deploying ${{ github.ref }}'
             cd /var/gendercomics/website
             ls -lath
 
@@ -70,7 +70,7 @@ jobs:
           # then run these commands
           ssh_after: |
             echo 'running docker-compose'
-            docker pull gendercomics/website:${{ steps.meta.outputs.tags }}
+            docker pull gendercomics/website:latest
             cd /var/gendercomics/website
             docker-compose up -d gendercomics-website
             echo 'DONE!!!'
