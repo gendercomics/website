@@ -9,4 +9,12 @@ overrides:
   # ipx@2.1.1 (pulled in by @nuxt/image) pins sharp ^0.32.6, which has
   # known libvips CVEs (GHSA fixed in 0.35.0). Force the patched version;
   # ipx only uses sharp's stable resize/format API, unaffected by the bump.
-  sharp: ^0.35.0
+  sharp: ^0.35.4
+  # @apidevtools/json-schema-ref-parser (pulled in by @nuxt/content, build-time
+  # only) pins an older js-yaml with a CPU-exhaustion DoS (GHSA-2883-xcg3-v3hh,
+  # fixed in 4.3.2). Stay on the 4.x line to avoid an unreviewed major bump.
+  js-yaml: '>=4.3.2 <5'
+  # postcss-svgo (pulled in by nuxt's Vite build via cssnano, build-time only)
+  # pins svgo <4.1.0, which has a removeScripts sanitizer bypass
+  # (GHSA-4vpr-x523-8j87, GHSA-w27v-7q3p-w38r).
+  svgo: ^4.1.0
