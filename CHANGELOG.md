@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.0.5](https://github.com/gendercomics/website/compare/3.0.4...3.0.5) (2026-09-15)
+
+
+### Bug Fixes
+
+* **deps:** patch js-yaml, sharp, svgo transitive vulnerabilities ([7ed9878](https://github.com/gendercomics/website/commit/7ed9878bd785052bc0c017a0d28b9e984a9ac92c))
+* **deps:** patch js-yaml, sharp, svgo transitive vulnerabilities ([d5d2449](https://github.com/gendercomics/website/commit/d5d244992b498fa2b31b814166809f35f6794c0b))
+
 ## [3.0.4](https://github.com/gendercomics/website/compare/3.0.3...3.0.4) (2026-08-25)
 
 
