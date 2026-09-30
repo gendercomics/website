@@ -1,0 +1,36 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+    groups:
+      # Keep the nuxt/vue toolchain moving as one unit - these are tightly
+      # version-coupled and separate PRs just conflict with each other.
+      nuxt-ecosystem:
+        patterns:
+          - nuxt
+          - "@nuxt/*"
+          - "@nuxtjs/*"
+          - nuxt-security
+      vue-ecosystem:
+        patterns:
+          - vue
+          - vue-router
+          - pinia
+          - "@pinia/*"
+          - "@vueuse/*"
+      dev-tooling:
+        dependency-type: development
+    # Conventional Commits prefixes, required by release-please.yml.
+    commit-message:
+      prefix: "chore(deps)"
+      prefix-development: "chore(deps-dev)"
+
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: monthly
+    commit-message:
+      prefix: "ci"
