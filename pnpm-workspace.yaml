@@ -18,3 +18,13 @@ overrides:
   # pins svgo <4.1.0, which has a removeScripts sanitizer bypass
   # (GHSA-4vpr-x523-8j87, GHSA-w27v-7q3p-w38r).
   svgo: ^4.1.0
+  # undici <8.10.2 is vulnerable to cross-origin cache poisoning via missing
+  # origin isolation in interceptors (GHSA). Pulled in by nuxt (build/dev
+  # fetch paths only - production ships static HTML from nginx). nuxt allows
+  # ^8.10.0, but a plain `pnpm update` re-resolves oxc-parser downwards, so
+  # pin the floor here instead.
+  undici: ^8.10.2
+  # devalue <5.9.2 has a DoS via malformed input. Pulled in by nuxt,
+  # @nuxt/nitro-server and @nuxtjs/i18n for payload serialization; all three
+  # allow the patched range.
+  devalue: ^5.9.2
