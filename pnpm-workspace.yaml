@@ -28,3 +28,14 @@ overrides:
   # @nuxt/nitro-server and @nuxtjs/i18n for payload serialization; all three
   # allow the patched range.
   devalue: ^5.9.2
+  # brace-expansion: pulled in transitively by minimatch (eslint,
+  # typescript-eslint, editorconfig, glob - all dev/lint-time only), on two
+  # coexisting major lines, each with its own DoS advisory (quadratic-time
+  # expansion / uncontrolled recursion causing stack exhaustion). A flat
+  # override would force both lines to one version and break whichever
+  # consumer needs the other, so pin per parent instead. A plain
+  # `pnpm update` also re-resolves oxc-parser downwards (see undici/devalue
+  # override above), so overrides are used here too.
+  minimatch@5.1.9>brace-expansion: ^2.1.7
+  minimatch@9.0.9>brace-expansion: ^2.1.7
+  minimatch@10.2.6>brace-expansion: ^5.0.12
