@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.0.6](https://github.com/gendercomics/website/compare/3.0.5...3.0.6) (2026-10-06)
+
+
+### Bug Fixes
+
+* **deps:** patch brace-expansion DoS vulnerabilities ([#133](https://github.com/gendercomics/website/issues/133)) ([fd156c9](https://github.com/gendercomics/website/commit/fd156c9134370962a23f4281457d86d5bf9f3f0c))
+* **deps:** patch source-map-js event-loop DoS vulnerability ([#140](https://github.com/gendercomics/website/issues/140)) ([e78e622](https://github.com/gendercomics/website/commit/e78e62214e3e69cd2fef5cf2968c230e9cc56078))
+* **deps:** patch undici and devalue transitive vulnerabilities ([#121](https://github.com/gendercomics/website/issues/121)) ([7fe3eff](https://github.com/gendercomics/website/commit/7fe3eff2d5a2655a869759cad64892870fe06ea1))
+
 ## [3.0.5](https://github.com/gendercomics/website/compare/3.0.4...3.0.5) (2026-09-15)
 
 
