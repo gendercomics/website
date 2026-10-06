@@ -7,6 +7,8 @@ on: [push]
 jobs:
   push_to_registry:
     name: push docker image to docker hub
+    # dependabot-triggered runs have no access to repo secrets, so docker hub login would always fail
+    if: github.actor != 'dependabot[bot]'
     runs-on: ubuntu-latest
     steps:
       - name: check out the repo
