@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.1](https://github.com/gendercomics/website/compare/3.1.0...3.1.1) (2026-10-12)
+
+
+### Bug Fixes
+
+* **deps:** patch shell-quote, seroval and sharp vulnerabilities ([#143](https://github.com/gendercomics/website/issues/143)) ([9ed98c5](https://github.com/gendercomics/website/commit/9ed98c5c04cb9c63397ed8fbf719b01577577b31))
+
 ## [3.1.0](https://github.com/gendercomics/website/compare/3.0.6...3.1.0) (2026-10-12)
 
 
