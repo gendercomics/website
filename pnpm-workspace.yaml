@@ -9,7 +9,8 @@ overrides:
   # ipx@2.1.1 (pulled in by @nuxt/image) pins sharp ^0.32.6, which has
   # known libvips CVEs (GHSA fixed in 0.35.0). Force the patched version;
   # ipx only uses sharp's stable resize/format API, unaffected by the bump.
-  sharp: ^0.35.4
+  # 0.35.5 additionally fixes a librsvg CVE (GHSA-wq5f-xc86-pv6w).
+  sharp: ^0.35.5
   # @apidevtools/json-schema-ref-parser (pulled in by @nuxt/content, build-time
   # only) pins an older js-yaml with a CPU-exhaustion DoS (GHSA-2883-xcg3-v3hh,
   # fixed in 4.3.2). Stay on the 4.x line to avoid an unreviewed major bump.
@@ -43,3 +44,10 @@ overrides:
   # offsets. Pulled in by postcss/vite and magicast (build-time only); both
   # allow ^1.2.1, but dependabot can't raise a transitive pin under pnpm.
   source-map-js: ^1.2.2
+  # shell-quote <1.11.0 has a quote() command injection (GHSA-pqg4-j6r4-53mv).
+  # Pulled in by @nuxt/devtools > launch-editor (dev only), which allows ^1.8.4.
+  shell-quote: ^1.11.0
+  # NOT overridden: simple-git <4.0.1 (GHSA-x6jw-m9v5-85vh, GHSA-g4wm-2vf7-vfgr,
+  # GHSA-858h-whjf-mvg5, GHSA-v5rq-49vh-5v5c). Only @nuxt/devtools (dev only)
+  # uses it, and 3.x imports its default export, which 4.x removed, so forcing
+  # 4.x breaks `nuxt prepare`. Revisit once @nuxt/devtools 4 is stable.
