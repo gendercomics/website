@@ -11,3 +11,4 @@ docker-compose*
 .idea
 README.md
 LICENSE
+.content/.git

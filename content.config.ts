@@ -1,12 +1,22 @@
 // website/content.config.ts
+import { fileURLToPath } from 'node:url'
 import { defineCollection, defineContentConfig } from '@nuxt/content'
 import { z } from 'zod'
+
+// Markdown lives in the separate gendercomics/content repo, checked out into .content/
+// (pnpm run content-website locally, actions/checkout in CI).
+const contentDir = fileURLToPath(new URL('./.content', import.meta.url))
 
 export default defineContentConfig({
   collections: {
     content: defineCollection({
       type: 'page',
-      source: '**/*.md',
+      source: {
+        cwd: contentDir,
+        // no brace patterns here: @nuxt/content derives the path prefix from the static part
+        include: '**/*.md',
+        exclude: ['README.md', '.github/**'],
+      },
       schema: z.object({
         excerpt: z
           .object({

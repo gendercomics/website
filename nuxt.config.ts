@@ -1,4 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import { existsSync } from 'node:fs'
+import { fileURLToPath } from 'node:url'
+
+if (!existsSync(fileURLToPath(new URL('./.content/de', import.meta.url)))) {
+  console.warn('[gendercomics] .content/ is missing - run `pnpm run content-website` to check out the content repo')
+}
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
@@ -97,9 +103,19 @@ export default defineNuxtConfig({
   },
 
   nitro: {
+    // Images are maintained alongside the markdown in the gendercomics/content repo
+    publicAssets: [
+      {
+        dir: fileURLToPath(new URL('./.content/images', import.meta.url)),
+        baseURL: '/images',
+      },
+    ],
     prerender: {
       concurrency: 1,
       failOnError: false,
+      // Seed routes below; the crawler follows links from there, so new content
+      // pages are prerendered as long as some page links to them.
+      crawlLinks: true,
       routes: [
         '/',
         '/de',

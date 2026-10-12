@@ -52,3 +52,6 @@ $RECYCLE.BIN/
 ## Nuxt/ESLint local artifacts
 .eslintcache
 .nuxtrc
+
+## Content (checked out from gendercomics/content, see scripts/fetch-content.mjs)
+/.content/

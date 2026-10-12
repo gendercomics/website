@@ -35,6 +35,12 @@ yarn install
 
 ## Development
 
+Check out the content repo into `.content/` first (set `CONTENT_REF` to use another branch or commit):
+
+```bash
+pnpm run content-website
+```
+
 Start the development server:
 
 ```bash
@@ -59,7 +65,7 @@ npm run preview-website
 
 ## Project Structure
 
-- `content/` - Contains the website's content in markdown format
+- `.content/` - Checkout of [gendercomics/content](https://github.com/gendercomics/content) (markdown pages and images, gitignored). Fetch it with `pnpm run content-website`
 - `components/` - Vue components used throughout the application
 - `pages/` - Application views and routes
 - `public/` - Static assets
