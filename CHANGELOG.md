@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.0](https://github.com/gendercomics/website/compare/3.0.6...3.1.0) (2026-10-12)
+
+
+### Features
+
+* **content:** load content from gendercomics/content repo ([#141](https://github.com/gendercomics/website/issues/141)) ([bae7c81](https://github.com/gendercomics/website/commit/bae7c81e945175ddc5b07b3fd41da54db55173e9))
+
 ## [3.0.6](https://github.com/gendercomics/website/compare/3.0.5...3.0.6) (2026-10-06)
 
 
