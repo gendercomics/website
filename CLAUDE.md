@@ -14,6 +14,7 @@ All scripts are suffixed `-website` (this repo lives alongside sibling projects 
 
 ```bash
 pnpm install              # install deps
+pnpm run content-website   # check out gendercomics/content into .content/ (CONTENT_REF=<ref>, default main)
 pnpm run dev-website       # start dev server (http://localhost:3000)
 pnpm run build-website     # production build
 pnpm run generate-website  # static generation
@@ -44,16 +45,22 @@ Three distinct suites, each with a different reason for existing:
 
 ## Architecture
 
+### Content lives in a separate repo
+
+Markdown and images are maintained by non-technical editors in [gendercomics/content](https://github.com/gendercomics/content), not here. It is checked out (gitignored) into `.content/`: `content.config.ts` reads `.content/**/*.md` (excluding the README) and `nuxt.config.ts` serves `.content/images` at `/images` via `nitro.publicAssets`. CI and the docker workflows check it out with `actions/checkout` before building (the docker builds use `context: .` so the checkout is part of the build context).
+
+Deployment flow: a push to content `main` runs the content repo's `publish.yml`, which dispatches `docker-image-stage.yml` (`content_ref` input). After a reviewer approves the `production` environment there, the content `production` branch is moved to that commit and `docker-image-production.yml` is dispatched on the latest website release tag. Code releases (tag push) build with content `production`, so they never ship unapproved content. Production images are tagged `<release>-content-<sha>`.
+
 ### Content and i18n are the same mechanism
 
-There are no translation string files. Localization works by having **parallel markdown trees**: `content/de/**` and `content/en/**` mirror each other path-for-path (e.g. `content/de/about.md` / `content/en/about.md`). `@nuxtjs/i18n` uses `prefix_and_default` strategy with `de` as the default locale, so a route like `/about` (default) and `/en/about` both resolve to a content path built from the current locale.
+There are no translation string files. Localization works by having **parallel markdown trees**: `de/**` and `en/**` in the content repo mirror each other path-for-path (e.g. `de/about.md` / `en/about.md`). `@nuxtjs/i18n` uses `prefix_and_default` strategy with `de` as the default locale, so a route like `/about` (default) and `/en/about` both resolve to a content path built from the current locale.
 
 Two components do the actual content resolution, both against the `content` collection defined in `content.config.ts`:
 
 - `components/ArticleContent.vue` — takes a `content` prop (a path like `/database`), prefixes it with the current locale (`/de/database`, `/en/database`), and falls back to the raw un-prefixed path if the localized one isn't found. Used by dedicated pages (e.g. `pages/database/index.vue`).
 - `pages/[...slug].vue` — catch-all route that renders whatever markdown exists at the current URL path via `ArticleContent`. This is what serves most simple content pages (imprint, privacy, team profiles, artist bios, etc.) without a dedicated `pages/*.vue` file.
 
-When adding a new content page, add the markdown under both `content/de/` and `content/en/`, and if it needs to be prerendered, add both locale-prefixed routes to `nitro.prerender.routes` in `nuxt.config.ts` — routes not listed there won't be part of the static prerender pass.
+When adding a new content page, add the markdown under both `de/` and `en/` in the content repo. Prerendering uses `crawlLinks`, so a page is prerendered as long as some page links to it; `nitro.prerender.routes` in `nuxt.config.ts` only holds the seed routes.
 
 ### Search hits an external API, not this repo's server
 

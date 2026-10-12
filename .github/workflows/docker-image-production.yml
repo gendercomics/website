@@ -6,14 +6,38 @@ on:
   push:
     tags:
       - '*'
+  # dispatched by gendercomics/content (publish.yml) after a content release is approved;
+  # it runs against the latest release tag, so only released code goes live
+  workflow_dispatch:
+    inputs:
+      content_ref:
+        description: gendercomics/content ref to build with
+        default: production
+
+concurrency:
+  group: deploy-production
 
 jobs:
   push_to_registry:
     name: push docker image to docker hub
     runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.version.outputs.version }}
     steps:
       - name: check out the repo
         uses: actions/checkout@main
+
+      - name: check out content
+        uses: actions/checkout@main
+        with:
+          repository: gendercomics/content
+          # code releases always ship the last approved content
+          ref: ${{ inputs.content_ref || 'production' }}
+          path: .content
+
+      - name: determine image version
+        id: version
+        run: echo "version=${{ github.ref_name }}-content-$(git -C .content rev-parse --short HEAD)" >> "$GITHUB_OUTPUT"
 
       - name: log in to docker hub
         uses: docker/login-action@v4
@@ -27,8 +51,7 @@ jobs:
         with:
           images: gendercomics/website
           tags: |
-            type=ref,event=branch
-            type=ref,event=tag
+            type=raw,value=${{ steps.version.outputs.version }}
           flavor: |
             latest=true
 
@@ -36,6 +59,8 @@ jobs:
         uses: docker/build-push-action@v7
         with:
           file: ./Dockerfile
+          # build from the workspace so the .content checkout is part of the build context
+          context: .
           build-args: |
             NODE_VERSION=22
             VUE_APP_API_URL=https://api.gendercomics.net/
@@ -59,7 +84,7 @@ jobs:
           user: ${{ secrets.DEPLOY_USER }}
           # runs this on remove server
           ssh_before: |
-            echo 'PRODUCTION: deploying ${{ github.ref }}'
+            echo 'PRODUCTION: deploying ${{ needs.push_to_registry.outputs.version }}'
             cd /var/gendercomics/website
             ls -lath
 
@@ -71,6 +96,6 @@ jobs:
           ssh_after: |
             echo 'running docker-compose'
             cd /var/gendercomics/website
-            docker pull gendercomics/website:${{ github.ref_name }}
-            WEBSITE_VERSION=${{ github.ref_name }} docker-compose up -d gendercomics-website
+            docker pull gendercomics/website:${{ needs.push_to_registry.outputs.version }}
+            WEBSITE_VERSION=${{ needs.push_to_registry.outputs.version }} docker-compose up -d gendercomics-website
             echo 'DONE!!!'

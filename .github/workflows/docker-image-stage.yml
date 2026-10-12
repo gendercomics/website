@@ -2,7 +2,17 @@
 
 name: stage - build, publish & deploy docker image
 
-on: [push]
+on:
+  push:
+  # dispatched by gendercomics/content (publish.yml) when content changes
+  workflow_dispatch:
+    inputs:
+      content_ref:
+        description: gendercomics/content ref to build with
+        default: main
+
+concurrency:
+  group: deploy-stage
 
 jobs:
   push_to_registry:
@@ -13,6 +23,13 @@ jobs:
     steps:
       - name: check out the repo
         uses: actions/checkout@main
+
+      - name: check out content
+        uses: actions/checkout@main
+        with:
+          repository: gendercomics/content
+          ref: ${{ inputs.content_ref || 'main' }}
+          path: .content
 
       - name: log in to docker hub
         uses: docker/login-action@v4
@@ -35,6 +52,8 @@ jobs:
         uses: docker/build-push-action@v7
         with:
           file: ./Dockerfile
+          # build from the workspace so the .content checkout is part of the build context
+          context: .
           build-args: |
             NODE_VERSION=22
             VUE_APP_API_URL=https://api-stage.gendercomics.net/

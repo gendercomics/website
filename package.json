@@ -17,7 +17,8 @@
     "lint-website": "eslint .",
     "test-website": "vitest run",
     "test-watch-website": "vitest",
-    "test-e2e-website": "playwright test"
+    "test-e2e-website": "playwright test",
+    "content-website": "node scripts/fetch-content.mjs"
   },
   "dependencies": {
     "@nuxt/content": "^3.16.1",
