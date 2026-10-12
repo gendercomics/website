@@ -22,10 +22,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: check out the repo
-        uses: actions/checkout@main
+        uses: actions/checkout@v7
 
       - name: check out content
-        uses: actions/checkout@main
+        uses: actions/checkout@v7
         with:
           repository: gendercomics/content
           ref: ${{ inputs.content_ref || 'main' }}
@@ -67,10 +67,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: check out the repo
-        uses: actions/checkout@main
+        uses: actions/checkout@v7
 
       - name: deploy stage
-        uses: alinz/ssh-scp-action@master
+        uses: alinz/ssh-scp-action@97ad76feb6460d3392b63f11ac354568c89b8968 # v0.1.2
         with:
           key: ${{ secrets.DEPLOY_KEY }}
           host: ${{ secrets.APP_HOST }}
