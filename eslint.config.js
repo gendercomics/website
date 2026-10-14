@@ -2,6 +2,9 @@ import pluginVue from 'eslint-plugin-vue'
 import eslintConfigPrettier from 'eslint-config-prettier/flat'
 
 export default [
+  {
+    ignores: ['.output/**'],
+  },
   // add more generic rulesets here, such as:
   // js.configs.recommended,
   ...pluginVue.configs['flat/recommended'],
