@@ -77,9 +77,9 @@ const closeMenu = () => {
 
 .menu-item {
   text-decoration: none;
-  font-family: Outfit;
-  font-style: normal;
-  font-weight: normal;
+  font-family: var(--gc-font-family-outfit);
+  font-style: var(--gc-font-style-normal);
+  font-weight: var(--gc-font-weight-normal);
   font-size: var(--gc-font-size-21);
   line-height: var(--gc-line-spacing-25);
   letter-spacing: var(--gc-character-spacing-0-53);
@@ -89,10 +89,6 @@ const closeMenu = () => {
 .arrow {
   width: 100px;
   transform: translateX(50%);
-}
-
-a[href]:hover {
-  color: var(--white);
 }
 </style>
 

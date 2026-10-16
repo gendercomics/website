@@ -105,7 +105,7 @@ function name(creator) {
 }
 
 .font-creator {
-  font-family: var(--gc-font-family-outfit), sans-serif;
+  font-family: var(--gc-font-family-outfit);
   font-style: var(--gc-font-style-normal);
   font-weight: var(--gc-font-weight-bold);
   font-size: var(--gc-font-size-12);
@@ -116,7 +116,7 @@ function name(creator) {
 }
 
 .font-titel {
-  font-family: var(--gc-font-family-outfit), sans-serif;
+  font-family: var(--gc-font-family-outfit);
   font-style: var(--gc-font-style-normal);
   font-weight: var(--gc-font-weight-600);
   font-size: var(--gc-font-size-25);

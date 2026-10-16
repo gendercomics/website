@@ -147,14 +147,6 @@ onBeforeUnmount(() => {
   top: 73px;
 }
 
-a:link {
-  text-decoration: none;
-}
-
-a:hover {
-  color: var(--white);
-}
-
 .nav-link:hover {
   color: var(--white);
 }

@@ -477,7 +477,7 @@ onMounted(() => {
 }
 
 .font-filter-active {
-  font-family: var(--gc-font-family-george-rounded), sans-serif;
+  font-family: var(--gc-font-family-george-rounded);
   font-style: var(--gc-font-style-normal);
   font-weight: var(--gc-font-weight-bold);
   font-size: var(--gc-font-size-32);

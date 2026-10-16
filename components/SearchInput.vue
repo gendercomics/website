@@ -60,7 +60,7 @@ function resetInput() {
   background-color: var(--gc-red);
   color: var(--white);
   border-radius: 100px 0 0 100px;
-  font-family: var(--gc-font-family-outfit), sans-serif;
+  font-family: var(--gc-font-family-outfit);
   font-style: var(--gc-font-style-normal);
   font-weight: var(--gc-font-weight-bold);
   font-size: var(--gc-font-size-25);
@@ -75,7 +75,7 @@ function resetInput() {
   border-radius: 0 100px 100px 0;
   border: 2px solid var(--gc-red);
   box-sizing: border-box;
-  font-family: var(--gc-font-family-george-rounded), sans-serif;
+  font-family: var(--gc-font-family-george-rounded);
   font-size: var(--gc-font-size-35);
   font-weight: var(--gc-font-weight-normal);
   font-style: var(--gc-font-style-italic);
@@ -90,7 +90,7 @@ function resetInput() {
   border-radius: 0 100px 100px 0;
   border: 2px solid var(--gc-red);
   box-sizing: border-box;
-  font-family: var(--gc-font-family-george-rounded), sans-serif;
+  font-family: var(--gc-font-family-george-rounded);
   font-size: var(--gc-font-size-35);
   font-weight: var(--gc-font-weight-normal);
   font-style: var(--gc-font-style-italic);
@@ -149,7 +149,7 @@ function resetInput() {
   background: var(--gc-red) 0 0 no-repeat padding-box;
   border-radius: 100px 0 0 100px;
   opacity: 1;
-  font-family: var(--gc-font-family-outfit), sans-serif;
+  font-family: var(--gc-font-family-outfit);
   align-content: center;
   width: 50px;
   padding-left: 15px;

@@ -135,10 +135,6 @@ const hasLink = computed(() => {
   margin-right: -2px;
 }
 
-a[href]:hover {
-  color: var(--white);
-}
-
 .highlight {
   box-shadow: 0 0 40px 0 var(--gc-red);
   background-color: var(--gc-gray);
