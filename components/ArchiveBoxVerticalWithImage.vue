@@ -36,7 +36,7 @@ function openLink() {
 </script>
 
 <template>
-  <div class="container" @click="openLink">
+  <div class="container card" @click="openLink">
     <div v-if="props.img !== null" class="image-container">
       <img :src="imagePath" alt="" />
     </div>
@@ -51,17 +51,6 @@ function openLink() {
 .container {
   display: flex;
   flex-direction: column;
-  border-radius: 100px;
-  border: 2px solid var(--gc-green);
-  box-sizing: border-box;
-  cursor: pointer;
-}
-
-.container:hover {
-  background: var(--white) 0 0 no-repeat padding-box;
-  border-radius: 100px;
-  box-shadow: 0 0 50px var(--gc-green-2);
-  transition: 0.4s ease-out;
 }
 
 .image-container {

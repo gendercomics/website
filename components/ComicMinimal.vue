@@ -38,7 +38,7 @@ function name(creator) {
 </script>
 
 <template>
-  <div class="container" @click="navigateTo('/comic/' + comic.id)">
+  <div class="container card" @click="navigateTo('/comic/' + comic.id)">
     <div class="comic">
       <div class="image-container">
         <img
@@ -73,18 +73,7 @@ function name(creator) {
 .container {
   flex: 1 1 calc(25%);
   flex-direction: column;
-  border-radius: 100px;
-  border: 2px solid var(--gc-green);
-  box-sizing: border-box;
-  cursor: pointer;
   min-width: 280px;
-}
-
-.container:hover {
-  background: var(--white) 0 0 no-repeat padding-box;
-  border-radius: 100px;
-  box-shadow: 0 0 50px var(--gc-green-2);
-  transition: 0.4s ease-out;
 }
 
 .image-container {
