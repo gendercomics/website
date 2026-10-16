@@ -178,26 +178,6 @@ h6 {
   color: var(--lightgray);
 }
 
-.a-xs-bildunterschrift {
-  font-family: var(--gc-font-family-outfit);
-  font-style: var(--gc-font-style-normal);
-  font-weight: var(--gc-font-weight-300);
-  font-size: var(--gc-font-size-16);
-  line-height: var(--gc-line-spacing-25);
-  letter-spacing: var(--gc-character-spacing-0-16);
-  color: var(--gc-gray);
-}
-
-.a-zitat {
-  font-family: var(--gc-font-family-outfit);
-  font-style: var(--gc-font-style-normal);
-  font-weight: var(--gc-font-weight-300);
-  font-size: var(--gc-font-size-18);
-  line-height: var(--gc-line-spacing-29);
-  letter-spacing: var(--gc-character-spacing-0-18);
-  color: var(--gc-red);
-}
-
 .a {
   font-family: var(--gc-font-family-outfit);
   font-style: var(--gc-font-style-normal);
@@ -218,17 +198,6 @@ h6 {
   color: var(--gc-green-2);
 }
 
-.button-regular {
-  font-family: var(--gc-font-family-george-rounded);
-  font-style: var(--gc-font-style-normal);
-  font-weight: var(--gc-font-weight-bold);
-  font-size: var(--gc-font-size-16);
-  line-height: var(--gc-line-spacing-35);
-  letter-spacing: var(--gc-character-spacing-2-4);
-  color: var(--white);
-  text-transform: var(--gc-text-transform-uppercase);
-}
-
 .pattern-background {
   background: transparent url('@/assets/images/pattern-background.png') 0 0
     repeat padding-box;
@@ -243,13 +212,6 @@ h6 {
   background-size: cover;
 }
 
-.corner-green-3-50px {
-  float: right;
-  background-image: url('@/assets/images/corner-green-3-50px(buttons).svg');
-  background-size: cover;
-  width: 50px;
-}
-
 p {
   margin-bottom: 1rem;
   font-family: var(--gc-font-family-outfit), sans-serif;
@@ -259,7 +221,5 @@ p {
   line-height: var(--gc-line-spacing-29);
   letter-spacing: var(--gc-character-spacing-0-18);
   color: var(--lightgray);
-
-
 
 }
