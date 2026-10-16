@@ -33,24 +33,8 @@ body {
   margin-left: 50px;
 }
 
-.ml-200 {
-  margin-left: 200px;
-}
-
-.mr-50 {
-  margin-right: 50px;
-}
-
-.mr-200 {
-  margin-right: 200px;
-}
-
 .mt--2 {
   margin-top: -2px;
-}
-
-.mt-10 {
-  margin-top: 10px;
 }
 
 .mt-30 {
@@ -69,38 +53,11 @@ body {
   margin-top: 3rem;
 }
 
-.pb-1r {
-  padding-bottom: 1rem;
-}
-
-.pl-10 {
-  padding-left: 10px;
-}
-
 .pr-1r {
   padding-right: 1rem;
 }
 
-.btn-corner-left {
-  height: 30px;
-  transform: translateY(-50%);
-  margin-left: 3px;
-}
-
-.btn-corner-right {
-  height: 30px;
-  width: 30px;
-  transform: translateY(-50%);
-  margin-right: -2px;
-}
-
 /* borders */
-
-.border-top-green {
-  border-top-color: var(--gc-green);
-  border-top-width: 2px;
-  border-top-style: solid;
-}
 
 .border-green-left-right {
   border-left-color: var(--gc-green);

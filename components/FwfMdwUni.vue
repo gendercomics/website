@@ -65,6 +65,12 @@ const { t } = useI18n({
 </template>
 
 <style scoped>
+.border-top-green {
+  border-top-color: var(--gc-green);
+  border-top-width: 2px;
+  border-top-style: solid;
+}
+
 .container {
   display: flex;
 }

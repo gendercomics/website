@@ -62,6 +62,14 @@ function name(creator) {
 </template>
 
 <style scoped>
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mr-50 {
+  margin-right: 50px;
+}
+
 .container {
   flex: 1 1 calc(25%);
   flex-direction: column;

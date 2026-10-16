@@ -410,6 +410,10 @@ onMounted(() => {
 </template>
 
 <style scoped>
+.pb-1r {
+  padding-bottom: 1rem;
+}
+
 .container {
   display: flex;
   justify-content: center;

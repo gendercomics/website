@@ -37,6 +37,34 @@ const { t } = useI18n({
 </template>
 
 <style scoped>
+.ml-200 {
+  margin-left: 200px;
+}
+
+.mr-200 {
+  margin-right: 200px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.corner-green-1 {
+  float: right;
+  background-image: url('@/assets/images/corner-green-line-1.svg');
+  background-size: cover;
+}
+
+.logo-claim {
+  font-family: var(--gc-font-family-outfit);
+  font-style: var(--gc-font-style-normal);
+  font-weight: var(--gc-font-weight-normal);
+  font-size: var(--gc-font-size-35);
+  line-height: var(--gc-line-spacing-60);
+  letter-spacing: var(--gc-character-spacing-0);
+  color: var(--gc-gray);
+}
+
 .hero-frame {
   display: grid;
   grid-template-columns: 200px 1fr 200px;
