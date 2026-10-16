@@ -47,10 +47,6 @@ const filter = defineModel({
 .row-height {
   height: 63px;
 }
-
-.border-right-green {
-  border-right: 2px solid var(--gc-green);
-}
 </style>
 
 <i18n lang="yaml">

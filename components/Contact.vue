@@ -19,7 +19,7 @@ const { t } = useI18n({
         />
       </div>
     </div>
-    <div class="w-50 border-right flex">
+    <div class="w-50 border-right-green flex">
       <div class="left-col">
         <div class="tag">{{ t('contact') }}</div>
         <div class="titel-kachel">GenderComics</div>
@@ -79,12 +79,6 @@ const { t } = useI18n({
 
 .address-block a {
   display: block;
-}
-
-.border-right {
-  border-right-color: var(--gc-green);
-  border-right-width: 2px;
-  border-right-style: solid;
 }
 
 .p-10 {

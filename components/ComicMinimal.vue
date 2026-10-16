@@ -38,13 +38,12 @@ function name(creator) {
 </script>
 
 <template>
-  <div class="container" @click="navigateTo('/comic/' + comic.id)">
+  <div class="container card" @click="navigateTo('/comic/' + comic.id)">
     <div class="comic">
       <div class="image-container">
         <img
           :src="imageUrl(comic.id, comic.cover)"
           alt="cover"
-          class="center"
           :class="{ rounded: comic.cover !== null }"
         />
       </div>
@@ -62,21 +61,18 @@ function name(creator) {
 </template>
 
 <style scoped>
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mr-50 {
+  margin-right: 50px;
+}
+
 .container {
   flex: 1 1 calc(25%);
   flex-direction: column;
-  border-radius: 100px;
-  border: 2px solid var(--gc-green);
-  box-sizing: border-box;
-  cursor: pointer;
   min-width: 280px;
-}
-
-.container:hover {
-  background: var(--white) 0 0 no-repeat padding-box;
-  border-radius: 100px;
-  box-shadow: 0 0 50px var(--gc-green-2);
-  transition: 0.4s ease-out;
 }
 
 .image-container {
@@ -105,7 +101,7 @@ function name(creator) {
 }
 
 .font-creator {
-  font-family: var(--gc-font-family-outfit), sans-serif;
+  font-family: var(--gc-font-family-outfit);
   font-style: var(--gc-font-style-normal);
   font-weight: var(--gc-font-weight-bold);
   font-size: var(--gc-font-size-12);
@@ -116,17 +112,13 @@ function name(creator) {
 }
 
 .font-titel {
-  font-family: var(--gc-font-family-outfit), sans-serif;
+  font-family: var(--gc-font-family-outfit);
   font-style: var(--gc-font-style-normal);
   font-weight: var(--gc-font-weight-600);
   font-size: var(--gc-font-size-25);
   line-height: var(--gc-line-spacing-25);
   letter-spacing: var(--gc-character-spacing-0-17);
   color: var(--gc-green-2);
-}
-
-.font-size-32 {
-  font-size: var(--gc-font-size-32);
 }
 
 .mb-3rem {

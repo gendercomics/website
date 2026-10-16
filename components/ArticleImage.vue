@@ -74,8 +74,12 @@ const imageURL = computed(() => {
 </template>
 
 <style scoped>
+/* image with the caption button below it, overhanging on the right */
 .container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 420px;
 }
 
 .image {

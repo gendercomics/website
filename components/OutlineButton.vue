@@ -45,7 +45,7 @@ const hasLink = computed(() => {
   border: 2px solid var(--gc-green);
   border-radius: 50px;
 
-  font-family: var(--gc-font-family-george-rounded), sans-serif;
+  font-family: var(--gc-font-family-george-rounded);
   font-style: var(--gc-font-style-normal);
   font-weight: var(--gc-font-weight-bold);
   font-size: var(--gc-font-size-16);
@@ -59,12 +59,8 @@ const hasLink = computed(() => {
 }
 
 .outline-button:hover {
-  background-color: white;
+  background-color: var(--white);
   box-shadow: 0 0 40px 0 var(--gc-green);
-}
-
-a[href]:hover {
-  color: var(--gc-green);
 }
 
 .highlight {

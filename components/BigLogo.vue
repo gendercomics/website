@@ -9,8 +9,6 @@
 </template>
 
 <style scoped>
-@import '~/assets/css/design.css';
-
 .logo-gc {
   background: transparent no-repeat padding-box;
   display: block;

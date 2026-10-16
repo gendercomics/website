@@ -1,5 +1,4 @@
 <script setup>
-import DividerRedArrow from '~/components/DividerRedArrow.vue'
 import { useAsyncData } from '#app'
 
 const { locale } = useI18n()
@@ -15,74 +14,23 @@ const { data: index } = await useAsyncData(fullPath.value, () =>
 </script>
 
 <template>
-  <div class="page-margin container">
-    <div class="titel-xl mt-3rem">{{ index?.title }}</div>
-    <divider-red-arrow />
-    <img
-      src="../assets/images/corner-green-3-50px(buttons).svg"
-      alt=""
-      class="translate-50"
+  <content-frame>
+    <template #header>
+      <div class="titel-xl mt-3rem">{{ index?.title }}</div>
+    </template>
+
+    <template #image>
+      <article-image
+        :image="index?.image"
+        :caption="index?.caption"
+        :caption-link="index?.captionLink"
+        target="_self"
+      />
+    </template>
+    <ContentRenderer
+      :key="fullPath.value"
+      class="a"
+      :value="(index?.body ?? {})"
     />
-    <divider b1green b2 b3flat b4flat b5 b6 />
-
-    <div class="column text-container">
-      <div class="container-relative">
-        <article-image
-          :image="index?.image"
-          :caption="index?.caption"
-          :caption-link="index?.captionLink"
-          target="_self"
-          class="image"
-        />
-        <ContentRenderer
-          class="a"
-          :value="(index?.body ?? {})"
-          :key="fullPath.value"
-        />
-      </div>
-    </div>
-    <divider t1 b2 b3flat b4flat b5 t6 />
-    <div class="mr-2">
-      <divider b4 />
-    </div>
-  </div>
+  </content-frame>
 </template>
-
-<style scoped>
-.container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.text-container {
-  display: flex;
-  flex-direction: column;
-  border-left: solid 2px var(--gc-green);
-  border-right: solid 2px var(--gc-green);
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
-.translate-50 {
-  transform: translateX(50%);
-  margin-right: 2px;
-}
-
-.container-relative {
-  position: relative;
-  max-width: 100%;
-}
-
-.image {
-  float: right;
-  margin: 0 0 0 40px;
-}
-</style>

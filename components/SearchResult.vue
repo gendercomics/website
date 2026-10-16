@@ -9,7 +9,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="flex mt-100">
+  <div class="flex mt--10">
     <div class="result-row">
       <div v-for="(comic, index) in data" :key="index">
         <comic-minimal :comic="comic" />
@@ -27,7 +27,7 @@ onMounted(() => {
   box-sizing: border-box;
 }
 
-.mt-100 {
+.mt--10 {
   margin-top: -10px;
 }
 </style>

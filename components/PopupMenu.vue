@@ -1,9 +1,10 @@
 <script setup>
-const { t } = useI18n({
-  useScope: 'local',
+defineProps({
+  // [{ to: '/path', label: 'Text' }]
+  items: { type: Array, required: true },
 })
 
-const isMenuOpen = defineModel({ required: true, default: false })
+const isMenuOpen = defineModel({ type: Boolean, required: true, default: false })
 
 const closeMenu = () => {
   isMenuOpen.value = false
@@ -15,23 +16,10 @@ const closeMenu = () => {
     <img src="@/assets/images/arrow-gray-up-flat.svg" alt="" class="arrow" />
     <div class="popup-menu">
       <div class="popup-menu-list">
-        <div class="popup-menu-items">
-          <nuxt-link-locale to="/about" class="menu-item" @click="closeMenu">{{
-            t('about')
+        <div v-for="item in items" :key="item.to" class="popup-menu-items">
+          <nuxt-link-locale :to="item.to" class="menu-item" @click="closeMenu">{{
+            item.label
           }}</nuxt-link-locale>
-        </div>
-        <div class="popup-menu-items">
-          <nuxt-link-locale to="/team" class="menu-item" @click="closeMenu">{{
-            t('team')
-          }}</nuxt-link-locale>
-        </div>
-        <div class="popup-menu-items">
-          <nuxt-link-locale
-            to="/collaborations"
-            class="menu-item"
-            @click="closeMenu"
-            >{{ t('collaborations') }}</nuxt-link-locale
-          >
         </div>
       </div>
     </div>
@@ -51,6 +39,7 @@ const closeMenu = () => {
   z-index: 1000;
   transition: ease-out 0.3s;
   border-radius: 50px;
+  min-width: 209px;
 }
 
 .popup-menu-position {
@@ -77,9 +66,9 @@ const closeMenu = () => {
 
 .menu-item {
   text-decoration: none;
-  font-family: Outfit;
-  font-style: normal;
-  font-weight: normal;
+  font-family: var(--gc-font-family-outfit);
+  font-style: var(--gc-font-style-normal);
+  font-weight: var(--gc-font-weight-normal);
   font-size: var(--gc-font-size-21);
   line-height: var(--gc-line-spacing-25);
   letter-spacing: var(--gc-character-spacing-0-53);
@@ -90,19 +79,4 @@ const closeMenu = () => {
   width: 100px;
   transform: translateX(50%);
 }
-
-a[href]:hover {
-  color: var(--white);
-}
 </style>
-
-<i18n lang="yaml">
-de:
-  about: Über
-  team: Team
-  collaborations: Kooperationen
-en:
-  about: About
-  team: Team
-  collaborations: Collaborations
-</i18n>

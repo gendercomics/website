@@ -76,51 +76,51 @@ const props = defineProps({
   <div class="container-row">
     <!-- top row -->
     <div class="fixed-width">
-      <div v-if="t1" class="divider-top-1" />
+      <div v-if="t1" class="corner corner-3" />
     </div>
     <div>
-      <div v-if="t2" class="divider-top-2" />
-      <div v-else class="invisible" />
+      <div v-if="t2" class="border-bottom-green" />
+      <div v-else />
     </div>
     <div class="fixed-width">
-      <div v-if="t3" class="divider-top-3" />
-      <div v-else-if="t3flat" class="divider-top-3-flat" />
+      <div v-if="t3" class="corner corner-2 mr--2" />
+      <div v-else-if="t3flat" class="border-bottom-green" />
     </div>
     <div class="fixed-width">
-      <div v-if="t4" class="divider-top-4" />
-      <div v-else-if="t4flat" class="divider-top-4-flat" />
+      <div v-if="t4" class="corner corner-3 ml--1" />
+      <div v-else-if="t4flat" class="border-bottom-green" />
     </div>
     <div>
-      <div v-if="t5" class="divider-top-5" />
-      <div v-else class="invisible" />
+      <div v-if="t5" class="border-bottom-green" />
+      <div v-else />
     </div>
     <div class="fixed-width">
-      <div v-if="t6" class="divider-top-6" />
+      <div v-if="t6" class="corner corner-2" />
     </div>
 
     <!-- bottom row -->
     <div class="fixed-width mt--2">
-      <div v-if="b1" class="divider-bottom-1" />
-      <div v-else-if="b1green" class="divider-bottom-1-green" />
+      <div v-if="b1" class="corner corner-red-4" />
+      <div v-else-if="b1green" class="corner corner-4" />
     </div>
     <div class="mt--2">
-      <div v-if="b2" class="divider-bottom-2" />
-      <div v-else class="invisible" />
+      <div v-if="b2" class="border-top-green" />
+      <div v-else />
     </div>
     <div class="fixed-width mt--2">
-      <div v-if="b3" class="divider-bottom-3" />
-      <div v-else-if="b3flat" class="divider-bottom-3-flat" />
+      <div v-if="b3" class="corner corner-1 mr--1" />
+      <div v-else-if="b3flat" class="border-top-green" />
     </div>
     <div class="fixed-width mt--2">
-      <div v-if="b4" class="divider-bottom-4" />
-      <div v-else-if="b4flat" id="divider-bottom-4-flat" />
+      <div v-if="b4" class="corner corner-4 mr--1" />
+      <div v-else-if="b4flat" class="border-top-green" />
     </div>
     <div class="mt--2">
-      <div v-if="b5" class="divider-bottom-5" />
-      <div v-else class="invisible" />
+      <div v-if="b5" class="border-top-green" />
+      <div v-else />
     </div>
     <div class="fixed-width mt--2">
-      <div v-if="b6" class="divider-bottom-6" />
+      <div v-if="b6" class="corner corner-1" />
     </div>
   </div>
 </template>
@@ -137,126 +137,38 @@ const props = defineProps({
   width: 100px; /* Fixed width for specified items */
 }
 
-.divider-top-1 {
+/* 100px rounded corner pieces; the number is the corner's orientation */
+.corner {
   height: 100px;
   background-size: 100px 100px;
-  background-image: url('@/assets/images/corner-green-line-3-100px.svg');
   background-repeat: no-repeat;
 }
 
-.divider-top-2 {
-  border-bottom-color: var(--gc-green);
-  border-bottom-width: 2px;
-  border-bottom-style: solid;
+.corner-1 {
+  background-image: url('@/assets/images/corner-green-line-1-100px.svg');
 }
 
-.divider-top-3 {
-  height: 100px;
-  background-size: 100px 100px;
+.corner-2 {
   background-image: url('@/assets/images/corner-green-line-2-100px.svg');
-  background-repeat: no-repeat;
+}
+
+.corner-3 {
+  background-image: url('@/assets/images/corner-green-line-3-100px.svg');
+}
+
+.corner-4 {
+  background-image: url('@/assets/images/corner-green-line-4-100px.svg');
+}
+
+.corner-red-4 {
+  background-image: url('@/assets/images/corner-red-filled-4-100px.svg');
+}
+
+.mr--2 {
   margin-right: -2px;
 }
 
-.divider-top-3-flat {
-  flex: 0 0 100px;
-  border-bottom-color: var(--gc-green);
-  border-bottom-width: 2px;
-  border-bottom-style: solid;
-}
-
-.divider-top-4 {
-  height: 100px;
-  background-size: 100px 100px;
-  background-image: url('@/assets/images/corner-green-line-3-100px.svg');
-  background-repeat: no-repeat;
+.ml--1 {
   margin-left: -1px;
-}
-
-.divider-top-4-flat {
-  flex: 0 0 100px;
-  border-bottom-color: var(--gc-green);
-  border-bottom-width: 2px;
-  border-bottom-style: solid;
-}
-
-.divider-top-5 {
-  border-bottom-color: var(--gc-green);
-  border-bottom-width: 2px;
-  border-bottom-style: solid;
-}
-
-.divider-top-6 {
-  height: 100px;
-  background-size: 100px 100px;
-  background-image: url('@/assets/images/corner-green-line-2-100px.svg');
-  background-repeat: no-repeat;
-}
-
-.divider-bottom-1 {
-  height: 100px;
-  background-size: 100px 100px;
-  background-image: url('@/assets/images/corner-red-filled-4-100px.svg');
-  background-repeat: no-repeat;
-}
-
-.divider-bottom-1-green {
-  height: 100px;
-  background-size: 100px 100px;
-  background-image: url('@/assets/images/corner-green-line-4-100px.svg');
-  background-repeat: no-repeat;
-}
-
-.divider-bottom-2 {
-  border-top-color: var(--gc-green);
-  border-top-width: 2px;
-  border-top-style: solid;
-}
-
-.divider-bottom-3 {
-  height: 100px;
-  background-size: 100px 100px;
-  background-image: url('@/assets/images/corner-green-line-1-100px.svg');
-  background-repeat: no-repeat;
-  margin-right: -1px;
-}
-
-.divider-bottom-3-flat {
-  flex: 0 0 100px;
-  border-top-color: var(--gc-green);
-  border-top-width: 2px;
-  border-top-style: solid;
-}
-
-.divider-bottom-4 {
-  height: 100px;
-  background-size: 100px 100px;
-  background-image: url('@/assets/images/corner-green-line-4-100px.svg');
-  background-repeat: no-repeat;
-  margin-right: -1px;
-}
-
-#divider-bottom-4-flat {
-  flex: 0 0 100px;
-  border-top-color: var(--gc-green);
-  border-top-width: 2px;
-  border-top-style: solid;
-}
-
-.divider-bottom-5 {
-  border-top-color: var(--gc-green);
-  border-top-width: 2px;
-  border-top-style: solid;
-}
-
-.divider-bottom-6 {
-  height: 100px;
-  background-size: 100px 100px;
-  background-image: url('@/assets/images/corner-green-line-1-100px.svg');
-  background-repeat: no-repeat;
-}
-
-.invisible {
-  /* nothing to see here :) */
 }
 </style>

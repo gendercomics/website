@@ -5,9 +5,6 @@ const props = defineProps({
     default: '',
   },
 })
-const { t } = useI18n({
-  useScope: 'local',
-})
 const { locale } = useI18n()
 
 const i18nPath = computed(() => '/' + locale.value + props.content)
@@ -22,44 +19,12 @@ onMounted(() => {
 })
 </script>
 <template>
-  <div class="container-row">
-    <div class="column">
-      <div class="w-90">
-        <div>
-          <div class="tag">{{ doc?.tag }}</div>
-          <div class="titel-kachel">{{ doc?.title }}</div>
-          <ContentRenderer
-            :key="doc?.id"
-            :value="(doc?.excerpt ?? {})"
-            class="a mt-1rem"
-          />
-        </div>
-
-        <button-gray class="mt-1rem" :text="t('more')" :link="i18nPath" />
-      </div>
-    </div>
-  </div>
+  <content-preview
+    :member="{
+      tag: doc?.tag,
+      title: doc?.title,
+      excerpt: doc?.excerpt,
+      route: i18nPath,
+    }"
+  />
 </template>
-
-<style scoped>
-.container-row {
-  display: flex;
-  width: 100%;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
-}
-
-.mt-1rem {
-  margin-top: 1rem;
-}
-</style>
-
-<i18n lang="yaml">
-de:
-  more: Mehr erfahren
-en:
-  more: Learn more
-</i18n>

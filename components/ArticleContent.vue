@@ -46,89 +46,39 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="container page-margin">
-    <div v-if="doc?.title" class="titel-xl mt-3rem txt-align-center">
-      {{ doc?.title }}
-    </div>
-    <div class="w-90">
-      <div v-if="doc?.excerpt">
-        <ContentRenderer
-          class="a txt-align-center mt-2rem"
-          :value="doc?.excerpt"
-          :key="fullPath"
-        />
+  <content-frame>
+    <template #header>
+      <div v-if="doc?.title" class="titel-xl mt-3rem txt-align-center">
+        {{ doc?.title }}
       </div>
-    </div>
-
-    <divider-red-arrow />
-    <img
-      src="../assets/images/corner-green-3-50px(buttons).svg"
-      alt=""
-      class="translate-50"
-    />
-    <divider b1green b2 b3flat b4flat b5 b6 />
-
-    <div class="text-container">
-      <div class="container-relative">
-        <div v-if="doc?.image">
-          <article-image
-            :image="doc?.image"
-            :caption="doc?.caption"
-            :caption-link="doc?.captionLink"
-            :target="props.target"
-            class="image"
+      <div class="w-90">
+        <div v-if="doc?.excerpt">
+          <ContentRenderer
+            :key="fullPath"
+            class="a txt-align-center mt-2rem"
+            :value="doc?.excerpt"
           />
         </div>
-        <h1>{{ doc?.heading }}</h1>
-        <h2 v-if="doc?.subheading">{{ doc?.subheading }}</h2>
-        <div class="a mt-2rem">
-          <ContentRenderer :value="(doc?.body ?? {})" :key="fullPath.value" />
-        </div>
       </div>
+    </template>
+
+    <template v-if="doc?.image" #image>
+      <article-image
+        :image="doc?.image"
+        :caption="doc?.caption"
+        :caption-link="doc?.captionLink"
+        :target="props.target"
+      />
+    </template>
+    <h1>{{ doc?.heading }}</h1>
+    <h2 v-if="doc?.subheading">{{ doc?.subheading }}</h2>
+    <div class="a mt-2rem">
+      <ContentRenderer :key="fullPath.value" :value="(doc?.body ?? {})" />
     </div>
-    <divider t1 b2 b3flat b4flat b5 t6 />
-    <div class="mr-2">
-      <divider b4 />
-    </div>
-  </div>
+  </content-frame>
 </template>
 
 <style scoped>
-.container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-.translate-50 {
-  transform: translateX(50%);
-  margin-right: 2px;
-}
-
-.mr-2 {
-  margin-right: 2px;
-}
-
-.text-container {
-  display: flex;
-  flex-direction: column;
-  border-left: solid 2px var(--gc-green);
-  border-right: solid 2px var(--gc-green);
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
-.container-relative {
-  position: relative;
-  max-width: 100%;
-}
-
-.image {
-  float: right;
-  margin: 0 0 0 40px;
-}
-
 .txt-align-center {
   text-align: center;
 }

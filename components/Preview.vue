@@ -28,10 +28,10 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="row" :class="{ 'border-left': props.imgCol === 2 }">
+  <div class="row" :class="{ 'border-left-green flush-left': props.imgCol === 2 }">
     <div class="w-50">
       <ImageBox
-        class="border-right"
+        class="border-right-green image-box-edge"
         v-if="props.imgCol === 1"
         :img="props.img"
         :width="props.imgWidth"
@@ -59,9 +59,6 @@ const props = defineProps({
 </template>
 
 <style scoped>
-.cell-debug {
-  border: 1px solid black;
-}
 
 .row {
   display: flex;
@@ -70,13 +67,14 @@ const props = defineProps({
   margin-right: 2px;
 }
 
-.border-right {
-  border-right: 2px solid var(--gc-green);
+/* overlap the neighbouring border; the bottom padding extends the border below
+   the caption, matching ImageBox's image area */
+.image-box-edge {
   margin-right: -1px;
+  padding-bottom: 45px;
 }
 
-.border-left {
-  border-left: 2px solid var(--gc-green);
+.flush-left {
   margin-left: 0;
 }
 </style>

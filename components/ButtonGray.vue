@@ -75,12 +75,4 @@ const isHover = ref(false)
 .w-50px {
   width: 50px;
 }
-
-.transition {
-  transition: ease-out 0.3s;
-}
-
-a[href]:hover {
-  color: var(--white);
-}
 </style>

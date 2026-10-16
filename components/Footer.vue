@@ -36,11 +36,7 @@ const featureStore = useFeatureStore()
   display: block;
 }
 
-a:link {
-  text-decoration: none;
-}
-
-a:hover {
+a.footer-element:hover {
   color: var(--gc-green);
 }
 

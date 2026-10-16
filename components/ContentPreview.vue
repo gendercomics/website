@@ -1,5 +1,6 @@
 <script setup>
-const props = defineProps({
+defineProps({
+  // { tag, title, excerpt, route }
   member: {
     type: Object,
     default: () => ({}),
@@ -17,7 +18,11 @@ const { t } = useI18n({
       <div class="w-90">
         <div class="tag">{{ member?.tag }}</div>
         <div class="titel-kachel">{{ member?.title }}</div>
-        <ContentRenderer class="a mt-1rem" :key="$route.fullPath" :value="(member?.excerpt ?? {})" />
+        <ContentRenderer
+          :key="member?.route"
+          class="a mt-1rem"
+          :value="(member?.excerpt ?? {})"
+        />
         <button-gray class="mt-1rem" :text="t('more')" :link="member?.route" />
       </div>
     </div>
@@ -25,23 +30,14 @@ const { t } = useI18n({
 </template>
 
 <style scoped>
-.column {
+.container-row {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.a strong {
-  font-weight: var(--gc-font-weight-600);
+  width: 100%;
 }
 
 .column {
   display: flex;
   flex-direction: column;
-}
-
-.mt-1rem {
-  margin-top: 1rem;
 }
 </style>
 

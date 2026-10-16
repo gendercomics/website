@@ -62,6 +62,17 @@ const props = defineProps({
 </template>
 
 <style scoped>
+.titel-s {
+  font-family: var(--gc-font-family-george-rounded);
+  font-style: var(--gc-font-style-normal);
+  font-weight: var(--gc-font-weight-bold);
+  font-size: var(--gc-font-size-52);
+  line-height: var(--gc-line-spacing-52);
+  letter-spacing: var(--gc-character-spacing-0);
+  color: var(--gc-gray);
+  text-transform: var(--gc-text-transform-uppercase);
+}
+
 .container-row {
   display: flex;
   justify-content: center;

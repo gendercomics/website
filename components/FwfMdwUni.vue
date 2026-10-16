@@ -94,10 +94,6 @@ const { t } = useI18n({
   width: 100px;
 }
 
-.mr--1 {
-  margin-right: -1px;
-}
-
 .pb-75 {
   padding-bottom: 75px;
 }

@@ -9,8 +9,8 @@
   --gc-red-2: #f36c6d;
 
   /* Font/text values */
-  --gc-font-family-george-rounded: George Rounded;
-  --gc-font-family-outfit: Outfit;
+  --gc-font-family-george-rounded: 'George Rounded', sans-serif;
+  --gc-font-family-outfit: Outfit, sans-serif;
   --gc-font-style-italic: italic;
   --gc-font-style-normal: normal;
   --gc-font-weight-300: 300;
@@ -72,27 +72,6 @@
   letter-spacing: var(--gc-character-spacing-1-75);
   color: var(--gc-gray);
   text-transform: var(--gc-text-transform-uppercase);
-}
-
-.titel-s {
-  font-family: var(--gc-font-family-george-rounded);
-  font-style: var(--gc-font-style-normal);
-  font-weight: var(--gc-font-weight-bold);
-  font-size: var(--gc-font-size-52);
-  line-height: var(--gc-line-spacing-52);
-  letter-spacing: var(--gc-character-spacing-0);
-  color: var(--gc-gray);
-  text-transform: var(--gc-text-transform-uppercase);
-}
-
-.logo-claim {
-  font-family: var(--gc-font-family-outfit);
-  font-style: var(--gc-font-style-normal);
-  font-weight: var(--gc-font-weight-normal);
-  font-size: var(--gc-font-size-35);
-  line-height: var(--gc-line-spacing-60);
-  letter-spacing: var(--gc-character-spacing-0);
-  color: var(--gc-gray);
 }
 
 .tag {
@@ -178,26 +157,8 @@ h6 {
   color: var(--lightgray);
 }
 
-.a-xs-bildunterschrift {
-  font-family: var(--gc-font-family-outfit);
-  font-style: var(--gc-font-style-normal);
-  font-weight: var(--gc-font-weight-300);
-  font-size: var(--gc-font-size-16);
-  line-height: var(--gc-line-spacing-25);
-  letter-spacing: var(--gc-character-spacing-0-16);
-  color: var(--gc-gray);
-}
-
-.a-zitat {
-  font-family: var(--gc-font-family-outfit);
-  font-style: var(--gc-font-style-normal);
-  font-weight: var(--gc-font-weight-300);
-  font-size: var(--gc-font-size-18);
-  line-height: var(--gc-line-spacing-29);
-  letter-spacing: var(--gc-character-spacing-0-18);
-  color: var(--gc-red);
-}
-
+/* body text */
+p,
 .a {
   font-family: var(--gc-font-family-outfit);
   font-style: var(--gc-font-style-normal);
@@ -208,6 +169,12 @@ h6 {
   color: var(--lightgray);
 }
 
+p {
+  margin-bottom: 1rem;
+}
+
+/* links: :where() keeps the specificity at zero, so component styles win without overrides */
+:where(a[href]),
 .link-passiv {
   font-family: var(--gc-font-family-outfit);
   font-style: var(--gc-font-style-normal);
@@ -216,50 +183,16 @@ h6 {
   line-height: var(--gc-line-spacing-29);
   letter-spacing: var(--gc-character-spacing-0-18);
   color: var(--gc-green-2);
+  text-decoration: none;
 }
 
-.button-regular {
-  font-family: var(--gc-font-family-george-rounded);
-  font-style: var(--gc-font-style-normal);
-  font-weight: var(--gc-font-weight-bold);
-  font-size: var(--gc-font-size-16);
-  line-height: var(--gc-line-spacing-35);
-  letter-spacing: var(--gc-character-spacing-2-4);
-  color: var(--white);
-  text-transform: var(--gc-text-transform-uppercase);
+:where(a[href]):hover,
+.link-passiv:hover {
+  color: var(--gc-red);
 }
 
 .pattern-background {
   background: transparent url('@/assets/images/pattern-background.png') 0 0
     repeat padding-box;
   opacity: 1;
-}
-
-/* corners & borders */
-
-.corner-green-1 {
-  float: right;
-  background-image: url('@/assets/images/corner-green-line-1.svg');
-  background-size: cover;
-}
-
-.corner-green-3-50px {
-  float: right;
-  background-image: url('@/assets/images/corner-green-3-50px(buttons).svg');
-  background-size: cover;
-  width: 50px;
-}
-
-p {
-  margin-bottom: 1rem;
-  font-family: var(--gc-font-family-outfit), sans-serif;
-  font-style: var(--gc-font-style-normal);
-  font-weight: var(--gc-font-weight-300);
-  font-size: var(--gc-font-size-18);
-  line-height: var(--gc-line-spacing-29);
-  letter-spacing: var(--gc-character-spacing-0-18);
-  color: var(--lightgray);
-
-
-
 }

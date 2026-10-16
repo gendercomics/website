@@ -117,6 +117,7 @@ const hasLink = computed(() => {
 }
 
 .btn-corner-left {
+  height: 30px;
   transform: translateY(-4px);
   margin-left: -2px;
 }
@@ -126,6 +127,8 @@ const hasLink = computed(() => {
 }
 
 .btn-corner-right {
+  height: 30px;
+  width: 30px;
   transform: translateY(-4px);
   margin-right: -2px;
 }
@@ -133,10 +136,6 @@ const hasLink = computed(() => {
 .btn-arrow-right {
   transform: translateY(32px);
   margin-right: -2px;
-}
-
-a[href]:hover {
-  color: var(--white);
 }
 
 .highlight {

@@ -8,7 +8,7 @@ const { t } = useI18n({
   <div>
     <div class="hero-frame">
       <div class="square-200 top-left"></div>
-      <div class="line-top top-border"></div>
+      <div class="top-border"></div>
       <div class="square-200 top-right"></div>
       <div class="border-left"></div>
       <div class="content">
@@ -24,7 +24,7 @@ const { t } = useI18n({
 
     <div class="bottom-row">
       <div class="w-50">
-        <div class="cell-dynamic top-border ml-200 mr-200" />
+        <div class="top-border ml-200 mr-200" />
         <div class="square-200 corner-green-1 mt--2 mr--1" />
       </div>
       <div class="w-50">
@@ -37,6 +37,34 @@ const { t } = useI18n({
 </template>
 
 <style scoped>
+.ml-200 {
+  margin-left: 200px;
+}
+
+.mr-200 {
+  margin-right: 200px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.corner-green-1 {
+  float: right;
+  background-image: url('@/assets/images/corner-green-line-1.svg');
+  background-size: cover;
+}
+
+.logo-claim {
+  font-family: var(--gc-font-family-outfit);
+  font-style: var(--gc-font-style-normal);
+  font-weight: var(--gc-font-weight-normal);
+  font-size: var(--gc-font-size-35);
+  line-height: var(--gc-line-spacing-60);
+  letter-spacing: var(--gc-character-spacing-0);
+  color: var(--gc-gray);
+}
+
 .hero-frame {
   display: grid;
   grid-template-columns: 200px 1fr 200px;
@@ -99,23 +127,6 @@ const { t } = useI18n({
 .bottom-row {
   display: flex;
   margin-top: -2px;
-}
-
-.cell-debug {
-  border: 1px solid black;
-  text-align: center;
-}
-
-.cell-dynamic {
-  /* No fixed width */
-}
-
-.cell-dynamic[span='2'] {
-  grid-column: span 2; /* Spanning two columns */
-}
-
-.mr--1 {
-  margin-right: -1px;
 }
 </style>
 

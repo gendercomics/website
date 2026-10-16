@@ -410,6 +410,10 @@ onMounted(() => {
 </template>
 
 <style scoped>
+.pb-1r {
+  padding-bottom: 1rem;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -446,20 +450,11 @@ onMounted(() => {
   width: 100%;
 }
 
-.mb-2r {
-  margin-bottom: 2rem;
-}
-
 .corner-left-img {
   display: flex;
   justify-content: flex-start;
   width: 100px;
   height: 100px;
-}
-
-.corner-1-50 {
-  width: 50px;
-  height: 50px;
 }
 
 .filter-reset-container {
@@ -477,7 +472,7 @@ onMounted(() => {
 }
 
 .font-filter-active {
-  font-family: var(--gc-font-family-george-rounded), sans-serif;
+  font-family: var(--gc-font-family-george-rounded);
   font-style: var(--gc-font-style-normal);
   font-weight: var(--gc-font-weight-bold);
   font-size: var(--gc-font-size-32);

@@ -66,7 +66,7 @@ const { data: nijdam } = await useAsyncData(
         <divider-red-arrow />
 
         <div class="row-2">
-          <div class="border-right">
+          <div class="border-right-green">
             <archive-box-with-image
               :category="feuchtenberger?.tag"
               :title="feuchtenberger?.title"
@@ -87,7 +87,7 @@ const { data: nijdam } = await useAsyncData(
         <divider b1 b2 t3 t4 b5 b6 />
 
         <div class="row-2">
-          <div class="border-left">
+          <div class="border-left-green">
             <archive-box-with-image
               :category="frahm?.tag"
               :title="frahm?.title"
@@ -95,7 +95,7 @@ const { data: nijdam } = await useAsyncData(
               :description="frahm?.body"
             />
           </div>
-          <div class="border-right">
+          <div class="border-right-green">
             <archive-box-with-image
               :category="nijdam?.tag"
               :title="nijdam?.title"
@@ -219,14 +219,6 @@ const { data: nijdam } = await useAsyncData(
   flex-direction: row;
   justify-content: center;
   gap: 20px;
-}
-
-.border-right {
-  border-right: solid 2px var(--gc-green);
-}
-
-.border-left {
-  border-left: solid 2px var(--gc-green);
 }
 
 .mt-0 {
