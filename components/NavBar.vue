@@ -1,6 +1,4 @@
 <script setup>
-import AboutPopupMenu from '~/components/AboutPopupMenu.vue'
-
 const { t } = useI18n({
   useScope: 'local',
 })
@@ -11,6 +9,17 @@ const featureStore = useFeatureStore()
 const isAboutMenuOpen = ref(false)
 const isDbMenuOpen = ref(false)
 const navbar = ref(null)
+
+const aboutMenuItems = computed(() => [
+  { to: '/about', label: t('about') },
+  { to: '/team', label: t('team') },
+  { to: '/collaborations', label: t('collaborations') },
+])
+
+const dbMenuItems = computed(() => [
+  { to: '/database', label: t('database') },
+  { to: '/glossary', label: t('glossary') },
+])
 
 const toggleAboutMenu = () => {
   isAboutMenuOpen.value = !isAboutMenuOpen.value
@@ -43,7 +52,7 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <nav class="navigation" ref="navbar">
+  <nav ref="navbar" class="navigation">
     <burger />
     <div v-if="navStore.isNavbarVisible" class="nav-bar">
       <nuxt-link-locale to="/"
@@ -55,13 +64,13 @@ onBeforeUnmount(() => {
       <div class="nav-links">
         <div>
           <div class="nav-link" @click="toggleAboutMenu">{{ t('about') }}</div>
-          <about-popup-menu v-model="isAboutMenuOpen" />
+          <popup-menu v-model="isAboutMenuOpen" :items="aboutMenuItems" />
         </div>
         <div>
           <div class="nav-link" @click="toggleDbMenu">
             {{ t('database') }}
           </div>
-          <db-popup-menu v-model="isDbMenuOpen" />
+          <popup-menu v-model="isDbMenuOpen" :items="dbMenuItems" />
         </div>
         <nuxt-link-locale to="/book" class="nav-link">{{
           t('book')
@@ -161,13 +170,19 @@ onBeforeUnmount(() => {
 <i18n lang="yaml">
 de:
   about: Über
+  team: Team
+  collaborations: Kooperationen
   database: Datenbank
+  glossary: Glossar
   book: Buch
   activities: Aktivitäten
   blog: Blog
 en:
   about: About
+  team: Team
+  collaborations: Collaborations
   database: Database
+  glossary: Glossary
   book: Book
   activities: Activities
   blog: Blog

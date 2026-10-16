@@ -1,10 +1,10 @@
 <script setup>
-
-const { t } = useI18n({
-  useScope: 'local',
+defineProps({
+  // [{ to: '/path', label: 'Text' }]
+  items: { type: Array, required: true },
 })
 
-const isMenuOpen = defineModel({ required: true, default: false })
+const isMenuOpen = defineModel({ type: Boolean, required: true, default: false })
 
 const closeMenu = () => {
   isMenuOpen.value = false
@@ -16,14 +16,9 @@ const closeMenu = () => {
     <img src="@/assets/images/arrow-gray-up-flat.svg" alt="" class="arrow" />
     <div class="popup-menu">
       <div class="popup-menu-list">
-        <div class="popup-menu-items">
-          <nuxt-link-locale to="/database" class="menu-item" @click="closeMenu">{{
-            t('database')
-          }}</nuxt-link-locale>
-        </div>
-        <div class="popup-menu-items">
-          <nuxt-link-locale to="/glossary" class="menu-item" @click="closeMenu">{{
-            t('glossary')
+        <div v-for="item in items" :key="item.to" class="popup-menu-items">
+          <nuxt-link-locale :to="item.to" class="menu-item" @click="closeMenu">{{
+            item.label
           }}</nuxt-link-locale>
         </div>
       </div>
@@ -85,12 +80,3 @@ const closeMenu = () => {
   transform: translateX(50%);
 }
 </style>
-
-<i18n lang="yaml">
-de:
-  database: Datenbank
-  glossary: Glossar
-en:
-  database: Database
-  glossary: Glossary
-</i18n>
