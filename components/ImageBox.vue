@@ -29,7 +29,7 @@ const imagePath = computed(() => {
 
 <template>
   <div class="container">
-    <div class="image-container border-right">
+    <div class="image-container border-right-green">
       <img :src="imagePath" alt="" :width="props.width" />
     </div>
     <div class="caption-container margin">
@@ -56,6 +56,7 @@ const imagePath = computed(() => {
 }
 
 .image-container {
+  padding-bottom: 45px;
   width: 100%;
   height: 100%;
   display: flex;
@@ -77,13 +78,6 @@ const imagePath = computed(() => {
 
 .margin {
   margin-top: 2px;
-}
-
-.border-right {
-  border-right-color: var(--gc-green);
-  border-right-width: 2px;
-  border-right-style: solid;
-  padding-bottom: 45px;
 }
 
 .mt-45 {

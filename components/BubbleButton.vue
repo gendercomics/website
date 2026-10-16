@@ -150,9 +150,4 @@ function toggleActive() {
 .toggle-button.active .circle {
   opacity: 1;
 }
-
-.pattern-background {
-  background-image: url('@/assets/images/pattern-background.png');
-  transition: background-color 0.3s ease;
-}
 </style>

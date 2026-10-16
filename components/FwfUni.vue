@@ -2,7 +2,7 @@
 
 <template>
   <div class="container-row">
-    <div class="w-50 border-left">
+    <div class="w-50 border-left-green">
       <div class="w-90">
         <div class="tag">Fördergeber</div>
         <div class="titel-kachel">FWF Der Wissenschaftsfonds</div>
@@ -33,11 +33,5 @@
 .container-row {
   display: flex;
   width: 100%;
-}
-
-.border-left {
-  border-left-color: var(--gc-green);
-  border-left-width: 2px;
-  border-left-style: solid;
 }
 </style>

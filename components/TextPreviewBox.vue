@@ -51,10 +51,6 @@ onMounted(() => {
   display: flex;
   flex-direction: column;
 }
-
-.mt-1rem {
-  margin-top: 1rem;
-}
 </style>
 
 <i18n lang="yaml">

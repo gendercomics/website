@@ -31,11 +31,11 @@ const { data: index } = await useAsyncData(`team-index-${locale.value}`, () => {
       </div>
 
       <div v-for="(member, i) in members" :key="member.path">
-        <div class="row" :class="{ 'border-left': i % 2 != 0 }">
+        <div class="row" :class="{ 'border-left-green': i % 2 != 0 }">
           <div class="w-50">
             <ImageBox
               v-if="i % 2 === 0"
-              class="border-right"
+              class="border-right-green image-box-edge"
               :img="member.image"
               width="60%"
               :caption="member.caption"
@@ -93,18 +93,11 @@ const { data: index } = await useAsyncData(`team-index-${locale.value}`, () => {
   font-weight: var(--gc-font-weight-600);
 }
 
-.border-right {
-  border-right: 2px solid var(--gc-green);
+/* overlap the neighbouring border; the bottom padding extends the border below
+   the caption, matching ImageBox's image area */
+.image-box-edge {
   margin-right: -1px;
-}
-
-.border-left {
-  border-left: 2px solid var(--gc-green);
-  margin-left: 0;
-}
-
-.mt-1rem {
-  margin-top: 1rem;
+  padding-bottom: 45px;
 }
 
 .mr-2 {
