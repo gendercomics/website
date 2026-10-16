@@ -44,7 +44,6 @@ function name(creator) {
         <img
           :src="imageUrl(comic.id, comic.cover)"
           alt="cover"
-          class="center"
           :class="{ rounded: comic.cover !== null }"
         />
       </div>
@@ -120,10 +119,6 @@ function name(creator) {
   line-height: var(--gc-line-spacing-25);
   letter-spacing: var(--gc-character-spacing-0-17);
   color: var(--gc-green-2);
-}
-
-.font-size-32 {
-  font-size: var(--gc-font-size-32);
 }
 
 .mb-3rem {

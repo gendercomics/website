@@ -77,7 +77,7 @@ function toggleActive() {
   padding: 5px;
   border: 2px solid var(--gc-gray);
   transition: background-color 0.3s ease;
-  background-color: white;
+  background-color: var(--white);
 }
 
 .button:hover {
@@ -105,15 +105,7 @@ function toggleActive() {
 }
 
 .label.active {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: var(--gc-font-family-outfit);
   color: var(--white);
-  font-weight: var(--gc-font-weight-600);
-  font-size: var(--gc-font-size-25);
-  line-height: var(--gc-line-spacing-25);
 }
 
 .arrow {

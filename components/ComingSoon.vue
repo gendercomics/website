@@ -8,7 +8,7 @@
           alt=""
           class="width-50px"
         />
-        <green-button text="Coming soon ..." class="btn-font"/>
+        <green-button text="Coming soon ..." />
         <img
           src="@/assets/images/arrow-green-down-flat.svg"
           alt=""
@@ -31,5 +31,4 @@
 .width-50px {
   width: 50px;
 }
-
 </style>

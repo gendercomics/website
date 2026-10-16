@@ -28,7 +28,7 @@ const availableLocales = computed(() => {
   border-radius: 50%;
   padding: 5px;
   transition: background-color 0.3s ease;
-  background-color: white;
+  background-color: var(--white);
 }
 
 .button-font {

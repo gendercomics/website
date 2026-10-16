@@ -59,9 +59,6 @@ const props = defineProps({
 </template>
 
 <style scoped>
-.cell-debug {
-  border: 1px solid black;
-}
 
 .row {
   display: flex;

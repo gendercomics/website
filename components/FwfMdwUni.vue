@@ -65,12 +65,6 @@ const { t } = useI18n({
 </template>
 
 <style scoped>
-.border-top-green {
-  border-top-color: var(--gc-green);
-  border-top-width: 2px;
-  border-top-style: solid;
-}
-
 .container {
   display: flex;
 }
@@ -98,10 +92,6 @@ const { t } = useI18n({
 
 .w-100px {
   width: 100px;
-}
-
-.mr--1 {
-  margin-right: -1px;
 }
 
 .pb-75 {

@@ -39,10 +39,6 @@ const { t } = useI18n({
   display: flex;
   flex-direction: column;
 }
-
-.a strong {
-  font-weight: var(--gc-font-weight-600);
-}
 </style>
 
 <i18n lang="yaml">

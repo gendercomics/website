@@ -89,10 +89,6 @@ const { data: index } = await useAsyncData(`team-index-${locale.value}`, () => {
   flex-direction: row;
 }
 
-.a strong {
-  font-weight: var(--gc-font-weight-600);
-}
-
 /* overlap the neighbouring border; the bottom padding extends the border below
    the caption, matching ImageBox's image area */
 .image-box-edge {

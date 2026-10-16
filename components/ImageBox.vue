@@ -79,8 +79,4 @@ const imagePath = computed(() => {
 .margin {
   margin-top: 2px;
 }
-
-.mt-45 {
-  margin-top: 45px;
-}
 </style>

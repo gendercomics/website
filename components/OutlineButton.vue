@@ -59,7 +59,7 @@ const hasLink = computed(() => {
 }
 
 .outline-button:hover {
-  background-color: white;
+  background-color: var(--white);
   box-shadow: 0 0 40px 0 var(--gc-green);
 }
 

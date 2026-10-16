@@ -450,20 +450,11 @@ onMounted(() => {
   width: 100%;
 }
 
-.mb-2r {
-  margin-bottom: 2rem;
-}
-
 .corner-left-img {
   display: flex;
   justify-content: flex-start;
   width: 100px;
   height: 100px;
-}
-
-.corner-1-50 {
-  width: 50px;
-  height: 50px;
 }
 
 .filter-reset-container {
